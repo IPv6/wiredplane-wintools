@@ -1,0 +1,16 @@
+del *.obj /S
+del *.ncb /S
+del *.opt /S
+del *.sbr /S
+del *.pch /S
+del *.pdb /S
+del *.ilk /S
+del *.exp /S
+del *.bsc /S
+del *.idb /S
+del *.log /S
+del *.scc /S
+del *.aps /S
+del *.suo /S
+del *.bak /S
+del revision.info /S

@@ -1,0 +1,1 @@
+wpbackup -r -f=. -e=@_Zextens.bat -x=@_Zexcudes.bat 
