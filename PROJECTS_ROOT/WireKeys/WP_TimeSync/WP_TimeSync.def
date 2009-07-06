@@ -1,0 +1,17 @@
+; WP_TimeSync.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_TimeSync"
+DESCRIPTION  'WireKeys Spell checker plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+

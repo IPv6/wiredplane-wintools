@@ -1,0 +1,114 @@
+$=<TITLE:MSN Weather>$=<SHOWINTRAY:BEYE_ROOT>$=<CATEG:Useful controls>
+$=<DESCRIPTION:
+Fresh weather forecast from weather.msn.com
+>
+tray-transparency{CLN_OPACITY}
+tray-position{OC:(1),X:(BEYE_XPOS),Y:(BEYE_YPOS),W:(BEYE_WIDTH),H:(BEYE_HEIGHT)}
+$=<RENDER:ActiveDesktop>$=<HINTS:RENDER-LAYER=(BG-1),ONLINE-STATE=(MUSTBE),SCROLLBARS>
+$=<PARDEF:BEYE_ROOT>$=<PARDSC:BEYE_ROOT=MSN Weather options>$=<PARTYP:BEYE_ROOT=root>
+
+$=<PARDEF:WEATHERNUM=wc:RSXX0063>$=<PARDSC:WEATHERNUM=City code (you can find it on 'http://weather.msn.com/')>$=<PARTYP:WEATHERNUM=string>$=<PARDET:WEATHERNUM=To find code follow link below, locate your city and look at the URL. You will see something like http://weather.msn.com/local.aspx?wealocations=XXXXX. XXXXX is your city code>
+$=<PARDEF:WEATHERSITE>$=<PARDSC:WEATHERSITE=Visit http://weather.msn.com/ to find city code>$=<PARACTION:WEATHERSITE=http://weather.msn.com//>$=<PARTYP:WEATHERSITE=action>
+$=<PARDEF:SRC_TYPE=0>$=<PARDSC:SRC_TYPE=Units type>$=<PARTYP:SRC_TYPE=list>$=<PARLST:SRC_TYPE=Fahrenheit,Celsius>
+$=<PARDEF:INFO_TYPE=0>$=<PARDSC:INFO_TYPE=What to show>$=<PARTYP:INFO_TYPE=list>$=<PARLST:INFO_TYPE=Current conditions and Forecast,Forecast,Current conditions>
+
+$=<PARDEF:CLN_FG=#000000>$=<PARDSC:CLN_FG=Text color>$=<PARTYP:CLN_FG=color>
+$=<PARDEF:CLN_BG=#FFFFFF>$=<PARDSC:CLN_BG=Background color>$=<PARTYP:CLN_BG=color>
+$=<PARDEF:CLN_OPACITY=70>$=<PARDSC:CLN_OPACITY=Opacity (percents)>$=<PARTYP:CLN_OPACITY=slider>$=<PARMIN:CLN_OPACITY=10>$=<PARMAX:CLN_OPACITY=100>
+$=<PARDEF:BEYE_SPOS>$=<PARDSC:BEYE_SPOS=Set position>$=<PARPAR:BEYE_SPOS=BEYE_ROOT>$=<PARTYP:BEYE_SPOS=set_position>$=<PARACTION:BEYE_SPOS=OC:(1),X:(BEYE_XPOS),Y:(BEYE_YPOS),W:(BEYE_WIDTH),H:(BEYE_HEIGHT)/>
+$=<PARDEF:BEYE_XPOS=225>$=<PARDSC:BEYE_XPOS=X Position (pixels)>$=<PARTYP:BEYE_XPOS=number>$=<PARMIN:BEYE_XPOS=0>$=<PARMAX:BEYE_XPOS={screenX}>$=<PAROC:BEYE_XPOS=1>$=<PARPAR:BEYE_XPOS=BEYE_SPOS>
+$=<PARDEF:BEYE_YPOS=5>$=<PARDSC:BEYE_YPOS=Y Position (pixels)>$=<PARTYP:BEYE_YPOS=number>$=<PARMIN:BEYE_YPOS=0>$=<PARMAX:BEYE_YPOS={screenY}>$=<PAROC:BEYE_YPOS=1>$=<PARPAR:BEYE_YPOS=BEYE_SPOS>
+$=<PARDEF:BEYE_WIDTH=250>$=<PARDSC:BEYE_WIDTH=Width (pixels)>$=<PARTYP:BEYE_WIDTH=number>$=<PARMIN:BEYE_WIDTH=20>$=<PARMAX:BEYE_WIDTH={screenX}>$=<PAROC:BEYE_WIDTH=1>$=<PARPAR:BEYE_WIDTH=BEYE_SPOS>
+$=<PARDEF:BEYE_HEIGHT=220>$=<PARDSC:BEYE_HEIGHT=Height (pixels)>$=<PARTYP:BEYE_HEIGHT=number>$=<PARMIN:BEYE_WIDTH=20>$=<PARMAX:BEYE_HEIGHT={screenY}>$=<PAROC:BEYE_HEIGHT=1>$=<PARPAR:BEYE_HEIGHT=BEYE_SPOS>
+
+{wp:body}
+
+<iframe id="Weathercontent{wpt_id}"
+	HSPACE=1
+	VSPACE=1
+	MARGINHEIGHT=1
+	MARGINWIDTH=1
+	allowTransparency="true"
+	style="
+	$=<IF:$=<PAR:BEYE_MINI>==1?
+	display:none;
+	/IF>
+	border:1;
+	border-style:solid;
+	border-color:$=<PAR:CLN_TG>;
+	position:absolute;
+	z-index:50;
+	background-color: $=<PAR:CLN_BG>;
+	$=<IF:$=<PAR:CLN_OPACITY>!=100? z-index: 80; filter:Alpha(opacity=$=<PAR:CLN_OPACITY>);/IF>
+	top:$=<PAR:BEYE_YPOS>px;
+	left:$=<PAR:BEYE_XPOS>px;
+	height:$=<PAR:BEYE_HEIGHT>px;
+	width:$=<PAR:BEYE_WIDTH>px;"
+>
+</iframe>
+<script language="JavaScript">
+function loadXML{wpt_id}(url, handler) {
+
+    if (document.implementation && document.implementation.createDocument) {
+        var xmldoc = document.implementation.createDocument("", "", null);
+        xmldoc.onload = function(  ) { handler(xmldoc); }
+        xmldoc.load(url);
+    } else if (window.ActiveXObject) { 
+        var xmldoc = new ActiveXObject("Microsoft.XMLDOM");   
+        xmldoc.onreadystatechange = function(  ) {            
+            if (xmldoc.readyState == 4) handler(xmldoc);
+    	}
+	    xmldoc.load(url);                                  
+    }
+}
+
+function formatWeather{wpt_id}(xmldoc) {
+	var desc="";
+	var descriptions=xmldoc.getElementsByTagName("description");
+	if(descriptions.length>0)
+	{
+		{wp:if condition{{INFO_TYPE}=0.or.{INFO_TYPE}=1} then{
+			desc+=xmldoc.getElementsByTagName("description")[2].firstChild.nodeValue;
+		}/}
+		{wp:if condition{{INFO_TYPE}=0.or.{INFO_TYPE}=2} then{
+			if(desc!=""){
+				desc+="<hr>";
+			}
+			desc+=xmldoc.getElementsByTagName("description")[1].firstChild.nodeValue;
+		}/}
+		if(desc==""){
+			desc="{wp:translate(comm,WebSiteNotFound)}";
+		}
+		desc=desc.replace(/\"/ig,"'");
+		desc=desc.replace(/<a href/ig,"<a target=_blank href");
+		desc=desc.replace(/<img/ig,"<br><img");
+		desc=desc.replace(/<p>/ig,"");
+		desc=desc.replace(/<\/p>/ig,"<br>");
+		desc=desc.replace(/\n\t/ig,"<br>");
+	}
+	var strNewsReel = '<ht'+'ml><he'+'ad><me'+'ta http-equiv="Content-Type" content="text/html;  $=<TEXTLINE(comm_l{lang}.txt,CODEPAGE=)>;">';
+	strNewsReel = strNewsReel + '<link rel="stylesheet" href="http://st.msn.com/as/wea3/css/weather4.css" TYPE="text/css">';
+	strNewsReel = strNewsReel + '</he'+'ad><bo'+'dy style="width:100%; height:100%; background-color: $=<PAR:CLN_BG>;" >';
+	strNewsReel = strNewsReel + '<span style="width:100%; height:100%; background-color: $=<PAR:CLN_BG>; color: $=<PAR:CLN_FG>;">';
+	strNewsReel = strNewsReel + '<span style="margin: 5px;">';
+	strNewsReel = strNewsReel + desc;
+	strNewsReel = strNewsReel + '</span>';
+	strNewsReel = strNewsReel + '</span>';
+	strNewsReel = strNewsReel + '</bo'+'dy></ht'+'ml>';
+	document.frames("Weathercontent{wpt_id}").document.open();
+	document.frames("Weathercontent{wpt_id}").document.write(strNewsReel);
+	document.frames("Weathercontent{wpt_id}").document.close();
+
+}
+
+function reload{wpt_id}()
+{
+	document.frames("Weathercontent{wpt_id}").document.open();
+	document.frames("Weathercontent{wpt_id}").document.write('<ht'+'ml>'+'<he'+'ad><me'+'ta http-equiv="Content-Type" content="text/html; $=<TEXTLINE(comm_l{lang}.txt,CODEPAGE=)>;"></he'+'ad>'+'<bo'+'dy'+"<div align=center valign=top style='font-size:10px;font-family:verdana, arial, helvetica, sans-serif;'>$=<TEXTLINE(comm_l{lang}.txt,Loading=)>...</div>"+'</bo'+'dy></ht'+'ml>');
+	document.frames("Weathercontent{wpt_id}").document.close();
+	loadXML{wpt_id}("http://weather.msn.com/RSS.aspx?weadegreetype=$=<IF:$=<PAR:SRC_TYPE>==1?C/IF>$=<IF:$=<PAR:SRC_TYPE>==0?F/IF>&wealocations=$=<PAR:WEATHERNUM>",formatWeather{wpt_id});
+}
+
+reload{wpt_id}();
+</script>
+{/wp:body}

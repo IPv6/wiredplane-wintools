@@ -1,0 +1,233 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;  $=<TEXTLINE(comm_l{lang}.txt,CODEPAGE=)>">
+
+<title>{wp:translate(comm,WPE_Title)}</title>
+<!-- FORMTITLE={wp:translate(comm,WPE_Title)}-->
+<!-- FORMMENU=ALL-->
+</head>
+<body bgcolor="{window_bitmap_color}">
+<script language="JavaScript">
+
+var bInProgress=0;
+var lastBgChanged="";
+var lastExhangedFile="";
+
+function getImageSize( id) {
+	var imSize = { 'width':0,'height':0};
+	try{
+		var oHlpr = document.createElement( 'IMG');
+		var oPic = document.getElementById( id);
+		oHlpr.style.visibility = 'hidden';
+		oHlpr.style.position = 'absolute';
+		oHlpr.top = 0; oHlpr.left = 0;
+		oHlpr.src = oPic.src;
+		document.body.appendChild( oHlpr);
+		imSize.width=oHlpr.offsetWidth;
+		imSize.height=oHlpr.offsetHeight;
+		document.body.removeChild( oHlpr);
+	}catch(e){
+	}
+    return imSize;
+}
+
+var timerValue=0;
+function UpdateTimer()
+{
+	if(document.all){
+			document.all['H2_Instructions'].innerHTML='{wp:translate(comm,WPE_UploadStarted)}<br>{wp:translate(comm,WPE_SElapsed)}: '+timerValue;
+			timerValue++;
+		}
+}
+
+function CheckSubmit()
+{
+	ThisForm=document.forms['upform'];
+	if (bInProgress!=0){
+		alert('{wp:translate(comm,WPE_InProgress)}.');
+		return false;
+	}
+	
+	var is = getImageSize('lf_preview');
+	if(is.width<1000 || is.height<700){
+		alert( '['+is.width + 'x' + is.height+'] {wp:translate(comm,WPE_WrongImage)}');
+		return false;
+	}
+	
+	if (ThisForm.contrib.value.length<4 ){
+		alert('{wp:translate(comm,WPE_EnterName)}.');
+		ThisForm.contrib.focus();
+		return false;
+	}
+	var userFile=ThisForm.userfile.value;
+	if (userFile == ""){
+		alert('{wp:translate(comm,WPE_EnterIPath)}.');
+		ThisForm.userfile.focus();
+		return false;
+	}
+	lastExhangedFile=userFile;
+	var bRes=confirm('{wp:translate(comm,WPE_Confirm)}.');
+	if(bRes){
+		bInProgress=1;
+		setInterval("UpdateTimer()",1000);
+		return true;
+	}
+	return false;
+}
+
+function setOutImage(srcOut)
+{
+		ThisForm=document.forms['upform'];
+		ThisForm.img.value=srcOut;
+		alert("Target set to "+ThisForm.img.value);
+}
+
+function setImageDimensions()
+{
+	var is = getImageSize('lf_preview');
+	document.all['image_size'].innerText="";
+	if(is.width>100 && is.height>100){
+		document.all['image_size'].innerText=is.width + 'x' + is.height;
+	}
+}
+
+function setPreview()
+{
+	ThisForm=document.forms['upform'];
+	var newPath=ThisForm.userfile.value;
+	document.images['lf_preview'].src='file:///'+newPath;
+	setTimeout("setImageDimensions()",1000);
+}
+</script>
+
+<div align=center width=100%>
+<form action='$=<DECLARE_URL(http://www.wiredplane.com/cgi-bin/wp_engine.php?target=wcexchange&who={prog_id},http://outer-station.m6.net/cgi-bin/thumbview.php)>'
+	name='upform' id='upform' method=post enctype='multipart/form-data' onsubmit='CheckSubmit();'
+>
+<input type=hidden	name='action' value='upload'>
+<input type=hidden	name='hash' value='none'>
+<input type=hidden	name='img' value='image{rnd(1,10)}'>
+<input type=hidden name='who' value='{prog_id}'><center>
+
+<table border='0' cellspacing='1' cellpadding='1' width='100%' height='100%'>
+<tr><td width=50%>
+	<table border='0' cellspacing='1' cellpadding='1' width='100%' height='100%' bgcolor=black>
+	<tr><td>
+	<table border='0' cellspacing='2' cellpadding='2' width='100%' height='100%' bgcolor=white>
+	<tr><td align=center valign=top>
+		<div id="SEND_DATA" name="SEND_DATA" class="snapsNotes">
+		<font size=+2>{wp:translate(comm,WPE_Title)}</font>
+		<hr><br><br>
+		<table border='0' cellspacing='0' cellpadding='0'>
+		<tr>
+		<td colspan=3 align=center>
+		<table border=0 cellspacing=4 bgcolor="#CCCCCC" ><tr><td align=center vailgn=center>
+		<span style="float: right;">&nbsp;<img src="$=<BASEPATH>\images\browseimg.jpg" width=140 name="lf_preview" id="lf_preview" border=1>&nbsp;<br><font size=-1><div id="image_size" style="text-align: center;">&nbsp;</div></font></span>
+		<div id="H2_Instructions" name="H2_Instructions">
+		{wp:if condition{{form_add_param}==0} }
+		{wp:then}
+			{wp:translate(comm,WPE_Instructions)}
+		{/wp:then}
+		{wp:else}
+			<input type=hidden	name=contest value='yes'>
+			{wp:translate(comm,WPE_InstructionsContest)}.<br><br><br>{wp:translate(comm,WPE_OrBuyNow)}
+		{/wp:else}
+		{/wp:if}
+		</div>
+		</td></tr></table>
+		</td>
+		</tr>
+		<tr>
+		<td colspan=2>&nbsp;</td>
+		</tr>
+		<tr>
+		<td align=right width=30%><b>{wp:translate(comm,WPE_YName)}</b>&nbsp;:</td><td><input type=text name=contrib size=30>&nbsp;</td>
+		</tr>
+		<td align=right width=30%><b>{wp:translate(comm,WPE_ITitle)}</b>&nbsp;:</td><td><input type=text name=title size=30>&nbsp;</td>
+		</tr>
+		<tr>
+		<td align=right width=30%>{wp:translate(comm,WPE_Comms)}:&nbsp;</td><td><input type=text name=comments size=30>&nbsp;</td>
+		</tr>
+		<tr>
+		<td align=right  width=30%><b>{wp:translate(comm,WPE_IFile)}</b>&nbsp;:</td><td><input type=file size=30 name="userfile" value="" onChange="setPreview();"></td>
+		</tr>
+		<tr>
+		<td align=center colspan=3><font size="-1">{wp:translate(comm,WPE_Note)}</font></td>
+		</tr>
+		<tr>
+		<td colspan=2 align=center>
+		<hr><input id='sendimg' name='sendimg' type='button' value='{wp:translate(comm,WPE_Button)}' onClick="if(CheckSubmit()) {submit();}">
+		</td>
+		</tr>
+		</table>
+		</div>
+	</td></tr>
+	</table>
+	</td></tr>
+	</table>
+<td width=50%>
+	<table border='0' cellspacing='1' cellpadding='1' width='100%' height='100%' bgcolor=black>
+	<tr><td>
+	<table border='0' cellspacing='2' cellpadding='0' width='100%' height='100%' bgcolor=white>
+	<tr><td align=center>
+	<table border='0' cellspacing='2' cellpadding='0' width='50%' height='50%' bgcolor=white>
+	<tr align=center>
+	<td colspan=4>
+	<font size=-1>{wp:translate(comm,WPE_RecentImages)}</font>
+	</td></tr>
+	<tr align=center valign=top>
+	<td align=left>&nbsp;
+	<td align=left><a href='http://outer-station.m6.net/cgi-bin/thumbview.php?action=fullv&image=image1&randseed={nocache}' target='_blank'><img name='img_image7' src='http://outer-station.m6.net/cgi-bin/thumbview.php?action=thumb&image=image1&randseed={nocache}' border=1 width=140 height=105></a><a onClick="setOutImage('image1');">&nbsp;</a></td>
+	<td align=left><a href='http://outer-station.m6.net/cgi-bin/thumbview.php?action=fullv&image=image2&randseed={nocache}' target='_blank'><img name='img_image7' src='http://outer-station.m6.net/cgi-bin/thumbview.php?action=thumb&image=image2&randseed={nocache}' border=1 width=140 height=105></a><a onClick="setOutImage('image2');">&nbsp;</a></td>
+	<td align=left><a href='http://outer-station.m6.net/cgi-bin/thumbview.php?action=fullv&image=image3&randseed={nocache}' target='_blank'><img name='img_image7' src='http://outer-station.m6.net/cgi-bin/thumbview.php?action=thumb&image=image3&randseed={nocache}' border=1 width=140 height=105></a><a onClick="setOutImage('image3');">&nbsp;</a></td>
+	</tr><tr align=center valign=top>
+	<td align=left>&nbsp;
+	<td align=left><a href='http://outer-station.m6.net/cgi-bin/thumbview.php?action=fullv&image=image4&randseed={nocache}' target='_blank'><img name='img_image7' src='http://outer-station.m6.net/cgi-bin/thumbview.php?action=thumb&image=image4&randseed={nocache}' border=1 width=140 height=105></a><a onClick="setOutImage('image4');">&nbsp;</a></td>
+	<td align=left><a href='http://outer-station.m6.net/cgi-bin/thumbview.php?action=fullv&image=image5&randseed={nocache}' target='_blank'><img name='img_image7' src='http://outer-station.m6.net/cgi-bin/thumbview.php?action=thumb&image=image5&randseed={nocache}' border=1 width=140 height=105></a><a onClick="setOutImage('image5');">&nbsp;</a></td>
+	<td align=left><a href='http://outer-station.m6.net/cgi-bin/thumbview.php?action=fullv&image=image6&randseed={nocache}' target='_blank'><img name='img_image7' src='http://outer-station.m6.net/cgi-bin/thumbview.php?action=thumb&image=image6&randseed={nocache}' border=1 width=140 height=105></a><a onClick="setOutImage('image6');">&nbsp;</a></td>
+	</tr><tr align=center valign=top>
+	<td align=left>&nbsp;
+	<td align=left><a href='http://outer-station.m6.net/cgi-bin/thumbview.php?action=fullv&image=image7&randseed={nocache}' target='_blank'><img name='img_image7' src='http://outer-station.m6.net/cgi-bin/thumbview.php?action=thumb&image=image7&randseed={nocache}' border=1 width=140 height=105></a><a onClick="setOutImage('image7');">&nbsp;</a></td>
+	<td align=left><a href='http://outer-station.m6.net/cgi-bin/thumbview.php?action=fullv&image=image8&randseed={nocache}' target='_blank'><img name='img_image7' src='http://outer-station.m6.net/cgi-bin/thumbview.php?action=thumb&image=image8&randseed={nocache}' border=1 width=140 height=105></a><a onClick="setOutImage('image8');">&nbsp;</a></td>
+	<td align=left><a href='http://outer-station.m6.net/cgi-bin/thumbview.php?action=fullv&image=image9&randseed={nocache}' target='_blank'><img name='img_image7' src='http://outer-station.m6.net/cgi-bin/thumbview.php?action=thumb&image=image9&randseed={nocache}' border=1 width=140 height=105></a><a onClick="setOutImage('image9');">&nbsp;</a></td>
+	</tr><tr align=center valign=top>
+	<td align=left>&nbsp;
+	<td align=left><a href='http://outer-station.m6.net/cgi-bin/thumbview.php?action=fullv&image=image10&randseed={nocache}' target='_blank'><img name='img_image7' src='http://outer-station.m6.net/cgi-bin/thumbview.php?action=thumb&image=image10&randseed={nocache}' border=0 width=140 height=105></a><a onClick="setOutImage('image10');">&nbsp;</a></td>
+	<td colspan=2 align=left valign=top>
+	<table border=0 cellspacing=0 cellpadding=1>
+	<tr>
+	<td><a href="http://outer-station.m6.net/index.php?album=3" target='_blank'><img border=1 width=68 height=46 src="http://outer-station.m6.net/index.php?album=3&image=rnd&w=80&h=60"></a>
+	<td><a href="http://outer-station.m6.net/index.php?album=2" target='_blank'><img border=1 width=68 height=46 src="http://outer-station.m6.net/index.php?album=2&image=rnd&w=80&h=60"></a>
+	<td><a href="http://outer-station.m6.net/index.php?album=4" target='_blank'><img border=1 width=68 height=46 src="http://outer-station.m6.net/index.php?album=4&image=rnd&w=80&h=60"></a>
+	<td><a href="http://outer-station.m6.net/index.php?album=5" target='_blank'><img border=1 width=68 height=46 src="http://outer-station.m6.net/index.php?album=5&image=rnd&w=80&h=60"></a>
+<tr>
+	<td><a href="http://outer-station.m6.net/index.php?album=6" target='_blank'><img border=1 width=68 height=46 src="http://outer-station.m6.net/index.php?album=6&image=rnd&w=80&h=60"></a>
+	<td><a href="http://outer-station.m6.net/index.php?album=7" target='_blank'><img border=1 width=68 height=46 src="http://outer-station.m6.net/index.php?album=7&image=rnd&w=80&h=60"></a>
+	<td><a href="http://outer-station.m6.net/index.php?album=8" target='_blank'><img border=1 width=68 height=46 src="http://outer-station.m6.net/index.php?album=8&image=rnd&w=80&h=60"></a>
+	<td><a href="http://outer-station.m6.net/index.php?album=9" target='_blank'><img border=1 width=68 height=46 src="http://outer-station.m6.net/index.php?album=9&image=rnd&w=80&h=60"></a>
+	</table>
+	<a href="http://outer-station.m6.net/" target='_blank'>{wp:translate(comm,WPE_OSDesc)}</a>
+	</a>
+	</div>
+	</td>
+	</tr>
+	</table>
+	</td></tr>
+	<tr align=center>
+	<td colspan=4 valign=bottom>
+	<font size=-1>{wp:translate(comm,WPE_Feedback)}</font>
+	</td></tr>
+	</table>
+	</td></tr>
+	</table>
+</td></tr>
+</table>
+</form>
+</div>
+<script language="JavaScript">
+if("$=<TEST_URL(http://www.wiredplane.com/)>"!="true"){
+	alert('{wp:translate(comm,WPE_NoConnection)}');
+}
+</script>
+</body>
+</html>

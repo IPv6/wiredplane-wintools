@@ -1,0 +1,17 @@
+; WP_TextScr.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_TextScr"
+DESCRIPTION  'WireKeys 2Text plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+;WKPluginPause
+WKPluginStart
+WKPluginStop
+WKGetPluginContainer
+

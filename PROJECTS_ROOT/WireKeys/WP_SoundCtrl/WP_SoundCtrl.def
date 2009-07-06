@@ -1,0 +1,18 @@
+; WP_SoundCtrl.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_SoundCtrl"
+DESCRIPTION  'WireKeys Sound Master plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+;WKPluginPause
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+

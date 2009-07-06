@@ -1,0 +1,28 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Другие программы</h1><hr>
+<table border=0>
+<tr>
+<td><a href="http://www.wiredplane.com/wirekeys/info.shtml?who=WireChanger"><img src="wk.gif" border=0><br></a>
+<td valign="top">WireKeys Full<hr> - Системная утилита, помогающая Вам работать в Windows. Горячие клавиши ориентированы на пункты обширного контекстного меню значка в трее. Особенности: дополнительный буфер обмена, создание скриншота, запрет выполнения ненужных задач, сворачивание любого окна в трей и т.д. На каждое действие можно назначить горячую клавишу. Клавиша &lt;WINDOWS&gt; и мультимедийные клавиатуры поддерживаются.
+</tr>
+<tr>
+<td><a href="http://www.wiredplane.com/wirenote/info.shtml?who=WireChanger"><img src="wn.gif" border=0></a> 
+<td valign="top">WireNote<hr> - Менеджер информации (список &quot;ToDo&quot; (сделать!), напоминания и &quot;приклеивающиеся&quot; заметки (которые &quot;прилепляются&quot; к любому окну)) с высококачественной поддержкой LAN-messaging'а (получение/отправление файлов, фильтрация сообщений). Программа создана, чтобы помочь в организации повседневной работы. Оболочка программы имеет интуитивно понятный интерфейс.
+</tr>
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

@@ -1,0 +1,17 @@
+LIBRARY      "WKasLINUXalt"
+DESCRIPTION  'WireKeys asLINUXalt plugin by vint'
+
+EXPORTS
+	WKGetPluginFunctionCommonDesc
+	WKCallPluginFunction
+	WKGetPluginFunctionActualDesc
+	GetPluginDsc
+	WKPluginStart
+	WKPluginInit
+	WKPluginStop
+	;WKPluginPause
+	WKPluginOptions
+	WKPluginOptionsManager
+	WKGetPluginContainer
+	DllMain
+	WKGetPluginFunctionHints

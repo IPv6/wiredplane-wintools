@@ -1,0 +1,96 @@
+$=<TITLE:Calendar>$=<SHOWINTRAY:PARAM_ROOT,!DAYNDESC_ED,!RDAYDESC_ED,!BIRCDESC_ED>$=<CATEG:Calendars>
+$=<DESCRIPTION:
+Month calendar with clickable cells.
+Double click cell to enter memo for that day,
+Double-click calendar title to popup 4-months calendar
+>
+tray-transparency{CLN_OPACITY}
+tray-position{OC:(1),X:(CLN_XPOS),Y:(CLN_YPOS),W:(CLN_WIDTH),H:(CLN_HEIGHT)}
+$=<RENDER:EasyDraw.dll>$=<HINTS:RENDER-LAYER=(FG),ONLINE-STATE=(DONTCARE),WIN98WARN=(Please note: Some features are not supported on Win98/WinME),REFRESH-ON-NEW-DAY,CONTAIN-CONFIDENTIAL-INFO>
+$=<PARDEF:PARAM_ROOT>$=<PARDSC:PARAM_ROOT=Calendar options>$=<PARTYP:PARAM_ROOT=root>
+$=<PARDEF:CLN_TYPE=1>$=<PARDSC:CLN_TYPE=Calendar type>$=<PARTYP:CLN_TYPE=list>$=<PARLST:CLN_TYPE=One week,Two weeks,One month,Two months>
+$=<PARDEF:CLN_SKIN=2>$=<PARDSC:CLN_SKIN=Calendar skin>$=<PARTYP:CLN_SKIN=dirlist>$=<PARLST:CLN_SKIN=$=<BASEPATH>/Calendar/*.def>
+$=<PARDEF:FIRSTDAY=0>$=<PARDSC:FIRSTDAY=Start week from>$=<PARTYP:FIRSTDAY=list>$=<PARLST:FIRSTDAY=Monday,Sunday,Yesterday>
+$=<PARDEF:MONOFFSET=0>$=<PARDSC:MONOFFSET=Month to start from>$=<PARTYP:MONOFFSET=list>$=<PARLST:MONOFFSET=Current,Next>
+$=<PARDEF:CLN_INTERACT=1>$=<PARDSC:CLN_INTERACT=Edit note on double-clicking calendar cell>$=<PARTYP:CLN_INTERACT=bool>
+
+$=<PARDEF:CALENTITLE>$=<PARDSC:CALENTITLE=Calendar size, color and position>$=<PARTYP:CALENTITLE=tip>
+$=<PARDEF:CLN_FG=#FFFFFF>$=<PARDSC:CLN_FG=Text color>$=<PARTYP:CLN_FG=color>
+$=<PARDEF:CLN_BG=#C0C0C0>$=<PARDSC:CLN_BG=Cell background color>$=<PARTYP:CLN_BG=color>
+$=<PARDEF:CLN_TBG=#404040>$=<PARDSC:CLN_TBG=Today background color>$=<PARTYP:CLN_TBG=color>
+$=<PARDEF:CLN_HL=#808080>$=<PARDSC:CLN_HL=Weekend color>$=<PARTYP:CLN_HL=color>
+$=<PARDEF:CLN_CB=#808080>$=<PARDSC:CLN_CB=Holidays color>$=<PARTYP:CLN_CB=color>
+$=<PARDEF:CLN_FS=[fontname]Arial[/fontname][size value="-11"/][weight value="400"/]>$=<PARDSC:CLN_FS=Text font>$=<PARTYP:CLN_FS=font>
+$=<PARDEF:CLN_FST=[fontname]Tahoma[/fontname][size value="-20"/][weight value="800"/]>$=<PARDSC:CLN_FST=Title font>$=<PARTYP:CLN_FST=font>
+$=<PARDEF:CLN_FSTS=[fontname]Tahoma[/fontname][size value="-11"/][weight value="400"/]>$=<PARDSC:CLN_FSTS=Subtitle font>$=<PARTYP:CLN_FSTS=font>
+$=<PARDEF:CLN_FSDN=[fontname]Tahoma[/fontname][size value="-13"/][weight value="400"/]>$=<PARDSC:CLN_FSDN=Name of the day font>$=<PARTYP:CLN_FSDN=font>
+$=<PARDEF:CLN_OPACITY=50>$=<PARDSC:CLN_OPACITY=Calendar opacity (percents)>$=<PARTYP:CLN_OPACITY=slider>$=<PARMIN:CLN_OPACITY=10>$=<PARMAX:CLN_OPACITY=100>
+
+$=<PARDEF:DAYDESC_ROOT>$=<PARDSC:DAYDESC_ROOT=Notes, Birthdays and Holidays>$=<PARTYP:DAYDESC_ROOT=tip>
+$=<PARDEF:CLN_NOTES=1>$=<PARDSC:CLN_NOTES=Show day-by-day notes>$=<PARTYP:CLN_NOTES=bool>
+$=<PARDEF:DAYNDESC_ED>$=<PARDSC:DAYNDESC_ED=Edit day-by-day notes>$=<PARACTION:DAYNDESC_ED=Edit[Pickers.dll:EditNote;Profile:daydesc_l{lang}.txt]/>$=<PARTYP:DAYNDESC_ED=action>
+$=<PARDEF:HOLDSC=1>$=<PARDSC:HOLDSC=Show holidays in cells>$=<PARTYP:HOLDSC=bool>
+$=<PARDEF:RDAYDESC_ED>$=<PARDSC:RDAYDESC_ED=Edit holidays descriptions>$=<PARACTION:RDAYDESC_ED=Edit[Pickers.dll:EditRHoliday;Profile:dates_l{lang}.txt]/>$=<PARTYP:RDAYDESC_ED=action>
+$=<PARDEF:BIRTHDAYS=0>$=<PARDSC:BIRTHDAYS=Show annual events in subtitle>$=<PARTYP:BIRTHDAYS=bool>
+$=<PARDEF:DAYDESC_ED>$=<PARDSC:DAYDESC_ED=Edit annual events>$=<PARACTION:DAYDESC_ED=Edit[Pickers.dll:EditHoliday;Profile:dates_l{lang}.txt]/>$=<PARTYP:DAYDESC_ED=action>
+$=<PARDEF:BIRDESC_ED>$=<PARDSC:BIRDESC_ED=Edit birthdays of famous people>$=<PARACTION:BIRDESC_ED=Edit[Pickers.dll:EditHoliday;Profile:birth_l{lang}.txt]/>$=<PARTYP:BIRDESC_ED=action>
+$=<PARDEF:BIRTHDC=1>$=<PARDSC:BIRTHDC=Show birthdays and local holidays in cells>$=<PARTYP:BIRTHDC=bool>
+$=<PARDEF:BIRCDESC_ED>$=<PARDSC:BIRCDESC_ED=Edit birthdays and local holidays>$=<PARACTION:BIRCDESC_ED=Edit[Pickers.dll:EditHoliday;Profile:birthdesc.txt]/>$=<PARTYP:BIRCDESC_ED=action>
+
+
+$=<PARDEF:CLN_SPOS>$=<PARDSC:CLN_SPOS=Set calendar position>$=<PARTYP:CLN_SPOS=set_position>$=<PARACTION:CLN_SPOS=OC:(1),X:(CLN_XPOS),Y:(CLN_YPOS),W:(CLN_WIDTH),H:(CLN_HEIGHT)/>
+$=<PARDEF:CLN_XPOS=10>$=<PARDSC:CLN_XPOS=X Position (pixels)>$=<PARTYP:CLN_XPOS=number>$=<PARMIN:CLN_XPOS=0>$=<PARMAX:CLN_XPOS={screenX}>$=<PAROC:CLN_XPOS=1>$=<PARPAR:CLN_XPOS=CLN_SPOS>
+$=<PARDEF:CLN_YPOS=$=<INTEXPR({screen-ntb-bottom}-220)>>$=<PARDSC:CLN_YPOS=Y Position (pixels)>$=<PARTYP:CLN_YPOS=number>$=<PARMIN:CLN_YPOS=0>$=<PARMAX:CLN_YPOS={screenY}>$=<PAROC:CLN_YPOS=1>$=<PARPAR:CLN_YPOS=CLN_SPOS>
+$=<PARDEF:CLN_WIDTH=515>$=<PARDSC:CLN_WIDTH=Width (pixels)>$=<PARTYP:CLN_WIDTH=number>$=<PARMIN:CLN_WIDTH=20>$=<PARMAX:CLN_WIDTH={screenX}>$=<PAROC:CLN_WIDTH=1>$=<PARPAR:CLN_WIDTH=CLN_SPOS>
+$=<PARDEF:CLN_HEIGHT=208>$=<PARDSC:CLN_HEIGHT=Height (pixels)>$=<PARTYP:CLN_HEIGHT=number>$=<PARMIN:CLN_WIDTH=20>$=<PARMAX:CLN_HEIGHT={screenY}>$=<PAROC:CLN_HEIGHT=1>$=<PARPAR:CLN_HEIGHT=CLN_SPOS>
+
+$=<PARDEF:CLN_SKIN-PATH=$=<BASEPATH>/Calendar/Skin_BW/skin.def>$=<PARTYP:CLN_SKIN-PATH=hidden>
+
+{wp:body}<calendar-in-rect>
+X:($=<PAR:CLN_XPOS>)
+Y:($=<PAR:CLN_YPOS>)
+W:($=<PAR:CLN_WIDTH>)
+H:($=<PAR:CLN_HEIGHT>)
+INTERACTIVITY:($=<PAR:CLN_INTERACT>)
+$=<IF:$=<PAR:CLN_NOTES>==1?NOTES-FILE:($=<INCLUDEPATH(Profile:daydesc_l{lang}.txt)>)/IF>
+FIRST-DAY:($=<PAR:FIRSTDAY>)
+MONTH-OFFSET:($=<PAR:MONOFFSET>)
+CELL-BIRTHDAYS:($=<PAR:BIRTHDC>)
+BIRTHDAY-FILE:($=<INCLUDEPATH(Profile:birthdesc.txt)>)
+$=<IF:$=<PAR:HOLDSC>==1?RDAYS-FILE:($=<INCLUDEPATH(Profile:dates_l{lang}.txt)>)/IF>
+$=<SWITCH-BEGIN:$=<PAR:CLN_TYPE>>
+$=<CASE-BEGIN:0>WEEKS_TO_SHOW:(1)$=<CASE-END:0>
+$=<CASE-BEGIN:1>WEEKS_TO_SHOW:(2)$=<CASE-END:1>
+$=<CASE-BEGIN:2>WEEKS_TO_SHOW:(5);MONTHS_TO_SHOW:(1);START-FROM-MONTH:(1)$=<CASE-END:2>
+$=<CASE-BEGIN:3>WEEKS_TO_SHOW:(11);MONTHS_TO_SHOW:(2);START-FROM-MONTH:(1)$=<CASE-END:3>
+$=<CASE-BEGIN:DEFAULT>WEEKS_TO_SHOW:(4)$=<CASE-END:DEFAULT>
+$=<SWITCH-END:$=<PAR:CLN_TYPE>>
+<calendar-skin>
+$=<INCLUDE($=<PAR:CLN_SKIN-PATH>)>
+IMAGES:($=<PAR:CLN_SKIN-PATH>)
+</calendar-skin>
+
+
+<translations>
+month[0]='$=<TEXTLINE(comm_l{lang}.txt,January=)>';
+month[1]='$=<TEXTLINE(comm_l{lang}.txt,February=)>';
+month[2]='$=<TEXTLINE(comm_l{lang}.txt,March=)>';
+month[3]='$=<TEXTLINE(comm_l{lang}.txt,April=)>';
+month[4]='$=<TEXTLINE(comm_l{lang}.txt,May=)>';
+month[5]='$=<TEXTLINE(comm_l{lang}.txt,June=)>';
+month[6]='$=<TEXTLINE(comm_l{lang}.txt,July=)>';
+month[7]='$=<TEXTLINE(comm_l{lang}.txt,August=)>';
+month[8]='$=<TEXTLINE(comm_l{lang}.txt,September=)>';
+month[9]='$=<TEXTLINE(comm_l{lang}.txt,October=)>';
+month[10]='$=<TEXTLINE(comm_l{lang}.txt,November=)>';
+month[11]='$=<TEXTLINE(comm_l{lang}.txt,December=)>';
+wdays[0]='$=<TEXTLINE(comm_l{lang}.txt,Sunday=)>';wdays_short[0]='$=<TEXTLINE(comm_l{lang}.txt,Sun=)>';
+wdays[1]='$=<TEXTLINE(comm_l{lang}.txt,Monday=)>';wdays_short[1]='$=<TEXTLINE(comm_l{lang}.txt,Mon=)>';
+wdays[2]='$=<TEXTLINE(comm_l{lang}.txt,Tuesday=)>';wdays_short[2]='$=<TEXTLINE(comm_l{lang}.txt,Tue=)>';
+wdays[3]='$=<TEXTLINE(comm_l{lang}.txt,Wednesday=)>';wdays_short[3]='$=<TEXTLINE(comm_l{lang}.txt,Wed=)>';
+wdays[4]='$=<TEXTLINE(comm_l{lang}.txt,Thursday=)>';wdays_short[4]='$=<TEXTLINE(comm_l{lang}.txt,Thu=)>';
+wdays[5]='$=<TEXTLINE(comm_l{lang}.txt,Friday=)>';wdays_short[5]='$=<TEXTLINE(comm_l{lang}.txt,Fri=)>';
+wdays[6]='$=<TEXTLINE(comm_l{lang}.txt,Saturday=)>';wdays_short[6]='$=<TEXTLINE(comm_l{lang}.txt,Sat=)>';
+</translations>
+</calendar-in-rect>
+{/wp:body}

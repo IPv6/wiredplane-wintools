@@ -1,0 +1,105 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Îïèñàíèå îñíîâíûõ âîçìîæíîñòåé" -->
+<!--#set var="PTITLE_EN" value="Overview of main features" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Features</h2>
+<hr>
+As the name Wire<b>Changer</b> suggests, the main purpose of the program is to change your desktop wallpaper (background) on a regular basis. You can easily rotate through a list of wallpapers on your hard drive so that there is often something new for you to see. Many wallpapers come bundled with WireChanger, and there are many more available <a href="http://www.wiredplane.com/wallpapers.shtml" target="_blank">here at WiredPlane</a> and elsewhere on the Web.<br><br>
+
+<b>Working with Wallpapers</b><br><br>
+
+To <b>select the wallpapers</b> you want to see on your desktop, right-click the WireChanger tray icon and click 'Wallpapers list' from the popup menu. Click the blue triangles to see which wallpapers are in each folder (theme). Check the box to the left of a theme to include it in the rotation. If you don't want every picture in the theme to be included, right-click the file you want to exclude and click 'Disable/enable image' from the popup menu.<br><br>
+
+Right-clicking a file or theme offers other options via the popup menu. You can...<br>
+- <b>add</b> images, themes, and URLs to WireChanger<br>
+- sort images by name, type, or dimensions<br>
+- shuffle the images<br>
+- move an image to an existing theme<br>
+- rename an image or theme<br>
+- <b>delete (remove)</b> an image from WireChanger<br>
+- delete an image from WireChanger <i>and</i> delete the file itself from your hard drive<br>
+- set the synchronization folder<br>
+- sychronize images and themes immediately or the next time you start WireChanger<br>
+- remove duplicated images<br>
+- remove missing (broken) files<br>
+- create a new theme<br>
+- delete all theme images.<br><br>
+
+You can alternatively add and remove images and themes with the buttons in the top portion of the window. <b>Edit</b> the selected image in Paint, show the theme's <b>properties</b>, and set the selected wallpaper immediately with the other buttons in the same area.<br><br>
+
+If your collection became too big, you can try <a name="uniquer"><b>Duplicated images</b></a> finder and remover. This tool can be found in "Synchronization" submenu.
+It can help you to identify and delete duplicate image files to recover disk space and make wallpaper themes more clear. Unlike others using CRC or MD5, WireChanger uses intellectual 
+algorithm for similarity calculation, so it will detect duplicated image after resize operation or in another graphic format and even archived image.<br><br>
+
+At the right of the Wallpaper list window is the selected theme and an option to set (as a percentage) <b>how frequently</b> images from this theme will be used in the rotation. The lower the value, the less often you will see pictures from this theme on your desktop.<br><br>
+
+To the down of the frequency percentage is a dropdown box with image <b>stretching</b> options.<br>
+- None, tile: Retains original dimensions, small pictures will tiled to fill desktop<br>
+- Exact fit: Stretched to fit the screen<br>
+- Proportional fit: Stretched to fit the screen but will retain its original proportions<br>
+- Automatic fit: Like proportional fit but only if large enough; otherwise no stretching<br>
+- None, center: Retains original dimensions, small pictures will centered in desktop area<br><br>
+
+At the bottom-right corner of the Wallpaper list window is another dropdown box where you can tell WireChanger to display the images <b>in order or randomly</b>. And assuming that you want the pictures to change at all, there is a checkbox and options for specifying <b>how often you want the change</b> to occur (in hours and minutes).<br><br>
+
+<b>Working with Templates</b><br><br>
+
+Below the Wallpaper list is a dropdown box containing templates. Some templates are <b>overlays</b> that can be added to your desktop. You can choose...<br>
+- Latest CNN News*<br>
+- Calendar<br>
+- Citations (quotations)<br>
+- Memo pad<br>
+- Online quotation*<br>
+- Weather forecast*<br>
+- Web camera*.<br><br>
+
+<small>*You must be online to use this template.</small><br><br>
+
+Other templates create unusual <b>effects</b> using your wallpaper images:<br>
+- Image mosaic (tiling) using the same or multiple images<br>
+- Image mixer blending two images together<br>
+- Second picture showing one image as a small inset<br>
+- Special Effects/Image morthing such as grayscale, x-ray, ripple water, blur, emboss, pixelate, color disposition, color planes, explode, sharpen, water color, brightness noise, and edge detection.<br><br>
+
+<b>Select the template</b> from the dropdown list, then check the box to have it take effect. Click the Wallpaper template parameters button to the right of the dropdown box to set specific options for that template. Experimenting with these templates and their options can yield a wide variety of backgrounds from just a few images.<br><br>
+
+<b>To remove a template</b> from your desktop, select it from the same dropdown list and uncheck the box. You may have to refresh the screen actually get rid of the template. Right-click the WireChanger tray icon and select Change Now at the top of the popup menu.<br><br>
+
+For more details about templates, see the <a href="dsc_templates.shtml">templates description page</a>.<br><br>
+
+<b>Working with Clocks</b><br><br>
+
+The Active clocks dropdown box is just below the templates box. If you <b>select one</b> of the four clocks that are packaged with WireChanger, a small window will appear informing you that the Windows Active Desktop must be enabled to use these clocks and that WireChanger is enabling it for you automatically.<br><br>
+
+<b>Set the position</b> of the clock by clicking the Clock parameters button to the right of the dropdown box and then choosing the desired options for both vertical (top, center, bottom) and horizontal (left, center, right) alignment. This allows you to locate the clock in any one of nine areas of the desktop. Note that it will overlay whatever else is on the screen at that position, but you can set the opacity of the clock as well.<br><br>
+
+<b>Additional clocks</b> are available <a href="http://www.wiredplane.com/wirechanger/clocks_main.shtml" target="_blank">here at WiredPlane</a>, at <a href="http://www.colclocks.com">ColClocks.com</a> and at <a href="http://www.adamdorman.com/flash_clocks1.php">http://www.adamdorman.com</a>. You must be a <a href="registration.shtml">registered</a> WireChanger user to legally download some of the collections of clocks.<br><br>
+
+For more details about clocks, see the <a href="dsc_clocks.shtml">clocks description page</a>.<br><br>
+
+<b>Animating the Desktop</b><br><br>
+
+<b><font color="red">Important Note</font></b>: This feature is very experimental at this time. Use it at your own risk.<br><br>
+
+Check the Animate desktop box to make your wallpaper appear to move. Click the Desktop enlivement options button to choose the movement effect, image resolution, rendering quality, and refresh speed.<br><br>
+
+<b>Additional Features</b><br><br>
+
+Click the Preferences button to open another window containing more features such as sticky <b>Notes</b> and more options -- both general and feature-specific -- for WireChanger.<br><br>
+
+For more details about preferences, see the <a href="preferences.shtml">preferences page</a>.<br><br>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

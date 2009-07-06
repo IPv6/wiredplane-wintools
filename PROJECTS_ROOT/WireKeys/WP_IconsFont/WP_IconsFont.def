@@ -1,0 +1,19 @@
+; IconsFont.def : Declares the module parameters for the DLL.
+
+LIBRARY      "IconsFont"
+DESCRIPTION  'WireKeys IconsFont plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+;WKPluginPause
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKPluginOptions
+WKGetPluginContainer
+

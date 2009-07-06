@@ -1,0 +1,44 @@
+; WKKeyMaster.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WKKeyMaster"
+DESCRIPTION  'WKKeyMaster Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	WKGetPluginFunctionCommonDesc
+	WKCallPluginFunction
+	WKGetPluginFunctionActualDesc
+	WKPluginOptionsManager
+	GetPluginDsc
+	WKPluginStart
+	WKPluginInit
+	WKPluginStop
+	WKPluginOptions
+	WKPluginPause
+	WKGetPluginContainer
+
+	WKIHOTKEYS_DistingLRKeys
+	getCurrentlyPressedKeys
+	getRegisteredHotkeysInfo
+	UnregisterIHotKeyDsc
+	RegisterIHotKeyDsc
+	GetListOfCurrentlyRegisteredHotkeys
+	WKIHOTKEYS_RegisterExternEvent
+	WKIHOTKEYS_UnRegisterExternEvent
+	WKIHOTKEYS_ExternEventStart
+	WKIHOTKEYS_ExternEventStop
+	WKIHOTKEYS_ExternGetEvent
+	WKIHOTKEYS_ExternGetEventByID
+	WKIHOTKEYS_GetExternEvents
+	WKIHOTKEYS_EventsHandlerWindow
+	WKIHOTKEYS_EventsHandlerDuplicateWindow
+	WKIHOTKEYS_GetExternEventClass
+	WKIHOTKEYS_ResetKB
+	WKIHOTKEYS_RegisterOnAddRemoveEventCallback
+	WKIHOTKEYS_NotifyOnAddEvent
+	WKIHOTKEYS_GetHotkeyDscByID
+	WKIHOTKEYS_ActHotkeyByID
+	RebuildKeyboardStates
+	GetDefaultPauseKey
+	WKIHOTKEYS_ExternGetClass
+	PostProcessHotkey

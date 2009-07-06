@@ -1,0 +1,70 @@
+Tasti di scelta rapida: Logo Windows
+-------------------------------
+Logo Windows                 Visualizzare o nascondere il menu di avvio
+Logo Windows+INTERR          Visualizzare la finestra di dialogo Proprietà del sistema
+Logo Windows+D               Visualizzare il desktop
+Logo Windows+M               Ridurre a icona tutte le finestre
+Logo Windows+E               Aprire Risorse del computer
+Logo Windows+F               Cercare un file o una cartella
+CTRL+Logo Windows+F          Cercare computer
+Logo Windows+F1              Visualizzare la Guida in linea di Windows
+Logo Windows+L               Bloccare il computer se si è connessi a un dominio di rete o cambiare utente se non si è connessi a un dominio di rete
+Logo Windows+R               Aprire la finestra di dialogo Esegui
+Logo Windows+U               Aprire Utility Manager
+
+Tasti di scelta rapida di Esplora risorse
+-----------------------------------
+FINE                         Visualizzare la parte inferiore della finestra attiva
+HOME                         Visualizzare la parte superiore della finestra attiva
+BLOC NUM+ASTERISCO (Tn)      Visualizzare tutte le sottocartelle della cartella selezionata
+BLOC NUM+SEGNO PIÙ (Tn)      Visualizzare il contenuto della cartella selezionata
+BLOC NUM+SEGNO MENO (Tn)     Comprimere la cartella selezionata
+Freccia SINISTRA             Comprimere la selezione corrente se è espansa oppure selezionare la cartella padre
+Freccia DESTRA               Visualizzare la selezione corrente se è compressa oppure selezionare la prima sottocartella
+
+Tasti di scelta rapida per la navigazione con Microsoft Internet Explorer
+--------------------------------------
+CTRL+B                       Aprire la finestra di dialogo Organizza Preferiti
+CTRL+E                       Aprire la barra di ricerca
+CTRL+F                       Effettuare una ricerca nella pagina corrente
+CTRL+H                       Aprire la barra Cronologia
+CTRL+I                       Aprire la barra Preferiti
+CTRL+L                       Passare a una nuova pagina
+CTRL+N                       Aprire una nuova finestra con lo stesso indirizzo internet
+CTRL+O                       Passare a una nuova pagina (vedere CTRL+L)
+CTRL+P                       Stampare la pagina corrente o il frame attivo
+CTRL+R                       Aggiornare il contenuto della pagina Web corrente
+CTRL+W                       Chiudere la finestra corrente
+
+Tasti di scelta rapida per operazioni generali
+--------------------------
+CTRL+C                       Copiare
+CTRL+X                       Tagliare
+CTRL+V                       Incollare
+CTRL+Z                       Annullare
+CANC                         Eliminare
+MAIUSC+CANC                  Eliminare definitivamente l'oggetto selezionato senza copiarlo nel Cestino
+CTRL+Freccia DESTRA          Spostare il punto di inserimento all'inizio della parola successiva
+CTRL+Freccia SINISTRA        Spostare il punto di inserimento all'inizio della parola precedente
+CTRL+Freccia GIÙ             Spostare il punto di inserimento all'inizio del paragrafo successivo
+CTRL+Freccia SU              Spostare il punto di inserimento all'inizio del paragrafo precedente
+CTRL+A                       Selezionare tutto
+ALT+INVIO                    Visualizzare le proprietà dell'oggetto selezionato
+ALT+F4                       Chiudere l'oggetto attivo o uscire dal programma attivo
+ALT+INVIO                    Display the properties of the selected object
+ALT+BARRA SPAZIATRICE        Visualizzare il menu di scelta rapida per la finestra attiva
+CTRL+F4                      Chiudere il documento attivo nei programmi che consentono di avere più documenti aperti contemporaneamente
+ALT+TAB                      Spostarsi tra oggetti aperti
+ALT+ESC                      Spostarsi in maniera ciclica tra gli oggetti nell'ordine in cui sono stati aperti
+MAIUSC+F10                   Visualizzare il menu di scelta rapida per l'oggetto selezionato
+ALT+BARRA SPAZIATRICE        Visualizzare il menu di sistema per la finestra attiva
+CTRL+ESC                     Visualizzare il menu di avvio
+BACKSPACE                    Visualizzare la cartella di livello superiore rispetto a quella selezionata in Risorse del computer o in Esplora risorse
+ESC                          Annullare l'operazione corrente
+MAIUSC                       Impedire l'esecuzione automatica del CD
+F2                           Rinominare l'oggetto selezionato
+F3                           Cercare un file o una cartella
+F4                           Visualizzare l'elenco della barra degli indirizzi in Risorse del computer o in Esplora risorse
+F5                           Aggiornare la finestra attiva
+F6                           Spostarsi in maniera ciclica tra gli elementi presenti in una finestra o sul desktop
+F10                          Attivare la barra dei menu nel programma attivo

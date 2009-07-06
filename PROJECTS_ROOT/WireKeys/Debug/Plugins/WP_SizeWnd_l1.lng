@@ -1,0 +1,11 @@
+WindowSResizer=Маштабирование размера окна
+ResizeActiveWindow=Изменить размер окна
+Dscplg_wp_sizewnd=Этот плагин позволяет менять размеры любых окон (даже тех, которые имеют фиксированный размер)
+DragNewRectangleForWindow=Нарисуйте новый прямоугольник для окна
+WindowResizedSuccesfully=Размеры окна изменены
+WindowIsNotResized=Размеры окна не изменены
+
+MakeWindowLarger=Сделать окно больше
+MakeWindowSmaller=Сделать окно меньше
+
+Nameplg_wp_sizewnd=Маштабирование размера окна

@@ -1,0 +1,70 @@
+;Page encoding
+CODEPAGE=charset=iso-8859-1
+
+;'Today' string
+YouAreHere=Oggi
+
+;Month names
+January=Gennaio
+February=Febbraio
+March=Marzo
+April=Aprile
+May=Maggio
+June=Giugno
+July=Luglio
+August=Agosto
+September=Settembre
+October=Ottobre
+November=Novembre
+December=Dicembre
+
+;Days of the week names
+Monday=Lunedì
+Tuesday=Martedì
+Wednesday=Mercoledì
+Thursday=Giovedì
+Friday=Venerdì
+Saturday=Sabato
+Sunday=Domenica
+
+;Days of the week short names
+Mon=Lun
+Tue=Mar
+Wed=Mer
+Thu=Gio
+Fri=Ven
+Sat=Sab
+Sun=Dom
+
+;Commonly used strings
+NoImage=Nessuna immagine
+NoConnection=Nessun collegamento
+WebCamera=Webcam
+WeatherReport=Condizioni meteo
+TODO=Promemoria
+Click_here_Weather=Cliccare qui per aprire il sito Web delle previsioni meteo
+Click_here_Site=Cliccare qui per aprire il sito Web
+Remains=Rimane
+Search=Cerca
+Translate=Traduci
+Refresh=Aggiorna
+Loading=Caricamento
+Click_for4Months=Doppio clic sul titolo del calendario: apertura di un calendario di 4 mesi
+Anecdote=Aneddoto
+ShowNews=Visualizza Notizie
+Minimize=Minimizza
+PrefsNotDefined=Prego, specificare le impostazioni del Modello!
+
+SetNextWallpaper=Imposta sfondo successivo
+SetPrevWallpaper=Imposta sfondo precedente
+SetRandWallpaper=Imposta sfondo casuale
+SetAsWallpaper=Imposta come sfondo
+SwitchOnOff=Arresta/Avvia cambio automatico
+Unregistered=Fare doppio clic qui per registrare il programma.<br>Consegna istantanea!
+Unlim20=Illimitato ($29)
+FreeWeek=1 settimana (Gratis)
+WebSiteNotFound=Caricamento dati fallito - sito non raggiungibile
+
+CTD_Days_today=Oggi!
+CTD_Days_ago=%s Giorno(i) passato (i)
+CTD_Days_left=%s Giorno(i) rimasto(i)

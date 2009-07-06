@@ -1,0 +1,51 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Îïèñàíèå ãëàíîãî îêíà" -->
+<!--#set var="PTITLE_EN" value="Main window of WireChanger" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Main Window</h2><hr>
+<img src="scr1.png"><br>
+<table border=1 cellspacing=0 cellpading=0>
+<tr><td  valign=top>1<td  valign=top></td><td  valign=top>Checkbox. If checked, theme will be used in image rotation</td></tr>
+<tr><td  valign=top>2<td  valign=top></td><td  valign=top>Theme name. Double-click to edit </td></tr>
+<tr><td  valign=top>3<td  valign=top></td><td  valign=top>Image path</td></tr>
+<tr><td  valign=top>4<td  valign=top></td><td  valign=top>Theme stretching option:<br>
+'Do not resize' - images will not be resized<br>
+'Exact fit' - images will be stretched to fit the screen<br>
+'Proportional fit' - images will be stretched to fit the screen preserving proportions<br>
+'Automatic fit' - images will be stretched to fit the screen preserving proportions if they are
+big enough only (no stretching in other case)</td></tr>
+<tr><td  valign=top>5<td  valign=top></td><td  valign=top>Theme weight (percent). Weight defines how frequently images from this theme will be used in
+image rotation.<br>
+Value 100 means that image rotation will use only this theme<br>
+Value between 0 and 100 means that image rotation will use this theme with corresponding
+frequency<br>
+Value 0 means that this theme will be used rarely (depending on other themes weights) </td></tr>
+<tr><td  valign=top>6<td  valign=top></td><td  valign=top>Hours</td></tr>
+<tr><td  valign=top>7<td  valign=top></td><td  valign=top>Minutes</td></tr>
+<tr><td  valign=top>8<td  valign=top></td><td  valign=top>Save and close</td></tr>
+<tr><td  valign=top>9<td  valign=top></td><td  valign=top>Checkbox. If checked, wallpaper will be changed after specified time (see 6 and 7) </td></tr>
+<tr><td  valign=top>10<td  valign=top></td><td  valign=top>How to get next image from theme. 'In order' means that images will go one after another. 'Random order' means that images will go in random order</td></tr>
+<tr><td  valign=top>11<td  valign=top></td><td  valign=top>Quick access to some common functions (from left to right) - add images (new only/full directories/etc), add folders with images, add image archive, delete theme, sort theme images, remove old and broken links to images</td></tr>
+<tr><td  valign=top>12<td  valign=top></td><td  valign=top>Parameters of the selected template and active clock</td></tr>
+<tr><td  valign=top>13<td  valign=top></td><td  valign=top>Available templates list</td></tr>
+<tr><td  valign=top>14<td  valign=top></td><td  valign=top>Clone template button. Using this button you can add more than one calendar to your desktop, etc</td></tr>
+<tr><td  valign=top>15<td  valign=top></td><td  valign=top>Preview window. Note checkbox with selected image file name.<br>
+If checked, every selected image will be previewed first. This may take some time for URL`s</td></tr>
+<tr><td  valign=top>16<td  valign=top></td><td  valign=top>Selected image resolution information</td></tr>
+<tr><td  valign=top>17<td  valign=top></td><td  valign=top>Close window (the same as 'OK' button)</td></tr>
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

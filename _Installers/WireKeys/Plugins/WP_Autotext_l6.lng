@@ -1,0 +1,43 @@
+;WireKeys plugin 'Key Logger' language file - Chinese Simplified
+;translated by Rocky Wolf (rockywolf@etang.com), Jul 2004
+
+Popt_editAutot_oouibsearq=编辑自动文本信息
+Popt_enableLog_bdwwhxkpio=启用键盘记录功能
+Popt_logFileN_yabhcfibhk=日志文件名
+Popt_recommende_xwfugvlnck=推荐的日志文件大小 (Kb)
+Popt_maxLogFi_ktqepnbvte=最大的日志文件大小 (Kb)
+Popt_gatherKey_mxstbfnqdy=从匹配标题的窗口中收集键盘动作
+Popt_youCanUs_dpgioxyhfr=您可以使用“*”通配符, 并以“;”分隔条目
+Popt_gatherKey_oxstbnqwkn=从匹配类的窗口中收集键盘动作
+SimpleAutotextAndKeyLogger=简易自动文本和键盘记录
+Dscplg_wp_autotext=此插件允许你定义自动文本信息, 以及记录指定应用程序的键盘动作到日志文件
+DefineAutotext=定义自动文本
+JustTypedText=重复最近输入的文本
+ThisIsTheMostRecentlyTypedText=这是最近输入的文本
+Clear=清除
+Replace=替换文本
+Launch=运行项目
+AddAlias=添加
+3ChooseAliasType=3) 选择关键字类型
+2TypeAliasReplaceme_NLEPCATHLS=2) 输入替换关键字的语句 (或要运行的文件/命令)
+ListOfActiveAliases=可用关键字列表
+ToRemoveAliasSelect_NLWXLXREHM=若需删除关键字，请选择该行并点击
+IljaRazinkov@2003=Ilja Razinkov @2003
+AutotextPluginForWi_QUIHQWKQUM=自动文本插件 for WireKeys<br>自动文本是一些简短的关键字, 输入后会被自动替换成<br>相应的句子, 或者运行设定的项目 (中文化: Rocky Wolf)
+Remove=删除
+Help=帮助
+1TypeShortAlias=1) 输入简短关键字
+PleaseEnterKeyText=请输入关键字!
+PleaseEnterTextToRe_YKSRFLIBFL=请输入替换关键字的文本!
+WrittenByIljaRazinkov@2003=Ilja Razinkov 编写, 2003
+LogAllKeypressesToFile=记录所有键盘动作到日志文件
+ThisPluginWillLogAl_QYBPADTURU=此插件会用日志记录应用程序的键盘动作, 可以指定记录匹配某些标题或类的窗口.
+BalanceSizeOfTheLog_UCAKMCNSPB=调整日志文件的大小, 介于 (KB)
+WindowTitle=窗口标题
+WindowClass=窗口类
+YouCanUseToDefineAn_VWMEBDMRVJ=你可以使用通配符“*”定义任意多个字符; 使用“;”作为分隔标记
+AutotextPlugin=自动文本插件
+AutotextCanHelpInTy_FYLQYOKWBB=自动文本有助于输入常用的短语和句子. <br><br>例如: 若定义“.wp”作为扩展语句“WiredPlane Labs”的关键字, 那么每次输入 . - w - p 三个字符时, 它们会被自动替换为“WiredPlane Labs”. 扩展语句可包含多个行. <br><br>也可以通过输入关键字来打开文件或“快捷运行”项目. 只需从资源管理器拖入文件, 或输入“快捷运行”项目的名称. 然后每次输入关键字时, 相应的文件或“快捷运行”项目就会启动.
+KeyloggerPlugin=自动文本及键盘记录插件
+Popt_ifYouHav_brkdqdngbc=如果在某些窗口中使用自动文本出现问题，请在此处输入它们的标题
+Popt_useAutote_odjqeljgrq=下列窗口以安全模式使用自动文本

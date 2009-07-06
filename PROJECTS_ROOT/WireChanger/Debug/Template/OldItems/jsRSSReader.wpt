@@ -1,0 +1,240 @@
+$=<TITLE:News reader (RSS 2.0)>$=<SHOWINTRAY:BEYE_ROOT>$=<CATEG:Useful controls>
+$=<DESCRIPTION:
+Grab recent news from up to 3 RSS sources.
+You can duplicate this widget to gather information
+from more than 3 resources in a time
+>
+tray-transparency{CLN_OPACITY}
+tray-position{OC:(1),X:(BEYE_XPOS),Y:(BEYE_YPOS),W:(BEYE_WIDTH),H:(BEYE_HEIGHT)}
+$=<RENDER:ActiveDesktop>$=<HINTS:RENDER-LAYER=(BG-1),ONLINE-STATE=(MUSTBE),SCROLLBARS>
+$=<PARDEF:BEYE_ROOT>$=<PARDSC:BEYE_ROOT=Reader options>$=<PARTYP:BEYE_ROOT=root>
+$=<PARDEF:TEXT_PREF=http://rss.cnn.com/rss/cnn_world.rss>$=<PARDSC:TEXT_PREF=RSS feed URL>$=<PARTYP:TEXT_PREF=string>
+$=<PARDEF:TEXT_PREF2=http://rss.cnn.com/rss/cnn_space.rss>$=<PARDSC:TEXT_PREF2=RSS feed URL #2>$=<PARTYP:TEXT_PREF2=string>
+$=<PARDEF:TEXT_PREF3=http://rss.cnn.com/rss/cnn_tech.rss>$=<PARDSC:TEXT_PREF3=RSS feed URL #3>$=<PARTYP:TEXT_PREF3=string>
+$=<PARDEF:CLN_FG=#000000>$=<PARDSC:CLN_FG=Text color>$=<PARTYP:CLN_FG=color>
+$=<PARDEF:CLN_BG=#FFFFFF>$=<PARDSC:CLN_BG=Background color>$=<PARTYP:CLN_BG=color>
+$=<PARDEF:CLN_TG=#AAAAAA>$=<PARDSC:CLN_TG=Title color>$=<PARTYP:CLN_TG=color>
+$=<PARDEF:CLN_OPACITY=70>$=<PARDSC:CLN_OPACITY=Opacity (percents)>$=<PARTYP:CLN_OPACITY=slider>$=<PARMIN:CLN_OPACITY=10>$=<PARMAX:CLN_OPACITY=100>
+$=<PARDEF:BEYE_TRANSP=0>$=<PARDSC:BEYE_TRANSP=Make background transparent>$=<PARTYP:BEYE_TRANSP=bool>
+$=<PARDEF:BEYE_TRIM=1>$=<PARDSC:BEYE_TRIM=Do not show descriptions>$=<PARTYP:BEYE_TRIM=bool>
+$=<PARDEF:BEYE_MINI=0>$=<PARDSC:BEYE_MINI=Start in minimized mode>$=<PARTYP:BEYE_MINI=bool>
+$=<?PARDEF:BEYE_IMG=1>$=<?PARDSC:BEYE_IMG=Add icon>$=<?PARTYP:BEYE_IMG=bool>
+$=<PARDEF:BEYE_SPOS>$=<PARDSC:BEYE_SPOS=Set reader bar position>$=<PARPAR:BEYE_SPOS=BEYE_ROOT>$=<PARTYP:BEYE_SPOS=set_position>$=<PARACTION:BEYE_SPOS=OC:(1),X:(BEYE_XPOS),Y:(BEYE_YPOS),W:(BEYE_WIDTH),H:(BEYE_HEIGHT)/>
+$=<PARDEF:BEYE_XPOS=55>$=<PARDSC:BEYE_XPOS=X Position (pixels)>$=<PARTYP:BEYE_XPOS=number>$=<PARMIN:BEYE_XPOS=0>$=<PARMAX:BEYE_XPOS={screenX}>$=<PAROC:BEYE_XPOS=1>$=<PARPAR:BEYE_XPOS=BEYE_SPOS>
+$=<PARDEF:BEYE_YPOS=225>$=<PARDSC:BEYE_YPOS=Y Position (pixels)>$=<PARTYP:BEYE_YPOS=number>$=<PARMIN:BEYE_YPOS=0>$=<PARMAX:BEYE_YPOS={screenY}>$=<PAROC:BEYE_YPOS=1>$=<PARPAR:BEYE_YPOS=BEYE_SPOS>
+$=<PARDEF:BEYE_WIDTH=200>$=<PARDSC:BEYE_WIDTH=Width (pixels)>$=<PARTYP:BEYE_WIDTH=number>$=<PARMIN:BEYE_WIDTH=20>$=<PARMAX:BEYE_WIDTH={screenX}>$=<PAROC:BEYE_WIDTH=1>$=<PARPAR:BEYE_WIDTH=BEYE_SPOS>
+$=<PARDEF:BEYE_HEIGHT=250>$=<PARDSC:BEYE_HEIGHT=Height (pixels)>$=<PARTYP:BEYE_HEIGHT=number>$=<PARMIN:BEYE_WIDTH=20>$=<PARMAX:BEYE_HEIGHT={screenY}>$=<PAROC:BEYE_HEIGHT=1>$=<PARPAR:BEYE_HEIGHT=BEYE_SPOS>
+
+{wp:body}
+<div id="RSSmini{wpt_id}"
+	style="
+	$=<IF:$=<PAR:BEYE_MINI>==0?
+	display:none;
+	/IF>
+	color: $=<PAR:CLN_FG>; font-size:10px;font-family:verdana, arial, helvetica, sans-serif;
+	border:0;
+	border-style:solid;
+	border-color:$=<PAR:CLN_TG>;
+	position:absolute;
+	z-index:50;
+	top:$=<PAR:BEYE_YPOS>px;
+	left:$=<PAR:BEYE_XPOS>px;
+	height:$=<PAR:BEYE_HEIGHT>px;
+	width:$=<PAR:BEYE_WIDTH>px;"
+>
+<a href="#" onClick="return switchLays{wpt_id}();" style="color: $=<PAR:CLN_FG>; font-size:10px;font-family:verdana, arial, helvetica, sans-serif;">$=<TEXTLINE(comm_l{lang}.txt,ShowNews=)></a>
+<span id="miniTitle{wpt_id}">&nbsp;</span>
+</div>
+<iframe id="RSScontent{wpt_id}"
+	HSPACE=1
+	VSPACE=1
+	MARGINHEIGHT=1
+	MARGINWIDTH=1
+	allowTransparency="true"
+	style="
+	$=<IF:$=<PAR:BEYE_MINI>==1?
+	display:none;
+	/IF>
+	border:1;
+	border-style:solid;
+	border-color:$=<PAR:CLN_TG>;
+	position:absolute;
+	z-index:50;
+	background-color: transparent;
+	$=<IF:$=<PAR:CLN_OPACITY>!=100? z-index: 80; filter:Alpha(opacity=$=<PAR:CLN_OPACITY>);/IF>
+	top:$=<PAR:BEYE_YPOS>px;
+	left:$=<PAR:BEYE_XPOS>px;
+	height:$=<PAR:BEYE_HEIGHT>px;
+	width:$=<PAR:BEYE_WIDTH>px;"
+>
+</iframe>
+<!--
+$=<IF:$=<PAR:BEYE_IMG>==1?<img src="$=<BASEPATH>/images/rssbg.gif" 
+style="
+	position:absolute;
+	top:$=<INTEXPR($=<PAR:BEYE_YPOS>+$=<PAR:BEYE_HEIGHT>+5)>px;
+	left:$=<INTEXPR($=<PAR:BEYE_XPOS>+5)>px;"
+id="RSSicon{wpt_id}"><br>/IF>
+-->
+<script language="JavaScript">
+var arrTitle{wpt_id} = new Array();
+var arrDesc{wpt_id} = new Array();
+var arrLink{wpt_id} = new Array();
+var arrType{wpt_id} = new Array();
+function showNewsReel{wpt_id}(){
+	/*
+	$=<IF:$=<PAR:BEYE_IMG>==1?
+	if(RSSImage.length!=0){
+		document.images['RSSicon{wpt_id}'].src=RSSImage;
+	}
+	/IF>
+	*/
+	var strNewsReel = '<ht'+'ml><he'+'ad><me'+'ta http-equiv="Content-Type" content="text/html;  $=<TEXTLINE(comm_l{lang}.txt,CODEPAGE=)>;"></he'+'ad><bo'+'dy $=<IF:$=<PAR:BEYE_TRANSP>==1?style="background-color: transparent;"/IF> $=<IF:$=<PAR:BEYE_TRANSP>==0?bgcolor=$=<PAR:CLN_BG>/IF> >'+'<table border=0 width=100% height=100%>';
+	var iCount=1;
+	//alert(arrType{wpt_id}.length);
+	for(var idx = 0; idx < arrType{wpt_id}.length; idx++ ) {
+		if(arrType{wpt_id}[idx]==1){
+			strNewsReel += '<tr><td align=center valign=top bgcolor=$=<PAR:CLN_TG> style="color: $=<PAR:CLN_FG>; font-size:10px;font-family:verdana, arial, helvetica, sans-serif;"><b>';
+			if(arrLink{wpt_id}[idx].length!=0){
+				strNewsReel += '<a href="'+arrLink{wpt_id}[idx]+'" style="color: $=<PAR:CLN_FG>;">';
+			}
+			strNewsReel += arrTitle{wpt_id}[idx];
+			if(arrLink{wpt_id}[idx].length!=0){
+				strNewsReel += '</a>';
+			}
+			strNewsReel += '</b>';
+		}else{
+			strNewsReel = strNewsReel + '<tr><td align="left" valign="top" style="font-size:10px;font-family:verdana, arial, helvetica, sans-serif; color: $=<PAR:CLN_FG>;">' + (iCount);
+			strNewsReel = strNewsReel + '. <a target="_blank" href="' + arrLink{wpt_id}[idx] + '" style="color: $=<PAR:CLN_FG>;" ';
+			strNewsReel = strNewsReel + 'title="'+ arrDesc{wpt_id}[idx] +'"';
+			strNewsReel = strNewsReel + '>' + arrTitle{wpt_id}[idx] + '</a>';
+			$=<IF:$=<PAR:BEYE_TRIM>==0?
+			strNewsReel = strNewsReel + '<br/>' + arrDesc{wpt_id}[idx];
+			/IF>
+			iCount=iCount+1;
+		}
+	}
+	strNewsReel = strNewsReel + '<tr><td align="center" valign=top><hr>';
+	strNewsReel = strNewsReel + '<a style="color: $=<PAR:CLN_FG>; font-size:10px;font-family:verdana, arial, helvetica, sans-serif;" href="javascript:parent.reload{wpt_id}();">$=<TEXTLINE(comm_l{lang}.txt,Refresh=)></a>&nbsp;|&nbsp;';
+	strNewsReel = strNewsReel + '<a style="color: $=<PAR:CLN_FG>; font-size:10px;font-family:verdana, arial, helvetica, sans-serif;" href="javascript:parent.switchLays{wpt_id}();">$=<TEXTLINE(comm_l{lang}.txt,Minimize=)></a>';
+	strNewsReel = strNewsReel + '</td></tr></table></bo'+'dy></ht'+'ml>';
+	document.frames("RSScontent{wpt_id}").document.open();
+	document.frames("RSScontent{wpt_id}").document.write(strNewsReel);
+	document.frames("RSScontent{wpt_id}").document.close();
+	parent.setminiTitle{wpt_id}();
+}
+
+function loadXML{wpt_id}(url, handler) {
+
+    if (document.implementation && document.implementation.createDocument) {
+        var xmldoc = document.implementation.createDocument("", "", null);
+        xmldoc.onload = function(  ) { handler(xmldoc); }
+        xmldoc.load(url);
+    } else if (window.ActiveXObject) { 
+        var xmldoc = new ActiveXObject("Microsoft.XMLDOM");   
+        xmldoc.onreadystatechange = function(  ) {            
+            if (xmldoc.readyState == 4) handler(xmldoc);
+    	}
+	    xmldoc.load(url);                                  
+    }
+}
+
+function SafeGetElem{wpt_id}(e,index,tagName)
+{
+	if(e==null){
+		return "";
+	}
+	if(e.length<=index){
+		return "";
+	}
+	if(e[index]==null){
+		return "";
+	}
+	if(e[index].getElementsByTagName(tagName)==null){
+		return "";
+	}
+	if(e[index].getElementsByTagName(tagName)[0]==null){
+		return "";
+	}
+	if(e[index].getElementsByTagName(tagName)[0].firstChild==null){
+		return "";
+	}
+	if(e[index].getElementsByTagName(tagName)[0].firstChild.data==null){
+		return "";
+	}
+	var res=e[index].getElementsByTagName(tagName)[0].firstChild.data;
+	return res;
+}
+
+function formatRSS{wpt_id}(xmldoc) {
+	var iStart = arrType{wpt_id}.length;
+	var channel = xmldoc.getElementsByTagName("channel");
+	if(channel.length>0){
+		arrType{wpt_id}[iStart] = 1;
+		arrTitle{wpt_id}[iStart] = '' + SafeGetElem{wpt_id}(channel,0,"title");
+		var imageR = channel[0].getElementsByTagName("image");
+		//RSSImage = '' + SafeGetElem{wpt_id}(imageR,0,"url");
+		arrLink{wpt_id}[iStart] = '' + SafeGetElem{wpt_id}(imageR,0,"link");
+		arrDesc{wpt_id}[iStart] = '';
+	}
+	var items = xmldoc.getElementsByTagName("item");
+	iStart = arrType{wpt_id}.length;
+	for(var i = 0; i < items.length; i++) {
+		arrType{wpt_id}[iStart+i] = 0;
+		arrTitle{wpt_id}[iStart+i] = SafeGetElem{wpt_id}(items,i,"title");
+		arrDesc{wpt_id}[iStart+i] = SafeGetElem{wpt_id}(items,i,"description");
+		arrLink{wpt_id}[iStart+i] = SafeGetElem{wpt_id}(items,i,"link");
+		arrDesc{wpt_id}[iStart+i] = arrDesc{wpt_id}[iStart+i].replace(/\"/ig,"'");
+		arrTitle{wpt_id}[iStart+i] = arrTitle{wpt_id}[iStart+i].replace(/\"/ig,"'");
+		arrDesc{wpt_id}[iStart+i] = arrDesc{wpt_id}[iStart+i].replace(/\\/ig,"/");
+		arrTitle{wpt_id}[iStart+i] = arrTitle{wpt_id}[iStart+i].replace(/\\/ig,"/");
+   	}
+	showNewsReel{wpt_id}();
+}
+
+function reload{wpt_id}()
+{
+	arrDesc{wpt_id} = new Array();
+	arrLink{wpt_id} = new Array();
+	arrType{wpt_id} = new Array();
+	arrTitle{wpt_id} = new Array();
+	document.frames("RSScontent{wpt_id}").document.open();
+	document.frames("RSScontent{wpt_id}").document.write('<ht'+'ml>'+'<he'+'ad><me'+'ta http-equiv="Content-Type" content="text/html; $=<TEXTLINE(comm_l{lang}.txt,CODEPAGE=)>;"></he'+'ad>'+'<bo'+'dy $=<IF:$=<PAR:BEYE_TRANSP>==1?style="background-color: transparent;"/IF> $=<IF:$=<PAR:BEYE_TRANSP>==0?bgcolor=$=<PAR:CLN_BG>/IF> >'+"<div align=center valign=top style='font-size:10px;font-family:verdana, arial, helvetica, sans-serif;'>$=<TEXTLINE(comm_l{lang}.txt,Loading=)>...</div>"+'</bo'+'dy></ht'+'ml>');
+	document.frames("RSScontent{wpt_id}").document.close();
+	if("$=<PAR:TEXT_PREF>"!=""){
+		loadXML{wpt_id}("$=<PAR:TEXT_PREF>",formatRSS{wpt_id});
+	}
+	if("$=<PAR:TEXT_PREF2>"!=""){
+		loadXML{wpt_id}("$=<PAR:TEXT_PREF2>",formatRSS{wpt_id});
+	}
+	if("$=<PAR:TEXT_PREF3>"!=""){
+		loadXML{wpt_id}("$=<PAR:TEXT_PREF3>",formatRSS{wpt_id});
+	}
+}
+
+function setminiTitle{wpt_id}()
+{
+	var NewsTitle='';
+	for(var idx = 0; idx < arrType{wpt_id}.length; idx++ ) {
+		if(arrType{wpt_id}[idx]==1){
+			NewsTitle+=arrTitle{wpt_id}[idx]+"; ";
+		}
+	}
+	document.all['miniTitle{wpt_id}'].innerText=NewsTitle;
+}
+
+function switchLays{wpt_id}()
+{
+	if (document.all['RSScontent{wpt_id}'].style.display!=''){
+		document.all['RSSmini{wpt_id}'].style.display='none';
+		document.all['RSScontent{wpt_id}'].style.display='';
+	}else{
+		document.all['RSSmini{wpt_id}'].style.display='';
+		document.all['RSScontent{wpt_id}'].style.display='none';
+		reload{wpt_id}();
+	}
+	return false;
+}
+reload{wpt_id}();
+</script>
+{/wp:body}

@@ -1,0 +1,93 @@
+;Codificación de página
+CODEPAGE=charset=iso-8859-1
+
+;Cadena 'Hoy'
+YouAreHere=Hoy
+
+;Los meses
+January=Enero
+February=Febrero
+March=Marzo
+April=Abril
+May=Mayo
+June=Junio
+July=Julio
+August=Agosto
+September=Septiembre
+October=Octubre
+November=Noviembre
+December=Diciembre
+
+;Los días de la semana
+Monday=Lunes
+Tuesday=Martes
+Wednesday=Miércoles
+Thursday=Jueves
+Friday=Viernes
+Saturday=Sábado
+Sunday=Domingo
+
+;Nombres cortos de los días de la semana
+Mon=Lu
+Tue=Ma
+Wed=Mi
+Thu=Ju
+Fri=Vi
+Sat=Sa
+Sun=Do
+
+;Cadenas de uso común
+NoImage=Sin imagen
+NoConnection=Sin conexión
+WebCamera=Cámara web
+WeatherReport=Reporte del clima
+TODO=PENDIENTE
+Click_here_Weather=Haga click acá para ir al sitio Web del clima
+Click_here_Site=Haga click acá para ir al sitio Web
+Remains=Falta
+Search=Buscar
+Translate=Traducir
+Refresh=Actualizar
+Loading=Cargando
+Click_for4Months=Haga click para desplegar calendario para 4 meses
+Anecdote=Anécdota
+ShowNews=Mostrar Noticias
+Minimize=Minimizar
+PrefsNotDefined=Defina las preferencias para la plantilla por favor!
+BuyNow=Comprar ahora!
+
+SetNextWallpaper=Fijar tapiz siguiente
+SetPrevWallpaper=Fijar tapiz anterior
+SetRandWallpaper=Fijar tapiz al azar
+SetAsWallpaper=Fijar como tapiz
+SwitchOnOff=Detener/Iniciar cambio automático
+Unregistered=Versión demo - Por favor registre WireChanger
+Unlim20=Ilimitado ($29)
+FreeWeek=1 semana (Gratis)
+UploadImage=Una clave gratis se le dará a cambio de uno de sus tapices
+
+WPE_Title=Servicio de intercambio de tapices.
+WPE_Instructions=Escoja uno de sus tapices usando el botón 'Explorar'&lt;br&gt;Escriba su nombre y el título de la imagen y haga click en el botón 'Intercambio!'.
+WPE_InstructionsContest=Escoja uno de sus tapices desde el disco&lt;br&gt;Escriba su nombre y el título de la imagen y haga click en el botón 'Intercambio!'.<br><font color=red>Usted recibirá su clave gratuita de registro en la siguiente pantalla.</font>
+WPE_YName=Su&nbsp;nombre
+WPE_ITitle=Título&nbsp;de&nbsp;la&nbsp;imagen
+WPE_Comms=Comentarios
+WPE_IFile=Archivo&nbsp;de&nbsp;imagen
+WPE_Note=Nota: La resolución de la imagen debe ser 1024*768 píxeles o mayor; el tamaño del archivo de imagen debe ser menor de <b>1000Kb</b>. La imagen debe estar en formato <b>jpg, gif o png</b>.
+WPE_Button=Intercambio!
+WPE_RecentImages=Cargas recientes de otros usuarios de WireChanger.<br>Haga click en la imagen para abrirla en 'Tamaño real' en una ventana nueva.
+WPE_OSDesc=Haga click acá para abrir nuestro archivo de tapices.
+WPE_InProgress=Carga en progreso, por favor espere
+WPE_EnterName=Por favor ingrese su nombre (mínimo 4 caracteres)
+WPE_EnterIPath=Por favor ingrese la ruta del archivo de imagen
+WPE_Confirm=Iniciando carga de su imagen\na cambio de otra\nPresione OK para continuar!
+WPE_UploadStarted=Se ha iniciado la carga de su imagen. Por favor espere, esto podría tomar varios minutos dependiendo de la velocidad de su conexión a Internet
+WPE_NoConnection=Advertencia: http://www.wiredplane.com/ es inaccesible.\nAlgunas características podrían no funcionar apropiadamente
+WPE_OrBuyNow=Ordene clave de registro completo visitando <a href="http://www.wiredplane.com/cgi-bin/wp_engine.php?target=vendor&who=WireChangerExchange">este enlace</a>. El registro desbloqueará todas las características de WireChanger. Usted obtendrá su clave inmediatamente. El procedimiento de registro es seguro y rápido, usted puede <a href="http://www.wiredplane.com/cgi-bin/wp_engine.php?target=vendor&who=WireChangerExchange">iniciarlo justo ahora</a>!
+WPE_Feedback=Si usted desea sugerir una característica o encontró un error, siéntase libre para contactarnos usando <a href="http://www.wiredplane.com/guestbook.shtml">este formulario de contacto</a> (en inglés).
+WebSiteNotFound=Error al cargar información - sitio web no accesible
+WPE_WrongImage=La imagen es demasiado pequeña
+
+CTD_Days_today=Hoy!
+CTD_Days_ago=Fue hace %s día(s)
+CTD_Days_left=Falta(n) %s día(s)

@@ -1,0 +1,14 @@
+; Pickers.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Pickers"
+DESCRIPTION  'Pickers Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+GetDate
+EditNote
+EditHoliday
+EditRHoliday
+Show4Months
+GetApplicationLang
+GetDateX

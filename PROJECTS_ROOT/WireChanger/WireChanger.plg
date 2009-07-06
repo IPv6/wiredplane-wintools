@@ -1,0 +1,2531 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Pickers - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Pickers.res" /d "NDEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\Pickers.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5AA.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/Pickers.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\CalendarDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\CalendarDlg2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\MonthCalCtrlEx.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\Pickers.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\PrivateProfile.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5AA.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5AB.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/Pickers.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5AB.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5AC.tmp" with contents
+[
+/nologo /subsystem:windows /dll /pdb:none /machine:I386 /def:".\Pickers.def" /out:"\_WPLabs\_Installers\WireChanger\Template\Pickers.dll" /implib:"Release/Pickers.lib" 
+.\Release\CalendarDlg.obj
+.\Release\CalendarDlg2.obj
+.\Release\DataXMLSaver.obj
+.\Release\MonthCalCtrlEx.obj
+.\Release\Pickers.obj
+.\Release\PrivateProfile.obj
+.\Release\ResizeableDialog.obj
+.\Release\StdAfx.obj
+.\Release\SupportClasses.obj
+.\Release\SupportClasses_m1.obj
+.\Release\Pickers.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5AC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CalendarDlg.cpp
+CalendarDlg2.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+MonthCalCtrlEx.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+Pickers.cpp
+PrivateProfile.cpp
+--- H: XML Data saver: hotkey support disabled ---
+ResizeableDialog.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+--- H: XML Data saver: hotkey support disabled ---
+Linking...
+   Creating library Release/Pickers.lib and object Release/Pickers.exp
+
+
+
+<h3>Results</h3>
+Pickers.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Pickers - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/Pickers.res" /d "_DEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\Pickers.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Pickers.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\CalendarDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\CalendarDlg2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\MonthCalCtrlEx.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\Pickers.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\PrivateProfile.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B1.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Pickers.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B2.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B3.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/Pickers.pdb" /debug /machine:I386 /def:".\Pickers.def" /out:"..\Debug\Template\Pickers.dll" /implib:"Debug/Pickers.lib" /pdbtype:sept 
+.\Debug\CalendarDlg.obj
+.\Debug\CalendarDlg2.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\MonthCalCtrlEx.obj
+.\Debug\Pickers.obj
+.\Debug\PrivateProfile.obj
+.\Debug\ResizeableDialog.obj
+.\Debug\StdAfx.obj
+.\Debug\SupportClasses.obj
+.\Debug\SupportClasses_m1.obj
+.\Debug\Pickers.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CalendarDlg.cpp
+CalendarDlg2.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+MonthCalCtrlEx.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+Pickers.cpp
+PrivateProfile.cpp
+--- H: XML Data saver: hotkey support disabled ---
+ResizeableDialog.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+--- H: XML Data saver: hotkey support disabled ---
+Linking...
+   Creating library Debug/Pickers.lib and object Debug/Pickers.exp
+
+
+
+<h3>Results</h3>
+Pickers.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Stuff - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B7.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "Stuff_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/Stuff.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\checksum.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\EXECryptor.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Stuff\LikStub.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\Stdlik.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Stuff\Stuff.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B7.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B8.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "Stuff_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\md5.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B8.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B9.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "Stuff_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/Stuff.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Stuff\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5B9.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5BA.tmp" with contents
+[
+/nologo /dll /pdb:none /machine:I386 /def:".\Stuff.def" /out:"\_WPLabs\_Installers\WireChanger\Stuff.cml" /implib:"Release/Stuff.lib" 
+.\Release\checksum.obj
+.\Release\DataXMLSaver.obj
+.\Release\EXECryptor.obj
+.\Release\LikStub.obj
+.\Release\md5.obj
+.\Release\StdAfx.obj
+.\Release\Stdlik.obj
+.\Release\Stuff.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5BA.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+checksum.cpp
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+EXECryptor.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+LikStub.cpp
+Stdlik.cpp
+Stuff.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+Compiling...
+md5.c
+Linking...
+   Creating library Release/Stuff.lib and object Release/Stuff.exp
+
+
+
+<h3>Results</h3>
+Stuff.cml - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Stuff - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5BE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "Stuff_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Stuff.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\checksum.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\EXECryptor.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Stuff\LikStub.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\Stdlik.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Stuff\Stuff.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5BE.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5BF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "Stuff_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\md5.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5BF.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "Stuff_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Stuff.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Stuff\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C0.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C1.tmp" with contents
+[
+/nologo /dll /incremental:yes /pdb:"Debug/Stuff.pdb" /debug /machine:I386 /def:".\Stuff.def" /out:"..\Debug\Stuff.cml" /implib:"Debug/Stuff.lib" /pdbtype:sept 
+.\Debug\checksum.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\EXECryptor.obj
+.\Debug\LikStub.obj
+.\Debug\md5.obj
+.\Debug\StdAfx.obj
+.\Debug\Stdlik.obj
+.\Debug\Stuff.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C1.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+checksum.cpp
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+EXECryptor.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+LikStub.cpp
+Stdlik.cpp
+Stuff.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+Compiling...
+md5.c
+Linking...
+   Creating library Debug/Stuff.lib and object Debug/Stuff.exp
+
+
+
+<h3>Results</h3>
+Stuff.cml - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Uniquer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Uniquer.res" /d "NDEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\Uniquer.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C5.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/Uniquer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\Uniquer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C5.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C6.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C6.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C7.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/Uniquer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C7.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C8.tmp" with contents
+[
+/nologo /subsystem:windows /dll /pdb:none /machine:I386 /def:".\Uniquer.def" /out:"\_WPLabs\_Installers\WireChanger\Uniquer.cml" /implib:"Release/Uniquer.lib" 
+.\Release\BMPUtil.obj
+.\Release\DataXMLSaver.obj
+.\Release\DelayLoadFuncs.obj
+.\Release\Dib.obj
+.\Release\SmartWndSizer.obj
+.\Release\StdAfx.obj
+.\Release\SupportClasses.obj
+.\Release\SupportClasses_m1.obj
+.\Release\Uniquer.obj
+.\Release\Uniquer.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5C8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BMPUtil.cpp
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DelayLoadFuncs.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+Dib.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Uniquer.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+--- H: XML Data saver: hotkey support disabled ---
+Compiling...
+SmartWndSizer.cpp
+Linking...
+   Creating library Release/Uniquer.lib and object Release/Uniquer.exp
+
+
+
+<h3>Results</h3>
+Uniquer.cml - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Uniquer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/Uniquer.res" /d "_DEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\Uniquer.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5CC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Uniquer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\Uniquer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5CC.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5CD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5CD.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5CE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Uniquer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5CE.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5CF.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/Uniquer.pdb" /debug /machine:I386 /def:".\Uniquer.def" /out:"..\Debug\Uniquer.cml" /implib:"Debug/Uniquer.lib" /pdbtype:sept 
+.\Debug\BMPUtil.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\DelayLoadFuncs.obj
+.\Debug\Dib.obj
+.\Debug\SmartWndSizer.obj
+.\Debug\StdAfx.obj
+.\Debug\SupportClasses.obj
+.\Debug\SupportClasses_m1.obj
+.\Debug\Uniquer.obj
+.\Debug\Uniquer.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5CF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BMPUtil.cpp
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DelayLoadFuncs.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+Dib.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Uniquer.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+--- H: XML Data saver: hotkey support disabled ---
+Compiling...
+SmartWndSizer.cpp
+Linking...
+   Creating library Debug/Uniquer.lib and object Debug/Uniquer.exp
+
+
+
+<h3>Results</h3>
+Uniquer.cml - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: WCDesknote - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5D3.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "WCDESKNOTE_EXPORTS" /Fp"Release/WCDesknote.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCDesknote\WCDesknote.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5D3.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5D4.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "WCDESKNOTE_EXPORTS" /Fp"Release/WCDesknote.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCDesknote\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5D4.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5D5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /pdb:none /machine:I386 /def:".\WCDesknote.def" /out:"\_WPLabs\_Installers\WireChanger\WCDesknote.cml" /implib:"Release/WCDesknote.lib" 
+.\Release\StdAfx.obj
+.\Release\WCDesknote.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5D5.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+WCDesknote.cpp
+Linking...
+   Creating library Release/WCDesknote.lib and object Release/WCDesknote.exp
+
+
+
+<h3>Results</h3>
+WCDesknote.cml - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: WCDesknote - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5D9.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "WCDESKNOTE_EXPORTS" /FR"Debug/" /Fp"Debug/WCDesknote.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCDesknote\WCDesknote.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5D9.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5DA.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "WCDESKNOTE_EXPORTS" /FR"Debug/" /Fp"Debug/WCDesknote.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCDesknote\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5DA.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5DB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/WCDesknote.pdb" /debug /machine:I386 /def:".\WCDesknote.def" /out:"..\Debug\WCDesknote.cml" /implib:"Debug/WCDesknote.lib" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\WCDesknote.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5DB.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+WCDesknote.cpp
+Linking...
+   Creating library Debug/WCDesknote.lib and object Debug/WCDesknote.exp
+
+
+
+<h3>Results</h3>
+WCDesknote.cml - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: WCEnliver - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/WCEnliver.res" /d "NDEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\WCEnliver.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5DF.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /I "\Program Files X\DX90SDK\Include" /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/WCEnliver.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\DLG_Options.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\IEnliver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\WCEnliver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5DF.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E0.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /I "\Program Files X\DX90SDK\Include" /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/WCEnliver.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E0.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E1.tmp" with contents
+[
+/nologo /subsystem:windows /dll /pdb:none /machine:I386 /def:".\WCEnliver.def" /out:"\_WPLabs\_Installers\WireChanger\WCEnliver.cml" /implib:"Release/WCEnliver.lib" 
+.\Release\Dib.obj
+.\Release\DLG_Options.obj
+.\Release\IEnliver.obj
+.\Release\image.obj
+.\Release\overlay.obj
+.\Release\StdAfx.obj
+.\Release\WCEnliver.obj
+.\Release\WCEnliver.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Dib.cpp
+DLG_Options.cpp
+IEnliver.cpp
+image.cpp
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp(150) : warning C4018: '<' : signed/unsigned mismatch
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp(174) : warning C4018: '<' : signed/unsigned mismatch
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp(174) : warning C4018: '<' : signed/unsigned mismatch
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp(181) : warning C4018: '<' : signed/unsigned mismatch
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp(181) : warning C4018: '<' : signed/unsigned mismatch
+overlay.cpp
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(20) : error C2143: syntax error : missing ';' before '*'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(20) : error C2501: 'IDirectDraw7' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(20) : error C2501: 'ddraw' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(21) : error C2143: syntax error : missing ';' before '*'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(21) : error C2501: 'IDirectDrawSurface7' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(21) : error C2501: 'primary' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(22) : error C2143: syntax error : missing ';' before '*'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(22) : error C2501: 'IDirectDrawSurface7' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(22) : error C2086: 'IDirectDrawSurface7' : redefinition
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(22) : error C2501: 'overlay' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(23) : error C2143: syntax error : missing ';' before '*'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(23) : error C2501: 'IDirectDrawSurface7' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(23) : error C2086: 'IDirectDrawSurface7' : redefinition
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(23) : error C2501: 'backbuffer' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(27) : error C2065: 'surface' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : error C2275: 'COLORREF' : illegal use of this type as an expression
+        C:\Program Files\_Dev\_Dev\Microsoft Visual Studio 6.0\VC98\INCLUDE\windef.h(281) : see declaration of 'COLORREF'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : error C2146: syntax error : missing ')' before identifier 'rgb'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : error C2078: too many initializers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : error C2275: 'COLORREF' : illegal use of this type as an expression
+        C:\Program Files\_Dev\_Dev\Microsoft Visual Studio 6.0\VC98\INCLUDE\windef.h(281) : see declaration of 'COLORREF'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : error C2059: syntax error : ')'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(98) : error C2065: 'IID_IDirectDraw7' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(104) : error C2227: left of '->SetCooperativeLevel' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(128) : error C2227: left of '->Release' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(134) : error C2227: left of '->Release' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(146) : error C2065: 'DDSURFACEDESC2' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(146) : error C2146: syntax error : missing ';' before identifier 'ddsd'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(146) : error C2065: 'ddsd' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(156) : error C2228: left of '.dwSize' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(157) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(158) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(158) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(159) : error C2227: left of '->CreateSurface' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(174) : error C2227: left of '->GetCaps' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(269) : error C2065: 'MAKEFOURCC' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(279) : error C2146: syntax error : missing ';' before identifier 'ddsdOverlay'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(279) : error C2065: 'ddsdOverlay' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(281) : error C2228: left of '.dwSize' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(282) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(282) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(283) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(284) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(285) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(286) : error C2228: left of '.dwBackBufferCount' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(287) : error C2228: left of '.dwAlphaBitDepth' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(292) : error C2228: left of '.ddpfPixelFormat' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(293) : error C2227: left of '->CreateSurface' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(312) : error C2065: 'DDSCAPS2' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(312) : error C2146: syntax error : missing ';' before identifier 'caps'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(312) : error C2065: 'caps' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(313) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(314) : error C2228: left of '.dwCaps2' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(314) : error C2228: left of '.dwCaps3' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(314) : error C2228: left of '.dwCaps4' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(315) : error C2227: left of '->GetAttachedSurface' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(320) : error C2064: term does not evaluate to a function
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(330) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(456) : error C2227: left of '->Release' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(465) : error C2227: left of '->UpdateOverlay' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(466) : error C2227: left of '->Release' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2275: 'COLORREF' : illegal use of this type as an expression
+        C:\Program Files\_Dev\_Dev\Microsoft Visual Studio 6.0\VC98\INCLUDE\windef.h(281) : see declaration of 'COLORREF'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2146: syntax error : missing ')' before identifier 'rgb'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2374: 'GetPixelValue' : redefinition; multiple initialization
+        Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : see declaration of 'GetPixelValue'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2078: too many initializers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2275: 'COLORREF' : illegal use of this type as an expression
+        C:\Program Files\_Dev\_Dev\Microsoft Visual Studio 6.0\VC98\INCLUDE\windef.h(281) : see declaration of 'COLORREF'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2059: syntax error : ')'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(474) : error C2143: syntax error : missing ';' before '{'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(474) : error C2447: missing function header (old-style formal list?)
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(558) : error C2227: left of '->UpdateOverlay' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(568) : error C2373: 'UpdateOverlay' : redefinition; different type modifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(570) : error C2227: left of '->IsLost' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(581) : error C2064: term does not evaluate to a function
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(584) : error C2227: left of '->Flip' must point to class/struct/union
+WCEnliver.cpp
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+WCEnliver.cml - 72 error(s), 5 warning(s)
+<h3>
+--------------------Configuration: WCEnliver - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/WCEnliver.res" /d "_DEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\WCEnliver.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "\Program Files X\DX90SDK\Include" /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/WCEnliver.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\DLG_Options.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\IEnliver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\WCEnliver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E2.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "\Program Files X\DX90SDK\Include" /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/WCEnliver.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E3.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E4.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/WCEnliver.pdb" /debug /machine:I386 /def:".\WCEnliver.def" /out:"..\Debug\WCEnliver.cml" /implib:"Debug/WCEnliver.lib" /pdbtype:sept 
+.\Debug\Dib.obj
+.\Debug\DLG_Options.obj
+.\Debug\IEnliver.obj
+.\Debug\image.obj
+.\Debug\overlay.obj
+.\Debug\StdAfx.obj
+.\Debug\WCEnliver.obj
+.\Debug\WCEnliver.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Dib.cpp
+DLG_Options.cpp
+IEnliver.cpp
+image.cpp
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp(150) : warning C4018: '<' : signed/unsigned mismatch
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp(174) : warning C4018: '<' : signed/unsigned mismatch
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp(174) : warning C4018: '<' : signed/unsigned mismatch
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp(181) : warning C4018: '<' : signed/unsigned mismatch
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\image.cpp(181) : warning C4018: '<' : signed/unsigned mismatch
+overlay.cpp
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(20) : error C2143: syntax error : missing ';' before '*'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(20) : error C2501: 'IDirectDraw7' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(20) : error C2501: 'ddraw' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(21) : error C2143: syntax error : missing ';' before '*'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(21) : error C2501: 'IDirectDrawSurface7' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(21) : error C2501: 'primary' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(22) : error C2143: syntax error : missing ';' before '*'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(22) : error C2501: 'IDirectDrawSurface7' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(22) : error C2086: 'IDirectDrawSurface7' : redefinition
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(22) : error C2501: 'overlay' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(23) : error C2143: syntax error : missing ';' before '*'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(23) : error C2501: 'IDirectDrawSurface7' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(23) : error C2086: 'IDirectDrawSurface7' : redefinition
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(23) : error C2501: 'backbuffer' : missing storage-class or type specifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(27) : error C2065: 'surface' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : error C2275: 'COLORREF' : illegal use of this type as an expression
+        c:\program files\_dev\_dev\microsoft visual studio 6.0\vc98\include\windef.h(281) : see declaration of 'COLORREF'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : error C2146: syntax error : missing ')' before identifier 'rgb'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : error C2078: too many initializers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : error C2275: 'COLORREF' : illegal use of this type as an expression
+        c:\program files\_dev\_dev\microsoft visual studio 6.0\vc98\include\windef.h(281) : see declaration of 'COLORREF'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : error C2059: syntax error : ')'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(98) : error C2065: 'IID_IDirectDraw7' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(104) : error C2227: left of '->SetCooperativeLevel' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(128) : error C2227: left of '->Release' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(134) : error C2227: left of '->Release' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(146) : error C2065: 'DDSURFACEDESC2' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(146) : error C2146: syntax error : missing ';' before identifier 'ddsd'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(146) : error C2065: 'ddsd' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(156) : error C2228: left of '.dwSize' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(157) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(158) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(158) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(159) : error C2227: left of '->CreateSurface' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(174) : error C2227: left of '->GetCaps' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(269) : error C2065: 'MAKEFOURCC' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(279) : error C2146: syntax error : missing ';' before identifier 'ddsdOverlay'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(279) : error C2065: 'ddsdOverlay' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(281) : error C2228: left of '.dwSize' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(282) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(282) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(283) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(284) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(285) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(286) : error C2228: left of '.dwBackBufferCount' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(287) : error C2228: left of '.dwAlphaBitDepth' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(292) : error C2228: left of '.ddpfPixelFormat' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(293) : error C2227: left of '->CreateSurface' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(312) : error C2065: 'DDSCAPS2' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(312) : error C2146: syntax error : missing ';' before identifier 'caps'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(312) : error C2065: 'caps' : undeclared identifier
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(313) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(314) : error C2228: left of '.dwCaps2' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(314) : error C2228: left of '.dwCaps3' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(314) : error C2228: left of '.dwCaps4' must have class/struct/union type
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(315) : error C2227: left of '->GetAttachedSurface' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(320) : error C2064: term does not evaluate to a function
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(330) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(456) : error C2227: left of '->Release' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(465) : error C2227: left of '->UpdateOverlay' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(466) : error C2227: left of '->Release' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2275: 'COLORREF' : illegal use of this type as an expression
+        c:\program files\_dev\_dev\microsoft visual studio 6.0\vc98\include\windef.h(281) : see declaration of 'COLORREF'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2146: syntax error : missing ')' before identifier 'rgb'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2374: 'GetPixelValue' : redefinition; multiple initialization
+        Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(28) : see declaration of 'GetPixelValue'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2078: too many initializers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2275: 'COLORREF' : illegal use of this type as an expression
+        c:\program files\_dev\_dev\microsoft visual studio 6.0\vc98\include\windef.h(281) : see declaration of 'COLORREF'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(473) : error C2059: syntax error : ')'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(474) : error C2143: syntax error : missing ';' before '{'
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(474) : error C2447: missing function header (old-style formal list?)
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(558) : error C2227: left of '->UpdateOverlay' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(568) : error C2373: 'UpdateOverlay' : redefinition; different type modifiers
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(570) : error C2227: left of '->IsLost' must point to class/struct/union
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(581) : error C2064: term does not evaluate to a function
+Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCEnliver\overlay.cpp(584) : error C2227: left of '->Flip' must point to class/struct/union
+WCEnliver.cpp
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+WCEnliver.cml - 72 error(s), 5 warning(s)
+<h3>
+--------------------Configuration: WCRemind - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/WCRemind.res" /d "NDEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\WCRemind.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E5.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /Fr"Release/" /Fp"Release/WCRemind.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\AlertDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\CalendarDlg2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\DLGEnterNumber.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\FileInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\MonthCalCtrlEx.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\OCalendar.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\PrivateProfile.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\WCRemind.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WMDateCtrl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WVCellData.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WVCellDataItem.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E5.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E6.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /Fr"Release/" /Fp"Release/WCRemind.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E6.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E7.tmp" with contents
+[
+msimg32.lib /nologo /subsystem:windows /dll /pdb:none /machine:I386 /def:".\WCRemind.def" /out:"\_WPLabs\_Installers\WireChanger\WCRemind.cml" /implib:"Release/WCRemind.lib" 
+.\Release\AlertDialog.obj
+.\Release\BMPUtil.obj
+.\Release\CalendarDlg2.obj
+.\Release\DataXMLSaver.obj
+.\Release\DelayLoadFuncs.obj
+.\Release\DLGEnterNumber.obj
+.\Release\FileInfo.obj
+.\Release\MonthCalCtrlEx.obj
+.\Release\OCalendar.obj
+.\Release\PrivateProfile.obj
+.\Release\ResizeableDialog.obj
+.\Release\StdAfx.obj
+.\Release\SupportClasses.obj
+.\Release\SupportClasses_m1.obj
+.\Release\WCRemind.obj
+.\Release\WMDateCtrl.obj
+.\Release\WVCellData.obj
+.\Release\WVCellDataItem.obj
+.\Release\WCRemind.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5E7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AlertDialog.cpp
+BMPUtil.cpp
+--- H: XML Data saver: hotkey support disabled ---
+CalendarDlg2.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DelayLoadFuncs.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+DLGEnterNumber.cpp
+FileInfo.cpp
+--- H: XML Data saver: hotkey support disabled ---
+MonthCalCtrlEx.cpp
+OCalendar.cpp
+PrivateProfile.cpp
+--- H: XML Data saver: hotkey support disabled ---
+ResizeableDialog.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+WCRemind.cpp
+--- H: XML Data saver: hotkey support disabled ---
+WMDateCtrl.cpp
+--- H: XML Data saver: hotkey support disabled ---
+WVCellData.cpp
+WVCellDataItem.cpp
+Generating Code...
+Linking...
+   Creating library Release/WCRemind.lib and object Release/WCRemind.exp
+
+
+
+<h3>Results</h3>
+WCRemind.cml - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: WCRemind - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/WCRemind.res" /d "_DEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\WCRemind.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5EB.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /FR"Debug/" /Fp"Debug/WCRemind.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\AlertDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\CalendarDlg2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\DLGEnterNumber.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\FileInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\MonthCalCtrlEx.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\OCalendar.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\PrivateProfile.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\WCRemind.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WMDateCtrl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WVCellData.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WVCellDataItem.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5EB.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5EC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /FR"Debug/" /Fp"Debug/WCRemind.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5EC.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5ED.tmp" with contents
+[
+msimg32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/WCRemind.pdb" /debug /machine:I386 /def:".\WCRemind.def" /out:"..\Debug\WCRemind.cml" /implib:"Debug/WCRemind.lib" /pdbtype:sept 
+.\Debug\AlertDialog.obj
+.\Debug\BMPUtil.obj
+.\Debug\CalendarDlg2.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\DelayLoadFuncs.obj
+.\Debug\DLGEnterNumber.obj
+.\Debug\FileInfo.obj
+.\Debug\MonthCalCtrlEx.obj
+.\Debug\OCalendar.obj
+.\Debug\PrivateProfile.obj
+.\Debug\ResizeableDialog.obj
+.\Debug\StdAfx.obj
+.\Debug\SupportClasses.obj
+.\Debug\SupportClasses_m1.obj
+.\Debug\WCRemind.obj
+.\Debug\WMDateCtrl.obj
+.\Debug\WVCellData.obj
+.\Debug\WVCellDataItem.obj
+.\Debug\WCRemind.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5ED.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AlertDialog.cpp
+BMPUtil.cpp
+--- H: XML Data saver: hotkey support disabled ---
+CalendarDlg2.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DelayLoadFuncs.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+DLGEnterNumber.cpp
+FileInfo.cpp
+--- H: XML Data saver: hotkey support disabled ---
+MonthCalCtrlEx.cpp
+OCalendar.cpp
+PrivateProfile.cpp
+--- H: XML Data saver: hotkey support disabled ---
+ResizeableDialog.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+WCRemind.cpp
+--- H: XML Data saver: hotkey support disabled ---
+WMDateCtrl.cpp
+--- H: XML Data saver: hotkey support disabled ---
+WVCellData.cpp
+WVCellDataItem.cpp
+Generating Code...
+Linking...
+   Creating library Debug/WCRemind.lib and object Debug/WCRemind.exp
+
+
+
+<h3>Results</h3>
+WCRemind.cml - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: WCSaver - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Release/WCSaver.res" /d "NDEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCSaver\WCSaver.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F1.tmp" with contents
+[
+/nologo /ML /W3 /GX /Od /D "NOSTUB_VC6" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCSaver\WCSaver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F1.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F2.tmp" with contents
+[
+comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /pdb:none /machine:I386 /out:"\_WPLabs\_Installers\WireChanger\Wired_Screensaver.exe" 
+.\Release\WCSaver.obj
+.\Release\WCSaver.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+WCSaver.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Wired_Screensaver.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: WCSaver - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Debug/WCSaver.res" /d "_DEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCSaver\WCSaver.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F4.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCSaver\WCSaver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F4.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Wired_Screensaver.pdb" /debug /machine:I386 /out:"..\Debug\Wired_Screensaver.exe" /pdbtype:sept 
+.\Debug\WCSaver.obj
+.\Debug\WCSaver.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+WCSaver.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Wired_Screensaver.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: WebBrowserDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/WebBrowserDlg.res" /d "NDEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlg.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F7.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/WebBrowserDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\Atl\crt_common.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\Atl\crt_cstring.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\CustomMenus.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\Custsite.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\Idispimp.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\webbrowser2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlgDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F7.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F8.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/WebBrowserDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F8.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Html_forms.pdb" /machine:I386 /out:"\_WPLabs\_Installers\WireChanger\Html_forms.exe" 
+.\Release\crt_common.obj
+.\Release\crt_cstring.obj
+.\Release\CustomMenus.obj
+.\Release\Custsite.obj
+.\Release\Idispimp.obj
+.\Release\ResizeableDialog.obj
+.\Release\StdAfx.obj
+.\Release\webbrowser2.obj
+.\Release\WebBrowserDlg.obj
+.\Release\WebBrowserDlgDlg.obj
+.\Release\WebBrowserDlg.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5F9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+crt_common.cpp
+crt_cstring.cpp
+CustomMenus.cpp
+Custsite.cpp
+Idispimp.cpp
+ResizeableDialog.cpp
+webbrowser2.cpp
+WebBrowserDlg.cpp
+WebBrowserDlgDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Html_forms.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: WebBrowserDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/WebBrowserDlg.res" /d "_DEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlg.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5FB.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/WebBrowserDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\Atl\crt_common.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\Atl\crt_cstring.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\CustomMenus.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\Custsite.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\Idispimp.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\webbrowser2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlgDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5FB.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5FC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/WebBrowserDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5FC.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5FD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Html_forms.pdb" /debug /machine:I386 /out:"..\Debug\Html_forms.exe" /pdbtype:sept 
+.\Debug\crt_common.obj
+.\Debug\crt_cstring.obj
+.\Debug\CustomMenus.obj
+.\Debug\Custsite.obj
+.\Debug\Idispimp.obj
+.\Debug\ResizeableDialog.obj
+.\Debug\StdAfx.obj
+.\Debug\webbrowser2.obj
+.\Debug\WebBrowserDlg.obj
+.\Debug\WebBrowserDlgDlg.obj
+.\Debug\WebBrowserDlg.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5FD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+crt_common.cpp
+crt_cstring.cpp
+CustomMenus.cpp
+Custsite.cpp
+Idispimp.cpp
+ResizeableDialog.cpp
+webbrowser2.cpp
+WebBrowserDlg.cpp
+WebBrowserDlgDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Html_forms.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: WCDesknote - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP5FF.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "WCDESKNOTE_EXPORTS" /Fp"Release/WCDesknote.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCDesknote\WCDesknote.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP5FF.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP600.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "WCDESKNOTE_EXPORTS" /Fp"Release/WCDesknote.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCDesknote\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP600.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP601.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /pdb:none /machine:I386 /def:".\WCDesknote.def" /out:"\_WPLabs\_Installers\WireChanger\WCDesknote.cml" /implib:"Release/WCDesknote.lib" 
+.\Release\StdAfx.obj
+.\Release\WCDesknote.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP601.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+WCDesknote.cpp
+Linking...
+   Creating library Release/WCDesknote.lib and object Release/WCDesknote.exp
+<h3>
+--------------------Configuration: glprim - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/glprim.res" /d "NDEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glprim\glprim.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP605.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/glprim.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glprim\GlGener.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glprim\glprim.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glprim\IEffects.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\InternetUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\xml\XMLite.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP605.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP606.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP606.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP607.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/glprim.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glprim\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP607.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP608.tmp" with contents
+[
+/nologo /subsystem:windows /dll /pdb:none /machine:I386 /def:".\glprim.def" /out:"\_WPLabs\_Installers\WireChanger\Template\EasyDraw.dll" /implib:"Release/EasyDraw.lib" 
+.\Release\BMPUtil.obj
+.\Release\DataXMLSaver.obj
+.\Release\DelayLoadFuncs.obj
+.\Release\Dib.obj
+.\Release\GlGener.obj
+.\Release\glprim.obj
+.\Release\IEffects.obj
+.\Release\InternetUtils.obj
+.\Release\SmartWndSizer.obj
+.\Release\StdAfx.obj
+.\Release\SupportClasses.obj
+.\Release\SupportClasses_m1.obj
+.\Release\XMLite.obj
+.\Release\glprim.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP608.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BMPUtil.cpp
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DelayLoadFuncs.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+Dib.cpp
+GlGener.cpp
+glprim.cpp
+IEffects.cpp
+--- H: XML Data saver: hotkey support disabled ---
+InternetUtils.cpp
+--- H: XML Data saver: hotkey support disabled ---
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+XMLite.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+Compiling...
+SmartWndSizer.cpp
+Linking...
+   Creating library Release/EasyDraw.lib and object Release/EasyDraw.exp
+EasyDraw.exp : warning LNK4070: /OUT:glprim.dll directive in .EXP differs from output filename "\_WPLabs\_Installers\WireChanger\Template\EasyDraw.dll"; ignoring directive
+<h3>
+--------------------Configuration: Pickers - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Pickers.res" /d "NDEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\Pickers.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP60C.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/Pickers.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\CalendarDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\CalendarDlg2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\MonthCalCtrlEx.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\Pickers.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\PrivateProfile.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP60C.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP60D.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/Pickers.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP60D.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP60E.tmp" with contents
+[
+/nologo /subsystem:windows /dll /pdb:none /machine:I386 /def:".\Pickers.def" /out:"\_WPLabs\_Installers\WireChanger\Template\Pickers.dll" /implib:"Release/Pickers.lib" 
+.\Release\CalendarDlg.obj
+.\Release\CalendarDlg2.obj
+.\Release\DataXMLSaver.obj
+.\Release\MonthCalCtrlEx.obj
+.\Release\Pickers.obj
+.\Release\PrivateProfile.obj
+.\Release\ResizeableDialog.obj
+.\Release\StdAfx.obj
+.\Release\SupportClasses.obj
+.\Release\SupportClasses_m1.obj
+.\Release\Pickers.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP60E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CalendarDlg.cpp
+CalendarDlg2.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+MonthCalCtrlEx.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+Pickers.cpp
+PrivateProfile.cpp
+--- H: XML Data saver: hotkey support disabled ---
+ResizeableDialog.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+--- H: XML Data saver: hotkey support disabled ---
+Linking...
+   Creating library Release/Pickers.lib and object Release/Pickers.exp
+<h3>
+--------------------Configuration: Uniquer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Uniquer.res" /d "NDEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\Uniquer.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP612.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/Uniquer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\Uniquer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP612.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP613.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP613.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP614.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/Uniquer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP614.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP615.tmp" with contents
+[
+/nologo /subsystem:windows /dll /pdb:none /machine:I386 /def:".\Uniquer.def" /out:"\_WPLabs\_Installers\WireChanger\Uniquer.cml" /implib:"Release/Uniquer.lib" 
+.\Release\BMPUtil.obj
+.\Release\DataXMLSaver.obj
+.\Release\DelayLoadFuncs.obj
+.\Release\Dib.obj
+.\Release\SmartWndSizer.obj
+.\Release\StdAfx.obj
+.\Release\SupportClasses.obj
+.\Release\SupportClasses_m1.obj
+.\Release\Uniquer.obj
+.\Release\Uniquer.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP615.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BMPUtil.cpp
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DelayLoadFuncs.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+Dib.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Uniquer.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+--- H: XML Data saver: hotkey support disabled ---
+Compiling...
+SmartWndSizer.cpp
+Linking...
+   Creating library Release/Uniquer.lib and object Release/Uniquer.exp
+<h3>
+--------------------Configuration: WCSaver - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Release/WCSaver.res" /d "NDEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCSaver\WCSaver.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP619.tmp" with contents
+[
+/nologo /ML /W3 /GX /Od /D "NOSTUB_VC6" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCSaver\WCSaver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP619.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP61A.tmp" with contents
+[
+comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /pdb:none /machine:I386 /out:"\_WPLabs\_Installers\WireChanger\Wired_Screensaver.exe" 
+.\Release\WCSaver.obj
+.\Release\WCSaver.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP61A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+WCSaver.cpp
+Linking...
+<h3>
+--------------------Configuration: WCRemind - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/WCRemind.res" /d "NDEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\WCRemind.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP61C.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /Fr"Release/" /Fp"Release/WCRemind.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\AlertDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\CalendarDlg2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\DLGEnterNumber.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\FileInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\MonthCalCtrlEx.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\OCalendar.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\PrivateProfile.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\WCRemind.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WMDateCtrl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WVCellData.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WVCellDataItem.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP61C.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP61D.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /Fr"Release/" /Fp"Release/WCRemind.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP61D.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP61E.tmp" with contents
+[
+msimg32.lib /nologo /subsystem:windows /dll /pdb:none /machine:I386 /def:".\WCRemind.def" /out:"\_WPLabs\_Installers\WireChanger\WCRemind.cml" /implib:"Release/WCRemind.lib" 
+.\Release\AlertDialog.obj
+.\Release\BMPUtil.obj
+.\Release\CalendarDlg2.obj
+.\Release\DataXMLSaver.obj
+.\Release\DelayLoadFuncs.obj
+.\Release\DLGEnterNumber.obj
+.\Release\FileInfo.obj
+.\Release\MonthCalCtrlEx.obj
+.\Release\OCalendar.obj
+.\Release\PrivateProfile.obj
+.\Release\ResizeableDialog.obj
+.\Release\StdAfx.obj
+.\Release\SupportClasses.obj
+.\Release\SupportClasses_m1.obj
+.\Release\WCRemind.obj
+.\Release\WMDateCtrl.obj
+.\Release\WVCellData.obj
+.\Release\WVCellDataItem.obj
+.\Release\WCRemind.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP61E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AlertDialog.cpp
+BMPUtil.cpp
+--- H: XML Data saver: hotkey support disabled ---
+CalendarDlg2.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DelayLoadFuncs.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+DLGEnterNumber.cpp
+FileInfo.cpp
+--- H: XML Data saver: hotkey support disabled ---
+MonthCalCtrlEx.cpp
+OCalendar.cpp
+PrivateProfile.cpp
+--- H: XML Data saver: hotkey support disabled ---
+ResizeableDialog.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+WCRemind.cpp
+--- H: XML Data saver: hotkey support disabled ---
+WMDateCtrl.cpp
+--- H: XML Data saver: hotkey support disabled ---
+WVCellData.cpp
+WVCellDataItem.cpp
+Generating Code...
+Linking...
+   Creating library Release/WCRemind.lib and object Release/WCRemind.exp
+<h3>
+--------------------Configuration: glfrac - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/glfrac.res" /d "NDEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glfrac\glfrac.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP622.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/glfrac.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glfrac\glfrac.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glfrac\GlGener.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP622.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP623.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP623.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP624.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_SKIP_MULTIMON_" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/glfrac.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glfrac\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP624.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP625.tmp" with contents
+[
+/nologo /subsystem:windows /dll /pdb:none /machine:I386 /def:".\glfrac.def" /out:"\_WPLabs\_Installers\WireChanger\Template\EasyFrac.dll" /implib:"Release/EasyFrac.lib" 
+.\Release\BMPUtil.obj
+.\Release\DataXMLSaver.obj
+.\Release\DelayLoadFuncs.obj
+.\Release\Dib.obj
+.\Release\glfrac.obj
+.\Release\GlGener.obj
+.\Release\SmartWndSizer.obj
+.\Release\StdAfx.obj
+.\Release\SupportClasses.obj
+.\Release\SupportClasses_m1.obj
+.\Release\glfrac.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP625.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BMPUtil.cpp
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DelayLoadFuncs.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+Dib.cpp
+glfrac.cpp
+GlGener.cpp
+--- H: XML Data saver: hotkey support disabled ---
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+--- H: XML Data saver: hotkey support disabled ---
+Compiling...
+SmartWndSizer.cpp
+Linking...
+   Creating library Release/EasyFrac.lib and object Release/EasyFrac.exp
+EasyFrac.exp : warning LNK4070: /OUT:glfrac.dll directive in .EXP differs from output filename "\_WPLabs\_Installers\WireChanger\Template\EasyFrac.dll"; ignoring directive
+<h3>
+--------------------Configuration: WebBrowserDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/WebBrowserDlg.res" /d "NDEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlg.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP629.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/WebBrowserDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\Atl\crt_common.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\Atl\crt_cstring.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\CustomMenus.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\Custsite.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\Idispimp.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\webbrowser2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlgDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP629.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP62A.tmp" with contents
+[
+/nologo /MT /W3 /GX /Od /D "NOSTUB_VC6" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/WebBrowserDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP62A.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP62B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Html_forms.pdb" /machine:I386 /out:"\_WPLabs\_Installers\WireChanger\Html_forms.exe" 
+.\Release\crt_common.obj
+.\Release\crt_cstring.obj
+.\Release\CustomMenus.obj
+.\Release\Custsite.obj
+.\Release\Idispimp.obj
+.\Release\ResizeableDialog.obj
+.\Release\StdAfx.obj
+.\Release\webbrowser2.obj
+.\Release\WebBrowserDlg.obj
+.\Release\WebBrowserDlgDlg.obj
+.\Release\WebBrowserDlg.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP62B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+crt_common.cpp
+crt_cstring.cpp
+CustomMenus.cpp
+Custsite.cpp
+Idispimp.cpp
+ResizeableDialog.cpp
+webbrowser2.cpp
+WebBrowserDlg.cpp
+WebBrowserDlgDlg.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: WireChanger - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/WireChanger.res" /d "NDEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WireChanger.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP62D.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /Gf /Gy /D "FART_VERSION" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/WireChanger.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\DLG_InfoWindow.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\MiscUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WireChanger.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\DLG_AddLink.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\DLG_Chooser.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\DLG_Note.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\DLG_WChanger.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\HtmlWallpaper.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\HtmlWnd.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WallpaperUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Webbrowser2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Settings.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\SettingsTempl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WPaper.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WireChangerDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\CPreviewFileDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\DLG_Options.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\IListCtrl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\SYSTEMTR.CPP"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\AutoUpdate.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\checksum.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\FileInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\hotkeys.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\InternetUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\NtSystemInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\regexp\regexp.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\XMLP.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP62D.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP62E.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /Gf /Gy /D "FART_VERSION" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\md5.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\math\parser.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SystemInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\adler32.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\compress.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\crc32.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\cryptunzip.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\cryptutil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\cryptzip.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\deflate.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\gzio.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\infback.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\inffast.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\inflate.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\inftrees.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\trees.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\uncompr.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP62E.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP62F.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /Gf /Gy /D "FART_VERSION" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/WireChanger.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP62F.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP630.tmp" with contents
+[
+Winmm.lib User32.lib ws2_32.lib /nologo /subsystem:windows /pdb:none /machine:I386 /nodefaultlib:"winspool.lib" /out:"\_WPLabs\_Installers\WireChanger\WireChanger.exe" 
+.\Release\DLG_InfoWindow.obj
+.\Release\MiscUtils.obj
+.\Release\WireChanger.obj
+.\Release\DLG_AddLink.obj
+.\Release\DLG_Chooser.obj
+.\Release\DLG_Note.obj
+.\Release\DLG_WChanger.obj
+.\Release\HtmlWallpaper.obj
+.\Release\HtmlWnd.obj
+.\Release\WallpaperUtils.obj
+.\Release\Webbrowser2.obj
+.\Release\Settings.obj
+.\Release\SettingsTempl.obj
+.\Release\WPaper.obj
+.\Release\StdAfx.obj
+.\Release\WireChangerDlg.obj
+.\Release\BMPUtil.obj
+.\Release\CPreviewFileDialog.obj
+.\Release\DelayLoadFuncs.obj
+.\Release\Dib.obj
+.\Release\DLG_Options.obj
+.\Release\IListCtrl.obj
+.\Release\SmartWndSizer.obj
+.\Release\SYSTEMTR.OBJ
+.\Release\AutoUpdate.obj
+.\Release\checksum.obj
+.\Release\DataXMLSaver.obj
+.\Release\FileInfo.obj
+.\Release\hotkeys.obj
+.\Release\InternetUtils.obj
+.\Release\md5.obj
+.\Release\NtSystemInfo.obj
+.\Release\parser.obj
+.\Release\regexp.obj
+.\Release\SupportClasses.obj
+.\Release\SystemInfo.obj
+.\Release\XMLP.obj
+.\Release\adler32.obj
+.\Release\compress.obj
+.\Release\crc32.obj
+.\Release\cryptunzip.obj
+.\Release\cryptutil.obj
+.\Release\cryptzip.obj
+.\Release\deflate.obj
+.\Release\gzio.obj
+.\Release\infback.obj
+.\Release\inffast.obj
+.\Release\inflate.obj
+.\Release\inftrees.obj
+.\Release\trees.obj
+.\Release\uncompr.obj
+.\Release\zutil.obj
+.\Release\SupportClasses_m1.obj
+.\Release\WireChanger.res
+.\WCDesknote\Release\WCDesknote.lib
+.\glprim\Release\EasyDraw.lib
+.\Pickers\Release\Pickers.lib
+.\Uniquer\Release\Uniquer.lib
+.\WCRemind\Release\WCRemind.lib
+.\glfrac\Release\EasyFrac.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP630.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DLG_InfoWindow.cpp
+MiscUtils.cpp
+WireChanger.cpp
+DLG_AddLink.cpp
+DLG_Chooser.cpp
+DLG_Note.cpp
+DLG_WChanger.cpp
+HtmlWallpaper.cpp
+HtmlWnd.cpp
+WallpaperUtils.cpp
+Webbrowser2.cpp
+Settings.cpp
+SettingsTempl.cpp
+WPaper.cpp
+WireChangerDlg.cpp
+BMPUtil.cpp
+CPreviewFileDialog.cpp
+DelayLoadFuncs.cpp
+Dib.cpp
+DLG_Options.cpp
+Generating Code...
+Compiling...
+IListCtrl.cpp
+SYSTEMTR.CPP
+AutoUpdate.cpp
+checksum.cpp
+DataXMLSaver.cpp
+FileInfo.cpp
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+hotkeys.cpp
+InternetUtils.cpp
+Add safe-threadness
+NtSystemInfo.cpp
+regexp.cpp
+SupportClasses.cpp
+XMLP.cpp
+SupportClasses_m1.cpp
+Generating Code...
+Compiling...
+SmartWndSizer.cpp
+Generating Code...
+Compiling...
+md5.c
+Generating Code...
+Compiling...
+parser.cpp
+SystemInfo.cpp
+Generating Code...
+Compiling...
+adler32.c
+compress.c
+crc32.c
+cryptunzip.c
+Generating Code...
+Compiling...
+cryptutil.cpp
+Generating Code...
+Compiling...
+cryptzip.c
+deflate.c
+gzio.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+Generating Code...
+Linking...
+   Creating library \_WPLabs\_Installers\WireChanger\WireChanger.lib and object \_WPLabs\_Installers\WireChanger\WireChanger.exp
+LINK : warning LNK4089: all references to "WINMM.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+WireChanger.exe - 0 error(s), 3 warning(s)
+<h3>
+--------------------Configuration: WCDesknote - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP634.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "WCDESKNOTE_EXPORTS" /FR"Debug/" /Fp"Debug/WCDesknote.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCDesknote\WCDesknote.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP634.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP635.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "WCDESKNOTE_EXPORTS" /FR"Debug/" /Fp"Debug/WCDesknote.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCDesknote\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP635.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP636.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/WCDesknote.pdb" /debug /machine:I386 /def:".\WCDesknote.def" /out:"..\Debug\WCDesknote.cml" /implib:"Debug/WCDesknote.lib" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\WCDesknote.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP636.tmp"
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+StdAfx.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+WCDesknote.cpp
+Linking...
+<h3>
+--------------------Configuration: glprim - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/glprim.res" /d "_DEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glprim\glprim.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP637.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/glprim.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glprim\GlGener.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glprim\glprim.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glprim\IEffects.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\InternetUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\xml\XMLite.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP637.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP638.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP638.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP639.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/glprim.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glprim\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP639.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP63A.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/EasyDraw.pdb" /debug /machine:I386 /def:".\glprim.def" /out:"..\Debug\Template\EasyDraw.dll " /implib:"Debug/EasyDraw.lib" /pdbtype:sept 
+.\Debug\BMPUtil.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\DelayLoadFuncs.obj
+.\Debug\Dib.obj
+.\Debug\GlGener.obj
+.\Debug\glprim.obj
+.\Debug\IEffects.obj
+.\Debug\InternetUtils.obj
+.\Debug\SmartWndSizer.obj
+.\Debug\StdAfx.obj
+.\Debug\SupportClasses.obj
+.\Debug\SupportClasses_m1.obj
+.\Debug\XMLite.obj
+.\Debug\glprim.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP63A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BMPUtil.cpp
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DelayLoadFuncs.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+Dib.cpp
+GlGener.cpp
+glprim.cpp
+IEffects.cpp
+--- H: XML Data saver: hotkey support disabled ---
+InternetUtils.cpp
+--- H: XML Data saver: hotkey support disabled ---
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+XMLite.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+Compiling...
+SmartWndSizer.cpp
+Linking...
+   Creating library Debug/EasyDraw.lib and object Debug/EasyDraw.exp
+EasyDraw.exp : warning LNK4070: /OUT:glprim.dll directive in .EXP differs from output filename "..\Debug\Template\EasyDraw.dll"; ignoring directive
+<h3>
+--------------------Configuration: Pickers - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/Pickers.res" /d "_DEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\Pickers.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP63E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Pickers.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\CalendarDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\CalendarDlg2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\MonthCalCtrlEx.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\Pickers.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\PrivateProfile.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP63E.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP63F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Pickers.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Pickers\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP63F.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP640.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/Pickers.pdb" /debug /machine:I386 /def:".\Pickers.def" /out:"..\Debug\Template\Pickers.dll" /implib:"Debug/Pickers.lib" /pdbtype:sept 
+.\Debug\CalendarDlg.obj
+.\Debug\CalendarDlg2.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\MonthCalCtrlEx.obj
+.\Debug\Pickers.obj
+.\Debug\PrivateProfile.obj
+.\Debug\ResizeableDialog.obj
+.\Debug\StdAfx.obj
+.\Debug\SupportClasses.obj
+.\Debug\SupportClasses_m1.obj
+.\Debug\Pickers.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP640.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+StdAfx.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+CalendarDlg.cpp
+CalendarDlg2.cpp
+DataXMLSaver.cpp
+MonthCalCtrlEx.cpp
+Pickers.cpp
+PrivateProfile.cpp
+ResizeableDialog.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+Linking...
+<h3>
+--------------------Configuration: Uniquer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/Uniquer.res" /d "_DEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\Uniquer.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP641.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Uniquer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\Uniquer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP641.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP642.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP642.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP643.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Uniquer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Uniquer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP643.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP644.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/Uniquer.pdb" /debug /machine:I386 /def:".\Uniquer.def" /out:"..\Debug\Uniquer.cml" /implib:"Debug/Uniquer.lib" /pdbtype:sept 
+.\Debug\BMPUtil.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\DelayLoadFuncs.obj
+.\Debug\Dib.obj
+.\Debug\SmartWndSizer.obj
+.\Debug\StdAfx.obj
+.\Debug\SupportClasses.obj
+.\Debug\SupportClasses_m1.obj
+.\Debug\Uniquer.obj
+.\Debug\Uniquer.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP644.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+StdAfx.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+BMPUtil.cpp
+DataXMLSaver.cpp
+DelayLoadFuncs.cpp
+Dib.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+Uniquer.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+SmartWndSizer.cpp
+Linking...
+<h3>
+--------------------Configuration: WCSaver - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Debug/WCSaver.res" /d "_DEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCSaver\WCSaver.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP645.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCSaver\WCSaver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP645.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP646.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Wired_Screensaver.pdb" /debug /machine:I386 /out:"..\Debug\Wired_Screensaver.exe" /pdbtype:sept 
+.\Debug\WCSaver.obj
+.\Debug\WCSaver.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP646.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+WCSaver.cpp
+Linking...
+<h3>
+--------------------Configuration: WCRemind - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/WCRemind.res" /d "_DEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\WCRemind.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP647.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /FR"Debug/" /Fp"Debug/WCRemind.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\AlertDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\CalendarDlg2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\DLGEnterNumber.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\FileInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\MonthCalCtrlEx.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\OCalendar.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\PrivateProfile.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\WCRemind.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WMDateCtrl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WVCellData.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\Cal\WVCellDataItem.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP647.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP648.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /FR"Debug/" /Fp"Debug/WCRemind.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCRemind\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP648.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP649.tmp" with contents
+[
+msimg32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/WCRemind.pdb" /debug /machine:I386 /def:".\WCRemind.def" /out:"..\Debug\WCRemind.cml" /implib:"Debug/WCRemind.lib" /pdbtype:sept 
+.\Debug\AlertDialog.obj
+.\Debug\BMPUtil.obj
+.\Debug\CalendarDlg2.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\DelayLoadFuncs.obj
+.\Debug\DLGEnterNumber.obj
+.\Debug\FileInfo.obj
+.\Debug\MonthCalCtrlEx.obj
+.\Debug\OCalendar.obj
+.\Debug\PrivateProfile.obj
+.\Debug\ResizeableDialog.obj
+.\Debug\StdAfx.obj
+.\Debug\SupportClasses.obj
+.\Debug\SupportClasses_m1.obj
+.\Debug\WCRemind.obj
+.\Debug\WMDateCtrl.obj
+.\Debug\WVCellData.obj
+.\Debug\WVCellDataItem.obj
+.\Debug\WCRemind.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP649.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+StdAfx.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+AlertDialog.cpp
+BMPUtil.cpp
+CalendarDlg2.cpp
+DataXMLSaver.cpp
+DelayLoadFuncs.cpp
+DLGEnterNumber.cpp
+FileInfo.cpp
+MonthCalCtrlEx.cpp
+OCalendar.cpp
+PrivateProfile.cpp
+ResizeableDialog.cpp
+SupportClasses.cpp
+SupportClasses_m1.cpp
+WCRemind.cpp
+WMDateCtrl.cpp
+WVCellData.cpp
+WVCellDataItem.cpp
+Linking...
+<h3>
+--------------------Configuration: glfrac - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/glfrac.res" /d "_DEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glfrac\glfrac.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP64A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/glfrac.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glfrac\glfrac.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glfrac\GlGener.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP64A.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP64B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP64B.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP64C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/glfrac.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\glfrac\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP64C.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP64D.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/EasyFrac.pdb" /debug /machine:I386 /def:".\glfrac.def" /out:"..\Debug\Template\EasyFrac.dll" /implib:"Debug/EasyFrac.lib" /pdbtype:sept 
+.\Debug\BMPUtil.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\DelayLoadFuncs.obj
+.\Debug\Dib.obj
+.\Debug\glfrac.obj
+.\Debug\GlGener.obj
+.\Debug\SmartWndSizer.obj
+.\Debug\StdAfx.obj
+.\Debug\SupportClasses.obj
+.\Debug\SupportClasses_m1.obj
+.\Debug\glfrac.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP64D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BMPUtil.cpp
+DataXMLSaver.cpp
+--- H: XML Data saver: hotkey support disabled ---
+DelayLoadFuncs.cpp
+--- H: XML Data saver: hotkey support disabled ---
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+Dib.cpp
+glfrac.cpp
+GlGener.cpp
+--- H: XML Data saver: hotkey support disabled ---
+SupportClasses.cpp
+SupportClasses_m1.cpp
+--- H: XML Data saver: hotkey support disabled ---
+Generating Code...
+--- H: XML Data saver: hotkey support disabled ---
+Compiling...
+SmartWndSizer.cpp
+Linking...
+   Creating library Debug/EasyFrac.lib and object Debug/EasyFrac.exp
+EasyFrac.exp : warning LNK4070: /OUT:glfrac.dll directive in .EXP differs from output filename "..\Debug\Template\EasyFrac.dll"; ignoring directive
+<h3>
+--------------------Configuration: WebBrowserDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/WebBrowserDlg.res" /d "_DEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlg.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP651.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/WebBrowserDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\Atl\crt_common.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\Atl\crt_cstring.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\CustomMenus.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\Custsite.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\Idispimp.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\ResizeableDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\webbrowser2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\WebBrowserDlgDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP651.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP652.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "NOSTUB_VC6" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/WebBrowserDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WCHtmlViewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP652.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP653.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Html_forms.pdb" /debug /machine:I386 /out:"..\Debug\Html_forms.exe" /pdbtype:sept 
+.\Debug\crt_common.obj
+.\Debug\crt_cstring.obj
+.\Debug\CustomMenus.obj
+.\Debug\Custsite.obj
+.\Debug\Idispimp.obj
+.\Debug\ResizeableDialog.obj
+.\Debug\StdAfx.obj
+.\Debug\webbrowser2.obj
+.\Debug\WebBrowserDlg.obj
+.\Debug\WebBrowserDlgDlg.obj
+.\Debug\WebBrowserDlg.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP653.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+StdAfx.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+crt_common.cpp
+crt_cstring.cpp
+CustomMenus.cpp
+Custsite.cpp
+Idispimp.cpp
+ResizeableDialog.cpp
+webbrowser2.cpp
+WebBrowserDlg.cpp
+WebBrowserDlgDlg.cpp
+Linking...
+<h3>
+--------------------Configuration: WireChanger - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/WireChanger.res" /d "_DEBUG" /d "_AFXDLL" "Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WireChanger.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP654.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "FART_VERSION" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "WINNT" /D "_DEBUG2_" /D "_AFXDLL" /FR /Fp"Debug/WireChanger.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\DLG_InfoWindow.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\MiscUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\DLG_AddLink.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\DLG_Chooser.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\DLG_Note.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\DLG_WChanger.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\HtmlWallpaper.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\HtmlWnd.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WallpaperUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Webbrowser2.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\Settings.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\SettingsTempl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WPaper.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WireChangerDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\CPreviewFileDialog.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\Dib.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\DLG_Options.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\IListCtrl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\SYSTEMTR.CPP"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\AutoUpdate.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\checksum.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\FileInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\hotkeys.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\InternetUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\NtSystemInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\regexp\regexp.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\XMLP.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP654.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP655.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "FART_VERSION" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "WINNT" /D "_DEBUG2_" /D "_AFXDLL" /D "_NOUNLIM_" /FR /Fp"Debug/WireChanger.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\WireChanger.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP655.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP656.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "FART_VERSION" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "WINNT" /D "_DEBUG2_" /D "_AFXDLL" /FR /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\md5.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\math\parser.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SystemInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\adler32.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\compress.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\crc32.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\cryptunzip.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\cryptutil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\cryptzip.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\deflate.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\gzio.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\infback.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\inffast.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\inflate.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\inftrees.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\trees.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\uncompr.c"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Zip\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP656.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP657.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "FART_VERSION" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "WINNT" /D "_DEBUG2_" /D "_AFXDLL" /FR /Fp"Debug/WireChanger.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireChanger\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP657.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP658.tmp" with contents
+[
+Winmm.lib User32.lib ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"WireChanger.pdb" /debug /machine:I386 /nodefaultlib:"winspool.lib" /out:"Debug/WireChanger.exe" /pdbtype:sept 
+.\Debug\DLG_InfoWindow.obj
+.\Debug\MiscUtils.obj
+.\Debug\WireChanger.obj
+.\Debug\DLG_AddLink.obj
+.\Debug\DLG_Chooser.obj
+.\Debug\DLG_Note.obj
+.\Debug\DLG_WChanger.obj
+.\Debug\HtmlWallpaper.obj
+.\Debug\HtmlWnd.obj
+.\Debug\WallpaperUtils.obj
+.\Debug\Webbrowser2.obj
+.\Debug\Settings.obj
+.\Debug\SettingsTempl.obj
+.\Debug\WPaper.obj
+.\Debug\StdAfx.obj
+.\Debug\WireChangerDlg.obj
+.\Debug\BMPUtil.obj
+.\Debug\CPreviewFileDialog.obj
+.\Debug\DelayLoadFuncs.obj
+.\Debug\Dib.obj
+.\Debug\DLG_Options.obj
+.\Debug\IListCtrl.obj
+.\Debug\SmartWndSizer.obj
+.\Debug\SYSTEMTR.OBJ
+.\Debug\AutoUpdate.obj
+.\Debug\checksum.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\FileInfo.obj
+.\Debug\hotkeys.obj
+.\Debug\InternetUtils.obj
+.\Debug\md5.obj
+.\Debug\NtSystemInfo.obj
+.\Debug\parser.obj
+.\Debug\regexp.obj
+.\Debug\SupportClasses.obj
+.\Debug\SystemInfo.obj
+.\Debug\XMLP.obj
+.\Debug\adler32.obj
+.\Debug\compress.obj
+.\Debug\crc32.obj
+.\Debug\cryptunzip.obj
+.\Debug\cryptutil.obj
+.\Debug\cryptzip.obj
+.\Debug\deflate.obj
+.\Debug\gzio.obj
+.\Debug\infback.obj
+.\Debug\inffast.obj
+.\Debug\inflate.obj
+.\Debug\inftrees.obj
+.\Debug\trees.obj
+.\Debug\uncompr.obj
+.\Debug\zutil.obj
+.\Debug\SupportClasses_m1.obj
+.\Debug\WireChanger.res
+.\WCDesknote\Debug\WCDesknote.lib
+.\glprim\Debug\EasyDraw.lib
+.\Pickers\Debug\Pickers.lib
+.\Uniquer\Debug\Uniquer.lib
+.\WCRemind\Debug\WCRemind.lib
+.\glfrac\Debug\EasyFrac.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP658.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DLG_InfoWindow.cpp
+MiscUtils.cpp
+DLG_AddLink.cpp
+DLG_Chooser.cpp
+DLG_Note.cpp
+DLG_WChanger.cpp
+HtmlWallpaper.cpp
+HtmlWnd.cpp
+WallpaperUtils.cpp
+Webbrowser2.cpp
+Settings.cpp
+SettingsTempl.cpp
+WPaper.cpp
+WireChangerDlg.cpp
+BMPUtil.cpp
+CPreviewFileDialog.cpp
+DelayLoadFuncs.cpp
+Dib.cpp
+DLG_Options.cpp
+IListCtrl.cpp
+Generating Code...
+Compiling...
+SYSTEMTR.CPP
+AutoUpdate.cpp
+checksum.cpp
+DataXMLSaver.cpp
+FileInfo.cpp
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+hotkeys.cpp
+InternetUtils.cpp
+Add safe-threadness
+NtSystemInfo.cpp
+regexp.cpp
+SupportClasses.cpp
+XMLP.cpp
+SupportClasses_m1.cpp
+Generating Code...
+Compiling...
+WireChanger.cpp
+Compiling...
+SmartWndSizer.cpp
+Generating Code...
+Compiling...
+md5.c
+Generating Code...
+Compiling...
+parser.cpp
+SystemInfo.cpp
+Generating Code...
+Compiling...
+adler32.c
+compress.c
+crc32.c
+cryptunzip.c
+Generating Code...
+Compiling...
+cryptutil.cpp
+Generating Code...
+Compiling...
+cryptzip.c
+deflate.c
+gzio.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+Generating Code...
+Linking...
+   Creating library Debug/WireChanger.lib and object Debug/WireChanger.exp
+
+
+
+<h3>Results</h3>
+WireChanger.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

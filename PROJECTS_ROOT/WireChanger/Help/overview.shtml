@@ -1,0 +1,29 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Êðàòêîå îïèñàíèå âîçìîæíîñòåé" -->
+<!--#set var="PTITLE_EN" value="Short overview" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+<h2>Overview</h2>
+<hr>
+WireChanger lets you do useful and fun things with your desktop wallpaper - change it regularly, add a calendar, newsfeed, or animated clock to it and much more.<br><br>
+
+The WireChanger Help area is designed to guide you through the setup, use, and customization of WireChanger. If you need help with the initial download process, please <a href="mailto:support@wiredplane.com">email us</a> for specific instructions. Due to the many versions of Windows and possible customizations, it is not practical to list all the download possibilities here.<br><br>
+
+After you have successfully downloaded WireChanger, look for a file called wirechanger.zip on your hard drive. This file actually contains several files that have been zipped (compressed) into one to decrease download time. It needs to be unzipped (uncompressed) with a click (or double-click). If you do not have an unzipping program, see the <a href="http://www.wiredplane.com/downloads.shtml" target="_blank">Downloads page</a>.<br><br>
+
+When you have unzipped the WireChanger download (to a temporary folder), you should see a wirechanger.exe file. Depending on your Windows setup, you may only see the 'wirechanger' file name and not the '.exe' ending (extension). Click (or double-click) this file to begin the actual installation of WireChanger.<br><br>
+
+After a successful installation, you can run WireChanger from the Windows Start | Programs menu. WireChanger will put an icon on the right side of the taskbar near the area where the clock usually resides. This area is also known as the Windows tray. Right-click the WireChanger icon to see a popup menu from which you can access the <a href="features.shtml">features</a> of WireChanger for initial setup, everyday use, and additional future customization.<br><br>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

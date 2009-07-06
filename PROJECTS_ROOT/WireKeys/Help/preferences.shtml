@@ -1,0 +1,149 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="Íàñòðîéêè ïðèëîæåíèÿ" -->
+<!--#set var="TOPIC_EN" value="Preferences dialog" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Preferences Dialog</h2><hr>
+<lu>
+<br><br><b>Global options</b><br>
+
+<li>User interface language (Dropdown) - Choose the language you with which you want to interact with WithKeys. English, Russian, Italian, Ukrainian, Spanish, German, and Simplified Chinese are currently available. More languages may be added in the future as users submit them.
+<li>Start with Windows (Checkbox) - When checked, WireKeys will run at Windows startup. The default is 'checked'.
+<li>Show preferences dialog (Hotkey) - Set the hotkey for opening the WireKeys Preferences window. The default is Win-K.
+<li>Check for updates every ... day(s) (Checkbox) - When checked, WireKeys will look for newer versions of itself at WiredPlane. You can set the frequency from 0 to 300 days. The default is 20.
+<li>Disable 'Double-press' extensions (Checkbox) - Normally, a double-press hotkey combination is not triggered until you release the Ctrl, Alt, Shift, or Win key. When this option is checked, that behavior is disabled along with any additional functionality.
+
+<br><br><b>Menus and preferences folders (Dropdowns)</b><br> - Choose where you want to see the following five folders. For each folder, there are five options. Defaults are shown in parentheses.
+
+<li>Folders: Miscellaneous (Tray menu and Hot menu), Quick-run (Tray menu and Hot menu), Macros (Hot menu), Volume (Tray menu and Hot menu), Processes (Tray)
+<li>Options: Tray menu and Hot menu, Hot menu (only), Tray (only), Nowhere, Disable even in Preferences
+<li>Show 'Application shortcut' in the hot menu (Checkbox) - When checked, the option 'Application shortcut' will appear in all hot menus. The default is 'checked'.
+
+<br><br><b>Configuration backup</b><br>
+
+<li>Backup file (Folder) - Shows the location of your backup file.
+<li>Backup config to file - See Contents section above.
+<li>Restore config from file - See Contents section above.
+
+<br><br><b>Miscellaneous</b><br>
+
+<li>Download more plugins - Note: You must be online to use this option. Opens a browser window showing the plugins page at WiredPlane.
+<li>Download additional macros - Note: You must be online to use this option. Opens a browser window showing the macros page at WiredPlane.
+<li>Install default macros and quick-run items - Pops up a window informing you that these items will be installed the next time you start WireKeys.
+
+<br><br><b>Tray icon</b><br>
+
+<li>Show icon in tray (Checkbox) - When checked, the WireKeys icon is visible in the Windows taskbar tray. The default is 'checked'.
+<li>Text over tray icon (Dropdown) - Options include 'None', 'Current date', and 'Current day of week'. The default is 'None'.
+<li>Left mouse button: Action to perform on double-clicking tray icon (Dropdown) - Options include virtually everything WireKeys can do. The default is 'Show Preferences dialog'.
+<li>Middle mouse button: Action to perform on double-clicking tray icon (Dropdown) - For a mouse so equipped, options include virtually everything WireKeys can do. The default is 'Do nothing'.
+<li>Right mouse button: Action to perform on double-clicking tray icon (Dropdown) - Options include virtually everything WireKeys can do. The default is 'Show time and date'.
+<li>Show additional icon when playing macro (Checkbox) - When checked, a second WireKeys icon will appear in the tray while a macro is executing. The default is 'unchecked'.
+<li>Use my icon for tray icon (Folder) - Shows the location of a custom icon you want to use instead of the default WireKeys icon. The default setting is 'empty' indicating that the default icon is used.
+<li>Related: Use tray icon as resource indicator - Clicking this option will switch you to the System resource indication item under Miscellaneous operations in the Preferences tree.
+
+<br><br><b>Splash string (OSD)</b><br> - This is a line of text with information such as 'Next song', 'Volume: 50%', etc. WireKeys shows a splash string in response to certain hotkey presses.
+
+<li>Splash string position (Dropdown) - Choose where to show the splash string on quick runs and volume control. Options include 'Do not show at all', 'Left-Top', 'Right-Top', 'Right-Bottom', 'Left-Bottom', and 'Center'. The Default is 'Left-Top'.
+<li>Maximum splash string length (chars) - Set a limit (from 1 to 300) to the number of characters (including spaces) allowed in the splash string. The default is 30 characters.
+<li>Show splash string for at least ... secs - Set the minimum amount of time (from 1 to 300 seconds) to display the splash string. The default is 3 seconds.
+<li>Show splash string for [item] (Checkboxes) - The next five options let you specify where you will see a splash string. When checked, a splash string will appear for Winamp controls, Volume controls, Quick run applications, Desktop switches, and Memory optimization. The default for each of these is 'checked'.
+<li>Splash string text font (Ellipsis button) - Brings up the standard font selection window. The default is Arial, 20pt.
+<li>Splash string text color (Ellipsis button) - Brings up the standard color selection window. The default is white.
+<li>Splash string background color (Ellipsis button) - Brings up the standard color selection window. The default is gray.
+<li>Border around OSD (On-Screen Display) string (Dropdown) - Choose from 'None', 'Bold glow', 'Light glow', Bold shadow', or 'Light shadow'. The default is 'Bold glow'.
+
+<br><br><b>Additional options</b><br>
+
+<li>Distance to stick windows together (pix) - Set the number of pixels for sticky windows. When two windows are left fewer than the set number of pixels apart, they will automatically join at their closest borders. The default is 10 pixels. 
+<li>Do not show help items in menus (Checkbox) - When checked, no help items will appear in WireKeys menus. The default is 'unchecked'.
+<li>Do not show warning about hotkeys conflicts (Checkbox) - When checked, you will not be made aware of hotkeys being assigned more than one task. The default is 'unchecked'.
+<li>Do not move focus for popup menus (Checkbox) - Allowing popup menus to receive the focus may conflict with other utilities. When checked, the focus will not be transferred to the popup menu currently in use. The default is 'unchecked'.
+<li>Disable notifications via cursor shape (Checkbox) - When checked, your mouse cursor will not change shape as an additional alert when WireKeys notifies you of certain events. The default is 'checked'.
+<li>Place alert on taskbar instead of tray (Checkbox) - When checked, WireKeys alert messages will appear on the central area of the taskbar instead of on the tray at the right.
+<li>WireNote integration (Checkbox) - When checked, if you also own WiredPlane's WireNote utility, WireKeys will also be available from WireNote menus. The default is 'unchecked'.
+
+<br><br><b>Hotkeys</b><br>
+
+<li>Enable extended hotkey processing (Checkbox) - When checked, you can use mouse buttons and multimedia keys in hotkey combinations. You can also use left and right modifiers (Ctrl, Alt, Shift, Win) separately. Note however that this requires more CPU resources than usual. The default is 'checked'.
+<li>WireKeys combinations options - Assign an action to one, two, or three different hotkey combinations. The default is 'not defined'.
+<li>Show hotkeys guide - Assign a hotkey (or two or three hotkeys) to quickly open a window showing all active hotkeys. The default is 'Scroll Lock'.
+<li>Temporarily block hotkeys - Assign a hotkey to temporarily turn off all other hotkeys. The default is 'not defined'.
+<li>Redirect mouse-enabled hotkey actions (Checkbox) - When checked, direct the actions of a hotkey that uses mouse clicks to the window under the mouse cursor. This allows the action to be performed on a window that is not on top of all the others. The default is 'unchecked'.
+<li>Hotkey guide window opacity (percent) - Set the opacity of the window showing the hotkey guide. The default is 100% which means completely opaque.
+<li>Auto-repeat hotkey when pressed for awhile (Checkbox) - When checked, a hotkey will repeat after being held down for a few seconds. This is similar to the Windows auto-repeat feature used for single keys. The default is 'checked'.
+<li>Distinguish between Left and Right keys (Checkbox) - When checked, you can use the left and right Ctrl, Alt, Shift, and Win keys as unique keys in hotkey combinations. The default is 'checked'.
+<li>Treat mouse buttons as regular keys (Checkbox) - When checked, you can use the left and right (and center, if so equipped) mouse buttons in hotkey combinations just as you would use any key on the keyboard. The default is 'checked'.
+<li>Treat monitor corners as regular keys (Checkbox) - When checked, you can use each of the four corners of the screen as additional keys in a hotkey combination. The default is 'checked'.
+<li>Block keypresses on 'Apps' key (Checkbox) - When checked, WireKeys will ignore presses of the Apps key unless used in combination with another key. The default is 'unchecked'.
+<li>Block keypresses on 'Win' key (Checkbox) - When checked, WireKeys will ignore presses of the Win keys unless used in combination with another key. The default is 'unchecked'.
+<li>Do special processing for 'Caps Lock' key (Dropdown) - Choose from the following options:
+ Do not affect Caps Lock,
+ Drop Caps Lock state when I press Shift key,
+ Block keypresses on 'Caps Lock', trigger caps state by 'Shift-Caps Lock' key
+<li>Timeout for 'Press and Hold' modifier - Set the amount of time in seconds that will elapse before a multi-key hotkey will take effect. Set to zero seconds to disable this feature. The default is 0.
+<li>Hide mouse cursor while typing (Checkbox) - When checked, you will not see your mouse cursor while typing at the keyboard. It will appear again when when you move the mouse again. The default is 'unchecked'.
+
+<br><br><b>Selected text operations</b><br>
+
+<li>Convert selected text to another layout - Assign hotkey(s) to change selected text to its equivalent in an alternate keyboard layout.
+<li>Run as command string/Calculate - Assign hotkey(s) for command string operations. Selected text will be executed if possible. For example, if the selected text is a URL, pressing the hotkey will open a browser to that page. If the selected text ends with the equals sign, a value will be calculated if possible. You can incorporate mathematic and trigonometric expressions as well as constants suchas PI. Double-press the hotkey to popup a history of runs.
+<li>Change case of selected text - Assign hotkey(s) to toggle selected text between upper and lower case.
+<li>Show history for standard clipboard - Assign hotkey(s) to popup a list of text most recently copied to the standard system clipboard.
+<li>Selection method for text operations (Dropdown) - Choose the key combinations used to copy and paste from the following options:
+ Ctrl-C/Ctrl-V (Default)
+ Cntl-Insert/Shift-Insert
+ Compatible mode
+<li>Histories menus: Tooltip with additional information (Dropdown) - Choose from the following options:
+ Do not show tooltip
+ Show as balloon tooltip (Default)
+ Show as rectangular tooltip
+<li> Level of clipboard integration - Text insertions can be done with different speed and methods. Basic level will allow to use clipboards as fast as possible. This may not work correctly with some applications. The default is 'Basic level'.
+<li>Save Windows clipboard contents between restarts (Checkbox) - When checked, the contents of the clipboard will be preserved even if the computer is restarted. The default is 'checked'.
+<li>Save bitmaps in history (Checkbox) - When checked, bitmap image can be saved in histories.
+<li>Do not save bitmaps larger than ... bytes - Restrict the size of bitmap images that can be saved in histories. The default is 200000.
+
+<br><br><b>Additional text clipboards</b><br>
+
+<li>Enable additional text clipboards (Checkbox) - When checked, several unique clipboards will be available in addition to the standard Windows clipboard. The default is 'checked'.
+<li>Clip #1 through Clip #n Copy, Paste, and Show history hotkeys - Assign hotkey(s) to the copy, paste, and show history functions for each of the additional clipboards. Respective defaults are Ctrl, Alt, and Win keys plus the number key corresponding to the clipboard.
+<li>Number of additional clipboards - Set the number of clipboards available on your system in addition to the standard clipboard. You must restart WireKeys for changes to take effect. The default is 3.
+<li>Depth of clipboard history items - Set the number of items stored in clipboard histories. The default is 15.
+<li>Enable transmit copy mode (Checkbox) - When checked, text copied to any clipboard will be pasted to a target application as defined in the hotmenu. The default is 'checked'.
+<li>Append string to every copy (Checkbox) - When checked, the text specified in the next option will be appended to every copy done using transmit mode.
+<li>Append string - Set the text to be appended in transmit copies when the option above is checked. The default is a date/timestamp.
+<li>Use regular expressions to filter paste operations (Checkbox)
+<li>Regular expression for search
+<li>Regular expression for replace
+<li>Maximum clip contents size, Kb - Set a limit to the amount of information (from 1 to 100 kilobytes) a clip may contain. The default is 5 Kb.
+<li>Clear clipboard histories - Assign hotkey(s) for erasing the contents of all clipboard histories. There is no default hotkey defined.
+<li>Clear clipboards - Clicking this option will clear all clipboard histories immediately.
+
+<br><br><b>Quick run application</b><br> - Here you can define applications or documents or folders to be started/opened via hotkey or tray menu item. WireKeys can automatically hide started application to tray, start application in different desktop. Application parameters can be taken from the currently active application (selected text for example). WireKeys can look if application is already started (to prevent creation of the second instance of the application), but this feature may not work with some programs or documents. Application can be added manually or on one of the running application basis (you can select app base from drop down menu before pressing "Add new application" button). One thing about auto-hiding application to tray after start - you must properly set "Time to wait after start" parameter. WireKeys will wait mentioned time and hide app. window after it, so this period must be big enough for application to initialize itself and create window :) 
+<br><br><b>Keyboard and application macros</b><br> - Here you can define macros. A lot of paralels with "Quick run application" folder. One not obvious thing is how to create/edit macro script file. To do that, type macro file name first and press '...' button. WK will check file name and create default script file or will open existing. Details are explained on the "Macros" help page 
+<br><br><b>Miscellaneous operations</b><br> - CDRom controls, WinAmp controls, volume controls, Quick shutdown/restart options, System resource indication and the boss key 
+<br><br><b>Interesting features</b><br> - CDRom can be automatically closed after specified time, boss key can instantly show last created screenshot, quick shutdown can kill specified applications before shutdown procedure. Another interesting features that can be configured here - you can set to use you "Start" button as indicator of CPU usage (for example), as well as WIreKeys tray icon, you can assign hotkey to show current time in OSD 
+<br><br><b>Desktop, icons and windows</b><br> - Screenshot options, active window operations (such as bring into view, hide to tray/completely), additional desktops (NT/2000/XP only feature) and desktop icons layout restorer (NT/2000/XP only feature) 
+<br><br><b>Screeshots</b><br> -  Screenshot can be automatically saved to the specified folder under specified name. You can use patterns in the file name and folder name and WireKeys will create new folder/file every time you will take screenshot. Screenshot can be automatically signed. If you check "Open in the image editor" option, you can choose editor from disk or leave editor field blank - in this case will be used Default editor for "Edit" action on "jpg" files. 
+<br><br><b>Hidden applications</b><br> - this applications can be found at any time in the WireKeys tray menu, under "Hidden applications" subitem. If you hide application to tray you can still reach its main menu - WireKeys will append it to the tray icon. Some applications use graphical (ownerdraw) menus which is hard to emulate sometimes, you can disable such menus 
+<br><br><b>Additional desktops</b><br> - useful feature. Though all tray icons will be leaved on main desktop, all WireKeys clipboard features will work on other desktops too, except those that require any popup window to be shown - all windows will be shown on the main desktop. 
+<br><br><b>Desktops icons</b><br> - The most interesting option is to automatically restore icons with every resolution change. But in this case you have to save desktop icons positions every time you add or delete any icon from your desktop, in other case WireKeys can miss or mess your icons after restore 
+<br><br><b>Plugins set-up</b><br> - Here you can set which plugin you want to use and which is not. Unchecked plugins will not be loaded at WireKeys startup. Also, you can find here plugins options and preferences and define hot keys for plugin`s special actions. Remember: you have to reopen preferences window after enabling plugin (this will let plugin be loaded by WireKeys) 
+<br><br><b>Sounds</b><br> - sound for different operations. They can be disabled or changed from standard to yours 
+
+<br><br><b>Registration</b><br> - Here you can enter your registration key (visit our site to find how to get it)
+</lu>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

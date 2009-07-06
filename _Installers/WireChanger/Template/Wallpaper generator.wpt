@@ -1,0 +1,61 @@
+$=<TITLE:Wallpaper generator>$=<SHOWINTRAY:PARAM_ROOT>$=<CATEG:Wallpaper modifiers>
+$=<DESCRIPTION:
+Generate different patterns over wallpaper
+using various algorithms. Can merge patterns with
+wallpaper image to get colorful results
+>
+$=<RENDER:EasyDraw.dll>$=<HINTS:RENDER-LAYER=(BG-2),ONLINE-STATE=(DONTCARE),WIN98WARN=(Please note: Some features are not supported on Win98/WinME),CONTAIN-MORTHING>
+$=<PARDEF:PARAM_ROOT>$=<PARDSC:PARAM_ROOT=Generation options>$=<PARTYP:PARAM_ROOT=root>
+
+$=<PARDEF:EFF_ROOT>$=<PARDSC:EFF_ROOT=Mark generation algorithms you wish to use on your wallpaper>$=<PARTYP:EFF_ROOT=tip>
+$=<PARDEF:SE_GEN0=1>$=<PARDSC:SE_GEN0=Use 'Colorized moire'>$=<PARPAR:SE_GEN0=PARAM_ROOT>$=<PARTYP:SE_GEN0=bool>
+$=<PARDEF:SE_GEN1=1>$=<PARDSC:SE_GEN1=Use 'Perlin noise'>$=<PARPAR:SE_GEN1=PARAM_ROOT>$=<PARTYP:SE_GEN1=bool>
+$=<PARDEF:SE_GEN1_PAL=0>$=<PARDSC:SE_GEN1_PAL=Palette>$=<PARTYP:SE_GEN1_PAL=list>$=<PARPAR:SE_GEN1_PAL=SE_GEN1>$=<PARLST:SE_GEN1_PAL=Random,Blue,Green,Red,Grey>
+$=<PARDEF:SE_GEN1_METHOD=0>$=<PARDSC:SE_GEN1_METHOD=Landscape type>$=<PARTYP:SE_GEN1_METHOD=list>$=<PARPAR:SE_GEN1_METHOD=SE_GEN1>$=<PARLST:SE_GEN1_METHOD=Random,3D,Plain>
+$=<PARDEF:SE_GEN3=1>$=<PARDSC:SE_GEN3=Use 'Norwegian wood'>$=<PARPAR:SE_GEN3=PARAM_ROOT>$=<PARTYP:SE_GEN3=bool>
+$=<PARDEF:SE_GEN4=1>$=<PARDSC:SE_GEN4=Use 'Color map'>$=<PARPAR:SE_GEN4=PARAM_ROOT>$=<PARTYP:SE_GEN4=bool>
+$=<PARDEF:SE_GEN5=1>$=<PARDSC:SE_GEN5=Use 'Marble'>$=<PARPAR:SE_GEN5=PARAM_ROOT>$=<PARTYP:SE_GEN5=bool>
+$=<PARDEF:SE_GEN6=1>$=<PARDSC:SE_GEN6=Use '3D Maze'>$=<PARPAR:SE_GEN6=PARAM_ROOT>$=<PARTYP:SE_GEN6=bool>
+$=<PARDEF:SE_GEN7=1>$=<PARDSC:SE_GEN7=Use 'Clouds'>$=<PARPAR:SE_GEN7=PARAM_ROOT>$=<PARTYP:SE_GEN7=bool>
+$=<PARDEF:SE_GEN8=1>$=<PARDSC:SE_GEN8=Use 'Craters'>$=<PARPAR:SE_GEN8=PARAM_ROOT>$=<PARTYP:SE_GEN8=bool>
+$=<PARDEF:SE_GEN8_TYP=0>$=<PARDSC:SE_GEN8_TYP=Landscape type>$=<PARTYP:SE_GEN8_TYP=list>$=<PARPAR:SE_GEN8_TYP=SE_GEN8>$=<PARLST:SE_GEN8_TYP=Plain,3D,3D Shaded,Random>
+$=<PARDEF:SE_GEN8a=1>$=<PARDSC:SE_GEN8a=Use 'Earth'>$=<PARPAR:SE_GEN8a=PARAM_ROOT>$=<PARTYP:SE_GEN8a=bool>
+$=<PARDEF:SE_GEN8a_TYP=3>$=<PARDSC:SE_GEN8a_TYP=Landscape type>$=<PARTYP:SE_GEN8a_TYP=list>$=<PARPAR:SE_GEN8a_TYP=SE_GEN8a>$=<PARLST:SE_GEN8a_TYP=Plain,3D,3D Shaded,Random>
+$=<PARDEF:SE_GEN9=1>$=<PARDSC:SE_GEN9=Use 'Quilt'>$=<PARPAR:SE_GEN9=PARAM_ROOT>$=<PARTYP:SE_GEN9=bool>
+$=<PARDEF:RNDPRE_LEVEL=10>$=<PARDSC:RNDPRE_LEVEL=Extra postprocessing, frequency (percents, 0 to disable)>$=<PARTYP:RNDPRE_LEVEL=slider>$=<PARMIN:RNDPRE_LEVEL=0>$=<PARMAX:RNDPRE_LEVEL=100>$=<PARDET:RNDPRE_LEVEL=Extra postprocessing will modify effect so it will affect only random figure in image, not image in whole>
+$=<PARDEF:RNDPRE_TYPE=0>$=<PARDSC:RNDPRE_TYPE=Postprocessing type>$=<PARTYP:RNDPRE_TYPE=list>$=<PARPAR:SE_GEN8a_TYP=PARAM_ROOT>$=<PARLST:RNDPRE_TYPE=Random,Image only,Image+Pattern,Minus image,Minus Pattern,Pattern only>
+
+
+$=<HASH:16E9DC7B87ACAC7E9C18326AF1121C3C>
+
+{wp:body}<image-in-rect>
+X:({recommended-wallpaper-x})
+Y:({recommended-wallpaper-y})
+W:({recommended-wallpaper-w})
+H:({recommended-wallpaper-h})
+NO_FIT:(1)
+EFFECT:({wp:list.rnd}
+	$=<IF:$=<PAR:SE_GEN0>==1?GENE_LANDS/IF>,
+	$=<IF:$=<PAR:SE_GEN1>==1?GENE_PERLIN/IF>,
+	$=<IF:$=<PAR:SE_GEN3>==1?GENE_WOOD/IF>,
+	$=<IF:$=<PAR:SE_GEN4>==1?GENE_2MIX/IF>,
+	$=<IF:$=<PAR:SE_GEN5>==1?GENE_MARBLE/IF>,
+	$=<IF:$=<PAR:SE_GEN6>==1?GENE_3DMAZE/IF>,
+	$=<IF:$=<PAR:SE_GEN7>==1?GENE_CLOUD/IF>,
+	$=<IF:$=<PAR:SE_GEN8>==1?GENE_CRATERS/IF>,
+	$=<IF:$=<PAR:SE_GEN9>==1?GENE_QUILT/IF>,
+	$=<IF:$=<PAR:SE_GEN8a>==1?GENE_EARTH/IF>
+	{/wp:list.rnd})
+$=<IF-H:{rnd(0,99)}.lt.$=<PAR:RNDPRE_LEVEL>?
+SMART-PRESERVE:(1)
+SMART-PRESERVE-TYPE:($=<PAR:RNDPRE_TYPE>)
+/IF-H>
+PERLIN-PALETTE:($=<PAR:SE_GEN1_PAL>)
+PERLIN-METHOD:($=<PAR:SE_GEN1_METHOD>)
+FRACTAL-PALETTE:($=<PAR:SE_GEN2_PAL>)
+2MIX-PALETTE:($=<PAR:SE_GEN4_PAL>)
+2MIX-METHOD:($=<PAR:SE_GEN4_METHOD>)
+CRATERS-TYPE:($=<PAR:SE_GEN8_TYP>)
+EARTH-TYPE:($=<PAR:SE_GEN8a_TYP>)
+<image-src>$=<RND_WALLPAPER(main)></image-src>
+</image-in-rect>{/wp:body}

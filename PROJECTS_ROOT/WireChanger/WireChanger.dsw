@@ -1,0 +1,173 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Pickers"=.\Pickers\Pickers.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Stuff"=.\Stuff\Stuff.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Uniquer"=.\Uniquer\Uniquer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WCDesknote"=.\WCDesknote\WCDesknote.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WCEnliver"=.\WCEnliver\WCEnliver.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WCRemind"=.\WCRemind\WCRemind.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WCSaver"=.\WCSaver\WCSaver.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WebBrowserDlg"=.\WCHtmlViewer\WebBrowserDlg.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WireChanger"=.\WireChanger.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name WCDesknote
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name glprim
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Pickers
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Uniquer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WCSaver
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WCRemind
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name glfrac
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WebBrowserDlg
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "glfrac"=.\glfrac\glfrac.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "glprim"=.\glprim\glprim.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

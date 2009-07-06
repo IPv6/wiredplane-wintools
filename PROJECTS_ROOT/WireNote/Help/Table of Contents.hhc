@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Overview">
+			<param name="Local" value="overview.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Features">
+			<param name="Local" value="features.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Version history">
+			<param name="Local" value="history.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Support forum">
+			<param name="Local" value="faq.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Other products">
+			<param name="Local" value="otherprods.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FAQ">
+			<param name="Local" value="faq.shtml">
+			</OBJECT>	</UL>
+
+<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Description">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Main window">
+			<param name="Local" value="dsc_main.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Note interface">
+			<param name="Local" value="dsc_note.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ToDo interface">
+			<param name="Local" value="dsc_todo.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Address book interface">
+			<param name="Local" value="dsc_abok.shtml">
+			</OBJECT>	
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Anti-SPAM Module">
+			<param name="Local" value="dsc_antispam.shtml">
+			</OBJECT>	
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Billboard">
+			<param name="Local" value="dsc_billb.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Messaging">
+			<param name="Local" value="dsc_network.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Preferences">
+			<param name="Local" value="preferences.shtml">
+			</OBJECT>
+	</UL>		
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tips and Tricks">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Keyboard shortcuts">
+			<param name="Local" value="shortcuts.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tips and tricks">
+			<param name="Local" value="tipstricks.shtml">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Donation">
+		<param name="Local" value="registration.shtml">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="License">
+		<param name="Local" value="license.rtf">
+		</OBJECT>
+		
+</UL>
+</BODY></HTML>

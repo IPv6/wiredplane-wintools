@@ -1,0 +1,29 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Our Products</h1><hr>
+<table border=0>
+<tr>
+<td><a href="http://www.wiredplane.com/wirechanger/"><img src="wc.gif" border=0></a>
+<td valign="top">WireChanger<hr> - Wallpaper changer utility + desktop clocks. Gif/jpg/html/bmp/..., can show web-pages and HTML and automatically apply special effect to the image (B&W/Opacity/Calendar/...) on the fly. Images can be grouped in themes. Every theme can have a weight -  which means how frequently it will be used. No 'active desktop' required. WireChanger also supports live clocks to be displayed over wallpaper, additional clocks and clocks collections can be downloaded from our site or <a href="http://www.colclocks.com">http://www.colclocks.com</a>. You will never see the same picture on your desktop! :)
+</tr>
+<tr>
+<td><a href="http://www.wiredplane.com/wirekeys/"><img src="wk.gif" border=0><br></a>
+<td valign="top">WireKeys Full<hr> - System utility that helps you to work in Windows. Hot key oriented with extensive tray menu support. Features: Additional text clipboards, Screen shot making, Kill non-replying tasks, Minimize any application to tray and more. Every action can be connected to the hot key, full "Win" key/Multimedia keyboards support
+</tr>
+</table>
+Customizations: We can customize this programs to address your organization's unique needs; $10 per hours, estimates given in advance
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

@@ -1,0 +1,69 @@
+$=<TITLE:Special effects>$=<SHOWINTRAY:PARAM_ROOT>$=<CATEG:Wallpaper modifiers>
+$=<DESCRIPTION:
+Adds interesting random effect to wallpaper image.
+Uses different algorithms to alter background periodically
+>
+$=<RENDER:EasyDraw.dll>$=<HINTS:RENDER-LAYER=(BG-2),ONLINE-STATE=(DONTCARE),WIN98WARN=(Please note: Some features are not supported on Win98/WinME),CONTAIN-MORTHING>
+$=<PARDEF:PARAM_ROOT>$=<PARDSC:PARAM_ROOT=Effects options>$=<PARTYP:PARAM_ROOT=root>
+
+$=<PARDEF:EFF_ROOT>$=<PARDSC:EFF_ROOT=Mark effects you wish to use on your wallpaper>$=<PARTYP:EFF_ROOT=tip>
+$=<PARDEF:SE_EFF0=1>$=<PARDSC:SE_EFF0=Use 'White and Black'>$=<PARPAR:SE_EFF0=PARAM_ROOT>$=<PARTYP:SE_EFF0=bool>
+$=<PARDEF:SE_EFF1=1>$=<PARDSC:SE_EFF1=Use 'X-Ray'>$=<PARPAR:SE_EFF1=PARAM_ROOT>$=<PARTYP:SE_EFF1=bool>
+$=<PARDEF:SE_EFF2=1>$=<PARDSC:SE_EFF2=Use 'Colour glass'>$=<PARPAR:SE_EFF2=PARAM_ROOT>$=<PARTYP:SE_EFF2=bool>
+$=<PARDEF:SE_EFF3=1>$=<PARDSC:SE_EFF3=Use 'Blur'>$=<PARPAR:SE_EFF3=PARAM_ROOT>$=<PARTYP:SE_EFF3=bool>
+$=<PARDEF:BLURRADIUS=5>$=<PARDSC:BLURRADIUS=Blur radius (pixels)>$=<PARPAR:BLURRADIUS=SE_EFF3>$=<PARTYP:BLURRADIUS=number>$=<PARMIN:BLURRADIUS=2>$=<PARMAX:BLURRADIUS=10>
+$=<PARDEF:SE_EFF4=1>$=<PARDSC:SE_EFF4=Use 'Emboss'>$=<PARPAR:SE_EFF4=PARAM_ROOT>$=<PARTYP:SE_EFF4=bool>
+$=<PARDEF:EMBRADIUS=1>$=<PARDSC:EMBRADIUS=Emboss radius (pixels)>$=<PARPAR:EMBRADIUS=SE_EFF4>$=<PARTYP:EMBRADIUS=number>$=<PARMIN:EMBRADIUS=1>$=<PARMAX:EMBRADIUS=10>
+$=<PARDEF:EMBCOLOR=1>$=<PARDSC:EMBCOLOR=Preserve color information>$=<PARPAR:EMBCOLOR=SE_EFF4>$=<PARTYP:EMBCOLOR=bool>
+$=<PARDEF:SE_EFF7=1>$=<PARDSC:SE_EFF7=Use 'Color planes'>$=<PARPAR:SE_EFF7=PARAM_ROOT>$=<PARTYP:SE_EFF7=bool>
+$=<PARDEF:CCPLANES=30>$=<PARDSC:CCPLANES=How many planes to use>$=<PARPAR:CCPLANES=SE_EFF7>$=<PARTYP:CCPLANES=number>$=<PARMIN:CCPLANES=1>$=<PARMAX:CCPLANES=255>
+$=<PARDEF:SE_EFF9=1>$=<PARDSC:SE_EFF9=Use 'Sharpen'>$=<PARPAR:SE_EFF9=PARAM_ROOT>$=<PARTYP:SE_EFF9=bool>
+$=<PARDEF:SE_EFF10=1>$=<PARDSC:SE_EFF10=Use 'Water-colour'>$=<PARPAR:SE_EFF10=PARAM_ROOT>$=<PARTYP:SE_EFF10=bool>
+$=<PARDEF:BRUSHRAD=3>$=<PARDSC:BRUSHRAD=Brush radius (pixels)>$=<PARPAR:BRUSHRAD=SE_EFF10>$=<PARTYP:BRUSHRAD=number>$=<PARMIN:BRUSHRAD=1>$=<PARMAX:BRUSHRAD=7>
+$=<PARDEF:BRUSHPEAKS=1>$=<PARDSC:BRUSHPEAKS=Brush count>$=<PARPAR:BRUSHPEAKS=SE_EFF10>$=<PARTYP:BRUSHPEAKS=number>$=<PARMIN:BRUSHPEAKS=1>$=<PARMAX:BRUSHPEAKS=7>
+$=<PARDEF:SE_EFF11=1>$=<PARDSC:SE_EFF11=Use 'Brightness noise'>$=<PARPAR:SE_EFF11=PARAM_ROOT>$=<PARTYP:SE_EFF11=bool>
+$=<PARDEF:NOISESTR=75>$=<PARDSC:NOISESTR=Noise strength>$=<PARPAR:NOISESTR=SE_EFF11>$=<PARTYP:NOISESTR=number>$=<PARMIN:NOISESTR=1>$=<PARMAX:NOISESTR=100>
+$=<PARDEF:SE_EFF12=1>$=<PARDSC:SE_EFF12=Use 'Edge detection'>$=<PARPAR:SE_EFF12=PARAM_ROOT>$=<PARTYP:SE_EFF12=bool>
+$=<PARDEF:SE_EFF13=1>$=<PARDSC:SE_EFF13=Use 'Random color mixing'>$=<PARPAR:SE_EFF13=PARAM_ROOT>$=<PARTYP:SE_EFF13=bool>$=<PARDET:SE_EFF13=It`s hard to say what it will do with the images. Results may very in very wide range>
+$=<PARDEF:SE_EFF14=1>$=<PARDSC:SE_EFF14=Use 'Colorize'>$=<PARPAR:SE_EFF14=PARAM_ROOT>$=<PARTYP:SE_EFF14=bool>$=<PARDET:SE_EFF14=Image edges will be embossed with inverted colors>
+$=<PARDEF:SE_EFF15=1>$=<PARDSC:SE_EFF15=Use 'Touch of brightness'>$=<PARPAR:SE_EFF15=PARAM_ROOT>$=<PARTYP:SE_EFF15=bool>$=<PARDET:SE_EFF15=Image curves will be highlighted in various ways>
+$=<PARDEF:SE_EFF16=1>$=<PARDSC:SE_EFF16=Use 'Color wind'>$=<PARPAR:SE_EFF16=PARAM_ROOT>$=<PARTYP:SE_EFF16=bool>$=<PARDET:SE_EFF16=Image curves will be colored in various ways>
+$=<PARDEF:RNDPRE_LEVEL=30>$=<PARDSC:RNDPRE_LEVEL=Extra postprocessing, frequency (percents, 0 to disable)>$=<PARTYP:RNDPRE_LEVEL=slider>$=<PARMIN:RNDPRE_LEVEL=0>$=<PARMAX:RNDPRE_LEVEL=100>$=<PARDET:RNDPRE_LEVEL=Extra postprocessing will modify effect so it will affect only random figure in image, not image in whole>
+
+$=<HASH:FD7E343AD23721BE87CB6091BD390A8D>
+
+{wp:body}<image-in-rect>
+X:({recommended-wallpaper-x})
+Y:({recommended-wallpaper-y})
+W:({recommended-wallpaper-w})
+H:({recommended-wallpaper-h})
+NO_FIT:(1)
+OPACITY:($=<PAR:G_STOP>)
+EFFECT:({wp:list.rnd}
+	$=<IF:$=<PAR:SE_EFF16>==1?TOWFBR/IF>,
+	$=<IF:$=<PAR:SE_EFF15>==1?TOFBR/IF>,
+	$=<IF:$=<PAR:SE_EFF14>==1?SHAKER/IF>,
+	$=<IF:$=<PAR:SE_EFF13>==1?UNPRE/IF>,
+	$=<IF:$=<PAR:SE_EFF0>==1?BW/IF>,
+	$=<IF:$=<PAR:SE_EFF1>==1?XRAY/IF>,
+	$=<IF:$=<PAR:SE_EFF2>==1?CGLASS/IF>,
+	$=<IF:$=<PAR:SE_EFF3>==1?BLUR/IF>,
+	$=<IF:$=<PAR:SE_EFF4>==1?EMBOSS/IF>,
+	$=<IF:$=<PAR:SE_EFF5>==1?PIXELATE/IF>,
+	$=<IF:$=<PAR:SE_EFF6>==1?CDISPOS/IF>,
+	$=<IF:$=<PAR:SE_EFF7>==1?CUTCOLORS/IF>,
+	$=<IF:$=<PAR:SE_EFF8>==1?EXPLODE/IF>,
+	$=<IF:$=<PAR:SE_EFF9>==1?SHARPEN/IF>,
+	$=<IF:$=<PAR:SE_EFF10>==1?WCOLOR/IF>,
+	$=<IF:$=<PAR:SE_EFF11>==1?NOISE/IF>,
+	$=<IF:$=<PAR:SE_EFF12>==1?EDGEDETECT/IF>
+	{/wp:list.rnd})
+EFFECT-BLUR:($=<PAR:BLURRADIUS>)
+EFFECT-EMBOSS:($=<PAR:EMBRADIUS>)
+EFFECT-COLOR:($=<PAR:EMBCOLOR>)
+EFFECT-WATCOL-RAD:($=<PAR:BRUSHRAD>)
+EFFECT-WATCOL-PEAKS:($=<PAR:BRUSHPEAKS>)
+EFFECT-NOISE-STR:($=<PAR:NOISESTR>)
+CUTCOLORS-PLANES:($=<PAR:CCPLANES>)
+$=<IF-H:{rnd(0,99)}.lt.$=<PAR:RNDPRE_LEVEL>?SMART-PRESERVE:(1)/IF-H>
+</image-in-rect>{/wp:body}

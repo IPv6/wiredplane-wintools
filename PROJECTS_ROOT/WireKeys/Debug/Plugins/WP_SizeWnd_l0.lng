@@ -1,0 +1,10 @@
+WindowSResizer=Window`s resizer
+ResizeActiveWindow=Resize active window
+Dscplg_wp_sizewnd=This plugin allows you to resize any window regardless of window type
+DragNewRectangleForWindow=Drag new rectangle for window
+WindowResizedSuccesfully=Window resized succesfully
+WindowIsNotResized=Window is not resized
+
+MakeWindowLarger=Make window larger
+MakeWindowSmaller=Make window smaller
+Nameplg_wp_sizewnd=Window`s resizer

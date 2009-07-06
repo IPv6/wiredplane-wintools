@@ -1,0 +1,71 @@
+Raccourcis clavier touche WIN (Drapeau Windows)
+-----------------------------------------------
+WIN            		     Afficher ou cacher le menu Démarrer
+WIN+PAUSE	             Afficher la boîte de dialogue Propriétés système
+WIN+D                        Réduire/agrandir toutes les fenêtres dans la barre des tâches
+WIN+M                        Réduire toutes les fenêtres dans la barre des tâches
+WIN+MAJ+M                    Restaurer les fenêtres réduites par la touche WIN+M
+WIN+E                        Ouvrir le Poste de travail
+WIN+F                        Rechercher un fichier ou un dossier
+CTRL+WIN+F                   Rechercher des ordinateurs
+WIN+F1                       Afficher l'aide de Windows
+WIN+L                        Verrouiller la session
+WIN+R                        Ouvrir la boîte de dialogue Exécuter
+WIN+U                        Ouvrir le Gestionnaire d'utilitaires
+
+Raccourcis clavier de l'Explorateur Windows
+-------------------------------------------
+FIN                          Afficher le bas de la fenêtre active
+ORIGINE                      Afficher le haut de la fenêtre active
+VERRNUM+Astérisque           Afficher tous les sous-dossiers du dossier sélectionné
+VERRNUM+Signe Plus           Afficher le contenu du dossier sélectionné
+VERRNUM+Signe Moins          Réduire le dossier sélectionné
+FLECHE GAUCHE                Réduire la sélection actuelle si elle est étendue ou sélectionner le dossier parent
+FLECHE DROITE                Afficher la sélection actuelle si elle est réduite ou sélectionner le premier sous-dossier
+
+Navigation dans Microsoft Internet Explorer
+-------------------------------------------
+CTRL+B                       Ouvrir la boîte de dialogue Organiser les Favoris
+CTRL+E                       Ouvrir la barre Rechercher
+CTRL+F                       Démarrer l'utilitaire Rechercher
+CTRL+H                       Ouvrir la barre Historique
+CTRL+I                       Ouvrir la barre Favoris
+CTRL+L                       Ouvrir la boîte de dialogue Ouvrir
+CTRL+N                       Démarrer une autre instance du navigateur avec la même adresse Web
+CTRL+O                       Ouvrir la boîte de dialogue Ouvrir, tout comme CTRL+L
+CTRL+P                       Ouvrir la boîte de dialogue Imprimer
+CTRL+R                       Mettre à jour la page Web active
+CTRL+W                       Fermer la fenêtre active
+
+Raccourcis clavier généraux
+---------------------------
+CTRL+C                       Copier
+CTRL+X                       Couper
+CTRL+V                       Coller
+CTRL+Z                       Annuler
+SUPPRESSION                  Supprimer
+MAJ+SUPPRESSION              Supprimer de manière permanente l'élément sélectionné sans le placer dans la Corbeille
+CTRL+FLECHE DROITE           Déplacer le point d'insertion jusqu'au début du mot suivant
+CTRL+FLECHE GAUCHE           Déplacer le point d'insertion jusqu'au début du mot précédent
+CTRL+FLECHE BAS              Déplacer le point d'insertion jusqu'au début du paragraphe suivant
+CTRL+FLECHE HAUT             Déplacer le point d'insertion jusqu'au début du paragraphe précédent
+CTRL+A                       Sélectionner tout
+ALT+ENTRÉE                   Afficher les propriétés de l'élément sélectionné
+ALT+F4                       Fermer l'élément actif ou quitter le programme actif
+ALT+ENTRÉE                   Afficher les propriétés de l'objet sélectionné
+ALT+ESPACE                   Ouvrir le menu contextuel de la fenêtre active
+CTRL+F4                      Fermer le document actif dans les programmes qui vous permettent d'ouvrir simultanément plusieurs documents
+ALT+TAB                      Basculer entre les éléments ouverts
+ALT+ÉCHAP                    Parcourir les éléments en boucle dans l'ordre dans lequel ils ont été ouverts
+MAJ+F10                      Afficher le menu contextuel de l'élément sélectionné
+ALT+ESPACE                   Afficher le menu Système de la fenêtre active
+CTRL+ÉCHAP                   Afficher le menu Démarrer
+RETOUR ARRIÈRE               Afficher le dossier de niveau supérieur dans le Poste de travail ou l'Explorateur Windows
+ÉCHAP                        Annuler la tâche en cours
+MAJ                          lorsque vous insérez un CD-ROM dans le lecteur de CD-ROM (Empêcher la lecture automatique du CD-ROM)
+Touche F2                    Renommer l'élément sélectionné
+Touche F3                    Rechercher un fichier ou un dossier
+Touche F4                    Afficher la liste de la barre d'adresses dans le Poste de travail ou l'Explorateur Windows
+Touche F5                    Mettre à jour la fenêtre active
+Touche F6                    Parcourir les éléments d'écran en boucle dans une fenêtre ou sur le Bureau
+Touche F10                   Activer la barre de menus dans le programme actif

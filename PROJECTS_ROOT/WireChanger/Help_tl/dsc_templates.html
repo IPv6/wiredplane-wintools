@@ -1,0 +1,41 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Templates</h1><hr>
+Tempates can greatly change look-and-feel of your wallpaper. Template can be activated via tray menu or preferences. Active template adds to wallpaper additional processing or useful 
+and even interactive object. Additionally, every active template adds special items to the tray menu of WireChanger. This can be quick way to change options of template or quick way to edit template-related data. Let`s look on the basic templates in WireChanger:
+<br>- <b>Calendar</b>. This template will add semi-transparent interactive calendar to your background. Calendar is highly customizable and even skinnable. You can add text notes to the cells of the calendar by double clicking it right on your desktop. If you change colors of the note`s edit window (Ctrl-B/Ctrl-T), corresponding cell will use this colors too. To add note for future dates (that are not visible on calendar) double click calendar`s title.
+<br>- <b>Citations</b>. Using this template you will be able to read random citation right over your wallpaper every time it changes. Double-click on citation will open citation1s file, which you can edit and add your own favourite citations. Hand-edited citations will _not_ be overwrittes on WireChanger`s updates
+<br>- <b>Memo pad</b>. This template will add to background current date, month and short information about famous people that was born at that day in past. You can type your text (memo) also - just double-click it or choose corresponding item from tray menu
+<br>- <b>Second picture</b>. Just semi-transparent preview of random image of your collection in the wallpaper corner
+<br>- <b>Special effects</b>. Can turn you desktop background into black-and-white artistic paper or emboss it or... Just try out! :)
+<br>- <b>Picture in Picture</b>. This template will blend two images into one by different algorithms. Just try to find out - this can be very funny! :)
+<br><br>Templates, available in full version of WireChanger:
+<br>- <b>Image mosaic</b>. This template will create mosaic from wallpaper. Mosaic cane be created from mirrored and/or random images. Try for yorself!
+<br>- <b>Online quotation</b>. Same as citation but qoutations are takes from internet site, so this template will be active only when you are connected to the internet. If you know links to interesting quotation sites, send them to us - we will add choice for them in future releases!
+<br>- <b>CNN News</b>. Latest news from CNN web-site. You must be online to use this template
+<br>- <b>Weather forecast</b>. Specail icon with temperature, wind speed, etc., for today or tomorrow. Default values are for Moscow, Russia and you have to change city code by yourself. To find your number, please visit www.gismeteo.ru and click your code and then look at the URL of the page. 
+The numbers in the URL will be your code.
+<br>- <b>Web camera</b>. Semi-transparent image from URL of your choice. You must be connected to the internet to use this template. By default, this templates will show you random image from our web-site
+<br><br>Some notes about transparency under Windows 98/ME: It is better not to use transparency under that versions of Windows, because they are not support transparency natively (contrary to Windows 2000, Windows XP and higher). So it is advised
+to set opacity to 100
+<hr>
+<h1>For developers</h1><br>
+Template is the simple HTML page or page with special draw script with preprocesing commands which wraps your wallpaper with different effects.
+Templates will be applied even to images, that are installed as wallpaper from other programs. You can find all templates in 'Template' folder in WireChanger`s installation directory (*.wpt files). You can add new 
+templates easily - just look at existing template files. Remember, that additional files used by WireChanger are cashed for performance purposes, so if you add/remove some strings to/from them, 
+you must restart whole application.
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

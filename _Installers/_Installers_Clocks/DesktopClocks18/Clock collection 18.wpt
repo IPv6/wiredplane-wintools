@@ -1,0 +1,36 @@
+$=<TITLE:Clock collection 18>$=<SHOWINTRAY:PARAM_ROOT,!SITE>$=<CATEG:Clocks>
+$=<RENDER:ActiveDesktop>$=<HINTS:RENDER-LAYER=(BG-1),ONLINE-STATE=(DONTCARE)>
+
+$=<PARDEF:PARAM_ROOT>$=<PARDSC:PARAM_ROOT=Clock options>$=<PARTYP:PARAM_ROOT=root>
+$=<PARDEF:CLN_SKIN=2>$=<PARDSC:CLN_SKIN=Clock skin>$=<PARTYP:CLN_SKIN=dirlist>$=<PARLST:CLN_SKIN=$=<BASEPATH>\Clocks\Clock collection 18\*.swf>
+$=<PARDEF:SITE>$=<PARDSC:SITE=Download more clock skins!>$=<PARACTION:SITE=http://www.wiredplane.com/clocks.shtml/>$=<PARTYP:SITE=action>
+$=<PARDEF:CLOCKSPOS>$=<PARDSC:CLOCKSPOS=Set clock position>$=<PARPAR:CLOCKSPOS=PARAM_ROOT>$=<PARTYP:CLOCKSPOS=set_position>$=<PARACTION:CLOCKSPOS=OC:(1),X:(CLOCKXPOS),Y:(CLOCKYPOS),W:(CLOCKWIDTH),H:(CLOCKHEIGHT)/>
+$=<PARDEF:CLOCKXPOS=300>$=<PARDSC:CLOCKXPOS=X Position (pixels)>$=<PARTYP:CLOCKXPOS=number>$=<PARMIN:CLOCKXPOS=0>$=<PARMAX:CLOCKXPOS=$=<SCREEN_X>>$=<PAROC:CLOCKXPOS=1>$=<PARPAR:CLOCKXPOS=CLOCKSPOS>
+$=<PARDEF:CLOCKYPOS=300>$=<PARDSC:CLOCKYPOS=Y Position (pixels)>$=<PARTYP:CLOCKYPOS=number>$=<PARMIN:CLOCKYPOS=0>$=<PARMAX:CLOCKYPOS=$=<SCREEN_Y>>$=<PAROC:CLOCKYPOS=1>$=<PARPAR:CLOCKYPOS=CLOCKSPOS>
+$=<PARDEF:CLOCKWIDTH=200>$=<PARDSC:CLOCKWIDTH=Width (pixels)>$=<PARTYP:CLOCKWIDTH=number>$=<PARMIN:CLOCKWIDTH=20>$=<PARMAX:CLOCKWIDTH=$=<SCREEN_X>>$=<PAROC:CLOCKWIDTH=1>$=<PARPAR:CLOCKWIDTH=CLOCKSPOS>
+$=<PARDEF:CLOCKHEIGHT=0>$=<PARDSC:CLOCKHEIGHT=Height (pixels)>$=<PARTYP:CLOCKHEIGHT=number>$=<PARMIN:CLOCKWIDTH=20>$=<PARMAX:CLOCKHEIGHT=$=<SCREEN_Y>>$=<PAROC:CLOCKHEIGHT=1>$=<PARPAR:CLOCKHEIGHT=CLOCKSPOS>
+
+$=<PARDEF:TRANS_ROOT>$=<PARDSC:TRANS_ROOT=Clock transparency>$=<PARTYP:TRANS_ROOT=tip>
+$=<PARDEF:ENABLE_TRANS=0>$=<PARDSC:ENABLE_TRANS=Enable transparency>$=<PARTYP:ENABLE_TRANS=bool>
+$=<PARDEF:TRANSPARENCY=50>$=<PARDSC:TRANSPARENCY=Transparency level (percents)>$=<PARTYP:TRANSPARENCY=slider>$=<PARMIN:TRANSPARENCY=1>$=<PARMAX:TRANSPARENCY=99>
+$=<PARDEF:BORD_ROOT>$=<PARDSC:BORD_ROOT=Clock border>$=<PARTYP:BORD_ROOT=tip>
+$=<PARDEF:BORDERS=0>$=<PARDSC:BORDERS=Border style>$=<PARTYP:BORDERS=list>$=<PARLST:BORDERS=none,dotted,dashed,solid,double,groove,ridge,inset,outset>
+$=<PARDEF:BORDERA=5>$=<PARDSC:BORDERA=Border width>$=<PARTYP:BORDERA=number>$=<PARMIN:BORDERA=0>$=<PARMAX:BORDERA=100>
+$=<PARDEF:BORDERC=#FFFFFF>$=<PARDSC:BORDERC=Border color>$=<PARTYP:BORDERC=color>
+$=<PARDEF:CLN_SKIN-PATH=$=<BASEPATH>/Clocks/Clock collection 18/amber_eye.swf>$=<PARTYP:CLN_SKIN-PATH=hidden>
+$=<PAR:CUTLINE>
+
+<div style='position: absolute; z-index: 48; left:$=<PAR:CLOCKXPOS>; top:$=<PAR:CLOCKYPOS>; $=<IF:$=<PAR:ENABLE_TRANS>==1? filter:Alpha(opacity=$=<PAR:TRANSPARENCY>);'/IF>'>
+	<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" 
+	style='border-style: $=<IN_LIST($=<PAR:BORDERS>,none,dotted,dashed,solid,double,groove,ridge,inset,outset)>; border-width: $=<PAR:BORDERA>; border-color: $=<PAR:BORDERC>;'
+	WIDTH="$=<PAR:CLOCKWIDTH>" $=<IF:$=<PAR:CLOCKHEIGHT>!=0?HEIGHT="$=<PAR:CLOCKHEIGHT>;"/IF>>
+	<PARAM NAME=movie VALUE="$=<PAR:CLN_SKIN-PATH>">
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=wmode VALUE=transparent> 
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	</OBJECT>
+</div>
+
+<!-- Invisible GIF for workaround r-click menu problems -->
+<img src="$=<BASEPATH>/images/empty.gif" width="$=<PAR:CLOCKWIDTH>" $=<IF-2:$=<PAR:CLOCKHEIGHT>!=0?height="$=<PAR:CLOCKHEIGHT>"/IF-2> 
+style="position:absolute; z-index:49; left:$=<PAR:CLOCKXPOS>; top:$=<PAR:CLOCKYPOS>;">

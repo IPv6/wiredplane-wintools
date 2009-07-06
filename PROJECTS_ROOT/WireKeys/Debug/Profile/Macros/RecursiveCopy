@@ -1,0 +1,65 @@
+// Title: Recursive copy
+// Description: Select folder in explorer and call this macro. WK will ask for target directory and copy all files from selected folders into choosen one
+// Type parameter type (string/file/folder/none)
+// ParamType: file
+
+var	fso = new ActiveXObject("Scripting.FileSystemObject");
+var sLog="Transferred by WireKeys (RecursiveCopy macro):\r\n";
+var iTotalCounter=0,iTotalCounterFolder=0;
+function processFolder(fromFolder,toFolder)
+{
+	iTotalCounterFolder++;
+	sLog+=iTotalCounterFolder+". Entering '"+fromFolder+"'...";
+	sLog+="\r\n";
+	var f = fso.GetFolder(fromFolder);
+	var ff = new Enumerator(f.files);
+	for (; !ff.atEnd(); ff.moveNext()){
+		sLog+="- "+ff.item();
+		// Here you can filter dource files by name/creation date/size and more
+		// By using the following functions: ff.item().DateCreated, ff.item().Size, ff.item().DateLastModified, ff.item().Type 
+		// But we will copy everything
+		var FileToCopy = toFolder+"\\"+ff.item().name;
+		var iCounter=1;
+		while(fso.FileExists(FileToCopy)){
+			FileToCopy = toFolder+"\\"+ff.item().name+"."+iCounter;
+			// Another way to form target name is to use 'fso.GetExtensionName()' function and so on...
+			iCounter++;
+		}
+		if(iCounter>1){
+			sLog+=" - Renamed to '"+FileToCopy+"'";
+		}
+		fso.CopyFile(ff.item(), FileToCopy);
+		sLog+=" - OK\r\n";
+		iTotalCounter++;
+	}
+	var fc = new Enumerator(f.SubFolders);
+	for (; !fc.atEnd(); fc.moveNext()){
+		// For each folder in folder
+		processFolder(fc.item(),toFolder);
+	}
+}
+
+function wkMain(selectedText,macroParamenter)
+{
+	var sFolders=selectedText.split('\n');
+	// Target location...
+	var sTarget="%ASKFOLDER";
+	if(sFolders.length>0){
+		sLog+="Selected folders:\r\n"+selectedText+"\r\n\r\nStarting transfer.\r\n";
+		// For each folder in source...
+		for(i=0;i<sFolders.length;i++){
+			processFolder(sFolders[i],sTarget);
+		}
+	}else{
+		sLog+="No folders selected!\r\n";
+	}
+	var logFile=sTarget+"\\_copylog.txt";
+	var ts = fso.OpenTextFile(logFile,8, -2, true);
+	ts.Write(sLog);
+	ts.Write("\r\nResult: transferred "+iTotalCounter+" files from "+iTotalCounterFolder+" folders\r\n");
+	ts.Write("\r\n\r\n");
+	ts.Close();
+	var WshShell = new ActiveXObject('WScript.Shell');
+	WshShell.Run(logFile,1,false);
+	return "";
+};

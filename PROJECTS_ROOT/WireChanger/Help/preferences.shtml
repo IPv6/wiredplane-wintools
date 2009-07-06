@@ -1,0 +1,101 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Íàñòðîéêè ïðèëîæåíèÿ" -->
+<!--#set var="PTITLE_EN" value="Preferences dialog" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Preferences Dialog</h2><hr>
+
+To access the WireChanger Preferences screen, right-click the WireChanger tray icon and select Preferences from the popup menu. By default, the Common preferences are shown first. You can also access this screen by clicking the Preferences button on the Wallpapers list window. When you access Preferences this way, the Wallpapers list options are shown first.<br /><br />
+
+<b>Common</b>
+
+<ul>
+<li><b>Start with Windows</b> (Checkbox) - When checked, WireChanger will run at Windows startup.</li>
+<li><b>User interface language</b> (Dropdown) - Selection detemines the language displayed within WireChanger. Choose from English, Russian, Spanish, Italian, Arabian, and more as they become available.</li>
+<li><b>When program starts</b> (Dropdown) - Selection determines what will happen to the current wallpaper when WireChanger starts. Choose from 'Do Nothing', 'Wait and Change', or 'Wait, Change and Exit'. 'Change (keep period between restarts)' - If you close WireChanger (by exit or shutdown) 15 mins prior to next change, WireChanger will save this timeout for next run (and will wait 15 min after start before changing wallpaper).</li>
+<li><b>Tray icon appearance</b> (Dropdown) - Selection determines whether or not a WireChanger icon will appear in the Windows taskbar tray and what that icon can look like. Choose from 'Simple icon', 'Minimized wallpaper', or 'No icon at all'.</li>
+<li><b>Action to perform on 'Close' button</b> (Dropdown) - Selection determines what will happen when you click the Close (X) button at the top right corner of the Wallpapers list window. (This action does not occur when you click the Close button of the Properties window.) Choose from 'Ask user', 'Close program', or 'Minimize to tray'.</li>
+<li><b>Blink tray icon while processing wallpaper</b> (Checkbox) - When checked, the WireChanger tray icon will flash briefly as the wallpaper changes.</li>
+<li><b>How to fill borders around images</b> (Dropdown) - When an image has an aspect ratio different from that of the screen resolution, this selection determines how the remaining gaps should be filled in. Choose from 'Fill with background color', 'Use image edges infinitely', or 'Use mirrored image infinitely'.</li>
+<li><b>Blend borders around wallpaper with background color</b> (Checkbox) - When checked, wallpapers that do not fill the entire screen will blend seamlessly with the background color.</li>
+<li><b>Wallpaper background color</b> (Ellipsis button) - Used in connection with the previous option, when 'Fill with background color' is chosen, to determine what that background color will be. Brings up the standard color selection window.</li>
+</ul>
+
+If you do not see the following Hotkeys, Exceptions, Warnings, and Miscellaneous options, click the blue triangle in the tree structure next to the Common option. Clicking this toggle will alternately expand and contract the options below Common. The same is true for the triangle toggle by the Wallpapers list.<br /><br />
+
+<b>Hotkeys</b><br /><br />
+
+To change any hotkey setting, double-click the Value area for the given action. This enables a dropdown list from which you can optionally choose to add a (special) key, add a modifier, or clear the current hotkey value. Click the X button next to the dropdown list to clear the hotkey value.<br /><br />
+
+Special keys include Space, Page Up, Page Down, End, Home, the four arrow keys, Sys Req, Insert, Delete, Apps, any key in the keypad group (except Enter), any function key (F1-F12), Num Lock, and Scroll Lock.<br /><br />
+
+Modifiers include Shift, Ctrl, Alt, and Windows.<br /><br />
+
+Special keys and modifiers are not required to setup a hotkey. With the dropdown list enabled, you can simply assign a single letter from the main section of the keyboard ('C' or 'N', for example) as the hotkey.<br /><br />
+
+Available hotkey actions and their default settings:
+
+<ul>
+<li><b>Change wallpaper</b> - Alt-W</li>
+<li><b>New desktop note</b> - <i>not defined</i></li>
+<li><b>Show list of images</b> - <i>not defined</i></li>
+<li><b>Next wallpaper</b> - <i>not defined</i></li>
+<li><b>Prev(ious) wallpaper</b> - <i>not defined</i></li>
+</ul>
+
+<b>Privacy/Exceptions</b>
+
+<ul>
+<li><b>When screensaver is running or computer is locked</b> (Dropdown) - Selection determines how WireChanger should handle its normal functions under these more unusual conditions involving screensavers and purposely locked systems. Choose from 'Do not change wallpaper', 'Change in normal way', or 'Change only once'.</li>
+<li><b>Don't change if memory usage threshold exceeded (percent)</b> (Checkbox) - When checked, WireChanger will not change wallpapers if your system's memory usage has exceeded the value, expressed as a percent, that you have entered. The default percentage is 80.</li>
+<li><b>Don't change if CPU usage threshold exceeded (percent)</b> (Checkbox) - When checked, WireChanger will not change wallpapers if your system's CPU usage has exceeded the value, expressed as a percent, that you have entered. The default percentage is 60.</li>
+</ul>
+
+To change the percentages described above, double-click each value box. You can enter whole numbers ranging from 0 to 100 percent.<br /><br />
+
+<b>System options</b>
+
+<ul>
+<li><b>Load directories with subfolders</b> (Checkbox) - When checked, if you add an entire folder of images to the WireChanger rotation and that folder contains sub-folders, images in those sub-folders will also be included in the rotation.</li>
+<li><b>Set last wallpaper for default user (Win NT/2k/XP)</b> (Checkbox) - When checked, if a default (guest) user logs on to the system, the wallpaper that was last shown undeer your login will be the wallpaper displayed for the guest.</li>
+<li><b>Track wallpaper changes and apply notes automatically, Apply active templates also</b> (Checkbox) - When checked, WireChanger is aware of your attempts to change the wallpaper from another program (that has a 'set as wallpaper' option) and automatically updates the new image with any notes and templates you may have had on the existing wallpaper.</li>
+<li><b>Generate wallpapers in low priority</b> (Checkbox) - Changing to a new wallpaper can sometimes use much of the CPU's resources for a short period of time. When checked, such CPU usage will be smoothed out over a longer period of time making the shortage of resources less noticeable but making the image change take a little longer.</li>
+<li><b>How to fill desktop with patterns</b> (Dropdown) - If the current wallpaper is smaller than your screen resolution, this selection determines how Wirechanger will handle the 'extra' space on the desktop. Choose from 'Center/Stretch', 'Tile', or 'Mirror tiling'.</li>
+<li><b>Set icons transparency and text color</b> (Checkbox) - When checked, WireChanger will attempt to remove the background from desktop icon labels (i.e. make it transparent) and change the color of the text to the one you specify here. Click the ellipsis button to bring up the standard color selection window. Under certain conditions, this may not work due to a bug in Windows.</li>
+<li><b>Distance to stick windows together (pix)</b> - Double-click the value box to change the pixel number. If two WireChanger windows are placed on the screen this distance apart (or less), they will automatically lock edges.</li>
+<li><b>Check for updates every ... day(s)</b> (Checkbox) - When checked, WireChanger will check for newer versions at WiredPlane and popup a notice when one is available. Set the frequency in days to check the website by double-clicking the value box.</li>
+<li><b>Wallpaper file</b> - This option has two possible uses when checked. 1) If your browser's home page is a file on your hard drive (as opposed to a page on the Web), the image in this option will be the background of that page. 2) When connected to a LAN, you can enter the path to an image in a shared folder. Then any computer with access to that shared folder can use that same image as their wallpaper.</li>
+<li><b>Wallpaper exchange service</b> (Dropdown) - Determines whether you want to include online wallpapers in the rotation. Choose from 'Suggest exchange sometimes', 'Approve wallpaper exchange', or 'Turn this service off'.</li>
+</ul>
+
+<b>Confirmations</b><br /><br />
+
+<ul>
+<li><b>Skip information warnings</b> (Checkbox) - When checked, suppresses notices (such as the number of new images added when you choose to add an entire folder of them) while working in the main Wallpapers list window.</li>
+<li><b>Skip warning about broken image link</b> (Checkbox) - When checked, suppresses notices about missing images. If you added images to your WireChanger rotation and later deleted some of them from your hard drive, WireChanger has no way of knowing that you removed them. (Note that each theme has an option to 'remove broken images' to help prevent this situation.)</li>
+<li><b>Skip warning about Active Desktop enable/disable</b> (Checkbox) - When checked, suppresses notices about the need to enable and disable the Active Desktop when working with the Clocks Template.</li>
+<li><b>Skip warning about refreshing image list</b> (Checkbox) - When a large number (3000 or more) of images is added to the WireChanger rotation, it can take a long time to process them. When checked, this option suppresses the notice that processing will take longer than usual and that the user should be patient.</li>
+<li><b>Skip warning about applying changes</b> (Checkbox) - When checked, suppresses notices generated when you click the Apply button, when you save a sticky note, and when you change settings in the active template.</li>
+<li><b>Skip warning about deleting theme</b> (Checkbox) - When checked, suppresses notices generated when are about to delete a theme.</li>
+<li><b>Skip warning about deleting clock</b> (Checkbox) - When checked, suppresses notices generated when are about to delete a clock.</li>
+<li><b>Show tray popup in difficult situation</b> (Checkbox) - When checked, if WireChanger attempts to change the wallpaper during a time of high CPU usage or low memory resources, not only will the change fail but the popup menu will appear by the tray icon as well.</li>
+<li><b>Warning window: Place button on taskbar instead of tray icon</b> (Checkbox) - When checked, WireChanger will be minimized to the taskbar, and no icon will show in the tray. Warning windows then would naturally pop up near the taskbar button.</li>
+</ul>
+<br><br>
+<a href="preferences2.shtml"><b>Main window preferences</b></a><br><br>
+<a href="preferences3.shtml"><b>Templates preferences dialog</b></a><br><br>
+
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

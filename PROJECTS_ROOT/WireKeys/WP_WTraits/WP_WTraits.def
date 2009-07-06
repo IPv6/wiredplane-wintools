@@ -1,0 +1,25 @@
+; WKHelper.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WKHelper"
+DESCRIPTION  'WireKeys WKHelper plugin'
+
+EXPORTS
+ClosePrinter @4
+DocumentPropertiesA @24
+OpenPrinterA @12
+WKGetPluginFunctionActualDesc
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+;WKPluginPause
+WKDesktopSwitching
+WKPluginInit
+WKPluginStop
+;WKPluginOptions
+WKPluginOptionsManager
+WKGetPluginContainer
+GetThreadHandle
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionHints
+GetLastHitTest
+GetLastFocusWnd

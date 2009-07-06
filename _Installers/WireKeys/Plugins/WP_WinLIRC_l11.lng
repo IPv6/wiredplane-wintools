@@ -1,0 +1,37 @@
+;Translated by Romuald Giovani, 25.07.2006
+;For WireKeys v3.5.0
+GpioRemote=GPIO Remote
+Dscplg_wp_avertvrem=Ce module vous permet d'utiliser les contrôles à distance GPIO dans vos raccouris
+Popt_remoteCon_kbpipsfwcy=Configuration du contrôle à distance
+Popt_showPress_eifvpomjej=Afficher les touches pressées dans l'OSD
+FailedToFindRemoteC_GTLISDUOVG=Echec de recherche des pilotes de contrôle à distance
+Popt_toAddRem_vdwsxxtxfu=Pour ajouter un bouton de contrôle à distance au raccourci, ouvrez le menu contextuel et choisissez le bouton voulu dans le sous-menu déroulant. Vous pouvez ajouter plus d'un bouton de contrôle à distance. Un tel raccourci peut être 'déclenché' par une pression rapide sur les boutons correspondant les uns après les autres sans délais. Ce module nécessite que le traitement des raccourcis étendus soit à ON.
+RemoteButtons=Boutons de contrôle à distance
+NormalMode=Mode normal
+EnteringMode=Mode saisie
+Mode=mode
+NoMode=Aucun mode
+Mode#1=Mode #1
+Mode#2=Mode #2
+Mode#3=Mode #3
+Mode#4=Mode #4
+ReturnRemoteIntoDefaultState=Retourner la commande de contrôle à distance à ses valeurs par défaut
+RemoteModes=Modes de contrôle à distance
+Popt_avertvRem_naqycpdkbp=Configuration de contrôle à distance AverTV
+Popt_winlircIp_gbocsxhefm=Adresse IP WinLirc
+Popt_winlircPo_hukbfoyhml=Port WinLirc
+WinlircRemoteControls=Contrôles à distance WinLIRC
+Dscplg_wp_winlirc=Utiliser les contrôles à distance dans les raccourcis (supporte les cartes WinLIRC et AverTV)
+UseRemoteModeToSwit_UCLSIXXHFQ=Utiliser le mode de contrôle à distance pour basculer les boutons désignants différentes actions. Par exemple le bouton 'Power' peut lancer le tuner TV en mode normal et arrêter l'ordinateur en mode #1
+ToAddRemoteButtonsA_CSDFWIOFBM=Pour rajouter des boutons de contrôle à distance, pressez-les dans n'importe quel ordre
+ResetButtons=Réinitialiser les boutons
+WinlircNotFoundChec_TORNFRQKGB=WinLIRC non trouvé<brr>Vérifiez les paramètres WinLIRC
+Connected=Connecté
+NotConnected=Déconnecté
+Popt_winlircCo_wavicnuyfg=Etat de la connection WinLIRC
+Popt_toReconne_mcqwyxvvbt=Pour vous reconnecter à WinLIRC modifiez cette option et pressez la bouton Appliquer
+Popt_leaveEmpt_xcjrtiylgx=Laissez ce champ vide si vous ne voulez pas utiliser WinLIRC
+Popt_playSound_lekmjqhtae=Jouer un son lors de la pression d'un bouton
+Popt_leaveEmpt_rieqjobcpy=Laissez à vide pour désactiver
+Popt_otherOpti_nlrbohlmqf=Autres options
+Nameplg_wp_winlirc=Support commandes à distance IR

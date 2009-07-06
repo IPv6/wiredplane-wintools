@@ -1,0 +1,98 @@
+;Кодировка страницы
+CODEPAGE=charset=Windows-1251
+
+;Текущий день на календаре
+YouAreHere=Сегодня
+
+;Названия месяцев
+January=Январь
+February=Февраль
+March=Март
+April=Апрель
+May=Май
+June=Июнь
+July=Июль
+August=Август
+September=Сентябрь
+October=Октябрь
+November=Ноябрь
+December=Декабрь
+
+;Названия дней недели
+Monday=Понедельник
+Tuesday=Вторник
+Wednesday=Среда
+Thursday=Четверг
+Friday=Пятница
+Saturday=Суббота
+Sunday=Воскресенье
+
+;Короткие дней недели
+Mon=Пн
+Tue=Вт
+Wed=Ср
+Thu=Чт
+Fri=Пт
+Sat=Сб
+Sun=Вс
+
+;Строки для различных шаблонов
+NoImage=Нет изображения
+NoConnection=Нет соединения
+WebCamera=Web камера
+WeatherReport=Прогноз погоды
+TODO=Список дел
+Click_here_Weather=Кликните чтобы открыть страницу с прогнозом
+Click_here_Site=Кликните чтобы открыть Web-страницу
+Remains=Осталось
+Search=Искать
+Translate=Перевести
+Refresh=Обновить
+Loading=Загружаем
+Click_for4Months=Кликните чтобы увидеть календарь на 4 месяца
+Anecdote=Анекдот
+ShowNews=Показать новости
+Minimize=Скрыть
+PrefsNotDefined=Задайте параметры шаблона пожалуйста!
+BuyNow=Купить!
+
+SetNextWallpaper=Следующая картинка
+SetPrevWallpaper=Предыдущая картинка
+SetRandWallpaper=Случайная картинка
+SetAsWallpaper=Установить как фоновую картинку
+SwitchOnOff=Остановить/Запустить автоматическую смену
+Unregistered=- Demo версия -<brr>Приобретите эту программу!
+Unlim20=Навсегда
+FreeWeek=На неделю
+UploadImage=бесплатный ключ дается в обмен на одну из Ваших картинок
+
+WPE_Title=Сервис обмена обоями.
+WPE_Instructions=Выберите одну из Ваших картинок кнопкой 'Обзор', Введите Ваше имя латинскими буквами, название картинки и нажмите 'Обменять!'.
+WPE_InstructionsContest=Выберите одну из Ваших картинок кнопкой 'Обзор', Введите Ваше имя латинскими буквами, название и нажмите 'Обменять!'.<br><font color=red>Ваш регистрационный ключ будет показан на следующем экране</font>
+WPE_YName=Ваше&nbsp;имя
+WPE_ITitle=Картинка
+WPE_Comms=Комментарий
+WPE_IFile=Файл картинки
+WPE_Note=Заметка: Разрешение картинки должно быть 1024*768 или выше; размер файла должен быть меньше <b>1000Kb</b>. Допустимые форматы картинки: <b>jpg, gif или png</b>.
+WPE_Button=Обменять!
+WPE_RecentImages=Картинки, выложенные недавно другими пользователями. Нажмите на картинку чтобы открыть ее в новом окне
+WPE_OSDesc=Архив картинок для десктопа.
+WPE_InProgress=Идет закачка, подождите
+WPE_EnterName=Задайте имя (мин. 3 символа)
+WPE_EnterIPath=Задайте путь к картинке
+WPE_Confirm=Начинаем закачку картинки\nНажмите OK чтобы продолжить!
+WPE_UploadStarted=Закачка Вашей картинки началась. Скорость закачки зависит от скорости Вашего соединения с Интернетом, подождите пожалуйста результата
+WPE_NoConnection=Внимание: http://www.wiredplane.com/ не доступен.\nНекоторые возможности могут не работать
+WPE_OrBuyNow=Ну и конечно Вы можете получить полную регистрацию <a href="http://www.wiredplane.com/cgi-bin/wp_engine.php?target=vendor-ru&who=WireChangerExchange">на нашем сайте</a>. Регистрациoнный ключ разблокирует все возможности программы и Вам не нужно будет обмениваться картинками для продолжения работы с ней. Ключ будет выслан Вам сразу, процедура оплаты безопасна и быстра<br><a href="http://www.wiredplane.com/cgi-bin/wp_engine.php?target=vendor-ru&who=WireChangerExchange">Убедитесь сами</a>!
+WPE_Feedback=Если Вы хотите задать вопрос или предложить добавить новую возможность или нашли баг, воспользуйтесь <a href="http://www.wiredplane.com/guestbook.shtml">контактной формой</a>
+WebSiteNotFound=Не удалось загрузить информацию с сайта. Сайт не доступен
+WPE_WrongImage=Картинка слишком маленького размера, нужно не менее 1024x768
+WPE_SElapsed=Секунд прошло
+WPE_Curwall=Текущая картинка
+
+CTD_Days_today=Сегодня!
+CTD_Days_ago=Прошло %s дн.
+CTD_Days_left=Осталось %s дн.
+
+No_Internet_Found=Не найдено интернет-соединения
+NumberDay=число

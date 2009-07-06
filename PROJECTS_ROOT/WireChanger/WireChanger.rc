@@ -1,0 +1,594 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINICO             ICON    DISCARDABLE     "res\\Intendo.ico"
+IDI_CHWALLPICON         ICON    DISCARDABLE     "res\\icon_wc.ico"
+IDI_ICON_ASK            ICON    DISCARDABLE     "res\\icon_ask.ico"
+IDI_ICON_INFO_AST       ICON    DISCARDABLE     "res\\icon_inf.ico"
+IDI_NOCHWALL            ICON    DISCARDABLE     "res\\nochwall.ico"
+IDI_ICON_DEL            ICON    DISCARDABLE     "res\\icon_del.ico"
+IDI_ICON_SAVE           ICON    DISCARDABLE     "res\\icon_sav.ico"
+IDI_ICON_SWT            ICON    DISCARDABLE     "res\\icon_swt.ico"
+IDI_ICON_VI             ICON    DISCARDABLE     "res\\icon_vi.ico"
+IDI_ICON_VI2            ICON    DISCARDABLE     "res\\icon_vi2.ico"
+IDI_UPNOTIFY            ICON    DISCARDABLE     "res\\upnotify.ico"
+IDI_ICON_REM            ICON    DISCARDABLE     "res\\icon_rem.ico"
+IDR_MAINICO_TRAY        ICON    DISCARDABLE     "res\\idr_maintray.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BM_NOTE_OK          BITMAP  MOVEABLE PURE   "res\\bm_noteok.bmp"
+IDB_BM_NOTE_DEL         BITMAP  MOVEABLE PURE   "res\\bm_notedel.bmp"
+IDB_BM_NEWTH            BITMAP  MOVEABLE PURE   "res\\bm_newth.bmp"
+IDB_BT_ADDIR            BITMAP  MOVEABLE PURE   "res\\bt_addir.bmp"
+IDB_BM_ADDFILE          BITMAP  MOVEABLE PURE   "res\\bm_addfi.bmp"
+IDB_BM_ADDARCH          BITMAP  MOVEABLE PURE   "res\\bm_addar.bmp"
+IDB_BM_NOICON           BITMAP  MOVEABLE PURE   "res\\bm_noico.bmp"
+IDI_ICON_TX             BITMAP  MOVEABLE PURE   "res\\ico_tx.bmp"
+IDI_ICON_FN2            BITMAP  MOVEABLE PURE   "res\\icon_fn2.bmp"
+IDI_ICON_FN             BITMAP  MOVEABLE PURE   "res\\icon_fn.bmp"
+IDI_ICON_BG             BITMAP  MOVEABLE PURE   "res\\icon_bg.bmp"
+IDB_BM_SORTBIG          BITMAP  MOVEABLE PURE   "res\\bm_sortb.bmp"
+IDB_BM_SYNCBIG          BITMAP  MOVEABLE PURE   "res\\bm_syncb.bmp"
+IDB_DDOWN_A             BITMAP  MOVEABLE PURE   "res\\ddown_a.bmp"
+IDB_REMIND_A            BITMAP  MOVEABLE PURE   "res\\remind_a.bmp"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BM_DEL              BITMAP  MOVEABLE PURE   "res\\bm_del.bmp"
+IDB_IMAGELIST           BITMAP  MOVEABLE PURE   "res\\imagelis.bmp"
+IDB_BM_SAVE             BITMAP  MOVEABLE PURE   "res\\bm_save.bmp"
+IDB_BM_OPTIONS          BITMAP  MOVEABLE PURE   "res\\bm_options.bmp"
+IDB_BM_HELP             BITMAP  MOVEABLE PURE   "res\\bm_help.bmp"
+IDB_BM_LICKEY           BITMAP  MOVEABLE PURE   "res\\bm_licke.bmp"
+IDB_BM_ABPROG           BITMAP  MOVEABLE PURE   "res\\bm_abpro.bmp"
+IDB_BM_ADD              BITMAP  MOVEABLE PURE   "res\\bm_add.bmp"
+IDB_BM_REM              BITMAP  MOVEABLE PURE   "res\\bm_rem.bmp"
+IDB_BM_EDIT             BITMAP  MOVEABLE PURE   "res\\bm_edit.bmp"
+IDB_BM_SETNOW           BITMAP  MOVEABLE PURE   "res\\bm_setn.bmp"
+IDB_BM_SORT             BITMAP  MOVEABLE PURE   "res\\bm_sort.bmp"
+IDB_BM_NEWI             BITMAP  MOVEABLE PURE   "res\\bm_newi.bmp"
+IDB_BM_SYNC             BITMAP  MOVEABLE PURE   "res\\bm_sync.bmp"
+IDB_BM_CLEAN            BITMAP  MOVEABLE PURE   "res\\bm_clean.bmp"
+IDB_BM_DEL2             BITMAP  MOVEABLE PURE   "res\\bm_del2.bmp"
+IDB_BM_CLOCK            BITMAP  MOVEABLE PURE   "res\\bm_clock.bmp"
+IDB_BM_MORE             BITMAP  MOVEABLE PURE   "res\\bm_more.bmp"
+IDB_BM_REMFT            BITMAP  MOVEABLE PURE   "res\\bm_remft.bmp"
+IDB_BM_CAL              BITMAP  MOVEABLE PURE   "res\\bm_cal.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NOTE DIALOGEX 0, 0, 124, 95
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "New note"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_TITLE,4,4,88,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "More",IDC_VIEW,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,108,80,12,12
+    CONTROL         "Icon",IDC_NOTEICON,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    96,4,24,24
+    PUSHBUTTON      "Delete",IDC_DEL,4,80,44,12,BS_CENTER | BS_VCENTER
+    DEFPUSHBUTTON   "Save",IDC_OK,48,80,48,12,BS_CENTER | BS_VCENTER
+    CONTROL         "BG",IDC_BG,"Button",BS_OWNERDRAW | WS_TABSTOP,108,32,12,
+                    12
+    CONTROL         "TX",IDC_TX,"Button",BS_OWNERDRAW | WS_TABSTOP,108,48,12,
+                    12
+    CONTROL         "Font",IDC_FN,"Button",BS_OWNERDRAW | WS_TABSTOP,108,64,
+                    12,12
+    CONTROL         "BG",IDC_BG2,"Button",BS_OWNERDRAW | WS_TABSTOP,96,32,12,
+                    12
+    CONTROL         "TX",IDC_TX2,"Button",BS_OWNERDRAW | WS_TABSTOP,96,48,12,
+                    12
+    CONTROL         "Font",IDC_FN2,"Button",BS_OWNERDRAW | WS_TABSTOP,96,64,
+                    12,12
+    CONTROL         "More",IDC_VIEW2,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,96,80,12,12
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 264, 273
+STYLE DS_MODALFRAME | DS_CENTER | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "About"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,196,212,64,14,BS_CENTER | BS_VCENTER | 
+                    WS_GROUP
+    CTEXT           "Static",IDC_REGSTATUS,4,124,256,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "1.92",IDC_PRVERSION,4,108,136,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "Copyright (C)2002. WiredPlane labs",IDC_COPYRIGHT,144,
+                    108,116,12,SS_CENTERIMAGE
+    CTEXT           "You can download latest version from www.wiredplane.com",
+                    IDC_DOWNLOADDSC,4,156,256,12,SS_CENTERIMAGE
+    CTEXT           "For comments, bugs reports, and any suggestions please write to support@wiredplane.com",
+                    IDC_EMDSC,4,176,256,16
+    LTEXT           "Notice: this computer program is protected by copyright laws and international treaties.",
+                    IDC_LEGALNOTICE,4,228,256,40
+    CONTROL         "Logo",IDC_LOGO,"Button",BS_OWNERDRAW | WS_TABSTOP,4,4,
+                    256,100
+    PUSHBUTTON      "Web site",ID_WEBSITE,72,140,120,14,BS_CENTER | 
+                    BS_VCENTER | WS_GROUP
+    DEFPUSHBUTTON   "Enter code",ID_ENTCODE,4,140,64,14,BS_CENTER | 
+                    BS_VCENTER | WS_GROUP
+    CTEXT           "Static",IDC_RUNSTATS,4,196,256,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    PUSHBUTTON      "Compose new mail message",ID_EMAIL,72,212,120,14,
+                    BS_CENTER | BS_VCENTER | WS_GROUP
+    PUSHBUTTON      "Support forum",ID_WEBSITE2,4,212,64,14,BS_CENTER | 
+                    BS_VCENTER | WS_GROUP
+    PUSHBUTTON      "Web site",ID_WEBSITE3,196,140,64,14,BS_CENTER | 
+                    BS_VCENTER | WS_GROUP
+END
+
+IDD_INFO_WND DIALOG DISCARDABLE  0, 0, 188, 64
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Info-window"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,72,52,36,12
+    CONTROL         "Info Text",IDC_TEXT,"Button",BS_OWNERDRAW | BS_LEFT | 
+                    BS_TOP | BS_FLAT | WS_TABSTOP,0,12,188,40
+    PUSHBUTTON      "Cancel",IDCANCEL,108,52,79,12
+    CONTROL         "Do not ask again",IDC_ASKAGAIN,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,0,52,72,12
+    CONTROL         "Icon",IDC_WICON,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,0,0,12,12
+    LTEXT           "Title",IDC_TITLE,16,0,130,12,SS_CENTERIMAGE
+    CONTROL         "__",IDMINIMIZE,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,176,0,12,12
+END
+
+IDD_WCHANGER DIALOGEX 0, 0, 356, 311
+STYLE DS_SETFOREGROUND | DS_CENTER | DS_CONTEXTHELP | WS_MINIMIZEBOX | 
+    WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "Wallpaper changer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST_WPAPERS,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,8,48,196,244
+    COMBOBOX        IDC_COMBO_THEMEFITTING,268,184,84,96,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_RESINFO,219,113,124,12,NOT WS_GROUP
+    CONTROL         "S",IDC_SETNOW,"Button",BS_OWNERDRAW | BS_VCENTER | 
+                    WS_TABSTOP,328,20,12,12
+    CONTROL         "Preview",IDC_PREVIEW,"Button",BS_OWNERDRAW | BS_LEFT | 
+                    BS_TOP | BS_NOTIFY | WS_TABSTOP,220,37,124,70
+    CONTROL         "Show Preview",IDC_PREVIEW_CHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFT | BS_VCENTER | BS_FLAT | 
+                    WS_TABSTOP,220,20,92,12
+    CONTROL         "Periodically",IDC_CHECK_ACTIVE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFT | BS_VCENTER | BS_FLAT | WS_TABSTOP,224,232,51,
+                    12
+    EDITTEXT        IDC_HOUR,280,232,24,12,ES_CENTER | ES_WANTRETURN | 
+                    ES_NUMBER
+    LTEXT           "h.",IDC_DVOETOCHIE,304,232,12,11,SS_CENTERIMAGE
+    EDITTEXT        IDC_MIN,316,232,24,12,ES_CENTER | ES_WANTRETURN | 
+                    ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,288,272,68,12,BS_VCENTER
+    CONTROL         "+D",IDC_BT_ADD_DIR,"Button",BS_OWNERDRAW | BS_VCENTER | 
+                    WS_TABSTOP,21,7,24,24
+    CONTROL         "-",IDC_BT_REM,"Button",BS_OWNERDRAW | BS_VCENTER | 
+                    WS_TABSTOP,67,9,24,24
+    COMBOBOX        IDC_COMBO_SEQUENCE,280,248,69,96,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Changing images",IDC_FORSEQ,216,220,140,48
+    EDITTEXT        IDC_INFO_BLOCK,0,296,356,12,ES_READONLY | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    RTEXT           "Sequence",IDC_STAT_SEQ,224,248,48,12,SS_CENTERIMAGE
+    GROUPBOX        "Theme",IDC_STAT_THEM,216,144,140,56
+    LTEXT           "Display mode",IDC_STAT_DMODE,224,184,40,12,
+                    SS_CENTERIMAGE
+    LTEXT           "Weight",IDC_STAT_WEIGHT,220,168,36,12,SS_CENTERIMAGE
+    CONTROL         "Slider1",IDC_SCR_WEIGHT,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_TABSTOP,272,168,76,12
+    RTEXT           "100%",IDC_STAT_WEIGHT_VAL,253,168,19,12,SS_CENTERIMAGE
+    CONTROL         "So",IDC_BT_THMISC,"Button",BS_OWNERDRAW | BS_VCENTER | 
+                    WS_TABSTOP,84,8,24,24
+    CONTROL         "-",IDC_BT_REM_IMG,"Button",BS_OWNERDRAW | BS_VCENTER | 
+                    WS_TABSTOP,312,20,12,12
+    GROUPBOX        "Preview selected image",IDC_STAT_PREV,214,6,140,124
+    PUSHBUTTON      "Options",IDAPPLY_MAIN,216,272,68,12,BS_VCENTER
+    CONTROL         "+F",IDC_BT_ADD_FILE,"Button",BS_OWNERDRAW | BS_VCENTER | 
+                    WS_TABSTOP,8,8,24,24
+    CONTROL         "+A",IDC_BT_ADD_ARCH,"Button",BS_OWNERDRAW | BS_VCENTER | 
+                    WS_TABSTOP,37,8,24,24
+    CONTROL         "Sy",IDC_BT_SYNC,"Button",BS_OWNERDRAW | BS_VCENTER | 
+                    WS_TABSTOP,100,9,24,24
+    CONTROL         "N",IDC_BT_NEWTH,"Button",BS_OWNERDRAW | BS_VCENTER | 
+                    WS_TABSTOP,53,8,24,24
+    CONTROL         "Active theme",IDC_ACTIVE_THEME,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFT | BS_VCENTER | BS_FLAT | WS_TABSTOP,224,152,128,
+                    12
+    LTEXT           "m.",IDC_DVOETOCHIE2,340,232,12,11,SS_CENTERIMAGE
+    CONTROL         "Tab1",IDC_MAINTAB,"SysTabControl32",0x0,8,36,196,12
+    CONTROL         "List1",IDC_LIST_WIDGETS,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,16,44,196,244
+    PUSHBUTTON      "Options",IDC_BT_WOPT,216,204,123,12
+    PUSHBUTTON      "...",IDC_WIDGETDROPDOWN,342,204,13,13
+    CONTROL         "Cal",IDC_BT_CAL,"Button",BS_OWNERDRAW | BS_VCENTER | 
+                    WS_TABSTOP,181,10,24,24
+END
+
+IDD_WPLINK DIALOGEX 0, 0, 164, 34
+STYLE DS_MODALFRAME | DS_CENTERMOUSE | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_WEIGHT,4,20,112,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    DEFPUSHBUTTON   "Add",IDC_ADD,120,20,43,12
+    CTEXT           "URL:",IDC_STATIC,4,4,156,12,SS_CENTERIMAGE
+END
+
+IDD_OPTIONS_DIALOG DIALOGEX 0, 0, 400, 230
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Options"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Help",IDHELP,4,212,49,14
+    PUSHBUTTON      "Additionally",IDRESET,60,212,63,14
+    CONTROL         "List1",IDC_LPANE,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,7,7,
+                    137,203,WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
+    CONTROL         "List1",IDC_OPTIONSLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,160,7,
+                    232,141,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "Loading preferences...",ID_FOLDERACTIONS1,161,161,211,
+                    12
+    PUSHBUTTON      "...",ID_FOLDERACTIONS2,378,161,12,12
+    DEFPUSHBUTTON   "OK",IDOK,228,212,49,14
+    PUSHBUTTON      "CANCEL",IDCANCEL,284,212,49,14
+    DEFPUSHBUTTON   "Apply",IDAPPLY,340,212,49,14
+    LTEXT           "Initializing dialog...",IDC_QHELP_TXT,164,188,221,15
+    GROUPBOX        "Static",IDC_QHELP,161,175,231,35
+    EDITTEXT        IDC_EDIT_FIND,128,212,48,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Button1",IDC_BUTTON_FIND,180,212,40,14
+    CONTROL         "",IDC_SLIDER_VERT,"Static",SS_ETCHEDVERT,149,92,1,24
+    CONTROL         "",IDC_SLIDER_HORZ,"Static",SS_ETCHEDHORZ,252,153,24,1
+END
+
+IDD_SIMPLECHOOSER DIALOG DISCARDABLE  0, 0, 124, 52
+STYLE DS_CENTER | WS_CAPTION
+CAPTION "Choose"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,36,36,50,14
+    CTEXT           "Choose",IDC_TEXT,0,4,124,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO,4,20,116,48,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+FILEOPEN_TEMPLATE DIALOG DISCARDABLE  0, 0, 95, 15
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",6000,10,2,81,9,NOT WS_VISIBLE
+    LTEXT           "",1119,0,2,8,8,NOT WS_VISIBLE | NOT WS_GROUP
+    CTEXT           "",1120,0,2,8,8,NOT WS_VISIBLE | NOT WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_NOTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 117
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 210
+        BOTTOMMARGIN, 135
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_SYSTRAY MENU DISCARDABLE 
+BEGIN
+    POPUP "Systray"
+    BEGIN
+        MENUITEM "Switch menu",                 ID_SYSTRAY_SWITCHMENU
+        MENUITEM "Open",                        ID_SYSTRAY_OPEN
+        MENUITEM "Options",                     ID_SYSTRAY_OPTIONS
+        MENUITEM "Exit",                        ID_SYSTRAY_EXIT
+        MENUITEM "W-Changer",                   ID_SYSTRAY_WCHANGER
+        MENUITEM "Change wallpaper",            ID_SYSTRAY_CHANGEWALLPAPER
+        MENUITEM "Help topics",                 ID_SYSTRAY_HELP
+        MENUITEM "Register",                    ID_SYSTRAY_REGISTER
+        MENUITEM "About",                       ID_SYSTRAY_ABOUT
+        MENUITEM "Open WireKeys",               ID_SYSTRAY_OPENWIREKEYS
+        MENUITEM "Download wallpapers",         ID_SYSTRAY_DOWNLOADWALLPAPERS
+
+        MENUITEM "Next wallp",                  ID_SYSTRAY_NEXTWALLP
+        MENUITEM "Prev wallp",                  ID_SYSTRAY_PREVWALLP
+        MENUITEM "Clock parameters",            ID_SYSTRAY_CLOCKPARAMETERS
+        MENUITEM "Check for updates",           ID_SYSTRAY_CHECKFORUPDATES
+        MENUITEM "Rand wallp",                  ID_SYSTRAY_RANDWALLP
+        MENUITEM "Change periodically",         ID_SYSTRAY_CHANGEPERIODICALLY
+
+        MENUITEM "New desktop note",            ID_SYSTRAY_NEWDESKTOPNOTE
+        MENUITEM "Note options",                ID_SYSTRAY_NOTEOPTIONS
+        MENUITEM "Exchange wallpaper",          ID_SYSTRAY_EXCHANGEWALLPAPER
+        MENUITEM "Delete this clock",           ID_SYSTRAY_DELETETHISCLOCK
+        MENUITEM "Enlive image",                ID_SYSTRAY_ENLIVEIMAGE
+        MENUITEM "Disable notes",               ID_SYSTRAY_DISABLENOTES
+        MENUITEM "Download skins",              ID_SYSTRAY_DOWNLOADSKINS
+        MENUITEM "Download clocks",             ID_SYSTRAY_DOWNLOADCLOCKS
+        MENUITEM "Backup list",                 ID_SYSTRAY_BACKUPLIST
+        MENUITEM "Restore list",                ID_SYSTRAY_RESTORELIST
+        MENUITEM "Tell a friend",               ID_SYSTRAY_TELLAFRIEND
+        MENUITEM "Go to web site",              ID_SYSTRAY_GOTOWEBSITE
+        MENUITEM "Hide/Show icons",             ID_SYSTRAY_HIDESHOWICONS
+        MENUITEM "Import clock",                ID_SYSTRAY_IMPORTCLOCK
+        MENUITEM "Download templates",          ID_SYSTRAY_DOWNLOADTEMPLATES
+    END
+END
+
+IDR_INFOWND_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "InfoWnd"
+    BEGIN
+        MENUITEM "Show",                        ID_INFOWND_OPEN
+        MENUITEM "Close",                       ID_INFOWND_DELETE
+    END
+END
+
+IDR_WCHANGER MENU DISCARDABLE 
+BEGIN
+    POPUP "W-Changer"
+    BEGIN
+        MENUITEM "New theme",                   ID_WCHANGER_NEWFOLDER
+        MENUITEM "Add directory",               ID_ADDFULLFOLDER
+        MENUITEM "Add picture(s)",              ID_WCHANGER_ADDFILE
+        MENUITEM "Delete all files",            ID_WCHANGER_DELETEALL
+        MENUITEM "Delete theme",                ID_WCHANGER_DELETEFOLDER
+        MENUITEM "Add directory (only new)",    ID_W_ADDDIRECTORY
+        MENUITEM "Add hyper-link",              ID_WCHANGER_ADDHYPERLINK
+        MENUITEM "Remove broken",               ID_WCHANGER_REMOVEBROKEN
+        MENUITEM "Folder sync",                 ID_WCHANGER_FOLDERSYNC
+        MENUITEM "Set synchro folder",          ID_WCHANGER_SETSYNCHROFOLDER
+        MENUITEM "Remove with image",           ID_WCHANGER_REMOVEWITHIMAGE
+        MENUITEM "Update from images folder",   ID_WCHANGER_UPDATEFROMIMAGESFOLDER
+
+        MENUITEM "Sort by name",                ID_WCHANGER_SORTBYNAME
+        MENUITEM "Sort by type",                ID_WCHANGER_SORTBYTYPE
+        MENUITEM "Sort by dimensions",          ID_WCHANGER_SORTBYDIMENSIONS
+        MENUITEM "Shuffle",                     ID_WCHANGER_SHUFFLE
+        MENUITEM "UpdateCurWallPos",            ID_WCHANGER_UPDATECURWALLPOS
+        MENUITEM "Rename image",                ID_WCHANGER_RENAMEIMAGE
+        MENUITEM "Refresh cycle status",        ID_WCHANGER_REFRESHCYCLESTATUS
+
+        MENUITEM "Exclude images",              ID_WCHANGER_EXCLUDEIMAGES
+        MENUITEM "Download skins",              ID_WCHANGER_DOWNLOADSKINS
+        MENUITEM "Delete single theme",         ID_WCHANGER_DELETESINGLETHEME
+
+        MENUITEM "Add archive",                 ID_WCHANGER_ADDARCHIVE
+        MENUITEM "Import list",                 ID_WCHANGER_IMPORTLIST
+        MENUITEM "Pack into archive",           ID_WCHANGER_PACKINTOARCHIVE
+        MENUITEM "Add folder ac",               ID_WCHANGER_ADDFOLDERAC
+        MENUITEM "Remove duplicates",           ID_WCHANGER_REMOVEDUPLICATES
+        MENUITEM "Remove all duplicates",       ID_WCHANGER_REMOVEALLDUPLICATES
+
+        MENUITEM "Backup",                      ID_WCHANGER_BACKUP
+        MENUITEM "Restore",                     ID_WCHANGER_RESTORE
+        MENUITEM "Set as scr",                  ID_WCHANGER_SETASSCR
+        MENUITEM "SetWPNow",                    ID_WCHANGER_SETWPNOW
+    END
+    POPUP "W-ChangerEmpty"
+    BEGIN
+        MENUITEM "New theme",                   ID_WCHANGER_NEWFOLDER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSORSAVE          CURSOR  DISCARDABLE     "res\\cursorsa.cur"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,3,2,1
+ PRODUCTVERSION 4,3,2,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Desktop manager and wallpaper changer\0"
+            VALUE "CompanyName", "WiredPlane Labs\0"
+            VALUE "FileDescription", "Desktop/wallpaper manager\0"
+            VALUE "FileVersion", "4, 3, 2, 1\0"
+            VALUE "InternalName", "WiredPlane`s desktop enchancement\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002-2005\0"
+            VALUE "LegalTrademarks", "WiredPlane Labs\0"
+            VALUE "OriginalFilename", "WireChanger.exe\0"
+            VALUE "ProductName", "WireChanger\0"
+            VALUE "ProductVersion", "4, 3, 2, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About WireChanger..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+    IDS_PROPSHT_CAPTION     "Property Sheet"
+    IDS_PROPSHT_CAPTION1    "Property Sheet"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

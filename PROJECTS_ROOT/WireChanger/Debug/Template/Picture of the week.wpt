@@ -1,0 +1,81 @@
+$=<TITLE:Image of the week>$=<SHOWINTRAY:PARAM_ROOT>$=<CATEG:Secondary image>$=<SORTCID:bbb>
+tray-transparency{SIMAGEOPACITY}
+tray-position{OC:(1),X:(SIMAGEXPOS),Y:(SIMAGEYPOS),W:(SIMAGEWIDTH),H:(SIMAGEHEIGHT)}
+$=<RENDER:EasyDraw.dll>$=<HINTS:RENDER-LAYER=(FG),ONLINE-STATE=(DONTCARE),CONTAIN-CONFIDENTIAL-INFO>
+$=<PARDEF:PARAM_ROOT>$=<PARDSC:PARAM_ROOT=Image of the week>$=<PARTYP:PARAM_ROOT=root>
+$=<PARDEF:SIMAGEBORDER=1>$=<PARDSC:SIMAGEBORDER=Show border>$=<PARPAR:SIMAGEBORDER=PARAM_ROOT>$=<PARTYP:SIMAGEBORDER=bool>
+$=<PARDEF:SIMAGEFG=#000000>$=<PARDSC:SIMAGEFG=Border color>$=<PARPAR:SIMAGEFG=PARAM_ROOT>$=<PARTYP:SIMAGEFG=color>
+$=<PARDEF:SIMAGESPOS>$=<PARDSC:SIMAGESPOS=Set position>$=<PARPAR:SIMAGESPOS=PARAM_ROOT>$=<PARTYP:SIMAGESPOS=set_position>$=<PARACTION:SIMAGESPOS=OC:(1),X:(SIMAGEXPOS),Y:(SIMAGEYPOS),W:(SIMAGEWIDTH),H:(SIMAGEHEIGHT)/>
+$=<PARDEF:SIMAGEXPOS=200>$=<PARDSC:SIMAGEXPOS=X Position (pixels)>$=<PARTYP:SIMAGEXPOS=number>$=<PARMIN:SIMAGEXPOS=0>$=<PARMAX:SIMAGEXPOS=$=<SCREEN_X>>$=<PAROC:SIMAGEXPOS=1>$=<PARPAR:SIMAGEXPOS=SIMAGESPOS>
+$=<PARDEF:SIMAGEYPOS=60>$=<PARDSC:SIMAGEYPOS=Y Position (pixels)>$=<PARTYP:SIMAGEYPOS=number>$=<PARMIN:SIMAGEYPOS=0>$=<PARMAX:SIMAGEYPOS=$=<SCREEN_Y>>$=<PAROC:SIMAGEYPOS=1>$=<PARPAR:SIMAGEYPOS=SIMAGESPOS>
+$=<PARDEF:SIMAGEWIDTH=200>$=<PARDSC:SIMAGEWIDTH=Width (pixels)>$=<PARTYP:SIMAGEWIDTH=number>$=<PARMIN:SIMAGEWIDTH=20>$=<PARMAX:SIMAGEWIDTH=$=<SCREEN_X>>$=<PAROC:SIMAGEWIDTH=1>$=<PARPAR:SIMAGEWIDTH=SIMAGESPOS>
+$=<PARDEF:SIMAGEHEIGHT=200>$=<PARDSC:SIMAGEHEIGHT=Height (pixels)>$=<PARTYP:SIMAGEHEIGHT=number>$=<PARMIN:SIMAGEWIDTH=20>$=<PARMAX:SIMAGEHEIGHT=$=<SCREEN_Y>>$=<PAROC:SIMAGEHEIGHT=1>$=<PARPAR:SIMAGEHEIGHT=SIMAGESPOS>
+
+$=<PAR:CUTLINE>
+<hlayout>
+{wp:tiscript}
+	var dtNow=new Date();
+	var cacheFile=WireChanger.getUserFolder()+"potweek_cache.img";
+	var prevImage=WireChanger.getWPTVar("{current_widget}.wpt","LoadedImage");
+	var prevImageDay=WireChanger.getWPTVar("{current_widget}.wpt","LoadedImageDay");
+	if(!WireChanger.isFileExist(cacheFile)){
+		prevImageDay="wrong";
+		prevImage="wrong";
+	}
+	if(dtNow.day.toString()!=prevImageDay)
+	{
+		//WireChanger.alert(prevImageDay+" vs "+dtNow.day.toString());
+		WireChanger.setWPTVar("{current_widget}.wpt","LoadedImageDay",dtNow.day.toString());
+		var content="";
+		var imageURL="http://outer-station.m6.net/cache/dda41059a4fc38734968a53f67aad896.jpg";
+		var cacheText="";
+		//Second variant - via WC helper class
+		content=WireChanger.getWebPage("http://feeds.feedburner.com/game-budizm");
+		content=WireChanger.lowerString(content);
+		content=WireChanger.cutString(content,"images</category>","</item>");
+		//WireChanger.alert(content);
+		var imglinksRegExp=new RegExp("http:\/\/[^ ]*\.jpg","ig");
+		var list=imglinksRegExp.exec(content);
+		if(imglinksRegExp.length>0){
+			imageURL=imglinksRegExp[rand(imglinksRegExp.length)];
+			if(prevImage != imageURL){
+				WireChanger.setWPTVar("{current_widget}.wpt","LoadedImage",imageURL);
+				WireChanger.saveImageToFile(imageURL,cacheFile);
+				//WireChanger.alert(imageURL);
+			}
+		}
+	}
+	var limiter="width: $=<PAR:SIMAGEWIDTH>px";
+	if($=<PAR:SIMAGEWIDTH> > $=<PAR:SIMAGEHEIGHT>)
+	{
+		limiter="height: $=<PAR:SIMAGEHEIGHT>px";
+	}
+	htmlFinal="<img src=\"file://"+cacheFile+"\" style=\"border: $=<PAR:SIMAGEBORDER> solid; border-color: $=<PAR:SIMAGEFG>; "+limiter+"; \">";
+{/wp:tiscript}
+<!--
+X:($=<PAR:SIMAGEXPOS>)
+Y:($=<PAR:SIMAGEYPOS>)
+W:($=<PAR:SIMAGEWIDTH>)
+H:($=<PAR:SIMAGEHEIGHT>)
+INTERACTIVITY:(0)
+-->
+<html>
+<head>
+<style>
+html {
+	background-color:transparent;
+	overflow: none;
+}
+</style>
+</head>
+<body>
+<table width=100% height=100% border=0>
+<tr><td align=center valign=center>
+{wp:tiscript}
+	stdout.print(htmlFinal);
+{/wp:tiscript}
+</table>
+</body>
+</html>
+</hlayout>
+

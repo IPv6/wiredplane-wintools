@@ -1,0 +1,15 @@
+LIBRARY      "WKMMKeyH"
+DESCRIPTION  'Wired key combinations plugin'
+
+EXPORTS
+LowLevelMouseProc
+LowLevelKeyboardProc
+GetKBBufferState
+KeyboardProc
+MouseProc
+InstallHook
+SetOptions
+SetActivity
+ResetKBBuffer
+SetPromiscMode
+SetKBBlockKeys

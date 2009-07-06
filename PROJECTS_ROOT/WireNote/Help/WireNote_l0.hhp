@@ -1,0 +1,40 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=WireNote_l0.chm
+Contents file=Table of Contents.hhc
+Default topic=overview.shtml
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x409 Английский (США)
+Title=WireNote
+
+
+[FILES]
+features.shtml
+overview.shtml
+registration.shtml
+faq.shtml
+tipstricks.shtml
+shortcuts.shtml
+dsc_network.shtml
+dsc_note.shtml
+dsc_todo.shtml
+dsc_main.shtml
+dsc_abok.shtml
+history.shtml
+preferences.shtml
+otherprods.shtml
+dsc_antispam.shtml
+license.rtf
+styles.css
+scr_abok.gif
+scr_antispam.gif
+scr_main.gif
+scr_note.gif
+scr_todo.gif
+wc.gif
+wk.gif
+dsc_billb.shtml
+
+[INFOTYPES]
+

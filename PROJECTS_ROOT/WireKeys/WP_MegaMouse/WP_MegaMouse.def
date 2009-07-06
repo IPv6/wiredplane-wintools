@@ -1,0 +1,18 @@
+; WP_MegaMouse.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_MegaMouse"
+DESCRIPTION  'WireKeys Mouse extension plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+;WKPluginPause
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+

@@ -1,0 +1,101 @@
+{wp:head}
+category	 		{Wallpaper modifiers} clonable{false}
+title				{Exact wallpaper position}
+description		{Allows to set exact wallpaper position. Optionally can add random frame to the image}
+render			{EasyDraw.dll}
+hints			{ONLINE-STATE=(DONTCARE),RENDER-LAYER=(BG)}
+tray-items		{PARAM_ROOT}
+tray-transparency	{DATA_OPACITY}
+tray-position		{OC:(1),X:(DATA_XPOS),Y:(DATA_YPOS),W:(DATA_WIDTH),H:(DATA_HEIGHT)}
+
+
+{wp:define} [PARAM_ROOT]
+	title	{Wallpaper position}
+	type	{root}
+{/wp:define}
+
+{wp:define} [ENABLE_BORDER]{0}
+	title	{Show random frame}
+	type	{bool}
+{/wp:define}
+
+{wp:define} [DATA_OPACITY]{70}
+	title	{Opacity (percents)}
+	type	{slider} min{0} max{100}
+{/wp:define}
+
+{wp:define} [DISABLE_WP]{0}
+	title	{Disable wallpaper at all}
+	type	{bool}
+{/wp:define}
+
+{wp:define} [DISABLE_WP_COLOR]{#AACCDD}
+	title	{And replace it with color}
+	type	{color}
+{/wp:define}
+
+
+{wp:define} [DATA_SPOS]{0}
+	title	{Set position}
+	type	{set_position} action{OC:(1),X:(DATA_XPOS),Y:(DATA_YPOS),W:(DATA_WIDTH),H:(DATA_HEIGHT)}
+{/wp:define}
+
+{wp:define} [DATA_XPOS]{150}
+	title	{X Position (pixels)}
+	type	{number} min{0} max{{screenX}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{wp:define} [DATA_YPOS]{150}
+	title	{Y Position (pixels)}
+	type	{number} min{0} max{{screenY}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{wp:define} [DATA_WIDTH]{{wp:expr({screenX}-300)}}
+	title	{Width (pixels)}
+	type	{number} min{20} max{{screenX}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{wp:define} [DATA_HEIGHT]{{wp:expr({screenY}-300)}}
+	title	{Height (pixels)}
+	type	{number} min{20} max{{screenY}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{/wp:head}
+
+{wp:body}
+
+{wp:set-wallpaper-rect({DATA_XPOS},{DATA_YPOS},{DATA_WIDTH},{DATA_HEIGHT})/}
+
+{wp:if condition{{ENABLE_BORDER}==1} }
+<styled-rect>
+X:({wallpaper_onscreenX})
+Y:({wallpaper_onscreenY})
+W:({wallpaper_onscreenW})
+H:({wallpaper_onscreenH})
+HINTS:(BG-NORECT,FULL-HEIGHT-BG)
+BG-IMAGE:($=<BASEPATH>/images/FRAMES/frame{rnd(0,3)}.gif)
+IMAGE-BORDERS:(16)
+OPACITY:({DATA_OPACITY})
+</styled-rect>
+{/wp:if}
+
+{wp:if condition{{DISABLE_WP}==1} }
+<image-in-rect>
+X:(0)
+Y:(0)
+W:({screenX})
+H:({screenY})
+EFFECT:(SETCOLOR)
+EFFECT-SETCOLOR:({DISABLE_WP_COLOR})
+</image-in-rect>
+{/wp:if}
+
+{wp:if condition{{wc_version}<340} }
+{wp:ShowAlert(Wallpaper controls will work with WireChanger 3.4 and higher only!
+Please, upgrade WireChanger first)/}
+{/wp:if}
+{/wp:body}

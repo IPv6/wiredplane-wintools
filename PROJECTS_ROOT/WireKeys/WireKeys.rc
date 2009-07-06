@@ -1,0 +1,521 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINICO             ICON                    "res\\Intendo.ico"
+IDI_ICON_ASK            ICON                    "res\\icon_ask.ico"
+IDI_ICON_INFO_AST       ICON                    "res\\icon_inf.ico"
+IDI_ICON_MINIM          ICON                    "res\\icon_minim.ico"
+IDR_MAINICOX            ICON                    "res\\idr_mainx.ico"
+IDR_MAINICOW            ICON                    "res\\idr_mainw.ico"
+IDI_PASTE               ICON                    "res\\paste.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CCOPY               CURSOR                  "res\\ccopy.cur"
+IDC_CPASTE              CURSOR                  "res\\cpaste.cur"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_CPU            ICON                    "res\\icon_cpu.ico"
+IDI_IC_MACRO            ICON                    "res\\icon_macro.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSORSAVE          CURSOR                  "res\\cursorsa.cur"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 292, 214
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "About"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Web site",ID_WEBSITE,6,96,50,12,BS_CENTER | BS_VCENTER | 
+                    WS_GROUP
+    PUSHBUTTON      "Enter code",ID_ENTCODE,62,96,49,12,BS_CENTER | 
+                    BS_VCENTER | WS_GROUP
+    PUSHBUTTON      "Close",IDOK,236,96,50,12,BS_CENTER | BS_VCENTER | 
+                    WS_GROUP
+    EDITTEXT        IDC_LEGALNOTICE,8,126,276,79,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+    LTEXT           "Main information",IDC_INFO,7,8,277,80
+    GROUPBOX        "Text",IDC_LEGALTITLE,4,114,284,98
+    CTEXT           "http://www.wiredplane.com/",IDC_STATIC_URL,114,96,114,
+                    12
+END
+
+IDD_INFO_WND DIALOGEX 0, 0, 140, 83
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "Info-window"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,0,68,76,12
+    CONTROL         "Info Text",IDC_TEXT,"Button",BS_OWNERDRAW | BS_LEFT | 
+                    BS_TOP | BS_NOTIFY | BS_FLAT | WS_TABSTOP,0,16,140,36
+    PUSHBUTTON      "Cancel",IDCANCEL,80,68,60,12
+    CONTROL         "Do not ask again",IDC_ASKAGAIN,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFT | BS_BOTTOM | BS_FLAT | WS_TABSTOP,0,56,140,12
+    CONTROL         "Icon",IDC_WICON,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,0,0,12,12
+    LTEXT           "Title",IDC_TITLE,16,0,108,12,SS_CENTERIMAGE
+    CONTROL         "__",IDMINIMIZE,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,128,0,12,12
+END
+
+IDD_SIMPLECHOOSER DIALOGEX 0, 0, 160, 54
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,56,36,48,14
+    CTEXT           "Choose",IDC_TEXT,4,0,152,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO,4,16,152,96,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_APP_INFO DIALOG  0, 0, 199, 142
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Application info"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,148,124,48,14
+    EDITTEXT        IDC_EDIT,4,4,192,113,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "Application folder",ID_OPEN,64,124,82,14
+    DEFPUSHBUTTON   "Control window",ID_WNDS,4,124,56,14
+END
+
+IDD_CHOOSE_ICON DIALOG  0, 0, 211, 199
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose Icon"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&File name:",IDC_STATIC1,7,2,197,8
+    EDITTEXT        IDC_FILENAME,7,13,197,14,ES_AUTOHSCROLL
+    LTEXT           "&Current icon:",IDC_STATIC2,7,34,197,8
+    DEFPUSHBUTTON   "OK",IDOK,46,178,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,100,178,50,14
+    PUSHBUTTON      "&Browse...",IDBROWSE,154,178,50,14
+    LISTBOX         IDC_ICONLIST,7,46,197,125,LBS_OWNERDRAWFIXED | 
+                    LBS_NOINTEGRALHEIGHT | LBS_MULTICOLUMN | 
+                    LBS_DISABLENOSCROLL | WS_HSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_EDIT DIALOG  0, 0, 188, 90
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,132,72,50,12
+    EDITTEXT        IDC_EDIT1,4,4,180,64,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    EDITTEXT        IDC_EDIT2,4,72,124,12,ES_AUTOHSCROLL
+END
+
+IDD_CLIPDIALOG DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_BORDER
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 287
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_SIMPLECHOOSER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    IDD_APP_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_CHOOSE_ICON, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_DIALOG_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_CLIPDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_SYSTRAY MENU 
+BEGIN
+    POPUP "Systray"
+    BEGIN
+        MENUITEM "First Item",                  ID_SYSTRAY_FIRSTITEM
+        MENUITEM "New Task",                    ID_SYSTRAY_DEFACTION
+        MENUITEM "New Note",                    ID_SYSTRAY_NEWNOTE
+        MENUITEM "New Reminder",                ID_SYSTRAY_NEWREMINDER
+        MENUITEM "New message",                 ID_SYSTRAY_NEWMESSAGE
+        MENUITEM "Switch menu",                 ID_SYSTRAY_SWITCHMENU
+        MENUITEM "Open",                        ID_SYSTRAY_OPEN
+        MENUITEM "Show WK menu",                ID_SYSTRAY_SHOWWKMENU
+        MENUITEM "Address book",                ID_SYSTRAY_ADDRESSBOOK
+        MENUITEM "Options",                     ID_SYSTRAY_OPTIONS
+        MENUITEM "Switch to Tasks",             ID_SYSTRAY_SWITCHTOTASKS
+        MENUITEM "Switch to notes",             ID_SYSTRAY_SWITCHTONOTES
+        MENUITEM "Switch to reminders",         ID_SYSTRAY_SWITCHTOREMINDERS
+        MENUITEM "Exit",                        ID_SYSTRAY_EXIT
+        MENUITEM "W-Changer",                   ID_SYSTRAY_WCHANGER
+        MENUITEM "Change wallpaper",            ID_SYSTRAY_CHANGEWALLPAPER
+        MENUITEM "Help topics",                 ID_SYSTRAY_HELP
+        MENUITEM "Register",                    ID_SYSTRAY_REGISTER
+        MENUITEM "About",                       ID_SYSTRAY_ABOUT
+        MENUITEM "Add QRun application",        ID_SYSTRAY_ADDQRUNAPPLICATION
+
+        MENUITEM "Run QRun app",                ID_SYSTRAY_RUNQRUNAPP
+        MENUITEM "Show all apps",               ID_SYSTRAY_SHOWALLAPPS
+        MENUITEM "Boss panic",                  ID_SYSTRAY_BOSSPANIC
+        MENUITEM "Run Email client",            ID_SYSTRAY_RUNEMAILCLIENT
+        MENUITEM "Run browser",                 ID_SYSTRAY_RUNBROWSER
+        MENUITEM "Eject/Close CD",              ID_SYSTRAY_EJECTCLOSECD
+        MENUITEM "SHUTDOWN",                    ID_SYSTRAY_SHUTDOWN
+        MENUITEM "RESTART",                     ID_SYSTRAY_RESTART
+        MENUITEM "Screenshot params",           ID_SYSTRAY_PROCLISTPARAMS
+        MENUITEM "Restore desktop icons",       ID_SYSTRAY_RESTOREDESKTOPICONS
+
+        MENUITEM "Vlume 0%",                    ID_SYSTRAY_VLUME0
+        MENUITEM "Vlume 30%",                   ID_SYSTRAY_VLUME30
+        MENUITEM "Vlume 50%",                   ID_SYSTRAY_VLUME50
+        MENUITEM "Vlume 70%",                   ID_SYSTRAY_VLUME70
+        MENUITEM "Vlume 100%",                  ID_SYSTRAY_VLUME100
+        MENUITEM "Display properties",          ID_SYSTRAY_DISPLAYPROPERTIES
+        MENUITEM "Add/Remove progs",            ID_SYSTRAY_ADDREMOVEPROGS
+        MENUITEM "Current key bindings",        ID_SYSTRAY_CURRENTKEYBINDINGS
+
+        MENUITEM "Make Screenshot",             ID_SYSTRAY_MAKESCREENSHOT
+        MENUITEM "Check for updates",           ID_SYSTRAY_CHECKFORUPDATES
+        MENUITEM "Add macros",                  ID_SYSTRAY_ADDMACROS
+        MENUITEM "SUSPEND",                     ID_SYSTRAY_SUSPEND
+        MENUITEM "Mute sound",                  ID_SYSTRAY_MUTESOUND
+        MENUITEM "Plugin options",              ID_SYSTRAY_PLUGINOPTIONS
+        MENUITEM "Lock workstation",            ID_SYSTRAY_LOCKWORKSTATION
+        MENUITEM "Donate!",                     ID_SYSTRAY_DONATE
+        MENUITEM "Kill processes from list",    ID_SYSTRAY_KILLPROCESSESFROMLIST
+
+        MENUITEM "Save desktop icons",          ID_SYSTRAY_SAVEDESKTOPICONS
+        MENUITEM "More plugins and macros",     ID_SYSTRAY_MOREPLUGINSANDMACROS
+
+        MENUITEM "Kill active wnd",             ID_SYSTRAY_KILLACTWND
+    END
+    POPUP "HotMenu"
+    BEGIN
+        MENUITEM "Bring in view",               ID_HOTMENU_COPYTOCLIPBOARD1
+        MENUITEM "Semitransparent",             ID_HOTMENU_SEMITRANSPARENT
+        MENUITEM "Copy to clipboard 1",         ID_HOTMENU_COPYTOCLIPBOARD1
+        MENUITEM "Copy to clipboard 2",         ID_HOTMENU_COPYTOCLIPBOARD2
+        MENUITEM "Copy to clipboard 3",         ID_HOTMENU_COPYTOCLIPBOARD3
+        MENUITEM "Copy to clipboard 4",         ID_HOTMENU_COPYTOCLIPBOARD4
+        MENUITEM "Copy to clipboard 5",         ID_HOTMENU_COPYTOCLIPBOARD5
+        MENUITEM "Exit menu",                   ID_HOTMENU_KILLPROC
+        MENUITEM "Paste from clipboard 1",      ID_HOTMENU_PASTEFROMCLIPBOARD1
+
+        MENUITEM "Paste from clipboard 2",      ID_HOTMENU_PASTEFROMCLIPBOARD2
+
+        MENUITEM "Paste from clipboard 3",      ID_HOTMENU_PASTEFROMCLIPBOARD3
+
+        MENUITEM "Paste from clipboard 4",      ID_HOTMENU_PASTEFROMCLIPBOARD4
+
+        MENUITEM "Paste from clipboard 5",      ID_HOTMENU_PASTEFROMCLIPBOARD5
+
+        MENUITEM "Kill process",                ID_HOTMENU_KILLPROCESS
+        MENUITEM "Transparency100",             ID_HOTMENU_TRANSPARENCY100
+        MENUITEM "Transparency80",              ID_HOTMENU_TRANSPARENCY80
+        MENUITEM "Transparency60",              ID_HOTMENU_TRANSPARENCY60
+        MENUITEM "Transparency40",              ID_HOTMENU_TRANSPARENCY40
+        MENUITEM "Transparency20",              ID_HOTMENU_TRANSPARENCY20
+        MENUITEM "Switch ontop",                ID_HOTMENU_SWITCHONTOP
+        MENUITEM "Popup main window",           ID_HOTMENU_POPUPMAINWINDOW
+        MENUITEM "Opened file handles",         ID_HOTMENU_OPENEDFILEHANDLES
+        MENUITEM "All opened handles",          ID_HOTMENU_ALLOPENEDHANDLES
+        MENUITEM "Hide to tray",                ID_HOTMENU_HIDETOTRAY
+        MENUITEM "KILLPROC",                    ID_HOTMENU_KILLPROC
+        MENUITEM "Free memory",                 ID_HOTMENU_FREEMEMORY
+        MENUITEM "Convert Selected",            ID_HOTMENU_CONVERTSELECTED
+        MENUITEM "Upper case",                  ID_HOTMENU_UPPERCASE
+        MENUITEM "Lower case",                  ID_HOTMENU_LOWERCASE
+        MENUITEM "Count characters",            ID_HOTMENU_COUNTCHARACTERS
+        MENUITEM "Take screenshot",             ID_HOTMENU_TAKESCREENSHOT
+        MENUITEM "Run as command",              ID_HOTMENU_RUNASCOMMAND
+        MENUITEM "Hide completely",             ID_HOTMENU_HIDECOMPLETELY
+        MENUITEM "Screensaver Enabled",         ID_HOTMENU_SCREENSAVERENABLED
+
+        MENUITEM "Run Screensaver",             ID_HOTMENU_RUNSCREENSAVER
+        MENUITEM "Calculate",                   ID_HOTMENU_CALCULATE
+        MENUITEM "Clear clips",                 ID_HOTMENU_CLEARCLIPS
+        MENUITEM "Switch case",                 ID_HOTMENU_SWITCHCASE
+        MENUITEM "Set as clip target",          ID_HOTMENU_SETASCLIPTARGET
+        MENUITEM "Sort lines",                  ID_HOTMENU_SORTLINES
+        MENUITEM "Show exe-path",               ID_HOTMENU_SHOWEXEPATH
+        MENUITEM "Tune up menu",                ID_HOTMENU_TUNEUPMENU
+        MENUITEM "Add to quick-runs",           ID_HOTMENU_ADDTOQUICKRUNS
+        MENUITEM "Shortcut on desktop",         ID_HOTMENU_SHORTCUTONDESKTOP
+        MENUITEM "Shortcut on qlaunch",         ID_HOTMENU_SHORTCUTONQLAUNCH
+        MENUITEM "Auto hide",                   ID_HOTMENU_ADDTOAHIDE
+        MENUITEM "Shortcut on start menu",      ID_HOTMENU_SHORTCUTONSTARTMENU
+
+        MENUITEM "Shortcut on udlocation",      ID_HOTMENU_SHORTCUTONUDLOCATION
+
+    END
+END
+
+IDR_INFOWND_MENU MENU 
+BEGIN
+    POPUP "InfoWnd"
+    BEGIN
+        MENUITEM "Show",                        ID_INFOWND_OPEN
+        MENUITEM "Drop recent list",            ID_INFOWND_DROPRECENTLIST
+        MENUITEM "Terminate",                   ID_INFOWND_TERMINATE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BM_DEL              BITMAP                  "res\\bm_del.bmp"
+IDB_IMAGELIST           BITMAP                  "res\\imagelis.bmp"
+IDB_BM_OPTIONS          BITMAP                  "res\\bm_options.bmp"
+IDB_BM_HELP             BITMAP                  "res\\bm_help.bmp"
+IDB_PINNED_UP           BITMAP                  "res\\bm_pinud.bmp"
+IDB_PINNED_DOWN         BITMAP                  "res\\bm_pindw.bmp"
+IDB_BM_ABPRG            BITMAP                  "res\\bm_abpro.bmp"
+IDB_BM_SCRSAV           BITMAP                  "res\\bm_scrsa.bmp"
+IDB_BM_QRUN             BITMAP                  "res\\bm_qrun.bmp"
+IDB_BM_HIDDEN           BITMAP                  "res\\bm_hidde.bmp"
+IDB_BM_SHUTDOWN         BITMAP                  "res\\bm_shutd.bmp"
+IDB_BM_RESTART          BITMAP                  "res\\bm_resta.bmp"
+IDB_BM_CDDRIVE          BITMAP                  "res\\bm_cddrive.bmp"
+IDB_BM_ADDREMPRG        BITMAP                  "res\\bm_addre.bmp"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,3,2,1
+ PRODUCTVERSION 4,3,2,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "All-in-one tool"
+            VALUE "CompanyName", "WiredPlane Labs"
+            VALUE "FileDescription", "WireKeys Application"
+            VALUE "FileVersion", "4, 3, 2, 1"
+            VALUE "InternalName", "WireKeys"
+            VALUE "LegalCopyright", "Copyright (C) 2002-2004"
+            VALUE "LegalTrademarks", "WiredPlane Labs"
+            VALUE "OriginalFilename", "WireKeys.exe"
+            VALUE "ProductName", "WireKeys Application"
+            VALUE "ProductVersion", "4, 3, 2, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About WireKeys..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+    IDS_PROPSHT_CAPTION     "Property Sheet"
+    IDS_PROPSHT_CAPTION1    "Property Sheet"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,20 @@
+; WP_Schedule.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_Schedule"
+DESCRIPTION  'WireKeys Mouse Gestures plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+WKPluginShowEvent
+WKPluginDelEvent
+WKPluginIsEventPresent
+WKTrayMenuPopup

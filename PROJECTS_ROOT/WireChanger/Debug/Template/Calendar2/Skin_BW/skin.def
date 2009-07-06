@@ -1,0 +1,223 @@
+// Skin defs:
+// ITEM-NAME:(Black-n-White)
+
+//Main func
+var out="";
+
+function getInstringPart(str, strFrom, strTo)
+{
+    var BeginIndex=str.indexOf(strFrom);
+    if(BeginIndex!=-1){
+        BeginIndex+=strFrom.length;
+        var EndIndex=str.indexOf(strTo,BeginIndex);
+        if(EndIndex!=-1){
+            return str.substr(BeginIndex,EndIndex-BeginIndex);
+        }
+    }
+    return "";
+}
+
+function Calendar2_CSS()
+{
+    var res="";
+    var stringFont=WireChanger.convertFont2css("$=<PAR:CLN_FST,ESC>");
+    res+=".mainlend  {color: $=<PAR:CLN_FG>; font: "+stringFont+"; }\n";
+    res+=".maintitle {text-align: center; background-image: url("+skinPath+"title_bg.png); background-repeat: expand; background-position:4px 4px 4px 4px; }\n";
+    res+=".daywTitle {overflow-x: hidden; font-size: 10px; text-align: center; background-image: url("+skinPath+"title_days_bg.png); background-repeat: expand; background-position:4px 4px 4px 4px;  font-weight:bold;}\n";
+
+    res+=".dayTitle  {background-image: url("+skinPath+"cell_bg.png); background-repeat: expand; background-position:4px 4px 4px 4px; font-weight:bold;}\n";
+    res+=".holyDay   {background-image: url("+skinPath+"cell_holiday_bg.png); background-repeat: expand; background-position:4px 4px 4px 4px; }\n";
+    res+=".todayDay  {background-image: url("+skinPath+"cell_today_bg.png); background-repeat: expand; background-position:5px 5px 5px 5px;  font-weight:bold;}\n";
+    res+=".reminDer  {background-image: url("+skinPath+"cell_remin_bg.png); background-repeat: expand; background-position:5px 5px 5px 5px;  font-weight:bold;}\n";
+
+    res+=".thisMonth {background-image: url("+skinPath+"cell_bg.png); background-repeat: expand; background-position:4px 4px 4px 4px; }\n";
+    res+=".prevMonth {background-image: url("+skinPath+"cell_nextmonth_bg.png); background-repeat: expand; background-position:4px 4px 4px 4px; }\n";
+    res+=".nextMonth {background-image: url("+skinPath+"cell_nextmonth_bg.png); background-repeat: expand; background-position:4px 4px 4px 4px; }\n";
+
+    res+=".cellText {width:99%; height:99%; text-align: left; vertical-align: top; overflow-x: hidden; overflow-y: hidden; font-size: smaller;}\n";
+    return res;
+}
+
+function Calendar2_Main()
+{
+    var weekTyper=$=<PAR:CLN_TYPE>;
+    out+="<table width=100% height=100% cellspacing=1 cellpadding=5 border=0 class='mainlend'>";
+    // Вычисляем отправную точку
+    var dtNow=new Date();
+    var dtNowReal=new Date();
+    dtNow.month=dtNow.month+$=<PAR:MONOFFSET>;// Если не на текущий месяц, учитываем это...
+    var baseMonth=dtNow.month;
+    var calenTitle="";
+    if("0"=="$=<PAR:MONOFFSET>"){
+        calenTitle=month[dtNowReal.month.toInteger()-1]+", "+dtNowReal.day.toString()+" $=<TEXTLINE(comm_l{lang}.txt,NumberDay=)>, "+wdays[dtNowReal.dayOfWeek.toInteger()-1];
+    }else{
+        calenTitle=month[dtNowReal.month.toInteger()-1];
+    }
+    var todayHolidayKey=String.printf("\n%02i/%i ",dtNow.day,dtNow.month);
+    var todayHoliday=getInstringPart(holidaysContent,todayHolidayKey,"\n");
+    if(todayHoliday.length > 0){
+        calenTitle+=". "+todayHoliday;
+    }
+    out+="<tr><td colspan=7 class='maintitle' height='14%'>"+calenTitle+"</td>";
+
+    // Вычисляем первый день таблицы
+    var dtBeginning=new Date(dtNow);
+    var beginningDayOfWeek=1;//Sunday
+    if($=<PAR:FIRSTDAY>==0){
+        beginningDayOfWeek=2;//Monday
+    }
+
+    var stopper=40;
+    while( stopper>0 && dtBeginning.dayOfWeek!=beginningDayOfWeek )
+    {
+        dtBeginning.day=dtBeginning.day-1;
+        stopper--;
+    }
+
+    // Рисуем дни недели
+    var i;
+    var cww=100/7;
+    cww=cww.toString();
+    var dtDayTitle=new Date(dtBeginning);
+    out+="<tr>";
+    for(i=0;i<7;i++)
+    {
+        out+="<td class='daywTitle";
+        //if(i==5 || i==6){out+=" holyDay ";}
+        out+="' height=1% width="+cww+"%>";
+        out+=wdays[dtDayTitle.dayOfWeek-1];
+        dtDayTitle.day+=1;
+    }
+    out+="</tr>";
+
+    // Рисуем сами дни
+    var stopper2=1;
+    var curMonthTmp=0;
+    if(weekTyper==1){stopper2=2;};
+    if(weekTyper==2){stopper2=5;};
+    if(weekTyper==3){stopper2=9;};
+    //WireChanger.alert("??"+weekTyper.toString());
+    if(weekTyper>=2){
+		curMonthTmp=dtNow.month+dtNow.year*12;
+	    while(!(dtBeginning.dayOfWeek==beginningDayOfWeek && (dtBeginning.month+dtBeginning.year*12)<curMonthTmp))
+	    {
+	        dtBeginning.day=dtBeginning.day-1;
+	    }
+    }
+    var dtCurrent=new Date(dtBeginning);
+    var curMonth=(dtNow.month)+dtNow.year*12;
+    while( stopper2>0)
+    {
+        out+="<tr>";
+        for(i=0;i<7;i++)
+        {
+            var text=dtCurrent.day.toString();
+            var withReminder=0,withDayNote=0,withHolyday=0;
+            var additionalText="";
+
+            // Напоминания
+            var reminders=WireChanger.getRemindersDsc(dtCurrent.day,dtCurrent.month,dtCurrent.year);
+            if(reminders.length > 0){
+                if(additionalText.length > 0){
+                    additionalText += "\n";
+                }
+                additionalText += reminders;
+                withReminder=1;
+            }
+
+            // Заметка на день
+            var dayNoteKey=String.printf("%02i/%i/%i ",dtCurrent.day,dtCurrent.month,dtCurrent.year);
+            var dayNode=getInstringPart(notesContent,"\n"+dayNoteKey,"\n");
+            var dayNodeMeta="";
+            if(dayNode.length > 0){
+                // Отрезаем служебную инфу...
+                var dayNoteCustomInf=dayNode.indexOf("[?CDATA{");
+                if(dayNoteCustomInf!=-1){
+                    dayNodeMeta=dayNode.substr(dayNoteCustomInf);
+                    dayNode=dayNode.substr(0,dayNoteCustomInf);
+                }
+                if(additionalText.length > 0){
+                    additionalText += "\n";
+                }
+                additionalText += dayNode;
+                withDayNote=1;
+            }
+
+            // Праздники
+            var dayHolidayKey=String.printf("\n%02i/%i*",dtCurrent.day,dtCurrent.month);
+            var dayHolyday=getInstringPart(holidaysContent,dayHolidayKey,"\n");
+            if(dayHolyday.length > 0){
+                withHolyday=1;
+                if(withReminder==0 && withDayNote==0){
+                    if(additionalText.length > 0){
+                        additionalText += "\n";
+                    }
+                    additionalText += dayHolyday;
+                }
+            }
+			var textColor_FG=getInstringPart(dayNodeMeta,"FG:(",")");
+			var textColor_BG=getInstringPart(dayNodeMeta,"BG:(",")");
+            // Комбинируем все
+            if(additionalText.length > 0){
+                //text+="<PRE>";
+				var tcolor="";
+				additionalText.replace("&","&amp;");
+				additionalText.replace("<","&lt;");
+				additionalText.replace(">","&gt;");
+				text+="<br>";
+				if(textColor_BG.length>0){
+					var tcolor=WireChanger.str2HTMLColor(textColor_BG);
+					text="<div style='background-color:"+tcolor+"; padding: 2px; height:100%;'>"+text;
+				}
+				if(textColor_FG.length>0){
+					var tcolor=WireChanger.str2HTMLColor(textColor_FG);//String.printf("#%02X%02X%02X",itcolor&0xFF,(itcolor>>8)&0xFF);
+					text+="<span style='color:"+tcolor+";'>";
+				}
+                text+=additionalText;
+				if(textColor_FG.length>0){
+					text+="</span>";
+				}
+				if(textColor_BG.length>0){
+					text=text+"</div>";
+				}
+                //text+="</PRE>";
+            }
+            text="<div class='cellText'>"+text+"</div>";
+            var skipOther=0;
+            var cellClass="";
+            if(dtCurrent.month+dtCurrent.year*12<curMonth){
+                cellClass+=" prevMonth";
+                skipOther=1;
+            }
+            if(dtCurrent.month+dtCurrent.year*12>curMonth){
+                cellClass+=" nextMonth";
+                skipOther=1;
+            }
+            if(!skipOther){
+                if(dtCurrent.dayOfWeek==1 || dtCurrent.dayOfWeek==7 || withHolyday!=0){
+                    cellClass+=" holyDay";
+                }else if(dtCurrent.month+dtCurrent.year*12==curMonth){
+                    cellClass+=" thisMonth";
+                }
+                if(dtCurrent.year==dtNowReal.year && dtCurrent.month==dtNowReal.month && dtCurrent.day==dtNowReal.day){
+                    text="<div class='todayDay' style='width:99%; height:99%;'>"+text+"</div>";
+                }
+            }
+            if(withReminder){
+                text="<div class='reminDer' style='width:99%; height:99%;'>"+text+"</div>";
+            }
+            out+="<td class='"+cellClass+"' ";
+            // Активная зона
+            var cellAction=String.printf("EDIT-CAL-NOTE d[%i] m[%i] y[%i] fg[%s] bg[%s] nf[%s] nk[%s] ic[%s]",dtCurrent.day,dtCurrent.month,dtCurrent.year,textColor_FG,textColor_BG,notesContentFile,dayNoteKey,getInstringPart(dayNodeMeta,"ICON:(",")"));
+            out+=" interactivityTooltip='"+cellClass+" "+WireChanger.escape(dtCurrent.toLocaleString()+"\n"+additionalText)+"' interactivityAction='"+WireChanger.escape(cellAction)+"'";
+            out+=">";
+            out+=text;
+            dtCurrent.day+=1;
+        }
+        out+="</tr>";
+        stopper2--;
+    }
+    out+="</table>";
+
+    return out;
+}

@@ -1,0 +1,17 @@
+; WP_UselessStart.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_UselessStart"
+DESCRIPTION  'WireKeys Start button plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+

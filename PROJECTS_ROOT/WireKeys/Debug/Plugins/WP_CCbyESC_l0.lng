@@ -1,0 +1,11 @@
+CloseConsole=Close console
+CloseConsoleWindowsByEsc=Close Console windows with ESC
+Dscplg_wp_ccbyesc=This plugin allows you to close console windows by pressing ESC key
+Popt_handleThi_wcvyuvaurr=Handle this windows too
+Popt_typeWindo_ommpokkjxu=Type windows title to be closed by ESC key too. Use wildcards, delimit titles with ';' character
+Notepad=*Notepad*
+Far=*Far*
+Popt_doNotHan_qcaecttrbi=Do not handle this windows
+Popt_windowsTi_vmswwkmels=Windows titles to be excluded from closing. Use wildcards, delimit titles with ';' character
+Popt_windowsWi_dflhxghlq=Windows with matched titles will be ignored. Use wildcards, delimit titles with ';' character
+Nameplg_wp_ccbyesc=Close Console windows with ESC

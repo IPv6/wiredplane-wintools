@@ -1,0 +1,17 @@
+; WP_NotesMdl.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_NotesMdl"
+DESCRIPTION  'WireKeys Start button plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+WKTrayMenuPopup

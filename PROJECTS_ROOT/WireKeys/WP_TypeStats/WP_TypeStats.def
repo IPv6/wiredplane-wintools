@@ -1,0 +1,18 @@
+; WP_TypeStats.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_TypeStats"
+DESCRIPTION  'WireKeys Window puncher plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+;WKGetPluginFunctionHints
+RenderScript

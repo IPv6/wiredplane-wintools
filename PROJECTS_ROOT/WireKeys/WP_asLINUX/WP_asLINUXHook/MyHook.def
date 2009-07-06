@@ -1,0 +1,7 @@
+LIBRARY      "linmhook"
+DESCRIPTION  'WireKeys LINUXLikeMove plugin'
+
+EXPORTS
+MsgHookProc
+InstallHook
+SetOptions

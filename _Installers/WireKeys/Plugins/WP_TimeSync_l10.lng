@@ -1,0 +1,12 @@
+Popt_sntpServe_ydjfhibosb=Serwer SNTP
+Popt_youCanFi_vvtakypele=Mo¿esz znaleŸæ darmowe serwery poprzez Google wprowadaj¹c 'Free SNTP servers'
+Popt_serverPor_bbosbohflo=Port serwera
+Popt_timeoutM_roemrsrhpj=Limit czasu (minuty)
+Popt_howFreque_nhjaotdwsw=Jak czêsto sprawdzaæ czas na serwerze
+Popt_notifyAbo_yardtvnbug=Powiadamiaj o problemach z synchronizacj¹
+SyncTimeNow=Synchronizuj teraz
+TimeSync=Time sync
+Dscplg_wp_timesync=Ten plugin pozwala na zsynchronizowanie twojego czasu z atomowymi zegarami w internecie
+ErrorTimeSyncPlugin=Error: Time sync plugin
+CanTConnectToClockServerServer=Nie mo¿na po³¹czyæ z zegarem serwera!<br>Serwer
+Nameplg_wp_timesync=Time sync

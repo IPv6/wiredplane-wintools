@@ -1,0 +1,12 @@
+Popt_sntpServe_ydjfhibosb=Server SNTP
+Popt_youCanFi_vvtakypele=E' possibile trovare server gratuiti con Google cercando 'Free SNTP servers'
+Popt_serverPor_bbosbohflo=Porta Server
+Popt_timeoutM_roemrsrhpj=Timeout (minuti)
+Popt_howFreque_nhjaotdwsw=Frequenza di sincronizzazione
+Popt_notifyAbo_yardtvnbug=Notifica problemi di sincronizzazione
+SyncTimeNow=Sincronizza ora adesso
+TimeSync=Sincronizzazione ora
+Dscplg_wp_timesync=Questo plugin permette di sincronizzare l'ora di sistema con server di riferimento su internet
+ErrorTimeSyncPlugin=Errore: plugin sincronizzazione ora
+CanTConnectToClockServerServer=Connessione al server di riferimento fallita!<br>Server
+Nameplg_wp_timesync=Sincronizzazione ora

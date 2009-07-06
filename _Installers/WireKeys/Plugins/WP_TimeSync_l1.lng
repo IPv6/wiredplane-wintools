@@ -1,0 +1,14 @@
+Popt_sntpServe_ydjfhibosb=SNTP Сервер
+Popt_youCanFi_vvtakypele=Адреса SNTP серверов можно найти в Google по запросу 'Free SNTP servers'
+Popt_serverPor_bbosbohflo=Порт сервера
+Popt_timeoutM_roemrsrhpj=Сколько ждать ответа (минуты)
+Popt_howFreque_nhjaotdwsw=Как часто сверять часы
+Popt_notifyAbo_yardtvnbug=Уведомлять о сбое подключения и удачных синхронизациях
+SyncTimeNow=Синхронизировать часы
+TimeSync=Синхронизатор часов
+Dscplg_wp_timesync=Этот плагин позволяет синхронизировать часы с серверами в Интернете
+ErrorTimeSyncPlugin=Ошибка: Плагин синхронизации
+CanTConnectToClockServerServer=Не могу подключиться к серверу!<br>Сервер
+WarningCanTConnectT_GNSWCQBDMB=Warning: can`t connect to clock server!<br>Server
+
+Nameplg_wp_timesync=Синхронизатор часов

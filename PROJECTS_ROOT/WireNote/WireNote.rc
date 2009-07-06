@@ -1,0 +1,1112 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINICO             ICON    DISCARDABLE     "res\\Intendo.ico"
+IDI_ADDRBOOK            ICON    DISCARDABLE     "res\\adbook.ico"
+IDI_ICON_INFO_AST       ICON    DISCARDABLE     "res\\icon_inf.ico"
+IDI_ADDRBOOK_AWAY       ICON    DISCARDABLE     "res\\addrbook_away.ico"
+IDI_ADDRBOOK_BUSY       ICON    DISCARDABLE     "res\\addrbook_busy.ico"
+IDI_ADDRBOOK_DND        ICON    DISCARDABLE     "res\\addrbook_dnd.ico"
+IDI_ICON_MAIN2          ICON    DISCARDABLE     "res\\icon_m2.ico"
+IDI_ICON_MAIN3          ICON    DISCARDABLE     "res\\icon_m3.ico"
+IDI_ICON_MAIN4          ICON    DISCARDABLE     "res\\icon_m4.ico"
+IDI_ICON_MAIN5          ICON    DISCARDABLE     "res\\icon_m5.ico"
+IDI_ICON_MAIN6          ICON    DISCARDABLE     "res\\icon_m6.ico"
+IDI_ICON_MAIN7          ICON    DISCARDABLE     "res\\icon_m7.ico"
+IDI_ICON_ASK            ICON    DISCARDABLE     "res\\icon_ask.ico"
+IDI_ICON_BG             ICON    DISCARDABLE     "res\\ico_bg.ico"
+IDI_ICON_MINIM          ICON    DISCARDABLE     "res\\icon_minim.ico"
+IDI_ICON_WIREKEYS       ICON    DISCARDABLE     "..\\WireKeys\\res\\Intendo.ico "
+IDI_CHWALLPICON         ICON    DISCARDABLE     "..\\WireChanger\\res\\Intendo.ico "
+IDI_ICON_MAIL           ICON    DISCARDABLE     "res\\icon_mai.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BM_RECENT           BITMAP  MOVEABLE PURE   "res\\bm_recen.bmp"
+IDB_BM_EFORM            BITMAP  MOVEABLE PURE   "res\\bm_eform.bmp"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_UPNOTIFY            ICON    DISCARDABLE     "res\\upnotify.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BM_ORGAICON         BITMAP  MOVEABLE PURE   "res\\bm_tdundo.bmp"
+IDB_BM_NEWTODO          BITMAP  MOVEABLE PURE   "res\\bm_newtd.bmp"
+IDB_BM_NEWPERSON        BITMAP  MOVEABLE PURE   "res\\bm_newno.bmp"
+IDB_BM_NEWREMAINDER     BITMAP  MOVEABLE PURE   "res\\bm_newre.bmp"
+IDB_BM_DEL              BITMAP  MOVEABLE PURE   "res\\bm_del.bmp"
+IDB_BM_TODODONE         BITMAP  MOVEABLE PURE   "res\\bm_newto.bmp"
+IDB_BM_TODOINFO         BITMAP  MOVEABLE PURE   "res\\bm_todod.bmp"
+IDB_BM_TODOMOD          BITMAP  MOVEABLE PURE   "res\\bm_todoi.bmp"
+IDB_BM_NEWMESSAGE       BITMAP  MOVEABLE PURE   "res\\bm_msg_new.bmp"
+IDB_BM_TODOCURRENT      BITMAP  MOVEABLE PURE   "res\\bm_tdcur.bmp"
+IDB_BM_NEWNOTE          BITMAP  MOVEABLE PURE   "res\\bm_newpe.bmp"
+IDB_BM_DELPERSON        BITMAP  MOVEABLE PURE   "res\\bm_delpers.bmp"
+IDB_BM_MODPERSON        BITMAP  MOVEABLE PURE   "res\\bm_delpe.bmp"
+IDB_PINNED_UP           BITMAP  MOVEABLE PURE   "res\\bm_pinud.bmp"
+IDB_PINNED_UP_APP       BITMAP  MOVEABLE PURE   "res\\bm_pinua.bmp"
+IDB_PINNED_DOWN         BITMAP  MOVEABLE PURE   "res\\bm_pindw.bmp"
+IDB_IMAGELIST           BITMAP  MOVEABLE PURE   "res\\imagelis.bmp"
+IDB_BM_SAVE             BITMAP  MOVEABLE PURE   "res\\bm_save.bmp"
+IDB_BM_OPTIONS          BITMAP  MOVEABLE PURE   "res\\bm_options.bmp"
+IDB_BM_MSGLOG           BITMAP  MOVEABLE PURE   "res\\bm_msglog.bmp"
+IDB_BM_PONLINE          BITMAP  MOVEABLE PURE   "res\\bm_ponli.bmp"
+IDB_BM_PAWAY            BITMAP  MOVEABLE PURE   "res\\bm_paway.bmp"
+IDB_BM_PBUSY            BITMAP  MOVEABLE PURE   "res\\bm_pbusy.bmp"
+IDB_BM_PDND             BITMAP  MOVEABLE PURE   "res\\bm_pdnd.bmp"
+IDB_BM_PGROUP           BITMAP  MOVEABLE PURE   "res\\bm_pgrou.bmp"
+IDB_BM_PUNKNOWN         BITMAP  MOVEABLE PURE   "res\\bm_punko.bmp"
+IDB_BM_POFFLINE         BITMAP  MOVEABLE PURE   "res\\bm_poffl.bmp"
+IDB_BM_REFRESH          BITMAP  MOVEABLE PURE   "res\\bm_refre.bmp"
+IDB_BM_MESCNTR          BITMAP  MOVEABLE PURE   "res\\bm_mescn.bmp"
+IDB_BM_INMESSAGE        BITMAP  MOVEABLE PURE   "res\\bm_msg_i.bmp"
+IDB_BM_INMESSAGE_F1     BITMAP  MOVEABLE PURE   "res\\bm_msg_i1.bmp"
+IDB_BM_INMESSAGE_F2     BITMAP  MOVEABLE PURE   "res\\bm_msg_i2.bmp"
+IDB_BM_INMESSAGE_F3     BITMAP  MOVEABLE PURE   "res\\bm_msg_i3.bmp"
+IDB_BM_INMESSAGE_F4     BITMAP  MOVEABLE PURE   "res\\bm_msg_i4.bmp"
+IDB_BM_INMESSAGE_F5     BITMAP  MOVEABLE PURE   "res\\bm_msg_i5.bmp"
+IDB_BM_INMESSAGE_F6     BITMAP  MOVEABLE PURE   "res\\bm_msg_i6.bmp"
+IDB_BITMAP_CLOCK        BITMAP  MOVEABLE PURE   "res\\clock_bg.bmp"
+IDB_BM_NOTEREPL         BITMAP  MOVEABLE PURE   "res\\bm_notreply.bmp"
+IDB_BM_LOGO             BITMAP  MOVEABLE PURE   "res\\bm_logo.bmp"
+IDB_BM_HELP             BITMAP  MOVEABLE PURE   "res\\bm_help.bmp"
+IDB_BM_LICKEY           BITMAP  MOVEABLE PURE   "res\\bm_licke.bmp"
+IDB_BM_CHANGECOL        BITMAP  MOVEABLE PURE   "res\\bm_notchc.bmp"
+IDB_BM_NEW              BITMAP  MOVEABLE PURE   "res\\bm_creatnew.bmp"
+IDB_BM_ADRBOOK          BITMAP  MOVEABLE PURE   "res\\bm_adrbo2.bmp"
+IDB_BM_MSG_OK           BITMAP  MOVEABLE PURE   "res\\bm_msg_o.bmp"
+IDB_BM_MSG_ERR          BITMAP  MOVEABLE PURE   "res\\bm_msg_e.bmp"
+IDB_BM_MSG_IN           BITMAP  MOVEABLE PURE   "res\\bm_msg_i.bmp"
+IDB_BM_ABPROG           BITMAP  MOVEABLE PURE   "res\\bm_abpro.bmp"
+IDB_BM_MSG_SEND         BITMAP  MOVEABLE PURE   "res\\bm_msg_s.bmp"
+IDB_BM_SKREPKA          BITMAP  MOVEABLE PURE   "res\\bm_skrep.bmp"
+IDB_BM_PRINT            BITMAP  MOVEABLE PURE   "res\\bm_print.bmp"
+IDB_BM_FIND             BITMAP  MOVEABLE PURE   "res\\bm_find.bmp"
+IDB_BM_NEWPERSON_COPY   BITMAP  MOVEABLE PURE   "res\\bmp_pcop.bmp"
+IDB_BM_EDIT             BITMAP  MOVEABLE PURE   "res\\bm_edit.bmp"
+IDB_BM_NLINK            BITMAP  MOVEABLE PURE   "res\\bm_nlink.bmp"
+IDB_BM_NFOLDER          BITMAP  MOVEABLE PURE   "res\\bm_nfold.bmp"
+IDB_BM_NEWTAB           BITMAP  MOVEABLE PURE   "res\\bm_newta.bmp"
+IDB_BM_DELTAB           BITMAP  MOVEABLE PURE   "res\\bm_delta.bmp"
+IDB_BM_EDITAB           BITMAP  MOVEABLE PURE   "res\\bm_edita.bmp"
+IDB_BM_POPTAB           BITMAP  MOVEABLE PURE   "res\\bm_popta.bmp"
+IDB_BM_NEWMESSAGE2      BITMAP  MOVEABLE PURE   "res\\bm_newme2.bmp"
+IDB_BM_SHARE            BITMAP  MOVEABLE PURE   "res\\bm_share.bmp"
+IDB_BM_EFORM1           BITMAP  MOVEABLE PURE   "res\\bm_eform1.bmp"
+IDB_BM_NEWNOTE2         BITMAP  MOVEABLE PURE   "res\\bmp_note2.bmp"
+IDB_BM_NEWMESSAGESM     BITMAP  MOVEABLE PURE   "res\\bm_newmesm.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WPOSSOrganizator.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_REPORTFROM DIALOGEX 0, 0, 160, 22
+STYLE DS_MODALFRAME | DS_CENTERMOUSE | WS_MINIMIZEBOX | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Choose start day"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,88,4,27,12
+    PUSHBUTTON      "Cancel",IDCANCEL,120,4,36,12
+    CONTROL         "DateTimePicker1",IDC_MONTHCALENDAR,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_APPCANPARSE | WS_TABSTOP,2,4,82,12
+END
+
+IDD_NOTE DIALOGEX 0, 0, 124, 97
+STYLE DS_LOCALEDIT | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Q",IDC_NOTE_REPLY,"Button",BS_OWNERDRAW | WS_TABSTOP,0,
+                    72,8,8
+    CONTROL         "<",IDC_NOTE_ONTOP,"Button",BS_OWNERDRAW | WS_TABSTOP,0,
+                    0,12,12
+    EDITTEXT        IDC_TITLE,12,0,112,12,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    NOT WS_BORDER
+    CONTROL         "",IDC_TEXTFIELD,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL,0,12,124,56
+    CONTROL         "X",IDC_NOTE_DEL,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,8,72,8,8
+    CONTROL         "C",IDC_NOTE_PRINTBT,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,92,72,8,8
+    CONTROL         "%",IDC_NOTE_OPTMENU,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,100,72,8,8
+    CONTROL         "+",IDC_NOTE_RED,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,108,72,8,8
+    CONTROL         ">",IDC_NOTE_OPTION,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    116,72,8,8
+    CONTROL         "*",IDC_SENDMESSAGE,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,112,84,12,12
+    CONTROL         ".A.",IDC_ABOOK,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,100,84,12,12
+    CONTROL         "!!!",IDC_NOTE_ICON,"Button",BS_OWNERDRAW | WS_TABSTOP,0,
+                    84,12,12
+    CONTROL         "F",IDC_NOTE_SAFETOFILE,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,84,72,8,8
+    CONTROL         "U",IDC_NOTE_FIXSIZE,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,76,72,8,8
+    EDITTEXT        IDC_COMBOBOXEX,24,84,60,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER
+    CONTROL         ".R.",IDC_RECENTA,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,88,84,12,12
+    LTEXT           "",IDC_INFO,16,72,60,8,SS_NOPREFIX | SS_CENTERIMAGE
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 212, 176
+STYLE DS_MODALFRAME | DS_CENTER | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "About"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,160,92,48,14,BS_CENTER | BS_VCENTER | WS_GROUP
+    CTEXT           "Static",IDC_REGSTATUS,8,36,144,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "1.92",IDC_PRVERSION,8,8,144,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    GROUPBOX        "",IDC_STATIC,4,0,152,108
+    CTEXT           "Copyright (C)2002. WiredPlane labs",IDC_COPYRIGHT,8,24,
+                    144,8,SS_CENTERIMAGE
+    CTEXT           "You can download latest version from www.wiredplane.com",
+                    IDC_DOWNLOADDSC,8,84,144,20
+    CTEXT           "For comments, bugs reports, and any suggestions please write to support@wiredplane.com",
+                    IDC_EMDSC,8,52,144,28
+    LTEXT           "Notice: this computer program is protected by copyright laws and international treaties.",
+                    IDC_LEGALNOTICE,4,128,204,44
+    CONTROL         "Logo",IDC_LOGO,"Button",BS_OWNERDRAW | WS_TABSTOP,160,4,
+                    48,38
+    PUSHBUTTON      "Web site",ID_WEBSITE,160,76,48,14,BS_CENTER | 
+                    BS_VCENTER | WS_GROUP
+    PUSHBUTTON      "Enter code",ID_ENTCODE,160,60,48,14,BS_CENTER | 
+                    BS_VCENTER | WS_GROUP
+    CTEXT           "Common usage statistics",IDC_STATS,4,112,204,12,
+                    SS_CENTERIMAGE | WS_BORDER
+END
+
+IDD_NOTESETTINGS DIALOGEX 0, 0, 144, 112
+STYLE DS_CENTER | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Settings"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PINUPTITLE,4,48,136,45,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,104,96,36,12
+    CTEXT           "Every application title must be on new line\nUse [=...=],[?...?],[!...!] for additional checks",
+                    IDC_STATIC_DSC,4,17,136,28,0,WS_EX_STATICEDGE
+    CTEXT           "Stick to specified applications",IDC_PINUP_STATIC,4,0,
+                    136,16,SS_CENTERIMAGE
+END
+
+IDD_PERSON DIALOGEX 0, 0, 225, 141
+STYLE DS_CENTERMOUSE | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Person"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,138,120,36,12
+    PUSHBUTTON      "Cancel",IDCANCEL,180,120,36,12
+    LTEXT           "Person nick",IDC_STATIC1,6,6,210,12
+    LTEXT           "Person`s computer name",IDC_STATIC2,6,36,210,12
+    EDITTEXT        IDC_EDIT_NICK,6,18,138,12,ES_AUTOHSCROLL | ES_WANTRETURN,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_IP,6,48,138,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    COMBOBOX        IDC_COMBO_PROT,150,48,54,68,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Additional Info",IDC_STATIC3,7,66,209,12
+    EDITTEXT        IDC_EDIT_DSC,6,78,210,36,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN
+    CONTROL         "Group person",IDC_CHECK_GROUP,"Button",BS_AUTOCHECKBOX | 
+                    BS_VCENTER | BS_FLAT | WS_TABSTOP,6,121,84,12
+    PUSHBUTTON      "...",IDC_COMPADDR,204,48,12,12
+    PUSHBUTTON      "Find",IDFIND,96,120,36,12
+    COMBOBOX        IDC_COMBO_TAB,150,18,66,68,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_WPOSSORGANIZATOR_DIALOG DIALOGEX 0, 0, 214, 196
+STYLE WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Organizer"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_TASKLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,0,17,196,91,WS_EX_ACCEPTFILES
+    CONTROL         "New Todo",IDC_NEW_TODO,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,13,0,12,12
+    CONTROL         "New Note",IDC_NEW_NOTE,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,0,0,12,12
+    CONTROL         "New Reminder",IDC_NEW_REMINDER,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,28,0,12,12
+    CONTROL         "Addrbook",IDC_ADDRBOOK,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,156,0,12,12
+    CONTROL         "Options",IDC_OPTIONS_BT,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,136,0,12,12
+    CONTROL         "Save all",IDC_SAVEALL_BT,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,200,80,12,12
+    CONTROL         "Find",IDC_FIND_BT,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,176,0,12,12
+    CONTROL         "Top",IDC_WNDONTOP,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,196,0,12,12
+    LTEXT           "Welcome to WireNote",IDC_STATUS,0,180,212,12,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "New Link",IDC_NEW_LINK,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,41,0,12,12
+    CONTROL         "Edit",IDC_EDIT_ITEM,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,200,32,12,12
+    CONTROL         "Del",IDC_DELETE_ITEM,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,200,16,12,12
+    CONTROL         "New Folder",IDC_NEW_FOLDER2,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,57,0,12,12
+    CONTROL         "Edit",IDC_EDITFORM,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,200,96,12,12
+    CONTROL         "",IDC_RICHEDIT,"RICHEDIT",ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_TABSTOP,0,
+                    112,212,64,WS_EX_ACCEPTFILES
+    CONTROL         "Slider1",IDC_SLIDER_TRANS,"msctls_trackbar32",TBS_VERT | 
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,200,44,12,36
+END
+
+IDD_ADDRESSBOOK DIALOGEX 0, 0, 247, 125
+STYLE WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Address book"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_PERSONLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_AUTOARRANGE | 
+                    WS_BORDER | WS_TABSTOP,3,19,225,103
+    CONTROL         "New Person",IDC_NEWPERSON,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,3,3,12,12
+    CONTROL         "Delete Person",ID_DELETEPERSON,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,19,3,12,12
+    CONTROL         "Modify Person",IDC_MODPERSON,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,35,3,12,12
+    CONTROL         "Send message",IDC_SENDMES,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,232,17,12,12
+    CONTROL         "Message log",ID_MSGLOG,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,232,64,12,12
+    CONTROL         "Refresh status",ID_REFRESHSTAT,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,232,48,12,12
+    CONTROL         ">>",ID_QMENU,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,232,112,12,12
+    CONTROL         "Opt",ID_ADOPTIONS,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,232,95,12,12
+    CONTROL         "Find Person",IDC_FINDPERSON,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,50,3,12,12
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",0x0,63,3,153,12
+    CONTROL         "Del tab",IDC_TAB_DEL,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,217,3,12,12
+    CONTROL         "Send message",IDC_SENDMES2,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,232,32,12,12
+END
+
+IDD_DLGSTYLES DIALOGEX 0, 0, 252, 112
+STYLE WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "Styles"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Static",IDC_CURSTYLE,4,17,184,91
+    COMBOBOX        IDC_CUR_STYLE,4,4,116,119,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_BUTTON_ADD,192,4,56,12
+    PUSHBUTTON      "Rename",IDC_BUTTON_REN,124,4,64,12
+    PUSHBUTTON      "...",IDC_BUTTON_SETTXTCOL,171,28,12,12
+    PUSHBUTTON      "...",IDC_BUTTON_SETFONT,171,44,12,12
+    PUSHBUTTON      "...",IDC_BUTTON_SETBGCOL,171,60,12,12
+    CONTROL         "Slider1",IDC_ALPHA_SLIDER,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_BORDER | WS_TABSTOP,80,76,103,11
+    PUSHBUTTON      "Delete",IDC_BUTTON_DEL,192,20,56,12
+    PUSHBUTTON      "Randomize",IDC_BUTTON_RND,128,92,56,12
+    PUSHBUTTON      "Ok",IDC_OK,192,96,56,12
+    LTEXT           "Text color",IDC_STATIC_TEXTCOL,8,28,72,12,
+                    SS_CENTERIMAGE
+    CTEXT           "Static",IDC_STATIC_TXT,80,28,88,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Text font",IDC_STATIC_TSTFONT,8,44,72,12,SS_CENTERIMAGE
+    CTEXT           "Sample Text",IDC_STATIC_FONT,80,44,88,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Background",IDC_STATIC_BGCOL,8,60,72,12,SS_CENTERIMAGE
+    CTEXT           "Static",IDC_STATIC_BG,80,60,88,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "Transparency",IDC_STATIC_ALPHA,8,76,72,12,
+                    SS_CENTERIMAGE
+END
+
+IDD_NEWTASK DIALOGEX 0, 0, 184, 127
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "New ToDo"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_COMBO_ICON,"ComboBoxEx32",CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP,0,4,36,80
+    EDITTEXT        IDC_EDIT_NTNAME,28,4,152,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    CONTROL         "",IDC_COMBO_PR,"ComboBoxEx32",CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP,36,16,64,48
+    CONTROL         "",IDC_EDIT_NTDSC,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL,4,32,176,76,
+                    WS_EX_STATICEDGE
+    CONTROL         "X",IDDELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,4,112,8,
+                    8
+    CONTROL         "Include in report",IDC_INCLUDEINREP,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,20,112,80,8
+    CONTROL         ">>>",IDACTIONS,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | BS_FLAT | WS_TABSTOP,116,112,8,8
+    CONTROL         "!",ID_CYCLEBG,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | BS_FLAT | WS_TABSTOP,100,112,8,8
+    PUSHBUTTON      "OK",IDOK,148,112,34,8,BS_CENTER | BS_VCENTER
+    RTEXT           "ToDo description",IDC_STATIC2,0,16,40,12,SS_CENTERIMAGE
+    CONTROL         "...",ID_FOLDERSEL,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | BS_FLAT | WS_TABSTOP,168,18,12,12
+    EDITTEXT        ID_FOLDER,100,18,66,12,ES_AUTOHSCROLL
+END
+
+IDD_REMINDER DIALOGEX 0, 0, 205, 174
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "New Reminder"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "DateTimePicker1",IDC_TIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,8,108,48,
+                    12
+    EDITTEXT        IDC_EDIT_ACTION_PAR2,0,124,204,16,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN
+    EDITTEXT        IDC_TITLE,60,12,144,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Save&&Exit",IDC_BUTTON_SAVEEXIT,167,160,37,12
+    PUSHBUTTON      "Don`t save&&Exit",IDC_BUTTON_DONTSAVEEXIT,114,160,52,12
+    PUSHBUTTON      "Test",IDC_BUTTON_TEST,40,160,37,12
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,76,160,37,12
+    PUSHBUTTON      ">>>",IDC_BUTTON_CVIEW,0,160,37,12
+    PUSHBUTTON      "...",IDC_BUTTON_ACTION_PAR_CHOSER,192,144,12,12
+    CONTROL         "Active reminder",IDC_ACTIVE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_RIGHT | BS_VCENTER | BS_FLAT | 
+                    WS_TABSTOP,80,0,123,9
+    LTEXT           "Reminder title",IDC_STATIC_TITLE,1,0,64,8,
+                    SS_CENTERIMAGE
+    CONTROL         "MonthCalendar1",IDC_MONTHCALENDAR,"SysMonthCal32",
+                    MCS_NOTODAY | WS_TABSTOP,112,16,91,87,WS_EX_CLIENTEDGE
+    CONTROL         "Watch control",IDC_WATCH,"Button",BS_OWNERDRAW | 
+                    BS_LEFT | BS_TOP | WS_TABSTOP,96,4,80,80
+    CONTROL         "",IDC_COMBO_ACTION,"ComboBoxEx32",CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP,0,144,84,60
+    EDITTEXT        IDC_EDIT_ACTION_PAR,88,144,101,12,ES_AUTOHSCROLL,
+                    WS_EX_ACCEPTFILES
+    CONTROL         "Exact",IDC_RADIO_DAY_EXACT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,6,35,8,12
+    EDITTEXT        IDC_EDIT_DAY,15,35,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Every day",IDC_RADIO_DAY_EVERY,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,44,35,60,12
+    CONTROL         "Every",IDC_RADIO_DAY_EVERY_WDAY,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,100,36,40,12
+    COMBOBOX        IDC_COMBO_WDAYS,134,35,50,70,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Exact",IDC_RADIO_MON_EXACT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,6,59,8,12
+    EDITTEXT        IDC_EDIT_MONTH,15,59,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Every month",IDC_RADIO_MON_EVERY,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,44,59,68,12
+    CONTROL         "Exact",IDC_RADIO_YEAR_EXACT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,6,83,8,12
+    EDITTEXT        IDC_EDIT_YEAR,15,83,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Every year",IDC_RADIO_YEAR_EVERY,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,44,83,68,12
+    CONTROL         "Every",IDC_TIME_EVERY,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_RIGHT | BS_FLAT | WS_TABSTOP,28,108,60,
+                    12
+    COMBOBOX        IDC_COMBO_HOUR_LIST,92,108,32,45,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TIME_DISCR,124,108,40,42,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Year",IDC_STATIC_YEARF,4,76,165,24
+    GROUPBOX        "Month",IDC_STATIC_MONF,2,48,198,24
+    GROUPBOX        "Day",IDC_STATIC_DAYF,2,24,198,24
+    GROUPBOX        "Time",IDC_STATIC_TIMEF,2,96,198,24
+    CONTROL         "AM",IDC_RADIO_AM,"Button",BS_AUTORADIOBUTTON | BS_FLAT | 
+                    WS_GROUP,171,86,25,12
+    CONTROL         "PM",IDC_RADIO_PM,"Button",BS_AUTORADIOBUTTON | BS_FLAT,
+                    169,75,25,12
+    PUSHBUTTON      "+15m",IDC_BUTTON_A15,156,108,24,12
+    PUSHBUTTON      "+1h",IDC_BUTTON_A60,180,108,20,12
+    CONTROL         "",IDC_COMBO_ICON,"ComboBoxEx32",CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP,0,8,36,80
+END
+
+IDD_INFO_WND DIALOG DISCARDABLE  0, 0, 188, 64
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Alert"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,130,48,28,16
+    CONTROL         "Info Text",IDC_TEXT,"Button",BS_OWNERDRAW | BS_LEFT | 
+                    BS_TOP | BS_FLAT | WS_TABSTOP,0,12,188,32
+    PUSHBUTTON      "Cancel",IDCANCEL,159,48,28,16
+    CONTROL         "Do not ask again",IDC_ASKAGAIN,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,0,48,68,16
+    CONTROL         "Icon",IDC_WICON,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,0,0,12,12
+    LTEXT           "Title",IDC_TITLE,16,0,130,12,SS_CENTERIMAGE
+    CONTROL         "__",IDMINIMIZE,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,176,0,12,12
+END
+
+IDD_OPTIONS_DIALOG DIALOGEX 0, 0, 400, 238
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Options"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Help",IDHELP,7,217,49,14
+    PUSHBUTTON      "Additionally",IDRESET,63,217,63,14
+    CONTROL         "List1",IDC_LPANE,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | 
+                    WS_TABSTOP,7,7,135,203,WS_EX_ACCEPTFILES
+    CONTROL         "List1",IDC_OPTIONSLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,160,7,
+                    232,145,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "Loading preferences...",ID_FOLDERACTIONS1,161,161,211,
+                    12
+    PUSHBUTTON      "...",ID_FOLDERACTIONS2,378,161,12,12
+    DEFPUSHBUTTON   "OK",IDOK,231,217,49,14
+    PUSHBUTTON      "CANCEL",IDCANCEL,287,217,49,14
+    DEFPUSHBUTTON   "Apply",IDAPPLY,343,217,49,14
+    LTEXT           "Initializing dialog...",IDC_QHELP_TXT,164,188,221,15
+    GROUPBOX        "Static",IDC_QHELP,161,175,231,35
+    EDITTEXT        IDC_EDIT_FIND,128,216,44,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Button1",IDC_BUTTON_FIND,180,216,40,14
+    CONTROL         "",IDC_SLIDER_VERT,"Static",SS_BLACKFRAME,147,84,1,28
+    CONTROL         "",IDC_SLIDER_HORZ,"Static",SS_BLACKFRAME,247,159,29,1
+END
+
+IDD_SIMPLECHOOSER DIALOG DISCARDABLE  0, 0, 124, 52
+STYLE DS_MODALFRAME | DS_CENTER | WS_CAPTION
+CAPTION "Choose"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,36,36,50,14
+    CTEXT           "Choose",IDC_TEXT,0,4,124,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO,4,20,116,48,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_SIMPLEEDIT DIALOGEX 0, 0, 232, 55
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Edit"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_TITLE,3,5,168,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT,4,20,168,32,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN,WS_EX_ACCEPTFILES
+    DEFPUSHBUTTON   "Save",IDOK,176,40,50,12
+    PUSHBUTTON      "Browse",ID_BROWSE,176,24,50,12
+END
+
+IDD_FIND DIALOG DISCARDABLE  0, 0, 187, 116
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Find"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_MASK,0,12,152,12
+    PUSHBUTTON      "Find",IDC_GO,156,12,28,12
+    CONTROL         "List1",IDC_RESULTS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_AUTOARRANGE | 
+                    WS_BORDER | WS_TABSTOP,0,28,184,72
+    CTEXT           "Enter text to search for. Use '*' for any character",
+                    IDC_DSC_TEXT,0,0,184,12,SS_CENTERIMAGE
+    LTEXT           "Status",IDC_STATUS,0,104,184,12,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+END
+
+IDD_ANTISPAM DIALOG DISCARDABLE  0, 0, 284, 215
+STYLE WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Anti-spam window"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Waiting (till 00:00:00)",IDC_CURRENTSTEP,4,4,220,12,
+                    SS_CENTERIMAGE | WS_BORDER
+    EDITTEXT        IDC_SERVERLOG,4,20,220,60,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN
+    PUSHBUTTON      "Check now",IDC_BUTTON_MULTY,228,4,52,12
+    PUSHBUTTON      "View log",IDC_VIEWLOG,228,20,52,12
+    PUSHBUTTON      "Re-filter",IDC_REFILTER,228,68,52,12
+    PUSHBUTTON      "Select all",IDC_SELALL,228,36,52,12
+    PUSHBUTTON      "Select nothing",IDC_SELNOTHING,228,52,52,12
+    EDITTEXT        IDC_EDIT_SPAMSTR,8,180,96,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_SPAMTYPE,108,180,68,119,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_BUTTON_ADDSTR,228,180,28,12
+    PUSHBUTTON      "...",IDC_BUTTON_EDITSTR,260,180,16,12
+    PUSHBUTTON      "Email client",IDC_RUNEMAILCLIENT,4,200,80,12
+    PUSHBUTTON      "Configure",IDC_CONFIG,172,200,52,12
+    PUSHBUTTON      "Close",IDC_CLOSE,228,200,52,12
+    CONTROL         "List1",IDC_SPAMMSG,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_AUTOARRANGE | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,4,84,276,60
+    GROUPBOX        "New rule: If email contain piece of text like",
+                    IDC_ADDTOSPAM,4,172,276,24
+    CONTROL         "Run Email client after check",IDC_CHECK_RUNEMAILC,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,88,200,80,12
+    COMBOBOX        IDC_SPAMTYPE2,180,180,44,119,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_REPORTFROM, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 158
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 20
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_NOTESETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 142
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 110
+    END
+
+    IDD_PERSON, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_WPOSSORGANIZATOR_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 213
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_ADDRESSBOOK, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 244
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_DLGSTYLES, DIALOG
+    BEGIN
+        RIGHTMARGIN, 248
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_NEWTASK, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_REMINDER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_SIMPLECHOOSER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 117
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 45
+    END
+
+    IDD_SIMPLEEDIT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 228
+        BOTTOMMARGIN, 51
+    END
+
+    IDD_FIND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_ANTISPAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_SYSTRAY MENU DISCARDABLE 
+BEGIN
+    POPUP "Systray"
+    BEGIN
+        MENUITEM "First Item",                  ID_SYSTRAY_FIRSTITEM
+        MENUITEM "New Task",                    ID_SYSTRAY_DEFACTION
+        MENUITEM "New Note",                    ID_SYSTRAY_NEWNOTE
+        MENUITEM "New Reminder",                ID_SYSTRAY_NEWREMINDER
+        MENUITEM "New message",                 ID_SYSTRAY_NEWMESSAGE
+        MENUITEM "Switch menu",                 ID_SYSTRAY_SWITCHMENU
+        MENUITEM "Open",                        ID_SYSTRAY_OPEN
+        MENUITEM "Show all notes",              ID_SYSTRAY_SHOWALLNOTES
+        MENUITEM "Address book",                ID_SYSTRAY_ADDRESSBOOK
+        MENUITEM "Options",                     ID_SYSTRAY_OPTIONS
+        MENUITEM "Switch to Tasks",             ID_SYSTRAY_SWITCHTOTASKS
+        MENUITEM "Switch to notes",             ID_SYSTRAY_SWITCHTONOTES
+        MENUITEM "Switch to reminders",         ID_SYSTRAY_SWITCHTOREMINDERS
+        MENUITEM "Exit",                        ID_SYSTRAY_EXIT
+        MENUITEM "W-Changer",                   ID_SYSTRAY_WCHANGER
+        MENUITEM "Change wallpaper",            ID_SYSTRAY_CHANGEWALLPAPER
+        MENUITEM "Help topics",                 ID_SYSTRAY_HELP
+        MENUITEM "Register",                    ID_SYSTRAY_REGISTER
+        MENUITEM "About",                       ID_SYSTRAY_ABOUT
+        MENUITEM "Open WireKeys",               ID_SYSTRAY_OPENWIREKEYS
+        MENUITEM "Send a suggestion",           ID_SYSTRAY_SENDASUGGESTION
+        MENUITEM "Auto-popup organizer",        ID_SYSTRAY_AUTOPOPUPORGANIZER
+
+        MENUITEM "Refresh shared reminders",    ID_SYSTRAY_REFRESHSHAREDREMINDERS
+
+        MENUITEM "Reminder settings",           ID_SYSTRAY_REMINDERSETTINGS
+        MENUITEM "Anti-SPAM options",           ID_SYSTRAY_ANTISPAMOPTIONS
+        MENUITEM "Check for updates",           ID_SYSTRAY_CHECKFORUPDATES
+        MENUITEM "Donate!",                     ID_SYSTRAY_DONATE
+        MENUITEM "New link",                    ID_SYSTRAY_NEWLINK
+        MENUITEM "Link from clipboard",         ID_SYSTRAY_LINKFROMCLIPBOARD
+        MENUITEM "Check incoming emails",       ID_SYSTRAY_CHECKINCOMINGEMAILS
+
+        MENUITEM "Report all items",            ID_SYSTRAY_REPORTALLITEMS
+    END
+END
+
+IDR_NOTE_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Note Menu"
+    BEGIN
+        MENUITEM "Show note",                   ID_NOTEMENU_SHOWNOTE
+        MENUITEM "Hide note",                   ID_NOTEMENU_HIDENOTE
+        MENUITEM "Save notes",                  ID_NOTEMENU_SAVENOTES
+        MENUITEM "Small view",                  ID_NOTEMENU_SMALLVIEW
+        MENUITEM "Button view",                 ID_NOTEMENU_BUTTONVIEW
+        MENUITEM "Extended view",               ID_NOTEMENU_EXTENDEDVIEW
+        MENUITEM "Prevent from edit",           ID_NOTEMENU_PREVENTFROMEDIT
+        MENUITEM "Auto hide",                   ID_NOTEMENU_AUTOHIDE
+        MENUITEM "Remind after 15 min",         ID_NOTEMENU_REMINDIN15MIN
+        MENUITEM "Remind after 30 min",         ID_NOTEMENU_REMINDIN30MIN
+        MENUITEM "Remind after 1h",             ID_NOTEMENU_REMINDIN1H
+        MENUITEM "Remind after 3h",             ID_NOTEMENU_REMINDAFTER3H
+        MENUITEM "Remind tomorrow",             ID_NOTEMENU_REMINDTOMORROW
+        MENUITEM "Bring all on top",            ID_NOTEMENU_BRINGALLONTOP
+        MENUITEM "Snap to content",             ID_NOTEMENU_SNAPTOCONTENT
+        MENUITEM "Word-wrap",                   ID_NOTEMENU_WORDWRAP
+        MENUITEM "Add to addrbook",             IDC_ADDTOADRBOOK
+        MENUITEM "Icon view",                   ID_NOTEMENU_ICONVIEW
+        MENUITEM "Back normal view",            ID_NOTEMENU_BACKNORMALVIEW
+        MENUITEM "Pin to underlaing window",    ID_NOTEMENU_PINTOUNDERLAINGWINDOW
+
+        MENUITEM "Fixed size",                  ID_NOTEMENU_FIXEDSIZE
+        MENUITEM "Smiley :)",                   ID_NOTEMENU_SMILEY1
+        MENUITEM "Smiley :))",                  ID_NOTEMENU_SMILEY2
+        MENUITEM "Smiley :(",                   ID_NOTEMENU_SMILEY3
+        MENUITEM "Smiley :((",                  ID_NOTEMENU_SMILEY4
+        MENUITEM "Smiley ?)",                   ID_NOTEMENU_SMILEY5
+        MENUITEM "Smiley !)",                   ID_NOTEMENU_SMILEY6
+        MENUITEM "Smiley off",                  ID_NOTEMENU_SMILEYOFF
+        MENUITEM "Attach file",                 ID_NOTEMENU_ATTACHFILE
+        MENUITEM "Msg log",                     ID_NOTEMENU_MSGLOG
+        MENUITEM "New style",                   ID_NOTEMENU_NEWSTYLE
+        MENUITEM "Copy",                        ID_NOTEMENU_COPY
+        MENUITEM "Paste",                       ID_NOTEMENU_PASTE
+        MENUITEM "Cut",                         ID_NOTEMENU_CUT
+        MENUITEM "Save to file",                ID_NOTEMENU_SAVETOFILE
+        MENUITEM "Load from file",              ID_NOTEMENU_LOADFROMFILE
+        MENUITEM "Print",                       ID_NOTEMENU_PRINT
+        MENUITEM "Send as email",               ID_NOTEMENU_SENDASEMAIL
+        MENUITEM "Note options",                ID_NOTEMENU_NOTEOPTIONS
+        MENUITEM "Network settings",            ID_NOTEMENU_NETWORKSETTINGS
+        MENUITEM "Message options",             ID_NOTEMENU_MESSAGEOPTIONS
+        MENUITEM "Open address book",           ID_NOTEMENU_OPENADDRESSBOOK
+        MENUITEM "Remove all attachments",      ID_NOTEMENU_REMOVEALLATTACHMENTS
+
+        MENUITEM "Switch transparency",         ID_NOTEMENU_SWITCHTRANSPARENCY
+
+        MENUITEM "Really delete",               ID_NOTEMENU_REALLYDELETE
+        MENUITEM "Clip spy",                    ID_NOTEMENU_CLIPSPY
+        MENUITEM "Assign hotkey",               ID_NOTEMENU_ASSIGNHOTKEY
+    END
+END
+
+IDR_TODOMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "ToDo"
+    BEGIN
+        MENUITEM "Activate ToDo",               ID_TODO_SETASCURRENT
+        MENUITEM "Deactivate ToDo",             ID_TODO_SETASNOTCURRENT
+        MENUITEM "View ToDo note",              ID_TODO_VIEWTODONOTE
+        MENUITEM "Modify ToDo",                 ID_TODO_MODIFYTODO
+        MENUITEM "New ToDo",                    ID_TODO_NEWTODO
+        MENUITEM "Mark as done",                ID_TODO_MARKASDONE
+        MENUITEM "Mark as not done",            ID_TODO_MARKASUNDONE
+        MENUITEM "Delete ToDo",                 ID_TODO_DELETETODO
+        MENUITEM "Hide/Show Done",              ID_TODO_HIDESHOWDONE
+        MENUITEM "Remind about",                ID_TODO_REMINDABOUT
+        MENUITEM "Additional options",          ID_TODO_ADDOPTIONS
+        MENUITEM "ToDo settings",               ID_TODO_TODOSETTINGS
+    END
+END
+
+IDR_FILELINKMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "FileLink menu"
+    BEGIN
+        MENUITEM "Activate",                    IDR_FILELINKMENU_ACTIVATE
+        MENUITEM "Rename",                      ID_FILELINKMENU_RENAME
+        MENUITEM "Delete",                      IDR_FILELINKMENU_DEL
+        MENUITEM "Show lock",                   ID_FILELINKMENU_SHOWLOCK
+        MENUITEM "Copy to clipboard",           ID_FILELINKMENU_COPYTOCLIPBOARD
+
+        MENUITEM "Edit link",                   ID_FILELINKMENU_EDITLINK
+    END
+END
+
+IDR_FOLDERMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Folder"
+    BEGIN
+        MENUITEM "Create new folder",           ID_FOLDER_CREATENEW
+        MENUITEM "Delete this folder",          ID_FOLDER_DELETE
+        MENUITEM "New ToDo",                    ID_FOLDER_ADDTASK
+        MENUITEM "New Note",                    ID_FOLDER_ADDNOTE
+        MENUITEM "New Reminder",                ID_FOLDER_ADDREMINDER
+        MENUITEM "Set as tray folder",          ID_FOLDER_SETASTRAYFOLDER
+        MENUITEM "Rename folder",               ID_FOLDER_RENAMEFOLDER
+    END
+END
+
+IDR_PRIORITYMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Priority"
+    BEGIN
+        MENUITEM "Lowest",                      ID_PRIORITY_LOWEREST
+        MENUITEM "Low",                         ID_PRIORITY_LOW
+        MENUITEM "Normal",                      ID_PRIORITY_NORMAL
+        MENUITEM "High",                        ID_PRIORITY_HIGH
+        MENUITEM "Highest",                     ID_PRIORITY_HIGHEST
+    END
+END
+
+IDR_INFOWND_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "InfoWnd"
+    BEGIN
+        MENUITEM "Show",                        ID_INFOWND_OPEN
+        MENUITEM "Close",                       ID_INFOWND_DELETE
+    END
+END
+
+IDR_WCHANGER MENU DISCARDABLE 
+BEGIN
+    POPUP "W-Changer"
+    BEGIN
+        MENUITEM "New theme",                   ID_WCHANGER_NEWFOLDER
+        MENUITEM "Add directory",               ID_ADDFULLFOLDER
+        MENUITEM "Add picture(s)",              ID_WCHANGER_ADDFILE
+        MENUITEM "Delete all files",            ID_WCHANGER_DELETEALL
+        MENUITEM "Delete theme",                ID_WCHANGER_DELETEFOLDER
+        MENUITEM "Add directory (only new)",    ID_W_ADDDIRECTORY
+        MENUITEM "Add hyper-link",              ID_WCHANGER_ADDHYPERLINK
+    END
+    POPUP "W-ChangerEmpty"
+    BEGIN
+        MENUITEM "New theme",                   ID_WCHANGER_NEWFOLDER
+    END
+END
+
+IDR_MENU_ADDRBOOK MENU DISCARDABLE 
+BEGIN
+    POPUP "Tray"
+    BEGIN
+        MENUITEM "New message",                 ID_TRAY_NEWMESSAGE
+        MENUITEM "Open window",                 ID_TRAY_OPENWINDOW
+        MENUITEM "Exit window",                 ID_TRAY_EXITWINDOW
+        MENUITEM "Auto answering",              ID_TRAY_AUTOANSWERING
+        MENUITEM "Status online",               ID_TRAY_STATUSONLINE
+        MENUITEM "Status away",                 ID_TRAY_STATUSAWAY
+        MENUITEM "Status busy",                 ID_TRAY_STATUSBUSY
+        MENUITEM "Status DND",                  ID_TRAY_STATUSDND
+        MENUITEM "Refresh status",              ID_TRAY_REFRESHSTATUS
+        MENUITEM "New person",                  ID_TRAY_NEWPERSON
+        MENUITEM "Mod person",                  ID_TRAY_MODPERSON
+        MENUITEM "Del person",                  ID_TRAY_DELPERSON
+        MENUITEM "New message on person",       ID_TRAY_NEWMESSAGEONPERSON
+        MENUITEM "Message log",                 ID_TRAY_MESSAGELOG
+        MENUITEM "Update person status",        ID_TRAY_UPDATEPERSONSTATUS
+        MENUITEM "Open computer",               ID_TRAY_OPENCOMPUTER
+        MENUITEM "User msg log",                ID_TRAY_USERMSGLOG
+        MENUITEM "Options",                     ID_TRAY_OPTIONS
+        MENUITEM "Find online users",           ID_TRAY_FINDONLINEUSERS
+        MENUITEM "IMPORTAB",                    ID_TRAY_IMPORTAB
+        MENUITEM "EXPORTAB",                    ID_TRAY_EXPORTAB
+    END
+END
+
+IDR_REMINDERMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Reminder menu"
+    BEGIN
+        MENUITEM "Modify reminder",             ID_REMINDERMENU_MODIFYREMINDER
+
+        MENUITEM "Activate reminder",           ID_REMINDERMENU_ACTIVATEREMINDER
+
+        MENUITEM "Deactivate reminder",         ID_REMINDERMENU_DEACTIVATEREMINDER
+
+        MENUITEM "Delete reminder",             ID_REMINDERMENU_DELETEREMINDER
+
+        MENUITEM "Show/Hide inactive",          ID_REMINDERMENU_SHOWHIDEINACTIVE
+
+        MENUITEM "Add ",                        ID_REMINDERMENU_ADD
+    END
+END
+
+IDR_SPAMMSG_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "RCLICK"
+    BEGIN
+        MENUITEM "Re-read",                     ID_RCLICK_REREAD
+        MENUITEM "Delete from server",          ID_RCLICK_DELETEFROMSERVER
+        MENUITEM "Toggle mark",                 ID_RCLICK_TOGGLEMARK
+        MENUITEM "Download next lines",         ID_RCLICK_DOWNLOADNEXTLINES
+        MENUITEM "Show body",                   ID_RCLICK_SHOWBODY
+        MENUITEM "Show raw body",               ID_RCLICK_SHOWRAWBODY
+        MENUITEM "Show all headers",            ID_RCLICK_SHOWALLHEADERS
+        MENUITEM "Download 20 lines of body",   ID_RCLICK_DOWNLOAD20LINESOFBODY
+
+        MENUITEM "Download 30 lines of body",   ID_RCLICK_DOWNLOAD30LINESOFBODY
+
+        MENUITEM "Download 40 lines of body",   ID_RCLICK_DOWNLOAD40LINESOFBODY
+
+        MENUITEM "Download 50 lines of body",   ID_RCLICK_DOWNLOAD50LINESOFBODY
+
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSORSAVE          CURSOR  DISCARDABLE     "res\\cur_save.cur"
+IDC_CURSOR_DRAG         CURSOR  DISCARDABLE     "res\\cursor1.cur"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,3,2,1
+ PRODUCTVERSION 4,3,2,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "LAN messenger with PIM functions\0"
+            VALUE "CompanyName", "WiredPlane Labs\0"
+            VALUE "FileDescription", "WireNote application\0"
+            VALUE "FileVersion", "4, 3, 2, 1\0"
+            VALUE "InternalName", "WireNote\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002-2003\0"
+            VALUE "LegalTrademarks", "WiredPlane Labs\0"
+            VALUE "OriginalFilename", "WireNote.exe\0"
+            VALUE "ProductName", "WireNote Application\0"
+            VALUE "ProductVersion", "4, 3, 2, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About WireNote..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+    IDS_PROPSHT_CAPTION     "Property Sheet"
+    IDS_PROPSHT_CAPTION1    "Property Sheet"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,18 @@
+LIBRARY      "wp_autotext"
+DESCRIPTION  'WireKeys Autotext plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKCallPluginFunction
+GetPluginDsc
+;WKPluginPause
+WKDesktopSwitching
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKPluginOptionsManager
+WKGetPluginContainer
+AddTypingAlias
+LastTypedText

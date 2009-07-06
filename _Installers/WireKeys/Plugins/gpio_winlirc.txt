@@ -1,0 +1,2 @@
+//Example... real file should be in profile directory
+//WL_Button_0=eject

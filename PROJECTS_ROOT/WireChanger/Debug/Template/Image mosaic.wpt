@@ -1,0 +1,66 @@
+$=<TITLE:Image mosaic>$=<SHOWINTRAY:PARAM_ROOT>$=<CATEG:Wallpaper modifiers>
+$=<DESCRIPTION:
+Creates interesting pattern using wallpaper image
+>
+$=<RENDER:EasyDraw.dll>$=<HINTS:RENDER-LAYER=(BG),ONLINE-STATE=(DONTCARE),CONTAIN-MORTHING>
+$=<PARDEF:PARAM_ROOT>$=<PARDSC:PARAM_ROOT=Image mosaic options>$=<PARTYP:PARAM_ROOT=root>
+$=<PARDEF:ROWS=2>$=<PARDSC:ROWS=Rows to show>$=<PARPAR:ROWS=PARAM_ROOT>$=<PARTYP:ROWS=number>$=<PARMIN:ROWS=1>$=<PARMAX:ROWS=100>
+$=<PARDEF:COLS=2>$=<PARDSC:COLS=Columns to show>$=<PARPAR:COLS=PARAM_ROOT>$=<PARTYP:COLS=number>$=<PARMIN:COLS=1>$=<PARMAX:COLS=100>
+$=<PARDEF:XOFFSET=0>$=<PARDSC:XOFFSET=Offset cells on X axis (percents)>$=<PARPAR:XOFFSET=PARAM_ROOT>$=<PARTYP:XOFFSET=number>$=<PARMIN:XOFFSET=0>$=<PARMAX:XOFFSET=100>
+$=<PARDEF:YOFFSET=0>$=<PARDSC:YOFFSET=Offset cells on Y axis (percents)>$=<PARPAR:YOFFSET=PARAM_ROOT>$=<PARTYP:YOFFSET=number>$=<PARMIN:YOFFSET=0>$=<PARMAX:YOFFSET=100>
+$=<PARDEF:INVERT=1>$=<PARDSC:INVERT=Mirror images in the cells>$=<PARPAR:INVERT=PARAM_ROOT>$=<PARTYP:INVERT=list>$=<PARLST:INVERT=Do not mirror images,Mirror from second cell,Mirror first cell by X axis,Mirror first cell by Y axis,Mirror first cell by X and Y axis,Random>
+$=<PARDEF:RNDIMG=0>$=<PARDSC:RNDIMG=Use random images for every cell except first>$=<PARPAR:RNDIMG=PARAM_ROOT>$=<PARTYP:RNDIMG=bool>
+$=<PARDEF:RNDOVER_LEVEL=50>$=<PARDSC:RNDOVER_LEVEL=Merge with original image periodically (percents)>$=<PARTYP:RNDOVER_LEVEL=slider>$=<PARMIN:RNDOVER_LEVEL=0>$=<PARMAX:RNDOVER_LEVEL=100>
+$=<PARDEF:RNDRC_LEVEL=0>$=<PARTYP:RNDRC_LEVEL=hidden>
+
+{wp:body}
+<image-in-rect>
+X:({recommended-wallpaper-x})
+Y:({recommended-wallpaper-y})
+W:({recommended-wallpaper-w})
+H:({recommended-wallpaper-h})
+NO_FIT:(1)
+XDIFF:($=<PAR:XOFFSET>)
+YDIFF:($=<PAR:YOFFSET>)
+BORDER:(0)
+OPACITY:(100)
+MOSAIC-COLS:($=<IF-CC:BEGIN|{rnd(0,99)}.lt.$=<PAR:RNDRC_LEVEL>|IF-CC:THEN|$=<RND(2,$=<PAR:COLS>)>|IF-CC:ELSE|$=<PAR:COLS>|IF-CC:END>)
+MOSAIC-ROWS:($=<IF-CR:BEGIN|{rnd(0,99)}.lt.$=<PAR:RNDRC_LEVEL>|IF-CR:THEN|$=<RND(2,$=<PAR:ROWS>)>|IF-CR:ELSE|$=<PAR:ROWS>|IF-CR:END>)
+MOSAIC-RANDOM:($=<PAR:RNDIMG>)
+{wp:if condition{{INVERT}==1} }
+	MOSAIC-MIRROR:(1)
+	MOSAIC-MIRROR-1X:(0)
+	MOSAIC-MIRROR-1Y:(0)
+{/wp:if}
+{wp:if condition{{INVERT}==2} }
+	MOSAIC-MIRROR:(1)
+	MOSAIC-MIRROR-1X:(1)
+	MOSAIC-MIRROR-1Y:(0)
+{/wp:if}
+{wp:if condition{{INVERT}==3} }
+         MOSAIC-MIRROR:(1)
+         MOSAIC-MIRROR-1X:(0)
+         MOSAIC-MIRROR-1Y:(1)
+{/wp:if}
+{wp:if condition{{INVERT}==4} }
+         MOSAIC-MIRROR:(1)
+         MOSAIC-MIRROR-1X:(1)
+         MOSAIC-MIRROR-1Y:(1)
+{/wp:if}
+{wp:if condition{{INVERT}==5?} }
+         MOSAIC-MIRROR:($=<RND(0,1)>)
+         MOSAIC-MIRROR-1X:($=<RND(0,1)>)
+         MOSAIC-MIRROR-1Y:($=<RND(0,1)>)
+{/wp:if}
+
+{wp:if condition{{rnd(0,99)}.lt.{RNDOVER_LEVEL}} }
+EFFECT:(IMAGE)
+MASK-IMAGE-INVERT:(1)
+MASK-IMAGE-TONES-UP:({rnd(60,100)})
+MASK-IMAGE-TONES-DOWN:({rnd(0,30)})
+{/wp:if}
+
+</image-in-rect>
+
+
+{/wp:body}

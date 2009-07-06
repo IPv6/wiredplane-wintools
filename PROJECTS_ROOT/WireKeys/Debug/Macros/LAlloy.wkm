@@ -1,0 +1,49 @@
+// Language: WP_MacroRec.wkp
+// Title: Light Alloy Control
+// Description: Control Light Alloy via hotkeys
+// ParamType: none
+// Hint: No_sound, No_icon, OSD
+
+<wkMain>// wkMain description: Start playback
+Command("cmd::msg=[35272] h=[101] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain>
+
+<wkMain2>// wkMain2 description: Stop playback
+Command("cmd::msg=[35272] h=[100] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain2>
+
+<wkMain3>// wkMain3 description: Pause/Play
+Command("cmd::msg=[35272] h=[102] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain3>
+
+<wkMain4>// wkMain4 description: Forward
+Command("cmd::msg=[35272] h=[152] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain4>
+
+<wkMain5>// wkMain5 description: Backward
+Command("cmd::msg=[35272] h=[153] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain5>
+
+<wkMain6>// wkMain6 description: Rewind
+Command("cmd::msg=[35272] h=[156] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain6>
+
+<wkMain7>// wkMain7 description: Playlist - Next
+Command("cmd::msg=[35272] h=[250] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain7>
+
+<wkMain8>// wkMain8 description: Playlist - Previous
+Command("cmd::msg=[35272] h=[251] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain8>
+
+<wkMain9>// wkMain9 description: Fullscreen
+Command("cmd::msg=[35272] h=[202] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain9>
+
+<wkMain10>// wkMain10 description: Raise playback speed
+Command("cmd::msg=[35272] h=[103] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain10>
+
+<wkMain11>// wkMain11 description: Open file(s)
+Command("cmd::msg=[35272] h=[50] l=[0] targetByClass=[LightAlloyFront]");
+</wkMain11>

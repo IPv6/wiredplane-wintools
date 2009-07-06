@@ -1,0 +1,85 @@
+WndUrl=http://www.wiredplane.com/en/commons/wp_trans.php
+WndTitle=Перевод текста
+WndLoading=Systran: Идет перевод текста,\nподождите немного\n\nПереводимый текст:\n%unescape(TEXT)
+WndIcon=%THISPATH\transl.ico
+WndID=Jazikator
+WndResize=1
+
+WndOnLoadScriptBegin
+
+function PutResult()
+{
+	var title="Результат перевода (";
+	if("%DIR"==1){
+		title+="Рус->Анг";
+	}else{
+		title+="Анг->Рус";
+	}
+	title+=")";
+	document.all['titlot'].innerText=title;
+	document.all['textot'].innerText=document.all.tags('div')[1].innerText;
+	var sMegaDiv="";
+	if("%LIKS"==1){
+		sMegaDiv+="<hr><a target='_blank' href='%unescape(ORDERLINK)'>Зарегистрировать 'Языкатор'</a>";
+	}
+	sMegaDiv+="<br><div id='titlot' style='background: #DDDDDD; font-size:12px; font-face: Arial;'>Исходный текст</div><div id='textaf' style='font-size:12px; font-face: Arial;'>"+unescape('%TEXT')+"</div><hr><center>";
+	sMegaDiv+="Powered by <a target='_blank' href='http://babelfish.altavista.com/'>Altavista</a>,";
+	sMegaDiv+=" <a target='_blank' href='http://www.systransoft.com'>SysTran</span>";
+	sMegaDiv+="</center>";
+	document.all['textaf'].outerHTML=sMegaDiv;
+}
+
+var res="";
+try{
+	//alert(document.location.href);
+	// Connection timeout, etc
+	if(document.location.href.indexOf("res://")!=-1){
+		res="%UNREACHABLE ";
+		throw new String("No connection");
+	}
+	// Outers
+	if(document.location.href.indexOf("babelfish")!=-1 || document.location.href.indexOf("wp_trans")!=-1){
+		// Показываем пре-форму
+		document.body.style.overflow = 'hidden';
+		try{
+			document.forms[0].lp.style.display="none";
+			document.forms[0].lp.style.visibility="hidden";
+		}catch(e){};
+		var sMyDiv="<div style='position: absolute; z-index:1000; overflow: auto; overflow-y: auto; border: 1 solid black;  left:0;top:0;width:expression(document.body.clientWidth);height:expression(document.body.clientHeight); ";
+		sMyDiv+="background: white; font-size:12px; font-face: Arial; padding: 3;";
+		sMyDiv+="'><center>";
+		sMyDiv+="<div id='titlot' style='background: #DDDDDD; font-size:12px; font-face: Arial;'></div>";
+		sMyDiv+="<span id='textot' style='font-size:12px; font-face: Arial;'></span><br>";
+		sMyDiv+="<span id='textaf' style='font-size:12px; font-face: Arial;'></span><br>";
+		sMyDiv+="</center></div>";
+		document.body.innerHTML=document.body.innerHTML+sMyDiv;
+		if(document.location.href.indexOf("babelfish")!=-1){
+			document.all['titlot'].innerText="Результат перевода";
+			PutResult();
+			res+=" %STOP";// Больше не следим за статусом
+		}else{
+			// Скрываем лишнее
+			document.all['titlot'].innerText="Идет подготовка перевода";
+			document.all['textot'].innerText=unescape('%TEXT');
+			// Устанавливаем текст
+			if("%DIR"=='1'){
+				document.forms[0].lp.selectedIndex=33;//Ru->En
+				document.forms[0].urltext.value=unescape('%TEXT');
+			}else{
+				document.forms[0].lp.selectedIndex=15;//En->Ru
+				document.forms[0].urltext.value=unescape('%TEXT');
+			}
+			setTimeout("document.forms[0].submit();",1000);
+			res+=" %CONTINUE";// Не показываем промежуточного результата
+		}
+	}
+}catch(e)
+{
+	res+="%FAILURE: "+e.message;
+};
+
+// Returning result via defaultStatus
+window.defaultStatus=res;
+
+WndOnLoadScriptEnd
+

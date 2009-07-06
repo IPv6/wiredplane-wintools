@@ -1,0 +1,191 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Шаблоны текста в WireKeys" -->
+<!--#set var="PTITLE_EN" value="Patterns thast can be used in WireKeys" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+<h2>Шаблоны</h2><hr>
+<br>Для удобства наиболее употребимые строки в приложениях - такие как изображение подписи,
+ названия файлов или части макроса могут быть вставлены автоматически с использованием шаблонов.
+ Шаблон - это заранее определенная строка, начинающаяся с '%', например '%CLIP'. Шаблоны 
+ заменяются на их фактическое значение в реальном времени. Очень важно писать все паттерны
+ в правильном регистре - большими буквами
+<br>Доступны на данный момент шаблоны:<br>
+<br>1. Общие шаблоны (доступные всюду):<br>
+- '%DATE': Текущая дата<br>
+- '%TIME': Текущее время<br>
+- '%YEAR': Текущий год<br>
+- '%MONTH': Текущий месяц<br>
+- '%DAY': Текущий день<br>
+- '%HOUR': Текущий час<br>
+- '%MINUTE': Текущая минута<br>
+- '%SECOND': Текущая секунда<br>
+- '%CLIP': Текст из буфера обмена<br>
+Также доступны в качестве паттернов строки окружения. Например чтобы вставить имя текущего пользователя, укажите паттерн '%USERNAME%'<br>
+
+<br>1.1. Общие шаблоны, вызывающие доп. диалоги:<br>
+- '%ASKFILE': Спросить у пользователя файл  (открывает диалог "Открыть файл")<br>
+- '%ASKFOLDER': Спросить у пользователя каталог  (открывает диалог "Просмотр каталога")<br>
+
+<br>1.2. Общие шаблоны, которые можно использовать для определения активного окна/приложения:<br>
+- '%ACTIVEAPP': Имя активного приложения<br>
+- '%ACTIVEWND': Заголовок активного окна<br>
+- '%ACTIVEEXE': Полный путь к активному окну<br>
+- '%ISRUN:xxx': '1' если приложение 'xxx' сейчас активно (даже если оно работает где-то в фоне) или '0' если приложения с именем процесса 'xxx' не найдено<br>
+
+<br>2. Шаблоны к подписи и названию файла скриншота:<br>
+- '%TITLE': Заголовок активного приложения<br>
+- '%COUNT': Последовательный номер скриншота с тех пор как WireKeys запущен<br>
+<br>3. Шаблоны к параметрам пунктов Быстрого запуска и скриптов макросов:<br>
+- '%SELECTED': Текущая выделенная строка текста (или первая строка многострочного текста)<br>
+- '%ESCAPED' : Текущий выделенный многострочный текст, в %-формате (для JScript клавиатурных макросов) в виде '%uXXXX'<br>
+- '%URL_SELECTED': Текущий выделенный многострочный текст, в %-формате (для JScript клавиатурных макросов и передаче в URL) в виде '%XX'<br>
+- '%PARAMETER': "Параметр" текущего работающего макроса, в %-формате<br>
+- '%COOKIE:...%': Значение, установленное ранее скриптом<br>
+<br><br>
+Большинство шаблонов можно вставлять закодированными в %-формате (когда символы заменяются на 16ичные коды, предваренные символом %).
+Для этого достаточно предварить имя шаблона строкой "E_", к примеру '%ACTIVEAPP'->'%E_ACTIVEAPP'.<br>
+Такое кодирование удобно для передачи текста через URL какого-либо интернет ресурса, к примеру.
+Список шаблонов, которые можно заменять на закодированное значение: '%E_SELECTED','%E_CLIP','%E_ASKFILE','%E_ASKFOLDER','%E_ACTIVEAPP',
+'%E_ACTIVEWND','%E_ACTIVEEXE'
+<hr>
+Символы форматирования даты
+<TABLE border=1>
+
+<TR VALIGN="top">
+<Td align=left width=13%>Picture</Td>
+<Td align=left width=87%>Meaning</Td>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>h</TD>
+<TD width=87%>Hours with no leading zero for single-digit hours; 12-hour clock.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>hh</TD>
+<TD width=87%>Hours with leading zero for single-digit hours; 12-hour clock.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>H</TD>
+<TD width=87%>Hours with no leading zero for single-digit hours; 24-hour clock.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>HH</TD>
+<TD width=87%>Hours with leading zero for single-digit hours; 24-hour clock.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>m</TD>
+<TD width=87%>Minutes with no leading zero for single-digit minutes.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>mm</TD>
+<TD width=87%>Minutes with leading zero for single-digit minutes.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>s</TD>
+<TD width=87%>Seconds with no leading zero for single-digit seconds.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>ss</TD>
+<TD width=87%>Seconds with leading zero for single-digit seconds.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>t</TD>
+<TD width=87%>One character time-marker string, such as A or P.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>tt</TD>
+<TD width=87%>Multicharacter time-marker string, such as AM or PM.</TD>
+</TR>
+</TABLE><br>
+Date format characters
+<TABLE border=1>
+
+<TR VALIGN="top">
+<Td align=left width=13%>Picture</Td>
+<Td align=left width=87%>Meaning</Td>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>d</TD>
+<TD width=84%>Day of month as digits with no leading zero for single-digit days.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>dd</TD>
+<TD width=84%>Day of month as digits with leading zero for single-digit days.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>ddd</TD>
+<TD width=84%>Day of week as a three-letter abbreviation.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>dddd</TD>
+<TD width=84%>Day of week as its full name.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>M</TD>
+<TD width=84%>Month as digits with no leading zero for single-digit months.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>MM</TD>
+<TD width=84%>Month as digits with leading zero for single-digit months.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>MMM</TD>
+<TD width=84%>Month as a three-letter abbreviation.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>MMMM</TD>
+<TD width=84%>Month as its full name.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>y</TD>
+<TD width=84%>Year as last two digits, but with no leading zero for years less than 10.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>yy</TD>
+<TD width=84%>Year as last two digits, but with leading zero for years less than 10.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>yyyy</TD>
+<TD width=84%>Year represented by full four digits.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>gg</TD>
+<TD width=84%>Period/era string.</TD>
+</TR>
+</TABLE>
+
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->
+

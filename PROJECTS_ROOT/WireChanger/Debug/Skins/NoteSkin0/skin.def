@@ -1,0 +1,126 @@
+TITLE=Paper
+TCOLOR=16777215
+BCOLOR=16711680
+ICON0_TITLE=#
+ICON1_TITLE=#
+ICON2_TITLE=#
+ICON3_TITLE=#
+ICON4_TITLE=#
+ICON5_TITLE=#
+ICON6_TITLE=#
+ICON7_TITLE=#
+ICON8_TITLE=#
+ICON9_TITLE=#
+
+<template-css>
+	html {
+		background: transparent;
+		margin:0 0 0 0;
+	}
+	body
+	{
+		margin:0 0 0 0;
+	}
+	table {
+		padding:0 0 0 0;
+		margin:0 0 0 0;
+	}
+	.content {
+		$=<CSS-BACKGROUND>;
+	}
+</template-css>
+
+
+<template-full>
+	<table cellspacing="0" cellpadding="0" style="overflow:hidden;" width="100%" height="100%">
+	<tr height="9">
+	<td></td>
+	</tr>
+	<tr height="9">
+	<td style="background: url(images/corn_tl.gif);" width="8"></td>
+	<td style="background: url(images/top.gif);" width="100%"></td>
+	<td style="background: url(images/corn_tr.gif);" width="8"></td>
+	</tr>
+	<tr>
+	<td style="background: url(images/lft.gif);" width="8"></td>
+	<td class="content" style="background: url(images/bg.jpg);">
+		<table width="100%" height="100%">
+		<tr>
+			<td height="20" style="text-align:center;background: url(images/bgt.jpg);">$=<PAR:TITLE></td>
+		</tr>
+		<tr height="100%">
+			<td valign="top"><div style="width: 100%; max-height: $=<INTEXPR($=<PAR:HEIGHT>-50)>px; overflow: hidden;"> $=<PAR:TEXT></div></td>
+		</tr>
+		</table>
+	</td>
+	<td style="background: url(images/rgt.gif);" width="8"></td>
+	</tr>
+	<tr height="9">
+	<td style="background: url(images/corn_bl.gif);" width="8"></td>
+	<td style="background: url(images/btm.gif);" width="100%"></td>
+	<td style="background: url(images/corn_br.gif);" width="8"></td>
+	</tr>
+	</table>
+	<div style="left:1; top: 0; position: absolute;">
+	<img src="$=<PAR:ICON>" width="48" height="48">
+	</div>
+</template-full>
+
+
+<template-titleonly>
+	<table cellspacing="0" cellpadding="0" style="overflow:hidden;" width="100%">
+	<tr height="9">
+	<td></td>
+	</tr>
+	<tr height="9">
+	<td style="background: url(images/corn_tl.gif);" width="8"></td>
+	<td style="background: url(images/top.gif);" width="100%"></td>
+	<td style="background: url(images/corn_tr.gif);" width="8"></td>
+	</tr>
+	<tr>
+	<td style="background: url(images/lft.gif);" width="8"></td>
+	<td class="content" style="background: url(images/bg.jpg);">
+		<table width="100%" height="100%">
+		<tr>
+			<td height="20" style="text-align:center;background: url(images/bgt.jpg);">$=<PAR:TITLE></td>
+		</tr>
+		</table>
+	</td>
+	<td style="background: url(images/rgt.gif);" width="8"></td>
+	</tr>
+	<tr height="9">
+	<td style="background: url(images/corn_bl.gif);" width="8"></td>
+	<td style="background: url(images/btm.gif);" width="100%"></td>
+	<td style="background: url(images/corn_br.gif);" width="8"></td>
+	</tr>
+	</table>
+	<div style="left:1; top: 0; position: absolute;">
+	<img src="$=<PAR:ICON>" width="48" height="48">
+	</div>
+</template-titleonly>
+
+
+<template-iconic>
+	<table cellspacing="0" cellpadding="0" style="overflow:hidden;">
+	<tr height="9">
+	<td></td>
+	</tr>
+	<tr height="9">
+	<td style="background: url(images/corn_tl.gif);" width="8"></td>
+	<td style="background: url(images/top.gif);" width="100%"></td>
+	<td style="background: url(images/corn_tr.gif);" width="8"></td>
+	</tr>
+	<tr>
+	<td style="background: url(images/lft.gif);" width="8"></td>
+	<td class="content" style="background: url(images/bg.jpg);">
+		<img src="$=<PAR:ICON>" width="48" height="48">
+	</td>
+	<td style="background: url(images/rgt.gif);" width="8"></td>
+	</tr>
+	<tr height="9">
+	<td style="background: url(images/corn_bl.gif);" width="8"></td>
+	<td style="background: url(images/btm.gif);" width="100%"></td>
+	<td style="background: url(images/corn_br.gif);" width="8"></td>
+	</tr>
+	</table>
+</template-iconic>

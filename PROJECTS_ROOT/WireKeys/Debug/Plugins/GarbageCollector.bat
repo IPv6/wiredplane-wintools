@@ -1,0 +1,9 @@
+del *.d_ /S
+del *.d_* /S
+ren WP_WTraits.wkp  WP_WTraits%1.d_
+ren WP_OpenWithExt.wkp WP_OpenWithExt%1.d_
+ren lalthook.dll lalthook%1.d_
+ren lscrhook.dll lscrhook%1.d_
+ren wkatexth.dll wkatexth%1.d_
+ren wkkeyh.dll wkkeyh%1.d_
+ren WP_RClickcp.wkp WP_RClickcp%1.d_

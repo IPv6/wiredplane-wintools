@@ -1,0 +1,17 @@
+AltTabReplacer=Alt-Tab Replacer
+Dscplg_wp_alttabr=This plugin allows you to drag-n-drop taskbar buttons to sort them in desired order and activate next/previous application in the TaskBar`s order, regardles of the previously active application
+NextWindow=Next window
+PreviousWindow=Previous window
+ReorderButtons=Reorder buttons
+TaskbarExtender=Taskbar Extender
+Popt_addClose_dqblvyyvmy=Add 'Close' icon to taskbar buttons
+Popt_killAppli_dfaruntgbm=Kill application on 'Close' icon instead of closing them
+Popt_alwaysSug_vjqbytoooe=Always suggest to kill 'Not-responding' application
+KillThisApplication=Kill this application
+ApplicationIsNotResponding=Application is not responding
+ApplicationIsIgnori_QDLCEFPKCF=Application is ignoring 'Close' command
+Popt_activateP_vnwutdeekv=Activate plugin only when 'Control' key is down
+Popt_setTaskba_aurwtulqts=Set taskbar buttons width to ... pixels
+Popt_allowDrag_kwrtuospaa=Allow draging outside taskbar
+Popt_closeWind_psfegixltx=Close window by middle-clicking taskbar button
+Nameplg_wp_alttabr=Alt-Tab Replacer

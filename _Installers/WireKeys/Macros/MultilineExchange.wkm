@@ -1,0 +1,35 @@
+// Title: Swap line parts
+// Description: This macro swaps line parts of the multiline text. Delimiter is taken from macro parameter
+// ParamType: String
+
+function wkMain(selectedText,macroParameter)
+{
+	// Parsing input into array...
+	var sTextLines=selectedText.split('\n');
+	// Getting part delimiter...
+	var Param=macroParameter;
+	// Maybe we must use default value?
+	if(Param==''){
+		Param='=';
+	}
+	// Clearing output...
+	var OUTPUT='';
+	
+	// For each line of text...
+	for(i=0;i<sTextLines.length;i++){
+		// Searching for delimiter...
+		var iSpaceL=sTextLines[i].indexOf(Param);
+		var LeftMark='';
+		var RightMark=sTextLines[i];
+		if(iSpaceL!=-1){
+			// Extracting parts...
+			LeftMark=sTextLines[i].slice(0,iSpaceL);
+			RightMark=sTextLines[i].slice(iSpaceL+1);
+		}
+		if(RightMark!='' && LeftMark!=''){
+			// Adding parts in reversed order...
+			OUTPUT+=RightMark+Param+LeftMark+'\r\n';
+		}
+	}
+	return OUTPUT;
+}

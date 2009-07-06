@@ -1,0 +1,22 @@
+; WCRemind.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WCRemind"
+DESCRIPTION  'WCRemind Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+
+InitDLL
+StopDLL
+GetCountOnDate
+GetReminderOnDate
+GetReminder
+PutReminder
+RemoveReminder
+CallModifyReminder
+IsReminderFamilyPresent
+OpenCalendar
+CreateNewReminder
+SortReminders
+_bmpX
+_lngX

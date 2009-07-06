@@ -1,0 +1,16 @@
+Popt_restoreMa_eijmlaeyuo=Восстанавливать максимизированные окна перед перемещением
+Popt_moveBack_vkpxvbcafb=Возвращать окно в начальную позицию при нажатии правой кнопки мыши во время движения
+Linuxlikewindowsmove=Перемещение окон в стиле Linux
+Dscplg_wp_aslinux=Этот плагин позволяет перемещать окна в стиле Linux (удерживая Alt, окна можно перемещать за любое место, не только за заголовок)
+Linuxlikewindowmovingstyle=Перемещение окон в стиле Linux
+
+DoNothing=Ничего не делать
+RestoreWindow=Восстанавливать окно
+DoNotMoveWindow=Не двигать окно
+Popt_whatToDo_xctplnuoby=Что делать с максимизированными окнами при 'LINUX-Like' перемещениях
+ShrinkWindow=Уменьшить окно
+DragNewRectangleForWindow=Нарисуйте новый прямоугольник для окна
+SetNewWindowSize=Задать размер активного окна
+ExpandWindow=Расширить окно
+
+Nameplg_wp_aslinux=Перемещение окон в стиле Linux

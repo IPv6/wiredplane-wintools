@@ -1,0 +1,8 @@
+Order0=Random
+Order1=Next
+HAlign0=left
+HAlign1=center
+HAlign2=right
+VAlign0=top
+VAlign1=middle
+VAlign2=bottom

@@ -1,0 +1,45 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Главное окно</h1><hr>
+<img src="scr1.png"><br>
+<table border=0 cellspacing=3 cellpadding=0>
+<tr><td  valign=top>1<td  valign=top></td><td  valign=top>Checkbox. Если галочка поставлена, картинки данной схемы будут использоваться в случайном порядке.</td></tr>
+<tr><td  valign=top>2<td  valign=top></td><td  valign=top>Название темы. Для редактирования щелкните дважды.</td></tr>
+<tr><td  valign=top>3<td  valign=top></td><td  valign=top>Полный путь к файлу с изображением.</td></tr>
+<tr><td  valign=top>4<td  valign=top></td><td  valign=top>Тип отображения картинки:
+<br>&quot;Не менять размер&quot; - размеры картинок не будут изменены.
+<br>&quot;На весь экран&quot; - картинка будет &quot;растянута&quot; во весь экран.
+<br>&quot;Пропорционально&quot; - картинка будет &quot;растянута&quot; во весь экран, с сохранением пропорций.
+<br>&quot;Авто-пропорц.&quot; - картинка будет &quot;сжата&quot; до размеров рабочего стола, с сохранением пропорций,<br>(только если она больше, чем текущее разрешение, в противном случае ничего не произойдет).
+</td></tr>
+<tr><td  valign=top>5<td  valign=top></td><td  valign=top>Значимость темы (в процентах). Значимость определяет, как часто картинки из данной темы будут использоваться<br>по сравнению с картинками из других тем (в случае, если активна не одна тема).
+<br>В значении &quot;100&quot; будут использоваться картинки только этой темы.
+<br>В значениях между &quot;0&quot; и &quot;100&quot; картинки данной схемы будут чередоваться с картинками других тем с заданной частотой.
+<br>В значении &quot;0&quot; (или в случае указания &quot;?&quot; в поле) картинки данной темы не будут использоваться или будут<br>использоваться редко (в зависимости от значимости других тем).</td></tr>
+<tr><td  valign=top>6<td  valign=top></td><td  valign=top>Часы</td></tr>
+<tr><td  valign=top>7<td  valign=top></td><td  valign=top>Минуты</td></tr>
+<tr><td  valign=top>8<td  valign=top></td><td  valign=top>Сохранить изменения и закрыть окно.</td></tr>
+<tr><td  valign=top>9<td  valign=top></td><td  valign=top>Checkbox. Если галочка поставлена, фон рабочего стола будет периодически менятся (задать время можно, используя п. 6 и 7).</td></tr>
+<tr><td  valign=top>10<td  valign=top></td><td  valign=top>Каким образом будут менятся рисунки фона рабочего стола. В значении &quot;По порядку&quot; рисунки будут меняться поочередно<br> в том порядке, в котором они стоят в списке. В значении &quot;Случайно&quot; рисунки будут меняться случайно.</td></tr>
+<tr><td  valign=top>11<td  valign=top></td><td  valign=top>Быстрый доступ к некоторым функциям.</td></tr>
+<tr><td  valign=top>13<td  valign=top></td><td  valign=top>Список установленных шаблонов.</td></tr>
+<tr><td  valign=top>15<td  valign=top></td><td  valign=top>Окно предосмотра и Checkbox с выбранным именем файла.
+<br>Если галочка установлена, любой выбранный рисунок будет показан в окне предосмотра.<br>В случае указания интернет-адреса, потребуется некоторое время для загрузки изображения.</td></tr>
+<tr><td  valign=top>16<td  valign=top></td><td  valign=top>Закрыть окно (эффект такой же, как и при нажатии на кнопку &quot;OK&quot;)</td></tr>
+<tr><td  valign=top>17<td  valign=top></td><td  valign=top>Информация по выбранном рисунку: размеры (в пикселях), тип, размер файла.</td></tr>
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

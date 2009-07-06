@@ -1,0 +1,56 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Messaging</h1><hr>
+WireNote can be used as Lan/Wan messenger. WireNote does not require an Internet connection or a dedicated server to support messaging.
+Messaging is highly integrated with Address book - if you add person`s information to address book, you will be able to use readable user names instead of computer names.<br>
+<br>WireNote can be in one of 4 online statuses:
+<br>"Online" - no limitation on incoming messages
+<br>"Away" - no limitation on incoming messages, this status just informs everybody that your are not ready for messaging
+<br>"Busy" - WireNote receive messages only from users from your address book. Other messages will be logged but not shown
+<br>"DND" - WireNote doesn`t receive any messages. All messages will be logged but not shown
+<br>In addition you can turn on auto-replies. WireNote will reply with specified text on every incoming message (or from your address book users only)
+<br>Every person from your address book can have any of the described above online statuses (with some limitations on 'Mailslot' users), Users icons will be grayed out when person`s status are not determined yet.
+<br>By default, you will receive notifications when your message is read by recipient<br>
+<hr>
+<h1>Message filters</h1><hr>
+Filters designed to provide protection against spam messages or to ignore specified user`s messages.
+Every filter determine piece of text that must be present in message text/Sender`s nick and action to perform.
+Possible actions are "delete" and "open" ("open" message can be used to receive messages in DND/Away modes, when messages are dropped in normal way)
+You can specify unlimited number of filters. To create filter open "Preferences" dialog and go to the "Messaging" section. 
+<hr>
+One of the three net protocols can be used for sending/receiving messages.
+<br> <b>Mailslot</b>. This is a standard windows protocol, which is used by Windows Messaging Service or Winpopup-like programs, so you will be able to send/receive messages to/from such users.
+This protocol has some limitations - Mailslot messages can`t have attachments and messages have limitations in lenght. You can specify mailslot name for sending and receiving messages.
+To force use of this protocol you can add "/ms" to person`s computer name. This protocol must be 'on' in order to search online users
+<br> <b>Netbios</b>. This is a standard windows protocol also. This protocol has the same limitations - Netbios messages can`t have attachments. You can specify netbios name for sending and receiving messages and LANA number if you have more then one network card installed.
+To force use of this protocol you can add "/nb" to person`s computer name
+<br> <b>Xpc</b>. This is a fast and reliable protocol which is rely on TCP/IP as a transport protocol. You will be able to attach files to your messages and send them to anyone who have WireNote installed.
+You can specify TCP/IP port for sending and receiving messages.
+To force use of this protocol you can add "/xpc" to person`s computer name
+<br> <b>Billboard.</b> This protocol was specially designed for
+non-standard LANs with mixed environment, where standard messaging tools simply cannot be used.
+The only required thing for Billboard protocol - shared folder with read/write properties, 
+which must be visible from WireNote users (commonly this is the folder on the central LAN File server, for example)
+Example: one part of the LAN is behind the NAT server or firewall and this firewall/NAT blocks all connections from the inside.
+But this is not a problem for WireNote! With Billboard protocol, you even don`t have to see your partner in the network neighbourhood or know IP address or computer name.
+Just point your WireNotes to one shared folder - and you will be able to establish message exchange between your computers :)
+Using billboard you can publish your reminders/notes and ToDos to other users, connected to the same billboard as well as send them private messages.
+<br>Additionally, Billboard supports "Find online users" operation and can send messages to offline users: they will get them right after login (like ICQ messages, for example)<br>
+<br> <b>Email</b>. With this protocol you can communicate with others using email directly from WireNote, without special mail client.
+Of course, WireNote is not intended to substitute full-featured email clients, but for small and quick messaging WireNote with this protocol enabled is more convinient.
+To force use of this protocol you can add "/em" to person`s computer name. Beside that, WireNote will automatically detect email addresses in message`s "To" field.
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

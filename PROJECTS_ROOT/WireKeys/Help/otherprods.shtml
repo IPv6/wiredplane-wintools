@@ -1,0 +1,30 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="Äðóãèå ïðèëîæåíèÿ" -->
+<!--#set var="TOPIC_EN" value="Other products" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Our Products</h2><hr>
+<table border=0>
+<tr>
+<td><a href="http://www.wiredplane.com/wirechanger/info.shtml?who=WireKeys"><img src="wc.gif" border=0></a>
+<td valign="top">WireChanger<hr> - Wallpaper changer utility + desktop clocks. Gif/jpg/html/bmp/..., can show web-pages and HTML and automatically apply special effect to the image (B&W/Opacity/Calendar/...) on the fly. Images can be grouped in themes. Every theme can have a weight -  which means how frequently it will be used. No 'active desktop' required. WireChanger also supports live clocks to be displayed over wallpaper, additional clocks and clocks collections can be downloaded from our site or <a href="http://www.colclocks.com">http://www.colclocks.com</a>. You will never see the same picture on your desktop! :)
+</tr>
+<tr>
+<td><a href="http://www.wiredplane.com/wirenote/info.shtml?who=WireKeys"><img src="wn.gif" border=0></a> 
+<td valign="top">WireNote<hr> - Smart and simple data manager (ToDo list, Reminders and sticky notes (note can be attached to any other application`s window for example)) with high-quality LAN messaging support (including send/receive files over the net, message filtering). This program was created to help in organization of daily work with such features as ToDo/Reminders and sticky notes service along with address book and LAN messenger. The kernel of the program is easy-to-use tree-structured data holder. This program can be used instead of standard Windows messaging service or WinPopup.
+</tr>
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

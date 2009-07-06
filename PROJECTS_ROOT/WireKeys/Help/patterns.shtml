@@ -1,0 +1,193 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="??????? ?????? ? WireKeys" -->
+<!--#set var="TOPIC_EN" value="Patterns that can be used with WireKeys" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Patterns</h2><hr>
+<br>For your convenience all application strings such as screenshot signatures
+or file names or parts of the macro script can be formed automatically using patterns.
+Pattern - predefined string beginning with char '%', for example '%CLIP'. Patterns
+will be substituted with the actual value at the run time. Note: Patterns are <b>case sensitive</b>
+<br>Available at this time patterns are:<br>
+<br>1. Common patterns (available everywhere):<br>
+- '%DATE': Current date<br>
+- '%TIME': Current time<br>
+- '%YEAR': Current year<br>
+- '%MONTH': Current month<br>
+- '%DAY': Current day<br>
+- '%HOUR': Current hour<br>
+- '%MINUTE': Current minute<br>
+- '%SECOND': Current second<br>
+- '%CLIP': text from clipboard<br>
+All environment strings in the form '%VariableName%' supported too.
+For example, you can use '%USERNAME%' to insert active user name<br>
+<br>1.1. Common input patterns:<br>
+- '%ASKFILE': Ask user for file (shows "Open file" dialog)<br>
+- '%ASKFOLDER': Ask user for folder (shows "Browse for folder" dialog)<br>
+<br>1.2. Common patterns that can be used for run-time detection of the foreground application:<br>
+- '%ACTIVEAPP': Name of the active application<br>
+- '%ACTIVEWND': Title of the active window<br>
+- '%ACTIVEEXE': Full path to the active application<br>
+- '%ISRUN:xxx': '1' if application 'xxx' is currently active (even as background process) or '0' if no active application with process name like 'xxx' found<br>
+<br>2. Specific to screenshot signature and screenshot file name<br>
+- '%TITLE': Title of the active application<br>
+- '%COUNT': Sequential screenshot number since WireKeys start time<br>
+<br>3. Specific to Quick run/Macro parameter and macro script file content:<br>
+- '%SELECTED': Currently selected line of text (or first line of multiline text)<br>
+- '%ESCAPED': Currently selected multiline text, escaped with %-coding (for JScript macros) in the '%uXXXX' from<br>
+- '%URL_SELECTED': Currently selected multiline text, escaped with %-coding (for JScript macros)  in the '%XX' from<br>
+- '%PARAMETER': Parameter of the currently working macro, escaped with %-coding (always escaped)<br>
+- '%COOKIE:...%': Cookie value, previously defined by any script<br>
+If you have select file or folder in any file explorer, %SELECTED/%ESCAPED will contain full path to that file. In this case you can use
+two additional patterns:
+<br>
+- '%SELECTED_FOLDER': Folder of the selected file<br>
+- '%SELECTED_FILE': File name with extension of the selected file<br>
+<br><br>
+Most patterns can be inserted in escaped form (characters are replaced with hex codes prefaced with '%' symbol).
+To insert pattern in escaped form just prepend its name with "E_", for example '%ACTIVEAPP'->'%E_ACTIVEAPP'.<br>
+This is useful for giving text parameter to web resource through URL, for example.
+Patterns that can be used in escaped form: '%E_SELECTED','%E_CLIP','%E_ASKFILE','%E_ASKFOLDER','%E_ACTIVEAPP',
+'%E_ACTIVEWND','%E_ACTIVEEXE'
+<hr>
+Time format characters
+<TABLE border=1>
+
+<TR VALIGN="top">
+<Td align=left width=13%>Picture</Td>
+<Td align=left width=87%>Meaning</Td>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>h</TD>
+<TD width=87%>Hours with no leading zero for single-digit hours; 12-hour clock.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>hh</TD>
+<TD width=87%>Hours with leading zero for single-digit hours; 12-hour clock.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>H</TD>
+<TD width=87%>Hours with no leading zero for single-digit hours; 24-hour clock.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>HH</TD>
+<TD width=87%>Hours with leading zero for single-digit hours; 24-hour clock.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>m</TD>
+<TD width=87%>Minutes with no leading zero for single-digit minutes.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>mm</TD>
+<TD width=87%>Minutes with leading zero for single-digit minutes.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>s</TD>
+<TD width=87%>Seconds with no leading zero for single-digit seconds.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>ss</TD>
+<TD width=87%>Seconds with leading zero for single-digit seconds.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>t</TD>
+<TD width=87%>One character time-marker string, such as A or P.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=13%>tt</TD>
+<TD width=87%>Multicharacter time-marker string, such as AM or PM.</TD>
+</TR>
+</TABLE><br>
+Date format characters
+<TABLE border=1>
+
+<TR VALIGN="top">
+<Td align=left width=13%>Picture</Td>
+<Td align=left width=87%>Meaning</Td>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>d</TD>
+<TD width=84%>Day of month as digits with no leading zero for single-digit days.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>dd</TD>
+<TD width=84%>Day of month as digits with leading zero for single-digit days.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>ddd</TD>
+<TD width=84%>Day of week as a three-letter abbreviation.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>dddd</TD>
+<TD width=84%>Day of week as its full name.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>M</TD>
+<TD width=84%>Month as digits with no leading zero for single-digit months.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>MM</TD>
+<TD width=84%>Month as digits with leading zero for single-digit months.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>MMM</TD>
+<TD width=84%>Month as a three-letter abbreviation.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>MMMM</TD>
+<TD width=84%>Month as its full name.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>y</TD>
+<TD width=84%>Year as last two digits, but with no leading zero for years less than 10.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>yy</TD>
+<TD width=84%>Year as last two digits, but with leading zero for years less than 10.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>yyyy</TD>
+<TD width=84%>Year represented by full four digits.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=16%>gg</TD>
+<TD width=84%>Period/era string.</TD>
+</TR>
+</TABLE>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->
+

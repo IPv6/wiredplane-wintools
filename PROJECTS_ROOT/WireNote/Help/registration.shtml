@@ -1,0 +1,27 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Please donate!</h1><hr>
+<center>
+After a long period i decided to put WireKeys (and some other programs i created) into Open Source, under GPL license. This programs (with full source code) can be found at code.google.com and can be used without any limitations. 
+Non-GPL usage (if anyone interested) can discussed by email with me, Razinkov Ilja
+<hr>
+Donations will be used for futher improvement of this software. 
+Donation can be made <a href="http://www.wiredplane.com/cgi-bin/wp_engine.php?who=WireNote&target=donation">here</a><hr>
+You can also check our shareware tools <a href="otherprods.shtml">here</a><br>
+<a href="mailto:banking@wiredplane.com">E-mail: banking@wiredplane.com</br>
+</center>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

@@ -1,0 +1,70 @@
+Windows Logo Keyboard Shortcuts
+-------------------------------
+Windows Logo                 Display or hide the Start menu
+Windows Logo+BREAK           Display the System Properties dialog box
+Windows Logo+D               Display the desktop
+Windows Logo+M               Minimize all of the windows
+Windows Logo+E               Open My Computer
+Windows Logo+F               Search for a file or a folder
+CTRL+Windows Logo+F          Search for computers
+Windows Logo+F1              Display Windows Help
+Windows Logo+L               Lock the keyboard
+Windows Logo+R               Open the Run dialog box
+Windows Logo+U               Open Utility Manager
+
+Windows Explorer Keyboard Shortcuts
+-----------------------------------
+END                          Display the bottom of the active window
+HOME                         Display the top of the active window
+NUM LOCK+Asterisk            Display all of the subfolders that are under the selected folder
+NUM LOCK+Plus sign           Display the contents of the selected folder
+NUM LOCK+Minus sign          Collapse the selected folder
+LEFT ARROW                   Collapse the current selection if it is expanded, or select the parent folder
+RIGHT ARROW                  Display the current selection if it is collapsed, or select the first subfolder
+
+Microsoft Internet Explorer Navigation
+--------------------------------------
+CTRL+B                       Open the Organize Favorites dialog box
+CTRL+E                       Open the Search bar
+CTRL+F                       Start the Find utility
+CTRL+H                       Open the History bar
+CTRL+I                       Open the Favorites bar
+CTRL+L                       Open the Open dialog box
+CTRL+N                       Start another instance of the browser with the same Web address
+CTRL+O                       Open the Open dialog box, the same as CTRL+L
+CTRL+P                       Open the Print dialog box
+CTRL+R                       Update the current Web page
+CTRL+W                       Close the current window
+
+General Keyboard Shortcuts
+--------------------------
+CTRL+C                       Copy
+CTRL+X                       Cut
+CTRL+V                       Paste
+CTRL+Z                       Undo
+DELETE                       Delete
+SHIFT+DELETE                 Delete the selected item permanently without placing the item in the Recycle Bin
+CTRL+RIGHT ARROW             Move the insertion point to the beginning of the next word
+CTRL+LEFT ARROW              Move the insertion point to the beginning of the previous word
+CTRL+DOWN ARROW              Move the insertion point to the beginning of the next paragraph
+CTRL+UP ARROW                Move the insertion point to the beginning of the previous paragraph
+CTRL+A                       Select all
+ALT+ENTER                    View the properties for the selected item
+ALT+F4                       Close the active item, or quit the active program
+ALT+ENTER                    Display the properties of the selected object
+ALT+SPACEBAR                 Open the shortcut menu for the active window
+CTRL+F4                      Close the active document in programs that enable you to have multiple documents open simultaneously
+ALT+TAB                      Switch between the open items
+ALT+ESC                      Cycle through items in the order that they had been opened
+SHIFT+F10                    Display the shortcut menu for the selected item
+ALT+SPACEBAR                 Display the System menu for the active window
+CTRL+ESC                     Display the Start menu
+BACKSPACE                    View the folder one level up in My Computer or Windows Explorer
+ESC                          Cancel the current task
+SHIFT                        Prevent the CD-ROM from automatically playing, when you insert a CD-ROM into the CD-ROM drive
+F2 key                       Rename the selected item
+F3 key                       Search for a file or a folder
+F4 key                       Display the Address bar list in My Computer or Windows Explorer
+F5 key                       Update the active window
+F6 key                       Cycle through the screen elements in a window or on the desktop
+F10 key                      Activate the menu bar in the active program

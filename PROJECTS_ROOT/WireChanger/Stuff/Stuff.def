@@ -1,0 +1,7 @@
+; Stuff.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Stuff"
+DESCRIPTION  'WireChanger Desktop Notes plugin'
+
+EXPORTS
+GetUserInfo

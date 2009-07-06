@@ -1,0 +1,15 @@
+RightClickPasteEnhancer=Мастер вставки
+Dscplg_wp_rclickcp=Этот плагин добавляет историю буфера обмена ко всем меню с пунктом "Вставить"
+Popt_tweakMenu_eyhllikrnc=Обрабатывать меню со следующими элементами
+Paste=Paste;Вставить;Приклеить
+Popt_howManyH_usfvisarqn=Сколько пунктов истории добавлять к меню
+Popt_delimitIt_xoxuohipxf=Разделяйте пункты символом ';', например 'Paste;Copy;Ctrl-V'. Вы также можете вписать в этот список идентификаторы элементов
+Clipboard=Буфер обмена
+Popt_applicatio_crofgiyeke=Приложения, которые нужно обрабатывать альтернативным способом
+Popt_someAppli_scncpfdxbq=Меню некоторых приложений нужно обрабатывать альтернативным способом. Если у Вас появляются проблемы с пунктом вставки в некоторых меню, перечислите здесь через ";" названия таких приложений
+ClipboardHistory=История
+Popt_replacePa_bnbdffdubk=Заменять пункт меню "Вставка" (вместо добавления дополнительного подменю)
+Nameplg_wp_rclickcp=Мастер вставки
+Popt_replacePa_mkxjvydisd=Replace Paste item instead of adding submenu
+Popt_tweakAll_seiakmbaed=Добавлять историю вообще во все меню
+Popt_tweakAll_ahwonrkwoi=Добавлять историю во все открываемые меню, независимо от наличия пункта "Вставки"

@@ -1,0 +1,18 @@
+; WP_AverTVRem.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_AverTVRem"
+DESCRIPTION  'WireKeys AverTV Remote plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+RenderScript
+;WKPluginOptions

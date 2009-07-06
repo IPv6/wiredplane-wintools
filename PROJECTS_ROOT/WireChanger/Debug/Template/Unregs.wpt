@@ -1,0 +1,120 @@
+{wp:head}
+category    		{Hidden} clonable{false}
+title       		{Unregistered notice}
+description 		{Adds special notice for unregistered users}
+render      		{EasyDraw.dll}
+hints       		{ONLINE-STATE=(DONTCARE),RENDER-LAYER=(FG)}
+tray-transparency	{DATA_OPACITY}
+hash				{2F70E23CD1385959E49A3277456672CA}
+tray-position		{OC:(1),X:(DATA_XPOS),Y:(DATA_YPOS),W:(DATA_WIDTH),H:(DATA_HEIGHT)}
+
+{wp:define} [PARAM_ROOT]
+	title	{Controls options}
+	type	{root}
+{/wp:define}
+
+{wp:define} [ENABLE_BORDER]{0}
+	title	{Show border}
+	type	{bool}
+{/wp:define}
+
+{wp:define} [SIMAGEFG]{#FFFFFF}
+	title	{Border color}
+	type	{color}
+{/wp:define}
+
+{wp:define} [DATA_SPOS]{0}
+	title	{Set position}
+	type	{set_position} action{OC:(1),X:(DATA_XPOS),Y:(DATA_YPOS),W:(DATA_WIDTH),H:(DATA_HEIGHT)}
+{/wp:define}
+
+{wp:define} [DATA_XPOS]{{wp:expr({screenX}/2-100)}}
+	title	{X Position (pixels)}
+	type	{number} min{0} max{{screenX}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{wp:define} [DATA_YPOS]{100}
+	title	{Y Position (pixels)}
+	type	{number} min{0} max{{screenY}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{wp:define} [DATA_WIDTH]{200}
+	title	{Width (pixels)}
+	type	{number} min{20} max{{screenX}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{wp:define} [DATA_HEIGHT]{40}
+	title	{Height (pixels)}
+	type	{number} min{20} max{{screenY}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{/wp:head}
+
+{wp:body}<styled-rect>
+X:({DATA_XPOS})
+Y:({DATA_YPOS})
+W:({DATA_WIDTH})
+H:({DATA_HEIGHT})
+HINTS:(BG-NORECT,FULL-HEIGHT-BG,WORD-WRAP)
+BG-IMAGE:($=<BASEPATH>/images/unreg.gif)
+IMAGE-BORDERS:(0)
+OPACITY:(80)
+HALIGN:(CENTER)
+SHADOW:(1,S)
+TEXT-COLOR:(#FFFFFF)
+TEXT-X-OFFSET:(5)
+TEXT-Y-FLOATOFFSET:(2)
+FONT:([fontname]Arial[/fontname][size value="-13"/][weight value="800"/])
+<TEXT>{wp:translate(comm,Unregistered)}</TEXT>
+INTERACTIVITY:(1)
+<INTERACTIVITY_ACTION>
+HINTS:(WP:ORDER-URL)
+<TOOLTIP>{wp:translate(comm,Unregistered)}</TOOLTIP>
+</INTERACTIVITY_ACTION>
+</styled-rect>
+
+<styled-rect>
+X:({DATA_XPOS})
+Y:({wp:expr({DATA_YPOS}+{DATA_HEIGHT}+2)})
+W:({wp:expr({DATA_WIDTH}/2)})
+H:(20)
+HINTS:(BG-NORECT,WORD-WRAP,FITW-TO-TEXT,STRETCH-BGPART)
+BG-IMAGE:($=<BASEPATH>/images/unreg1.gif)
+IMAGE-BORDERS:(0)
+OPACITY:(60)
+HALIGN:(CENTER)
+SHADOW:(1,S)
+TEXT-COLOR:(#FFFFFF)
+FONT:([fontname]Arial[/fontname][size value="-13"/][weight value="400"/])
+<TEXT>{wp:translate(comm,FreeWeek)}</TEXT>
+INTERACTIVITY:(1)
+<INTERACTIVITY_ACTION>
+HINTS:(WP:EXCHANGE-URL)
+<TOOLTIP>{wp:translate(comm,FreeWeek)}; {wp:translate(comm,UploadImage)}</TOOLTIP>
+</INTERACTIVITY_ACTION>
+</styled-rect>
+
+<styled-rect>
+X:({wp:expr({DATA_XPOS}+{DATA_WIDTH}/2)})
+Y:({wp:expr({DATA_YPOS}+{DATA_HEIGHT}+2)})
+W:({wp:expr({DATA_WIDTH}/2)})
+H:(20)
+HINTS:(BG-NORECT,WORD-WRAP,FITW-TO-TEXT,STRETCH-BGPART)
+BG-IMAGE:($=<BASEPATH>/images/unreg1.gif)
+IMAGE-BORDERS:(0)
+OPACITY:(60)
+HALIGN:(CENTER)
+SHADOW:(1,S)
+TEXT-COLOR:(#FFFFFF)
+FONT:([fontname]Arial[/fontname][size value="-13"/][weight value="400"/])
+<TEXT>{wp:translate(comm,Unlim20)}</TEXT>
+INTERACTIVITY:(1)
+<INTERACTIVITY_ACTION>
+HINTS:(WP:ORDER-URL)
+<TOOLTIP>{wp:translate(comm,Unlim20)}</TOOLTIP>
+</INTERACTIVITY_ACTION>
+</styled-rect>{/wp:body}

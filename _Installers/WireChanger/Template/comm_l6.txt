@@ -1,0 +1,74 @@
+; Translated by/Traduit par: Romuald Giovani for v3.3.1 of WireChanger
+; Updated: 20051020
+
+;Page encoding
+CODEPAGE=charset=Windows-1252
+
+;'Today' string
+YouAreHere=Aujourd'hui
+
+;Month names
+January=Janvier
+February=Février
+March=Mars
+April=Avril
+May=Mai
+June=Juin
+July=Juillet
+August=Août
+September=Septembre
+October=Octobre
+November=Novembre
+December=Décembre
+
+;Days of the week names
+Monday=Lundi
+Tuesday=Mardi
+Wednesday=Mercredi
+Thursday=Jeudi
+Friday=Vendredi
+Saturday=Samedi
+Sunday=Dimanche
+
+;Days of the week short names
+Mon=Lun
+Tue=Mar
+Wed=Mer
+Thu=Jeu
+Fri=Ven
+Sat=Sam
+Sun=Dim
+
+;Commonly used strings
+NoImage=Aucune image
+NoConnection=Aucun connexion
+WebCamera=Capture Web
+WeatherReport=Prévision météo
+TODO=A FAIRE
+Click_here_Weather=Cliquez ici pour aller sur le site Web météo
+Click_here_Site=Cliquez ici pour aller sur le site Web
+Remains=Rappels
+Search=Rechercher
+Translate=Traduire
+Refresh=Actualiser
+Loading=Chargement
+Click_for4Months=Cliquez pour voir un calendrier de 4 mois
+Anecdote=Anecdote
+ShowNews=Afficher les newss
+Minimize=Réduire
+PrefsNotDefined=Définissez les préférences du module svp!
+BuyNow=Acheter maintenant!
+
+SetNextWallpaper=Papier peint suivant
+SetPrevWallpaper=Papier peint précédent
+SetRandWallpaper=Papier peint aléatoire
+SetAsWallpaper=Régler comme papier peint
+SwitchOnOff=Arrêter/Démarrer le changement automatique
+Unregistered=Double-cliquez ici pour vous enregistrer.<brr>Clé livrée instantanément!
+Unlim20=Illimité ($29)
+FreeWeek=1 semaine (Gratuit)
+WebSiteNotFound=Echec au chargement de l'information - site web non accessible
+
+CTD_Days_today=Aujourd'hui!
+CTD_Days_ago=%s Jours(s) passé(s)
+CTD_Days_left=%s Jour(s) restant(s)

@@ -1,0 +1,65 @@
+HKCR
+{
+	WKShellExt.WKShellExtender.1 = s 'WKShellExtender Class'
+	{
+		CLSID = s '{AC95BA2C-8211-45D4-AB5C-C2A9BCCC8FB6}'
+	}
+
+	WKShellExt.WKShellExtender = s 'WKShellExtender Class'
+	{
+		CLSID = s '{AC95BA2C-8211-45D4-AB5C-C2A9BCCC8FB6}'
+		CurVer = s 'WKShellExt.WKShellExtender.1'
+	}
+
+	NoRemove CLSID
+	{
+		ForceRemove {AC95BA2C-8211-45D4-AB5C-C2A9BCCC8FB6} = s 'WKShellExtender Class'
+		{
+			ProgID = s 'WKShellExt.WKShellExtender.1'
+			VersionIndependentProgID = s 'WKShellExt.WKShellExtender'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{AC95BA2C-8211-45D4-AB5C-C2A9BCCC8FB6}'
+		}
+	}
+	
+    NoRemove *
+    {
+        NoRemove ShellEx
+        {
+            NoRemove ContextMenuHandlers
+            {
+                WKShellExtender = s '{AC95BA2C-8211-45D4-AB5C-C2A9BCCC8FB6}'
+            }
+        }
+    }
+    
+	NoRemove Folder
+	{
+		NoRemove ShellEx
+		{
+			NoRemove ContextMenuHandlers
+			{
+				ForceRemove WKShellExtender = s '{AC95BA2C-8211-45D4-AB5C-C2A9BCCC8FB6}'
+			}
+		}
+	}
+
+
+    NoRemove Directory
+    {
+        NoRemove Background
+        {
+            NoRemove ShellEx
+            {
+                NoRemove ContextMenuHandlers
+                {
+                    ForceRemove WKShellExtender = s '{AC95BA2C-8211-45D4-AB5C-C2A9BCCC8FB6}'
+                }
+            }
+        }
+    }
+}

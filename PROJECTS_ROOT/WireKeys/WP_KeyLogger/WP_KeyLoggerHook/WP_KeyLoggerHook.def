@@ -1,0 +1,9 @@
+LIBRARY      "WKATextH"
+DESCRIPTION  'AutoText plugin'
+
+EXPORTS
+
+GetMsgProc
+SetHook
+SetHookInfoObject
+TweakTriggers

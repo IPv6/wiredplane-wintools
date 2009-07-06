@@ -1,0 +1,64 @@
+; translated English version 3.6.4 to German
+; Andreas "Richy" Weidner
+; 29.11.2007
+; ------------------------------------
+
+ExtendedHotkeyProcessing=Erweiterte Hotkey-Verarbeitung
+HotkeysOptions=Hotkey-Optionen
+ShowHotkeysGuide=Hotkey-Übersicht
+TemporarilyBlockKeyboard=Zeitweilig Tastatur blocken
+UsefulForUsingInSeq_OGFFUYXNCT=Hilfreich für die Verwendung in 'Sequenz'-Hotkeys. Einfach jeden Sequenz-Hotkey von diesem aus starten, um die aktive Anwendung an der Hotkey-Verarbeitung zu hindern
+PauseKeyboardButNotHotkeys=Stoppe Tastatur (aber nicht die Hotkeys)
+Popt_temporaril_mfgymruell=Zeitweilig Tastatur blocken
+Popt_pauseKeyb_jfdrkvcvrf=Tastatur-Stopp: Ent-Stoppe Tastatur, wenn Hotkey betätigt wurde
+Popt_pauseKeyb_nfnjdxfuvf=Tastatur-Stopp: Hinzufügen Stopp-Taste zu allen neuen Sequenz Hotkeys
+Popt_pauseKeyb_thnqqafyny=Tastatur-Stopp: Beginne Hotkey mit 'Stopp'-Taste, damit der automatisch zum 'Sequenz'-Hotkey wird
+Popt_hideMouse_coxctlqapd=Verstecke Mauszeiger während des Tippens
+Popt_distinguis_ubktvvoaft=Unterscheide zwischen linken und rechten Tasten
+Popt_thisOptio_xsmiuksopt=Diese Option ermöglicht es, in Hotkeys die linken und rechten Umschalt/Strg/Alt/Win-Tasten zu verwenden
+Popt_blockKeyp_umsbirnvmv=Blockiere Tastendrücke bei 'Apps'-Taste
+Popt_checkThis_dtbfksgtjd=Diese Option anhaken, wenn Sie die 'Apps'-Taste allein verwenden wollen. Das kann die Verwendung der 'Apps'-Taste für Wired-Tastenkombinationen komfortabler gestalten
+Popt_autoRepea_lmfdpohsxy=Automik-Wiederholung des Hotkeys, wenn ein Weilchen gedrückt
+Popt_thisIsVe_kjmcaipqjo=Dies ist sehr ähnlich zum Windows-'Auto-Repeat'-Verhalten, aber für Hotkeys, nicht für einzelne Tasten
+DoNotBlockWinKey='Win'-Taste nicht blocken
+BlockOnlyRightWinKey=Nur rechte 'Win'-Taste blocken
+BlockOnlyLeftWinKey=Nur linke 'Win'-Taste blocken
+BlockWinKey='Win'-Taste blocken
+AfterHotkeyOnly=Nur nach Hotkey
+Popt_blockKeyp_ujlyhknph=Blockiere Tastendrücke auf 'Win'-Taste
+Popt_checkThis_lvbrjxhcvo=Diese Option nur anhaken, wenn die 'Win'-Taste allein verwenden werden soll. Das kann die Verwendung der 'Win'-Taste für Wired-Tastenkombinationen komfortabler gestalten
+Popt_blockOnly_hfoycfposr=Nur blocken, wenn eine der Anwendungen vorhanden ist
+Popt_useAs_ffhkjlpgnp=Verwende '*' als Wildcard für Teilentsprechungen, ';' gilt als Begrenzer. Leer lassen, um die Anwendungsprüfung auszuschalten
+BlockKeypressesOnCa_GMKEXEULIJ=Blockiere Tastendrücke auf 'Caps Lock', ändere 'Caps'-State durch 'Umschalt-Caps Lock'-Taste
+DropCapsLockStateWh_PRBDAXDFEO=Nimm 'Caps Lock' zurück, wenn die 'Umschalt'-Taste gedrückt wird
+DoNotAffectCapsLock=Keine Einwirkung auf 'Caps Lock'
+Popt_doSpecial_qdcljdpmst=Spezialbehandlung für 'Caps Lock'-Taste vornehmen
+Popt_hereYouC_fbhyllgral=Hier können Sie es erlauben, dass die 'Umschalt'-Taste den 'Caps Lock'-Status beendet oder den 'Caps Lock' komplett deaktivieren (Empfohlen. Mit blockiertem 'Caps Lock'-Verhalten kann man 'Caps Lock' in Hotkeys verwenden. Für diesem Fall kann der 'Caps Lock'-Status durch Drücken von 'Umschalt-Caps Lock') aktiviert werden
+Popt_showSpeci_kgjeehvjhi=Zeige Spezial-Tray-Icon, wenn CapsLock AN ist
+Popt_showSpeci_datrghttvo=Zeige Spezial-Tray-Icon, wenn NumLock AN ist
+Popt_showSpeci_acgtglnlge=Zeige Spezial-Tray-Icon, wenn ScrollLock AN ist
+Popt_hotkeyGui_pcxahvfqas=Hotkey-Übersicht - Fenstertransparenz (Prozent)
+Popt_timeoutFo_fvxtkvqryk=Timeout für 'Drücken und Halten'-Modifizierer
+Popt_howLongY_rkqckvdltd=Wie lang muss der Hotkey gehalten werden, bevor der 'Drücken und Halten'-Modifizierer zum Hotkey hinzugefügt wird (in Sekunden. Auf '0' setzen, um dieses Verhalten abzuschalten)
+Popt_extendedO_evghyjbahl=Erweiterte Optionen
+Popt_treatMous_wwkixihecb=Behandle Maus-Buttons als reguläre Tasten
+Popt_thisOptio_edbrpggjsx=Diese Option ermöglicht es, Maus-Buttons in Hotkeys zu nutzen
+Popt_treatMoni_jfltkdkfwt=Behandle die Bildschirm-Ecken als reguläre Tasten
+Popt_thisOptio_wmlumlwfvd=Diese Option ermöglicht es, die Bildschirm-Ecken in Hotkeys zu nutzen, z.B. kann der Bildschirmschoner aktiviert werden, wenn die Maus in die rechte obere Ecke bewegt wird
+Popt_showKeybo_lddjmsneio=Zeige Tastatur-Scancodes im OSD, wenn Hotkey gewählt werden
+TemporarilyBlockHotkeys=Zeitweilig Hotkeys blockieren
+HotkeyGuide=Hotkey-Übersicht
+PossibleHotkeys=Mögliche Hotkeys
+Popt_blockOnly_irelkjpoel=Nur blockieren, wenn eine dieser Anwendungen aktiv ist
+ScanCode=Scancode
+Popt_extendedO_aaghyjbahl=Erweiterte Optionen
+Nameplg_wp_keymaster=Wired-Tastenkombinationen
+Popt_keyboardP_lejaqbeogv=Tastatur-Stopp- und 'Sequenz'-Hotkeys
+Popt_allowMous_vfabhqrlhy=Erlaube Maus-Buttons in Hotkey-Tastenkombinationen
+Popt_allowMoni_pwpyuhxtqw=Erlaube Bildschirmecken in Hotkey-Tastenkombinationen
+Popt_temporaril_hovrnvueiv=Zeitweilig Hotkeys blockieren
+Popt_showKeybo_kobncmoffd=Zeige Tastatur/HID Spy-Fenster
+KeyboardHidSpyWindow=Tastatur/HID Spy-Fenster
+HidDevicesSpyWindow=HID Spy-Fenster
+Clear=Löschen
+KeyboardHidSpy=Tastatur/HID Spy

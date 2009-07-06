@@ -1,0 +1,500 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "WKUtils"=.\WKUtils\WKUtils.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WKUtils2"=.\WKUtils2\WKUtils2.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_AltTabR"=.\WP_AltTabR\WP_AltTabR.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_AverTVRem"=.\WP_WinLIRC\WP_AverTVRem.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_CCbyESC"=.\WP_CCbyESC\WP_CCbyESC.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_Enabler"=.\WP_Enabler\WP_Enabler.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_IconsFont"=.\WP_IconsFont\WP_IconsFont.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_InstaScroll"=.\WP_InstaScroll\WP_InstaScroll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_InstaScrollHook"=.\WP_InstaScroll\WP_InstaScrollHook\WP_InstaScrollHook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_KeyLogger"=.\WP_KeyLogger\WP_KeyLogger.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name WP_KeyLoggerHook
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "WP_KeyLoggerHook"=.\WP_KeyLogger\WP_KeyLoggerHook\WP_KeyLoggerHook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_KeyMaster"=.\WP_KeyMaster\WP_KeyMaster.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name WP_KeyMasterHook
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "WP_KeyMasterHook"=.\WP_KeyMaster\WP_KeyMasterHook\WP_KeyMasterHook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_MGestures"=.\WP_MGestures\WP_MGestures.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_MacroRec"=.\WP_MacroRec\WP_MacroRec.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_MegaMouse"=.\WP_MegaMouse\WP_MegaMouse.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_NotesMdl"=.\WP_Notes\WP_NotesMdl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_OpenWithExt"=.\WP_OpenWithExt\OpenWithExt.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_RClickcp"=.\WP_RClickCP\WP_RClickcp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_Schedule"=.\WP_Schedule\WP_Schedule.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_SizeWnd"=.\WP_SizeWnd\WP_SizeWnd.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_SoundCtrl"=.\WP_SoundCtrl\WP_SoundCtrl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_SpellCheck"=.\WP_SpellCheck\WP_SpellCheck.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_TextScr"=.\WP_TextScr\WP_TextScr.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_TimeSync"=.\WP_TimeSync\WP_TimeSync.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_TypeStats"=.\WP_TypeStats\WP_TypeStats.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_UselessStart"=.\WP_UselessStart\WP_UselessStart.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_WTraits"=.\WP_WTraits\WP_WTraits.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_WinPuncher"=.\WP_WinPuncher\WP_WinPuncher.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_asLINUX"=.\WP_asLINUX\WP_asLINUX.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WP_asLINUXHook"=.\WP_asLINUX\WP_asLINUXHook\WP_asLINUXHook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WireKeys"=.\WireKeys.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name WKUtils
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_WTraits
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_AltTabR
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_MacroRec
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_KeyMaster
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_KeyMasterHook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_InstaScroll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_UselessStart
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_OpenWithExt
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_KeyLogger
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_asLINUX
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_asLINUXHook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_TimeSync
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_SpellCheck
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_CCbyESC
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_RClickcp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_MGestures
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_Schedule
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_MegaMouse
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_Enabler
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_IconsFont
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_InstaScrollHook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_KeyLoggerHook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_SizeWnd
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_SoundCtrl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_TextScr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_WinPuncher
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_TypeStats
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_AverTVRem
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WKUtils2
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WP_NotesMdl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

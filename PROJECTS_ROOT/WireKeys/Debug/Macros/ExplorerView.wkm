@@ -1,0 +1,27 @@
+// Language: WP_MacroRec.wkp
+// Title: Control Explorer`s view type
+// Description: Control Explorer`s view via hotkeys
+// ParamType: none
+// Hint: No_sound, No_icon, OSD
+
+
+<wkMain>// wkMain description: Large icons
+Command("cmd::msg=[0x0111] h=[0x702E] l=[0] childTargetByClass=[SHELLDLL_DefView]");
+</wkMain>
+
+<wkMain2>// wkMain2 description: Small icons
+Command("cmd::msg=[0x0111] h=[0x7029] l=[0] childTargetByClass=[SHELLDLL_DefView]");
+</wkMain2>
+
+<wkMain3>// wkMain3 description: List
+Command("cmd::msg=[0x0111] h=[0x702b] l=[0] childTargetByClass=[SHELLDLL_DefView]");
+</wkMain3>
+
+<wkMain4>// wkMain4 description: Details
+Command("cmd::msg=[0x0111] h=[0x702c] l=[0] childTargetByClass=[SHELLDLL_DefView]");
+</wkMain4>
+
+<wkMain5>// wkMain5 description: Thumbnails
+Command("cmd::msg=[0x0111] h=[0x702D] l=[0] childTargetByClass=[SHELLDLL_DefView]");
+</wkMain5>
+

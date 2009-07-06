@@ -1,0 +1,73 @@
+$=<TITLE:Countdown>$=<SHOWINTRAY:CITAT_ROOT>$=<CATEG:Clocks>
+$=<DESCRIPTION:
+Displays how many days left to the date you specifiy
+>
+tray-transparency{TEXT_OPACITY}
+tray-position{OC:(1),X:(TEXT_XPOS),Y:(TEXT_YPOS),W:(TEXT_WIDTH),H:(TEXT_HEIGHT)}
+$=<RENDER:EasyDraw.dll>$=<HINTS:RENDER-LAYER=(FG),ONLINE-STATE=(DONTCARE)>
+$=<PARDEF:CITAT_ROOT>$=<PARDSC:CITAT_ROOT=Countdown options>$=<PARTYP:CITAT_ROOT=root>
+
+$=<PARDEF:TEXT_PREF=Days till New Year>$=<PARDSC:TEXT_PREF=Event description>$=<PARTYP:TEXT_PREF=string>$=<PARPAR:TEXT_PREF=CITAT_ROOT>
+$=<PARDEF:TEXT_TEMPL=>$=<PARDSC:TEXT_TEMPL=Text template>$=<PARDET:TEXT_TEMPL=Use '???' in place of the number. Example: '??? Days remains'>$=<PARTYP:TEXT_TEMPL=string>$=<PARPAR:TEXT_TEMPL=TEXT_PREF>
+
+$=<PARDEF:TEXT_PFS=[fontname]Arial[/fontname][size value="-13"/][weight value="400"/]>$=<PARDSC:TEXT_PFS=Font>$=<PARPAR:TEXT_PFS=CITAT_ROOT>$=<PARTYP:TEXT_PFS=font>
+$=<PARDEF:TEXT_DATE=01.01.2006 00:00:00>$=<PARDSC:TEXT_DATE=Date>$=<PARTYP:TEXT_DATE=date>$=<PARPAR:TEXT_DATE=CITAT_ROOT>
+$=<PARDEF:TEXT_FS=[fontname]Arial[/fontname][size value="-29"/][weight value="700"/]>$=<PARDSC:TEXT_FS=Font>$=<PARPAR:TEXT_FS=CITAT_ROOT>$=<PARTYP:TEXT_FS=font>
+$=<PARDEF:TEXT_FG=#808080>$=<PARDSC:TEXT_FG=Text color>$=<PARPAR:TEXT_FG=CITAT_ROOT>$=<PARTYP:TEXT_FG=color>
+$=<PARDEF:TEXT_BG=#FFFF00>$=<PARDSC:TEXT_BG=Background color>$=<PARPAR:TEXT_BG=CITAT_ROOT>$=<PARTYP:TEXT_BG=color>
+$=<PARDEF:TEXT_TBG=#FFFF00>$=<PARDSC:TEXT_TBG=Title background color>$=<PARPAR:TEXT_TBG=CITAT_ROOT>$=<PARTYP:TEXT_TBG=color>
+$=<PARDEF:TEXT_OPACITY=40>$=<PARDSC:TEXT_OPACITY=Background opacity (percents)>$=<PARPAR:TEXT_OPACITY=CITAT_ROOT>$=<PARTYP:TEXT_OPACITY=slider>$=<PARMIN:TEXT_OPACITY=0>$=<PARMAX:TEXT_OPACITY=100>
+$=<PARDEF:TEXT_SHADOW=1>$=<PARDSC:TEXT_SHADOW=Show shadow around text>$=<PARPAR:TEXT_SHADOW=CITAT_ROOT>$=<PARTYP:TEXT_SHADOW=bool>
+$=<PARDEF:POS_TIP>$=<PARDSC:POS_TIP=Size and position>$=<PARTYP:POS_TIP=tip>
+$=<PARDEF:TEXT_SPOS>$=<PARDSC:TEXT_SPOS=Set position>$=<PARPAR:TEXT_SPOS=CITAT_ROOT>$=<PARTYP:TEXT_SPOS=set_position>$=<PARACTION:TEXT_SPOS=OC:(1),X:(TEXT_XPOS),Y:(TEXT_YPOS),W:(TEXT_WIDTH),H:(TEXT_HEIGHT)/>
+$=<PARDEF:TEXT_XPOS=190>$=<PARDSC:TEXT_XPOS=X Position (pixels)>$=<PARTYP:TEXT_XPOS=number>$=<PARMIN:TEXT_XPOS=0>$=<PARMAX:TEXT_XPOS={screenX}>$=<PAROC:TEXT_XPOS=1>$=<PARPAR:TEXT_XPOS=TEXT_SPOS>
+$=<PARDEF:TEXT_YPOS=420>$=<PARDSC:TEXT_YPOS=Y Position (pixels)>$=<PARTYP:TEXT_YPOS=number>$=<PARMIN:TEXT_YPOS=0>$=<PARMAX:TEXT_YPOS={screenY}>$=<PAROC:TEXT_YPOS=1>$=<PARPAR:TEXT_YPOS=TEXT_SPOS>
+$=<PARDEF:TEXT_WIDTH=200>$=<PARDSC:TEXT_WIDTH=Width (pixels)>$=<PARTYP:TEXT_WIDTH=number>$=<PARMIN:TEXT_WIDTH=20>$=<PARMAX:TEXT_WIDTH={screenX}>$=<PAROC:TEXT_WIDTH=1>$=<PARPAR:TEXT_WIDTH=TEXT_SPOS>
+$=<PARDEF:TEXT_HEIGHT=60>$=<PARDSC:TEXT_HEIGHT=Height (pixels)>$=<PARTYP:TEXT_HEIGHT=number>$=<PARMIN:TEXT_WIDTH=20>$=<PARMAX:TEXT_HEIGHT={screenY}>$=<PAROC:TEXT_HEIGHT=1>$=<PARPAR:TEXT_HEIGHT=TEXT_SPOS>
+
+$=<HASH:2F03F294798A462158289ED16163C2C6>
+
+{wp:body}<text-in-rect>
+X:($=<PAR:TEXT_XPOS>)
+Y:($=<PAR:TEXT_YPOS>)
+W:($=<PAR:TEXT_WIDTH>)
+H:($=<PAR:TEXT_HEIGHT>)
+<SUBTITLE> $=<PAR:TEXT_PREF></SUBTITLE>
+<SUBTITLE-STYLE>
+HINTS:(BG-NORECT)
+SHADOW:($=<PAR:TEXT_SHADOW>,S,M,B)
+OPACITY:($=<PAR:TEXT_OPACITY>)
+TEXT-COLOR:($=<PAR:TEXT_FG>)
+BG-COLOR:($=<PAR:TEXT_TBG>)
+FONT:($=<PAR:TEXT_PFS>)
+</SUBTITLE-STYLE>
+<TEXT-STYLE>
+HALIGN:(CENTER)
+BG-RECT-OFFSETS:(7)
+BG-IMAGE:($=<BASEPATH>/images/countdown-bg)
+IMAGE-BORDERS:(8)
+SHADOW:($=<PAR:TEXT_SHADOW>,S,M)
+OPACITY:($=<PAR:TEXT_OPACITY>)
+TEXT-COLOR:($=<PAR:TEXT_FG>)
+BG-COLOR:($=<PAR:TEXT_BG>)
+FONT:($=<PAR:TEXT_FS>)
+</TEXT-STYLE>
+{wp:if condition{not.'$=<PAR:TEXT_TEMPL>'.isempty} }
+{wp:then}
+	<text-to-draw>{wp:format($=<PAR:TEXT_TEMPL>,$=<DAYSTO($=<PAR:TEXT_DATE>,abs)>)}</text-to-draw>
+{/wp:then}
+{wp:else}
+	{wp:if condition{$=<DAYSTO($=<PAR:TEXT_DATE>)>=0} }
+	<text-to-draw>{wp:translate(comm,CTD_Days_today,$=<DAYSTO($=<PAR:TEXT_DATE>,abs)>)}</text-to-draw>
+	{/wp:if}
+	{wp:if condition{$=<DAYSTO($=<PAR:TEXT_DATE>)><0} }
+	{wp:then}
+	<text-to-draw>{wp:translate(comm,CTD_Days_ago,$=<DAYSTO($=<PAR:TEXT_DATE>,abs)>)}</text-to-draw>
+	{/wp:then}
+	{wp:else}
+	<text-to-draw>{wp:translate(comm,CTD_Days_left,$=<DAYSTO($=<PAR:TEXT_DATE>,abs)>)}</text-to-draw>
+	{/wp:else}
+	{/wp:if}
+{/wp:else}
+{/wp:if}
+</text-in-rect>{/wp:body}

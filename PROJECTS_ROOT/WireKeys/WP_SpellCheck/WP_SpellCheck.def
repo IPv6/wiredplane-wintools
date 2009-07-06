@@ -1,0 +1,16 @@
+; WP_SpellCheck.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_SpellCheck"
+DESCRIPTION  'WireKeys Spell checker plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginStop
+WKGetPluginContainer
+

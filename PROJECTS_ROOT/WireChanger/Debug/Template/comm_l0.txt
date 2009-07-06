@@ -1,0 +1,98 @@
+;Page encoding
+CODEPAGE=charset=iso-8859-1
+
+;'Today' string
+YouAreHere=Today
+
+;Month names
+January=January
+February=February
+March=March
+April=April
+May=May
+June=June
+July=July
+August=August
+September=September
+October=October
+November=November
+December=December
+
+;Days of the week names
+Monday=Monday
+Tuesday=Tuesday
+Wednesday=Wednesday
+Thursday=Thursday
+Friday=Friday
+Saturday=Saturday
+Sunday=Sunday
+
+;Days of the week short names
+Mon=Mon
+Tue=Tue
+Wed=Wed
+Thu=Thu
+Fri=Fri
+Sat=Sat
+Sun=Sun
+
+;Commonly used strings
+NoImage=No image
+NoConnection=No Connection
+WebCamera=Web camera
+WeatherReport=Weather report
+TODO=TO DO
+Click_here_Weather=Click here to go to the weather Web site
+Click_here_Site=Click here to go to the Web site
+Remains=Remains
+Search=Search
+Translate=Translate
+Refresh=Refresh
+Loading=Loading
+Click_for4Months=Click to popup calendar for 4 months
+Anecdote=Anecdote
+ShowNews=Show News
+Minimize=Minimize
+PrefsNotDefined=Define template preferences please!
+BuyNow=Buy Now!
+
+SetNextWallpaper=Set next wallpaper
+SetPrevWallpaper=Set previous wallpaper
+SetRandWallpaper=Set random wallpaper
+SetAsWallpaper=Set as wallpaper
+SwitchOnOff=Stop/Start automatic change
+Unregistered=- Demo version -<brr>Please register application
+Unlim20=Unlimited<brr>Almost free
+FreeWeek=For 1 week<brr>Free of charge
+UploadImage=Free key will be given in exchange to one of your wallpapers
+
+WPE_Title=Wallpaper exhange service.
+WPE_Instructions=Choose one of your wallpapers using 'Browse' button&lt;br&gt;Type your name and image title and click 'Exchange!' button.
+WPE_InstructionsContest=Choose one of your wallpapers from disk&lt;br&gt;Type your name and image title and click 'Exchange!' button. Your will get your free registration key <font color=red>on the next screen</font>
+WPE_YName=Your&nbsp;name
+WPE_ITitle=Image&nbsp;title
+WPE_Comms=Comments
+WPE_IFile=Image&nbsp;file
+WPE_Note=Note: Image resolution must be 1024*768 pixels or higher; Image size must be less than <b>1000Kb</b>, possible formats are <b>jpg, gif or png</b>.
+WPE_Button=Exchange!
+WPE_RecentImages=Recent uploads of other users.<br>Click on image to open it in 'Full Size' in a new window.
+WPE_OSDesc=Click here to open our wallpaper archive.
+WPE_InProgress=Upload in progress, Please wait
+WPE_EnterName=Please enter your name (at least 4 characters)
+WPE_EnterIPath=Please enter image file path
+WPE_Confirm=Starting upload of your image\nin exchange for another one\nPress OK to continue!
+WPE_UploadStarted=Uploading of your image started. Please wait, this may take several minutes depending on your Internet connection speed
+WPE_NoConnection=Warning: http://www.wiredplane.com/ is inaccesible.\nSome features may not work properly
+WPE_OrBuyNow=... Or order full registration online <a href="http://www.wiredplane.com/cgi-bin/wp_engine.php?target=vendor&who=WireChangerExchange">here</a>. Registration will unlock all features, you will not need to upload new images weekly. You will get your key immediately. Registration procedure is safe and quick. <a href="http://www.wiredplane.com/cgi-bin/wp_engine.php?target=vendor&who=WireChangerExchange">Check for yourself!</a>
+WPE_Feedback=If you wish to suggest a feature or found a bug, feel free to contact us by using <a href="http://www.wiredplane.com/guestbook.shtml">this contact form</a>
+WebSiteNotFound=Failed to load information - web site not accesible
+WPE_WrongImage=Image is too small, choose at least 1024x768
+WPE_SElapsed=Seconds elapsed
+WPE_Curwall=Current wallpaper
+
+CTD_Days_today=Today!
+CTD_Days_ago=%s Day(s) ago
+CTD_Days_left=%s Day(s) left
+
+No_Internet_Found=Internet connection not found
+NumberDay= 

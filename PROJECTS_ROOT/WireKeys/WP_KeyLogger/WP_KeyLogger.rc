@@ -1,0 +1,308 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS DIALOG  0, 0, 202, 136
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTERMOUSE | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Simple key logger - options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,152,120,50,14
+    CTEXT           "Written by Ilja Razinkov @2008",IDC_STATIC9,4,120,144,
+                    14,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "Log all keypresses to file",IDC_ON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,4,88,92,12
+    EDITTEXT        IDC_FILE,100,88,100,12,ES_AUTOHSCROLL
+    CTEXT           "This plugin will log all keyboard input from applications that match your requirements by window`s title or window`s class.",
+                    IDC_STATIC1,4,4,196,24,SS_SUNKEN
+    EDITTEXT        IDC_MAXLOG,172,104,28,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Balance size of the log-file between (KB)",IDC_STATIC5,
+                    4,104,132,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_MINLOG,140,104,28,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_CLASSES,68,48,132,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TITLES,68,32,132,12,ES_AUTOHSCROLL
+    LTEXT           "Window title",IDC_STATIC2,4,32,60,12,SS_CENTERIMAGE
+    LTEXT           "Window class",IDC_STATIC3,4,48,60,12,SS_CENTERIMAGE
+    CTEXT           "You can use '* ' to define any subset of characters.\nUse ';' character to delimit different masks in the line",
+                    IDC_STATIC4,4,64,196,20
+END
+
+IDD_OPTIONS2 DIALOGEX 0, 0, 256, 377
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTERMOUSE | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "Define autotext aliases"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_KEY,8,48,116,12,ES_AUTOHSCROLL,
+                    WS_EX_ACCEPTFILES
+    COMBOBOX        IDC_ITYPE,136,48,112,40,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Add alias",IDADD,180,124,64,12
+    EDITTEXT        IDC_EDIT_VALUE,8,80,240,40,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    LISTBOX         IDC_LIST,8,156,240,120,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP,WS_EX_DLGMODALFRAME
+    GROUPBOX        "3) Choose alias type",IDC_STATIC4,132,36,120,28
+    GROUPBOX        "2) Type alias replacement (or files/commands to launch)",
+                    IDC_STATIC3,4,68,248,72
+    GROUPBOX        "List of active aliases",IDC_STATIC5,4,144,248,156
+    RTEXT           "To remove alias select line and press",IDC_STATIC6,8,
+                    280,196,12,SS_CENTERIMAGE
+    CTEXT           "Ilja Razinkov @2008",IDC_STATIC7,4,360,200,12,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Autotext plugin for WireKeys\nAutotext is the small string that is automatically replaced\nwith corresponding expanded sentence as you type it",
+                    IDC_STATIC1,4,4,248,28,WS_BORDER
+    PUSHBUTTON      "Remove",IDREMOVE,208,280,40,12
+    PUSHBUTTON      "Help",IDFHELP,8,124,52,12
+    DEFPUSHBUTTON   "OK",IDOK,212,360,40,12
+    GROUPBOX        "1) Type short alias",IDC_STATIC2,4,36,124,28
+    CONTROL         "Direct change",IDC_RADIO_DIRECT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,8,312,112,12
+    CONTROL         "Space change",IDC_RADIO_SPACE,"Button",
+                    BS_AUTORADIOBUTTON,120,312,128,12
+    LTEXT           "Change mode",IDC_STATIC_MODE2,8,324,240,28
+    GROUPBOX        "Change method",IDC_STATIC_MODE_DSC,4,304,248,52
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 129
+    END
+
+    IDD_OPTIONS2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 370
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_OPTIONS2 DLGINIT
+BEGIN
+    IDC_ITYPE, 0x403, 1, 0
+"\000" 
+    0
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_JTT DIALOG  0, 0, 212, 108
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Just typed text"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,164,92,46,14
+    EDITTEXT        IDC_EDIT,4,4,204,84,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL
+    LTEXT           "This is the most recently typed text",IDC_STATIC1,4,92,
+                    112,12,SS_CENTERIMAGE
+    DEFPUSHBUTTON   "Clear",ID_CLEAR,120,92,40,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_JTT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 101
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BM_ICON             BITMAP                  "bm_icon.bmp"
+IDB_BM_ICON2            BITMAP                  "bm_icon2.bmp"
+IDB_BM_ICON3            BITMAP                  "bm_icon3.bmp"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "WK Plugin - autotext and key logger"
+            VALUE "CompanyName", "WiredPlane Labs"
+            VALUE "FileDescription", "WK Plugin - autotext and key logger"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "WP_Autotext"
+            VALUE "LegalCopyright", "Copyright (C) 2003"
+            VALUE "LegalTrademarks", "WiredPlane Labs"
+            VALUE "OriginalFilename", "WP_Autotext.DLL"
+            VALUE "ProductName", "WK Plugin - autotext and key logger"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

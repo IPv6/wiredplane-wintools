@@ -1,0 +1,1 @@
+http://vkontakte.ru/photos.php?act=show&id=3065489_113446849&uid=7312929

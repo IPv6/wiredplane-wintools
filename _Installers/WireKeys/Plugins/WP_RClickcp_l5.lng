@@ -1,0 +1,22 @@
+; translated English version 3.6.4 to German
+; Andreas "Richy" Weidner
+; 29.11.2007
+; ------------------------------------
+
+Clipboard=Clipboard
+ClipboardHistory=Clipboard-Verlauf
+Popt_howManyH_usfvisarqn=Verlaufseinträge hinzufügen zu Menüs (Anzahl)
+Paste=Einfügen
+Popt_tweakMenu_eyhllikrnc=Anpassen von Menüs, die die folgenden Einträge enthalten
+Popt_delimitIt_xoxuohipxf=Begrenze die Einträge mit dem ';'-Zeichen; z.B. 'Paste;Copy;Ctrl-V;Strg-V;Einfügen;Kopieren'. Man kann auch die type ID`s dieser Einträge verwenden
+Popt_tweakAll_ldqofvwlug=Anpassen auch aller anderen Menüs
+Popt_tweakAll_recqncckra=Anpassen aller Menüs, die nicht auf normale Art und Weise angepasst werden können
+Popt_applicatio_crofgiyeke=Anwendungen, die auf alternative Art und Weise angepasst werden müssen
+Popt_someAppli_scncpfdxbq=Einige Anwendungen müssen auf speziellem Weg behandelt werden; wenn es Probleme mit dem 'Einfügen'-Menü gibt, dann die Anwendungsnamen hier angeben. Begrenze die Einträge mit dem ';'-Zeichen
+Popt_replacePa_bnbdffdubk=Ersetze den 'Einfügen'-Eintrag (anstelle der Erzeugung von separatem Untermenü)
+RightClickPasteEnhancer=Rechtsklick Clipboard
+Dscplg_wp_rclickcp='Right-click Paste Enhancer' fügt Clipboard-Verlauf zu Popup-Menüs mit 'Einfügen'-Eintrag hinzu
+Nameplg_wp_rclickcp=Right-click Paste Enhancer
+Popt_replacePa_mkxjvydisd=Ersetze den 'Einfügen'-Eintrag anstelle separatem Untermenü
+Popt_tweakAll_seiakmbaed=Anpassen *aller* Menüs (ignoriere Vorhandensein des 'Einfügen'-Eintrags)
+Popt_tweakAll_ahwonrkwoi=Anpassen aller Menüs sogar wenn sie nicht auf normale Weise angepasst werden können

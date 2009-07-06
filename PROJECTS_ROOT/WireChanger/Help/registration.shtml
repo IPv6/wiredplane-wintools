@@ -1,0 +1,56 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Êàê çàðåãèñòðèðîâàòü WireChanger" -->
+<!--#set var="PTITLE_EN" value="How to Register WireChanger" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<b>Why Register WireChanger?</b><br><br>
+Trial version has the following limitations: max 4 reminders, max 4 desktop notes, max 4 active widgets at the same time and duplication image remover is locked. 
+Trial version also adds small logo on each wallpaper. It can be removed by exchanging one of your image at Wallpaper Exchange service<br>
+After registration you will not see any nag text, graphics, or popups anymore and will be 
+able to use active clocks, image lists and desktop notes without limitations. Registered users can download 
+and install all future minor updates for free and get exclusive desktop clocks collections.
+Your current settings will not be changed or altered after registration.
+
+<br><br>
+
+<b>Registration</b><br><br>
+<table border=0 width=100%><tr valign=center>
+<td width=1%><img border=0 src="reg_regnow.jpg"></td>
+<td width=1%><img border=0 src="cc_visa.gif" height="30"></td>
+<td width=1%><img border=0 src="cc_mastercard.gif" height="30"></td>
+<td width=1%><img border=0 src="cc_discover.gif" height="30"></td>
+<td width=1%><img border=0 src="sw_paypal.gif" height="30"></td>
+<td><hr></td></tr></table>
+WireChanger is a trialware product. Trial period is not limited, but if you find this product helpful, you can order full registration key. 
+To register, use 'Order now' item in the tray menu  or "Help" menu of the application.
+Once you complete your online registration, within 48 hours you will receive an email with final registration instructions.
+<br>
+
+<b>I received the email. What's next?</b><br><br>
+To register WireChanger with the information received in the email:<br>
+1a. Save the email with the registration key to a file<br>
+&nbsp;or<br>
+1b. Copy the registration data to the clipboard.<br><br>
+2. Open WireChanger's preferences.<br><br>
+3a. Go to the "Registration" folder and click "Insert from file" if you did 1a above<br>
+&nbsp;or<br>
+3b. "Insert from clipboard" if you did 1b above.<br><br>
+4. Click "OK" and restart WireChanger.<br><br>
+
+<hr>
+We can customize this programs to address your organization's unique needs; $10 per hours, estimates given in advance<br>
+<a href="mailto:banking@wiredplane.com">E-mail: banking@wiredplane.com</br>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

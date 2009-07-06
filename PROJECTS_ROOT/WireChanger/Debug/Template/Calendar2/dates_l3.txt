@@ -1,0 +1,35 @@
+; Days marked with '*' will be rendered as red-letter days on calendar
+
+1/1*Nuovo Anno!
+6/1*Epifania
+14/2*S. Valentino
+17/3*S. Patrizio
+4/7*Festa dell'Indipendenza
+25/12*Natale
+0_2/5*Festa della mamma
+5_4/11*Giorno del ringraziamento
+
+;Gen
+1/1 Nuovo Anno
+15/1 Compleanno di Martin Luther King
+
+;Feb
+14/2 Giorno di S.Valentino
+
+;Mar
+17/3 S. Patrizio
+
+;May
+0_2/5 Festa della mamma
+
+;Jul
+4/7 Festa dell'Indipendenza americana
+
+;Oct
+12/10 Columbus Day
+
+;Nov
+5_4/11 Giorno del ringraziamento
+
+;Dec
+25/12 Santo Natale

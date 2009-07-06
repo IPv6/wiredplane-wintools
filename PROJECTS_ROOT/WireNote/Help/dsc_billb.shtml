@@ -1,0 +1,40 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Billboard</h1><hr>
+Billboard can be used to share data between several computers with WireNote installed. 
+Any note/message/ToDo/Reminder can be shared at any time. The process of sharing is called "Publish to billboard".
+After specifing billboard`s folder in preferences, "Publish on billboard" item will appear in all context menus of all corresponding items.
+By publishing item on billboard, you will spread it to all other WireNotes connected to this billboard.
+Billboard folder must be accessible from all computers both for read and write. Use of such folder allows one to work with billboard
+even in difficultly segmented LANs, where not all computers can be reached via network messaging.
+WireNote automatically keeps track of all items, taken from billboard and update them corresponding to billboard data.
+So if you receive ToDo from billboard and someone else change this ToDo at billboard (by republishing it) later, you will receive changes soon as well.
+You can drag and drop items (taken from billboard) inside WireNote`s folders (tree in main window), items will be automatically updated according to billboard anyway.
+Items at billboard can not and should not be deleted at all except one case - when they became too old (default value is 90 days from the time of the item`s creation). 
+Old items will be deleted by any WireNote client that is connected, so it is important to have the same 'oldness' period defined in WireNote preferences 
+in every WireNote instance.
+<br><br>
+Another thing that may be used with Billboard - "Billboard sections". Everyone can create different "sections" in main billboard (in the same shared folder)
+and publish items in created section rather than common part of billboard (which is pre-defined "Main" section actually). 
+Only subscribed users will receive updates from non-"Main" sections. Using WireNote preferences, one can subscribe/unsubscribe 
+to available sections at any time.
+<hr>
+Tips and tricks:
+<br>- Try to avoid publishing the same item in different sections at once. Though everybody will receive latest item version from the subscribed sections, this may confuse users that are subscribed to one section only (when the very recent version of item published at another section)
+<br>- To create private sections, administrator can set up read/write priviledges to corresponding folders in shared folder. Using this method one can create "read-only" section for example or complitely hide unauthorized users from viewing private sections
+<br>- To delete section simply delete folder with section name in the shared folder
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

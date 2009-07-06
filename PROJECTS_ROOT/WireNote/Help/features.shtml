@@ -1,0 +1,84 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>WireNote Features</h1><hr>
+<b>Common features</b><br>
+- Highly customizable interface<br>
+- Usability: All windows naturally "dock" to each other when they get near. You can undock any docked window by holding down either SHIFT key while dragging it, if you hold down the CONTROL and ALT keys while moving a window, every window will move along with it.<br>
+- Usability: All windows and items can have their own colors and font settings and one of the predefined icons<br>
+- Usability: All application windows remebers their position and size<br>
+- Safety: Items can be deleted to the special trash folder (optional)<br>
+- Safety: All data saved at shutdown and restored at startup, all information saved on per user basis<br>
+- Safety: All data modifications are saved in the background, so you`ll not lose anything if the case of the unforeseen system crash<br>
+- Hotkey key can be assigned to any action ("Win" key permitted)<br>
+- Find ToDo/Note tool<br>
+<br>
+<b>Tray-Icon menu</b><br>
+- Whole data tree can be easily accessed at any time<br>
+- Usability: You can choose which icon (Organizer or Message center or both) must appear in tray menu. Menu items from other icon`s menu will be available through special submenu<br>
+- Current date or day of the week can be depicted over tray icon<br>
+- Different actions can be assigned when user click tray icon with key modifier (Shift/Control/Alt pressed)<br>
+- Main window can be shown automatically when user move mouse over tray icon (optional)<br>
+- Mouse click style can be switched between single- and double-click<br>
+- Icon tooltip can show active ToDos (optional)<br>
+<br>
+<b>Main window</b><br>
+- Main window tree can hold any combination of ToDos, Notes, Reminders, Links and Folders<br>
+- Items can be dragged by mouse from one folder to another<br>
+- Every item have their own context menu (just right-click on it)<br>
+- You can quickly set item priority by right-clicking on first column<br> 
+- Click on column title to sort data by selected field<br>
+- To rename item just double-click on it<br>
+<br>
+<b>ToDo</b><br>
+- Time, spend on ToDo, can be logged and analyzed (ToDo report feature)<br>
+- ToDo can be automatically activated/deactivated as your work with specified applications<br>
+<br>
+<b>Note</b><br>
+- Note can be switched in small icon view<br>
+- Note can be attached to any window. This mean that note will be displayed only when you work with corresponding application<br>
+- WireNote can hide Note when user moves mouse over it. Such behavior can be temporarily disabled by holding Alt key<br>
+<br>
+<b>Reminder</b><br>
+- Reminder can be repetitive (Examples: every 2.5 hours, every monday, every 5`s may and so on)<br>
+- Reminder can be preliminarily tested (you can see how reminder`s alert will looks like)<br>
+- Reminder can activate/deactivate other reminders or ToDos, send LAN messages and do a lot of other stuff (start application, play sound, shake active window and more)<br>
+- Shared reminders (if you have home LAN, you can install WireNote on all computers and point them to one network folder. After that all shared reminders can be found and used on all computers at the same time)<br>
+- Plugged stricking clock: You can set any sound to be played hourly<br>
+<br>
+<b>Message</b><br>
+- To attach file to message you can simply drag it from other applications<br>
+- All messages from single sender can reuse the same message note<br>
+- WireNote can recognize fraud messages, sended on behalf of different user<br>
+- Messages can be smartly filtered out by analysing message sender/content<br>
+- Notifications when message is delivered (if used) and when the message is read<br>
+<br>
+<b>Message Center/Address book</b><br>
+- 4 online statuses<br>
+- Autoaway as screensaver (optional)<br>
+- Group users (message to such user will be delivered to every computer in this group)<br>
+- WireNote can automatically answer on all incoming messages when you are away (optional)<br>
+- Automatic answering can be disabled for user that are not from your address book<br>
+- User online statuses updated periodically<br>
+<br>
+<b>Anti-SPAM module</b><br>
+- Training mode<br>
+- Unlimited POP3 accounts<br>
+- "TheBat!" compatible spam-files format<br>
+- Only message headers are downloaded<br>
+- Ability to automatically download first lines of email and search spam-strings in such lines<br>
+- Full MIME-encoding support for all email fields (different languages and encodings support)<br>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

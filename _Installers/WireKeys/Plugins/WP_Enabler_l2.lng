@@ -1,0 +1,8 @@
+Popt_mouseDriv_kpmacyxnmm=Metodo di abilitazione oggetti dell'interfaccia basato sul mouse
+Popt_ifChecked_ehstsaesgu=Selezionando questa opzione, il plugin abiliterà soltanto gli oggetti sotto il puntatore del mouse. Questo metodo risparmia risorse di CPU.
+Popt_pauseEnab_nqmkhmkdkv=Alla partenza, metti il plugin in pausa
+StartStopEnabler=Avvia/arresta il plugin
+EnableWindowUnderCursor=Abilita la finestra sotto il puntatore
+WindowsButtonsMenusEnabler=Manipolatore finestre, pulsanti, menu
+Dscplg_wp_enabler=Questo plugin permette di abilitare oggetti dell'interfaccia utente disabilitati
+Nameplg_wp_enabler=Manipolatore finestre, pulsanti, menu

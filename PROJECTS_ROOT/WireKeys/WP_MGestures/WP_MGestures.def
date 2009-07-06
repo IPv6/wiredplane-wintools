@@ -1,0 +1,19 @@
+; WP_MGestures.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_MGestures"
+DESCRIPTION  'WireKeys Mouse Gestures plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+WKGetPluginFunctionHints
+onAddEvent
+WKPluginOptions

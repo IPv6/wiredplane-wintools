@@ -1,0 +1,16 @@
+
+LIBRARY      "Enabler"
+DESCRIPTION  'WireKeys Enabler Plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginStop
+GetPluginDsc
+WKPluginInit
+CallWndRetProc
+WKPluginOptionsManager
+WKGetPluginContainer

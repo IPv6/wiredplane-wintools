@@ -1,0 +1,24 @@
+; SmallXmlRpcClientServer.def : Declares the module parameters for the DLL.
+
+LIBRARY      "xpc"
+DESCRIPTION  'Xpc DLL by IPv6'
+
+EXPORTS
+TestClientSide
+TestServerSide
+CreateServer
+StartServer
+PauseServer
+StopServer
+GetServerInfo
+GetServerStatistics
+OnXmlRpcServerDataSended
+OnXmlRpcServerDataReceived
+OnXmlRpcServerError
+AddXmlRpcMethod
+InitXmlRpcClient
+DeinitXmlRpcClient
+MakeXmlRpcCall
+MakeCallbackXmlRpcCall
+TerminateAllCalls
+GetClientStatistics

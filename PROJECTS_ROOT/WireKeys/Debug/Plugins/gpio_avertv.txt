@@ -1,0 +1,150 @@
+; Configuration file for AverTV Studio remote control.
+; Authors: Ilja Razinkov, member of WiredPlane Labs
+; If you have another TV card and this config is not working well with your card
+; You can play with this parameters. You can also write an email to us (support@wiredplane.com)
+; and ask additional information about them.
+; We offer free ergistration in exchange for new configuration file for other TV cards
+
+; LowGpioPin and HighGpioPin are bits of GPIO port that form key code
+LowGpioPin=3
+HighGpioPin=15
+
+; PressFlagPin bit will indicate about remote button state.
+; If your remote does not support this feature type -1 instead of 4
+PressFlagPin=4
+
+; This bit is used to detect new keypresses
+StatusGpioPin=14
+
+; This bit is used to reset GPIO port after reading buttons state
+; Type -1 instead of 2 if you don`t need this
+ResetGpioPin=2
+
+; Most cards repeating last keypress until next button is pressed.
+; Leave 1 to detect such behaviour
+BlockAutoRepeats=0
+
+; This parameter can be used in creating your own config
+; Set this parameter to 0 to trace all pressed buttons in your remote
+IgnoreUnknownButtons=1
+
+; Some cards erroneously report about button press right after initializing
+; Leave 1 to suppress this error
+SkipFirstButton=1
+
+; Plugin will postpone button "unpress" event for this amount of time (milliseconds)
+; This can be used to define hotkeys with button sequences
+; For example you can attach sequence of "Video" and "1" buttons to one action and
+; sequence of "Video" and "2" to another. This time is max period between 
+; two presses to be detected as one sequence
+TimeToHoldKeyDown=500
+
+; Definitions of remote buttons (Max 100)
+; You can set description of any button to "IGNORE" to exclude this button (or corresponding code) from use
+ID_Button_1=0x0080
+DSC_Button_1=@TV/FM
+
+ID_Button_2=0x0040
+DSC_Button_2=@CD
+
+ID_Button_3=0x00C0
+DSC_Button_3=@Teletext
+
+ID_Button_4=0x0000
+DSC_Button_4=@Power
+
+ID_Button_5=0x00A0
+DSC_Button_5=@Num1
+
+ID_Button_6=0x0060
+DSC_Button_6=@Num2
+
+ID_Button_7=0x00E0
+DSC_Button_7=@Num3
+
+ID_Button_8=0x0020
+DSC_Button_8=@Video
+
+ID_Button_9=0x0090
+DSC_Button_9=@Num4
+
+ID_Button_10=0x0050
+DSC_Button_10=@Num5
+
+ID_Button_11=0x00D0
+DSC_Button_11=@Num6
+
+ID_Button_12=0x0010
+DSC_Button_12=@Audio
+
+ID_Button_13=0x00B0
+DSC_Button_13=@Num7
+
+ID_Button_14=0x0070
+DSC_Button_14=@Num8
+
+ID_Button_15=0x00F0
+DSC_Button_15=@Num9
+
+ID_Button_16=0x0030
+DSC_Button_16=@FullScr
+
+ID_Button_17=0x0088
+DSC_Button_17=@Num0
+
+ID_Button_18=0x0048
+DSC_Button_18=@Display
+
+ID_Button_19=0x00C8
+DSC_Button_19=@Loop
+
+ID_Button_20=0x0008
+DSC_Button_20=@Preview
+
+ID_Button_21=0x00A8
+DSC_Button_21=@AutoScan
+
+ID_Button_22=0x0068
+DSC_Button_22=@Freeze
+
+ID_Button_23=0x00E8
+DSC_Button_23=@Capture
+
+ID_Button_24=0x0028
+DSC_Button_24=@Mute
+
+ID_Button_25=0x0098
+DSC_Button_25=@Record
+
+ID_Button_26=0x0058
+DSC_Button_26=@Pause
+
+ID_Button_27=0x00D8
+DSC_Button_27=@Stop
+
+ID_Button_28=0x0018
+DSC_Button_28=@Play
+
+ID_Button_29=0x00B8
+DSC_Button_29=@RedDot
+
+ID_Button_30=0x0078
+DSC_Button_30=@Volume-
+
+ID_Button_31=0x00F8
+DSC_Button_31=@Volume+
+
+ID_Button_32=0x0038
+DSC_Button_32=@YellowDot
+
+ID_Button_33=0x0081
+DSC_Button_33=@GreenDot
+
+ID_Button_34=0x0041
+DSC_Button_34=@Channel-
+
+ID_Button_35=0x00C1
+DSC_Button_35=@Channel+
+
+ID_Button_36=0x0001
+DSC_Button_36=@BlueDot

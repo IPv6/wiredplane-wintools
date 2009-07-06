@@ -1,0 +1,25 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Окно настроек</h1><hr>
+<b>Описание кнопок</b>
+<table border=1 cellspacing=0 cellpading=0 width=100%>
+<tr><td  valign=top>&nbsp;Дополнительно</td><td  valign=top>&nbsp;Выводит меню с некоторыми дополнительными возможностями (раскрыть или закрыть все папки левой панели, установление всех настроек в режим &quot;по умолчанию&quot; и др).</td></tr>
+<tr><td  valign=top>&nbsp;OK</td><td  valign=top>&nbsp;Сохраняет все изменения и закрывает окно настроек</td></tr>
+<tr><td  valign=top>&nbsp;Отмена</td><td  valign=top>&nbsp;Закрывает окно настроек без сохранения изменений</td></tr>
+<tr><td  valign=top>&nbsp;Помощь</td><td  valign=top>&nbsp;Открывает эту страницу</td></tr>
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

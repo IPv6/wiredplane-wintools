@@ -1,0 +1,22 @@
+; translated English version 3.6.4 to German
+; Andreas "Richy" Weidner
+; 03.12.2007
+; ------------------------------------
+
+AltTabReplacer=Alt-Tab-Ersatz
+Dscplg_wp_alttabr=Dieses Plugin erlaubt es, die Taskleisten-Buttons per Drag-n-Drop in der gewünschten Reihenfolge zu sortieren sowie die nächste/vorige Anwendung in der Taskleisten-Reihenfolge festzulegen, unabhängig von der zuvor aktiven Anwendung
+NextWindow=Nächstes Fenster
+PreviousWindow=Voriges Fenster
+ReorderButtons=Buttons anders anordnen
+TaskbarExtender=Taskleisten-Erweiterung
+Popt_addClose_dqblvyyvmy='Schließen'-Icon den Taskleisten-Buttons hinzufügen
+Popt_killAppli_dfaruntgbm=Anwendung abschießen beim Drücken aufs 'Schließen'-Icon statt sie zu beenden
+Popt_alwaysSug_vjqbytoooe=Immer das Abschießen vorschlagen bei 'Anwendung reagiert nicht'
+KillThisApplication=Diese Anwendung abschießen
+ApplicationIsNotResponding=Anwendung reagiert nicht
+ApplicationIsIgnori_QDLCEFPKCF=Anwendung ignoriert den 'Schließen'-Befehl
+Popt_activateP_vnwutdeekv=Aktiviere Plugin nur, wenn 'Strg'-Taste gedrückt ist
+Popt_setTaskba_aurwtulqts=Festlege der Taskleisten-Buttons auf Weite von ... Pixeln
+Popt_allowDrag_kwrtuospaa=Erlaube das Ziehen aus der Taskleiste hinaus
+Popt_closeWind_psfegixltx=Schließe das Fenste durch Mittelklick auf Taskleisten-Button
+Nameplg_wp_alttabr=Alt-Tab-Ersatz

@@ -1,0 +1,11 @@
+CloseConsole=Zamknij konsolê
+CloseConsoleWindowsByEsc=Zamknij konsolê Windows za pomoc¹ ESC
+Dscplg_wp_ccbyesc=Ten plugin pozwoli Ci zamkn¹æ konsolê okna przez naciœniêcie klawisza ESC
+Popt_handleThi_wcvyuvaurr=Obs³uguj tak¿e to okno
+Popt_typeWindo_ommpokkjxu=WprowadŸ tytu³y okien zamykanych tak¿e przez klawisz ESC. U¿yj masek, oddzielaj tytu³y znakiem ';' 
+Notepad=*Notepad*
+Far=*Far*
+Popt_doNotHan_qcaecttrbi=Nie obs³uguj tego okna
+Popt_windowsTi_vmswwkmels=Tytu³y okien wy³¹czonych z zamykania. U¿yj masek, oddzielaj tytu³y znakiem ';' 
+Popt_windowsWi_dflhxghlq=Okna z odpowiednimi tytu³ami bêd¹ ignorowane. U¿yj masek, oddzielaj tytu³y znakiem ';' 
+Nameplg_wp_ccbyesc=Zamknij konsolê Windows za pomoc¹ ESC

@@ -1,0 +1,12 @@
+; translated English version 3.6.4 to German
+; Andreas "Richy" Weidner
+; 03.12.2007
+; ------------------------------------
+
+MemoryUsage=Speicher-Nutzung
+CpuUsage=CPU-Nutzung
+Popt_replaceTe_rnijmqmfov=Ersetze den Text auf dem 'Start'-Button mit
+Popt_refreshEv_bdsxloivke=Aktualisieren aller ... Millisekunden
+UselessStart=Useless 'Start'
+Dscplg_wp_uselessstart=Ersetze den Text auf dem 'Start'-Button mit CPU-/Memory-Verbrauch
+Nameplg_wp_uselessstart=Useless 'Start'

@@ -1,0 +1,57 @@
+// Language: WP_MacroRec.wkp
+// Title: Mouse Control
+// Description: Control mouse position via hotkeys
+// ParamType: none
+// Hint: No_sound, No_icon;
+
+<wkMain>// wkMain description: Double-Click
+Command("mou::msg=[513] rel=[-1] x=[0] y=[0]");
+Command("mou::msg=[514] rel=[-1] x=[0] y=[0]");
+Wait(0.2)
+Command("mou::msg=[513] rel=[-1] x=[0] y=[0]");
+Command("mou::msg=[514] rel=[-1] x=[0] y=[0]");
+</wkMain>
+
+<wkMain2>// wkMain2 description: Move Up
+if("%COOKIE:MOUSE_MOVE_MODE%"=="1"){
+	Command("mou::msg=[512] rel=[-1] x=[0] y=[-50]");
+	return;
+}
+Command("mou::msg=[512] rel=[-1] x=[0] y=[-10]");
+</wkMain2>
+
+<wkMain3>// wkMain3 description: Move Down
+if("%COOKIE:MOUSE_MOVE_MODE%"=="1"){
+	Command("mou::msg=[512] rel=[-1] x=[0] y=[50]");
+	return;
+}
+Command("mou::msg=[512] rel=[-1] x=[0] y=[10]");
+</wkMain3>
+
+<wkMain4>// wkMain4 description: Move Left
+if("%COOKIE:MOUSE_MOVE_MODE%"=="1"){
+	Command("mou::msg=[512] rel=[-1] x=[-50] y=[0]");
+	return;
+}
+Command("mou::msg=[512] rel=[-1] x=[-10] y=[0]");
+</wkMain4>
+
+<wkMain5>// wkMain5 description: Move Right
+if("%COOKIE:MOUSE_MOVE_MODE%"=="1"){
+	Command("mou::msg=[512] rel=[-1] x=[50] y=[0]");
+	return;
+}
+Command("mou::msg=[512] rel=[-1] x=[10] y=[0]");
+</wkMain5>
+
+<wkMain6>// wkMain6 description: Right-Click
+Command("mou::msg=[516] rel=[-1] x=[0] y=[0]");
+Command("mou::msg=[517] rel=[-1] x=[0] y=[0]");
+</wkMain6>
+
+<wkMain7>// wkMain7 description: Switch speed (Normal/High)
+if("%COOKIE:MOUSE_MOVE_MODE%"==""){
+	return "%SET:MOUSE_MOVE_MODE=1%";
+}
+return "%RESET:MOUSE_MOVE_MODE%";
+</wkMain7>
