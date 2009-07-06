@@ -1,0 +1,443 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Visual Basic и JavaScript макросы в WireKeys" -->
+<!--#set var="PTITLE_EN" value="VisualBasic and JavaScript macros in WireKeys" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Макросы</h2><hr>
+Макросы предназначены для выполнения повторяющихся действий над файлами или текстом. Макрос может быть вызван либо нажатием
+горячей клавиши, либо выбором соответсвующего пункта из меню либо набором строки автотекста. Макрос может быть одного из трех типов:
+Макрос-приложение, макрос-вставка и текстовый (клавиатурный) макрос.
+<br><br>Первый тип макросов (<b>макрос-приложение</b>) вызывает любую установленную программу или файл с параметрами, которые вычисляются на момент выполнения макроса.
+Этот тип макросов подходит для выполнения такой, например, задачи: Нажав горячую клавишу макроса, создать новое письмо с подставленным в поле "Кому" адресом просто выделив его (e-mail адрес) в любом окне, содержащем текст.
+У макроса, выполняющего подобное действие, путь к приложению должен быть установлен в "mailto:", а параметр макроса - в "%SELECTED" (без двойных кавычек).
+Другой пример макроса такого типа: выделив любое слово или фразу и нажав горячую клавишу, получаем окошко с результатами поиска этого слова в Google
+
+<br><br>Второй тип (<b>макрос-вставка</b>), как понятно из названия, вставляет. Вставляет текст в текущее активное приложение. 
+Вы можете вставить одну из следующих комбинаций: просто строка текста, строка текста+содержимое заданного файла, строка текста+случайная строка из заданного файла.
+И в строке текста и в заданном файле могут использоваться шаблоны (см. далее)
+Примеры использования этих 3 комбинаций:
+<br>1) Простой текст. Например Вы можете назначить строку типа "Good luck!" горячей клавише Win-I-G. Или строку вида "%DATE %TIME" - текущая дата - клавише Win-D
+<br>2) Текстовый файл. Например адрес Вашего офиса находится в отдельном файле (файл даже может находится в сетевой папке
+и редактироваться другими пользователями по необходимости). Нажатие гор. клавиши вставит содержимое этого файла в активный документ.
+<br>3) Случайная строка из текстового файла. К примеру у вас есть файл с интересными или забавными фразами, каждая фраза на отдельной строке (в этом файле).
+Тогда нажатие гор. клавиши вставит ровно одну (случайную) фразу из этого файла
+
+<br><br>Третий тип макросов (<b>текстовый (клавиатурный) макрос</b>) выполняет специальный код (написанный на JavaScript или VBScript) с выделенным текстом в качестве параметра и результат выполнения макроса
+вставляет обратно в активное приложение. Примером такого макроса может служить текстовый калькулятор (см. Страницу "WireKeys - Возможности"), единственная разница - текст макроса-калькулятора встроен в WireKeys.
+
+<br><br>Основа широкого спектра применения макросов - <b>Шаблоны</b>. Шаблон - определенная строка начинающаяся с символа '%', например '%CLIP'. Шаблоны заменяются на актуальные значения прямо перед выполнением макроса. 
+С использованием шаблонов можно создавать макросы, которые работают по разному в зависимости от того, в каком приложении работает пользователь, вызывающий макрос.
+Чтобы узнать о шаблонах больше, обратитесь к странице помощи "Шаблоны"
+
+<br><br><b>Структура макроса</b><br>
+Файл макроса должен начинаться с названия ('<b>// Title:</b>') и описания ('<b>// Description:</b>') макроса. Описание и название будет отображено в настройках WireKeys (в разделе макросов). 
+Также можно задать тип параметра макроса (строками '// ParamType: String', '// ParamType: File', '// ParamType: Folder' или '// ParamType: None' ('Строка', 'имя файла', 'каталог' или 'без параметров' соответсвенно)), 
+но это не обязательно. Для макросов на языке VBScript первой строчкой файла должен быть текст <b>' Language: VBScript</b>.
+Посмотрим на пример JScript-макроса для начала:
+<br><br>
+<b>Пример 1 - простой скрипт</b>
+<pre>
+// Title: Comment/Uncomment
+// Description: This macro automatically adds or removes comment chars '/*' and '*/' around the selected text.
+// Step 1 of 3 - Reading selected text
+var OUTPUT=unescape('%ESCAPED');
+
+// Step 2 of 3 - Trim comment marks if they are present or add them in other case
+if(OUTPUT.slice(0,2)=='/*' && OUTPUT.slice(-2)=='*/'){
+	OUTPUT=OUTPUT.slice(2,-2);
+}else{
+	OUTPUT='/*'+OUTPUT+'*/';
+}
+
+// Step 3 of 3 - Typing result back into WireKeys
+OUTPUT;
+</pre>
+<lu>
+<li>Первый шаг - сохраняем выделенный в активном приложении текст в переменную JavaScript с именем 'OUTPUT'. 
+Если Вы хотите использовать макрос с текстом, в котором может быть больше одной строки, то нужно использовать
+шаблон "%ESCAPED" вместо "%SELECTED", так как "%ESCAPED" заменит переводы строк на коды, разрешенные в JavaScript.
+ JavaScript-функция <i>unescape</i> сможет из такой строчки (с безопасными кодами) сделать обычный текст (это происходит
+ в строке "var OUTPUT=unescape('%ESCAPED');")</li>
+
+<li>Второй шаг - выполнение нужных действи над строкой. В вышеприведенном примере макрос пытается найти символы комментариев в строке.  Если они есть,
+макрос "Откусывает их"; если их нет - они добавляются. Результат опять помещается в переменную 'OUTPUT'.</li>
+
+<li>Последний шаг - возврат результата. Значение переменной OUTPUT будет помещено обратно в активное приложение. Если переменная пуста, то в активное приложение ничего помещено не будет.</li>
+</lu>
+<br><br>
+<b>Пример 2 - скрипт с использование стартовой функции</b>
+<pre>
+// Type title of your macro
+// Title: Sample macro
+// Type description of your macro
+// Description: Sample macro description
+// Type parameter type (string/file/folder/none)
+// ParamType: String
+
+// This is the main function. WireKeys call this function
+// with selected text in 'selectedText' and macro parameter in 'macroParameter'
+function wkMain(selectedText,macroParameter)
+{
+	var OUTPUT=selectedText;
+	
+	// Do whatever is needed. You can use patterns (see Help for details)
+	// But remember that patterns are substituted BEFORE macro starts to work
+	OUTPUT+='Today date is %DAY.%MONTH.%YEAR, time: %HOUR:%MINUTE:%SECOND\r\n';
+	OUTPUT+='Macro parameter: '+macroParameter+'\r\n';
+	for(i=0;i<5;i++){
+		OUTPUT+='Line '+(i+1)+': Hello world!\r\n';
+	};
+	
+	// Returning result back into WireKeys
+	return OUTPUT;
+};
+</pre>
+<lu>
+<li>В этом примере есть функция 'wkMain' - особая функция, при наличии которой она автоматически вызывается с соответствующими парметрами
+</li>
+</lu>
+<br><br>
+<b>Пример 3 - Скрипт с несколькими точками входа (каждой точке входа можно назначить свою гор. клавишу)</b>
+<pre>
+// Type title of your macro
+// Title: Sample macro
+// Type description of your macro
+// Description: Sample macro description
+// Type parameter type (string/file/folder/none)
+// ParamType: String
+
+function wkMain(selectedText,macroParameter)
+{// wkMain description: Entry point function number 1
+	return "Result 1";
+};
+
+function wkMain2(selectedText,macroParameter)
+{// wkMain2 description: Entry point function number 2
+	return "Result 2";
+};
+
+function wkMain3(selectedText,macroParameter)
+{// wkMain3 description: Entry point function number 3
+	return "Result 3";
+};
+</pre>
+<lu>
+<li>Обратите внимание на эти комментарии - <b>"// wkMain description:","// wkMain2 description:","// wkMain3 description:"</b>.
+Эти комментарии обязательны - из них будет взято описание для  горячей клавиши точке входа.
+</li>
+</lu>
+<lu>
+<br><br>
+<b>Дополнительные возможности - сохранение данных между вызовами</b>
+<pre>
+function wkMain(selectedText,macroParameter)
+{
+	for(i=0;i<10000;i++){
+	if(WireKeys.GetCookie("TEST_PAUSE")==1){
+		WireKeys.ShowBaloon("Macros paused!!!");
+	}else{
+		s1=WireKeys.GetPixel(100,100);
+		s2=WireKeys.GetCursorPosX();
+		s3=WireKeys.GetCursorPosY();
+		WireKeys.ShowBaloon("Pixel="+s1+"\n X="+s2+"\n Y="+s3);
+	}
+	WireKeys.Sleep(100);
+	}
+	return "";
+};
+
+function wkMain2(selectedText,macroParameter)
+{// wkMain2 description: Pause/Unpause
+	WireKeys.SetCookie("TEST_PAUSE",WireKeys.GetCookie("TEST_PAUSE")==0?1:0);
+	return "";
+};
+</pre>
+<lu>
+<li>Используя спец. команды - WireKeys.SetCookie / WireKeys.GetCookie можно запоминать данные под любым именем ("TEST_PAUSE")
+и получать значение данных под тем же именем в скрипте для последующей обработки. Установленные данные сохраняются между 
+вызовами макроса в отдельной области. В данном примере вторая точка входа при активации ставит работу макроса в первой точки входа на паузу или 
+снимает паузу если она была поставлена ранее. С полным списком дополнительным команд можно ознакомится в <a href="api.shtml">конце этой страницы</a>
+</li>
+</lu>
+<br><br>
+<lu>
+<li>Макросы на языке Visual Basic очень похожи по структуре на JavaScript-макросы, кроме способа именования переменных и стиля комментариев.
+Посмотрим на пример макроса на VBScript:</li>
+</lu>
+<pre>
+' Language: VBScript
+' Title: StartedServices
+' Description: This macro shows information about services, started on remote or local computer using WMI
+Function wkMain(selectedText)
+strRes = ""
+strComputer = "."
+strRes = "Information about services running on local computer"
+if Len(selectedText) > 0 Then
+	strComputer = selectedText
+	strRes = "Information about services running on " + strComputer
+End if
+strRes = strRes + vbCrLf
+strNamespace = "\root\cimv2"
+strClass = "Win32_Service"
+Set objSWbemServices = GetObject("winmgmts:\\" & strComputer & strNamespace)
+Set colSWbemObjectSet = objSWbemServices.ExecQuery("SELECT * FROM " & strClass)
+For Each objSWbemObject In colSWbemObjectSet
+	if objSWbemObject.State = "Running" Then
+	    strRes = strRes + vbCrLf
+	    strRes = strRes + "Display Name: " & objSWbemObject.DisplayName + vbCrLf
+	    strRes = strRes + "Start Mode:   " & objSWbemObject.StartMode  + vbCrLf
+	End if
+Next
+wkMain=strRes
+End Function
+</pre>
+<br>Еще один пример VBScript-макроса, который может строки вроде 'XYZ' превращать в 'X*Y*Z' на лету (т.е. вы можете выделить текст в любом окне и нажать гор. клавишу для замены его на видоизмененный текст)
+<pre>
+' Language: VBScript
+' Title: Inserisce asterisco
+' Author: Zoldex
+' Description: Inserisce un asterisco tra le lettere della stringa selezionata
+' ParamType: String
+
+Function wkMain(selectedText)
+dim FinalText, lungh
+
+FinalText = "*"
+lungh = Len(selectedText)
+
+for i = 1 to lungh
+FinalText = FinalText + Mid(Trim((selectedText,i,1)) + "*"
+next
+
+wkMain = FinalText
+end function
+</pre>
+<hr>Полный хелп на JavaScript и VBScript функции, операторы и пр. можно найти тут: <b><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/js56jslrfjscriptlanguagereference.asp">JavaScript help on-line</a></b>.
+Если у Вас есть вопросы, ответы на которые Вы не нашли, Вы можете задать их на нашем <a href="http://www.wiredplane.com/forum/board.php?cat=3&fid=1&s=s" target="_blank">форуме поддержки</a>
+<br>
+<hr><br>Вот некоторые полезные объекты, которые можно использовать в макросах (примеры на языке JavaScript):<br>
+<lu>
+<li>WScript.Shell. Интересные методы Run и Exec.
+<pre>
+//Description: JScript Example. Open MyTextFile.txt in Notepad as the active Window.  (Includes pause for Windows processing.)
+function Sleep(time)
+{
+	var d = new Date();
+	while((new Date()).getSeconds()-d.getSeconds()&lt;time){
+		// Do nothing :( There is no special JavaScript function to wait for awhile
+	};
+}
+var WshShell = new ActiveXObject('WScript.Shell');
+WshShell.Run("notepad c:\\MyTextFile.txt", 1, false);
+Sleep(2);
+WshShell.AppActivate("MyTextFile");
+WshShell.SendKeys ("Hello world!!");
+</pre>
+</li>
+<li>Другой интересный метод - SendKeys. Используя SendKeys вы можете делать много полезных вещей - двигать курсор, набирать слова, эмулировать нажатие клавишных комбинаций 
+(например Ctrl-S - чтобы сохранить текущий документ). Примеры:<br>
+<table width=50% border=1>
+<tr><td>WshShell.SendKeys("^(s)");</td><td>'Ctrl-S' key;</td></tr>
+<tr><td>WshShell.SendKeys("{DOWN}");</td><td>'Down' key;</td></tr>
+<tr><td>WshShell.SendKeys("+{END}");</td><td>'Shift-END' key combination;</td></tr>
+<tr><td>WshShell.SendKeys("%{TAB}");</td><td>'Alt-TAB' combination;</td></tr>
+</table>
+<br>Полное описание возможностей этой функции можно помотреть здесь: <a href="http://www.wiredplane.com/wirekeys-help/sendkeys.shtml?from=hhh">SendKeys help on-line</a>.
+Также, для записи нажатий клавиш в формате "SendKeys", можно использовать плагин "Запись макросов"
+<br>Вот пример поточной обработки изображений с использованием популярного просмотрщика изображений IrfanView: 
+<pre>
+// This is a macro for cropping images in a batch using IrfanView image viewer
+// Open image in IrfanView, select area and call this macro.
+function Sleep(time)
+{
+	var d = new Date();
+	while((new Date()).getSeconds()-d.getSeconds()&lt;time){
+		// Do nothing :( There is no special JavaScript function to wait for awhile
+	};
+}
+
+function wkMain(selectedText,macroParameter)
+{
+	var WshShell = new ActiveXObject('WScript.Shell');
+	// Sending Ctrl-Y (IrfanView`s "crop image to selected" command)
+	WshShell.SendKeys("^(y)");
+	// Sending 's' key (Save picture as ...)
+	WshShell.SendKeys("s");
+	Sleep(2);
+	var count=0;
+	// waiting until user closes "Save as" dialog
+	while(WshShell.AppActivate("Save Picture")==true){
+		count++;
+	}
+	// Sending space key - IrfanView`s "move to the next image" command
+	WshShell.SendKeys(" ");
+	// Return nothing
+	return "";
+};
+</pre>
+</li>
+<li>Еще полезные функции объекта Shell: Popup и RegRead/RegWrite/RegDelete
+<pre>
+var res='';
+var BtnCode = WshShell.Popup("Do you feel alright?", 7, "Answer This Question:", 4 + 32);
+switch(BtnCode) {
+   case 6:
+      res="Glad to hear you feel alright.";
+      break;
+   case 7:
+      res="Hope you're feeling better soon.";
+      break;
+   case -1:
+      res="Is there anybody out there?";
+      break;
+}
+WshShell.RegWrite ("HKCU\\Software\\WiredPlane\\MacrosTest\\", "Registry - "+res, "REG_SZ");
+</pre>
+</li>
+<li>Другой полезный объект - объект файловой подсистемы. Позволяет работать с каталогами и отдельными файлами
+<pre>
+fso = new ActiveXObject("Scripting.FileSystemObject");
+fso.CopyFile ("c:\\mydocuments\\letters\\*.doc", "c:\\tempfolder\\")
+var a = fso.CreateTextFile("c:\\testfile.txt", true);
+a.WriteLine("This is a test.");
+a.Close();
+</pre>
+</li>
+</lu>
+<br><li>Вы также можете вызывать специальные функции WireKeys используя спец. объект  WireKeys:</li>
+</lu>
+<pre>
+function wkMain(selectedText,macroParameter)
+{// wkMain description: Entry point function number 1
+	var selectedTextAgain=WireKeys.Copy();
+	WireKeys.ShowBaloon("Selected text:"+selectedTextAgain);
+	return "";
+};
+</pre>
+ С полным списком дополнительным команд можно ознакомится в <a href="api.shtml">этой страницы</a>
+<hr><br><b>Карткое описание пре-инсталлированных макросов:</b>
+<lu>
+<li>New mail - Создает письмо на основе адреса, выделенного в активном приложении</li>
+<li>Search google - Открывает окно с результатами поиска в Google выделенной в активном окне фразы</li>
+<li>Append to file - Очень полезный макрос для сбора разной информации или ведения дневника. Присоединяет выделенный текст к файлу 'c:\Diary.txt'. Имя файла-дневника задается в параметрах макроса. Можно создать несколько макросов, 
+которые будут использовать файл этого макроса, но различаться параметрами (что позволит направлят выделенный текст в разные файлы в зависимости от вызванного макроса)</li>
+<li>Comment/Uncomment - Добавляет/удаляет символы '/*' и '*/' к выделенному тексту</li>
+<li>Drive info - Показывает информацию о жестком диске. Наберите букву диска, выделите ее и вызовите этот макрос - вы получите полную информацию о нем (free/total size, file system, serial number, и т.д.)</li>
+<li>RecursiveCopy - Копирует все файлы из одного каталога и его подкаталогов в выбранную пользователем папку без сохранения дерева каталогов оригинала. 
+Чтобы использовать этот макрос откройте эксплорер, выделите каталог и нажмите гор. клавишу макроса. WireKeys спросит куда копировать файлы и после копирования всех файлов покажет файл с журналом проведенных операций ("_copylog.txt" в каталоге, куда все копировалось)</li>
+</lu>
+<hr>
+<br>Краткое описание основных функций JScript для работы со строками:
+<table border=1 width=100% cellspacing=1 cellpadding=2>
+<tr>
+<td>String Function
+<td>Short description
+<td>Function prototype
+</td>
+</tr>
+<tr>
+<td>charAt
+<td>Returns the character at the specified index.
+<td>strObj.charAt(index)
+</td>
+</tr>
+<tr>
+<td>charCodeAt
+<td>Returns an integer representing the Unicode encoding of the character at the specified location.
+<td>strObj.charCodeAt(index)
+</td>
+</tr>
+<tr>
+<td>concat
+<td>Returns a string value containing the concatenation of two or more supplied strings.
+<td>string1.concat([string2[, string3[, . . . [, stringN]]]])
+</td>
+</tr>
+<tr>
+<td>fromCharCode
+<td>Returns a string from a number of Unicode character values.
+<td>String.fromCharCode([code1[, code2[, ...[, codeN]]]]) 
+</td>
+</tr>
+<tr>
+<td>indexOf
+<td>Returns the character position where the first occurrence of a substring occurs within a String object. 
+<td>strObj.indexOf(subString[, startIndex])
+</td>
+</tr>
+<tr>
+<td>lastIndexOf
+<td>Returns the last occurrence of a substring within a String object.
+<td>strObj.lastIndexOf(substring[, startindex])
+</td>
+</tr>
+<tr>
+<td>match
+<td>Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.
+<td>stringObj.match(rgExp) 
+</td>
+</tr>
+<tr>
+<td>replace
+<td>Returns a copy of a string with text replaced using a regular expression or search string. Full decription of RegExp syntax can be found here:
+<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/js56jsgrpregexpsyntax.asp">http://msdn.microsoft.com/...</a>
+<td>stringObj.replace(rgExp, replaceText). Example: resutl=textToprocess.replace(/text to replace (this|that)/ig,"text to replace with");
+</td>
+</tr>
+<tr>
+<td>search
+<td>Returns the position of the first substring match in a regular expression search.
+<td>stringObj.search(rgExp) 
+</td>
+</tr>
+<tr>
+<td>slice
+<td>Returns a section of a string.
+<td>stringObj.slice(start, [end]) 
+</td>
+</tr>
+<tr>
+<td>split
+<td>Returns the array of strings that results when a string is separated into substrings.
+<td>stringObj.split([separator[, limit]])
+</td>
+</tr>
+<tr>
+<td>substr
+<td>Returns a substring beginning at a specified location and having a specified length.
+<td>stringvar.substr(start [, length ]) 
+</td>
+</tr>
+<tr>
+<td>substring
+<td>Returns the substring at the specified location within a String object. 
+<td>strVariable.substring(start, end)
+</td>
+</tr>
+<tr>
+<td>toLowerCase
+<td>Returns a string where all alphabetic characters have been converted to lowercase.
+<td>strVariable.toLowerCase( )
+</td>
+</tr>
+<tr>
+<td>toUpperCase
+<td>Returns a string where all alphabetic characters have been converted to uppercase.
+<td>strVariable.toUpperCase( )
+</td>
+</tr>
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

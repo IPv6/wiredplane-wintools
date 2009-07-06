@@ -1,0 +1,16 @@
+ScrollingOptions=Opzioni Scorrimento istantaneo
+InstantScrollingAndFullscreen=Scorrimento istantaneo e schermo intero
+Dscplg_wp_instascroll=Questo plugin permette di scorrere le finestre con il mouse e impostare qualsiasi finestra in visualizzazione a schermo intero
+InstantWindowSScrolling=Scorrimento istantaneo finestra
+LeftShift=Shift sinistro
+LeftAlt=Alt sinistro
+LeftControl=Control sinistro
+LeftWin=Win sinistro
+RightShift=Shift destro
+RightAlt=Alt destro
+RightControl=Control destro
+RightWin=Win destro
+ToScrollWindowClick_QSCPWKKOBY=Per scorrere una finestra cliccare con il tasto destro del mouse e uno di questi tasti
+Smoothness=Accelerazione
+SpeedLimit=Velocità
+Nameplg_wp_instascroll=Scorrimento istantaneo finestra

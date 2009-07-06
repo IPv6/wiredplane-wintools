@@ -1,0 +1,48 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Tips and Tricks</h1><hr>
+<table>
+<tr><td bgcolor="AAAAAA"><b>Note/Message</b></td><td>&nbsp;</td></tr>
+<tr><td align=right>-<td></td><td>You can attach note to underlaying window by clicking on attach button with Ctrl pressed</td></tr>
+<tr><td align=right>-<td></td><td>Note in Icon mode takes much less place on the screen. You can quickly switch note to this mode by clicking on attach button or double-clicking on note title</td></tr>
+<tr><td align=right>-<td></td><td>If you want to temporarily hide note and to see what is under note`s window, you can move your mouse over it with Alt pressed (corresponding option must be ON)</td></tr>
+<tr><td align=right>-<td></td><td>You can attach file to the message by simply draging it from other application (note that files can be sended only through Xpc protocol)</td></tr>
+<tr><td align=right>-<td></td><td>If you press Ctrl-Shift-Enter, you message will be sended to recipient and deleted if the case of success</td></tr>
+<tr><td bgcolor="AAAAAA"><b>ToDo</b></td><td>&nbsp;</td></tr>
+<tr><td align=right>-<td></td><td>You can associate ToDo with application by defining activation rules upon that application. ToDo will be active all the time you work with such associated application</td></tr>
+<tr><td bgcolor="AAAAAA"><b>Reminder</b></td><td>&nbsp;</td></tr>
+<tr><td align=right>-<td></td><td>You can right-click on watch window to set exact minute</td></tr>
+<tr><td align=right>-<td></td><td>To create shared reminder you must check corresponfing item in action drop-down list at reminder`s window, shared reminders must be enabled in preferences</td></tr>
+<tr><td align=right>-<td></td><td>To create reminder to trigger everyday except holidays, use "Skip reminder on specified days of week/month" option. Using this option you can set up days, on wich reminder should be silently skipped if triggered. 
+So you can create reminder to display text every day, 9:00 and set it to skip itself at Sunday/Saturday</td></tr>
+<tr><td bgcolor="AAAAAA"><b>Main window</b></td><td>&nbsp;</td></tr>
+<tr><td align=right>-<td></td><td>You can add link to any file by draging it from other application</td></tr>
+<tr><td align=right>-<td></td><td>To move item to another folder or position, you can simply drag and drop it</td></tr>
+<tr><td align=right>-<td></td><td>To quickly set item priority or color style: just right-click on first column</td></tr>
+<tr><td align=right>-<td></td><td>You can sort items by clicking on column titles</td></tr>
+<tr><td align=right>-<td></td><td>Double click on item`s creation date or priority to quickly modify/activate item</td></tr>
+<tr><td align=right>-<td></td><td>To rename item`s title just double-click on it. For non-empty folders and links you can select corresponding menu item from context menu</td></tr>
+<tr><td bgcolor="AAAAAA"><b>Address book</b></td><td>&nbsp;</td></tr>
+<tr><td align=right>-<td></td><td>To move person to another position, you can simply drag and drop it</td></tr>
+<tr><td align=right>-<td></td><td>To view message history for one person only, select 'Message history' from person`s context menu</td></tr>
+<tr><td align=right>-<td></td><td>To open person computer in explorer, just double-click on 'Computer name' column</td></tr>
+<tr><td bgcolor="AAAAAA"><b>Command line switches</b></td><td>&nbsp;</td></tr>
+<tr><td align=right>-<td></td><td>To import settings from another computer, run WN with -io command line switch</td></tr>
+<tr><td align=right>-<td></td><td>To import address book from another computer, run WN with -ia command line switch</td></tr>
+
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

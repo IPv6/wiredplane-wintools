@@ -1,0 +1,17 @@
+RightClickPasteEnhancer=Right-click Paste Enhancer
+Dscplg_wp_rclickcp=Ten plugin pozwoli Ci dodaæ historiê schowka do wszystkich popup menu z pozycj¹ Wklej
+Popt_howManyH_usfvisarqn=Ile pozycji pozycji historii dodawaæ do menu
+Paste=Wklej
+Popt_tweakMenu_eyhllikrnc=Tweakuj menu, które zawiera nastêpuj¹ce pozycje
+Popt_delimitIt_xoxuohipxf=Oddzielaj pozycje znakami ';', na przyk³ad 'Wklej;Kopiuj;Ctrl-V'. Mo¿esz tak¿e wprowadziæ ID pozycji
+Clipboard=Schowek
+Popt_tweakAll_ldqofvwlug=Tweakuj tak¿e wszystkie pozosta³e menu
+Popt_tweakAll_recqncckra=Tweakuj wszystkie menu, które nie mog¹ byæ tweakowane normalnym sposobem
+Popt_applicatio_crofgiyeke=Aplikacje, które musz¹ byæ tweakowane alternatywnym sposobem
+Popt_someAppli_scncpfdxbq=Niektóre aplikacje musz¹ byæ obs³ugiwane w specjalny sposób, jeœli masz problemy z menu 'Wklej', wprowadŸ tutaj nazwê aplikacji. Oddzielaj pozycje znakami ';'  
+Nameplg_wp_rclickcp=Right-click Paste Enhancer
+Popt_replacePa_mkxjvydisd=Zast¹p pozycje 'Wklej' zamiast dodawania podmenu
+Popt_tweakAll_seiakmbaed=Tweakuj *wszystkie* menu (Ignorowanie obecnoœci pozycji 'Wklej')
+Popt_tweakAll_ahwonrkwoi=Tweakuj wszystkie menu nawet te, które nie mog¹ byæ tweakowane normalnym sposobem
+Popt_useFastP_lompnwpqhm=U¿yj szybkiego wklejania
+Popt_replacePa_bnbdffdubk=Zast¹p pozycjê Wklej(zamiast tworzenia oddzielnego podmenu)

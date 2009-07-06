@@ -1,0 +1,2020 @@
+[TEXTS]
+; German translation - (c) 2004 by Wolfgang Küting
+; V1.0 for V2.6.3.1 WireKeys
+; German translation - (c) 2007 by Andreas "Richy" Weidner
+; V1.1 for WireKeys V3.6.3
+;      Completed for WK version 3.6.3 on 31.08.2007 by Andreas Weidner
+;      Many little corrections to Wolfgang's version of WK 2.4.3
+;      Hints:
+;         1. Lines marked with "; not in 3.6.3" are lines taken from German file, although not found in English file at all.
+;            Consider to take it over to English file.
+;         2. Lines marked with "; check " will indicate indistinct entries. Pls. clarify you WK guys. :-) 
+; Richy, 29.11.2007
+; V1.2 for WireKeys V3.6.4
+;      Little corrections because of mistakes/inconsistency or low place in lables.
+; Richy, 30.11.2007
+; V1.3 for WireKeys V3.6.4
+;      Little corrections. Courteousness form generally taken.
+; Richy, 04.12.2007
+      
+<empty>=<leer>
+About=Über
+AboutProgram=Über das Programm
+AboveNormal=Über normal
+Action=Aktion
+Actions=Actions
+Activate=Aktivieren
+ActivateApplication_XRIENVBGJU=Aktiviere Anwendung anstatt neue Instanz zu erzeugen, sofern möglich
+ActivateThisItem=Diesen Eintrag aktivieren
+ActiveApplicationPriority=Aktive Programmpriorität
+ActiveDesktop=Aktiver Desktop
+ActiveWindow=Aktives Fenster
+ActiveWindowAndProcesses=Aktives Fenster und Prozesse
+ActiveWindowSScrolling=Blättern im aktiven Fenster
+ActOnUnpress=Wirken beim Loslassen
+AddApplication=Programm hinzufügen
+AddApplicationFromOneTheRunning=Programm hinzufügen (eine der laufenden)
+AddApplicationMacro=Anwendungsmakro hinzufügen
+AddCursorIntoScreenshot=Cursor zum Screenshot dazu
+AddCursorToScreenshot=Cursor zum Screenshot dazu
+AddDateToClipboard=Datum ins Clipboard
+AddDefaultItems=Standardeinstellungen dazu
+AddFromFile=Hinzufügen aus Datei
+; not in 3.6.3
+AddInsertionMacro=Einfüge-Makro dazu 
+AdditionalActions=Weitere Aktionen
+AdditionalApplicati_ILYJUBTMKB=erweiterte Anwendungsmenü-Unterstützung; kann WireKeys abstürzen lassen bei einigen Nicht-Standard-Menüs
+AdditionalClipboards=Weitere Clipboards
+AdditionalClipCopy=Weiterer Clip - Kopieren
+AdditionalClipPaste=Weiterer Clip - Einfügen
+AdditionalClips=Weitere Clips
+AdditionalDesktops=Weitere Desktops
+AdditionalDesktopsH_STNKBUKCYE=Weitere Desktops Hotkeys und Einstellungen
+AdditionalInformation=Ergänzende Informationen
+; not in 3.6.3
+Additionally=Erweitert
+AdditionalMenu=Zusatz-Menü
+AdditionalOperation_YYLPRMABUK=Zusätzliche Operationen mit markiertem Text
+AdditionalOptions=Zusätzliche Einstellungen
+AdditionalParameters=Zusätzliche Parameter
+AdditionalTextClipboards=Zusätzliche Text-Clipboards
+AdditionalTooltipCo_RLWPVSGCRN=Zusätzlicher Tooltip enthält Informationen über Anwendung, aus der Schnippsel entnommen wurde
+AddMacro=Makro hinzufügen
+AddMacroFromFile=Makro aus Datei hinzufügen
+AddMediaKey=Media Taste hinzufügen
+AddModifier=Modifizierer hinzufügen
+AddModifyScheduleFor=Zeitplan neu/ändern für
+AddModifyTypingAliasFor=Tipp-Kürzel neu/ändern für
+AddMouseKey=Maustaste dazu 
+AddNewApplication=Neues Programm hinzufügen
+; not in 3.6.3
+AddNewApplicationItem=Neuen Anwendungseintrag hinzufügen
+AddNewApplicationMacro=Neues Anwendungsmakro hinzufügen
+AddNewEmptyItem=Neuer Leereintrag
+AddNewFileItem=Neuer Dateieintrag
+AddNewFolderItem=Neuer Verzeichniseintrag
+AddNewInsertionMacro=Neues Zusatzmakro
+; prüfen Zusatz oder Einfüge?
+AddNewInternetAddress=Neue Internet-Adresse
+AddNewLaunchSet=Neues Start-Set
+AddNewQuickRunItem=Neuer Schnellstarteintrag
+AddNewQuickRunOnTheBasisOf=Neuer Schnellstarteintrag auf Basis von
+; not in 3.6.3
+AddNewTextMacro=Neues Textmakro
+AddPositionOfPlaybackToTheOsd=Wiedergabe-Position zum OSD hinzufügen
+AddRemovePrograms=Hinzufügen/Entfernen von Programmen
+AddScheduleModifySchedule=Zeitplan neu oder ändern
+AddShortcutToDesktop=Neue Verknüpfung für Desktop
+; check doubled in 3.6.3
+AddToAutoHide=Für autom. Verstecken dazu
+AddToDesktop=Neu für Desktop
+AddToExplorerSConte_DNYGDCWIFI=Zum Kontextmenü des Explorers als Untermenü dazu
+AddToQuickLaunch=Zum Schnellstart dazu
+AddToQuickRuns=Zum Schnellstart dazu
+AddToStartMenu=Neu für Startmenü
+AddTotalTrackLengthToTheOsd=Gesamt-Titellänge zum OSD hinzufügen
+AddToTrayAdditionalIcon=Tray-Icon für WireKeys hinzufügen
+; not in 3.6.3
+AddToTraySpecialIco_JRNMKTBAJF=Spezial-Icon beim WireKeys-Start zum Tray hinzufügen
+AdjustIconsPosition_CDEDBVWGTP=Icon-Positionen an Bildschirmauflösung anpassen
+AdvancedOptions=Fortgeschrittene Einstellungen
+AfterComputerIsUnlocked=nachdem Computer entsperrt wurde
+AfterManualIconsRestoreOnly=Nur nach manuellem Icon-Wiederherstellen
+AfterStart=Nach dem Start
+AllHotkeysAreDisabled=Alle Hotkeys sind ausgeschaltet
+; not in 3.6.3
+AllHotkeysAreEnabled=Alle Hotkeys sind eingeschaltet
+; not in 3.6.3
+AllowsOneToUseMouse_CECVGDLRRQ=Erlaube, Maustasten, Multimediatasten, Links- und Rechts-Tastenmodifizierer (ctrl/alt/shift/win) in Hotkeys zu nutzen
+AllowsToActivateAct_UCGFAIEJHT=Erlaube, Aktionen nach Zeitplan zu aktivieren
+AllowToSetAllPossib_TOMAUGNJSK=Allow to set ALL possible resolutions for additional desktops
+AllowToSetAllPossib_TOMAUGNJSK=Erlaube ALLE möglichen Auflösungen in weiteren Desktops zu nutzen
+AllowWirekeysToWork_CXUDEYDVRB=Erlaube WireKeys im hochpriorisierten Modus zu arbeiten
+AllPastedStringsWil_TVDTYAKRJV=Alle eingefügten Zeichenketten werden zuerst anhand regulärer Ausdrücke behandelt
+AllSuitableCharsWil_AUKDOKPFWC=Alle passenden Zeichen werden durch diese Zeichenkette ersetzt
+AllSuitableCharWill_MVFFBIAODM=Jedes passende Zeichen wird mit dieser Zeichenkette ersetzt
+; not in 3.6.3
+AlternativeBossKeyAction=Alternative "Boss"-Tasten-Aktion
+AlternativeHotkeyS=Alternativer Hotkey
+AlternativeHotMenu=Alternatives Hot-Menü
+AlternativeScreenshot=Alternativer Screenshot
+AlwaysShowCurrentSo_NWAMIGAMGA=Zeige aktuelles Lied immer im OSD
+And=und
+AndChangesWillNotAf_EWQRSCASOA=und Änderungen betreffen andere Desktops nicht ohne Systemneustart
+AndMacros=und Makros
+AndStartNewOne=und starten einen neuen
+AndStopItAlongWithScreensaver=und stoppe das zusammen mit Bildschirmschoner
+AnimateWindowWhenHiding=Animiere Fenster beim Verstecken
+AnyWindowCanBeMinim_XSOEUY=Jedes Fenster kann zum Tray minimiert werden durch Rechts-Klick auf den 'Minimieren'-Knopf
+AppendStringPatternsPermitted=Zeichenkette anhängen (Muster erlaubt)
+AppendStringToEveryCopy=Zeichenkette an jede Kopie anhängen
+AppendToDiary=An Tagebuch hängen
+Application=Anwendung
+; not in 3.6.3
+ApplicationBoost=Anwendungs-"Boost"
+ApplicationBoostProperties=Einstellungen Anwendungs-"Boost"
+ApplicationDesktop=Anwendungsdesktop
+ApplicationFolder=Anwendungsverzeichnis
+ApplicationInfo=Information Anwendung
+ApplicationListToKi_JEGOXKOYDY=Anwendungsliste für gleichzeitiges Abschießen
+ApplicationMacros=Anwendungsmakros
+; not in 3.6.3
+ApplicationPath=Anwendungspfad
+ApplicationPriority=Anwendungspriorität
+ApplicationShortcut=Anwendungsverknüpfung
+Apply=Anwenden
+ApplyAdditionalOptions=Übernehmen zusätzliche Einstellungen
+; not in 3.6.3
+ApplyChangesAndExitDialog=Änderungen übernehmen und Dialog beenden
+ApplyOptions=Optionen anwenden
+AreaSize=Bereichsgrösse
+; not in 3.6.3
+Ask=Fragen
+AsNumber=Als Zahl
+AssociatedEditorNotFound=Verbundener Editor nicht gefunden
+; not in 3.6.3
+AsString=Als Zeichenkette
+AtStartup=beim Start
+AttachToTray=zum Tray hinzufügen
+AudioMixerWasNotPropelyInitialized=Audiomixer ist nicht richtig initialisiert
+; not in 3.6.3
+Author=Autor
+Auto=Auto
+AutoCloseCdDriveAft_BKKBTFNBKT=CD-Laufwerk nach einigen Sekunden automatisch schließen
+AutohideWindow=automat. Verstecken des Fenster
+AutomaticallyOpenIn_EULYUGRXEY=Automatisch im Bildbearbeitungsprogramm öffnen
+AutomaticallyWithRe_GBLWOTOOPD=Automatisch mit Auflösungsänderung
+AutomationToolForPowerUsers=Automations-Tool für Power User
+AutoOpenInEditor=Automatisch im Editor öffnen
+AvertvRemote=AverTV Remote
+; not in 3.6.3
+Back5Secs=5 Sek. zurück
+BackgroundColor=Hintergrundfarbe
+BackupConfig=Backup-Einstellungen
+; not in 3.6.3
+BackupConfigToFile=Backup-Einstellungen in Datei
+BackupFile=Backup-Datei
+Backward=Rückwärts
+Balance=Balance
+BaseAction=Basisaktion
+BeforeLaunchingScreenSaver=vor Start des Bildschirmschoners
+BeforeLockingComputer=vor Sperrung des Computers
+BeforeShutdownSetVolumeToPercents=vor dem Herunterfahren: Lautstärke auf ... Prozent setzen
+; not in 3.6.3
+BigBitmapNotSaved=Big bitmap - not saved
+BigBitmapNotSaved=Großes Bild - nicht gespeichert
+Bitmap=Bitmap
+Bits=Bits
+BlockKeyboardHotkey_PUTKVVTBOU=Blockiere Tastatur-Hotkey, andere Tastatur- und Hotkey-Optionen.
+BlockKeypressesOnCapsLock=Blockiere "Caps Lock"
+; not in 3.6.3
+Bold=Fett
+; not in 3.6.3
+BoldGlow=Fettes Glühen
+BoldShadow=Fetter Schatten
+BoostActiveApplication="Boost" für aktives Programm
+BoostApplicationUpT_GSSJNLHOQK=Anwendung bis folgende Priorität hochfahren
+; not in 3.6.3
+BoostedApplicationPriority=Hochgefahrene Anwendungspriorität
+; not in 3.6.3
+BoostIsAchievingByI_EHQIRBIVIA="Boost" wird erreicht durch Erhöhen der Priorität der aktiven Anwendung
+; not in 3.6.3
+BorderAroundOsdString=Rahmen um den OSD-Text
+BossKey=Boss-Taste
+BossKeyAndRelatedOptions=Boss-Taste und damit verbundene Einstellungen
+BossKeyBehaviour=Verhalten bei Boss-Taste
+BossKeyWinampVolume_STDIVQPTUM=Boss-Taste, Winamp/Volume-Steuerung und mehr
+BottomCenter=Unten-Zentriert
+BringActiveApplicationIntoView=aktive Anwendung in Sicht bringen
+; not in 3.6.3
+BringWindowIntoView=Fenster in Sicht bringen
+; not in 3.6.3
+BrowseForDirectory=nach Verzeichnis suchen
+; not in 3.6.3
+BrowseForFile=nach Datei suchen
+; not in 3.6.3
+BrowseForFolder=Nach Verzeichnis suchen
+Browser=Browser
+BtwDonTForgetToRegi_JFEQDGCHSO=Übrigens: Vergessen Sie nicht, WireKeys zu registrieren
+; not in 3.6.3
+BuyNow=Jetzt kaufen
+; not in 3.6.3
+BuyWirekeys=WireKeys kaufen
+; not in 3.6.3
+Calculate=Berechnen
+Calculator=Rechner
+CalculatorError=Rechner-Fehler
+Cancel=Abbrechen
+Cancelled=Abgebrochen
+; not in 3.6.3
+CancelShutdown=Herunterfahren abbrechen
+CanTConnectToTheWiredplaneLabsWebPageCheckAborted=Keine Verbindung zu 'WiredPlane Labs' webpage. Check abgebrochen
+; not in 3.6.3
+CanTGetSelectedText=Kann markierten Text nicht bekommen
+CanTPutText=Kann Text nicht ablegen
+; not in 3.6.3
+CanTShutdownComputer=Kann Computer nicht herunterfahren
+; not in 3.6.3
+CanTStartDefaultEMailClient=Kann Standard-E-Mail-Programm nicht starten
+; not in 3.6.3
+CapitaliseTheFirstL_XQMQXUQVEB=Großschreiben Des Ersten Buchstabens Je Wort
+CatchChangesInTheWi_ELTNBIANXX=Fange Änderungen im WinAmp-Titel (aktueller Song) und zeige sie im OSD-Text
+; not in 3.6.3
+Caution=Warnung
+CautionBackupContainsYourPreferencesOnly=Warnung: Sicherung enthält nur Deine Einstellungen – ohne Schnellstarteinträge und Clipboard-Verläufe
+; not in 3.6.3
+CautionHigherRatesU_QMEOGAFKJQ=Warnung: Höhere Werte verbrauchen mehr Systemressourcen
+CautionTheseOperati_LBIJBIRLFA=Caution: Diese Vorgänge beeinflussen den Clipboard-Status. Alles außer dem letzten Text-Schnipsel wird entfernt
+CautionThisFeatureM_NHEHDPCDOK=Warnung: Dieses Feature kann Konflikte mit anderen Anwendungen auslösen
+CautionThisOperatio_VPNWCOXMEV=Warnung: Diese Operationen beeinflussen das Clipboard. Mit Ausnahme des letzten Textschnippsel wird alles aus dem Clipboard gelöscht
+; not in 3.6.3
+CautionToStopSequen_KCFDWJHLLW=Warnung: Um aufeinanderfolgende Screenshots zu stoppen, drücke "Mache Screenshot" Hotkey noch mal
+CdDriveLetter=CD-Laufwerk-Buchstabe
+CdDriveLetterForDoublePress=CD-Laufwerk-Buchstabe für Doppeldruck
+CdEjectingIncluding_XGGPLTCSUS=CD-Auswurf (einschl. autom. Auswurf vor Runterfahren)
+Center=Mitte
+ChangeActivationHotkey=Ändere Aktivierungs-Hotkey
+ChangeCaseOfTheSelectedText=Wechsle markierten Text GROSS/klein
+ChangesInThisOption=Änderungen an dieser Einstellung
+ChangeTrayIconWhenW_RMHCKQVXSF=Ändere Tray-Icon bei der Arbeit mit Clipboards
+CharactersCount=Zeichenzahl
+CharactersInSelection=Zeichen in Markierung
+CheckForUpdate=Auf Update prüfen
+CheckForUpdatesEveryDayS=Jeden ... Tag auf Update prüfen
+CheckInactivePlugin_XSLXCDBOLW=Prüfe inaktive Plugins; äußerst nützliche Dinge sind hier zu finden.
+CheckingConnection=Prüfe Verbindung...
+CheckingNewVersion=Prüfe auf neue Version
+ChooseDirectory=Wähle Verzeichnis
+ChooseHotkeyToActivate=Wähle Hotkey zum aktivieren
+; not in 3.6.3
+ChooseOneAndClickButton=Wählen Sie einen und drücken Button
+; not in 3.6.3
+ChooseShortcutLocation=Wählen Sie einen Verknüpfungsort
+ChooseTopicFromTheL_SVYHOEJNGN=Wähle Sie ein Thema aus der linke Seite. Doppelklicke Optionswert auf der rechten Seite um den zu ändern
+ChooseYourLanguage=Choose your language - Wählen Sie Ihre Sprache
+ClearCheckboxToEnab_KFXUPKEJNI=Checkbox löschen um "Unsichtbar"-Modus einzuschalten
+ClearClipboardHistories=Clipboard-Verlauf löschen
+ClearClipboards=Clipboards löschen
+ClearHotkey=Lösche Hotkey
+ClearThisHistory=Lösche diesen Verlauf
+ClickButtonToEditCreateFile=Drücken des '...'-Buttons, um Datei zu bearbeiten/anzulegen
+; not in 3.6.3
+ClickHereToPopupMen_PADVPSDVGG=Hier klicken für Extra-Popup-Menü
+ClickHereToStopRecording=Hier klicken um Aufnahme zu stoppen
+; not in 3.6.3
+ClickingItYouWillRunThisItem=Anklicken startet den Eintrag
+ClickOnApplyButtonA_KFHUIPUERA=Klicke auf 'Anwenden' nach Änderung dieser Einstellung
+ClickOnProcessToCloseIt=Klicke auf den Prozess um ihn zu schließen
+Clip=Clip
+Clipboard=Clipboard
+ClipboardsHotkeysSo_PQPEIHKWBP=Clipboard Hotkeys, diverse Einstellungen
+ClipboardsNeedRestart=Clipboards (Neustart erforderlich)
+; not in 3.6.3
+Close=Schließen
+; not in 3.6.3
+CloseActiveApplication=Schließe aktive Anwendung
+CloseApplication=Anwendung schließen
+CloseFloater=Schließe Floater
+CloseMenu=Menü schließen
+ClosePreviousInstance=Schließe letzte Instanz
+CollapseAllFolders=alle Unterverzeichnisse zuklappen
+Colors=Farben
+CommandLine=Kommandozeile
+CommentUncomment=(Ent-)Kommentieren
+Common=Allgemein
+CommonOperations=Allgemeine Anweisungen
+CommonOptions=Allgemeine Einstellungen
+CommonVolumeControls=Allegemeine Lautstärkesteuerung
+CompatibleMode=Kompatibilitätsmodus
+ConfigurationBackedUp=Konfiguration gesichert
+ConfigurationBackup=Konfigurationsbackup
+ConfigurationProtec_FFCVVWESXK=Konfigurationsschutz und -Backup
+ConfigurationRestored=Einstellungen wiederhergestellt
+Confirmation=Bestätigung
+ConfirmationType=Bestätigungsart
+ConfirmWithInvertEffect=Bestätigung mit Umkehreffekt
+; not in 3.6.3
+Contents=Inhalt
+ContextMenuForSelectedText=Kontextmenü für markierten Text
+ContextSpecificAction=Kontext-spezifische Anweisungen
+Continue=Fortsetzen
+; not in 3.6.3
+ControlMediaPlayerZ_LRDLKRXNNA=Steuerung Media player/Zoom player/BS player
+ConvenientForQuickO_PCKGPVCKEA=Bequem fü schnellen Ein-Klick-Zugriff auf wichtige Einträge
+ConvertFolderToDrive=Konvertiere Verzeichnis in Laufwerk
+ConvertLastLineToAnotherLayout=Konvertiere die letzte Zeile in anderes Layout
+ConvertLayout=Layout umwandeln
+ConvertOnlyLastWord_ADROJTWRPF=Konvertiere nur das letzte Wort, nicht die Zeile gesamt
+ConvertSelectedText_FVUAIQFYAK=Markierten Text in ein anderes Layout umwandeln
+ConvertTextLayout=Textlayout umwandeln
+ConvertToLowerCase=in kleinschrift umwandeln
+ConvertToUpperCase=in GROSSSCHRIFT umwandeln
+Copy=Kopieren
+CopyEmailWithYourRe_MIBLUWBBFH=Kopieren Sie die Email mit der Registrierungsinfo ins Clipboard und drücke diesen Knopf
+CopyHotKey='Kopier'-Hotkey
+CopyOf=Kopie von
+CopySelectionToClip=Markierung in Clip kopieren
+CopyToClip=Kopiere in Clip
+Cpu=CPU
+CpuUsage=CPU-Auslastung
+; not in 3.6.3
+CreatedSuccessfully=Erfolgreich erzeugt
+; not in 3.6.3
+CreateFolderWhenNeeded=Erzeuge Verzeichnis wenn nötig
+CreateNewItem=Erzeuge neuen Eintrag
+; not in 3.6.3
+CtrlCCtrlV=Strg-C/Strg-V
+CtrlInsertShiftInsert=Strg-Einfg/Umsch-Einfg
+CurrentDate=Aktuelles Datum
+CurrentDayOfWeek=Aktueller Tag der Woche
+CurrentHotkeyBindings=Aktuelle Hotkeys
+; not in 3.6.3
+Currently=Aktuell
+; not in 3.6.3
+CurrentlyAssignedAction=Aktuell zugewiesene Aktion
+; not in 3.6.3
+CurrentlyPlayingSon_GSNUCJBSCF=Momentan gespieltes Lied und OSD-Einstellungen
+CustomizeThisMenu=Menü anpassen
+DateFormat=Datumsformat
+Day1short=So
+Day2short=Mo
+Day3short=Di
+Day4short=Mi
+Day5short=Do
+Day6short=Fr
+Day7short=Sa
+Day7short=Sa
+DayS=Tag(e)
+DaysLeft=Resttag(e)
+DecreaseVolume=Vermindere Lautstärke
+DecreaseVolumeBy10=Lautstärke um 10% reduzieren
+DecreasingWinampVolumeBy=erhöhe WinAmp-Lautstärke um
+Default=Standard
+DefaultDesktop=Standard Desktop
+DefaultHotkeysForOp_QSSARKTJKY=Standard-Hotkeys für die Dialoge 'Suche', 'Ausführen' und andere Standard-Dialoge
+DefaultImageEditor=Standard Bildbearbeitung
+; not in 3.6.3
+DefaultQuickRunItem_USFWDKTYYB=Standard Schnellstart-Einträge werden<br>beim nächsten Start von WireKeys hinzugefügt
+DefineActivationHotkey=Definiere Aktivierungs-Hotkey
+; not in 3.6.3
+DefineHotkeysForAllMainFunctionOfWirekeys=Definiere Hotkeys für alle Hauptfunktionen von WireKeys
+; not in 3.6.3
+DefineHotkeysForCon_BNTGFFOQVC=Definiere Hotkeys zur Steuerung von WinAmp
+DefineHotkeysForShu_UUDBPRWNYE=Definiere Hotkeys für Runterfahren / Abmeldung und anderen Aktionen
+DefineHotkeyToActivateItem=Definiere Hotkey für Eintragsaktivierung
+Deinstall=Deinstall
+Delete=Löschen
+DeleteQuickRunEntry=Lösche Schnellstart-Eintrag
+; not in 3.6.3
+DeleteThisItem=Eintrag löschen
+DepthOfTheClipboardsHistory=Grösse des Clipboard-Verlauf
+; not in 3.6.3
+Description=Beschreibung
+DescriptionEnabling_TESHEHAOFI=Beschreibung: Erlaube/verbiete Fenster unterm Cursor
+Desktop=Desktop
+DesktopIcons=Desktop-Icons
+DesktopIconsAndWindows=Desktop, Icons und Fenster
+DesktopIconsPositio_NHKUBPURTC=Position der Desktop-Icons erfolgreich wieder hergestellt
+DesktopIconsPositio_THKVWSFGIN=Position der Desktop-Icons erfolgreich gesichert
+DesktopIconsPositionsSuccessfullySaved=Position der Desktop-Icons erfolgreich gesichert
+; not in 3.6.3
+DesktopIconSShortcuts=Desktop-Icon-Verküpfungen
+DesktopItems=Desktop-Einträge
+DesktopRelated=Desktop
+Desktops=Desktops
+DesktopsIcons=Desktop-Icons
+DetachFromTray=Löse vom Tray
+DetachItemIntoIcon=Eintrag in Icon abtrennen
+DetachItemToFloater=Trenne Eintrag vom Floater
+DirectActionsFromHo_NVRGH=Richte Aktionen von Hotkeys mit Mausklick auf das Fenster unterm Cursor, nicht auf das Fordergrundfenster.
+Directory=Verzeichnis
+Disable=Disable
+DisableAllSounds=Alle Töne ausschalten
+DisableConfirmationAlert=Bestätigungswarnung ausschalten
+Disabled=ausgeschaltet
+DisabledCheckPrefer_E=Ausgeschaltet, prüfe Einstellungen zum Einschalten
+DisableDoublePressExtensions=Disable 'Double-press' extensions
+DisableDoublePressExtensions=Schalte 'Doppeldruck'-Erweiterungen aus
+DisableEvenInPreferences=Ausschalten sogar in den Voreinstellungen
+DisableNotification_SULDQKRIKJ=Mitteilungen über Cursorform ausschalten
+DisableScreenSaver=Bildschirmschoner ausschalten
+DisplayOrHideTheStartMenu=Azeigen oder Verbergen des Startmenüs
+DisplayProperties=Bildschirmeinstellungen
+DisplayTheDesktop=Desktop anzeigen
+DisplayTheSystemPro_RTRUFJAHXY=Anzeige Systemsteuerung
+DisplayWindowsHelp=Anzeige der Windows-Hilfe
+DistanceToStickWind_WESFSDKQAM=Stossdistanz zwischen Fenster (Pixel)
+DocumentOrFileOnYourDisk=Dokument oder Datei auf deiner Diskette
+; not in 3.6.3
+Donate=Spenden
+; not in 3.6.3
+Done=Done
+DoNotCatchBitmapsLa_TPVJADQUYX=Bitmaps nicht einfangen, die größer sind als ... Bytes
+DoNothing=Nichts tun
+DoNotInterfereWithC_KBBWXJHLWC=Keine Beinflussing des Clipboard, abschalten aller Clipboard-Features
+DoNotMoveFocusForPopupMenus=Fokus nicht verschieben für Popup-Menüs 
+DoNotOpen=Nicht öffnen
+DoNotSaveBitmapsLar_DWCFRKTTLK=Do not save bitmaps larger than ... bytes
+DoNotSaveBitmapsLar_DWCFRKTTLK=Bitmaps nicht speichern, die größer sind als ... Bytes
+DoNotShow=Nicht anzeigen
+; not in 3.6.3
+DoNotShowAtAll=Überhaupt nicht zeigen
+DoNotShowHelpItemsInMenus=Hilfe-Einträge in Menüs nicht anzeigen
+DoNotShowInTrayMenu=Im Tray-Menü nicht anzeigen
+; not in 3.6.3
+DoNotShowMenu=Menü nicht anzeigen
+DoNotShowTooltip=Zeige keinen Tooltip
+DoNotShowWarningAbo_CFPJUOUSDG=Keine Warnung bei Hotkey-Konflikten zeigen
+DoNotStartNewInstance=Keine neue Instanz starten
+DoNotStartNewOne=Kein neues starten
+; prüfen "neues"
+DoNotUseAsIndicator=nicht als Indikator nutzen
+DonTShowAgain=Nicht mehr anzeigen
+DoubleClick=Doppelklick
+DoubleClickCellToEditValue=Doppleklick auf Zelle um Wert zu bearbeiten
+; not in 3.6.3
+DoubleClickRightCol_USPWWYCCKP=Doppleklick auf rechte Spalte um Wert zu bearbeiten
+; not in 3.6.3
+DoublePress=Doppeldruck
+DoublePressBehaviour=Doppeldruck-Verhalten
+DoublePressHotkeyIs_XRGBOWDQLF='Doppeldruck'-Hotkey wird nicht ausgeführt bis die zugehörige Strg/Alt/Shift/Win-Taste losgelassen wurde. Diese Option schaltet solch ein Verhalten zusammen mit erweiteter Funktionalität aus
+DoublePressThisKeyT_GHTFTOJFBA=Doppeldruck auf diese Taste um Startverlauf anzuzeigen
+DoublePressTo=Doppeldruck auf
+DownloadAdditionalMacros=Weitere Makros herunterladen
+DownloadingFile=Datei wird heruntergeladen...
+DownloadMacros=Download Makros
+DownloadMoreMacros=Mehr Makros herunterladen
+DownloadMorePlugins=Mehr PlugIns herunterladen
+DownloadPlugins=Download PlugIns
+DownloadSize=Download-Grösse
+DoYouReallyWantToIn_CEMKHYDWDC=Wollen Sie wirklich <br>die Standard-Schnellstarts erneut installieren
+DoYouWantToChangeResolution=Wollen Sie die Auflösung ändern
+DoYouWantToCheckForUpdateOf=Nach Update schauen von
+DoYouWantToInstall=Wollen Sie installieren
+DoYouWantToKill=Wollen Sie abschießen
+DoYouWantToReadSimp_KWICVTNTAS=Möchten Sie das Tutorial lesen<br>"Wie benutzt man WireKeys" (empfohlen)
+DoYouWantToRemove=Wollen Sie entfernen
+DoYouWantToScheduleThisAction=Wollen Sie <br>diese Aktion in den Zeitplan aufnehmen
+DoYouWantToSeeWhatS_BNMNCUWTEH=Möchten Sie "Was ist neu?" in dieser Version lesen?
+DrawRectangle=Zeichne Rechteck
+DriveInfo=Laufwerksinfo
+DropAllClipboardsContent=Alle Clipboards löschen
+; not in 3.6.3
+DropCapsLockStateWithShift="Caps Lock"-Status fallen lassen mit "Shift"
+; not in 3.6.3
+Dsc_bossKeyHideTermi=Boss-Taste (Verstecken/Beenden aller/spezif. Fenster)
+Dsc_bringOffscreenWind=Offscreen-Fenster in Sicht bringen
+Dsc_changeCaseOfTheS=Wechsle Schreibart des markierten Textes
+Dsc_clearClipboardHist=Clipboard-Verlauf löschen
+Dsc_closeActiveApplica=Schließe aktive Anwendung
+Dsc_contextMenuForSel=Kontextmenü für markierten Text
+Dsc_convertKeyboardLay=Wechsle Tastaturlayout des markierten Textes
+Dsc_convertLastWordTo=Konvertiere letztes Wort in anderes Layout
+Dsc_displayOrHideThe=Anzeigen oder Verstecken des Startmenüs
+Dsc_displayTheDesktop=Desktop anzeigen
+Dsc_displayTheSystemP=Anzeige Systemsteuerung
+Dsc_displayWindowsHelp=Anzeige der Windows-Hilfe
+Dsc_extremeShutdown=Unbeirrtes Runterfahren
+Dsc_freePhysicalMemory=Freier physischer Speicher
+Dsc_hideActiveWindowC=Aktives Fenster komplett verstecken
+Dsc_hideActiveWindowI=Verstecke aktives Fenster im Floater
+Dsc_hideActiveWindowT=Aktives Fenster in Tray verstecken
+Dsc_hotMenuItemsRel=Hot-Menü (Einträge die aktivem Fenster zugeordnet sind)
+Dsc_killActiveApplicat=Aktive Anwendung abschießen
+Dsc_killAllApplication=Abschießen aller Anwendungen gemäß vordefinierter Liste
+Dsc_lockComputer=Computer sperren
+Dsc_lockTheKeyboard=Tastatur sperren
+Dsc_makeActiveWindowT=Aktives Fenster völlig transparent machen
+Dsc_makeScreenshotAnd=Screenshot erzeugen und in Datei speichern/ in Editor öffnen
+Dsc_minimizeActiveWind=Minimiere aktives Fenster
+Dsc_minimizeAllOfThe=Minimiere alle Fenster
+Dsc_muteSound=Ton stumm schalten
+Dsc_openCloseCdDrive=CD-Laufwerk öffnen/schliessen
+Dsc_openMyComputer=Öffne Arbeitsplatz
+Dsc_openTheRunDialog=Öffne den Dialog "Ausführen"
+Dsc_openUtilityManager=Öffne den Utility Manager
+Dsc_popupListOfProces=Prozessliste anzeigen
+Dsc_restoreActiveWindo=Ursprungsgrösse/-position des aktiven Fenster setzen / maximieren
+Dsc_restoreDesktopIcon=Wiederherstellen der Desktop-Icon-Positionen
+Dsc_rollupUnrollActive=Auf-/Abrollen des aktiven Fenster zur Titelzeile
+Dsc_runSelectedTextAs=Markierten Text als Befehl starten oder berechnen lassen
+Dsc_saveDesktopIconsP=Speichern der Desktop-Icon-Positionen
+Dsc_scrollOnePageDown=eine Seite runter
+Dsc_scrollOnePageUp=eine Seite hoch
+Dsc_scrollWindowDown=Fenster runterrollen
+Dsc_scrollWindowLeft=Fenster links rollen
+Dsc_scrollWindowRight=Fenster rechts rollen
+Dsc_scrollWindowUp=Fenster hochrollen
+Dsc_searchForAFileOr=Search for a file or a folder
+Dsc_searchForAFileOr=Suche nach Datei oder Verzeichnis
+Dsc_searchForComputers=Suche nach Computern
+Dsc_showHideWinamp=Zeigen/Verbergen von WinAmp
+Dsc_showPreferencesDia=Zeige Einstellungsdialog
+Dsc_showPreviouslyHidd=Zeige vorher verstecke Fenster
+; not in 3.6.3
+Dsc_showShutdownRestar=Zeige Runterfahren/Neuestart-Dialog
+Dsc_showTimeAndDate=Zeige Zeit und Datum
+Dsc_shutdownRestartCom=Computer runterfahren (Doppeldruck für Neustart)
+Dsc_startBrowser=Standardbrowser starten
+Dsc_startEmailClient=E-Mail-Anwendung starten
+Dsc_startScreenSaver=Bildschirmschoner starten
+Dsc_switchKeyboardLayo=Wechsle Tastaturlayout
+Dsc_switchMonitorInto=Monitor auf Stand-by schalten
+Dsc_switchOnTopState=Wechsle On-Top-Status des aktiven Fensters
+Dsc_switchToNextDeskt=Wechsle zum nächsten Desktop
+Dsc_switchToPreviousD=Wechsle zum vorherigen Desktop
+Dsc_temporarilyMuteSou=Ton zeitweise stumm schalten
+Dsc_unhideAllHiddenWi=Alle verstecken Fenster aufdecken
+Dsc_volumeDown=Lautstärke leiser
+Dsc_volumeUp=Lautstärke lauter
+Dsc_winampBack5Seco=WinAmp - Zurück 5 sek
+Dsc_winampChangeShuf=WinAmp – Wechsle Mischung
+Dsc_winampDecreaseVo=WinAmp – Lautstärke vermindern
+Dsc_winampForward5S=WinAmp - Vorwärts 5 sek
+Dsc_winampIncreaseVo=WinAmp – Laustärke erhöhen
+Dsc_winampNextSong=WinAmp - nächster Titel
+Dsc_winampPausePlay=WinAmp - Pause / Spielen
+Dsc_winampPreviousSo=WinAmp – vorheriger Titel
+Dsc_winampShowCurren=WinAmp – Zeige aktuell gepieltes Lied
+Dsc_winampStartStop=WinAmp - Start / Stopp
+Dsc_winampStartVisua=WinAmp - Starte Visualisierungs-Plugin
+Dscmac_addsSelectedF=Ausgewählte Datei zur WinAmp Playlist hinzufügen
+Dscmac_appendSelected=Markierten Text am Ende der Datei anhängen; definiert im Macro-Parameter.
+Dscmac_automaticallyR=Automatisch aufgenommenes Makro
+; not in 3.6.3
+Dscmac_calculateMd4M=Berechne md4/md5/SHA-1 Hash des markierten Textes
+Dscmac_controlMouseP=Steuere Mausposition via Hotkeys
+Dscmac_cropsAndSaves=Schneidet und speichert Dateien stapelweise. Starte IrfanView, öffne gewünschte Dateien, markiere Bereich und drücke Hotkey
+; not in 3.6.3
+Dscmac_hardDriveInfo=Festplatten-Information. Wählen Sie Laufwerksbuchstaben und starte dieses Makro - Sie erhalten alle Informationen (freie und Gesamtgrösse uvm.)
+Dscmac_minimizeMaximi=Minimiere/Maximiere das Messenger-Fenster per Hotkey aus beliebig anderer Anwendung
+Dscmac_newsGoogleCom=news.google.com/ - Microsoft Internet Explorer
+Dscmac_noDescription=Noch keine Beschreibung vorhanden
+Dscmac_opensNewEmail=Neue E-Mail öffnen mit Empfänger aus markierter Adresse
+; not in 3.6.3
+Dscmac_opensWindowWi=Öffnet Fenster mit Suchergebnissen. Wähle Suchtext und drücke den Hotkey
+; not in 3.6.3
+Dscmac_pointFolderIn=Markiere ein Verzeichnis in einem Dateiauswahlfenster und starte dieses Makro. Das gewählte Verzeichnis wird bis zum nächsten Systemstart automatisch als Laufwerk hinzu gefügt
+Dscmac_popupTranslati=Popup-Übersetzung des markierten Textes in der Nähe der Cursorposition
+Dscmac_recordedMacro=aufgenommenes macro
+Dscmac_sampleMacroDe=Beispiel-Makro Bezeichnung
+Dscmac_scriptToGetQ=Skript um Zitate aus http://bash.org/ zu holen
+; not in 3.6.3
+Dscmac_selectFolderI=Quellverzeichnis im Explorer wählen und dieses Makro starten. WK fragt nach dem Zielverzeichnis und kopiert alle Dateien vom Quell- ins Zielverzeichnis
+Dscmac_showTranslatio=Zeige Übersetzung in Baloon-Tooltip nahe dem Cursor
+Dscmac_testCallingRo=Test Aufruf Routine
+Dscmac_texteMitDatum=Texte mit Datumseinfuegung
+; prüfen this entry is a GERMAN key. Really intended?
+Dscmac_thisMacroAuto=Dieses Makro fügt Kommentarzeichen (definiert im Makro-Parameter) zum markierten Text automatisch hinzu oder entfernt sie.
+Dscmac_thisMacroPerf=Dieses Makro führt verschiedene Groß/Klein-Umwandlungen am markierten Text aus.
+Dscmac_thisMacroRena=Dieses Makro benennt die markierte Datei um, indem Datum und Zeit zum Dateinamen hinzugefügt wird
+Dscmac_thisMacroSwap=Dieses Makro vertauscht automatische Zeilenabschnitte aus mehrzeiligen Texten. Trennzeichen ist im Makro-Parameter definiert.
+Dscmac_thisMacroTran=Dieses Makro transskribiert lateinische Zeichen in russische
+Dscmac_thisMacroTran=Dieses Makro transskribiert russische Zeichen in lateinische
+Dscmac_thisMacroWill=Dieses Makro öffnet eine Hilfeseite zum markierten PHP-Befehl
+; not in 3.6.3
+Dscmac_titleAvtodate=Title: Avtodate;
+Dscplg_wp_avertvrem=Dieses PlugIn erlaubt die Nutzung der AverTV IR Fernbedienungstasten in Deinen Hotkeys
+; not in 3.6.3
+Duration=Durchschnitt
+; not in 3.6.3
+EachCharacterFromLi_EKUODAXQQQ=Jedes Zeichen der obigen Liste wird durch das Zeichen an gleicher Position aus dieser Liste ersetzt.
+EachCharacterFromTh_YWTCLLUDTY=Jedes Zeichen dieser Liste wird durch das Zeichen an gleicher Position aus der Liste unten ersetzt.
+Edit=Bearbeiten
+EditItemProperties=Eintrageinstellungen bearbeiten
+EditItems=Einträge bearbeiten
+EditLaunchSet=Bearbeite Start-Set
+EditMacro=Makros bearbeiten
+EditMacroFile=Bearbeite Makrodatei
+EditMacroScript=Makroskript bearbeiten
+EditOrCreateMacroScriptFile=Makrodatei erzeugen oder bearbeiten
+EditQuickRunItem=Schnellstarteintrag bearbeiten
+EffectiveOnRestartOnly=Wirkung erst nach Neustart
+EjectCdDriveWithCom_JLBPKTLDYS=CD-Laufwerke mit Inhalt öffnen wenn Windows beendet wird
+EjectingDisk=Disk auswerfen
+EjectLoadCdDrive=Auswerfen/Laden einer CD
+EmailClient=E-Mail-Anwendung
+EmailSuggestion=E-Mail Hinweis
+EmptyRecycleBin=Papierkorb leeren
+Enable=Einschalten
+EnableAdditionalDesktops=weitere Desktops einschalten
+EnableAdditionalTextClipboards=weitere Text-Clipboards einschalten
+EnableApplicationBoost=Anwendungs-"Boost" einschalten
+Enabled=eingeschaltet
+EnableDebugLog=Einschalten debug log
+EnableExtendedHotkeyProcessing=erweiterte Hotkey-Verarbeitung einschalten
+EnableOsdFade=Einsschalten weiches OSD-Ausblenden
+EnableScheduling=Einschalten Zeitplaner
+EnableScreenSaver=Bildschirmschoner einschalten
+EnableTransmit=Übertragung einschalten
+EnableTransmitCopyMode=Übertragungs-Kopiermodus einschalten
+English=Englisch
+EnglishRussian=English-Russian
+EnterCommand=Befehl eingeben
+EnterFolder=in Verzeichnis hineingehen
+EnterItemTitle=Titel für Eintrag eingeben
+EnterJscriptRegexpU_MDRBPYAIQU=Gib JScript regexp ein, benutze '\' für Escape-Sonderzeichen
+EnterKey=Enter Taste
+EnterLaunchSetName=Start-Set-Name eingeben
+; not in 3.6.3
+EnterLinkName=Name für Verknüpung angeben
+EnterMacroCommand=Makrobefehl eingeben
+EnterMacroFileName=Makro-Dateinamen eingeben
+EnterMacroName=Makronamen eingeben
+EnterName=Namen eingeben
+Entertainment=Unterhaltung
+Error=Fehler
+ErrorImportantFiles_NVHBTNQHGF=ERROR: Wichtige Dateien fehlen. Bitte Anwendung erneut installieren
+ErrorOccured=Fehler aufgetreten
+; not in 3.6.3
+Etabih14022007=Etabih (14.02.2007)
+EvaluationCopy=Testversion
+EverySeconds=Alle ... Sekunden
+ExecuteAsCommand=Als Befehl ausführen
+Executing=Ausführen...
+Exit=Beenden
+ExitDialogWithoutSavingChanges=Dialog beenden ohne Änderungen zu sichern
+ExitWirekeys=WireKeys beenden
+ExpandAllFolders=alle Unterverzeichnisse aufklappen
+ExpandContentOfFold_HDERINTIOE=Verzeichnisinhalt in zusätzlichem Untermenü anzeigen
+; not in 3.6.3
+ExpandContentOfFolder=Verzeichnisinhalt aufklappen
+; not in 3.6.3
+ExpandContentOfThis_EDMIBOEBJR=Verzeichnisinhalt in zusätzlichem Untermenü anzeigen
+ExpandContentOfThisFolder=Inhalt dieses Ordners aufklappen
+; not in 3.6.3
+ExpandFolderSContent=Verzeichnisinhalt aufklappen
+ExpandNodeToEdit=Knoten zum bearbeiten aufklappen
+; not in 3.6.3
+ExpandThisNodeToSet_AFATDESRCX=Öffne diesen Knoten um Datum-/Zeitformate einzustellen
+ExportToFile=in Datei exportieren
+ExtendedHotkeyProce_YQPGIGVXKO=erweiterte Hotkey-Verarbeitung erlaubt die Nutzung von Maustasten in Hotkeys, sowie von Multimedia-Tasten, Strg/Alt/Shift/Win-Tasten links und rechts seperat. Beachte: Diese Verarbeitung benötigt mehr CPU-Kapazität wie die normale Nutzung.
+; not in 3.6.3
+ExtendedHotkeysProcessing=Erweiterte Htkey-Verarbeitung
+ExternEvents=Externe Events
+ExtractProcessIcons=Prozess-Icons anzeigen
+Extremal=Extrem
+Extreme=Extrem
+ExtremeShutdown=Unbeirrtes Runterfahren
+FailedToFindAvertvR_FMEBMFLFJY=Suche nach AverTV remote Treibern gescheitert
+; not in 3.6.3
+FailedToRestoreDesktopIconsPosi6tions=Position der Desktop-Icons konnte nicht wieder hergestellt werden
+; not in 3.6.3 and "Posi6tions"?
+FailedToRun=Fehler beim Ausführen
+FailedToSaveDesktopIconsPositions=Position der Desktop-Icons konnte nicht gesichert werden
+; not in 3.6.3
+FailedToStart=Fehler beim Starten
+FastInsertsAreReall_MUWMKAKMOD=Schnelles Einfügen ist wirklich schnell, funktioniert aber evtl. nicht in allen Anwendungen. Schnelles Einfügen betrifft alle Features die Texteinfügen benötigen. "Schnellstes Einfügen" kann Clipboardinhalt zerstören
+FastInsertsAreReall_UVQXGCIMAS=Schnelles Einfügen ist wirklich schnell, funktioniert aber evtl. nicht in allen Anwendungen. Schnelles Einfügen betrifft alle Features die Texteinfügen benötigen. "Schnellstes Einfügen" kann Clipboardinhalt zerstören
+; not in 3.6.3
+FastShutdown=Schnelles runterfahren
+FastShutdownDoublePressToRestart=Schnelles runterfahren (doppelt drücken für Neustart)
+; not in 3.6.3
+FeelFreeToAskQuesti_KWVXGHLTUM=Bitte stellen Sie gerne Fragen in unserem Forum
+File=Datei
+FileDescription=Dateibeschreibung
+FileName=Dateiname
+FileNameDirectoryAn_FSRXMIABRY=Dateiname, Verzeichnis und Screenshot-Format
+FileNamesReplaceWro_YAYCYESQUY=Dateinamen: Ersetze falsche Zeichen durch
+FileOperation=Dateioperationen
+FileProcessing=Dateiverarbeitung
+FileSCopied=Datei(en) kopiert
+; not in 3.6.3
+FillDisplayWithTheL_FBNBICBXMY=Anzeige mit letztem Screenshot füllen
+FillThisFieldIfYouW_LTECVWOSEY=Dieses Feld ausfüllen, wenn Sie wollen, dass WireKeys nach dem richtigen Code fragt, bevor die Einstellungen geöffnet werden
+Find=Suchen
+FindOption=Such-Einstellung
+FixedXSize=Fixierte X-Grösse
+; not in 3.6.3
+FixedYSize=Fixierte Y-Grösse
+; not in 3.6.3
+FixXSize=Fixiere X-Grösse
+FixYSize=Fixiere Y-Grösse
+FloatersOptions=Floater-Optionen
+; not in 3.6.3
+FloaterSSettings=Floater-Einstellungen
+FlushRegistryAndDis_PVQWWSMSDG=Lösche Registry und Diskcache während der Speicheroptimierung
+FocusMovingMayConflictWith=Verschieben des Fokus kann Konflikte mit anderen Utilities geben. Diese Option markieren, wenn es Probleme mit anderen Utilities gibt
+Folder=Verzeichnis
+FolderIsEmpty=Verzeichnis ist leer
+FolderListing=Folder-Listing
+FolderNotFound=Verzeichnis nicht gefunden
+FolderOnYourDisk=Verzeichnis ist auf Deiner Disk
+; not in 3.6.3
+FolderPath=Verzeichnispfad
+ForCommentsBugsRepo_VPYACTCB=Für Kommentare, Fehlermeldungen und Ideen schreibe bitte an
+ForDoublePressScreenshots=für Doppeldruck Screenshots
+ForExampleYouAreUsi_HWAFVSJNQD=Zum Beispiel benutzen Sie "Win-Q" als Hotkey. Diese Option erlaubt es Ihnen, ein weiteres Verhalten für "Win-Q-Q" zu definieren.
+Forward5Secs=Vorwärts 5 sek
+Forward=Vorwärts
+FreePhysicalMemory=Optimiere Speicher
+FreeUnusedMemoryWhe_CKYTQRRFEI=Ungenutzten Speicher freigeben wenn Fenster versteckt werden
+Freeware=Freeware
+FromRunningProgram=vom laufenden Programm
+FullLevelSlowButAccurate=Full level (langsam aber akkurat)
+GetIconsPositions=Hole Icon-Positionen
+; not in 3.6.3
+GetMd5Hash=Hole md5 Hash
+GlobalOptions=Globale Einstellungen
+Help=Hilfe
+HelpTopics=Hilfe-Themen
+HereYouCanSetFileFilterMask=Hier können Sie den Dateifilter setzen, damit keine ungewünschten Dateien angezeigt werden. Beispiel: *.txt;*.doc;*.lnk
+Hibernate=Schlafmodus (Hibernate)
+HiddenApplications=Versteckte Anwendungen
+HiddenApplicationShowMainMenuInTray=Versteckte Anwendungen: Zeige Hauptmenü im Tray
+; not in 3.6.3
+HiddenApplicationsOptions=Hidden applications options
+HiddenApplicationsOptions=Einstellungen für versteckte Anwendungen
+HiddenApplicationWi_UNNYRXKXRC=Versteckte Anwendungen sind über WireKeys Tray-Menü zu erreichen
+HiddenWindows=Versteckte Fenster
+HideActiveApplicati_FYXRVPW=Verstecke aktive Anwendung komplett
+HideActiveApplicationToFloater=Verstecke aktive Anwendung im Floater
+HideActiveApplicationToTray=Verstecke aktive Anwendung im Tray
+HideActiveWindowIntoFloater=Verstecke aktives Fenster im Floater
+; not in 3.6.3
+HideApplicationCompletely=Verstecke Anwendung komplett
+HideApplicationToTray=Verstecke Anwendung im Tray
+HideCompletely=Verstecke komplett
+HideFromEverywhere=Verstecke von überall
+; not in 3.6.3
+HideIntoFloaterOnDoublePress=Verstecke im Floater auf Doppeldruck
+; not in 3.6.3
+HideItemFromMenus=Verstecke Eintrag in Menüs
+HideToTray=Verstecke im Tray
+High=Hoch
+HistoriesMenusToolt_VHFMVIJHTC=Verlaufmenüs: Tooltip mit ergänzenden Informationen
+History=Verlauf
+HistoryDepth=Verlaufstiefe
+; not in 3.6.3
+HistoryIsEmpty=Verlauf ist leer
+HistoryOfClipboard=Verlauf des Clipboards
+HistoryOfRunnedStrings=Verlauf gestarteter Zeichenfolgen
+HistoryOfRuns=Verlauf von Starts
+; not in 3.6.3
+Hotkey=Hotkey
+HotkeyAccessToActiv_IFEQNYPPNV=Hotkey-Zugriff auf Fenstertransparenz und andere Nützlichkeiten
+HotkeyBehaviour=Hotkey-Verhalten
+HotkeyIsAlreadyInUse=Hotkey wird bereits verwendet
+Hotkeys=Hotkeys
+HotkeysAndDifferentOptions=Hotkeys und Verschiedenes einstellen
+; not in 3.6.3
+HotkeysDisabled=Hotkeys ausschalten
+; not in 3.6.3
+HotkeysEnabled=Hotkeys einschalten
+; not in 3.6.3
+HotkeysForSwitching_YMYDMNCPKP=Hotkeys, die das Tastaturlayout umschalten
+HotkeysForTextOperationsBossKeyWinampVolume_STDIVQPTUM=Hotkeys für Textoperationen, "Boss"-Taste, WinAmp/Lautstärke-Regler und mehr
+; not in 3.6.3
+HotkeysRelatedOptions=Hotkey-bezogene Einstellungen
+HotkeysToControlHid_YXWPBPWIEX=Hotkeys zur Steuerung versteckter Anwendungen
+HotkeysToControlRun_SRXRGTUNBY=Hotkeys zur Steuerung laufender Anwendungen
+HotkeysToControlWinampPlayback=Hotkeys zur Steuerung von WinAmp-Abspielfunktionen
+HotMenu=Hot-Menü
+HotMenuCanBeCalledB_LOCMUWKAYJ=Hot-Menü kann aktiviert werden durch Rechts-Klick auf den "Schließen"-Knopf (X)jedes Fensters
+HotMenuContainsALot_NCWOWKQYAV=Hot-Menü enthält viele nützliche Funktionen. Sie können die Priorität aktiver Anwendungen ändern, <br>Clipboard-Inhalt ansehen, Zeilen sortieren und vieles mehr
+HotMenuItemsRel=Hot-Menü (Einträge für das gerade aktive Fenster)
+HowFrequentlyRefreshIcon=Wie oft das Icon erneuern
+HowLongApplicationI_BBTTWCSQTP=Wie lange initialisiert sich die Anwendung selbst nach dem Start
+HowManyAdditionalDe_RVVTAYDVPA=Anzahl zusätzlicher Desktops (erfordert Neustart)
+; not in 3.6.3
+HowManyClipsToHandl_IPARAVHIXS=Anzahl zusätzlicher Clipboards (erfordert Neustart)
+; not in 3.6.3
+HowManyClipsToHandl_QXIWXMVKMO=Wie viele Clips handhaben (erfordert Neustart)
+HowManyDesktopsToHa_XFMDHPJCIC=Wie viele Desktops handhaben (inkl. Standard Desktop)
+HowToGetRegistrationKey=Wie erhält man einen Registriergungsschlüssel
+HowToRegister=Wie registriert man sich
+; not in 3.6.3
+HowToShowThisItemInTheMenus=Wie macht man diesen Eintrag im Menü sichtbar
+; not in 3.6.3
+HowToShowThisItemInTrayMenu=Wie zeigt man diesen Eintrag im Tray-Menü
+; not in 3.6.3
+IconRefreshRate=Icon Aktualisierungsrate
+IdentifyFloatersVia_SLPRFYOVHN=Identifiziere Floater anhand der Anwendungskommandozeile
+IfClipboardRelatedA_LBFNEDELNF=Sollten Clipboard-Aktionen in einigen Anwendungen nicht funktionieren, dann versuchen Sie es mit anderer Einstellung
+IfThisFolderIsNotPr_IABICDNCAL=Sollte dieses Verzeichnis nicht vorhanden sein, versucht WireKeys es zu erzeugen. Sie können Muster im Verzeichnisnamen einfügen, um eindeutige Verzeichnisse zu erzeugen
+IfYouChangeThisOpti_KLJQOIQAKK=Wenn diese Einstellung geändert wird, ist sie erst nach einem Neustart von WireKeys wirksam
+IfYouHaveAlreadySta_DTLGYUUMXO=Wenn Sie diese Anwendung bereits gestartet haben
+IfYouSetFileNameInT_WKAVLQLEFC=Wenn Sie einen Dateinamen in das Feld oben setzen, können Sie diese Option anwählen und sie als einen Set von Zeilen zu benutzen. Jedesmal wenn dieses Makro aufgerufen wird, WireKeys nutzt eine Zufallszeichenkette aus diesem Satz
+IfYouTypeFileNameHe_MYTHCRGEJY=Wenn Sie hier einen Dateinamen eingeben, wird der Dateiinhalt hier ebenfalls eingefügt (rechts hinter dem Text vom vorherigen Feld)
+IfYouWantToUseThisF_EDDYCKJSJP=Wenn Sie dieses Feature für das zweite CD-Laufwerk nutzen wollen, dann tragen Sie den CD-Laufwerksbuchstaben für den Doppeldruck-Hotkey zum Auswerfen ein
+ImageEditor=Bildbearbeitung
+ImportFromFile=aus Datei importieren
+InactivePlugins=Inaktive Plugins
+IncludeActiveWindow_RFDLKBWOSM=Systemmenü des aktiven Fenster ins Hot-Menü einbinden
+; not in 3.6.3
+IncludeWindowSSyste_CHFCULGWLS=Systemmenü des aktiven Fenster ins Hot-Menü einbinden
+IncreaseVolume=erhöhe Lautstärke
+IncreaseVolumeBy10=Lautstärke um 10% erhöhen
+; not in 3.6.3
+IncreasingWinampVolumeBy=reduziere WinAmp-Lautstärke um
+; not in 3.6.3
+InfoForApplication=Info über Anwendung
+Initialization=Initialisierung
+InPreferences=in den Einstellungen
+InProgress=in Gange
+InsertDate=Datum einfügen
+InsertFromClipboard=aus Clipboard einfügen
+InsertFromFile=aus Datei einfügen
+InsertRandomStringN_NWTHRKVTNV=Zufallszeichenkette einfügen, nicht gesamte Datei
+Installation=Installation
+InstallDefaultMacro_PFHTXRRVVS=Installiere Standard-Makros und Schnellstart-Einträge
+InstalledPlugins=Installierte PlugIns
+; not in 3.6.3
+IntegrateWithWirenote=Integration mit WireNote
+; not in 3.6.3
+InterfaceMenusAndSo_OVQGICLIFG=Schnittstelle, Menüs und allgemeines Zeug
+InternetAddress=Internet-Adresse
+InternetBrowser=Internet-Browser
+Introduction=Einführung
+InUse=In Gebrauch
+InvalidRegistrationKey=Ungültiger Registrierungsschlüssel
+; not in 3.6.3
+InvertCaseOfEachLetter=Invertiere Groß/klein von jedem Zeichen
+InvertHotkeyRestart_JHQNFTKFGN=Invertier Hotkey: Neustart mit Einfach-Druck, Runterfahren mit Doppel-Druck
+Italic=Kursiv
+; not in 3.6.3
+ItemIdentifierLeaveIntact=Eintragsbezeichner (so belassen)
+ItemPositionInPopupMenus=Eintragposition in Popup-Menüs
+Items=Einträge
+ItemTitle=Eintrag Titel
+ItemVisibility=Eintrags-Sichtbarkeit
+ItIsBetterToDisable_DKHDIQ=Es ist besser, nicht genutzte PlugIns zu deaktivieren
+ItIsBetterToDisable_KMTFTXGSSO=Es ist besser, nicht genutzte PlugIns zu deaktivieren
+; check doubled
+Javascript=JavaScript
+JavascriptError=JavaScript-Fehler
+JustNothingToRecord=Gerade nichts zum Aufnehmen
+; not in 3.6.3
+Keyboard=Tastatur
+KeyboardAndApplicationMacros=Tastatur- und Anwendungsmakros
+KeyboardLayout=Tastaturlayout
+KeyboardLayoutOptions=Tastaturlayout-Einstellungen
+KeyboardMacros=Tastaturmakros
+KeyboardMaster=Tastatur Master
+KeyDown=Taste runter
+Keypresses=Tastendrücke
+KeysToSetPrefferedL_UULNSSLCFC=Tasten zum setzen bevorzugter Layouts mit einem Tastendruck
+KeyToHideAllShadyAp_JAXCYHFDGN=Taste um alle ungewünschte Anwendungen auf einmal zu verstecken
+KeyUp=Taste hoch
+KillAll=Alles abschießen
+KillAnyProcess=Abschießen jeden Prozess
+KillApplication=Abschießen Anwendung
+KillApplicationsFromList=Abschießen der Anwendungen aus Liste
+KillConfirmation=Abschießen bestätigen
+KillDenotedApplicat_XIWJLQXPEK=Abschießen markierter Anwendungen vor dem Herunterfahren
+KillImmediatly=Abschießen sofort
+KillPreviousInstance=Abschießen der vorigen Instanz
+KillProcess=Prozess abschießen
+KillProcessesFromList=Prozess aus Liste abschießen
+KillSelectedApplica_XOKIRGTMTF=markierte Anwendung sofort abschießen oder Meinung vorher einholen
+KillSeveralApplicat_JRRKRTJTLI=Abschießen mehrerer Anwendungen gleichzeitig
+Lang_id0403=Spanish
+Lang_id0403s=Sp
+Lang_id0407=German
+Lang_id0407s=Ge
+Lang_id0408=Greek
+Lang_id0408s=Gr
+Lang_id0409=English
+Lang_id0409s=En
+Lang_id040a=Spanish
+Lang_id040as=Es
+Lang_id040c=French
+Lang_id040cs=Fr
+Lang_id040Cs=Fr
+; check doubled
+Lang_id0410=Italian
+Lang_id0410s=It
+Lang_id0415=Polish
+Lang_id0415s=Pl
+Lang_id0418=Romanian
+Lang_id0418s=Ro
+Lang_id0419=Russian
+Lang_id0419s=Ru
+Lang_id0422=French
+Lang_id0422=Ukrainian
+Lang_id0422s=Fr
+Lang_id0422s=Uk
+Lang_id0423=Belarusian
+Lang_id0423s=Be
+Lang_id042c=Azeri (Latin)
+Lang_id042cs=Az
+Lang_id0804=Chinese
+Lang_id0804s=Ch
+LangName0=Englisch
+LangName10=Polish
+LangName11=French
+Langname12=LangName12
+Langname13=LangName13
+Langname14=LangName14
+LangName1=Russian
+LangName2=Italienisch
+LangName3=Ukrainisch
+LangName4=Spanisch
+Langname5=Deutsch
+LangName6=Chinese Simplified
+LangName7=Belarusian
+LangName8=Korean
+LangName9=Arabic
+Language=Language
+LanguageIndicator=Sprachindikator
+LaunchScreenSaver=Starte Bildschirmschoner
+LaunchSet=Start-Set
+LaunchSets=Start-Sets
+LaunchSetOfThisItem=Start-Set dieses Eintrags
+; not in 3.6.3
+LaunchSetsCanBeUsedTo=Start-Sets können verwendet werden um zu
+LaunchThisApplicati_HYDAEJTSAM=Starte diese Anwendung zusammen mit dem Bildschirmschoner
+LaunchThisItemAtWir_EJXFWCVDCL=Diesen Eintrag beim WireKeys-Start starten
+Layout=Layout
+LeaveBlankToDisableThisFeature=Leer lassen, um diese Eigenschaft abzuschalten
+LeaveBlankToProcess_TIYRIIFLHU=Leer lassen, um alle Anwendungen zu verarbeiten. Beispiel: 'Explorer*'
+LeaveBlankToUseDefaultEditor=Freilassen für Standardeditor
+LeaveClipInClipboar_TAVKKBORYH=Clip im Clipboard belassen nach 'Einfügen'-Aktion
+Left=Links
+; not in 3.6.3
+LeftBottom=links-unten
+LeftMouseButtonActi_FCKPTNTBYL=Linke Maustaste: Aktion bei Doppleklick auf Tray-Icon
+LeftTop=links-oben
+LevelOfIntegrationW_QCFTBBQLYU=Stufe der Integration mit Clipboard
+LightGlow=Leichtes Glühen
+LightShadow=Leichter Schatten
+LimitMaxClipContentSizeKb=Maximale Clip Inhaltsgrösse (in kb)
+ListOfActiveProcess_QKWBBUKAPG=List aktiver Prozesse und der Speichernutzung
+ListOfAllHotkeys=Liste aller Hotkeys
+ListOfApplicationMacros=Liste aller Anwendungsmakros
+; not in 3.6.3
+ListOfKeyboardAndAp_MRYCBVAHRB=Liste der Tastatur- und Anwendungsmakros
+ListOfKeyboardMacros=Liste aller Tastaturmakros
+; not in 3.6.3
+ListOfRegisteredHotkeys=Liste der registrierten Hotkeys
+Load=Lade
+LoadConfig=Einstellungen laden
+LoadEjectCdDrive=Lade/Auswerfen CD-Laufwerk
+LoadEjectSecondCdDrive=Lade/Auswerfen zweites CD-Laufwerk
+Loading=Lade gerade
+LoadingDisk=Lade Disk
+LockComputer=Sperren des Computers (Lock)
+LockTheKeyboard=Tastatur sperren
+LogCpuHungryProcessesToFile=Log CPU-hungriger Prozesse in Datei
+LogFile=Logdatei
+LookingOnDisk=Schaue auf die Disk
+Low=Niedrig
+Macro=Makro
+MacroFile=Makrodatei
+MacroFileIsEmpty=Makrodatei ist leer
+; not in 3.6.3
+MacroRecorded=Makro aufgenommen
+Macros=Makros
+MacrosFolder='Macros' Verzeichnis
+MacroSuccessfullyRecorded=Makro erfolgreich aufgenommen
+; not in 3.6.3
+MacroTitle=Makro Titel
+MacroWasNotRecorded=Makro wurde nicht aufgenommen
+; not in 3.6.3
+MainParameters=Hauptparameter
+MainWindow=Hauptfenster
+MakeACopy=Kopie erzeugen
+MakeApplicationWind_ADJIQGFTSP=Setze Anwendungsfenster auf "Immer oben"
+MakeScreenshot=Erzeuge Screenshot
+MakeScreenshotEverySeconds=Erzeuge Screenshot alle ... Sekunden
+MakeScreenshotFrom=Erzeuge Screenshot von
+MakeScreenshotOfTheActiveWindowOnlyNotTheWholeScreen=Erzeuge Screenshot vom aktiven Fenster, nicht vom gesamten Bildschirm
+; not in 3.6.3
+MakeScreenshotsOnTimer=Erzeuge Screenshots nach Zeit
+MakeTotallyTransparent=Völlig transparent machen
+MatchingByWindowTitle=Identifizieren nach Fenstertitel
+Max=Max
+MaxClipItemSize=Max größe eines Clips
+Maximize=Maximieren
+MaximizeActiveWindow=Maximiere aktives Fenster
+MaximumNumberOfItems=Maximale Anzahl Einträge
+MaximumSplashStringLengthChars=Max. Länge des OSD-Text (in Zeichen)
+Memory=Speicher
+MemoryOptimization=Speicheroptimierung
+MemoryUsage=Speicherauslastung
+MenuCustomizations=Menüanpassungen
+; not in 3.6.3
+MenusAndPreferencesFolders=Menü- und Einstellungsverzeichnis
+MenuToShowOnHotMenu_IARWOSIQIQ=Menü anzeigen bei 'Hot-Menü'-Hotkey-Doppeldruck
+MenuWithPossibleActions=Menü mit möglichen Aktionen
+MiddleMouseButtonAc_PVGTQSTNTB=Mittlere Maustaste: Aktion bei Doppelklick auf Tray-Icon
+Min=Min
+Minimize=Minimieren
+MinimizeActiveWindow=Minimiere aktives Fenster
+MinimizeAllOfTheWindows=Minimiere alle Fenster
+Miscellaneous=Verschiedenes
+MiscellaneousFolder='Verschiedenes'-Verzeichnis
+MiscellaneousOperations=verschiedene Aktionen
+MissedFileNamePleaseDefineFileNameForThisAction=Fehlender Dateiname, bitte definiere<br>Dateiname für diese Aktion
+; not in 3.6.3
+MoreHotkeys=Mehr Hotkeys
+MoreItems=Mehr Einträge
+MoreOptionsKeepAllW_PBFVNDMHEN=Mehr Einstellungen: Alle Fenster im Bildschirm halten, Auto-Minimieren von Fenstern in den Tray usw.
+MorePluginsAndMacros=Mehr PlugIns und Makros
+MorePreferences=Mehr Einstellungen
+; not in 3.6.3
+Mouse=Maus
+MouseControl=Maussteuerung
+MoveActiveWindowIntoView=aktives Fenster in Sicht bringen
+MoveDown=abwärts bewegen
+MoveLeft=nach links bewegen
+MoveRight=nach rechts bewegen
+MoveUp=aufwärts bewegen
+MoveWindowIntoView=Fenster in Sicht bringen
+MultimediaHotkeys=Multimedia-Hotkeys
+Mute=Stumm
+MuteSound=Ton stumm schalten
+MyDocuments=Eigene Dateien
+MyMacro=Mein Makro
+NeedsRestart=erfordert Neustart
+Negative=Negativ
+Never=Niemals
+NeverStartSecondCop_WLUQGBHKYV=Diese Anwendung niemals ein weiteres Mal starten
+NewApplicationInstalled=Neue Anwendung installiert
+; not in 3.6.3
+NewApplicationMacro=Neues Anwendungsmakro
+NewEmptyItem=Neuer Leereintrag
+NewFileItem=Neuer Dateieintrag
+NewFolderItem=Neuer Verzeichniseintrag
+NewHotkeyForApplication=Neuer Hotkey für Anwendung
+NewHotkeyForFile=Neuer Hotkey für Datei
+NewHotkeyForFolder=Neuer Hotkey für Verzeichnis
+NewHotkeyForUrl=Neuer Hotkey für URL
+NewInitiallyUnassignedHotkey=Neuer noch nicht belegter Hotkey
+NewInsertionMacro=Neues Einfügemakro
+NewInstallation=Neue Installation
+; not in 3.6.3
+NewInternetAddress=Neue Internet-Adresse
+NewLaunchSet=Neues Start-Set
+NewMacroFromFile=Neues Makro aus Datei
+NewMail=Neue E-Mail
+NewQuickRunApplication=Neue Schnellstart-Anwendung
+; not in 3.6.3
+NewQuickRunApplicationMacro=Neues Schnellstart-Anwendungsmakro
+; not in 3.6.3
+NewQuickRunFile=Neue Schnellstart-Datei
+; not in 3.6.3
+NewQuickRunFolder=Neues Schnellstart-Verzeichnis
+; not in 3.6.3
+NewQuickRunItem=Neuer Schnellstarteintrag
+NewReminder=Neue Erinnerung
+NewTextMacroItem=Neuer Textmakro-Eintrag
+NewVersionOf=Neue Version von
+NextSong=nächstes Lied
+NextTrack=Nächster Titel
+No=Nein
+NoApplicationSWindowsWasFoundOperationCancelled=Es wurde kein Anwendungsfenster gefunden<br>Aktion abgebrochen
+; not in 3.6.3
+NoDescription=Keine Beschreibung
+None=Kein
+NoRegistrationInfoFound=Keine Registrierungsinformation gefunden
+Normal=Normal
+NotDefined=nicht definiert
+NoteAllHotkeysAreDisabledTheyWillBeReEnabledAfterYouClosePreferencesDialog=Anmerkung: Alle Hotkeys sind ausgeschaltet.<br>Nach dem Schliessen der Einstellungen<br>werden sie wieder eingeschaltet
+; not in 3.6.3
+NoteAllHotkeysAreEnabledNumberOfUsedHotkeys=Anmerkung: Alle Hotkeys sind eingeschaltet.<br>Anzahl der benutzten Hotkeys
+; not in 3.6.3
+NoteConstructionOfP_GEOVQEEVGX=Anmerkung: Aufbau der Prozessliste kann einen Moment dauern
+NoteExtremalShutdow_FNHELHTFRA=Anmerkung: Unbeirrtes Herunterfahren ist sehr schnell, aber ungesicherte Daten gehen verloren
+NoteExtremeShutdown_LUBCMFMTRX=Note: Extreme shutdown is very fast, but all unsaved data will be lost
+NoteForTheFirstTime_MYGXQXACTX=Anmerkung: Beim ersten Mal kann Icon-Ermittlung länger dauern
+NoteSomeOfThemMayNo_NFAIMDEQCO=Anmerkung: Einige funktionieren in manchen Fällen nicht
+NoteThisHotkeysAreNotWorking=Anmerkung: Diese Hotkeys funktionieren nicht
+; not in 3.6.3
+NoteThisProgramIsSt_GUTMGBQTFO=Anmerkung: Dieses Programm ist immer noch nicht registriert!<br><br>Sie könnes es weiter 14 Tage frei benutzen.<br>Wenn Sie WireKeys danach weiter nutzen wollen,<br>müssen sie WK registrieren.<br>Weitere Details auf http://www.WiredPlane.com
+NoteTrialPeriodIsOver=Hinweis:  WireKeys' Testzeit ist beendet.<br>Alle PlugIns sind abgeschaltet.<br><br>Sie können diese Anwendung 14 Tage frei nutzen.<br>Nach dieser Zeit arbeiten die WireKeys PlugIns nur noch mit der<br>registrierten Version. Bitte registriere Dich bei<br>WiredPlane Labs (http://www.WiredPlane.com)
+; not in 3.6.3
+NoteYouCanDisableCh_RIGNBTEKIU=Anmerkung: Das Prüfen auf Updates kann in den Einstellungen abgeschaltet werden
+NoteYouCanFreelyUseThisProgramDuringTestPeriod=Anmerkung: Alle WireKeys Plugins wurden entladen.<br>Sie können diese Anwendung 14 Tage frei nutzen.<br>Wenn Sie die WireKeys-Plugins weiterhin nutzen wollen,<br>müssen Sie sich unter<br>WiredPlane Labs (http://www.WiredPlane.com) registrieren
+; not in 3.6.3
+NoteYouHaveToRestar_GYQOJTUIQO=Anmerkung: WireKeys muss neu gestartet werden um alle möglichen Auflösungen in anderen Desktops nutzen zu können
+; not in 3.6.3
+Nothing=nichts
+NothingSpecific=Nichts spezifisches
+NoticeThisComputerP_YVTGQVVTTK=Anmerkung: this computer program is protected by copyright laws and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extend possible under the law
+NotificationType=Hinweis-Typ
+NoToChooseAnotherFile="Nein" um andere Datei zu wählen
+; not in 3.6.3
+NowAnyCopyToAnyAdditionalClipboardWillBeTransmittedToThisWindow=Jetzt wird jede Kopie an ein weiteres Clipboard<br>an dieses Fenster gesendet
+; not in 3.6.3
+Nowhere=Nirgendwo
+NoWinampFound=WinAmp nicht gefunden
+NowOff=Nun aus
+; not in 3.6.3
+NowOn=Nun an
+; not in 3.6.3
+NumberOfLinesToScroll=Anzahl Zeilen rollen
+OfCpuUsage=von CPU-Nutzung
+OfMemoryUsage=von Speichernutzung
+Ok=OK
+OnDefaultDesktopOnly=Nur auf dem Standard-Desktop
+; not in 3.6.3
+OneOfTheAssignedActions=Eine der zugewiesenen Aktionen
+OneOfTheStartedApplications=Eine der gestarteten Anwendungen
+; not in 3.6.3
+OnScreenDisplay=On Screen Display (OSD)
+OpacityPercents=Transparenz (%)
+Open=Öffnen
+OpenAlways=Immer öffnen
+OpenClip=Öffne Clip
+; not in 3.6.3
+OpenDirectoryConten_NEPHMEVKWR=Öffne Verzeichnis-Kontextmenü durch Linksklick auf Verzeichnis-Floater
+OpenedFiles=geöffnete Dateien
+OpenForAnyScreenshot=Öffne für jeden Screenshot
+OpenForDoublePress=Öffnen für Doppeldruck
+OpenForDoublePressScreenshots=Öffne für Doppeldruck-Screenshots
+OpenForSinglePress=Öffnen für Einzeldruck
+OpenForSinglePressScreenshots=Öffne für Einzeldruck-Screenshots
+OpenImageEditor=Öffne Bildbearbeitung
+OpenMacroScriptInTextEditor=Öffne Makro-Script im Texteditor
+OpenMainProcessWindow=Öffne Prozess-Hauptfenster
+; not in 3.6.3
+OpenMyComputer=Öffne Arbeitsplatz
+OpenPreferences=Öffne Einstellungen
+OpenTheRunDialogBox=Öffne Dialog "Ausführen"
+OpenThisFolderAtWir_KMPPNCEQNB=Dieses Verzeichnis beim WireKeys-Start öffnen
+OpenUtilityManager=Öffne Utility Manager
+OpenWirekeys=WireKeys öffnen
+OperationsOnHotkeySDoublePress=Operationen auf Hotkeys Doppeldruck
+OptimizingMemory=Optimiere Speicher
+; not in 3.6.3
+Option=Option
+OptionInaccessible=Option unzugänglich
+Options=Optionen
+OptionsAboutActiveW_SNYABDDBFQ=Auswahl zum aktiven Fenster - Hotkeys, "boost" und mehr
+OptionsOfTheItemsDe_RNHHTTTKDK=Optionen der Einträge, gelöst vom Tray oder Tray-Menü in ein seperates Icon
+OptionsProvidedBy=Optionen vorausgesetzt von
+Or=oder
+OrderNow=Jetzt bestellen
+OrderWirekeys=WireKeys bestellen
+OrderWirekeysNow=WireKeys jetzt bestellen
+OrFileToInsert=Oder Datei zum Einfügen
+Osd=OSD
+OsdOptions=OSD-Einstellungen
+OtherActionCanBePerformedByHoldingShiftKey=Andere Aktionen können durch halten der "Shift"-Taste ausgeführt werden
+; not in 3.6.3
+OtherOptions=Andere Einstellungen
+Otherwise1ColumnWillBeUsed=Sonst wird 1 Spalte genutzt
+OtherwiseFileNamesWillBeShown=Sonst werden Dateinamen gezeigt
+OverlaySupportIsNow=Overlay-Support ist jetzt
+; not in 3.6.3
+OverlayTrayIconWithMarker=Tray-Icon mit Markierung belegen
+OverwriteExistingBackup=Vorhandene Sicherung überschreiben
+; not in 3.6.3
+Pan=Pan
+Parameter=Parameter
+ParametersPatternsPermitted=Parameter (Muster zugelassen)
+; not in 3.6.3
+PassThrough=Pass-through
+Paste=Einfügen
+PasteFromClip=Einfügen aus Clip
+PasteHotKey='Einfügen'-Hotkey
+PasteTextFromClip=Text einfügen aus Clip
+PathToExeFile=Pfad zur EXE-Datei
+PathToWinampSExecutable=Pfad zu WinAmps Exe
+PatternsPermitted=Muster zugelassen
+PauseUnpause=Pause/Weiter
+PerformingCheckEvery=Prüfung ausführen alle
+PinnedPieces=festgeklebte Stücke
+; not in 3.6.3
+PinUnpin=Anheften/Abheften
+PinWindow=Fenster anheften
+Pixels=Pixel
+PlaceAlertsOnTaskba_FSHSMBJRPI=Plaziere Warnungen im Taskbar anstatt im Tray
+Play=Spielen
+PlayMacro=Makro abspielen
+PlayPause=Spielen/Pause
+PlaySound=Spiele Ton
+PleaseDonTForgetRegister=Bitte, vergiss nicht Dich zu registrieren
+; not in 3.6.3
+PleaseEnterRegistra_OOYVLFUQVP=Bitte Registrierungsdaten eingeben<br>(Registrierungs-Email und Seriennummer)<br>manuell
+PleaseNoteThisHotke_PBEOGPEVTT=Bitte beachte: Dieser Hotkey wird bereits benutzt
+PleaseRegister=Bitte registrieren
+; not in 3.6.3
+PleaseRegisterWirekeys=Bitte registriere WireKeys. Registrierte Benutzer erhalten viele nützliche PlugIns und können spezielle Features nachfragen die in kleinen Upgrades eingebaut werden. Registrierungen werden genutzt um diese Anwendung noch mächtiger, nützlicher und einfacher zu bedienen zu machen. Registrierung kostet nur $20.00!
+PleaseWait=Bitte warten
+Plugin=plugin
+PluginCanNotBeDeins_WAPCSGQQYE=Plugin kann nicht deinstallierte werden. Plugin erst abschalten und dann Computer-Neustart
+PluginIsDisabled=Plugin ist abgeschaltet; keine Optionen verfügbar
+Plugins=PlugIns
+PluginsCanBeUsedWit_SLXFOQFADE=PlugIns können nur mit der registrierten Version von WireKeys benutzt werden
+; not in 3.6.3
+PluginSOperation=PlugIn-Operationen
+PluginsOptions=PlugIn Einstellungen
+PluginsSetUp=PlugIn Einrichtung
+Popt_allowShi_nqbvrpxsuo=Erlaube "Shift"-Taste "Caps Lock"-Status fallen zu lassen
+; not in 3.6.3
+Popt_autoRepea_lmfdpohsxy=Auto-Wiederholung Hotkey wenn für eine Weile gedrückt wird
+; not in 3.6.3
+Popt_hereYouC_wmcxcyhvlf=Hier können Sie der "Umschalt"-Taste erlauben, den "Caps Lock"-Status fallen zu lassen oder "Caps Lock" für immer auszuschalten (empfohlen. Mit blockiertem "Caps Lock" ist man in der Lage, das in Hotkeys zu verwenden)
+; not in 3.6.3
+PopupHotMenu=Popup Hot-Menü
+PopupListOfStartedProcesses=Liste aller gestarteten Prozesse
+PopupMenuWithRecent_AAEITUCYBQ=Popup-Menü mit kürzlich verwendeten Clips, die aus der aktiven Anwendung stammen
+PopupMenuWithRecent_JJUGNPAEDA=Popup-Menü mit kürzlich verwendeten Clips
+PopupTranslationRambler=Popup-Übersetzung (Rambler)
+Position=Position
+Preferences=Einstellungen
+PrefferedLayout=Bevorzugtes Layout
+; not in 3.6.3
+PreserveWindowSMainMenu=Fenster-Hauptmenü schützen
+PreserveWindowSMainMenu=Preserve window`s main menu
+Press=Drücke
+PressEscToCancel=Drücke 'ESC' zum abbrechen
+PressHelpForMoreDet_IBJNMOIEGI=Drücke 'Hilfe' für detailliertere Beschreibung der Änderung
+PressHotkey@rmbForMore=Hotkey drücken. @RMB zeigt mehr
+PressHotkeyEscCancelClear=Hotkey drücken. ESC – abbruch/löschen
+; not in 3.6.3
+PressUnpress=Drücken + Loslassen
+PreviousTrack=Vorheriger Titel
+PrevSong=Vorheriges Lied
+PrimaryHotkey=Primary Hotkey
+Processes=Prozesse
+ProcessesFolder='Processes'-Verzeichnis
+ProcessesList=Prozessliste
+ProcessessListOptions=Prozesslisten-Einstellungen
+ProcessId=Prozess-ID
+ProcessOnlyMatching_JKJVODSEUK=Behandle nur passende Anwendungen
+ProtectPreferencesWithCodeWord=Schütze Einstellungen mit einem Code-Wort
+PutApplicationsEtcI_YMALKPNBPO=- Ordne Anwendungen usw. in Kategorien für bessere Navigation (In Einstellungen nachsehen: jede Anwendung oder jedes Makro wird verschoben in sein Start-Set-Unterverzeichnis)
+PutInTheQuickLaunch=Lege in den Schnellstart
+; not in 3.6.3
+PutInTheStartMenu=Lege ins Startmenü
+; not in 3.6.3
+PutIntoClipboard=Schiebe ins Clipboard
+PutLinkOnDesktop=Erzeuge Verknüpfung auf dem Desktop
+PutOnTheDesktop=Lege auf den Desktop
+PutScreenshotInClipboard=Lege Screenshot in das Clipboard
+Quality=Qualität
+QuickAccessToAllCommonActions=Schnellzugriff zu allen üblichen Aktionen
+QuickCdromAccessHotkeys=Quick CDROM access hotkeys
+QuickCdromAccessHotkeys=Hotkeys für schnellen CD-ROM-Zugriff
+QuickCdromEjectLoad=Schneller CD-ROM-Zugriff (Auswerfen/Laden)
+QuickLaunch=Schnellstart
+QuicklyMoveToLaunchSetSOptions=Schnellzugriff auf Start-Set-Einstellungen
+QuickRun=Schnellstart
+QuickRunApplication=Schnellstart-Anwendung
+QuickRunApplications=Schnellstart-Anwendungen
+QuickRunFolder='Schnellstart'-Verzeichnis
+QuickRunItem=Schnellstart-Einstrag
+QuickRunItems=Schnellstarteinträge
+QuickRunList=Schnellstart-Liste
+QuickRuns=Schnellstarts
+QuickRunsMacros=Schnellstarts/Makros
+QuickShutdownDouble_NRQKWPHRNO=Schnelles Herunterfahren (doppelt drücken für Neustart)
+QuickShutdownRestart=Schnelles Herunterfahren/Neustart
+QuickShutdownType=Typ des schnellen Herunterfahrens
+RapidShutdownPreferences=Einstellungen für schnelles Herunterfahren
+Realtime=Echtzeit
+; not in 3.6.3
+Reason=Grund
+; not in 3.6.3
+ReattachWirekeysToClipboard=WireKeys wieder mit Clipboard verbinden
+RecentlyUsedMenuItems=Anzahl kürzlich benutzter Menüeinträge (0 für ausschalten)
+RecentUninstalls=Zuletzt entfernte Anwendungen
+; not in 3.6.3
+RecordAMacro=Makro aufzeichnen
+RecordAMacro=Record a macro
+RecursiveCopy=Recursive copy
+RecursiveCopy=Rekursive Kopie
+RefreshListOfScreensavers=Aktualisiere Liste der Bildschirmschoner
+RegexpForReplace=reguläre Ausdrücke zum Ersezen
+; not in 3.6.3
+RegexpForSearch=reguläre Ausdrücke zum Suchen
+RegisteredTo=Registriert für
+RegisterNow=Jetzt registrieren
+; not in 3.6.3
+RegisterWirekeys=Registriere WireKeys
+Registration=Registrierung
+RegistrationEmail=Registrierungs-Email
+RegistrationInfoPas_PVLABRFKQR=Registrierungsdaten erfolgreich eingefügt
+; not in 3.6.3
+RegistrationInformation=Infos zur Registrierung
+RegistrationKey=Registrierungsschlüssel
+; not in 3.6.3
+RegistrationKeyAccepted=Registrierungsschlüssel akzeptiert
+; not in 3.6.3
+RegistrationName=Registration name
+; not in 3.6.3
+RegistryEditor=Registry-Editor
+RegularKeys=Regular keys
+Related=Verbunden
+ReleasedOn=veröffentlicht am
+RememberDesktopLayo_JENGKEKJBC=Layout für jeden Desktop merken
+RemoveFromTray=Vom Tray entfernen
+RemoveRecentItems=Lösche neue Einträge
+; not in 3.6.3
+ReopenPreferences=Wiederöffnen der Einstellungen
+ReopenPreferencesIn_PPFGKOGNPR=Wiederöffnen der Einstellungen um dieses Start-Set in anderen Schnellstart-Einträgen zu nutzen
+; not in 3.6.3
+ReopenPreferencesWi_DIDLOJDLET=Öffne Einstellungsfenster erneut nach dem das PlugIn eingeschaltet wurde
+; not in 3.6.3
+ReopenPreferencesWi_GVMRWBOUCY=Einstellungsfenster erneut öffnen wenn erweiterte Verarbeitung eingeschaltet wurde
+; not in 3.6.3
+ReopenWindowAfterEnable=Öffne Einstellungsfenster erneut nach dem Eingeschalten um die PlugIn-Einstellungen zu sehen
+; not in 3.6.3
+ReplaceFollowingCharacters=Ersetze die folgenden Zeichen
+ReplayKeystrokes=Tastenaufzeichnung abspielen
+ResetAllPreferencesToDefaultValues=Alle Einstellungen auf Standardwerte zurücksetzen
+; not in 3.6.3
+ResetCurrentOption=Rücksetzen der aktuellen Option
+ResetToDefaults=Auf Standardwerte zurücksetzen
+ResetToDefaultValue=Auf Standardwert zurücksetzen
+Restart=Neustart
+RestartComputer=Computer neustarten
+RestartProgramToSeeChanges=Starte Programm neu um Änderungen zu aktivieren
+; not in 3.6.3
+RestartShutdown=Neustart/Rungerfahren
+RestartWirekeys=WireKeys Neustart
+RestartWirekeysToAp_CTNAFSRDRR=Starte WireKeys neu um die Änderungen zu übernehmen. Setze auf 0 um dieses Feature für immer abzuschalten
+; not in 3.6.3
+RestartWirekeysToFi_XOTDIJQRJF=WireKeys neu starten, um die Deinstallation abzuschließen
+RestoreActiveWindow_IJOBSBGGD=Aktives Fenster wiederherstellen (Größe+Position)
+RestoreConfig=Konfiguration wiederherstellen
+; not in 3.6.3
+RestoreConfigFromFile=Konfiguration aus Datei wiederherstellen
+RestoreDesktopIcons=Desktop-Icons wiederherstellen
+RestoreDesktopIcons_KIKLCMYVMY=Position der Desktop-Icons beim Start wiederherstellen
+RestoreIcons=Icons wiederherstellen
+RestoreIconsPositions=Iconposition wiederherstellen
+; not in 3.6.3
+RestoreLastMinimize_YWGCDEKMIG=Wiederherstellen des zuletzt minimierten auf Doppeldruck
+RestoreLastMinimized=Wiederherstellen des zuletzt minimierten
+RestoreSavedPositions=Gesicherte Positionen wiederherstellen
+RevertToSaved=Auf Gesichertes zurücksetzen
+; not in 3.6.3
+Right=Rechts
+; not in 3.6.3
+RightBottom=rechts-unten
+RightClick=Rechtsklick
+RightClickMoreOptions=Rechtsklick: mehr Optionen
+RightClickOnMenuIte_PVPIQHJJEX=Rechtsklick auf Menüeintrag für weitere Optionen
+RightClickOnProcess_IBHACBEJNM=Rechtsklick auf Prozess für Kontextmenü mit Optionen zum Setzen der Prozcess-Priorität oder um weitere Infos zum Prozess zu sehen
+RightClickTheSystem_SUNTVBOOYM=Rechtsklick auf das System Tray Icon, um auf alle Eigenschaften zuzugreifen. Wähle Hilfe für einen Überblick zu den vorhandenen Eigenschaften
+RightMouseButtonAct_GKQSPTNTBY=Rechte Maustaste: Aktion bei Doppleklick auf Tray-Icon
+RightTop=rechts-oben
+RmxEmptyalert=Achtung! Die Zeit ist reif!
+RmxPostponed=[Verschoben] 
+RmxUiAction=Aktion
+RmxUiActivateon=Aktiviere diese Erinnerung um
+RmxUiAdd15minshort=+15m
+RmxUiAdd1hourshort=+1h
+RmxUiAdd30inshort=+30m
+RmxUiAttention=Achtung
+RmxUiCalendar=Kalender
+RmxUiCalendarClose=Schließen
+RmxUiCalendarNew=Neue Erinnerung
+RmxUiCalendarView=Ändere Ansicht
+RmxUiCancel=Abbruch
+RmxUiClickonhour=Klick auf Stunder
+RmxUiDelete=Lösche Erinnerung
+RmxUiDismiss=Abweisen
+RmxUiEdit=Bearbeite Erinnerung. Fülle dieses Formular aus und speichere es um die Erinnerung anzuwenden
+RmxUiEvery=Jede
+RmxUiHour=h.
+RmxUiLaunch=Starte Anwendung
+RmxUiLose=Schließen
+RmxUiMessage=Popup Nachricht
+RmxUiMin=m.
+RmxUiModify=Ändere Erinnerung
+RmxUiMonth10=Oktober
+RmxUiMonth11=November
+RmxUiMonth12=Dezember
+RmxUiMonth1=Januar
+RmxUiMonth2=Februar
+RmxUiMonth3=März
+RmxUiMonth4=April
+RmxUiMonth5=Mai
+RmxUiMonth6=Juni
+RmxUiMonth7=Juli
+RmxUiMonth8=August
+RmxUiMonth9=September
+RmxUiPostpone15=Verschieben um 15 Min
+RmxUiPostpone1d=Verschieben um 1 Tag
+RmxUiPostpone1h=Verschieben um 1 Stunde
+RmxUiPostpone1w=Verschieben um 1 Woche
+RmxUiPostpone30=Verschieben um 30 Min
+RmxUiPostpone5=Verschieben um 5 Min
+RmxUiPostpone=Verschieben ...
+RmxUiPostponenew=Setze neue Zeit
+RmxUiRecur0=Nicht wiederholen
+RmxUiRecur1=Jeden Tag
+RmxUiRecur2=Jede Woche
+RmxUiRecur3=Jeden Monat
+RmxUiRecur4=Jedes Jahr
+RmxUiRecur5=Zeitdauer in Minuten
+RmxUiRecur6=Zeitdauer in Stunden
+RmxUiRepeat=Erinnerung wiederholen
+RmxUiSaveclose=Speichern und schließen
+RmxUiSound=Sound abspielen
+RmxUiWday1=Sonntag
+RmxUiWday2=Montag
+RmxUiWday3=Dienstag
+RmxUiWday4=Mittwoch
+RmxUiWday5=Donnerstag
+RmxUiWday6=Freitag
+RmxUiWday7=Samstag
+RmxUiWdays1=Sonntag
+RmxUiWdays2=Montag
+RmxUiWdays3=Dienstag
+RmxUiWdays4=Mittwoch
+RmxUiWdays5=Donnerstag
+RmxUiWdays6=Freitag
+; check RmxUiWdays3-6 missing in origin file.
+RmxUiWdays7=Samstag
+RmxUiXhour12=Alle 12 Stunden
+RmxUiXhour1=Jede Stunde
+RmxUiXhour2=Alle 2 Stunden
+RmxUiXhour6=Alle 6 Stunden
+RmxUiXhour=Jede Stunde
+RmxUiXmanual=Zeitdauer angeben
+RmxUiXmanual_dsc=Zahl eingeben um Zeitdauer festzulegen
+RmxUiXmin15=Alle 15 Min.
+RmxUiXmin30=Alle 30 Min.
+RmxUiXmin45=Alle 45 Min.
+Rollup=Aufrollen
+RollupActiveWindow=aktives Fenster aufrollen
+; not in 3.6.3
+RollupOnDoublePress=aufrollen bei Doppeldruck
+; not in 3.6.3
+RollupToTitle=auf Titelzeile aufrollen
+; not in 3.6.3
+RollupUnrollWindowToTitle=Fenster auf Titelzeile auf-/abrollen
+RunAllOnDoublePress_WTOODVICLC=Starte alles nach Doppeldruck: Verzögerung zwischen den Starts (sec)
+RunAsCommandStringCalculate=als Befehl starten/berechnen
+RunAsFromCommandString=als Befehl starten
+RunCalculateSelecte_YQYANHUPTG=Markierten Text starten/berechnen. Zur Behandlung als Ausdruck muss der Text mit '=' enden
+RunDefaultBrowser=Standardbrowser starten
+; not in 3.6.3
+RunDefaultMailClient=Standard-E-Mail-Anwendung starten
+; not in 3.6.3
+RunSelectedAsCommand=markiertes als Befehl starten
+; not in 3.6.3
+RunSelectedAsCommandString=markiertes als Befehl starten
+; not in 3.6.3
+RunThisAppAtWirekeysStartup=Diese Anwendung beim WireKeys-Start starten
+; not in 3.6.3
+Russian=Russisch
+; not in 3.6.3
+RussianEnglish=Russian-English
+; not in 3.6.3
+Save=Speichern
+; not in 3.6.3
+SaveAsJpgImage=Speichern als JPG-Datei
+SaveBitmapsInHistoryToo=Speichere der Bitmaps auch im Verlauf
+SaveClipboardConten_PUSGPPUMWQ=Regelmäßiges Speichern des Clipboard-Inhalts
+SaveConfig=Einstellungen speichern
+SaveConfig=Speichern der Konfiguration
+SaveCurrentPositions=aktuelle Position speichern
+SaveDebugInformatio_IGYUTYEPSX=Speichern der Debug-Information auf Disk (c:\wiredplane_debug.log)
+SaveDebugLogOnDisk=Speichern des Debug-Logs auf Disk
+SaveDesktopIcons=Desktop-Icons speichern
+; not in 3.6.3
+SaveEmailWithYourRe_NDNUJMKTLX=Speichern der Email mit der Registrierungsinformation in Datei und Knopf drücken
+SaveEmailWithYourRegistrationInfoIntoFileAndPressThisButton=Speichere E-Mail mit Deinen Registrierungsinformationen in eine Datei und drücke diesen Schalter
+; not in 3.6.3
+SaveHotkey=Hotkey speichern
+SaveIcons=Icons speichern
+SaveRestoreDesktopI_VDVCQOTLID=Speichern/Wiederherstellen der Desktop-Icon-Positionen
+SaveRestoreFrozenDe_OYQHQRGXYE=Speichern/Wiederherstellen/Einfrieren der Desktop-Icon-Positionen
+SaveScreenshotInJpegFormat=Speichere Screenshot im JPEG-Format
+SaveTo=Speichern nach
+SaveWindowsClipboar_EILKYSKHHM=Windows Clipboard-Inhalt speichern zwischen Neustarts
+ScheduledShutdown=geplantes Herunterfahren...
+Scheduler=Zeitplaner
+SchedulerOptions=Zeitplaner-Optionen
+ScreenBorders=Bildschirmränder
+ScreenSaver=Bildschirmschoner
+ScreenSaverHotkeyAn_PCRNAXRQVA=Screensaver-Hotkey und weitere Features
+ScreenSaverOff=Bildschirmschoner AUS
+ScreenSaverOn=Bildschirmschoner EIN
+ScreenSaverRelatedHotkeys=Hotkeys für Bildschirmschoner
+ScreenshotDirectory=Screenshot-Verzeichnis
+ScreenshotFileNameP_DABGLMVHGF=Screenshot-Dateiname (Muster erlaubt)
+ScreenshotFileNameUseTitleCountDateTime=Screenshot-Dateiname (benutze %TITLE, %COUNT, %DATE, %TIME)
+; not in 3.6.3
+ScreenshotFileParam_EMWVQCXIPI=Screenshot-Datei, Parameter, Zeichen und mehr
+ScreenshotInfo=Screenshot-Info
+Screenshots=Screenshots
+ScreenshotsAddition_JLBNNKGEIC=Screenshots, weitere Desktops, Desktop-Icons und mehr
+ScreenshotSignSizeAndMore=Screenshot Zeichen, Grösse und mehr
+ScreenshotsOptionsF_KSCBNANYQW=Screenshot-Optionen - Dateien, Modus usw.
+ScreenshotsParameters=Screenshots-Parameter
+ScreenshotSuccessfullySavedTo=Screenshot erfolgreich gespeichert nach
+; not in 3.6.3
+ScreenshotTarget=Screenshot-Ziel
+ScreenshotTargetForDoublePress=Screenshot-Ziel für Doppeldruck
+ScrollDown=nach unten rollen
+ScrollLeft=links rollen
+ScrollOnePageDown=eine Seite runter
+ScrollOnePageUp=eine Seite hoch
+ScrollRight=rechts rollen
+ScrollUp=nach oben rollen
+SearchForAFileOrAFolder=Suche nach einer Datei oder nach einem Verzeichnis
+SearchForComputers=Suche nach Computern
+SearchGoogle=Suche mit Google
+Sec=Sek.
+SecondaryHotkey=Zweit-Hotkey
+Section=Bereich
+SecToBeClosed=Sek. bis zum Schliessen
+SelectBaseApplication=Haupanwendung
+SelectedText=markierter Text
+SelectedTextInSelec_KNMQYSJUSV=selected text in 'selectedText' und Makroparameter in 'macroParameter'
+SelectedTextOperations=Behandlung markierten Texts
+Selection=Auswahl
+; not in 3.6.3
+SelectionMethod=Auswahlmethode
+; not in 3.6.3
+SelectionMethodForT_OJHBKGCUBK=Auswahlmethode für Textoperationen
+SelectLanguage=Wähle Sprache
+SelectOneOfTheRunningApplications=Wähle eine der laufenden Anwendungen
+SelectTextToTranslateFirst=Markiere zuerst den zu übersetzenden Text
+Sequence=Reihenfolge
+SequentialScreenshots=aufeinanderfolgende Screenshots
+SerialNumber=Seriennummer
+Services=Services
+Set0ToDisableThisFe_RIJQFBPPUT=Setze auf 0 um dieses Feature ingesamt abzuschalten. Wirkt erst nach Neustart
+SetActivationHotkey=Setze Aktivierungs-Hotkey
+SetAllLettersToLowercase=Setze alle Zeichen auf klein-Schreibung
+SetAllLettersToUppercase=Setze alle Zeichen auf GROSS-Schreibung
+SetApplicationSWind_BGLRHJVYOY=Setze Transparenz des Anwendungsfensters (%)
+SetApplicationSWindowPosition=Fensterposition der Anwendung setzen
+SetApplicationSWindowSize=Fenstergrösse der Anwendung setzen
+SetAsTargetForTransmit=Als Ziel für Übertragung setzen
+; not in 3.6.3
+SetDifferentResolut_XWYIEGJAYU=Setze unterschiedliche Auflösungen für jeden Desktop
+; not in 3.6.3
+SetLayout=Setze Layout
+SetOpacity=Transparenz setzen
+SetRandomScreenSaverFirst=Setze zuerst zufälligen Bildschirmschoner
+SetResolution=Auflösung einstellen
+Settings=Einstellungen
+SetTransparency=Transparenz setzen
+SetVolumeOnWindowsS_EVJTTWOMHM=Lautstärke beim Windows-Start setzen (%)
+SetVolumeOnWindowsS_KTDLBCSFWL=Lautstärke beim Herunterfahren setzen (%)
+ShiftClickActivateProc=Shift-Klick: Prozess aktivieren
+ShiftClickKillProcess=Shift-Klick: Prozess abschießen
+ShiftClickPinUnpinItem=Shift-Klick: Eintrag an-/abheften
+ShiftClickTuneItem=Shift-Klick: Eintrag bearbeiten
+Short_save=Speichern
+; not in 3.6.3
+Short_to=Bis
+; not in 3.6.3
+Shortcut=Verknüpfung
+ShortcutKey=Verknüpfung Hotkey
+VerknüpfungHotkey=Verknüpfung Hotkey
+; check 'VerknüpfungHotkey=Verknüpfung Hotkey' was generated by WK itself!
+ShortcutTo=Verknüpfung zu
+; not in 3.6.3
+ShowAdditionalIconW_DGPAXHPNES=Zeige extra Icon beim Abspielen des Makros
+ShowAdditionalPreferences=Zeige weitere Einstellungen
+ShowAllApplications=Zeige alle Anwendungen
+ShowApplicationInfo=Zeige Anwendungsinformationen
+ShowApplicationMenuInTray=Zeige Anwendungsmenü im Tray
+ShowApplicationShor_LWFQTLXSIC=Zeige Anwendungsverknüpfung im Hot-Menü
+; not in 3.6.3
+ShowApplicationShor_YVBRFDVEXA=Zeige Anwendungsverknüpfung im 'Hot-Menü'
+ShowApplicationSpec_RGWXDNGHQQ=Zeige anwendungsspezif. Verlauf für das Standard-Clipboard
+ShowApplicationSpecificHistory=Zeige anwendungsspezif. Verlauf
+ShowAsBaloonTooltip=Zeige als Ballon-Tooltip
+; check one 'l' missing.
+ShowAsBalloonTooltip=Zeige als Ballon-Tooltip
+ShowAsRectangularTooltip=Zeige als rechteckigen Tooltip
+ShowCharactersCount=Zeige Zeichenanzahl
+; not in 3.6.3
+ShowCpuAndMemoryUsa_LOTLNBVSTP=Zeige CPU- und Speicher-Auslastung im Tray-Tooltip
+ShowCpuUsageAsHistogramColumns=Zeige CPU-Auslastung als Histogramm, ... Spalten
+ShowCpuUsageOverTrayIcon=Zeige CPU-Auslastung über Tray-Icon
+ShowCurrentKeyBindings=Zeige Hotkeys
+ShowCurrentSong=Zeige aktuelles Lied
+ShowCurrentSongInOsd=Show current song in OSD
+ShowFullFilePaths=Zeige volle Dateinamen
+ShowHelp=Hilfe zeigen
+; not in 3.6.3
+ShowHelpOnFormatSpecifications=Hilfe zu Format-Spezifikationen
+ShowHelpPage=Zeige Hilfeseite
+ShowHideWinampWindow=Zeigen/Verbergen WinAmp Fenster
+ShowHistogramWithNu_WCIROHLQCC=Zeige Histogramm, mit Anzahl an Spalten
+ShowHistory=Zeige Verlauf
+ShowHistoryForStand_WTVTXCPCEC=Zeige Verlauf für Standard-Clipboard
+ShowIconInTray=Zeige Icon im Tray
+ShowIfNotStartedYet=Zeige wenn noch nicht gestartet
+ShowInMenus=Zeige in Menüs
+; not in 3.6.3
+ShowInTray=Zeige im Tray
+; not in 3.6.3
+ShowItemInMenus=Zeige Eintrag in Menüs
+ShowItInTheRootMenu_SGHNCSU=Im Wurzel-Menü zeigen, wenn möglich
+ShowListIn2Columns=Zeige Liste in 2 Spalten
+ShowMacroHelpPage=Zeige Makro-Hilfeseite
+ShowMainMenu=Zeige Hauptmenü
+ShowMainWindow=Zeige Hauptfenster
+ShowMatchingFilesOnly=Zeige nur passende Dateien
+ShowNewSongInTheTra_FSLTVUGBLE=Zeige neues Lied im Tray-Tooltip anstatt im OSD
+ShowOsdForSeconds=Zeige OSD für ... sek.
+ShowOverallMemoryUsage=Zeige gesamte Speichernutzung
+ShowOwnerdrawMenusToo=Zeige {ownerdraw} Menüs ebenfalls
+ShowPluginPreferences=Zeige PlugIn-Einstellungen
+; not in 3.6.3
+ShowPopupMenuWithAl_JLIEUULDKV=- Zeige Popup-Menü mit allen Anwendungen des Sets (drücke Start-Set-Hotkey)
+ShowPreferencesDialog=Zeige Einstellungsdialog
+ShowScreenshotSArea_UEJNWXCFTP=Zeige Screenshot-Bereichsinfo im Tooltip
+ShowShutdownRestartDialog=Zeige Dialog für Runterfahren/Neustart
+ShowSongTitleEveryT_RPKJNEBGFO=Zeige Lied-Titel beim Start des nächsten Liedes
+ShowSongTitleOnlyWi_SLNXNLXTAU=Zeige nur Titeltext, keine weiteren Texte
+ShowSplashForAtLeastSecs=Zeige OSD für mindestens ... Sek.
+ShowSplashForDesktopSwitches=Zeige OSD bei Desktop-Wechsel
+ShowSplashForMemory_GRJCCUOUOX=Zeige OSD bei Speicheroptimierung
+ShowSplashForQuickR_DMQNMBRMDS=Zeige OSD für Schnellstart-Anwendung
+ShowSplashForVolumeControls=Zeige OSD für Lautstärkeregelung
+ShowSplashForWinampControls=Zeige OSD für WinAmp-Steuerung
+ShowSplashWindow=Zeige OSD-Fenster
+; not in 3.6.3
+ShowSystemMenu=Zeige Systemmenü
+ShowSystemShutdownD_MITSGLGLRR=Zeige Dialog für System Runterfahren statt Neustart
+ShowThisItemInMenusOnlyIfNotStartedYet=Zeige diesen Eintrag im Menü nur wenn er bisher nicht gestartet wurde
+; not in 3.6.3
+ShowThisItemOnlyIfNotStartedYet=Zeige diesen Eintrag nur wenn er bisher nicht gestartet wurde
+; not in 3.6.3
+ShowTimeAndDateInOsd=Uhrzeit / Datum im OSD zeigen
+ShowTooltipWithAddi_KRWINCWWSP=Zeige Tooltip mit ergänzenden Informationen im Verlaufs-Popup-Menü
+; not in 3.6.3
+ShowWinampTitleInSplashString=Zeige WinAmp-Titel im OSD-Text
+; not in 3.6.3
+ShufflingChanged=Mischung gewechselt
+Shutdown=Herunterfahren
+ShutdownCancelled=Herunterfahren abgebrochen
+ShutdownComputer=Computer herunterfahren
+ShutdownInProgress=Herunterfahren im Gange
+ShutdownProcessesAndMore=Runterfahren, Prozesse und mehr
+ShutdownSequenceCanTBeCancelled=Herunterfahren kann nicht abgebrochen werden
+; not in 3.6.3
+ShutdownType=Art des Runterfahrens
+SignaturePatternsPermitted=Signaturmuster erlaubt
+SignScreenshot=Signiere Screenshot
+SignScreenshotPatte_PGCFUMAPKB=Signiere Screenshot (Muster erlaubt)
+SignScreenshotSizeAndMore=Signieren, Screenshot Größe und mehr
+SignStringUseTitleCountDateTime=Signiere Zeichenkette (benutze %TITLE, %COUNT, %DATE, %TIME)
+; not in 3.6.3
+SimpleKeyLogger=Einfacher Keylogger
+; not in 3.6.3
+SimpleWayToQuicklyA_TSKJDCOFGV=Einfacher Weg zum schnellen Aktivieren gemeinsam genutzter Floater oder versteckter Fenster
+; not in 3.6.3
+SimplyGenerateListi_HKJQVVSSSO=Einfaches Erzeugen einer Dateiliste des gewählten Verzeichnisses
+SingleHotkeyCanBeAs_NTFPFUDMFE=Einzelner Hotkey kann nur einer Aktion zugewiesen werden
+; not in 3.6.3
+Size=Size
+SizePixels=Grösse (Pixel)
+SlightlyAffectsMsWi_OPNJOHIXUA=Beeinflusst geringfügig MS Windows-Perfomance
+SomeHotkeysCanNotBeRegistered=Einige Hotkeys können nicht registriert werden! Wahrscheinlich werden sie von<br>anderen Anwendungen genutzt.<br>Liste der betroffenen Hotkeys
+; not in 3.6.3
+SomeNotes=Einige Hinweise
+Song=Lied
+SorryNothingFamilia_SEQMPYEIWY=Bedaure, nichts bekanntes gefunden! Bitte Anfrage umformulieren
+SorryOptionsCanBeEd_EAEYHYONCV=Bedaure, Optionen können nur auf dem Haupt-Desktop geändert werden
+SorryThisHotkeyCanT_GVDYNYOEFK=Bedaure, dieser Hotkey kann nicht registriert werden
+; not in 3.6.3
+SortIn09Order=Sortiere in 0..9 Reihenfolge
+SortIn90Order=Sortiere in 9..0 Reihenfolge
+SortInAZOrder=Sortiere in A..Z Reihenfolge
+SortInZAOrder=Sortiere in Z..A Reihenfolge
+SortLinesAutomatically=Sortiere Zeilen automatisch
+SortProcessesAlphabetically=Sortiere Prozesse alphabetisch
+SortTextLines=Sortiere Textzeilen
+Sound=Sound
+SoundOff=Ton AUS
+SoundOn=Ton EIN
+SoundOptions=Toneinstellungen
+Sounds=Töne
+; not in 3.6.3
+SoundVolume=Lautstärke
+SoundVolumeControl=Lautstärkeneinstellung
+SpeakerDecreaseVolume=Lautsprecher: Lautstärke lauter
+SpeakerIncreaseVolume=Lautsprecher: Lautstärke leiser
+SpeakerMute=Lautsprecher: Stumm
+SpecialModeWhenAnyCopy=Spezialmodus, jede Kopie wird automatisch in das ausgewählte Fenster eingefügt
+SplashString=OSD-Text
+SplashStringBackgroundColor=OSD-Text Hintergrundfarbe
+SplashStringPosition=OSD-Text Position
+SplashStringSizePos_SWEVBQGQEB=OSD-Text Grösse, Position und Farbe
+SplashStringTextColor=OSD-Text Textfarbe
+SplashStringTextFont=OSD-Text Zeichensatz
+StandardApplications=Standardanwendungen
+; not in 3.6.3
+StandardClipboardHistory=Standard-Clipboard - Verlauf
+StandardMsWindowsShortcuts=Standard MS Windows Shortcuts
+StandardWindowsHotkeys=Standard Windows Hotkeys
+Standart=Standard
+; not in 3.6.3
+StartAllApplication_KRVXIALCJH=- Starte alle Anwendungen des Sets mit einem Klick (Doppel-Druck Start-Set-Hotkey)
+StartAllApplication_SHLVWRTVFB=Starte alle Anwendungen des Sets, wenn Doppel-Druck erkannt wurde
+StartAllItems=Starte alle Einträge
+StartApplicationInD_QBSLTEXYHI=Starte Anwendung auf anderem Desktop
+StartInDesktop=Start im Desktop
+Starting=Starten
+StartingCheck=Starte Prüfung...
+StartingWinamp3=Starte WinAmp3
+; not in 3.6.3
+StartingWinamp=Starte WinAmp
+StartItem=Starte Eintrag
+StartNewInstance=Starte neue Instanz
+StartOfMacro=Starte Makro
+StartPausePlayback=Start/Pause Wiedergabe
+StartPlayback=Starte Wiedergabe
+StartStopVisualizationPlugin=Start/Stop Visualisierungsplugin
+StartupDirectory=Start-Verzeichnis
+StartupMessagePosition=Startup-Mitteilungsposition
+StartupTimeSec=Startup-Zeit (Sek.)
+; not in 3.6.3
+StartWinamp=Starte WinAmp
+StartWithAdditionalOptions=Start mit erweiterten Optionen
+; not in 3.6.3
+StartWithWindows=WireKeys mit Windows starten
+Statistics=Statistik
+Step=Schritt
+StepPercents=Schritt (%)
+Stop=Stopp
+; not in 3.6.3
+StopPlay=Stopp/Spielen
+StopPlayback=Stop Wiedergabe
+StopWinamp=Stoppe WinAmp
+StopWinampFirst=Stopp WinAmp zuerst
+Strike=Treffer
+; not in 3.6.3
+String=Zeichenkette
+StringToReplaceMatches=Zeichenkette für Ersatz von Fundstellen
+StripSongNumberAndW_JPTAHOAADB=Liednummer und WinAmp-Status im OSD nicht zeigen
+SupportByEmail=Support per Email
+Suspend=Suspend
+SuspendComputer=Suspend Computer
+SwapLineParts=Tausche Zeilenteile
+SwitchMonitorIntoStandByMode=Schalte Monitor in Stand-by-Modus
+SwitchOnTopState=Wechsle On-Top Zustand
+; not in 3.6.3
+SwitchOnTopStateOfA_MAJTRSAPKE=Wechsle On-Top Zustand der aktiven Anwendung
+SwitchOverlaySupport=Wechsle Overlay-Support
+; not in 3.6.3
+SwitchShuffling=Wechsle Mischung
+; not in 3.6.3
+SwitchSpeedNormalHigh=Wechsle Geschwindigkeit (Normal/Hoch)
+SwitchTextCase=Tausche Text GROSS/klein
+SwitchToNextDesktop=Wechsle zum nächsten Desktop
+SwitchToNextLayout=Wechsle zum nächsten Layout
+SwitchToPreviousDesktop=Wechsle zum vorherigen Desktop
+SwitchToTheOpenedInstance=Wechsle zur geöffneten  Instanz
+SwitchVideoWindowsSupport=Wechsle Video-Fenster-Unterstützung
+; not in 3.6.3
+SystemActions=Systemaktionen
+SystemMenu=Systemmenü
+SystemPrograms=Systemprogramme
+SystemRelatedControls=System-Einstellungen
+SystemResourceIndication=Systemressourcen-Anzeige
+TakeActiveWindowOnly=Nimm nur aktives Fenster
+TakenFrom=Genommen von
+TakenFrom=Taken from
+TakeScreenshot=Nimm Screenshot
+TargetMouseEnabledH_OCTTNXYNWH=Richte Mausverbundene Hotkeys auf das anvisierte Fenster
+Terminate=Beende
+TerminateActiveApplication=Beende aktuelle Anwendung
+TerminateApplication=Beende Anwendung
+Test=Test
+TestItem=Testeintrag
+; not in 3.6.3
+TestQuickRunEntry=Teste Schnellstarteintrag
+; not in 3.6.3
+TestSound=Teste Ton
+; not in 3.6.3
+TestThisItem=Teste diesen Eintrag
+TextMacro=Textmakro
+TextMacros=Textmakros
+TextOverTrayIcon=Text über Tray-Icon
+TextToInsert=Text zum Einfügen
+ThirdHotkey=Dritt-Hotkey
+ThisApplicationIsAR_VPRJERIUFG=Diese Anwendung ist ein echtes All-in-one-Werkzeug tool und kann eine Menge. Klicke auf den 'Tutorial' Knopf für einen schnellen Überblick der wichtigsten Möglichkeiten
+ThisApplicationWas=Diese Anwendung war
+; not in 3.6.3
+ThisCanPreventDataL_AFOHSTRDAQ=Das kann Datenverlust im Falle eines PC-Absturztes verhindern
+ThisFeatureCanBeUse_VKICWCWUQI=Dieses Feature kann nur in der registrierten Version genuutzt werden
+ThisHotkeyCanQuickl_UGBQGQVDKU=Dieser Hotkey kann schnell verstecktes Fenster oder Floater aktivieren
+; not in 3.6.3
+ThisIsUnregisteredCopyOf=Dies ist eine unregistrierte Kopie von
+; not in 3.6.3
+ThisItemHasAddition_ISHCCTDVPB=Dieser Eintrag hat zusätzliche Optionen; aufklappen zeigt diese
+ThisItemWasDeletedAlready=Dieser Eintrag wurde bereits entfernt
+; not in 3.6.3
+ThisKeyCanHideAllSh_IQVJCBNKFA=Diese Taste kann alle ungewünschten Anwendungen in Sekunden verstecken
+ThisOptionMayNotWor_TDAEJMOMYM=Diese Option funktioniert mit einigen Anwendungen und bestimmten Anwendungseinstellungen nicht
+ThisPluginIsNotEnabled=Dieses PlugIn ist zur Zeit nicht eingeschaltet. Die Einstellungen können nicht bearbeitet werden
+; not in 3.6.3
+ThisProgramIsAlreadyRunning=Dieses Programm läuft bereits
+; not in 3.6.3
+ThisTextWillBeAutom_JOGDRGUDSQ=Dieser Text wird automatisch in die aktive Anwendung eingefügt, wenn dieses Makro aufgerufen wird
+ThisTimeMustBeBigEn_JEIVELJJCN=Diese Zeit muss groß genug sein um der Anwendung die Möglichkeit zu geben, das Hauptfenster zu erzeugen
+Time=Zeit
+TimeFormat=Zeitformat
+TimeRenamer=Time Renamer
+TimeToWaitAfterStart=Wartezeit nach dem Start
+To=Bis
+; not in 3.6.3
+ToActivateThisActio_NFVECKLGHX=Um diese Aktion zu aktivieren, muss WireKeys bereits gestartet sein
+ToCalculateSomethin_OWCKYIXVPM=Um etwas zu berechnen, muss der Text auf '=' enden=. Z.B. '10+(50*3)='
+TopCenter=Oben-Mitte
+ToQuicklySetValueForThisItem=Um schnell einen Wert für diesen Eintrag zu setzen
+ToRestart=um neu zu starten
+ToShowThemInMenu=um den Eintrag im Menü zu zeigen
+ToShutdown=um runterzufahren
+ToTheRightPartOfThisRow=zum rechten Teil dieser Zeile
+TrackAllNewApplicat_HSCKXAPWPY=Verfolge alle neuen Anwendungsinstallationen
+; not in 3.6.3
+Translation=Übersetzung
+TranslationNotFound=keine Übersetzung gefunden 
+TransmittedText=Übertragener Text
+; not in 3.6.3
+Tray=Tray
+TrayHotMenu=Tray-Menü und Hot-Menü
+TrayIcon=Tray-Icon
+TrayIconIndicator=Tray-Icon-Anzeiger
+TrayIconStartButton_GFYWDTVEXL=Tray-Icon, Start-Knopf und Systemressourcen-Anzeige
+TrialPeriodIsOver=Testzeitraum ist vorbei. Ihre Änderungen werden nicht gespeichert!<br>Registrierung von WireKeys ensperrt alle Features.<br>Details siehe http://www.WiredPlane.com
+TriggeredHotkey=Betätigter Hotkey
+TuneUpThisMenu=Dieses Menü bearbeiten
+; not in 3.6.3
+TurnOffTransmitMode=Übertragungsmode ausschalten
+; not in 3.6.3
+Tutorial=Tutorial
+TypeCdDriveLetterTo_JFJQTFEWRU=Tippe CD-Laufwerkbuchstaben zum Auswerfen/Laden über Hotkey
+TypeCdDriveLetterTo_XCKPDPWJSK=Tippe CD-Laufwerkbuchstaben zum Auswerfen/Laden über Hotkey-Doppeldruck
+TypeMacroFileNameFirst=Tippe Makrodateinamen zuerst
+TypeOptionNameToFindIt=Tippe Optionsbezeichnung zur Suche
+UnableToKillProcess=Prozess abzuschießen nicht möglich
+Underline=Unterstreichen
+; not in 3.6.3
+UnhideAllHiddenApplications=Alle versteckten Anwendungen wieder aufdecken
+UnhideAllOnDoublePress=Alle aufdecken bei Doppeldruck
+; not in 3.6.3
+UnhideLastHiddenApplication=Letzte versteckte Anwendung wieder aufdecken
+; not in 3.6.3
+UnhideLastHiddenWindow=Zuletzt verstecktes Fenster wieder aufdecken
+UnhideOnDoublePress=Aufdecken bei Doppeldruck
+UnpinWindow=Fenster abheften
+Unpress=Loslassen
+Unregistered=Unregistriert
+UnregisteredVersion=Unregistrierte Version
+; not in 3.6.3
+UnregisteredVersion_RWEDJBSPCD=Unregistered version will not save your changes
+UpdateDetected=Update gefunden
+UpgradeToFull=Zur Vollversion upgraden
+Uptime=Uptime
+UseAsAWildcardForPa_TWRHPSFRSR=verwende '*' als Wildcard für Teilüberéinstimmungen
+UsedHotkey=verwendeter Hotkey
+UseDifferentShellFo_PVHXDNCOBG=Benutze für jeden Desktop eine andere Shell
+UseFastestInserts=Schnelles Einfügen benutzen
+UseFastInserts=Schnelles Einfügen benutzen
+UseMyIconForTrayIcon=Benutze mein eigenes Icon als Tray-Icon
+UseRegexpToFilterPa_MNGTAQRTKP=Benutze reguläre Ausdrücke zum Filtern von Einfüge-Operationen
+UserInterfaceLanguage=Sprache Benutzerschnittestelle
+UserName=Benutzername
+UserRectangle=Anwender-Rechteck
+UseSingleClickForOp_RHAMSCOAHK=Benutze Einfachklick um Floater zu öffnen
+UseStartButtonAsIndicator=Benutze "Start"-Knopf als Anzeiger
+; not in 3.6.3
+UseTheMostCompatibl_BHIEMLOEWO=Nutze den kompatibelsten Weg, um lnk-Dateien zu starten
+UseThisToQuicklyReg_VCHKAGYJSV=Nutze dies, um die Anwendung schnell zu registrieren
+UseTrayIconAsIndicator=Benutze Tray-Icon als Anzeiger
+UseTrayIconAsResourceIndicator=Benutze Tray-Icon als Resourcen-Anzeige
+Value=Wert
+ValueMustBeBetween=Wert muss sein zwischen
+VbscriptError=VBScript-Fehler
+VeryUsefulIn3dGames_BOHTTJCPRS=Sehr nützlich in 3D-Spielen – wenn Sie gerade keine Zeit haben, auf die Uhr zu schauen
+VideoWindowsSupport=Video-Fenster-Unterstützung
+VideoWindowsSupportIsDisabled=Video-Fenster-Unterstützung ist ausgeschaltet
+VideoWindowsSupportIsEnabled=Video-Fenster-Unterstützung ist eingeschaltet
+VisitHttpWwwWiredpl_BGGNVVVIDP=Besuchen Sie http://www.wiredplane.com für weitergehende Informationen
+Volume0=Lautstärke 0%
+Volume100=Lautstärke 100%
+Volume30=Lautstärke 30%
+Volume50=Lautstärke 50%
+Volume70=Lautstärke 70%
+Volume=Lautstärke
+VolumeControl=Lautstärkeregler
+VolumeDown=Lautstärke leiser
+VolumeFolder='Lautstärke' Verzeichnis
+VolumeUp=Lautstärke lauter
+VolumeUpDownHotkeys=Hotkeys für Lautstärke laut/leise 
+WaitForUserChoice=Auf Benutzerauswahl warten
+WaitingForReply=Warte auf Antwort...
+Warning=Warnung
+WarningWirekeysIsPaused=Warnung: WireKeys ist angehalten
+WasFoundDoYouWantTo_YBBSQUCEYA=wurde gefunden! Wollen Sie es jetzt runterladen
+WavFile=WAV-Datei
+WebSite=Website
+WelcomeToStartToUse_LYKACJOXXP=Willkommen! Bei Erstnutzung von WireKeys<br>lies die Hilfe-Datei und sieh Dir die<br>HotkeyVerknüpfungen im "Hilfe"-Untermenü an<br>*** einfach Rechts-Klick auf das Tray-Icon ***
+; not in 3.6.3
+WelcomeToWirekeys=Willkommen bei WireKeys
+; not in 3.6.3
+WelcomeToWirekeysNo_IEPOIRAPHS=Willkommen bei WireKeys! Beachten Sie das neue Icon im Tray-Bereich (neben der Systemuhr).  Bei Rechtsklick darauf erscheint ein Popup-Menü mit möglichen Aktionen
+WhatIsThat=Was ist das denn?
+WhatSNew=Was ist neu
+WhatToDoAfterApplic_LLJKCKYVJO=Was kann man nach dem Anwendungsstart machen (zum Beispiel im Tray verstecken)
+WhatToDoOnItemSelect=Was kann man machen nach Eintragauswahl
+; not in 3.6.3
+WhatToDoWhenYouClickTheBossKey=Was passiert, wenn die "Boss"-Taste gedrückt wird
+WhenAndWhereShowDif_BABSUIKAVQ=Wann und wo unterschiedliche Untermenüs und Unterverzeichnisse erscheinen. Hier können Sie selten benutzte Verzeichnisse aus dem Tray und den Einstellungen entfernen
+WhenCheckedWirekeys_YVLYRGJKHQ=Nach Aktivierung gibt WireKeys eine Deinstallationsmöglichkeit der zuletzt installierten Anwendungen – in einem speziellen Untermenü im Tray-Icon
+; not in 3.6.3
+WhenProgramNeedsToS_KSQOPIGPTD=Wenn das Programm Daten unter einem automatisch generierten Dateinamen speichern will, werden all (für einen Dateinamen) falschen Zeichen durch diesen hier ersetzt
+WhenScreenSaverStarted=wenn Bildschirmschoner
+WhenScreenSaverStopped=Wenn Bildschirmschoner stoppt
+WhenTriggeredAllOfT_BSUMRYHFMU=Wenn betätigt, werden alle ausgeführt
+WhenYouChooseItemFr_QIGRNMFFOJ=Wenn Sie einen Eintrag aus dem Tray-Untermenü einer versteckten Anwendung wählen, erscheint er beim nächsten Mal auf Hauptmenüebene
+WhereAndHowToShowThisItem=Wo und wie diesen Eintrag anzeigen
+; not in 3.6.3
+WhereToShowSplashSt_YJQASPJORO=Wo soll OSD-Text bei Schnellstart und Lautstärkeeinstellung gezeigt werden
+WhilePreferencesDialogIsOpened=Solange der Einstellungs-Dialog geöffnet ist
+; not in 3.6.3
+WholeScreen=Gesamter Bildschirm
+WinampControls=WinAmp-Regler
+WindowCanBeRolledUp_XGFJUXIDCG=Fenster kann aufgerollt werden zum Titel oder Hauptmenü. Letzteres wird vorgezogen, weil man dann mit den Menüeinträgen der Anwendung arbeiten kann
+WindowClass=Fensterklasse
+WindowClientPartPosition=Position des Hauptarbeitsbereich des Fenster
+WindowHeight=Fensterhöhe
+WindowPartsModifiers=Fenster-Bereichs-Modifierer
+WindowPosition=Fensterposition
+WindowsTraitsPlugin_NLRCHYPYKJ='Windows traits'-PlugIn fügt einige nützliche Funktionen hinzu
+WindowTitle=Fenstertitel
+WindowWidth=Fensterbreite
+WindowXPosition=Fenster-X-Position
+WindowYPosition=Fenster-Y-Position
+Wirekeys=WireKeys
+WirekeysHint=WireKeys Hinweis
+WirekeysHotkeys=WireKeys: Hotkeys
+WirekeysModules=WireKeys: Module
+WirekeysMustBeAlrea_TOREGCHADG=WireKeys muss gestartet sein, um diese Kommandos auszuführen
+WirekeysOptions=WireKeys Einstellungen
+WirekeysQuickRun=WireKeys: Schnellstart
+WirekeysRegistration=WireKeys: Registrierung
+WirekeysWarning=WireKeys: Warnung
+WirekeysWillAutomat_IDQNUWJJYB=WireKeys wirft vergessene CDs automatisch aus beim Runterfahren oder Neustarten (für 2 Sek.)
+WirekeysWillBeAcces_GJXVRECHLR=WireKeys ist vom WireNote-Menü erreichbar
+WirekeysWillExitNowToApplyChanges=WireKeys jetzt beenden, um Änderungen zu übernehmen
+WirekeysWillStartWi_HDQYPLUOGW=WireKeys startet WinAmp automatisch, wenn Sie einen der Hotkeys drücken und WinAmp nicht läuft. Dieses Feld leer lassen zum automatischen Finden von WinAmp's EXE
+WirenoteIntegration=WireNote-Integration
+WithAlertWindow=mit Alarmfenster
+WithCharactersFromTheList=Mit Zeichen aus der Liste
+WithInvertEffect=mit Invertier-Effekt
+WithoutExtension=ohne Erweiterung
+WorksOnWinntAndHigherOnly=Arbeitet nur ab WinNT und höher
+; not in 3.6.3
+Yes=Ja
+YesNo=Ja/Nein
+; not in 3.6.3
+YesToOverwrite="Ja" zum Überschreiben
+YouAreUsing=Sie benutzen
+YouAreUsingTheLatestVersionOf=Sie benutzen die neueste Version von
+YouCanAssignOneHotk_WCEOCXBKFL=Sie können einen Hotkey verschiedenen Aktionen zuweisen
+YouCanDownload=Sie können runterladen
+YouCanDownloadLates_VFIWIIDECP=Sie können die neueste Version runterladen von
+YouCanLeaveThisFiel_TIRHKHLBCV=Sie können dieses Feld frei lassen, um das Standard-Icon zu nutzen
+YouCanPinItems=Wenn Sie während der Auswahl die "Umschalt"-Taste gedrückt halten, können Sie Einträge an jeden Clipboard-Verlauf anheften
+YouCanSimplyDragFil_GDDTOEXBBC=Sie können einfach eine Datei aus dem Explorer ziehen
+YouCanUseMaskWithAn_QUGMUABHBK=Sie können maskieren mit '*' und '?' oder frei lassen um alle Anwendungen zu bearbeiten. Beispiel 'Explorer*'
+; not in 3.6.3
+YouCanUseMaskWithCh_NLEQEQFTEK=Sie können maskieren mit '*' und ';' als Trennzeichen. Beispiel: 'explorer*;*pad*'
+YouCanUseSoundContr_AUGEFHJMBN=Sie können das 'Sound control'-Plugin nutzen, um bestimmten Mixer zu steuern (wave, aux usw)
+YouHaveToReopenPref_HMEYYPJCVQ=Nach dem Aktivieren dieser Option müssen Sie die Einstellungen erneut öffnen
+; not in 3.6.3
+YouHaveToRestartWir_EMWRAQWFIH=Sie müssen WireKeys neu starten nach Betätigen dieser Einstellung
+YouJustOpenedListOf_AWHMRFHOUL=Sie haben die Liste aller aktiven Prozesse gerade geöffnet
+YouMustRestartCompu_DWRIXJDJRT=Der Computer muß neu gestartet werden, um die Änderungen zu übernehmen
+; not in 3.6.3
+YouMustRestartCompu_GWRIXJDJRM=Der Computer muß neu gestartet werden, um die Änderungen zu übernehmen
+YouWillBeAbleToBrowseThisFolder=Sie können dieses Verzeichnis und seine Unterverzeichnise über das Tray-Menü durchsuchen. Um das Explorer-Kontextmenü zu erhalten genügt ein Rechts-Klick auf die markierten Einträge
+; not in 3.6.3
+YouWillBeAbleToChoo_QBESQTRDKV=Sie können Anwendungsmenüeinträge über das Tray-Icon-Menü auswählen. Das funktioniert nicht mit allen Anwendungen.
+YouWillNeedToSetFil_AENGMYUCFC=Sie müssen den Dateipfad manuell setzen
+îáìåíèâàåì=Îáìåíèâàåì
+; check very strange
+ôèãçíà÷åò÷òî=Ôèã çíà÷åò ÷òî!
+; check very strange
+
+EditSmartKeywords=Bearbeite Smart Keywords

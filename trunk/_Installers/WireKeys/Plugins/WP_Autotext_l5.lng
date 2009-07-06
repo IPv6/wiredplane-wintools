@@ -1,0 +1,61 @@
+; translated English version 3.6.4 to German
+; Andreas "Richy" Weidner
+; 29.11.2007
+; ------------------------------------
+
+SimpleAutotextAndKeyLogger=einfacher Autotext und Tastenaufzeichnung
+Dscplg_wp_autotext=Diese PlugIn erlaubt die Definition von Autotext-Schnippseln und die Aufzeichnung aller Tastendrücke festgelegter Anwendungen
+
+Popt_useAutote_odjqeljgrq=Benutze Autotext im Sicherheitsmodus mit diesen Fenstern
+Popt_ifYouHav_brkdqdngbc=Wenn es Probleme mit Autotext in bestimmten Fenstern gibt, gib die Fenstertitel hier an
+Popt_editAutot_oouibsearq=Bearbeite Autotext-Stücke
+Popt_enableLog_bdwwhxkpio=Aufzeichnen von Tastendrücken in Logbuchdatei einschalten
+Popt_logFileN_yabhcfibhk=Logbuchdateiname
+Popt_recommende_xwfugvlnck=empfohlene Logbuchgrösse (kb)
+Popt_maxLogFi_ktqepnbvte=Max. Logbuchgrösse (kb)
+Popt_gatherKey_mxstbfnqdy=Sammle Tastendrücke von Fenstern mit passenden Titeln
+Popt_youCanUs_dpgioxyhfr=Sie können '*' zur Maskierung unbekannter Zeichen verwenden und ';' als Trennzeichen zwischen verschiedener Masken
+Popt_gatherKey_oxstbnqwkn=Sammle Tastendrücke von Fenstern mit passender Klasse
+DefineAutotext=Definiere Autotext
+JustTypedText=eben getippter Text
+Replace=Ersetzen
+Launch=Starten
+AddAlias=Kürzel hinzufügen
+3ChooseAliasType=3) Wähle Kürzel-Typ
+2TypeAliasReplaceme_NLEPCATHLS=2) Kürzel-Ersatztext eingeben (oder Dateien/Befehle zum Ausführen)
+ListOfActiveAliases=Liste aktiver Kürzel
+ToRemoveAliasSelect_NLWXLXREHM=Um Kürzel zu löschen, Zeile markieren und Taste
+IljaRazinkov@2003=Ilja Razinkov @2003
+AutotextPluginForWi_QUIHQWKQUM=Autotext PlugIn für WireKeys<br>Autotext ist der Kürzel-Text, der automatisch ersetzt wird<br>mit entsprechend erweiterten Sätzen
+Remove=Entfernen
+Help=Hilfe
+1TypeShortAlias=1) Autotext-Kürzel eingeben
+AutotextPlugin=Autotext PlugIn
+Popt_treatAll_kvxgjbmuee=Behandle alle Kürzel als Groß/klein-UN-empfindlich
+Direct=Direkt
+Paste=Einfügen (Paste)
+Sendkeys=SendKeys
+Popt_methodOf_tywveyygyd=Methode zum Texteinfügen
+Popt_ifYouHav_qqmvnrpfid=Wenn es Probleme mit Autotext in einigen Fenstern gibt, dann geben Sie deren Titel hier an. Dabei '*' als Wildcard für Teilentsprechungen verwenden.
+Popt_expandAli_xtdphstklv=Erweitere das Kürzel nur, wenn von 'Leertaste' gefolgt; Teilentsprechungen vorschlagen
+Popt_withThis_jeaskrmgdp=Wenn diese Option aktiv ist, werden die Kürzel nur erweitert, wenn von einer 'Leertaste' gefolgt. Wenn Teil-Entsprechungen anderer Kürzel gefunden werden, erscheint ein Popup-Menü mit passenden Vorschlägen. Ohne diese Option, werden die Kürzel automatisch beim Tippen erweitert
+Popt_suggestPa_pcxuysikcx=Vorschlag von Teil-Entsprechungen: Verschiebe Tastatur-Fokus ins Popup-Menü
+Popt_automatica_ttnexiedrv=Automatisch das Datum an den Dateinamen hängen
+Popt_useAs_epvaofukcx=Verwendung von '*' als Wildcard für Teilentsprechungen und ';' als Trenner zwischen den verschiedenen Masken
+Popt_saveScree_lpoomxbykm=Speichere Screenshots alle ... min (0 für inaktiv)
+Disable=Inaktiv
+EnableRandom=Aktivieren, zufallsgesteuert
+EnableKeyDepended=Aktivieren, tastenabhängig
+EnableKeyUnique=Aktivieren, tastenunabhängig
+Popt_typingSou_wlmfkdhplr=Tipp-Sound
+LogStart=Log start
+Nameplg_wp_autotext=Autotext-Plugin
+LogEnd=Log end
+IljaRazinkov@2004=Autor: Ilja Razinkov @2004 (deutsch Richy @2007)
+Options=Optionen
+ExpandMode=Erweiterungsmodus
+ReplaceAsYouType=Ersetze während des Tippens
+ReplaceAfterSpace=Ersetze nach 'Leertaste'
+ReplaceAliasOnlyWhe_XYDLPRWKKV=<br>Ersetze das Kürzel nur, wenn von 'Leertaste' gefolgt;<br>Popup-Menü mit anderen Kürzeln bei Teilentsprechung (mind. 3 Zeichen)
+ThisIsTheMostRecentlyTypedText=Dies ist der zuletzt getippte Text
+Clear=Löschen

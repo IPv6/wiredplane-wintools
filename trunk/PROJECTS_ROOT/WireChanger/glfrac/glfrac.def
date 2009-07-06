@@ -1,0 +1,11 @@
+; glfrac.def : Declares the module parameters for the DLL.
+
+LIBRARY      "glfrac"
+DESCRIPTION  'glfrac Windows Dynamic Link Library'
+
+EXPORTS
+
+RenderScript
+GetApplicationLang
+_bmpX
+

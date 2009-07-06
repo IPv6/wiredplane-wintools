@@ -1,0 +1,25 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Коллекция часов</h1><hr>
+Вы можете украсить рабочий стол часами из многочисленной коллекции, которая в большей части состоит из прототипов реальных, всемирно-известных часов. Для отображения используются технологии Active Desktop и Macromedia Flash (<a href="http://www.macromedia.com/go/getflashplayer">скачайте плагин здесь</a>).
+Пополнить свою индивидуальную коллекцию можно двумя способами:
+<br><br>
+Способ N1 - на сайте <a href="http://www.colclocks.com?Client=WireChanger">http://www.colclocks.com</a> или <a href="http://www.adamdorman.com/flash_clocks1.php">http://www.adamdorman.com</a> доступны огромные коллекции часов.
+Для установки: скачайте zip-файл с одного из вышеупомянутых сайтов, установите их и воспользуйтесь функцией WireChanger-а "Импортировать часы". На запрос каталога с часами дляимпорта укажите тот каталог, в который Вы их инсталлировали
+<br><br>
+Способ N2 - готовые архивы часов снабженные специальным инсталлятором также находятся <a href="http://www.wiredplane.com/download/desktopclocks.zip">здесь</a>.
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

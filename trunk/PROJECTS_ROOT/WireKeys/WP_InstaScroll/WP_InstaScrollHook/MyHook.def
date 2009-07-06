@@ -1,0 +1,7 @@
+LIBRARY      "WKInstaScrH"
+DESCRIPTION  'WireKeys InstaScroll plugin'
+
+EXPORTS
+InstallHook
+SetOptions
+MouseProc

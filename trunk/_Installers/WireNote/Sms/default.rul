@@ -1,0 +1,98 @@
+SmsCarriersList=Unknown,Alaska Communications Systems,Alltel,AT&T (now Cingular),CellularOne,Cincinnati Bell,Cingular,Cricket Communications,MetroPCS,Midwest Wireless,Nextel,Omnipoint,Qwest,Sprint,SunCom Wireless,T-Mobile,US Cellular,Verizon,Virgin Mobile,Western Wireless
+SmsMaxLength=100
+
+WndUrl=http://toolbar.google.com/send/sms/index.php
+WndFinishUrl=http://www.google.com/sendtophone
+WndTitle=Sms by Google
+WndLoading=%PROGRESSTIME. Please wait, processing your\nmessage to +7%MOBNUM...\n\n%unescapex(MESSAGE)\n---
+WndIcon=%THISPATH\sms.ico
+WndResize=0
+
+WndOnLoadScriptBegin
+
+var bCaptcha=false;
+function asendMsg()
+{
+	if(bCaptcha==true){
+		document.forms['sending_form'].user_captcha_answer.value=document.all['imgcode'].value;
+	}
+	document.forms['sending_form'].submit();
+}
+
+var res="";
+var _Mobnum7DIGITS=unescape("%MOBNUM");
+var _Message=unescape("%MESSAGE");
+try{
+
+	//alert(document.body.innerHTML);
+
+	// Connection timeout, etc
+	if(document.location.href.indexOf("res://")!=-1){
+		res="%UNREACHABLE ";
+		throw new String("No connection");
+	}
+	
+	// Do we get SUCCESS result?
+	try{
+		if(typeof(document.all['msgarea'])!='undefined'){
+			res="%SUCCESS, send ok";
+		}
+	}catch(e){};
+	
+	// Do we get ERROR result?
+	try{
+		if(document.body.innerHTML.indexOf('class=error')!=-1){
+			res="%FAILURE, send failed";
+		}
+	}catch(e){};
+
+	if(res==""){
+		if(location.href=="http://www.google.com/sendtophone" || typeof(document.forms['sending_form'])!="undefined"){
+			var provField=document.forms['sending_form'].carrier;
+			provField.selectedIndex=%NDC;
+			
+			// MOBNUM
+			document.forms['sending_form'].mobile_user_id.value=_Mobnum7DIGITS;
+			
+			// MESSAGE
+			document.all['body'].value=_Message;
+			try{
+				// Есть ли капча?
+				bCaptcha=(typeof(document.all['captcha_picture'])!='undefined')?true:false;
+			}catch(e){bCaptcha=false;};
+
+			var sMyDiv="<div style='position: absolute; z-index:1000; overflow-y: hidden; overflow-x: hidden; left:0;top:0; width:expression(document.body.clientWidth);height:expression(document.body.clientHeight); backgroundColor: white;'><center>";
+			sMyDiv+="<table width=100% height=100% bgcolor=white style='border: 3 solid black; overflow-y: hidden; overflow-x: hidden;'><tr><td align=center valign=top>";
+			if(bCaptcha==true){
+				sMyDiv+="<center>";
+				sMyDiv+="Enter text from this picture:";
+				sMyDiv+="<br>";
+				var sSrc=document.forms['sending_form'].all.tags('img')[0].src;
+				sMyDiv+="<img src='"+sSrc+"'>";
+				sMyDiv+="<br>";
+				sMyDiv+="<input type=text name='imgcode' size=10 onKeyDown='if(event.keyCode==13){event.returnValue=false;asendMsg();};'><br><a href='#' onClick='asendMsg();return false;'>";
+				sMyDiv+=">> Continue >>";
+				sMyDiv+="</a>";
+			}else{
+				sMyDiv+="Please wait...";
+				setTimeout("asendMsg();",1000);
+			}
+			sMyDiv+="</table>";
+			sMyDiv+="</center></div>";
+			document.body.innerHTML="<div style='display: none;'>"+document.body.innerHTML+"</div>"+sMyDiv;
+			document.body.style.overflow = 'hidden';
+			//res+="%SETFURL(http://www.google.com/sendtophone) %STEP2WATCH";
+		}
+	}
+}catch(e)
+{
+	alert("Error: "+e.message);
+	res+="%FAILURE: "+e.message;
+};
+
+// Returning result via defaultStatus
+if(res!=""){
+	window.defaultStatus=res+" ["+_Mobnum7DIGITS+"/"+_Message+"]";
+}
+WndOnLoadScriptEnd
+

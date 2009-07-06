@@ -1,0 +1,121 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Ãåíåðàòîðû îáîåâ: êàëåíäàðü, ïðîãíîç ïîãîäû, öèòàòû è äð." -->
+<!--#set var="PTITLE_EN" value="Wallpaper generators: desktop calendar, weather forecast, quotations and more" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Templates</h2><hr>
+
+Tempates can greatly change look-and-feel of your wallpaper. Templates can be activated via the
+tray menu or preferences. An active template adds additional functionality or useful and even
+interactive objects to your wallpaper. Each active template adds special items to the WireChanger
+tray menu. This provides a quick way to change template options and to edit template-related
+data.<br><br>
+Let's look at the basic templates in WireChanger (Some of them and many others are placed at our web-site here:
+<a href="http://www.wiredplane.com/wirechanger/widgets_main.shtml">Additional templates</a>).<br><br>
+
+- Calendar. This template adds a semi-transparent interactive calendar to your background. The
+calendar is highly customizable and even skinnable. You can add text notes to the cells of the
+calendar by double clicking it right on your desktop. If you change the color of the note's edit
+window, the corresponding cell will use the new color too. To add notes for future dates (that
+are not visible on calendar), double click calendar's title.<br><br>
+
+- Citations. This template places a random citation on your wallpaper every time it changes.
+Double-clicking on a citation will open the citation's file which you can edit and add your own
+favorite citations. Hand-edited citations will not be overwritten when you update to a new
+version of WireChanger.<br><br>
+
+- Image mosaic. This template creates a mosaic from your wallpaper. Mosaics can be created from
+mirrored and/or random images.<br><br>
+
+- Memo pad. This template adds a note pad to the background for the current date and includes
+information about famous people that were born on that day. You can add text of your own by
+double-clicking the memo pad or choosing the corresponding item from the tray menu.<br><br>
+
+- Online quotation. This is the same as Citations (above) but the qoutations are taken from an
+Internet site, so this template will be active only when you are connected to the Internet. If
+you know links to interesting quotation sites, please send them to us. We will consider them for
+additions to future releases.<br><br>
+
+- CNN News. Put the latest news from the CNN Website on your desktop. You must be online to use
+this template.<br><br>
+
+- Second picture. This template adds a small, semi-transparent preview of a random image from
+your collection in the corner of the current wallpaper.<br><br>
+
+- Special effects. You can turn you desktop background into black-and-white artistic paper or
+emboss it or apply several other interesting effects.<br><br>
+
+- Picture in Picture. This template will blend two images into one. This one can be very funny.<br><br>
+
+- Weather forecast. This template adds a special icon with temperature, wind speed, etc., for
+today or tomorrow. Default values are for Moscow, Russia. You can change the city code. To find
+the code for the city of your choice, visit <a href="http://dyn.gismeteo.ru/cgi-bin/wtlist.exe?req=countries&lang=eng">www.gismeteo.ru</a>. Find your city and look at the URL
+of the page. The numbers in the URL will be your code. You can find some of the major cities of the world <a href="#codes">here</a><br><br>
+
+- Web camera. This adds a semi-transparent image from the URL of your choice. You must be
+connected to the Internet to use this template. By default, this template will show you a random
+image from our Website at WiredPlane.<br><br>
+
+Some notes about transparency: It is better not to use transparency under Windows 98 or ME
+because they do not support transparency natively. So it is advisable to set opacity to 100%.
+Windows 2000, Windows XP, and higher do support transparency.<br><br>
+<hr>
+For developers<br><br>
+A template is a simple HTML page or page with a special draw script with preprocessing commands
+which wraps your wallpaper with different effects. Templates will be applied even to images that
+are installed as wallpaper from other programs. You can find all templates in the Template folder
+in WireChanger's installation directory (*.wpt files). You can add new templates easily - just
+use existing template files as examples. Remember that additional files used by WireChanger are
+cached for performance purposes, so if you add/remove any strings to/from them, you must restart
+the application.<br><br>
+<hr>
+<a name="codes">Here are codes for some of the major cities of the world:</a><br><br>
+USA<br>
+Baltimore: 72406<br>
+Boston: 72509<br>
+Chicago: 72530<br>
+Dallas: 72259<br>
+Denver: 72469<br>
+Detroit: 72537<br>
+Los Angeles: 72295<br>
+Miami: 72202<br>
+New York: 72503<br>
+Philadelphia: 72408<br>
+San Francisco: 72494<br>
+Seattle: 72793<br>
+Washington: 72403<br>
+<br>
+Europe and UK<br>
+Amsterdam: 06240<br>
+Berlin: 10381<br>
+Frankfurt: 10637<br>
+Hamburg: 10141<br>
+London: 03372<br>
+Madrid: 08220<br>
+Munich: 10865<br>
+Paris: 07149<br>
+Prague: 11518<br>
+Rome: 16235<br>
+Vienna: 11034<br>
+<br>
+Australia<br>
+Adelaide: 94672<br>
+Brisbane: 94578<br>
+Canberra: 94926<br>
+Darwin: 94120<br>
+Melbourne: 94866<br>
+Sydney: 94767 <br>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

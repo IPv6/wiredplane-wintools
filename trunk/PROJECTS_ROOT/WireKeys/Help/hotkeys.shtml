@@ -1,0 +1,130 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="Ãîðÿ÷èå êëàâèøè" -->
+<!--#set var="TOPIC_EN" value="Hotkeys in common" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+<h2>Hotkeys</h2><hr>
+Hotkey is the same as keyboard shortcut. A keyboard shortcut (also known as 
+an accelerator key, shortcut key, or hotkey) is one or a set of keyboard keys that, 
+when pressed simultaneously, perform a predefined task (action). 
+A simple keyboard shortcut is usually written as the names all of its component keys, 
+separated by either a plus sign or a hyphen; for example, "Ctrl-Alt-A".
+
+<br><br><b>Tips on adding hotkeys.</b>
+<lu>
+<li>To change hotkey setting, double-click the Value area (hotkey edit field) for the given action. 
+This enables a dropdown list from which you can optionally choose to add a (special) key, 
+add a modifier, or clear the current hotkey value. Click the X button next to the dropdown list to clear the hotkey value.
+Special keys include Space, Page Up, Page Down, End, Home, the four arrow keys, Sys Req, Insert, Delete, Apps, any key in the keypad group (except Enter), any function key (F1-F12), Num Lock, and Scroll Lock.
+Modifiers include Shift, Ctrl, Alt, and Windows (Left and Right separately). Special keys and modifiers are not required to setup a hotkey. With the dropdown list enabled, you can simply assign a single letter from the main section of the keyboard ('C' or 'N', for example) as the hotkey.
+<br>1) <img src="c_hotm1.gif" border=0>
+<br>2) <img src="c_hotm1_2.gif" border=0>
+<li>To create hotkey like "Right Alt + key A + key B" press right Alt, then press key A (holding control), then press key B. 
+Then release all keys.
+<li>To add hotkey like "Any Alt + key A + key B" press key A, then press key B. Then click right mouse button and choose 'Ctrl' from modifiers list. 
+Then release all keys. This 'Alt' key will be treated regardless to 'left/right' position of button pressed.
+<li>To add mouse buttons to hotkey simply choose desired mouse button click from context menu 
+(right-click hotkey edit field or press dropdown button). You can also add double-clicks 
+by simply double-clicking edit field with desired button.
+<li>To add screen edges to hotkey, choose corresponding edge from context menu.
+<li>To set alternative hotkey press button numbered '1','2' or '3' to switch input field to corresponding alternative hotkey 
+or choose hotkey you want to edit from context menu.
+<li>To add mouse wheel spinning simply roll your wheel 
+while cursor is over edit field in desired direction.
+</lu>
+
+<br><br><h2>Hotkey behaviour.</h2><br>
+To set/remove hotkey behaviour, start to edit hotkey in WireKeys preferences, right-click hotkey edit filed and choose 'Hotkey behaviour' submenu.
+Hotkeys behaviour will work only when 'Extended hotkey processing' is ON<br>
+<lu>
+<h2>Normal and Sequence hotkeys</h2> Normal hotkeys are triggered when all keys from hotkey are pressed in the same time regardless to their order.
+In other words, hotkey 'Ctrl-A-B-C' will be triggered when you press keys 'Control','A','B','C' in the same time in any order ('Ctrl-A-B-C' or 'Ctrl-C-A-B' or 'Ctrl-B-A-C').
+With 'Sequence' hotkeys you don`t have to press them simultaneously but you should press keys in the exact order. 
+In the example with 'Ctrl-A-B-C', you should press Control key (and unpress it if you want), then press 'A' key (and, again, you can unpress it), 
+then 'B' and then 'C' key. Only presses are counted, you can unpress keyboard buttons when you want. In addition, WireKeys will not hide keypresses from active application (because there is no way to detect what hotkey you are intending to call).
+To avoid this, we recommend to set hotkey for 'Pause keyboard' action ('Common options'-'Hotkeys') and prepend each sequence hotkey with this pause key. There is an option 
+to add pause hotkey to all newly created sequence hotkeys by default. 
+Example: Set 'Apps' key for 'Pause keyboard' action and set 'Apps-M-A-I-L' sequence hotkey to start email client. When you begin to type this hotkey, keyboard will be automatically paused
+until you finish typing sequence hotkey.
+<h2>Extern event</h2> This is hotkeys with events like mouse gestures, remote buttons, etc. (added by external plugins). They can not be mixed with keyboard keys and work as sequence hotkeys
+<h2>Trigger on unpress</h2> Hotkey may have special property - trigger on unpress. 
+If you press hotkey combination with this property, nothing will happen. Action will be triggered only when you <b>unpress</b> 
+this hotkey combination. Among other cases, this can be useful for assigning the same keys for different hotkeys.
+Example: Suppouse Win-K is assigned to "Show preferences" and Win-K-L is assigned to "Pause WinAmp".
+If Win-K is not marked as "Act on unpress", pressing Win-K-L will show preferences <b>and</b> pause WinAmp at the same time (because while you are pressing Win-K-L, you are pressing Win-K too). 
+But if you mark Win-K as "Act on unpress", Win-K will show preferences only when pressed and unpressed alone, 
+and will not trigger event after unpressing Win-K-L (because Win-K-L will trigger another action).
+<br>Not allowed for 'sequence' hotkeys
+<h2>Press+Unpress</h2>Hotkey with this option will be triggered twice - when pressed and when unpressed. Useful for 'On/Off' types of actions, for example if you assign such option to "Pause" keyboard hotkey, it will be paused only while you hold pause hotkey pressed
+<br>Not allowed for 'sequence' hotkeys
+<h2>Pass-through</h2> Pass-through hotkeys will not hide keypress from underlaying application/Windows.
+With this property it is possible to reload such combination like Ctrl-C (for example) - WireKeys will trigger corresponding action in the same time as active application receive this keypress (to copy selected content into clipboard).
+<br>Not allowed for 'sequence' hotkeys
+</lu>
+
+<br><br><br><h2>Non-standard way to activate hotkey</h2>
+<table width=100%><tr><td valign=top>
+You can activate hotkeys by schedule (or several schedules).
+You can also activate it by typing its text alias in any window. To add such alias or schedule, expand 
+hotkey item in the Preferences dialog and choose alias or schedule link. You can also block hotkey to be activated in certain windows/applications
+
+<td width=1%><img src="c_hotm5.gif">
+</table>
+
+<br><br><b>Some facts.</b>
+<lu>
+<li>WireKeys can handle up to 3 hotkeys for every action.
+<li>The same hotkey can be assigned to different actions in the same time.
+<li>You can define hotkeys with more than one key from main part of the keyboard (like 'Ctrl-A-B-C'), 
+which is unusual for hotkeys in Windows. It can be very time-saving thing, especially when used with sequence hotkeys.
+<li>Don't be limited to using only CTRL, ALT, SHIFT, and WIN as modifiers; 
+you can combine any two keys or mouse buttons to form a custom hotkey. 
+For example: Hold down Numpad0 and press Numpad1 to launch a hotkey; hold down CapsLock and press another key, 
+or click a mouse button. 
+<li>You can also use right and left modifier keys separately. If you find this annoying, you can disable this feature in the 'Extended hotkeys processing' in preferences.
+<li>You can always get list all currently active hotkeys, just choose "List all hotkeys" from the "Help" submenu of the tray menu.
+<li>You can use infrared remote buttons in your hotkeys. To use them first enable "<a href="http://winlirc.sourceforge.net/">WinLIRC</a>" plugin (<a href="http://winlirc.sourceforge.net/">WinLIRC</a> must be up and running too). Then add buttons by simply pressing them while editing hotkey or you can choose them using hotkey context menu. Remote buttons are sequensed, so you can use sequences like '1-2-3-Play' to start something
+<li>You can use gamepad/joystick buttons in your hotkeys</li>
+</lu>
+
+<br><br>
+<b>Description of abbreviations used in WireKeys</b>. Plugins can extend list of possible keys for hotkeys<hr>
+<table border=0>
+<tr><td>@LMB, @RMB, @MMB<td>Left mouse button click, Right mouse button click and middle mouse button click
+<tr><td>2x@LMB, 2x@RMB, 2x@MMB<td>Left mouse button double-click, Right mouse button double-click and middle mouse button double-click
+<tr><td>@X1MB, @X2MB, @X3MB, @X4MB<td>X-buttons clicks (additional buttons on advanced mouse devices)
+<tr><td>@L-border, @R-border, @T-border, @B-border<td>Screen edges: Left, Right, Top and Bottom respectively
+<tr><td>@LB-corner, @LT-corner, @RB-corner, @RT-corner<td>Screen corners: Left-bottom, Left-top, Right-bottom, Right-top respectively
+<tr><td>@MOverSys,@MOverMax,@MOverMin,@MOverClose,@MOverTitle, @MOverHelp<td>Parts of the active window: System menu (window icon), Minimize/Maximize buttons, Close button, Help button and window title. This modifiers will work in conjunction with mouse buttons/wheel only. With this modifier you can assign hotkey like "Click with middle button on window`s title" to any action
+<tr><td>@Wheel up, @Wheel down, @Wheel click<td>Mouse wheel spinning direction and mouse wheel click
+<tr><td>@Shift, @Ctrl, @Alt, @Win<td>Any shift/control/alt or win key
+<tr><td>@RShift, @RCtrl, @RAlt, @RWin<td>Right shift/control/alt or win key
+<tr><td>@LShift, @LCtrl, @LAlt, @LWin<td>Left shift/control/alt or win key
+<tr><td>(P+H)<td>Press-and-hold modifier. To trigger hotkey with this modifier hold combination down for about 2 seconds
+<tr><td>2x, 3x<td>Hotkey will be triggered only when pressed two or three times respectively
+</table>
+<br><br>
+<h2>Examples</h2><hr>
+<table border=0>
+<tr><td width=10%>"LCtrl-O"<td>Control (right or left) and 'O' key
+<tr><td width=10%>"LCtrl-O"<td>Left control and 'O' key
+<tr><td width=10%>"LCtrl-O-(P+H)"<td>Press Left control, 'O' key and wait for 2 seconds
+<tr><td width=10%>"LCtrl-O-2x"<td>Press left control and 'O' key twice: press and hold left control, then press 'O', then release 'O' then press 'O' again
+<tr><td width=10%>"@MMB-@MOverTitle"<td>Click with middle mouse button on window title (title of any window on the screen)
+<tr><td width=10%>"2x@RMB-@MOverSys"<td>Double-Click with right mouse button on window icon (window icon - small icon to the left of the window title)
+<tr><td width=10%>"@L-Border-@LMB"<td>Press left mouse button and move mouse pointer to the left border of the screen
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->
+

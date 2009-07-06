@@ -1,0 +1,112 @@
+// Skin defs:
+// ITEM-NAME:(Default)
+
+//Main func
+var out="";
+function Minilendar_CSS()
+{
+	var res="";
+	var stringFont=WireChanger.convertFont2css("$=<PAR:CLN_FST,ESC>");
+	res+=".mainlend  {color: $=<PAR:CLN_FG>; font: "+stringFont+"; font-weight:bold;}\n";
+	res+=".maintitle {text-align: center; background-image: url("+skinPath+"daycTitle.png); background-repeat: stretch;}\n";
+	res+=".daywTitle  {text-align: center; background-image: url("+skinPath+"daywTitle.png); background-repeat: stretch; font-weight:bold;}\n";
+	res+=".dayTitle  {text-align: center; background-image: url("+skinPath+"dayTitle.png); background-repeat: stretch; font-weight:bold;}\n";
+	res+=".thisMonth {text-align: center; background-image: url("+skinPath+"dayTitle.png); background-repeat: stretch; }\n";
+	res+=".holyDay   {text-align: center; background-image: url("+skinPath+"dayhTitle.png); background-repeat: stretch;}\n";
+	res+=".todayDay  {text-align: center; background-image: url("+skinPath+"daytdTitle.png); background-repeat: stretch; font-weight:bold;}\n";
+
+	res+=".prevMonth {text-align: center; background-image: url("+skinPath+"dayamTitle.png); background-repeat: stretch;}\n";
+	res+=".nextMonth {text-align: center; background-image: url("+skinPath+"dayamTitle.png); background-repeat: stretch;}\n";
+	return res;
+}
+
+function Minilendar_Main()
+{
+	out+="<table width=100% height=100% cellspacing=0 cellpadding=0 class='mainlend'>";
+	// Вычисляем отправную точку
+	var dtNow=new Date();
+	var dtNowReal=new Date();
+	dtNow.month=dtNow.month+$=<PAR:MONOFFSET>;// Если не на текущий месяц, учитываем это...
+	var baseMonth=dtNow.month;
+
+	// Вычисляем первый день таблицы
+	var dtBeginning=new Date(dtNow);
+	var beginningDayOfWeek=1;//Sunday
+	if($=<PAR:FIRSTDAY>==0){
+		beginningDayOfWeek=2;//Monday
+	}
+
+	var stopper=40;
+	while( stopper>0 && dtBeginning.month==dtNow.month || (dtBeginning.month!=dtNow.month && dtBeginning.dayOfWeek!=beginningDayOfWeek) )
+	{
+		dtBeginning.day=dtBeginning.day-1;
+		stopper--;
+	}
+
+	// Рисуем дни недели
+	var i;
+	var cww=100/7;
+	cww=cww.toString();	
+	var dtDayTitle=new Date(dtBeginning);
+	out+="<tr>";
+	for(i=0;i<7;i++)
+	{
+		out+="<td class='daywTitle";
+		out+="' height=1% width="+cww+"%>";
+		out+=wdays_short[dtDayTitle.dayOfWeek-1];
+		dtDayTitle.day+=1;
+	}
+	out+="</tr>";
+	
+	// Рисуем сами дни
+	var dtCurrent=new Date(dtBeginning);
+	var stopper2=10;
+	var curMonth=(dtNow.month)+dtNow.year*12;
+	while( stopper>0 && dtCurrent.month+dtCurrent.year*12<=curMonth)
+	{
+		out+="<tr>";
+		for(i=0;i<7;i++)
+		{
+			var text=dtCurrent.day.toString();
+			out+="<td class='";
+			var skipOther=0;
+			if(dtCurrent.month+dtCurrent.year*12<curMonth){
+				text="&nbsp;";
+				out+=" prevMonth";
+				skipOther=1;
+			}
+			if(dtCurrent.month+dtCurrent.year*12>curMonth){
+				text="&nbsp;";
+				out+=" nextMonth";
+				skipOther=1;
+			}
+			if(!skipOther){
+				if(dtCurrent.month+dtCurrent.year*12==curMonth){
+					out+=" thisMonth";
+				}
+				if(dtCurrent.dayOfWeek==1 || dtCurrent.dayOfWeek==7){
+					out+=" holyDay";
+				}
+				if(dtCurrent.year==dtNowReal.year && dtCurrent.month==dtNowReal.month && dtCurrent.day==dtNowReal.day){
+					text="<div class='todayDay' style='width:100%; height:100%; vertical-align:middle;'>"+text+"</div>";
+				}
+			}
+			out+="'>";
+			out+=text;
+			dtCurrent.day+=1;
+		}
+		out+="</tr>";
+		stopper2--;
+		if(dtCurrent.month>dtNow.month){
+			// Все, отрисовались!
+			break;
+		}
+	}
+	if("0"=="$=<PAR:MONOFFSET>"){
+		out+="<tr><td height=1% colspan=7 class='maintitle'>"+month[dtNowReal.month.toInteger()-1]+", "+dtNowReal.day.toString()+" $=<TEXTLINE(comm_l{lang}.txt,NumberDay=)>, "+wdays[dtNowReal.dayOfWeek.toInteger()-1]+"</td>";
+	}else{
+		out+="<tr><td height=1% colspan=7 class='maintitle'>"+month[dtNowReal.month.toInteger()-1]+"</td>";
+	}
+	out+="</table>";
+	return out;
+}

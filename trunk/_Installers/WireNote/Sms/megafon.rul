@@ -1,0 +1,94 @@
+SmsNdcList=495,926
+SmsMaxLength=100
+
+WndUrl=http://sms.megafonmoscow.ru/
+WndTitle=Sms - Megafon
+WndLoading=%PROGRESSTIME. Please wait, processing your\nmessage to +7%NDC-%MOBNUM...\n\n%unescapex(MESSAGE)\n---
+WndIcon=%THISPATH\sms.ico
+WndResize=0
+
+WndOnLoadScriptBegin
+function asendMsg()
+{
+	var imgCode=document.all['imgcode'].value;//alert("["+imgCode+"]");
+	document.forms['sendsms'].codevalue.value=imgCode;
+	document.forms['sendsms'].submit();
+	return false;
+}
+
+var res="";
+//alert("%NDC - %MOBNUM - %MESSAGE");
+var _MobnumNDC=unescape("%NDC");
+var _Mobnum7DIGITS=unescape("%MOBNUM");
+var _Message=unescape("%MESSAGE");
+try{
+	// Connection timeout, etc
+	if(document.location.href.indexOf("res://")!=-1){
+		res="%UNREACHABLE ";
+		throw new String("No connection");
+	}
+	
+	// Do we get ERROR result?
+	var sFImageSrc="";
+
+	try{
+		sFImageSrc=document.forms['sendsms'].all.tags('img')[0].src;
+		if(document.all['sms'].innerHTML.indexOf('error')!=-1){
+			res="%FAILURE, send failed";
+		}
+	}catch(e){};
+
+	// Do we get SUCCESS result?
+	try{
+		if(res=="" && (sFImageSrc=="" || typeOf(document.forms['sendsms'])=='undefined')){
+			res="%SUCCESS, send ok";
+		}
+	}catch(e){};
+	
+	// We need to show our form for captha
+	if(res==""){
+		// Checking parameters
+		if(_Message.length>150 || _Mobnum7DIGITS.length!=7){
+			res="%FAILURE: lengths are too big or small!";
+		}
+		// NDC
+		var ndcField=document.forms['sendsms'].prefix;
+		for(i=0;i<ndcField.length;i++){
+			if(ndcField[i].value==_MobnumNDC){
+				ndcField.selectedIndex=i;
+				break;
+			}
+		}
+		// MOBNUM
+		document.forms['sendsms'].addr.value=_Mobnum7DIGITS;
+		// MESSAGE
+		document.forms['sendsms'].message.value=_Message;
+
+		// We need to show our form for captha
+		document.body.innerHTML="<div id='hideall'>"+document.body.innerHTML+"</div>";
+		document.all['hideall'].style.display="none";
+		document.all['hideall'].style.visibility="hidden";
+		var sMyDiv="<div style='position: absolute; z-index:1000; overflow-y: hidden; overflow-x: hidden; left:0;top:0; width:expression(document.body.clientWidth);height:expression(document.body.clientHeight); backgroundColor: white;'><center>";
+		sMyDiv+="<table width=100% height=100% bgcolor=white style='border: 3 solid black; overflow-y: hidden; overflow-x: hidden;'><tr><td align=center valign=top>";
+		sMyDiv+="Enter text from this picture:";
+		sMyDiv+="<br>";
+		sMyDiv+="<img src='"+sFImageSrc+"'>";
+		sMyDiv+="<input type=text name='imgcode' size=10 onKeyDown='if(event.keyCode==13){event.returnValue=false;asendMsg();};'><br><a href='#' onClick='asendMsg();return false;'>";
+		sMyDiv+=">> Continue >></a>";
+		//sMyDiv+="</table>";
+		sMyDiv+="</center></div>";
+		document.body.innerHTML=document.body.innerHTML+sMyDiv;
+		document.body.style.overflow = 'hidden';
+	}
+}catch(e)
+{
+	res+="%FAILURE: "+e.message;
+};
+
+// Returning result via defaultStatus
+if(res!=""){
+	window.defaultStatus=res+" ["+_MobnumNDC+"/"+_Mobnum7DIGITS+"/"+_Message+"]";
+}
+//alert(res+": "+sFImageSrc);
+WndOnLoadScriptEnd
+

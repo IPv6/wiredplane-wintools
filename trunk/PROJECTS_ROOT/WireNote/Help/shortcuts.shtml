@@ -1,0 +1,77 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Keyboard Shortcuts</h1><hr>
+<table>
+<tr><td bgcolor="AAAAAA"><b>Note/Message</b></td><td>&nbsp;</td></tr>
+<tr><td>Ctrl-Shift-N<td></td><td>New note (hotkey can be changed through preferences dialog)</td></tr>
+<tr><td>Ctrl-Shift-M<td></td><td>New message (hotkey can be changed through preferences dialog)</td></tr>
+<tr><td>Ctrl-S<td></td><td>Save note</td></tr>
+<tr><td>Escape<td></td><td>Hide note (corresponding option must be ON)</td></tr>
+<tr><td>Ctrl-H<td></td><td>Hide note</td></tr>
+<tr><td>Ctrl-D<td></td><td>Delete note (to trash, if corresponding option is ON)</td></tr>
+<tr><td>Ctrl-A<td></td><td>Select all and copy to clipboard</td></tr>
+<tr><td>Ctrl-M<td></td><td>Switch note to message mode</td></tr>
+<tr><td>Ctrl-I<td></td><td>Switch note between icon and full mode</td></tr>
+<tr><td>Ctrl-E<td></td><td>Switch read-only flag (prevent from edit)</td></tr>
+<tr><td>Ctrl-N<td></td><td>Switch auto hide mode</td></tr>
+<tr><td>Ctrl-W<td></td><td>Switch word wrap mode</td></tr>
+<tr><td>Ctrl-T<td></td><td>Switch topmost mode</td></tr>
+<tr><td>Ctrl-U<td></td><td>Snap size to text</td></tr>
+<tr><td>Ctrl-K<td></td><td>Enable/disable clipboard spy</td></tr>
+<tr><td>Ctrl-O<td></td><td>Show advanced options dialog</td></tr>
+<tr><td>Ctrl-B<td></td><td>Publish in the common section of billboard</td></tr>
+<tr><td>Ctrl-Enter<td></td><td>Send message</td></tr>
+<tr><td>Ctrl-Enter-Shift<td></td><td>Send message and delete if delivered successfully</td></tr>
+<tr><td>Ctrl-Q<td></td><td>Quote note/message text</td></tr>
+<tr><td>Ctrl-L<td></td><td>Show current user`s message history</td></tr>
+<tr><td>Ctrl-Shift-L<td></td><td>Load text from file</td></tr>
+<tr><td>Ctrl-Shift-S<td></td><td>Save text to file</td></tr>
+<tr><td>Ctrl-Up/Ctrl-Down<td></td><td>List of the recent recipients</td></tr>
+<tr><td>Ctrl-1,2,3...0<td></td><td>Reply message with quick answer number 1,2,3..0</td></tr>
+<tr><td>Ctrl-Shift-1,2,3...0<td></td><td>Remember selected as quick answer number 1,2,3..0</td></tr>
+<tr><td bgcolor="AAAAAA"><b>ToDo</b></td><td>&nbsp;</td></tr>
+<tr><td>Ctrl-Shift-T<td></td><td>New ToDo (hotkey can be changed through preferences dialog)</td></tr>
+<tr><td>Ctrl-Enter<td></td><td>Save and close</td></tr>
+<tr><td>Ctrl-S<td></td><td>Save ToDo</td></tr>
+<tr><td>Ctrl-O<td></td><td>Show advanced options dialog</td></tr>
+<tr><td>Ctrl-D<td></td><td>Delete ToDo (to trash, if corresponding option is ON)</td></tr>
+<tr><td>Ctrl-B<td></td><td>Publish in the common section of billboard</td></tr>
+<tr><td bgcolor="AAAAAA"><b>Reminder</b></td><td>&nbsp;</td></tr>
+<tr><td>Ctrl-Shift-R<td></td><td>New Reminder (hotkey can be changed through preferences dialog)</td></tr>
+<tr><td>Ctrl-Enter<td></td><td>Save and close</td></tr>
+<tr><td>Ctrl-D<td></td><td>Delete Reminder (to trash, if corresponding option is ON)</td></tr>
+<tr><td>Ctrl-B<td></td><td>Publish in the common section of billboard</td></tr>
+<tr><td bgcolor="AAAAAA"><b>Main window</b></td><td>&nbsp;</td></tr>
+<tr><td>Ctrl-Alt-T<td></td><td>Show main window (hotkey can be changed through preferences dialog)</td></tr>
+<tr><td>Ctrl-S<td></td><td>Save all</td></tr>
+<tr><td>Ctrl-T<td></td><td>Switch topmost mode</td></tr>
+<tr><td>Ctrl-O<td></td><td>Show preferences dialog</td></tr>
+<tr><td>Escape<td></td><td>Hide to tray</td></tr>
+<tr><td>Ins<td></td><td>Create new item (depending on selected folder)</td></tr>
+<tr><td>Enter<td></td><td>Modify/Activate selected item</td></tr>
+<tr><td>Space<td></td><td>Change selected item state</td></tr>
+<tr><td>Del<td></td><td>Delete selected item</td></tr>
+<tr><td bgcolor="AAAAAA"><b>Address book</b></td><td>&nbsp;</td></tr>
+<tr><td>Ctrl-Alt-A<td></td><td>Show address book (hotkey can be changed through preferences dialog)</td></tr>
+<tr><td>Ctrl-L<td></td><td>Show message history</td></tr>
+<tr><td>Ctrl-O<td></td><td>Show preferences dialog</td></tr>
+<tr><td>Escape<td></td><td>Hide to tray</td></tr>
+<tr><td>Ins<td></td><td>Create new person</td></tr>
+<tr><td>Enter<td></td><td>Modify selected person</td></tr>
+<tr><td>Del<td></td><td>Delete selected person</td></tr>
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

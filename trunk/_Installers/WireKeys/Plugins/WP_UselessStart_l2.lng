@@ -1,0 +1,7 @@
+MemoryUsage=Utilizzo Memoria
+CpuUsage=Utilizzo CPU
+Popt_replaceTe_rnijmqmfov=Sostituisci testo sul pulsante 'Start' con
+Popt_refreshEv_bdsxloivke=Aggiorna ogni ... millisecondi
+UselessStart=Pulsante 'Start' alternativo
+Dscplg_wp_uselessstart=Questo plugin permette di sostituire la scritta sul pulsante 'Start' con la percentuale di utilizzo CPU/Memoria
+Nameplg_wp_uselessstart=Pulsante 'Start' alternativo

@@ -1,0 +1,64 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Ask a question</h2>
+If you have any questions not covered by this help file, you can ask them in our <a href="http://www.wiredplane.com/forum/board.php?cat=2&fid=3&s=s" target="_blank">support forum</a>
+
+<h2>WireNote FAQ</h2><hr>
+<LU>
+<LI><b>Q:</b> I want WireNote to save its data in the program`s installation directory. What should i do?<br>
+<b>A:</b> (1) Create folder named 'Profile' in the installation directory. It will be automatically used to save all persistent data. (2) You can add '-ul' command line switch to application shortcut to define directory for saving application`s data (Example: 'WireNote.exe -ul=c:/data').<br><br>
+<LI><b>Q:</b> I hide my note accidentally and can`t find it again.<br>
+A: You can find it at any time in main window or in tray menu under corresponding submenu
+<br><br></LI>
+<LI><b>Q:</b> I want to use this program instead of Messenger service/WinPopup. Is it possible?<br>
+A: Yes. WireNote will ask you if you want to stop Messenger Service or, if you have WinPopup-like applications, you must stop them manually before running WireNote. After that you can send and receive such messages through WireNote.
+<br><br></LI>
+<LI><b>Q:</b> I can`t receive messages from other users who use Winpopup/Messenger service. What`s wrong?<br>
+A: If you have more than one net-card or other special net environment, default networking values used by WireNote are not sufficient. You can try to change LANA option for Netbios protocol. These setting can be tuned in Preferences dialog
+<br><br></LI>
+<LI><b>Q:</b> Why can't i send/receive notes to/from other computers through XPC protocol?<br>
+A: Sending/receiving messages through XPC protocol to/from other computers works only in a local TCP/IP network with static IP addresses. In addition sender and recipient both must use the same port number and the recipient must accept incoming notes. These settings can be defined in Preferences dialog.
+<br><br></LI>
+<LI><b>Q:</b> If I have small home LAN and I want my reminders/Notes/ToDos, created on one machine, to be active on all other computers, can i do such a thing?<br>
+A: Yes, you can. To do this, create shared folder (which will be accessible from all computers) and type it in the preferences dialog under "Billboard" section. After that you can publish items like reminders/notes and ToDos at billboard and all computers conected to this folder will receive them and all changes to published items<br>
+<br><br></LI>
+<LI><b>Q:</b> How can i backup my notes, ToDos, reminders and settings?<br>
+A: Open preferences dialog and click "Open folder with all saved settings ...". You can zip this folder for future use. To restore just unpack zip over the same location<br>
+<br><br></LI>
+<LI><b>Q:</b> I heard that this program can save me from junk emails aka SPAM in my mailboxes. Is it true?<br>
+A: Yes. You must set your mailbox account properties and after that WireNote will clean up your mailbox occasionally.
+You have to define which message strings mark it as spam, but you are responsible to set this strings properly - this mean that such strings must NOT be met in the normal emails.
+It is highly recommended to set WireNote in training mode, so you will see all received emails and will be able to train WireNote to recognize SPAM.
+WireNote saves a lot of internet traffic, cos messages are NOT downloaded entirely. Only first lines of every message will be transferred to your computer from your mailboxes.
+WireNote supports POP3 mailboxes only
+<br><br></LI>
+<LI><b>Q:</b> I am using WireNote for messaging and my collegues receive message with strange strings like "$=<ATTACH:...>".<br>
+A: This is because your collegues are using previous versiong of WireNote. Please, advise them to upgrade :) Or you can disable
+features not supported by previous versions of WireNote in the preferences ("Protocols" options)
+<br><br></LI>
+<li><b>Q:</b> Do I need to register this program?<br>
+A: No, you don&#8217;t need to register anything, this program is absolutely free. But...
+Even though WireNote is freeware, we are highly appreciate any amount of donation :)
+ So if you like WireNote and find it helpful, please consider sending us a donation to give
+ incentive for future development and improvement.
+ See information on our web-site or just write email to us :)
+<br><br></li>
+<LI><b>Q:</b> I want to see this program in my language. Is it possible?<br>
+A: Yes. New languages will be added later. In order to speed up this process you can translate WireNote_l0.lng file and send it to us
+<br><br></LI>
+</LU>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

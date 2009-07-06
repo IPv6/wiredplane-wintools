@@ -1,0 +1,464 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="VBScript ? JavaScript ??????? ? WireKeys" -->
+<!--#set var="TOPIC_EN" value="VBScript and JavaScript macros in WireKeys" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>WireKeys API</h2><hr>
+
+WireKeys supports different ways of using it`s functionality from other applications and scripts:
+Command line, <a href="plugins.shtml">plugin</a> and a macro.
+<br><br>
+Using command line, you can start quick-runs or macros from shortcuts (and bat/cmd/lnk/js/vbs files).
+To do so start WireKeys.exe with command line switch "-execute": "WireKeys.exe -execute=XXX" where XXX is the name of the macro 
+or quick-run item and it will be executed. To execute action, set its number instead of macro name 
+prepended with '!', for example "WireKeys.exe -execute=!15" will eject CD-Rom. To see action numbers 
+look at <a href="qruns.shtml">this page</a>.
+<br><br>
+To use WK from macro script, use special WireKeys object. Example:
+<br>
+<pre>
+function wkMain(selectedText,macroParameter)
+{
+	for(i=0;i<10000;i++){
+		if(WireKeys.GetCookie("TEST_PAUSE")==1){
+			WireKeys.ShowBalloon("Macros paused!!!");
+		}else{
+			s1=WireKeys.GetPixel(100,100);
+			s2=WireKeys.GetCursorPosX();
+			s3=WireKeys.GetCursorPosY();
+			WireKeys.ShowBalloon("Pixel="+s1+"\n X="+s2+"\n Y="+s3);
+		}
+		WireKeys.Sleep(100);
+	}
+	return "";
+};
+
+function wkMain2(selectedText,macroParameter)
+{// wkMain2 description: Pause/Unpause
+	WireKeys.SetCookie("TEST_PAUSE",WireKeys.GetCookie("TEST_PAUSE")==0?1:0);
+	return "";
+};
+
+// Testing "Open files"/"Browse for folder" dialogs
+function wkMain3()
+{
+	WireKeys.Alert(WireKeys.AskFile("Choose file","All exe files|*.exe||"));
+	WireKeys.Alert(WireKeys.AskFolder("Choose folder","c:\\temp\\"));
+	return "";
+};
+
+</pre>
+<br><br>
+Full list of functions</a>, provided by WireKeys object is here:
+<br>
+<h1>Window-related and desktop-related functions</h1>
+<table border=0 bgcolor=black cellspacing=1 cellpadding=0><tr><td>
+<table border=0 width=100% cellspacing=1 cellpadding=2>
+<tr bgcolor=gray>
+<td width=25%>Function name
+<td width=25%>Parameters
+<td width=50%>Description and example
+</td>
+</tr>
+
+<tr bgcolor=white>
+<td>WaitForWindow
+<td>Max timeout (in seconds)[, optional: additional text to watch in the window title]
+<td>Stops execution until the title of the currently active window is not changed<br>
+</tr>
+
+<tr bgcolor=white>
+<td>ActivateWindowByApp
+<td>Application name (name of the executable file)
+<td>Activates main window of specified application. Returns 1 if successfull and 0 otherwise.
+</tr>
+
+<tr bgcolor=white>
+<td>ActivateWindowByClass
+<td>Window class
+<td>Activates main window with specified class. Returns 1 if successfull and 0 otherwise.
+</tr>
+
+<tr bgcolor=white>
+<td>FindWindow
+<td>Window class (can be empty), Window title (can be empty)
+<td>Returns handle to the matching window.
+</tr>
+
+<tr bgcolor=white>
+<td>SendMessage
+<td>Window handle, Message ID, Message hParam, Message lParam
+<td>Sends message to the windows and wait while message is processed
+</tr>
+
+<tr bgcolor=white>
+<td>PostMessage
+<td>Window handle, Message ID, Message hParam, Message lParam
+<td>Sends message to the windows and continues execution
+</tr>
+
+<tr bgcolor=white>
+<td>GetScreenPixel
+<td>X coordinate, Y coordinate
+<td>Returns color of the pixel in the screen in (X,Y) position as the string like "#0A33FF".
+</tr>
+
+<tr bgcolor=white>
+<td>GetCursorPixel
+<td>None
+<td>Returns color of the pixel in the screen in the cursor position as the string like "#0A33FF"
+</tr>
+
+<tr bgcolor=white>
+<td>GetCursorPosX,GetCursorX
+<br>GetCursorPosY,GetCursorY
+<td>None
+<td>Returns X or Y coordinate of the mouse cursor respectively
+</tr>
+
+<tr bgcolor=white>
+<td>GetWindowFromPoint
+<td>X coordinate, Y coordinate, Check disabled windows flag (0/1, 0 by default)
+<td>Returns handle of the window in the specified position
+</tr>
+
+<tr bgcolor=white>
+<td>GetWindowUnderCursor
+<td>Check disabled windows flag (0/1, 0 by default)
+<td>Returns handle of the window under cursor
+</tr>
+
+<tr bgcolor=white>
+<td>GetWindowText
+<td>Window handle
+<td>Returns Text/Title of the specified window
+</tr>
+
+<tr bgcolor=white>
+<td>GetWindowClass
+<td>Window handle
+<td>Returns class name of the specified window
+</tr>
+
+<tr bgcolor=white>
+<td>IsEnabled
+<td>Window handle
+<td>Returns window "enabled" state (0/1)
+</tr>
+
+<tr bgcolor=white>
+<td>EnableWindow
+<td>Window handle, enable flag (1/0)
+<td>Enables or disables specified window
+</tr>
+
+<tr bgcolor=white>
+<td>IsVisible
+<td>Window handle
+<td>Returns window "visibility" (0/1)
+</tr>
+
+<tr bgcolor=white>
+<td>SetVisible
+<td>Window handle, visibility flag (1/0)
+<td>Shows or hide specified window
+</tr>
+
+</table>
+</table>
+
+<br><br>
+<h1>Text-related and keyboard-related functions</h1>
+<table border=0 bgcolor=black cellspacing=1 cellpadding=0><tr><td>
+<table border=0 width=100% cellspacing=1 cellpadding=2>
+<tr bgcolor=gray>
+<td width=25%>Function name
+<td width=25%>Parameters
+<td width=50%>Description and example
+</td>
+</tr>
+
+<tr bgcolor=white>
+<td>GetSelectedText,Copy
+<td>None
+<td>Returns selected text from active application (or path to selected files in applications like Explorer)
+</tr>
+
+<tr bgcolor=white>
+<td>PutSelectedText,Paste
+<td>Text to paste
+<td>Inserts text from 1st parameter into currently active application
+</tr>
+
+<tr bgcolor=white>
+<td>PasteClip
+<td>Clipboard number
+<td>Inserts text from WireKeys additional clipboard
+</tr>
+
+<tr bgcolor=white>
+<td>SetClipboard
+<td>Text to set
+<td>Set the text into clipboard
+</tr>
+
+<tr bgcolor=white>
+<td>SendText, SendKeys
+<td>Text to send
+<td>Sends text from 1st parameter into currently active application
+</tr>
+
+<tr bgcolor=white>
+<td>GetClipboard
+<td>None
+<td>Returns content of the Windwos clipboard. If clipboard contains file link, this function will return path to that file
+</tr>
+
+<tr bgcolor=white>
+<td>PasteClipboard
+<td>None
+<td>Inserts original content of clipboard into active application
+</tr>
+
+<tr bgcolor=white>
+<td>GetCaretX,GetCaretY
+<td>None
+<td>Returns X or Y coordinate of the caret. If caret position is not accessible, mouse cursor position is used
+</tr>
+
+<tr bgcolor=white>
+<td>WaitKeyRelease
+<td>None
+<td>Stops execution until all keys (on keyboard or mouse) are unpressed. Useful for replaing key presses that can be altered by accidentally pressed Shift key, for example
+</tr>
+
+<tr bgcolor=white>
+<td>i18n
+<td>Text
+<td>Returns translation of the text (from corresponding lng file) in the current language
+</tr>
+
+<tr bgcolor=white>
+<td>fromUTF8, toUTF8
+<td>Text
+<td>Returns conversion of the text to/from UTF8 encoding
+</tr>
+
+<tr bgcolor=white>
+<td>TestDosMask
+<td>String, Mask
+<td>Returns "0" if string does not match mask and "1" otherwise. Mask can have "*" and "?" characters for partial matches
+</tr>
+
+<tr bgcolor=white>
+<td>BlockHotkey
+<td>None
+<td>Blocks all hotkeys. Call again to unblock them.
+</tr>
+
+<tr bgcolor=white>
+<td>BlockKeyboard
+<td>None
+<td>Blocks keyboard. Call again to unblock it.
+</tr>
+
+<tr bgcolor=white>
+<td>PauseWirekeys
+<td>'0' or '1'
+<td>Pauses WK completely (disables all hotkeys, sounds, activity etc.). This function is faster than BlockKeyboard or BlockHotkey
+</tr>
+
+</table>
+</table>
+
+<br><br>
+<h1>Other functions</h1>
+<table border=0 bgcolor=black cellspacing=1 cellpadding=0><tr><td>
+<table border=0 width=100% cellspacing=1 cellpadding=2>
+<tr bgcolor=gray>
+<td width=25%>Function name
+<td width=25%>Parameters
+<td width=50%>Description and example
+</td>
+</tr>
+
+<tr bgcolor=white>
+<td>GetCookie
+<td>Cookie name
+<td>Returns cookie value. Cookies are saved between calls. You can use them for remembering things between different calls to macro
+</tr>
+
+<tr bgcolor=white>
+<td>PutCookie,SetCookie
+<td>Cookie name and cookie value
+<td>Sets cookie value. Cookies are saved between calls. You can use them for remembering things between different calls to macro
+</tr>
+
+<tr bgcolor=white>
+<td>Sleep
+<td>Time to sleep, in milliseconds
+<td>Stops execution for specified amount of time
+</tr>
+
+<tr bgcolor=white>
+<td>Wait
+<td>Time to sleep, in seconds
+<td>Stops execution for specified amount of time
+</tr>
+
+<tr bgcolor=white>
+<td>MessageBox
+<td>Message text, Message box parameters (can be empty)
+<td>Shows message box with specified parameters. Execution stops until dialog is closed
+</tr>
+
+<tr bgcolor=white>
+<td>ShowBalloon
+<td>Message text, Message title, timeout (milliseconds, can be empty)
+<td>Shows balloon near the tray icon with specified parameters.
+</tr>
+
+<tr bgcolor=white>
+<td>ShowBalloonAtPosition
+<td>Text,Title,Balloon position X,Balloon position Y
+<td>Shows balloon in specified position of the screen
+</tr>
+
+<tr bgcolor=white>
+<td>ShowOsd
+<td>Message text, timeout (milliseconds, can be empty)
+<td>Shows message in OSD with specified parameters.
+</tr>
+
+<tr bgcolor=white>
+<td>Alert
+<td>Message text, Message title, timeout (milliseconds, can be empty)
+<td>Shows message box with specified parameters. Execution will not be paused.
+</tr>
+
+<tr bgcolor=white>
+<td>ShowPopupMenu
+<td>Menu items. You can give menu items in one string, separate items with "|" in that case.
+<td>Shows popup menu (in the cursor position). Returns number of the selected item or -1. Example: WireKeys.ShowPopupMenu("item1","item2","item3");WireKeys.ShowPopupMenu("item1|item2|item3");
+</tr>
+
+<tr bgcolor=white>
+<td>Ask
+<td>Dialog title, default value
+<td>Shows dialog with single edit box. User can change the value and return it to the script
+</tr>
+
+<tr bgcolor=white>
+<td>AskFile
+<td>Dialog title, valid extrensions list
+<td>Shows "Open file" dialog. You can limit list of valid files (by extension) using second parameter of the function. Returns path to selected file or empty string if any error occured.
+</tr>
+
+<tr bgcolor=white>
+<td>AskFolder
+<td>Dialog title, start folder
+<td>Shows "Browse for folder" dialog. Returns path to selected folder or empty string if any error occured.
+</tr>
+
+<tr bgcolor=white>
+<td>CallAction,CallMacro
+<td>Name of macro/action to execute
+<td>Calls specified action or macro. See help for command line parameter "-execute".
+</tr>
+
+<tr bgcolor=white>
+<td>CallDll
+<td>Path to Dll, function name, function parameter
+<td>Calls exported function from dll and returns result as string
+</tr>
+
+<tr bgcolor=white>
+<td>CallPlugin
+<td>plugin name, function parameter
+<td>Calls special function from plugin and returns result as a string
+</tr>
+
+<tr bgcolor=white>
+<td>ShellExec
+<td>Application/document name
+<td>Calls application or document as if started from "Run..." dialog
+</tr>
+
+<tr bgcolor=white>
+<td>SetWkOption
+<td>Option name, option value
+<td>Sets WireKeys option. Available options are: "ScreenSaverAutoStartFile" (value is the file path),"ScreenSaverAutoStopFile" (value is 0/1)
+</tr>
+
+<tr bgcolor=white>
+<td>isAppRunning
+<td>Name of exe file (option with path) to detect
+<td>Returns "1" if the process with the same name is started and "0" otherwise. Check is case insensitive
+</tr>
+
+<tr bgcolor=white>
+<td>isKeyPressed
+<td>Key code or one of the following strings: "shift","alt","control","rwin","lwin","lbutton","rbutton","mbutton"
+<td>Returns "1" if the key with specified code is pressed, 0 otherwise
+</tr>
+
+<tr bgcolor=white>
+<td>CloseApp
+<td>Name of exe file (option with path) to close and close type
+<td>Set second parameter to "1" to kill application and '"0" to close it. Returns "1" if the process with the same name is closed and "0" otherwise. Check is case insensitive.
+</tr>
+
+<tr bgcolor=white>
+<td>PlaySound
+<td>Name of wav/mp3/wma/... or video file, loop sound flag (0/1)
+<td>Plays media file (music or video). To stop sound, call this function again with empty path
+</tr>
+
+<tr bgcolor=white>
+<td>LoadURL
+<td>URL
+<td>Returns string with the content of the given web-site (in text representation). Returns empty string if URL is not accessible
+</tr>
+
+<tr bgcolor=white>
+<td>SaveScreenshot
+<td>File path, file type
+<td>Saves screenshot of the whole screen into file. Use type==0 for bmp format and type 1 for jpg
+</tr>
+
+<tr bgcolor=white>
+<td>EmptyRecycleBin
+<td>None or path to desired disk
+<td>Empties recycle bin of the choosen drive. If none specified, all recycle bins will be cleaned
+</tr>
+
+<tr bgcolor=white>
+<td>OpenCD,CloseCD
+<td>Disk letter
+<td>Opens/closes CD/DVD drive
+</tr>
+
+<tr bgcolor=white>
+<td>StartInternetConnection
+<td>Connection name
+<td>Connects to internet using connection with the given name
+</tr>
+
+
+</table>
+</table>
+
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

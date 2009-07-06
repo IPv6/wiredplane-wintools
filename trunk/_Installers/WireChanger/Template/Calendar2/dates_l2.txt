@@ -1,0 +1,32 @@
+; Los días marcados con '*' se mostrarán con letras rojas en el calendario
+
+1/1*Año Nuevo!
+14/2 San Valentín
+1/5*Día del Trabajo
+20/7*Independencia de Colombia
+12/10*Día de la raza
+25/12*Navidad
+0_2/5 Día de la Madre
+5_4/11 Acción de gracias
+
+;Ene
+1/1*Año Nuevo
+
+;Feb
+14/2 Día de San Valentín
+
+;May
+1/5*Día del Trabajo
+0_2/5 Día de la Madre
+
+;Jul
+20/7*Independencia de Colombia
+
+;Oct
+31/10 Halloween
+
+;Nov
+5_4/11 Día de acción de gracias
+
+;Dic
+25/12*Navidad

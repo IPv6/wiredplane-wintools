@@ -1,0 +1,75 @@
+// Title: Complete case inversion
+// Description: This macro performs different case conversions of a selected text
+// ParamType: String
+// Author: Decil (decil at <nospam> mail dot ru)
+// Distribution: FREE
+var OUTPUT="";
+var tmp=unescape('%ESCAPED');
+
+function wkMain()
+{// wkMain description: Invert case of each letter
+	var latinUpCase=new RegExp("[QWERTYUIOPASDFGHJKLZXCVBNM]");
+	var latinDownCase=new RegExp("[qwertyuiopasdfghjklzxcvbnm]");
+	var rusUpCase=new RegExp("[ÉÖÓÊÅÍÃØÙÇÕÚÔÛÂÀÏĞÎËÄÆİß×ÑÌÈÒÜÁŞ¨]");
+	var rusDownCase=new RegExp("[éöóêåíãøùçõúôûâàïğîëäæıÿ÷ñìèòüáş¸]");
+	
+	// Step 2 of 3 Inverting case of ecah character in the text
+	for (i=0;i<tmp.length;i++){
+		curChar=tmp.substr(i,1);
+		if(latinUpCase.exec(curChar)){
+			OUTPUT+=curChar.toLowerCase();
+		}	
+		else {
+			if(latinDownCase.exec(curChar)){
+				OUTPUT+=curChar.toUpperCase();
+			}	
+			else {
+				if(rusUpCase.exec(curChar)){
+					OUTPUT+=curChar.toLowerCase();
+				}	
+				else {
+					if(rusDownCase.exec(curChar)){
+						OUTPUT+=curChar.toUpperCase();
+					}	
+					else {
+						OUTPUT+=curChar;
+					}
+				}
+			}
+		}
+	}
+	return OUTPUT;
+}
+
+function wkMain2()
+{// wkMain2 description: Capitalise The First Letter Of Each Word
+	var letters=new RegExp("[QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnmÉÖÓÊÅÍÃØÙÇÕÚÔÛÂÀÏĞÎËÄÆİß×ÑÌÈÒÜÁŞ¡éæãêåíãèéçåêäëâàïàîëäæíïçñìèâìáî¸1234567890]");
+	// Step 2 of 3 Capitalising first letters of each word
+	var flag=true;
+	for (var i=0;i<tmp.length;i++){
+		curChar=tmp.substr(i,1);
+		if(letters.exec(curChar)){
+			if(flag){
+				curChar=curChar.toUpperCase();
+				flag=false;
+			}
+		}
+		else {
+			flag=true;
+		}
+		OUTPUT+=curChar;
+	}
+	return OUTPUT;
+}
+
+function wkMain3()
+{// wkMain3 description: Set all letters to lowercase
+	tmp=tmp.toLowerCase();
+	return tmp;
+}
+
+function wkMain4()
+{// wkMain4 description: Set all letters to uppercase
+	tmp=tmp.toUpperCase();
+	return tmp;
+}

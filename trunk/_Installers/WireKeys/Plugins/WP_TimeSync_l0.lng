@@ -1,0 +1,12 @@
+Popt_sntpServe_ydjfhibosb=SNTP Server
+Popt_youCanFi_vvtakypele=You can find free servers at Google by using 'Free SNTP servers' query
+Popt_serverPor_bbosbohflo=Server Port
+Popt_timeoutM_roemrsrhpj=Timeout (minutes)
+Popt_howFreque_nhjaotdwsw=How frequently check time at time server
+Popt_notifyAbo_yardtvnbug=Notify about sync issues
+SyncTimeNow=Sync time now
+TimeSync=Time sync
+Dscplg_wp_timesync=This plugin allows you to sync your time with atomic clock from internet
+ErrorTimeSyncPlugin=Error: Time sync plugin
+CanTConnectToClockServerServer=Can`t connect to clock server!<br>Server
+Nameplg_wp_timesync=Time sync

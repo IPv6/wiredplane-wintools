@@ -1,0 +1,124 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="Áûñòðûé çàïóñê ïðèëîæåíèé" -->
+<!--#set var="TOPIC_EN" value="Application launcher features" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+<h2>Quick-run items</h2><hr>
+Using quick-run items you can run any application by simply pressing a hot key. You can direct
+the application to hide itself to the tray or maximize or minimize after startup. An application
+can be started within the current desktop or in one of your additional desktops. Quick-run
+applications can be automatically positioned, sized, and pushed to be 'Always on top'. It can be
+also started from a specified directory. If you detach a quick-run item that represents a folder,
+you will be able to browse that folder from the tray or a floater menu. Drag files onto such a
+floater to copy them into it. If the floater represents an application, dragged files will be
+opened by the application.<br>
+Every quick-run item can be in a "Launch set". A Launch set can have its own hotkey. Calling a
+Launch set will popup a menu. Double-pressing the Launch set hotkey will run all the quick-run
+items in it. You can add a Launch set to the tray.  The individual items within it are displayed
+in the corresponding context menu, where they may be selected individually. Clicking the Launch
+set hotkey will popup this menu directly.<br> 
+You can activate quick-run items without hotkeys using the tray menu or hot menu, or you can
+assign the same hotkey to several quick-run items simultaneously. They will then all be activated
+when the hotkey is pressed. Every quick-run item in the tray/hot menu has another context menu
+which can be called by right-clicking a menu item. Via this menu you can delete an item, hide an
+item, detach to create an icon or floater, and more.
+You can also activate quick-run by typing its text alias in any window. To add such alias, expand 
+hotkey item and choose "Assign alias" link<br>
+
+<hr>To create a new quick-run item:
+ <table border=0>
+ <tr><td valign=top>
+ - Open the Quick-run/Macros dialog and choose the corresponding button in the corresponding section.
+This is the only way to create "Folder" quick-run items.<br>
+ - Right-click any window on it's title and choose "Add to quick-run" from the window's system
+menu.<br>
+ -Call a hotmenu by right-clicking a window's "Close" button or by pressing the hotkey.
+('Ctrl-Alt-Gray Minus' is the default value for this hotkey.) Then choose "Add to quick-run" from
+the "Application shortcut" submenu. Use this menu to create a shortcut to the active application
+on your desktop or add it to the "Start" menu.
+ </td><td valign=top>
+ <img src="c_rc_min3.gif">
+ </td></tr>
+ </table>
+<hr>
+<b>Advanced possibilities</b><br>
+<br>- You can force use of desired ole command on target application in quick-runs. To archive this, you have to add "[ole:...]" string to application parameters,
+where "..." - ole command. Example: Set application path to any document and its parameter to "[ole:print]". This quick-run will quickly print choosen document.
+<br>- You can run quick-runs or macros from shortcuts (bat/cmd/lnk/js/vbs files) using Command line switch "-execute". Just execute command like "WireKeys.exe -execute=XXX" where XXX is the name of the macro or quick-run item and it will be executed. 
+To execute action, set its number instead of macro name prepended with '!', for example "WireKeys.exe -execute=!15" will eject CD-Rom. To see action numbers look at the end of this page. Warning: WireKeys must be already started to perform such execution.
+<br>- You can also call quick-runs and macros from auto-text plugin. Assign alias to "Execute" quick-run/macro name (instead of path to the file) and you will be able to start it by typing its alias in any application.
+<hr>
+<b>Special names of WireKeys actions:</b><br>
+Prepend action number with "!". Use such name (like "!15" for opening CD-Rom) in place where quick-run name can be used to start corresponding action
+<pre>
+Action -  HOT_MENU            0
+Action -  HIDE_TOTRAY         1
+Action -  BRING_INTOVIEW      2
+Action -  SWITCH_ONTOP        3
+Action -  CONVERT_SELECTED    4
+Action -  TAKE_SCREENSHOT     5
+Action -  RUN_ASCOMMAND       6
+Action -  HIDE_COMPLIT        7
+Action -  RUN_SCREENSAVER     8
+Action -  FAST_SHUTDOWN       9
+Action -  VOLUME_UP           10
+Action -  VOLUME_DOWN         11
+Action -  RUN_DEFBROWSER      12
+Action -  RUN_DEFEMAILCL      13
+Action -  BOSS_KEY            14
+Action -  OPEN_CD             15
+Action -  WINAMP_NEXTS        16
+Action -  WINAMP_PREVS        17
+Action -  WINAMP_STOP         18
+Action -  WINAMP_PLAY         19
+Action -  CHANGE_CASE         20
+Action -  WINDOW_RESTORE      21
+Action -  WINDOW_MINIMIZE     22
+Action -  SOUND_MUTE          23
+Action -  LOCK_STATION        24
+Action -  LAST_HIDDEN         25
+Action -  ROLLUP_TOTITLE      26
+Action -  WINAMP_NEXT5S       27
+Action -  WINAMP_PREV5S       28
+Action -  HIDE_TOFLOAT        29
+Action -  SCROLL_UP           30
+Action -  SCROLL_DOWN         31
+Action -  SCROLL_LEFT         32
+Action -  SCROLL_RIGHT        33
+Action -  SHOW_OPTIONS        34
+Action -  FREE_MEMORY         35
+Action -  KILL_PROCLIST       36
+Action -  KILL_ACTWND         37
+Action -  WINAMP_SHOWTITL     38
+Action -  WINAMP_VOLUP        39
+Action -  WINAMP_VOLDOWN      40
+Action -  WINAMP_SHUFFLING    41
+Action -  ADDDESK_PREV	      42
+Action -  ADDDESK_NEXT	      43
+Action -  SHOWCLOCKS		  44
+Action -  SWITCHLAYOUT	      45
+Action -  SHOWPROCLIST	      46
+Action -  CLEARHISTORIES	  47
+Action -  SCROLL_PAGEUP	      48
+Action -  SCROLL_PAGEDN	      49
+Action -  ICONS_SAVE	      50
+Action -  ICONS_RESTORE	      51
+Action -  MONITOR_STANDBY	  52
+Action -  WINAMP_SHOWHIDE	  53
+Action -  CONVERT_LASTWORD    54
+Action -  WINDOW_TRANS        55
+Action -  EXTREM_SHUTD        56
+</pre>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

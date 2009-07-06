@@ -1,0 +1,182 @@
+// Language: WP_MacroRec.wkp
+// Title: Control Media player/Zoom player/BS player
+// Description: Control Media player/Zoom player/BS player via hotkeys
+// ParamType: none
+// Hint: No_sound, No_icon, OSD
+
+<wkMain>// wkMain description: Start/Pause playback
+if("%ISRUN:MMJB"="1"){
+	Command("cmd::msg=[0x0111] h=[0x00008059] l=[0x00000000] targetByClass=[MMJB:MAINWND]");
+
+if("%ISRUN:WMPLAYER"="1"){
+	Command("cmd::msg=[0x0111] h=[0x00008028] l=[0x00000000] targetByClass=[WMPlayerApp]");
+}
+if("%ISRUN:LA"="1"){
+	Command("cmd::msg=[35272] h=[102] l=[0x00000000] targetByClass=[LightAlloyFront]");
+}
+if("%ISRUN:WINAMP"="1"){
+	Command("cmd::msg=[0x0111] h=[40046] l=[0x00000000] targetByClass=[Winamp v1.x]");
+}
+if("%ACTIVEAPP"=="ZPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x041950] keydown=[1] ext=[0] dsc=[Key down:	'P']");
+	Command("key::msg=[257] l=[0x041950] keydown=[0] ext=[0] dsc=[Key up:	'P']");
+}
+if("%ACTIVEAPP"=="BSPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x042E43] keydown=[1] ext=[0] dsc=[Key down:	'C']");
+	Command("key::msg=[257] l=[0x042E43] keydown=[0] ext=[0] dsc=[Key up:	'C']");
+}
+</wkMain>
+
+<wkMain2>// wkMain2 description: Stop playback
+if("%ISRUN:MMJB"="1"){
+	Command("cmd::msg=[0x0111] h=[0x0000805A] l=[0x00000000] targetByClass=[MMJB:MAINWND]");
+}
+if("%ISRUN:WMPLAYER"="1"){
+	Command("cmd::msg=[0x0111] h=[0x00008029] l=[0x00000000] targetByClass=[WMPlayerApp]");
+}
+if("%ISRUN:LA"="1"){
+	Command("cmd::msg=[35272] h=[100] l=[0x00000000] targetByClass=[LightAlloyFront]");
+}
+if("%ISRUN:WINAMP"="1"){
+	Command("cmd::msg=[0x0111] h=[40047] l=[0x00000000] targetByClass=[Winamp v1.x]");
+}
+if("%ACTIVEAPP"=="ZPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x041F53] keydown=[1] ext=[0] dsc=[Key down:	'S']");
+	Command("key::msg=[257] l=[0x041F53] keydown=[0] ext=[0] dsc=[Key up:	'S']");
+}
+if("%ACTIVEAPP"=="BSPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x042F56] keydown=[1] ext=[0] dsc=[Key down:	'V']");
+	Command("key::msg=[257] l=[0x042F56] keydown=[0] ext=[0] dsc=[Key up:	'V']");
+}
+</wkMain2>
+
+<wkMain3>// wkMain3 description: Start playback
+if("%ISRUN:MMJB"="1"){
+	Command("cmd::msg=[0x0111] h=[0x00008058] l=[0x00000000] targetByClass=[MMJB:MAINWND]");
+}
+if("%ISRUN:WMPLAYER"="1"){
+	Command("cmd::msg=[0x0111] h=[0x00008028] l=[0x00000000] targetByClass=[WMPlayerApp]");
+}
+if("%ISRUN:LA"="1"){
+	Command("cmd::msg=[35272] h=[252] l=[0x00000000] targetByClass=[LightAlloyFront]");
+}
+if("%ISRUN:WINAMP"="1"){
+	Command("cmd::msg=[0x0111] h=[40045] l=[0x00000000] targetByClass=[Winamp v1.x]");
+}
+if("%ACTIVEAPP"=="ZPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x041950] keydown=[1] ext=[0] dsc=[Key down:	'P']");
+	Command("key::msg=[257] l=[0x041950] keydown=[0] ext=[0] dsc=[Key up:	'P']");
+}
+if("%ACTIVEAPP"=="BSPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x042D58] keydown=[1] ext=[0] dsc=[Key down:	'X']");
+	Command("key::msg=[257] l=[0x042D58] keydown=[0] ext=[0] dsc=[Key up:	'X']");
+}
+</wkMain3>
+
+<wkMain4>// wkMain4 description: Forward
+if("%ISRUN:MMJB"="1"){
+	Command("cmd::msg=[0x0111] h=[0x0000805D] l=[0x00000000] targetByClass=[MMJB:MAINWND]");
+}
+if("%ISRUN:WMPLAYER"="1"){
+	Command("cmd::msg=[0x0111] h=[0x0000802D] l=[0x00000000] targetByClass=[WMPlayerApp]");
+}
+if("%ISRUN:LA"="1"){
+	Command("cmd::msg=[35272] h=[152] l=[0x00000000] targetByClass=[LightAlloyFront]");
+}
+if("%ISRUN:WINAMP"="1"){
+	Command("cmd::msg=[0x0111] h=[40148] l=[0x00000000] targetByClass=[Winamp v1.x]");
+}
+if("%ACTIVEAPP"=="ZPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x0434BE] keydown=[1] ext=[0] dsc=[Key down:	'.']");
+	Command("key::msg=[257] l=[0x0434BE] keydown=[0] ext=[0] dsc=[Key up:	'.']");
+}
+if("%ACTIVEAPP"=="BSPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x0434BE] keydown=[1] ext=[0] dsc=[Key down:	'.']");
+	Command("key::msg=[257] l=[0x0434BE] keydown=[0] ext=[0] dsc=[Key up:	'.']");
+}
+</wkMain4>
+
+<wkMain5>// wkMain5 description: Backward
+if("%ISRUN:MMJB"="1"){
+	Command("cmd::msg=[0x0111] h=[0x0000805C] l=[0x00000000] targetByClass=[MMJB:MAINWND]");
+}
+if("%ISRUN:WMPLAYER"="1"){
+	Command("cmd::msg=[0x0111] h=[0x0000802C] l=[0x00000000] targetByClass=[WMPlayerApp]");
+}
+if("%ISRUN:LA"="1"){
+	Command("cmd::msg=[35272] h=[153] l=[0x00000000] targetByClass=[LightAlloyFront]");
+}
+if("%ISRUN:WINAMP"="1"){
+	Command("cmd::msg=[0x0111] h=[40144] l=[0x00000000] targetByClass=[Winamp v1.x]");
+}
+if("%ACTIVEAPP"=="ZPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x0433BC] keydown=[1] ext=[0] dsc=[Key down:	',']");
+	Command("key::msg=[257] l=[0x0433BC] keydown=[0] ext=[0] dsc=[Key up:	',']");
+}
+if("%ACTIVEAPP"=="BSPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x0433BC] keydown=[1] ext=[0] dsc=[Key down:	',']");
+	Command("key::msg=[257] l=[0x0433BC] keydown=[0] ext=[0] dsc=[Key up:	',']");
+}
+</wkMain5>
+
+<wkMain6>// wkMain6 description: Next track
+if("%ISRUN:MMJB"="1"){
+	Command("cmd::msg=[0x0111] h=[0x0000805B] l=[0x00000000] targetByClass=[MMJB:MAINWND]");
+	Command("cmd::msg=[0x0111] h=[0x00008058] l=[0x00000000] targetByClass=[MMJB:MAINWND]");
+}
+if("%ISRUN:WMPLAYER"="1"){
+	Command("cmd::msg=[0x0111] h=[0x0000802B] l=[0x00000000] targetByClass=[WMPlayerApp]");
+}
+if("%ISRUN:LA"="1"){
+	Command("cmd::msg=[35272] h=[250] l=[0x00000000] targetByClass=[LightAlloyFront]");
+}
+if("%ISRUN:WINAMP"="1"){
+	Command("cmd::msg=[0x0111] h=[40048] l=[0x00000000] targetByClass=[Winamp v1.x]");
+}
+if("%ACTIVEAPP"=="ZPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x041BDD] keydown=[1] ext=[0] dsc=[Key down:	']']");
+	Command("key::msg=[257] l=[0x041BDD] keydown=[0] ext=[0] dsc=[Key up:	']']");
+}
+if("%ACTIVEAPP"=="BSPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x043042] keydown=[1] ext=[0] dsc=[Key down:	'B']");
+	Command("key::msg=[257] l=[0x043042] keydown=[0] ext=[0] dsc=[Key up:	'B']");
+}
+</wkMain6>
+
+<wkMain7>// wkMain7 description: Previous track
+if("%ISRUN:MMJB"="1"){
+	Command("cmd::msg=[0x0111] h=[0x00008056] l=[0x00000000] targetByClass=[MMJB:MAINWND]");
+	Command("cmd::msg=[0x0111] h=[0x00008058] l=[0x00000000] targetByClass=[MMJB:MAINWND]");
+}
+if("%ISRUN:WMPLAYER"="1"){
+	Command("cmd::msg=[0x0111] h=[0x0000802A] l=[0x00000000] targetByClass=[WMPlayerApp]");
+}
+if("%ISRUN:LA"="1"){
+	Command("cmd::msg=[35272] h=[251] l=[0x00000000] targetByClass=[LightAlloyFront]");
+}
+if("%ISRUN:WINAMP"="1"){
+	Command("cmd::msg=[0x0111] h=[40044] l=[0x00000000] targetByClass=[Winamp v1.x]");
+}
+if("%ACTIVEAPP"=="ZPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x041ADB] keydown=[1] ext=[0] dsc=[Key down:	'[']");
+	Command("key::msg=[257] l=[0x041ADB] keydown=[0] ext=[0] dsc=[Key up:	'[']");
+}
+if("%ACTIVEAPP"=="BSPLAYER"){
+	WaitWhileAllKeysAreReleased("...")
+	Command("key::msg=[256] l=[0x041559] keydown=[1] ext=[0] dsc=[Key down:	'Y']");
+	Command("key::msg=[257] l=[0x041559] keydown=[0] ext=[0] dsc=[Key up:	'Y']");
+}
+</wkMain7>

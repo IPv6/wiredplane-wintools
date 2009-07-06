@@ -1,0 +1,232 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Íàñòðîéêè ïðèëîæåíèÿ" -->
+<!--#set var="PTITLE_EN" value="Preferences dialog" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Templates preferences dialog</h2><hr>
+
+<a href="preferences.shtml"><b>Common preferences</b></a><br><br>
+<a href="preferences2.shtml"><b>Main window preferences</b></a><br><br>
+
+<b>Wallpaper Templates</b><br /><br />
+
+Templates are additions to your desktop that look and feel like part of the wallpaper itself. Enable/disable a template by checking/unchecking the associated checkbox. Click the 'Change settings of...' link to open a new window displaying options for that template. Click the 'Make a copy of...' link to have another set of checkbox-and-links automatically insert itself below the current set. The last link in the new set will be 'Remove...' which you can use to delete the new set. You can have more than two copies of a theme. Each new set of checkbox-and-links is appended with a number (starting with [2]) to avoid confusion over which is the original and which are the copies. You can select any or all of the templates below. To make changes take effect, you may have to manually rotate (Alt-W) to the next wallpaper.<br /><br />
+
+<b>Latest CNN News</b><br /><br />
+
+This template consists of a news area and a heading area that always says 'CNN News'. All options affect both areas except 'Show border and background rectangle' which only affects the news area. To remove the border and background from the heading area, set the 'Background opacity' option to 0. Note that you must be online to use this template. If you have a firewall in place, you may be alerted that WireChanger is attempting to access the Internet.
+
+<ul>
+<li><b>News font</b> - Brings up the standard font selection box for choosing font type and size.</li>
+<li><b>Text color</b> - Brings up the standard color selection box for setting the text color.</li>
+<li><b>Background color</b> - Brings up the standard color selection box for setting the background color.</li>
+<li><b>Background opacity (percents)</b> - Set the opacity of the news area ranging from 0% (transparent) to 100% (opaque). The default is 40%.</li>
+<li><b>Show border and background rectangle</b> (Checkbox) - When checked, a border and background will appear with the text. Affects only the news areas.</li>
+<li><b>Show shadow around news</b> (Checkbox) - When checked, individual text characters will be outlined which can make them more visible relative to the background or wallpaper.</li>
+<li><b>Open news page on double-clicking news</b> - When checked, a browser page will open containing the full news story.</li>
+<li><b>CNN News size and position</b> - Double-click the value box to manually set the...
+	<ul>
+	<li><b>X Position (pixels)</b> - ...location of the left border of the news template.</li>
+	<li><b>Y Position (pixels)</b> - ...location of the top border of the news template.</li>
+	<li><b>Width (pixels)</b> - ...width of the news template.</li>
+	<li><b>Height (pixels)</b> - ...height of the news template.</li>
+	<li><b>Set position</b> - Click to make the news template appear as a window that you can drag and resize. This option is usually easier to use than the previous four manual settings.</li>
+	</ul>
+		</li>
+</ul>
+
+<b>Calendar</b><br /><br />
+
+<ul>
+<li><b>Calendar type</b> (Dropdown) - Determines how many weeks will appear in the calendar. Choose from 'One week', 'Two weeks', 'One month', or 'Two months'.</li>
+<li><b>Calendar skin</b> (Dropdown) - Determines how the cells and overall style of the calendar will appear. Choose from 'Basic', 'Simple round', or 'Strange (minimalistic)'.</li>
+<li><b>Start week from</b> (Dropdown) - Determines which day will be placed at the left end of each row. Choose from 'Monday', 'Sunday', or 'Yesterday'.</li>
+<li><b>Month to start from</b> (Dropdown) - Choose from 'Current' or 'Next'.</li>
+<li><b>Edit note on double-clicking calendar cell</b> (Checkbox) - When checked, you can insert or change existing notes in individual cells of the calendar by double-clicking the cell. (See Edit day-by-day notes below for the alternate method.)</li>
+<li><b>Notes, Birthdays and Holidays</b>
+	<ul>
+	<li><b>Show day-by-day notes</b> (Checkbox) - When checked, you can see text you have added to individual calendar cells (dates).</li>
+	<li><b>Edit day-by-day notes</b> - Click to open a window in which you can add, change, or delete daily notes.</li>
+	<li><b>Show personal birthdays in calendar's cells</b> (Checkbox) - When checked, your calendar will automatically show selected birthdays.</li>
+	<li><b>Edit personal birthdays</b> - Click to open a window in which you can add, change, or delete personal birthdays.</li>
+	<li><b>Show holidays descriptions in cells</b> (Checkbox) - When checked, your calendar will automatically show selected holidays.</li>
+	<li><b>Edit red-letter days</b> - Click to open a window in which you can add, change, or delete holidays and other important days.</li>
+	<li><b>Show common birthdays and annual events in subtitle</b> (Checkbox) - When checked, your calendar will automatically show selected birthdays and events across the top edge rather than in a cell.</li>
+	<li><b>Edit annual events</b> - Click to open a window in which you can add, change, or delete events that appear in the subtitle.</li>
+	</ul>
+</li>
+<li><b>Calendar size, color and position</b>
+	<ul>
+	<li><b>Text color</b> - Brings up the standard color selection box for setting the text color in calendar cells.</li>
+	<li><b>Cell background color</b> - Brings up the standard color selection box for setting the color of 'normal' cell backgrounds.</li>
+	<li><b>Weekend color</b> - Brings up the standard color selection box for setting the color of Saturday and Sunday cell backgrounds.</li>
+	<li><b>Holidays color</b> - Brings up the standard color selection box for setting the color of holiday cell backgrounds.</li>
+	<li><b>Calendar opacity (percents)</b> - Set the opacity of the calendar ranging from 0% (transparent) to 100% (opaque). The default is 40%.</li>
+	<li><b>Text font</b> - Brings up the standard font selection box for choosing calendar cell font type and size.<br />Double-click the value box to manually set the...</li>
+	<li><b>X Position (pixels)</b> - ...location of the left border of the calendar template.</li>
+	<li><b>Y Position (pixels)</b> - ...location of the top border of the calendar template.</li>
+	<li><b>Width (pixels)</b> - ...width of the calendar template.</li>
+	<li><b>Height (pixels)</b> - ...height of the calendar template.</li>
+	<li><b>Set calendar position</b> - Click to make the calendar template appear as a window that you can drag and resize. This option is usually easier to use than the previous four manual settings.</li>
+	</ul>
+</li>
+</ul>
+
+<b>Citations</b><br /><br />
+
+<ul>
+<li><b>Citation font</b> - Brings up the standard font selection box for choosing the citation font type and size.</li>
+<li><b>Text color</b> - Brings up the standard color selection box for setting the text color of the citation.</li>
+<li><b>Background color</b> - Brings up the standard color selection box for setting the color of the citation background.</li>
+<li><b>Background opacity (percents)</b> - Set the opacity of the citation background ranging from 0% (transparent) to 100% (opaque). The default is 40%.</li>
+<li><b>Show shadow around citation</b> - (Checkbox) When checked, individual text characters will be outlined which can make them more visible relative to the background or wallpaper.</li>
+<li><b>Show border and background rectangle</b> (Checkbox) - When checked, a border and background will appear with the text.</li>
+<li><b>Edit citations on double-clicking citation</b> (Checkbox) - When checked, you can change existing citations by double-clicking them.</li>
+<li><b>Edit standard citations</b> - Opens Notepad where you can change citations provided within Wire Changer.</li>
+<li><b>Use custom citations file</b> (Checkbox) - When checked, you can display your own citations instead of those that come with Wire Changer.</li>
+<li><b>Citation size and position</b>
+	<ul>
+	<li><b>X Position (pixels)</b> - ...location of the left border of the citation.</li>
+	<li><b>Y Position (pixels)</b> - ...location of the top border of the citation.</li>
+	<li><b>Width (pixels)</b> - ...width of the citation.</li>
+	<li><b>Height (pixels)</b> - ...height of the citation.</li>
+	<li><b>Set citation position</b> - Click to make the citation appear as a window that you can drag and resize. This option is usually easier to use than the previous four manual settings.</li>
+	</ul>
+</li>
+</ul>
+
+<b>Image mosaic</b><br /><br />
+
+<p>This option creates a tiled pattern using the current wallpaper image.</p>
+
+<ul>
+<li><b>Rows to show</b> - Double-click the value box to set the number of rows in the mosaic. The minimum is 1; the maximum is 100. The default is 2.</li>
+<li><b>Columns to show</b> - Double-click the value box to set the number of columns in the mosaic. The minimum is 1; the maximum is 100. The default is 2.</li>
+<li><b>Offset cells on X axis (percents)</b> - Double-click the value box to set the amount, measured as a percentage from 0 to 100, that the rows of cells should shift. The default is 0.</li>
+<li><b>Offset cells on Y axis (percents)</b> - Double-click the value box to set the amount, measured as a percentage from 0 to 100, that the columns of cells should shift. The default is 0.</li>
+<li><b>Mirror images in the cells</b> (Dropdown) - Choose from 'Do not mirror images', 'Mirror from second cell' (default), 'Mirror first cell by X axis', 'Mirror first cell by Y axis', Mirror first cell by X and Y axes', or 'Random'.</li>
+<li><b>Use random images for every cell except first</b> (Checkbox) - When checked, only the cell in the top left corner of the mosaic is guaranteed to contain the current image in the standard rotation. Other cells can contain any image in the rotation.</li>
+<li><b>Effects frequency (percents)</b> - Double-click the value box to set the amount, measured as a percentage from 0 to 100. The default is 100, which will generate the selected effects every time the background changes. A setting of 50 would affect every other page.</li>
+</ul>
+
+<b>Memo pad</b><br /><br />
+
+<p>Use this template to put notes for the current day on your desktop.</p>
+
+<ul>
+<li><b>Show famous people birthdays</b> (Checkbox) - When checked, if a famous person's birthday falls on the current date, it will be displayed on the memo pad. You get to determine who the 'famous' people are.</li>
+<li><b>Edit personal birthdays</b> - Click to open a window in which you can add, change, or delete personal birthdays. There are no personal birthdays included in the original program. Any you add later will not be lost if you need to reinstall Wire Changer.</li>
+<li><b>Edit birthdays</b> - Click to open a window in which you can add, change, or delete birthdays.</li>
+<li><b>Show interesting events for this day</b> (Checkbox) - When checked, if an interesting event falls on the current date, it will be displayed on the memo pad. You get to determine what an 'interesting' event is.</li>
+<li><b>Edit interesting events</b> - Click to open a window in which you can add, change, or delete events.</li>
+<li><b>Background color</b> - Brings up the standard color selection box for setting the color of the memo background.</li>
+<li><b>Foreground color</b> - Brings up the standard color selection box for setting the color of the memo text.</li>
+<li><b>Memo pad opacity (percents)</b> - Set the opacity of the memo pad ranging from 0% (transparent) to 100% (opaque). The default is 50%.</li>
+<li><b>Edit memo text on double-clicking memo pad</b> (Checkbox) - When checked, you can update the your notes on the memo pad by double-clicking it.</li>
+<li><b>Memo pad font</b> - Brings up the standard font selection box for choosing memo pad font type and size. Default is Arial, 10pt.</li>
+<li><b>Edit memo note</b> - Opens Notepad where you can add, change, or delete notes for the day. This is the alternate method to use if the edit on double-click checkbox (above) is not checked.</li>
+<li><b>Memo pad size and position</b>
+	<ul>
+	<li><b>X Position (pixels)</b> - ...location of the left border of the memo pad.</li>
+	<li><b>Y Position (pixels)</b> - ...location of the top border of the memo pad.</li>
+	<li><b>Width (pixels)</b> - ...width of the memo pad.</li>
+	<li><b>Height (pixels)</b> - ...height of the memo pad.</li>
+	<li><b>Set memo pad position</b> - Click to make the memo pad appear as a window that you can drag and resize. This option is usually easier to use than the previous four manual settings.</li>
+	</ul>
+</li>
+</ul>
+
+<b>Online quotation</b><br /><br />
+
+<p>This template is similar to the Citations Template (above), but the quotations come from an online source.</p>
+
+<ul>
+<li><b>Quotation font</b> - Brings up the standard font selection box for choosing the quotation font type and size. The default is Arial, 10pt.</li>
+<li><b>Text color</b> - Brings up the standard color selection box for setting the text color of the quotation.</li>
+<li><b>Background color</b> - Brings up the standard color selection box for setting the color of the quotation background.</li>
+<li><b>Background opacity (percents)</b> - Set the opacity of the quotation background ranging from 0% (transparent) to 100% (opaque). The default is 40%.</li>
+<li><b>Show border and background rectangle</b> (Checkbox) - When checked, a border and background will appear with the text.</li>
+<li><b>Show shadow around quotation</b> - (Checkbox) When checked, individual text characters will be outlined which can make them more visible relative to the background or wallpaper.</li>
+<li><b>Quotation size and position</b>
+	<ul>
+	<li><b>X Position (pixels)</b> - ...location of the left border of the quotation.</li>
+	<li><b>Y Position (pixels)</b> - ...location of the top border of the quotation.</li>
+	<li><b>Width (pixels)</b> - ...width of the quotation.</li>
+	<li><b>Height (pixels)</b> - ...height of the quotation.</li>
+	<li><b>Set quotation position</b> - Click to make the quotation appear as a window that you can drag and resize. This option is usually easier to use than the previous four manual settings.</li>
+	</ul>
+</li>
+</ul>
+
+<b>Image mixer</b><br /><br />
+
+<p>The Image Mixer combines two desktop pictures to create unique effects. The options available are difficult to describe, so we suggest you simply play around with them to see what they do and to generate an effect that you like.</p>
+
+<b>Second picture</b><br /><br />
+
+<p>The Second Picture template adds another image (not mixed with the original) to your desktop. A few common options are available for setting the opacity, border, size, and position of the picture.</p>
+
+<b>Special Effects</b><br /><br />
+
+<p>Special Effects can be used to alter the appearance of the main desktop image. The options available are difficult to describe, so we suggest you simply play around with them to see what they do and to generate an effect that you like.</p>
+
+<b>Weather forecast</b><br /><br />
+
+<p>The Weather Forecast template adds an icon to your desktop that displays information about the weather for a major city of your choice. Most major cities around the world are available.</p>
+
+<ul>
+<li><b>City code</b> - Double-click the value box to enter the city code found at <a href="http://dyn.gismeteo.ru/cgi-bin/wtlist.exe?req=countries&lang=eng">www.gismeteo.ru</a>.</li>
+<li><b>Open full forecast on double-clicking icon</b> (Checkbox) - When checked, you can double-click the weather forecast icon to see more detailed information about the chosen city.</li>
+<li><b>Visit Gismeteo.ru to find your code</b> (Link) - Click to go to the city code Website.</li>
+<li><b>Weather icon opacity (percents)</b> - Set the opacity of the weather icon background ranging from 0% (transparent) to 100% (opaque). The default is 100%.</li>
+<li><b>Show Weather icon border</b> (Checkbox) - When checked, a border will appear around the icon.</li>
+<li><b>Weather icon border color</b> - Brings up the standard color selection box for setting the color of the icon border.</li>
+<li><b>Weather icon size and position</b>
+	<ul>
+	<li><b>X Position (pixels)</b> - ...location of the left border of the weather icon.</li>
+	<li><b>Y Position (pixels)</b> - ...location of the top border of the weather icon.</li>
+	<li><b>Width (pixels)</b> - ...width of the weather icon.</li>
+	<li><b>Height (pixels)</b> - ...height of the weather icon.</li>
+	<li><b>Set weather icon position</b> - Click to make the weather icon appear as a window that you can drag and resize. This option is usually easier to use than the previous four manual settings.</li>
+	</ul>
+</li>
+</ul>
+
+<b>Web camera</b>
+
+<p>The Web Camera template adds shots from the Web camera of your choice to the desktop.</p>
+
+<ul>
+<li><b>Link to Web camera image</b> - Double-click the value box to enter the URL of the Web camera. The default is <a href="http://www.wiredplane.com/guestbook/thumbview.php?action=thumb&image=rnd">random thumbnail images at WiredPlane</a>.</li>
+<li><b>Web shot opacity (percents)</b> - Set the opacity of the Web camera image ranging from 0% (transparent) to 100% (opaque). The default is 100%.</li>
+<li><b>Prevent image from being cached</b> (Checkbox) - When checked, Web shots will not be cached on your machine. This ensures that only new images from the Web are being displayed.</li>
+<li><b>Open corresponding Website on double-clicking icon</b> (Checkbox) - When checked, you can double-click the Web camera image to go to the Website where that image is located.</li>
+<li><b>Show border around Web shot</b> (Checkbox) - When checked, a border will appear around the Web camera image.</li>
+<li><b>Web shot border color</b> - Brings up the standard color selection box for setting the color of the Web camera image border.</li>
+<li><b>Web shot size and position</b>
+	<ul>
+	<li><b>X Position (pixels)</b> - ...location of the left border of the Web shot.</li>
+	<li><b>Y Position (pixels)</b> - ...location of the top border of the Web shot.</li>
+	<li><b>Width (pixels)</b> - ...width of the Web shot.</li>
+	<li><b>Height (pixels)</b> - ...height of the Web shot.</li>
+	<li><b>Set Web shot position</b> - Click to make the Web shot appear as a window that you can drag and resize. This option is usually easier to use than the previous four manual settings.</li>
+	</ul>
+</li>
+</ul>
+
+<br><br>
+
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

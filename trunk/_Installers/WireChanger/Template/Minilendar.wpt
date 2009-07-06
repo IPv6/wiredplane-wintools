@@ -1,0 +1,84 @@
+$=<TITLE:Minilendar>$=<SHOWINTRAY:PARAM_ROOT,!DAYNDESC_ED,!RDAYDESC_ED,!BIRCDESC_ED>$=<CATEG:Calendars>
+$=<DESCRIPTION:Simple month calendar>
+tray-transparency{CLN_OPACITY}
+tray-position{OC:(1),X:(CLN_XPOS),Y:(CLN_YPOS),W:(CLN_WIDTH),H:(CLN_HEIGHT)}
+$=<RENDER:EasyDraw.dll>$=<HINTS:RENDER-LAYER=(FG),ONLINE-STATE=(DONTCARE),WIN98WARN=(Please note: Some features are not supported on Win98/WinME),REFRESH-ON-NEW-DAY,CONTAIN-CONFIDENTIAL-INFO>
+$=<PARDEF:PARAM_ROOT>$=<PARDSC:PARAM_ROOT=Minilendar options>$=<PARTYP:PARAM_ROOT=root>
+$=<PARDEF:CLN_SKIN=2>$=<PARDSC:CLN_SKIN=Calendar skin>$=<PARTYP:CLN_SKIN=dirlist>$=<PARLST:CLN_SKIN=$=<BASEPATH>/Minilendar/*.def>
+$=<PARDEF:FIRSTDAY=0>$=<PARDSC:FIRSTDAY=Start week from>$=<PARTYP:FIRSTDAY=list>$=<PARLST:FIRSTDAY=Monday,Sunday>
+$=<PARDEF:MONOFFSET=0>$=<PARDSC:MONOFFSET=Month to start from>$=<PARTYP:MONOFFSET=list>$=<PARLST:MONOFFSET=Current,Next,+2 Months,+3 Months>
+
+$=<PARDEF:CLN_FG=#FFFFFF>$=<PARDSC:CLN_FG=Text color>$=<PARTYP:CLN_FG=color>
+$=<PARDEF:CLN_FST=[fontname]Arial[/fontname][size value="-17"/][weight value="800"/]>$=<PARDSC:CLN_FST=Font>$=<PARTYP:CLN_FST=font>
+
+$=<PARDEF:CLN_SPOS>$=<PARDSC:CLN_SPOS=Set calendar position>$=<PARTYP:CLN_SPOS=set_position>$=<PARACTION:CLN_SPOS=OC:(1),X:(CLN_XPOS),Y:(CLN_YPOS),W:(CLN_WIDTH),H:(CLN_HEIGHT)/>
+$=<PARDEF:CLN_XPOS=5>$=<PARDSC:CLN_XPOS=X Position (pixels)>$=<PARTYP:CLN_XPOS=number>$=<PARMIN:CLN_XPOS=0>$=<PARMAX:CLN_XPOS={screenX}>$=<PAROC:CLN_XPOS=1>$=<PARPAR:CLN_XPOS=CLN_SPOS>
+$=<PARDEF:CLN_YPOS=$=<INTEXPR({screen-ntb-bottom}-245)>>$=<PARDSC:CLN_YPOS=Y Position (pixels)>$=<PARTYP:CLN_YPOS=number>$=<PARMIN:CLN_YPOS=0>$=<PARMAX:CLN_YPOS={screenY}>$=<PAROC:CLN_YPOS=1>$=<PARPAR:CLN_YPOS=CLN_SPOS>
+$=<PARDEF:CLN_WIDTH=240>$=<PARDSC:CLN_WIDTH=Width (pixels)>$=<PARTYP:CLN_WIDTH=number>$=<PARMIN:CLN_WIDTH=20>$=<PARMAX:CLN_WIDTH={screenX}>$=<PAROC:CLN_WIDTH=1>$=<PARPAR:CLN_WIDTH=CLN_SPOS>
+$=<PARDEF:CLN_HEIGHT=240>$=<PARDSC:CLN_HEIGHT=Height (pixels)>$=<PARTYP:CLN_HEIGHT=number>$=<PARMIN:CLN_WIDTH=20>$=<PARMAX:CLN_HEIGHT={screenY}>$=<PAROC:CLN_HEIGHT=1>$=<PARPAR:CLN_HEIGHT=CLN_SPOS>
+
+$=<PARDEF:CLN_SKIN-PATH=$=<BASEPATH>/Minilendar/Skin_Default/skin.def>$=<PARTYP:CLN_SKIN-PATH=hidden>
+$=<PAR:CUTLINE>
+{wp:body}
+<hlayout>
+<!--
+X:($=<PAR:CLN_XPOS>)
+Y:($=<PAR:CLN_YPOS>)
+W:($=<PAR:CLN_WIDTH>)
+H:($=<PAR:CLN_HEIGHT>)
+INTERACTIVITY:(1)
+INTERACTIVITY_ACTION:(WP:OPEN-CAL)
+INTERACTIVITY_TOOLTIP:($=<TEXTLINE(comm_l{lang}.txt,Click_for4Months=)>)
+-->
+{wp:tiscript}
+	var month=new Array();
+	var wdays=new Array();
+	var wdays_short=new Array();
+	
+	month[0]="$=<TEXTLINE(comm_l{lang}.txt,January=)>";
+	month[1]="$=<TEXTLINE(comm_l{lang}.txt,February=)>";
+	month[2]="$=<TEXTLINE(comm_l{lang}.txt,March=)>";
+	month[3]="$=<TEXTLINE(comm_l{lang}.txt,April=)>";
+	month[4]="$=<TEXTLINE(comm_l{lang}.txt,May=)>";
+	month[5]="$=<TEXTLINE(comm_l{lang}.txt,June=)>";
+	month[6]="$=<TEXTLINE(comm_l{lang}.txt,July=)>";
+	month[7]="$=<TEXTLINE(comm_l{lang}.txt,August=)>";
+	month[8]="$=<TEXTLINE(comm_l{lang}.txt,September=)>";
+	month[9]="$=<TEXTLINE(comm_l{lang}.txt,October=)>";
+	month[10]="$=<TEXTLINE(comm_l{lang}.txt,November=)>";
+	month[11]="$=<TEXTLINE(comm_l{lang}.txt,December=)>";
+	wdays[0]="$=<TEXTLINE(comm_l{lang}.txt,Sunday=)>";wdays_short[0]="$=<TEXTLINE(comm_l{lang}.txt,Sun=)>";
+	wdays[1]="$=<TEXTLINE(comm_l{lang}.txt,Monday=)>";wdays_short[1]="$=<TEXTLINE(comm_l{lang}.txt,Mon=)>";
+	wdays[2]="$=<TEXTLINE(comm_l{lang}.txt,Tuesday=)>";wdays_short[2]="$=<TEXTLINE(comm_l{lang}.txt,Tue=)>";
+	wdays[3]="$=<TEXTLINE(comm_l{lang}.txt,Wednesday=)>";wdays_short[3]="$=<TEXTLINE(comm_l{lang}.txt,Wed=)>";
+	wdays[4]="$=<TEXTLINE(comm_l{lang}.txt,Thursday=)>";wdays_short[4]="$=<TEXTLINE(comm_l{lang}.txt,Thu=)>";
+	wdays[5]="$=<TEXTLINE(comm_l{lang}.txt,Friday=)>";wdays_short[5]="$=<TEXTLINE(comm_l{lang}.txt,Fri=)>";
+	wdays[6]="$=<TEXTLINE(comm_l{lang}.txt,Saturday=)>";wdays_short[6]="$=<TEXTLINE(comm_l{lang}.txt,Sat=)>";
+	// Calling calendar generator
+	var skinPath=WireChanger.getFilePath(WireChanger.unescape("$=<PAR:CLN_SKIN-PATH,ENC>"));
+	$=<INCLUDE($=<PAR:CLN_SKIN-PATH>)>	
+	var calendarHTML=Minilendar_Main();
+	var calendarCSS=Minilendar_CSS();
+{/wp:tiscript}
+<html>
+<head>
+<style>
+html {
+	background-color:transparent;
+	overflow: none;
+}
+
+{wp:tiscript}
+stdout.print(calendarCSS);
+{/wp:tiscript}
+</style>
+</head>
+<body>
+{wp:tiscript}
+stdout.print(calendarHTML);
+{/wp:tiscript}
+</body>
+</html>
+</hlayout>
+
+{/wp:body}

@@ -1,0 +1,48 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Íàñòðîéêè ïðèëîæåíèÿ" -->
+<!--#set var="PTITLE_EN" value="Preferences dialog" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Main window preferences</h2><hr>
+
+<a href="preferences.shtml"><b>Common preferences</b></a><br><br>
+
+<b>Wallpapers list</b>
+
+<ul>
+<li><b>How to get next wallpaper</b> (Dropdown) - Determines the order in which wallpapers are rotated. Choose from 'Random' or 'Next in order' (as found on the Wallpapers list screen).</li>
+<li><b>Quality of image resizing</b> (Dropdown) - Choose from 'Normal', 'Fine', 'Invert', 'Shaker', or 'Random'. 'Normal' is lower quality than 'Fine', but 'Fine' is slower. 'Fine' smooths artefacts after stretching but is not really needed with Windows XP (or later operating systems). The other qualities are just for fun and are not truly resizing options. 'Invert' changes (inverts) the colors of your images. 'Shaker' give them a somewhat impressionistic appearance with many lines. 'Random' is the same as 'Shaker' combined with 'Invert' and other computations in random fashion.</li>
+<li><b>Max valid percent for auto-fit proportional</b> - Wallpapers that need to be stretched more than this percentage to fit the entire screen will not be stretched when automatic fit is selected in the Wallpapers list window. Double-click the value box to change the percentage.</li>
+<li><b>Change wallpaper periodically, Generate wallpaper every ... min:</b> (Checkbox) - This option controls the main purpose of WireChanger. When checked, your wallpaper will automatically change based on the time period in minutes in the value box. Double-click the value box to change the number (1 through 10,000 are allowed) of minutes. The default is 30 minutes.</li>
+<li><b>Allow image templates and HTML wallpapers, Max processing time (sec):</b> (Checkbox) - When checked, images that are created using HTML or that are located on another computer and are accessed by a URL link will be processed only if the maximum time you allot is not exceeded. If image generation takes longer than your limit, the new wallpaper will be only partially displayed. Double-click the value box to change the time limit.</li>
+<li><b>Image list: Trim image path, preserve name</b> (Checkbox) - When checked, pathname will be trimmed to fit name of the image file into list.</li>
+<li><b>Non-weighted themes: assign weight according to the number of active images</b> (Checkbox) - When checked, WireChanger will determine how often to use images in themes with a weight of zero based on how many images you have put into the rotation in that theme. The more images there are, the more frequently they will be used. If not checked, WireChanger will still use non-weighted themes but will do so more evenly regardless of how many images are included in each. This has the net effect of showing images in 'small' themes more often.</li>
+</ul>
+
+<b>Preview options</b><br /><br />
+
+These options pertain to the preview window on the Wallpapers list screen.<br /><br />
+
+<ul>
+<li><b>Show selected image in the preview window</b> (Checkbox) - When checked, you can see a small version of the wallpaper image in the upper right-hand corner of the Wallpapers list screen.</li>
+<li><b>Automatically select current wallpaper when you open main window</b> (Checkbox) - When checked, a small version of the wallpaper currently on your desktop will automatically be displayed in the preview window on the Wallpapers list screen. When not checked, no wallpaper will be visible in the preview window until you manually select one from the list.</li>
+<li><b>Delay loading preview (ms)</b> (Checkbox) - When checked, the image will not appear in the preview window until the specifed amount of time in milliseconds (50 through 5000 are allowed) has passed. Double-click the value box to change the number of milliseconds. This option is helpful when moving through images in a theme by using the up and down arrow keys (as opposed to the mouse). You can move quickly through the list without having to wait for each image to fully load.</li>
+<li><b>Preview window size</b> (Dropdown) - Determines the size of the preview window on the Wallpapers list screen. Choose from 'Normal' or 'Larger than normal'.</li>
+<li><b>Preview generation method</b> (Dropdown) - Determines what types of and how much information is shown in the preview window. Choose from 'Fast, (just image, no HTML)', 'Normal (image or HTML)', or 'Full (with current template)'. 'Fast' does not allow HTML images. 'Normal' allows regular and HTML images. 'Full' will additionally show any templates you have setup.</li>
+</ul>
+<br><br>
+<a href="preferences3.shtml"><b>Templates preferences dialog</b></a><br><br>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

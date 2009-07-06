@@ -1,0 +1,6 @@
+This is a additional clocks for WireChanger.
+
+Legal notice:
+All rights to desktop clocks are owned by the Adam Dorman. Visit http://www.adamdorman.com/ to get details.
+All rights to WireChanger are exclusively owned by WiredPlane labs. All title and copyrights in and to the WireChanger, as well as any backup copy made by you, are owned by WiredPlane labs and may be protected by applicable copyright or other intellectual property laws and treaties. Except as stated above, this agreement does not grant you any rights to patents, trade secrets, trademarks, copyrights or any other rights in respect of the Software.
+

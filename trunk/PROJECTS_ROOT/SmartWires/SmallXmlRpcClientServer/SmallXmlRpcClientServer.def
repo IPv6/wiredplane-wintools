@@ -1,0 +1,24 @@
+; SmallXmlRpcClientServer.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SmallXmlRpcClientServer"
+DESCRIPTION  'SmallXmlRpcClientServer Windows Dynamic Link Library'
+
+EXPORTS
+TestClientSide
+TestServerSide
+CreateServer
+StartServer
+PauseServer
+StopServer
+GetServerInfo
+GetServerStatistics
+OnXmlRpcServerDataSended
+OnXmlRpcServerDataReceived
+OnXmlRpcServerError
+AddXmlRpcMethod
+InitXmlRpcClient
+DeinitXmlRpcClient
+MakeXmlRpcCall
+MakeCallbackXmlRpcCall
+TerminateAllCalls
+GetClientStatistics

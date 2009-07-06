@@ -1,0 +1,17 @@
+; WP_SizeWnd.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_SizeWnd"
+DESCRIPTION  'WireKeys Window`s sizer plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+;WKPluginPause
+WKPluginStart
+WKPluginStop
+WKGetPluginContainer
+

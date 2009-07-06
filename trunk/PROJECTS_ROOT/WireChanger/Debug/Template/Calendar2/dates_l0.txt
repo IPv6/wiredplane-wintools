@@ -1,0 +1,36 @@
+; Days marked with '*' will be rendered as red-letter days on calendar 
+;Jan
+1/1 New Year
+1/1*New Year
+15/1 Martin Luther King birthday
+15/1*Martin Luther King birthday
+
+;Feb
+14/2 Valentine`s Day
+14/2*Valentine`s Day
+1_3/2 Presidents Day
+1_3/2*Presidents Day
+
+;Mar
+17/3 St.Patrick`s Day
+17/3*St.Patrick`s Day
+
+;May
+0_2/5 Mother`s Day
+0_2/5*Mother`s Day
+
+;Jul
+4/7 Independence Day
+4/7*Independence Day
+
+;Oct
+12/10 Columbus Day
+12/10*Columbus Day
+
+;Nov
+5_4/11 Thanks Giving Day
+5_4/11*Thanks Giving
+
+;Dec
+25/12 Christmas
+25/12*Christmas

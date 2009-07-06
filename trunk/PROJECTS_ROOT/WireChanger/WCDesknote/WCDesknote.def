@@ -1,0 +1,9 @@
+; WCDesknote.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WCDesknote"
+DESCRIPTION  'WireChanger Desktop Notes plugin'
+
+EXPORTS
+SetHook
+SetDeskFont
+TestConnect

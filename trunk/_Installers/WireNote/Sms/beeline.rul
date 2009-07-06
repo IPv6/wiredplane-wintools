@@ -1,0 +1,84 @@
+SmsNdcList=495,903,905,909,960,961,962,963,906
+SmsMaxLength=150
+
+WndUrl=http://www.beonline.ru/portal/comm/send_sms/simple_send_sms.sms
+WndTitle=Sms - Beeline
+WndLoading=%PROGRESSTIME. Please wait, processing your\nmessage to +7%NDC-%MOBNUM...\n\n%unescapex(MESSAGE)\n---
+WndIcon=%THISPATH\sms.ico
+WndResize=0
+
+WndOnLoadScriptBegin
+function asendMsg()
+{
+	var imgCode=document.all['imgcode'].value;//alert("["+imgCode+"]");
+	document.forms['sendsms'].confirm_code.value=imgCode;
+	onSend();
+	return false;
+}
+
+var res="";
+//alert("%NDC - %MOBNUM - %MESSAGE");
+var _MobnumNDC=unescape("%NDC");
+var _Mobnum7DIGITS=unescape("%MOBNUM");
+var _Message=unescape("%MESSAGE");
+try{
+	// Connection timeout, etc
+	if(document.location.href.indexOf("res://")!=-1){
+		res="%UNREACHABLE ";
+		throw new String("No connection");
+	}
+	
+	// Do we get ERROR result?
+	var sFImageSrc="";
+	try{
+		sFImageSrc=document.forms['sendsms'].all.tags('img')[0].src;
+		if(sFImageSrc.indexOf('error')!=-1){
+			res="%FAILURE, send failed";
+		}
+	}catch(e){};
+
+	// Do we get SUCCESS result?
+	try{
+		if(res=="" && (sFImageSrc=="" || typeOf(document.forms['sendsms'])=='undefined')){
+			res="%SUCCESS, send ok";
+		}
+	}catch(e){};
+	
+	// We need to show our form for captha
+	if(res==""){
+		// Checking parameters
+		if(_Message.length>150 || _Mobnum7DIGITS.length!=7){
+			res="%FAILURE: lengths are too big or small!";
+		}
+		// NDC
+		document.forms['sendsms'].destination_number_from.checked="true";
+		// MOBNUM
+		document.forms['sendsms'].phone.value=_MobnumNDC+_Mobnum7DIGITS;
+		// MESSAGE
+		document.forms['sendsms'].message.value=_Message;
+
+		// We need to show our form for captha
+		document.body.style.overflow = 'hidden';
+		var sMyDiv="<div style='position: absolute; z-index:10000; border: 3 solid black;  left:0;top:0;width:expression(document.body.clientWidth);height:expression(document.body.clientHeight); backgroundColor : white; '>";
+		sMyDiv+="<table border=0 width=100% height=100% bgcolor=white><tr><td align=center valign=top>";
+		sMyDiv+="Enter text from this picture:";
+		sMyDiv+="<br>";
+		sMyDiv+="<img src='"+sFImageSrc+"'>";
+		sMyDiv+="<br>";
+		sMyDiv+="<input type=text name='imgcode' size=10 onKeyDown='if(event.keyCode==13){event.returnValue=false;asendMsg();};'><br><br><a href='#' onClick='asendMsg();return false;'>";
+		sMyDiv+=">> Continue >>";
+		sMyDiv+="</a></table></div>";
+		document.all['sendsms'].innerHTML=document.all['sendsms'].innerHTML+sMyDiv;
+	}
+}catch(e)
+{
+	res+="%FAILURE: "+e.message;
+};
+
+// Returning result via defaultStatus
+if(res!=""){
+	window.defaultStatus=res+" ["+_MobnumNDC+"/"+_Mobnum7DIGITS+"/"+_Message+"]";
+}
+
+WndOnLoadScriptEnd
+

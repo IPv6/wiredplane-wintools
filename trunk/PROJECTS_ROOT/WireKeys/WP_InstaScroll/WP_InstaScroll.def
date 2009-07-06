@@ -1,0 +1,14 @@
+LIBRARY      "WKInstaScroll"
+DESCRIPTION  'WireKeys InstaScroll plugin'
+
+EXPORTS
+	WKGetPluginFunctionCommonDesc
+	WKCallPluginFunction
+	WKGetPluginFunctionActualDesc
+	GetPluginDsc
+	WKPluginStart
+	WKPluginInit
+	;WKPluginPause
+	WKPluginStop
+	WKPluginOptions
+	WKGetPluginContainer

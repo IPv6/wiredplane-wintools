@@ -1,0 +1,96 @@
+' Language: VBScript
+' Title: Random quote
+' Description: Script to get quotes from http://bash.org/
+
+
+'  Installation: Unpack this file into your scripts folder in your samurize
+'  installation folder, and add it in your config. Run the GetBash() 
+'  function. Two variables needs to be set, NUM_OF_QUOTES wich is the
+'  number of quotes you want returned, and QUOTE_TYPE wich is the type of quotes
+'  you want returned, options here are "LATEST", "RANDOM", "RANDOM>1" and "TOP" 
+
+Function GetBash(NUM_OF_QUOTES,QUOTE_TYPE)
+
+	Dim objHTTP,strReturnQuote,objRegExp,objMatches,objRs,objXMLHTTP, intRandomNumber, strQuoteType
+
+	Select case UCASE(""&QUOTE_TYPE)
+	Case "RANDOM"
+		strQuoteType="random"
+	Case "RANDOM>1"
+		strQuoteType="random1"
+	Case "TOP"
+		strQuoteType="top"
+	Case else
+		strQuoteType="latest"
+	End Select
+
+	if ""&NUM_OF_QUOTES="" then NUM_OF_QUOTES=1
+	randomize()
+	intRandomNumber = Int((100000 - 1 + 1) * Rnd + 1)
+	
+	strUrl = "http://www.bash.org/?"&strQuoteType&"&gen=" & intRandomNumber
+	Const adFldLong = &H00000080 
+	Const adVarChar = 200
+	strReturn = ""
+
+	'Get the page
+	Set objXMLHTTP = CreateObject("Microsoft.XMLHTTP")
+	objXMLHTTP.Open "GET", strUrl, False 
+	objXMLHTTP.Send
+	HTTPResponseBody = objXMLHTTP.responseBody 
+	Set objXMLHTTP = Nothing 
+
+	'Convert to text
+	Set objRS = CreateObject("ADODB.Recordset") 
+	objRS.Fields.Append "txt", adVarChar, 35000, adFldLong 
+	objRS.Open 
+	objRS.AddNew 
+	objRS.Fields("txt").AppendChunk HTTPResponseBody
+	HTTPResponseBody = objRS("txt").Value 
+	objRS.Close 
+	Set objRS = Nothing 
+
+	'Get quotes with reg exp
+	Set objRegExp = New Regexp
+	With objRegExp
+		.IgnoreCase = True
+		.Global = True
+		.Pattern = "<p class=""qt""(.|\n)+?/p>"
+	End With
+
+	'Get the matches from the contents in the HTML file
+	Set objMatches = objRegExp.Execute(HTTPResponseBody)
+
+	i = 1
+	For Each objMatch in objMatches
+	  strReturnQuote = strReturnQuote & stripHTML(objMatch.Value) & " "
+	  If i = CInt(NUM_OF_QUOTES) then Exit For
+	  i = i + 1
+	Next
+
+	Set objRegExp = nothing
+	Set objMatches = nothing
+	GetBash = strReturnQuote
+end Function 'GetBash
+
+Private Function stripHTML(strHTML)
+  strHtml = Replace(strHTML,"<br />","")
+  strHtml = Replace(strHTML,"&nbsp;"," ")
+  strHtml = Replace(strHTML,"&nbsp"," ")
+  Dim objRegExp, strOutput
+  Set objRegExp = New Regexp
+		With objRegExp
+			.IgnoreCase = True
+			.Global = True
+			.Pattern = "<(.|\n)+?>"
+		End With
+  strOutput = objRegExp.Replace(strHTML, "")
+  strOutput = Replace(strOutput, "&lt;", "<")
+  strOutput = Replace(strOutput, "&gt;", ">")
+  stripHTML = strOutput
+  Set objRegExp = Nothing
+End Function
+
+Function wkMain()
+	MsgBox GetBash(1,"RANDOM"), 32, "Random qoute"
+End Function

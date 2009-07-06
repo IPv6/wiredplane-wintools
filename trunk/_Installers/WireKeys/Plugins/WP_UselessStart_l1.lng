@@ -1,0 +1,9 @@
+
+MemoryUsage=Использование памяти
+CpuUsage=Использование CPU
+Popt_replaceTe_rnijmqmfov=Заменить текст на кнопке 'Пуск' на
+Popt_refreshEv_bdsxloivke=Обновлять каждые ... миллисекунд
+UselessStart=Бесполезный 'Пуск'
+Dscplg_wp_uselessstart=Заменяет текст на кнопке 'Пуск' на использование CPU/Памяти
+
+Nameplg_wp_uselessstart=Бесполезный 'Пуск'

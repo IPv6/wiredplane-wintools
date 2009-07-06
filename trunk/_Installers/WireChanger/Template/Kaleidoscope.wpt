@@ -1,0 +1,80 @@
+{wp:head}
+category    {Wallpaper modifiers} clonable{true}
+title       {Kaleidoscope}
+description {Creates interesting pattern using wallpaper rotations}
+render      {EasyDraw.dll}
+hints       {CONTAIN-MORTHING,ONLINE-STATE=(DONTCARE),RENDER-LAYER=(BG)}
+tray-items  {PARAM_ROOT}
+{wp:define} [PARAM_ROOT]
+	title	{Kaleidoscope options}
+	type	{root}
+{/wp:define}
+{wp:define} [XOFFSET]{50}
+	title	{Rotation center on X axis (percents)}
+	type	{number} min{0} max{100}
+{/wp:define}
+{wp:define} [YOFFSET]{50}
+	title	{Rotation center on Y axis (percents)}
+	type	{number} min{0} max{100}
+{/wp:define}
+{wp:define} [BEYE_TRANSP]{1}
+	title	{Allow random variations of rotation center}
+	type	{bool}
+{/wp:define}
+{wp:define} [BEYE_TRANSP2]{1}
+	title	{Allow random variations of zooming}
+	type	{bool}
+{/wp:define}
+{wp:define} [BEYE_INVERT]{1}
+	title	{Invert image on edges}
+	type	{bool}
+{/wp:define}
+{wp:define} [RANGE]{0}
+	title	{Kaleidoscope range}
+	type	{list} items{Infinite,Random,Long,Short}
+{/wp:define}
+{wp:define} [RMIN]{3}
+	title	{Minimal number of rays}
+	type	{number} min{3} max{100}
+{/wp:define}
+{wp:define} [RMAX]{15}
+	title	{Maximal number of rays}
+	type	{number} min{3} max{100}
+{/wp:define}
+{wp:define} [RNDOVER_LEVEL]{0}
+	title	{Merge with original image periodically (percents)}
+	type	{slider} min{0} max{100}
+{/wp:define}
+{/wp:head}
+
+{wp:body}
+<image-in-rect>
+X:({recommended-wallpaper-x})
+Y:({recommended-wallpaper-y})
+W:({recommended-wallpaper-w})
+H:({recommended-wallpaper-h})
+NO_FIT:(1)
+XKADIFF:({XOFFSET})
+XKADIFF:({YOFFSET})
+DINVERT:({BEYE_INVERT})
+DRANGE:({RANGE})
+DIFFR:({BEYE_TRANSP})
+DIFFRZ:({BEYE_TRANSP2})
+DIFFRR:(50)
+RMIN:({RMIN})
+RMAX:({RMAX})
+BORDER:(0)
+OPACITY:(100)
+EFFECT:(KALEIDOSCOPE)
+{wp:if condition{{rnd(0,99)}.lt.{RNDOVER_LEVEL}} }
+EFFECT2:(IMAGE)
+MASK-IMAGE-INVERT:(1)
+MASK-IMAGE-TONES-UP:({rnd(60,100)})
+MASK-IMAGE-TONES-DOWN:({rnd(0,30)})
+{/wp:if}
+<image-src>$=<RND_WALLPAPER(main)></image-src>
+
+</image-in-rect>
+
+
+{/wp:body}

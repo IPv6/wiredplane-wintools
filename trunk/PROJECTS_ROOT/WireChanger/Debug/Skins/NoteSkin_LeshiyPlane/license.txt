@@ -1,0 +1,5 @@
+This is additional desktop note skin for WireChanger
+
+Legal notice:
+All rights to WireChanger are exclusively owned by the author - Razinkov Ilja - and WiredPlane labs. All title and copyrights in and to the WireChanger, as well as any backup copy made by you, are owned by WiredPlane labs and may be protected by applicable copyright or other intellectual property laws and treaties. Except as stated above, this agreement does not grant you any rights to patents, trade secrets, trademarks, copyrights or any other rights in respect of the Software.
+

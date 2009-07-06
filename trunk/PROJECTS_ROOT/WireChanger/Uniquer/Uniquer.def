@@ -1,0 +1,14 @@
+; Uniquer.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Uniquer"
+DESCRIPTION  'Uniquer Windows Dynamic Link Library'
+
+EXPORTS
+
+Handshake
+FindDupes
+FindDupes2
+GetApplicationLang
+_bmpX
+SpecOptions
+

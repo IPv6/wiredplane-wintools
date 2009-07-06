@@ -1,0 +1,9 @@
+;Translated by Romuald Giovani, 25.07.2006
+;For WireKeys v3.5.0
+MemoryUsage=Utilisation de la mémoire
+CpuUsage=Utilisation du CPU
+Popt_replaceTe_rnijmqmfov=Remplacer le texte du bouton 'Démarrer' par
+Popt_refreshEv_bdsxloivke=Rafraîchir toutes les ... millisecondes
+UselessStart=Remplacer 'Démarrer'
+Dscplg_wp_uselessstart=Remplace le texte sur le bouton 'Démarrer' par le taux d'utilisation du CPU/Mémoire
+Nameplg_wp_uselessstart=Bouton 'Démarrer'

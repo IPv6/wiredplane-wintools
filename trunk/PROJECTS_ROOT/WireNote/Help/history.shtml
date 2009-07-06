@@ -1,0 +1,512 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+
+<h1>WireNote - Version History</h1><hr>
+<table border=0>
+
+<tr><td><b>ver 3.5.3</b></td></tr>
+<tr><td>
+Added:<br>
+- Option to skip notification about incoming messages that was deleted by message filter<br>
+Fixed:<br>
+- Multymonitor issues<br>
+</td></tr>
+
+<tr><td><b>ver 3.5.1</b></td></tr>
+<tr><td>
+Added:<br>
+- Changed format of the note attachments and delivery/read notifications<br>
+- Option to skip RSS check when computer is locked or screensaver is active, other RSS-related options<br>
+- Option to set default size of the new notes. Check note context menu for 'Set this size as default' item<br>
+- RDF format support<br>
+- Message animations<br>
+- Improved -io and -ia command line switches. You can use them to import settings and address book from another computer<br>
+Truly personal settings (like your email address or your computer name) will not be altered during this porcess<br>
+Example: WireNote.exe -io="//fileshare/wn_all.conf" -ia="//fileshare/wn_abook.conf"<br>
+- Options to send iconic message or send it to recipient`s tray (forcedly). Check "Emoticons, Ext.options" submenu of the message<br>
+- Added Sms support for USA providers (experimental)<br>
+Fixed:<br>
+- Bugs with email sending<br>
+- minor bugs<br>
+</td></tr>
+
+<tr><td><b>ver 3.5</b></td></tr>
+<tr><td>
+Added:<br>
+- Rss protocol support. Create person in address book and put link to Rss (or Atom) feed in 'computer name' field. WN will check rss and open news as incoming messages.
+<br>It looks like receiving news from this virtual person :)<br>
+- Sms protocol support. Now you can send messages to mobile phones! 
+Just send your note to phone number in form of +7XXX-XXXXXXX. Not all operators are supported at this time, but it is easy to add new ones (contact us to find out how). 
+<br>Current list of supported operators: MTS, Beeline, Megafon Moscow<br>
+- Ability to search selected text in Google. Select text in note, right-click on it and choose "Search in Google"<br>
+- Ability to execute note text as script. Right-click on note and choose "Execute as script". You can also type arithmetical expression and "Execute" it to quickly get an result<br>
+Fixed:<br>
+- Bug with moving persons between tabs in address book<br>
+</td></tr>
+
+<tr><td><b>ver 3.4</b></td></tr>
+<tr><td>
+Added:<br>
+- Experimental: Smiles in notes, ToDos, etc. Currently supported smiles are ':cool :down :lol :mad :sad :smile :smirk :up'. (Custom smiles can be added, See folder 'Smiles' in installation directory)<br>
+- Note text in title when note is in 'Iconic' mode<br>
+- Added simple link checker. It will check each link in 'Link' items and show report with failed links<br>
+- Ability to automatically resend messages that was not delivered successfully<br>
+- "Find" is now case insensitive<br>
+- Changed view of main and note windows<br>
+- Rarely used options was removed from preferences<br>
+- Automatic link highlighting in Notes, ToDos, etc<br>
+- Note can be "Mouse-transparent" now (See context menu->Options). It will pass through mouse clicks. To overcome this mode hold 'Alt' key while clicking on note<br>
+- Experimental: We decided to add small piece of advertisement into some context menus of WireNote. Only curious, manually checked things are advertised. There will be no annoying popups and no internet connection used for this, all announces are hardcoded into distribution package. 
+- Note content can be quickly executed as JavaScript (Ctrl-J). Great for quick calculations (just type arithmetic expression and press Ctrl-J to see result)<br>
+Fixed:<br>
+- Bugs with note attachments<br>
+</td></tr>
+
+<tr><td><b>ver 3.0.2</b></td></tr>
+<tr><td>
+<font size=+1>Happy new Year! :)</font><br>
+Added:<br>
+- Ability to choose and play mp3 files in reminders<br>
+- Now you can set permanent command line options for starting WireNote in registry. Create registry key HCU\SOFTWARE\WiredPlane\WireNote and
+set value "CommandLine". Example: you can set this value to -ul="C:\TEMP\WSETTINGS" to force WireNote to save all preferences in C:\TEMP\WSETTINGS<br>
+- Updated Italian translation by Agostino Cavallotto<br>
+- Prefereneces, Additional: menu item to reset current setting to default value (not all)<br>
+Fixed:<br>
+- Bug with print button on note button`s panel<br>
+</td></tr>
+
+<tr><td><b>ver 3.0</b></td></tr>
+<tr><td>
+Added:<br>
+- Option to save ToDo into text file<br>
+- Option to generate list of all items in main window tree (main window->File->Generate report)<br>
+- Edit panel in main window. Now you can edit notes, reminders, etc. directly in main window<br>
+- File/http links can hold more than one link per item. Place different links on separate lines. Activate file link to activate all of them<br>
+- Option not to open new TODOs in separate dialog when created from main window<br>
+- Option to disable shadows around WN windows (Preferences->Miscellaneous)<br>
+- Improvements in "Fonts and styles" dialog<br>
+- Hotkey to cycle through stickies<br>
+Fixed:<br>
+- Bug with notes, attached to windows<br>
+- Bugfixes<br>
+</td></tr>
+
+<tr><td><b>ver 2.7.2</b></td></tr>
+<tr><td>
+Added:<br>
+- Hotkey to start anti-spam check in all defined accounts<br>
+- Improvements in "Email" protocol<br>
+Fixed:<br>
+- High CPU load on some mother boards with "Allow reminders to wake computer from sleep mode" option checked<br>
+</td></tr>
+
+<tr><td><b>ver 2.7</b></td></tr>
+<tr><td>
+Added:<br>
+- Reminders can wake up computer from Sleep mode now (this behaviour can be disabled in preferences)<br>
+- Billboard system with sections. Filebox protocol is now moved into Billboard`s private messages. Check help file for more detailed description<br>
+- Convinient links to special subfolder for file sharing in shared Billboard`s folder (when "Billboard" is enabled). 
+This folder can be called from message menu or from tray "Utilities" menu<br>
+- New reminder options: Skip reminder on specified days of week/month. Now you can set up days,
+on wich reminder should be silently skipped if triggered. So you can create reminder to display text every day, 9:00 and set it to skip itself at Sunday/Saturday<br>
+- New anti-spam setting: custom-defined email client (instead of automatically detected one)<br>
+Fixed:<br>
+- Navigation ussing keyboard arrow keys (thanks to AGu for suggestions:)<br>
+</td></tr>
+
+<tr><td><b>ver 2.6</b></td></tr>
+<tr><td>
+Added:<br>
+- Updated translations by Agostino Cavallotto<br>
+- Note activation hotkey. Now you can asign hotkey to note. This hotkey will immediately activate corresponding note<br>
+- Option to automatically adjust notes position on resolution change (ON by default, can be changed in the "Notes" section of preferences)<br>
+- New messaging protocol - through email. WN will monitor POP3 mail-box and convert messages of special type (from one WireNote user to another)
+into messages. This is a light-weight replacement for Emailers like The Bat, Outlook Express and others. WN can be used now to send/receive short text emails in convinient form and in unified environment (with LAN messages).
+Please notice that WN will get messages only from other WN users or from specified adresses, so there is no risk that some other messages will be affected. And you can still use your favourite mail client for regular emails<br>
+- Command line switch "-io" to import settings from specified file. Useful for multiple installations over large LAN to avoid tuning of every instance of WN. Previous settings are saved under ".old" extension<br>
+- Command line switch "-ia" to import address book from specified file. Useful for multiple installations over large LAN to avoid tuning of every instance of WN. Previous address book are saved under ".old" extension<br>
+- Now it is possible to sort address book items by clicking on column title in the address book<br>
+- Option to crypt Billboard messages so they can`t be read from outside of WN<br>
+- New hotkey to hide all notes<br>
+- Additional items in adressbook-related menus<br>
+Fixed:<br>
+- Bug with "quoted-printable" charsets in antiSPAM<br>
+- Bug with default emailer detection<br>
+- Bug with shutdowning WN<br>
+- Bug with false detection of fraud FB messages<br>
+- Bug with search for other WireNote users with MailSlot protocol enabled. Now it works everywhere (inside domain):)<br>
+</td></tr>
+
+<tr><td><b>ver 2.5.2</td></tr>
+<tr><td>
+Added:<br>
+- Notifications about message delivery and when message is read by recipient (through all protocols). There is an option to notify sender only if it is waiting for notification more than 5 minutes<br> Check corresponding folder in preferences<br>
+- Notification about mailslot limitations. Some systems are not allow to send messages bigger than 400 bytes in length :(<br>
+Fixed:<br>
+- Bug with white list`s items in SPAM checker<br>
+- Bug with clipboard spy under WinXP<br>
+</td></tr>
+
+<tr><td><b>ver 2.5.1</td></tr>
+<tr><td>
+Added:<br>
+- LAN messages are now saved between restarts by default<br>
+- Note now has additional option/action - clipboard spy (check note context menu). When checked, any copy-paste operation will be added to note contents too.
+Useful to quickly gather information from different text sources. Default shortcut: Ctrl-K<br>
+- Notifications of delivery when message is sended via Billboard protocol<br>
+Fixed:<br>
+- Bug with white list`s items in SPAM checker<br>
+</td></tr>
+
+<tr><td><b>ver 2.5</td></tr>
+<tr><td>
+Added:<br>
+- Italian translation by Agostino Cavallotto (Thank you!!!%^)<br>
+- Status exchange via mailslot protocol<br>
+- Option to search WireNote users over LAN<br>
+- Handy tabs in the address book to separate different persons<br>
+- Option to always show border around text in note<br>
+- Command line switch "-ul" to force WireNote use non-standard location for saving persistent data (configuration files, notes, etc)<br>
+Examples:<br>
+1) WireNote.exe -ul<br>
+WireNote will save its preferences in the folder "UserData" inside folder with WireNote.exe file<br>
+2) WireNote.exe -ul=XXX<br>
+WireNote will save its preferences in the folder "XXX" inside folder with WireNote.exe file<br>
+3) WireNote.exe -ul="C:\XXX"<br>
+WireNote will save its preferences in the folder "C:\XXX"<br>
+- Usability issues<br>
+Fixed:<br>
+- Bug with 100% CPU load with Mailslot protocol enabled<br>
+</td></tr>
+
+<tr><td><b>ver 2.4.2</td></tr>
+<tr><td>
+Added:<br>
+- Option to create file/URL links from clipboard. Now you can copy file in the brwoser (for example) and paste it (Ctrl-V/Shift-Insert) into main window. New link will be created for you<br>
+- Anti-SPAM improvement - "White" lists. Now you can add words and adresses to the "White" list. You can add words to "White" list to prevent WireNote to treat it as SPAM.<br>
+- Option to start user-defined email client instead of default after SPAM check<br>
+- Attachments in the Billboard messages<br>
+Fixed:<br>
+- Bug with File-box protocol. Added automatical search for recipient<br>
+</td></tr>
+
+<tr><td><b>ver 2.4</td></tr>
+<tr><td>
+Added:<br>
+- Option to change behaviour of the double-click in the main window: now you can activate item on double click instead of renaming it. Renaming can be called from context menu or by pressing F2 shortcut<br>
+- Option to hide note (instead of deleting it) when you clicking 'X' button ('Delete' button)<br>
+- Ability to assign more than one hotkey to every action<br>
+- Main menu in some windows<br>
+- "Apply" in preferences<br>
+- Option in preferences to open folder with saved notes, ToDos, reminders, etc. This folder can be easily backed-up for future<br>
+Fixed:<br>
+- Misc usability-related<br>
+</td></tr>
+
+
+<tr><td><b>ver 2.3.5</td></tr>
+<tr><td>
+Added:<br>
+- Ability to filter spam messages by email headers<br>
+Fixed:<br>
+- Misc bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.3</td></tr>
+<tr><td>
+Fixed:<br>
+- Inability to use preferences using keyboard only<br>
+</td></tr>
+
+<tr><td><b>ver 2.2.5</td></tr>
+<tr><td>
+- Option to limit number of preferences according to use cases of this app<br>
+Fixed:<br>
+- Bug with misposition some notes in mini-mode at WireNote`s startup<br>
+- Bug with "SHGetSpecialFolderPathA" on WinNT 4.0<br>
+</td></tr>
+
+<tr><td><b>ver 2.2.3</td></tr>
+<tr><td>
+Added:<br>
+- Option to start mailbox check right after opening it`s window<br>
+- Option to temporarily disable note`s transparency (in the "Change color" button popup menu)<br>
+- ToDo interface: now you can double-click "Folder name" field to popup list of recently used folders to create in<br>
+Fixed:<br>
+- Misc anti-spam related module bags (attachment extension`s filter)<br>
+- Anti-spam window: mail tooltip position optimized<br>
+- Bug with misc international ecoding<br>
+Other:<br>
+- Changed format of the *.lng files. Incomaptible strings will be autoconverted at first use<br>
+</td></tr>
+
+<tr><td><b>ver 2.2.2.2.2</td></tr>
+<tr><td>
+Fixed:<br>
+- Bug with browsing item`s tree by keyboard<br>
+</td></tr>
+
+<tr><td><b>ver 2.2.2.2</td></tr>
+<tr><td>
+Fixed:<br>
+- Small incompatibility bug with WinXP themes<br>
+</td></tr>
+
+<tr><td><b>ver 2.2.2</td></tr>
+<tr><td>
+Added:<br>
+- Quick answers. Can be set by hotkeys 'Ctrl-Shift-1,2,3..0' and called by hotkeys 'Ctrl-1,2,3..0'. And note 'Quote' button will popup appropriate menu now<br>
+- Slightly changed icons. Additional color notification to the message was added<br>
+- Note improvements. Now, to popup list of previously used recipient, one can double-click "Recipient" filed or press "Down" key while editing recipient<br>
+Fixed:<br>
+- Bug with auto-hide taskbar and auto-popup organizer. Now, when you taskbar is in the auto-hide mode, Organizer will popup in the last position, not over tray anymore<br>
+</td></tr>
+
+<tr><td><b>ver 2.2</td></tr>
+<tr><td>
+Added:<br>
+- Sliders in the preferences dialog and anti-spam window<br>
+- New anti-spam rules: block mails in the specified/unknown charset and block emails where characters from different charset are messed to fool anti-spam filters<br>
+- All windows are painted using double-buffer technique (with auto-disabling on slow machines)<br>
+- Slight redesign of messages windows<br>
+Fixed:<br>
+- Discovered Win98/WinME/WinNT4.0 incompatibilities<br>
+- Minor bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.1</td></tr>
+<tr><td>
+Added:<br>
+- Now note remembers its visibility state. So if you hide note (Ctrl-H), it will not be shown after start (but can be reached through main window/tray menu, of course)<br>
+- Support for multimonitor systems<br>
+- New preferences dialog<br>
+</td></tr>
+
+<tr><td><b>ver 2.0.0</td></tr>
+<tr><td>
+Added:<br>
+- New network protocol added - Billboard ('/fb'). This protocol was specially designed for
+non-standard LANs with mixed environment, where standard messaging tools simply cannot be used.
+The only requirement for Billboard protocol is the shared folder with read/write properties, 
+which must be visible from WireNote`s users. Commonly, this is the folder on the central LAN File server (for example).
+Example: one part of the LAN is behind the NAT server or firewall and this firewall/NAT blocks all connections from the inside.
+But this is not a problem for WireNote! With Billboard protocol, you even don`t have to see your partner in the network neighbourhood!
+Just point your WireNotes to one shared folder - and you will be able to establish message exchange between your computers :)
+<br>Additionally, Billboard supports <b>"Find online users"</b> operation. But note: this protocol is not secured at this time. We will add security layer later<br>
+Fixed:<br>
+- Minor bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.9.5</td></tr>
+<tr><td>
+Added:<br>
+- Option to postpone reminder alarm<br>
+- WinXP: Now some WireNote`s windows resized using double-buffer technique<br>
+Fixed:<br>
+- Minor bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.9.2</td></tr>
+<tr><td>
+Added:<br>
+- A lot of small note and reminder improvements<br>
+- Now it is possible to use "Space" bar, "Print screen", "Scroll lock", "Pause" and "Apps" in the hotkeys<br>
+- Now it is possible to use "Escape" key in the hotkeys. But because of Windows, most "Esc" combinations are hired already :(<br>
+- Now it is possible to use "Tab", "Caps Lock", "Backspace" keys in the hotkeys as well. As with "Esc" key, some combinations are hired by the system<br>
+- Finally: it is possible to use some mm-keyboard (not all) additional keys in the hotkeys (with Ctrl/Alt/Win modifiers, of course)!!!<br>
+- Memory snapshot optimizations<br>
+Fixed:<br>
+- Fixed Windows 98/ME compatibility issues. Due internal conflict with the Win98/ME GDI architecture, all tray icons are disabled :(<br>
+- Fixed bug with the addressbook users with space inside<br>
+- Minor sticky note bugs<br>
+</td></tr>
+
+
+<tr><td><b>ver 1.9</td></tr>
+<tr><td>
+Added:<br>
+- WireNote became donationware, as free as our other product - WireKeys<br>
+- Added shadow to the note window (Windows XP and higher only)<br>
+Fixed:<br>
+- Minor bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.8.5</td></tr>
+<tr><td>
+Added:<br>
+- Interface improvements<br>
+Fixed:<br>
+- A lot of WinME incompatibilities. <b>Now WireNote works fine in Window ME and (i hope) 98</b><br>
+</td></tr>
+
+<tr><td><b>ver 1.8.3</td></tr>
+<tr><td>
+Added:<br>
+- Option to place all note buttons in the title line (upper-right corner of note window)<br>
+- Options to block emails with certain attachments (*.scr, *.exe, *.com, etc)<br>
+- Option to define timeout for operations with mailboxes<br>
+- Common usage stats (in the 'About' dialog)<br>
+</td></tr>
+
+<tr><td><b>ver 1.8.2</td></tr>
+<tr><td>
+Added:<br>
+- Option to edit document links in main menu<br>
+- Now you can right-click message in anti-spam window to popup additional context-specific menu<br>
+- Anti-SPAM window shows message bodys in prepared format now (HTML tags are stripped and so on)<br>
+</td></tr>
+
+<tr><td><b>ver 1.8.1</td></tr>
+<tr><td>
+Added:<br>
+- Ability to check for updates manually or every 20 days. Can be disabled of course :)<br>
+- Improvements to SPAM cleaner<br>
+- New message logs format - now they are in HTML format<br>
+- Auto-transparency feature - while mouse cursor walks over semi-transparent note, note became opaque (look at "Font & styles" dialog)<br>
+Fixed:<br>
+- Fixed some bugs with multi-recipient messages<br>
+</td></tr>
+
+<tr><td><b>ver 1.8</td></tr>
+<tr><td>
+Added:<br>
+- Powerful spam remover. Unlimited POP3 accounts, "TheBat!" compatible spam-files format, training mode. Only message headers are downloaded. WireNote detects SPAM by presence of certain strings in different message fields. Such strings are keeped in spam-string files (one for email subject, one for 'From' field and one for first lines of message body). To enable Anti-SPAM you must define at least one POP3 account<br>
+- Full support for most popular MIME-encodings for email fields (text in different languages)<br>
+Fixed:<br>
+- Minor bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.7</td></tr>
+<tr><td>
+Added:<br>
+- WinPopup compatibility improvement, support for receiving messages sended to user name (not computer name)<br>
+- Ability to attach reminders and ToDos to messages and send them over LAN to other WireNote users<br>
+- Option to block message with ToDo/Reminder attached or accept such messages from known users only<br>
+- Shared reminders (if you have home LAN, you can install WireNote on all computers and point them to one network folder. After that all shared reminders can be found and used on all computers at the same time). To create shared reminder you must check corresponfing item in action drop-down list at reminder`s window<br>
+- Option to make new reminders shared by default<br>
+</td></tr>
+
+<tr><td><b>ver 1.6.1</td></tr>
+<tr><td>
+Added:<br>
+- Registration key format changed<br>
+- XP manifest (Partial XP theme support)<br>
+Fixed:<br>
+- Serious bug with XPC(WireNote) LAN protocol messaging<br>
+</td></tr>
+
+<tr><td><b>ver 1.6</td></tr>
+<tr><td>
+Added:<br>
+- Patterns substitution in reminder "Start program" feature<br>
+- Now you can define application parameters for reminder "Start program" feature: Application name must be in quotation marks, all after marks will be treated as application parameters<br>
+- Option to define Drag-n-drop behaviour for note/message. Now dropped file can be either attached or opened as text (to perform contrary action hold Shift key during drop phase)<br>
+- Option for placing note 'Delete' button in usual place (in right-top corner of window)<br>
+- Options to skip reminder if activation time was missed<br>
+- Interface improvements<br>
+Fixed:<br>
+- Minor bugs with 'Show last unread message'<br>
+</td></tr>
+
+<tr><td><b>ver 1.5</td></tr>
+<tr><td>
+Added:<br>
+- Invisible mode (no tray icons at all, feel the power of the hotkeys :) )<br>
+- ToDo/Reminder interface improvements<br>
+- New hotkey to open last unread message<br>
+- Menu item to copy link path to the clipboard<br>
+- New option: ability to delete opened incoming message by ESC key<br>
+- Preferences dialog interface improvements (for example: now you can drag`n`drop files from Explorer to the fields with file path/name)<br>
+- New option to place all alert windows on taskbar (as other applications) instead of tray<br>
+- Quick protocol selection in New person`s window<br>
+- Disabling of "Ok" button for 2 seconds in reminder alert (to prevent accidental submit)<br>
+- Option to define trash folder<br>
+Fixed:<br>
+- Minor bugs with 'Show all notes', send/receive files and other stuff<br>
+</td></tr>
+
+<tr><td><b>ver 1.4.3</td></tr>
+<tr><td>
+Added:<br>
+- ToDo activation rules; this is the same as note, attached to application - ToDo will be active only during the period you work with specified applications. Accessible from new ToDo`s context menu item "Advanced options"<br>
+- Option to show all non-topmost notes in the case of WireNote activation<br>
+- Symbolic descriptions for all network errors during message sending<br>
+- Option to enable baloon tooltip on all incoming events (not work on Windows 95/98)<br>
+- Default net protocol changed to Netbios<br>
+- A lot of small usability improvements (For example 'Ctrl-L' for message history from address book/messages and more)<br>
+Fixed:<br>
+- Address book refresh during drag-n-drop operation<br>
+</td></tr>
+
+<tr><td><b>ver 1.4</td></tr>
+<tr><td>
+Added:<br>
+- Now all incoming messages are sorted right in the address book depending on message`s sender (like ICQ`s messages flashing opposite to the sender`s nick), and you can directly choose message from which user you what to read first (person`s messages will be in person`s context menu)<br>
+- Message filtering (unlimited number of filters. Filters can delete or open message in DND/Away mode)<br>
+- Option to automatically close reminder`s alert window after 60 seconds<br>
+</td></tr>
+<tr><td><b>ver 1.3.3</td></tr>
+<tr><td>
+Added:<br>
+- Additional buttons in address book for quick access to some functions<br>
+- New option for sticky notes (when to hide window`s note)<br>
+Fixed:<br>
+- Inability to disable (drop value) of the defined hotkey<br>
+- some note`s bugs<br>
+</td></tr>
+<tr><td><b>ver 1.3.2</td></tr>
+<tr><td>
+Added:<br>
+- Send note through email (for short notes only!)<br>
+- New ToDo inherits color code and priority of creation folder<br>
+Fixed:<br>
+- some Win98-related bugs<br>
+</td></tr>
+<tr><td><b>ver 1.3.1</td></tr>
+<tr><td>
+Added:<br>
+- Ability to print notes to default printer<br>
+Fixed:<br>
+- Different misspellings<br>
+</td></tr>
+<tr><td><b>ver 1.3</td></tr>
+<tr><td>
+Added:<br>
+- Size of the iconic note can be changed in preferences dialog<br>
+- Additional button added to Note window for quickly attaching files and managing emotion icons :)<br>
+- Colored icon for every color style in different menus<br>
+- Message icons now can be seen in tray menus and in the main window too<br>
+- Patterns added for new ToDo/Note/Reminder/Message title and body. Possible patterns for messages- %RECP, %IP, %FROM<br>
+- Now you can choose which icon (Organizer or Message center or both) must appear in tray menu at startup. Menu items from other icon`s menu will be available through special submenu<br>
+- 'Win' key support<br>
+Fixed:<br>
+- Fixed bug with menu icons when different font sizes were applied<br>
+- Small bugs fixed<br>
+</td></tr>
+<tr><td><b>ver 1.2</td></tr>
+<tr><td>
+Added:<br>
+- Animation options<br>
+- Multylanguage support<br>
+- Integration with WireChanger and WireKeys added. Now you can see your ToDos and reminders on your desktop wallpaper.<br>
+</td></tr>
+<tr><td><b>ver 1.1</td></tr>
+<tr><td>
+Added:<br>
+- Ability to send files through XPC added<br>
+Fixed:<br>
+- Bug when used on system with more than one net card. Now working LANA can be stated in options.<br>
+</td></tr>
+<tr><td><b>ver 1.0</td></tr>
+<tr><td>
+Added:<br>
+- New LAN protocols - Netbios and Mailslot. This enables messaging with computers without WireNote installed - just standard windows messaging service or WinPopup<br>
+</td></tr>
+</table>
+
+</body>
+</html>

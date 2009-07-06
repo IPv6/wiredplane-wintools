@@ -1,0 +1,16 @@
+; WP_WinPuncher.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_WinPuncher"
+DESCRIPTION  'WireKeys Window puncher plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginStop
+WKGetPluginContainer
+;WKGetPluginFunctionHints

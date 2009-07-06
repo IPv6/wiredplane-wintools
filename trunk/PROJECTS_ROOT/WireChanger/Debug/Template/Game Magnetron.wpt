@@ -1,0 +1,33 @@
+$=<TITLE:Magnetron>$=<SHOWINTRAY:PARAM_ROOT>$=<CATEG:Games, Entertainment>
+$=<DESCRIPTION:
+Adds 'Magnetron'
+>
+tray-position{OC:(1),X:(SIMAGEXPOS),Y:(SIMAGEYPOS),W:(SIMAGEWIDTH),H:(SIMAGEHEIGHT)}
+$=<SORTCID:zzz>
+$=<RENDER:ActiveDesktop>$=<HINTS:RENDER-LAYER=(BG-1),ONLINE-STATE=(DONTCARE),WIN98WARN=(Please note: Some features are not supported on Win98/WinME),IGNOREDBL>
+$=<PARDEF:PARAM_ROOT>$=<PARDSC:PARAM_ROOT='Magnetron' options>$=<PARTYP:PARAM_ROOT=root>
+$=<PARDEF:BORD_ROOT>$=<PARDSC:BORD_ROOT=Border>$=<PARTYP:BORD_ROOT=tip>
+$=<PARDEF:BORDERS=0>$=<PARDSC:BORDERS=Border style>$=<PARTYP:BORDERS=list>$=<PARLST:BORDERS=none,dotted,dashed,solid,double,groove,ridge,inset,outset>
+$=<PARDEF:BORDERA=5>$=<PARDSC:BORDERA=Border width>$=<PARTYP:BORDERA=number>$=<PARMIN:BORDERA=0>$=<PARMAX:BORDERA=100>
+$=<PARDEF:BORDERC=#FFFFFF>$=<PARDSC:BORDERC=Border color>$=<PARTYP:BORDERC=color>
+
+$=<PARDEF:POS_TIP>$=<PARDSC:POS_TIP=Size and position>$=<PARTYP:POS_TIP=tip>
+$=<PARDEF:SIMAGESPOS>$=<PARDSC:SIMAGESPOS=Set position>$=<PARPAR:SIMAGESPOS=PARAM_ROOT>$=<PARTYP:SIMAGESPOS=set_position>$=<PARACTION:SIMAGESPOS=OC:(1),X:(SIMAGEXPOS),Y:(SIMAGEYPOS),W:(SIMAGEWIDTH),H:(SIMAGEHEIGHT)/>
+$=<PARDEF:SIMAGEXPOS=300>$=<PARDSC:SIMAGEXPOS=X Position (pixels)>$=<PARTYP:SIMAGEXPOS=number>$=<PARMIN:SIMAGEXPOS=0>$=<PARMAX:SIMAGEXPOS={screenX}>$=<PAROC:SIMAGEXPOS=1>$=<PARPAR:SIMAGEXPOS=SIMAGESPOS>
+$=<PARDEF:SIMAGEYPOS=300>$=<PARDSC:SIMAGEYPOS=Y Position (pixels)>$=<PARTYP:SIMAGEYPOS=number>$=<PARMIN:SIMAGEYPOS=0>$=<PARMAX:SIMAGEYPOS={screenY}>$=<PAROC:SIMAGEYPOS=1>$=<PARPAR:SIMAGEYPOS=SIMAGESPOS>
+$=<PARDEF:SIMAGEWIDTH=350>$=<PARDSC:SIMAGEWIDTH=Width (pixels)>$=<PARTYP:SIMAGEWIDTH=number>$=<PARMIN:SIMAGEWIDTH=20>$=<PARMAX:SIMAGEWIDTH={screenX}>$=<PAROC:SIMAGEWIDTH=1>$=<PARPAR:SIMAGEWIDTH=SIMAGESPOS>
+$=<PARDEF:SIMAGEHEIGHT=450>$=<PARDSC:SIMAGEHEIGHT=Height (pixels)>$=<PARTYP:SIMAGEHEIGHT=number>$=<PARMIN:SIMAGEWIDTH=20>$=<PARMAX:SIMAGEHEIGHT={screenY}>$=<PAROC:SIMAGEHEIGHT=1>$=<PARPAR:SIMAGEHEIGHT=SIMAGESPOS>
+
+{wp:body}
+<div style='position: absolute; left:$=<PAR:SIMAGEXPOS>; top:$=<PAR:SIMAGEYPOS>; 
+	width: $=<PAR:SIMAGEWIDTH>; height: $=<PAR:SIMAGEHEIGHT>;  z-index: 48;'>
+	<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" 
+	style='border-style: $=<IN_LIST($=<PAR:BORDERS>,none,dotted,dashed,solid,double,groove,ridge,inset,outset)>; border-width: $=<PAR:BORDERA>; border-color: $=<PAR:BORDERC>;'
+	WIDTH="100%" HEIGHT="100%">
+	<PARAM NAME=movie VALUE="$=<BASEPATH>/ActiveItems/Magnetron.wcgames">
+	<PARAM NAME=quality VALUE=high>
+	<PARAM NAME=wmode VALUE=transparent> 
+	<PARAM NAME=bgcolor VALUE=#FFFFFF>
+	</OBJECT>
+</div>
+{/wp:body}

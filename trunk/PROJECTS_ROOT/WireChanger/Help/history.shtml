@@ -1,0 +1,714 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#endif -->
+
+<h2>WireChanger - Version History</h2><hr>
+<table border=0>
+
+<tr><td><b>ver 3.7.1</td></tr>
+<tr><td>
+Added:<br>
+- New widgets: Image of the day, Lolcat of the day<br>
+- Option to regenerate existing wallpaper at program start<br>
+- New stylish note skins (based on html, expect more beautiful styles!)<br>
+Fixed:<br>
+- Misc bugs, including unclickable calendar cells<br>
+</td></tr>
+
+<tr><td><b>ver 3.6.8</td></tr>
+<tr><td>
+Added:<br>
+- Vista compatibility improvements<br>
+- Added lightweight HTML renderer and JScript engine (thanks to http://www.terrainformatica.com). Allows great flexibility in creating content widgets. More to come soon!<br>
+- New calendar template<br>
+Fixed:<br>
+- Misc bugs<br>
+</td></tr>
+
+
+<tr><td><b>ver 3.6.2</td></tr>
+<tr><td>
+Added:<br>
+- Ability to bind note to the text file on hard/network disk (note->actions->bind to file)<br>
+Fixed:<br>
+- Multymonitor issues<br>
+</td></tr>
+
+<tr><td><b>ver 3.6</td></tr>
+<tr><td>
+Added:<br>
+- New calendar view. This is a place to view/edit reminders and notes in one window<br>
+- Option to show week numbers in the calendar<br>
+- New desktop games: Zing and Sneeek. Real testers of your patience and reflexes :)<br>
+- Proper handling of "Close window" button when dragging widgets over desktop<br>
+- New widget - "Flickr random image" :) High-quality photo right on your desktop every time you change wallpaper!<br>
+Fixed:<br>
+- Bugs with registration information<br>
+- Small reminder-related bugs<br>
+</td></tr>
+
+
+<tr><td><b>ver 3.5.1</td></tr>
+<tr><td>
+Added:<br>
+- New widget - desktop games. Choose one of the game and place it on desktop to play it any time you want! Including Tetris, ...<br>
+- Quick way to change desktop note font size. Just hold Control key and roll mouse wheel up or down, or use Ctrl-Up/Ctrl-Down keyboard shortcuts. (Thanks to Julia FAST for suggestion)<br>
+Fixed:<br>
+- Misc bugs<br>
+</td></tr>
+
+
+<tr><td><b>ver 3.5.0</td></tr>
+<tr><td>
+Added:<br>
+- New widget - "Wallpaper name". It can add name of the wallpaper`s file (or full path, optionally)<br>
+- Full support for dual-monitor (multy-monitor) systems both on screensaver and wallpaper (thanks to Jonathan Watts for help!)<br>
+- Option to set random/next in order image for secondary monitors<br>
+- Preset can be assigned to every single wallpaper (check image context menu in the main window). WireChanger will always use specified preset when drawing such wallpaper (current global preset will be ignored if wallpaper-specific is set)<br>
+- Preset can be assigned to whole theme as well. All images from such theme will be painted with specific preset<br>
+- More comics sites are supported now for "Comics of the day" widget<br>
+- "Countdown" widget: now you can set template for text in this widget<br>
+</td></tr>
+
+<tr><td><b>ver 3.4.9</td></tr>
+<tr><td>
+Added:<br>
+- New widget - Comics of the day (from ucomics.com, comics.com, dilbert.com, etc). It is able to add to wallpaper comics of the thay from one of the selected site.<br>
+- "Add folder with images" will ask to include subfolders by default can be changed in preferences)<br>
+- Option to allow simple drag-n-move of widgets and notes over desktop. Very convinient way to reposition them<br>
+- Prefereneces, on right-clicking option: menu item to reset current setting to default value (not all)<br>
+- Presets - simple way to save and restore widgets preferences in a flash. Check main window`s menu. 
+- When creating new preset, all settings from current preset will be copied into new one.<br>
+- "Refresh current wallpaper" hotkey+item in the tray menu. Now you can refresh desktop citations without changing whole image (for example)<br>
+- Preset can be assigned to slideshow screensaver. Now it is easy to choose what widgets should be visible in screensaver - just create special preset for screensaver and tune it to fit your needs<br>
+- Due internal changes, widget frequencies will be dropped after this update :( You have to reassign them again<br>
+Fixed:<br>
+- Bug with Active desktop widgets with scrollbar (reposition dialog appearance when scrolling scrollbar by mouse)<br>
+- Desktop notes Enabled/disabled state is saved per preset basis from now<br>
+</td></tr>
+
+
+<tr><td><b>ver 3.4.1</td></tr>
+<tr><td>
+<font size=+1>Happy new Year! :)</font><br>
+Added:<br>
+- Resizable preview in main window (just drag its borders to desired size)<br>
+- Updated Italian translation by Agostino Cavallotto<br>
+- Prefereneces, Additional: menu item to reset current setting to default value (not all)<br>
+- Memory footprint optimizations<br>
+Fixed:<br>
+- Duplicate image remover (now it detects similarity much better)<br>
+</td></tr>
+
+<tr><td><b>ver 3.4</td></tr>
+<tr><td>
+Added:<br>
+- New widget for precision wallpaper positioning<br>
+</td></tr>
+
+<tr><td><b>ver 3.3.5</td></tr>
+<tr><td>
+Added:<br>
+- New Calendar skin<br>
+- New weather widget - MSN weather (English only)<br>
+- Reminders can play mp3/wma/midi/etc files from now<br>
+- Now you can set permanent command line options for starting WireChanger in registry. Create registry key HCU\SOFTWARE\WiredPlane\WireChanger and
+set value "CommandLine". Example: you can set this value to -ul="C:\TEMP\WSETTINGS" to force WireChanger to save all preferences in C:\TEMP\WSETTINGS<br>
+Fixed:<br>
+- Small bugs<br>
+</td></tr>
+
+<tr><td><b>ver 3.3.2</td></tr>
+<tr><td>
+Added:<br>
+- Fractals widgets. Generate fractals using various algorithms. Note: fractal generation takes a lot of CPU!<br>
+- RandomRSS widget. Shows random RSS feed using list of RSS of your choice<br>
+Fixed:<br>
+- Small bugs<br>
+</td></tr>
+
+<tr><td><b>ver 3.3</td></tr>
+<tr><td>
+Added:<br>
+- Automatic change start/stop button in 'Wallpaper Controls' widget<br>
+- Complitely new triality scheme:<br>
+WireChanger`s trial is unlimited now.<br>
+Trial version has the following limitations: max 4 reminders, max 4 desktop notes, max 4 active widgets at the same time and duplication image remover is locked. Trial version will also add small logo on each wallpaper. It can be removed by exchanging one of your image at Wallpaper Exchange service<br>
+Fixed:<br>
+- Small bugs<br>
+</td></tr>
+
+<tr><td><b>ver 3.2.1</td></tr>
+<tr><td>
+Added:<br>
+- Reduced number of message for unregistered users<br>
+- Option to activate widgets/notes on single click (instead of double click in previous versions)<br>
+- Shift-double-click desktop widget to change its position<br>
+- Control-double-click desktop widget to change its options<br>
+- Hotkey to quickly remove all widgets from desktop. To return them back press hotkey again<br>
+Fixed:<br>
+- If you delete desktop note, it will be moved to recycle bin<br>
+</td></tr>
+
+<tr><td><b>ver 3.2</td></tr>
+<tr><td>
+Added:<br>
+- New "What to do after start" option - "Change (keep period between restarts)". If you close WireChanger (by exit or shutdown) 15 mins prior to next change, WireChanger will save this timeout for next run (and will wait 15 min after start before changing wallpaper)<br>
+- New widgets available (Wallpaper controls and Wallpaper frames), they will work with WC 3.2 and later only<br>
+- New recurrency options in reminders: "Every ... minutes" and "Every ... hours"<br>
+- Added option to disable/enable all widgets for awhile (check WireChanger tray menu)<br>
+- "Second picture" widget has new feature: double click on second picture on desktop to directly set it as wallpaper. Create several copies of "Second picture" and place them on desktop to have a choice what wallpaper you whant to see next. You will be 
+able to take a tour through your collection using second pictures as portals to next image. Thanks Julia Fast for this suggestions and other ideas on how to improve WireChanger %)<br>
+Fixed:<br>
+- Bug with importing third-party wallpapers ("Set as wallpaper" in ACDSee or FireFox for example) when single theme present<br>
+</td></tr>
+
+<tr><td><b>ver 3.1</td></tr>
+<tr><td>
+Added:<br>
+- Reminders. Now you can attach simple reminder to note or calendar cell<br>
+- French translation by apocalipse!<br>
+</td></tr>
+
+<tr><td><b>ver 3.0</td></tr>
+<tr><td>
+Added:<br>
+- Option to set save path for desktop notes<br>
+- Option to set widget`s size/position/transparency directly from main window (Widgets tab->Widget context menu)<br>
+- Option to save note text to file<br>
+- Widget frequency (any widget) can be changed using main window`s "Frequency" control (Thanks to Julia FAST for suggestion)<br>
+- New wallpaper modification: Kaleidoscope. This widget will rotate image and mirror it like real kaleidoscope, resulting in nice figures<br>
+- Kaleidoscope powered with new randomizering options: change zooming of original image and limit kaleidoscope range. It is possible now to clone widget to get several kaleidoscopes on the same image<br>
+- New registration key system. Registered users should write an email with request for new key and we will reissue it (please, include previous reg. key into email). This is absolutely free for all registered users<br>
+- "Image mosaic" widget now can optionally merge mosaic with original image. This gives nice effect on most images (thanks to Julia Fast for suggestion %)<br>
+- Extended supports for animated wallpapers from http://www.elefun-desktops.com: mute, image mixing and other stuff<br>
+- Small improvements in different areas<br>
+- Widgets (previously known as templates) are organazed into tree structure for easier control<br>
+- Note can be invisible now (but they are accessible through menu)<br>
+- Screen saver can be powered with clocks and minilendar<br>
+- New template - Minilendar. Simple design, but works as Calendar, all information can be viewed in tooltip<br>
+- New options in "Second picture" widget: Show original wallpaper image instead of random one
+(Useful when your desktop is covered with processed image and you want to see the same image
+without effects applied) and show next/previous image<br>
+- Arabic translation updated (thanks to Awadh:)<br>
+- Italian translation updated (thanks to Agostino Cavallotto:)<br>
+- To edit option in preferences one can double click on option title<br>
+Fixed:<br>
+- Bug with 100% CPU usage when loading big or corrupted .jpg/.jpeg images<br>
+- Bug with centering small images (partial apply of 3d effects)<br>
+- Misc bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.9.6</td></tr>
+<tr><td>
+Added:<br>
+- WireChanger now supports animated wallpapers from http://www.elefun-desktops.com. Just activate special template and choose animated wallpaper (among installed) you wish to use as background and - wow! - you`ll get calendar and all the stuff right over beautifull animated background<br>
+- RSS reader improvements. Now it has two modes - normal and minimized - and can be semitransparent.<br>
+- Option to sync theme with folder (on startup) using folder modification time (NTFS+Win2000 and higher needed)<br>
+- New option "Rename image file on double click", instead of setting as wallpaper. Applies to main window<br>
+- New template - "Transition effect". This template affects the process of changing wallpaper. 
+Just enable it and change wallpapers several times to watch how it works. Rather funny :)<br>
+</td></tr>
+
+<tr><td><b>ver 2.9.5</td></tr>
+<tr><td>
+Added:<br>
+- Build-in screensaver (simple slideshow but with template`s effects on images)<br>
+- Wallpapers, added from third-party programs like ACDSee, Explorer (by setting desktop background) and saved in the user-defined theme, not in the first one. There is another new option also - save such images in Jpg format<br>
+- Drop down for calendar`s text that is bigger than cell<br>
+- New template - RSS reader. Great for putting freash news directly on desktop<br>
+- New desktop note keyboard shortcut: Ctrl-R to snap note size to its content<br>
+- Improved effects and wallpaper generators<br>
+- Option to change desktop note title font<br>
+- Option to automatically regenerate wallpaper on resolution change<br>
+- Notes menu added to main window as well<br>
+- New option "Exclude taskbar from wallpaper". When it is enabled, wallpaper will be rendered to visible part of desktop only (excluding taskbar)<br>
+- Updated translations (Thanks to Awadh, Francisco Alvarado and Agostino Cavallotto! %)<br>
+- New effect in wallpaper generator - Earth<br>
+- Misc. effects optimizations<br>
+- New icons in main window<br>
+Fixed:<br>
+- Fixed bug in Wallpaper generator<br>
+- Fixed desktop non-interactivity after "Hide icons"<br>
+- Different small bugs<br>
+</td></tr>
+
+
+<tr><td><b>ver 2.9|Happy New Year!!! %)</td></tr>
+<tr><td>
+Added:<br>
+- New template - Wallpaper generator. This template can automatically generate reandom image using various algorithms to make your desktop even more funny :)<br>
+- New template - Animated Gif. Now you can place your favourite animations on your desktop too, directly over wallpaper image<br>
+- New template - Gazeta.Ru news - can be found at our site. This is world news in Russian, Added by Druvid<br>
+- New templates - Christmas snow in the installation package and two more packages can be downloaded from our site<br>
+- Option to skip wallpaper rotation when certain applications are running (window with specific title is present)<br>
+Fixed:<br>
+- Small bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.8.5</td></tr>
+<tr><td>
+Added:<br>
+- Backup/Restore settings<br>
+- Option to remove broken image links when synchronizing theme<br>
+- Added module to remove duplicated images in selected theme or in all themes (available in fully registered version only)<br>
+Fixed:<br>
+- Small bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.8.1</td></tr>
+<tr><td>
+Added:<br>
+- Option to add catalog and *automatically* create themes on each subfolder with the name of corresponding folder<br>
+- Option to automatically add images, that you set as wallpaper from other programs (like "Set as background" in Explorer or "Set as wallpaper" in ACDSee), to your collection. Now you don`t have to do this manually!<br>
+- New funny ways to create fill around image that can`t be fit to screen proprotionally<br>
+- New effect in mixer template: Stripes<br>
+Fixed:<br>
+- Bug with desktop icons transparency<br>
+- Bugs in some templates<br>
+</td></tr>
+
+<tr><td><b>ver 2.8</td></tr>
+<tr><td>
+Added:<br>
+- Several image effects were added<br>
+- Option to set color for "Today" cell in calendar<br>
+- New fitting mode for theme`s images: center. In this mode images will not be stretched in any way and will be centered in desktop.
+This gives 3D cube effect when used with 3d filling of gaps between image and desktop edge<br>
+- Ability to set desktop icons font as well as colors<br>
+- Ability to import ANY swf clock. WireChanger will automatically add all corresponding options - site, position, transparency, etc<br>
+- New image formats are supported: TGA and TIFF<br>
+- Hotkey to hide/show desktop icons (manually or automatically)<br>
+- Special effects are now splitted into two templates - Special effects and Image morthing. New effects are added to both :)<br>
+- New template - "Tongue-twisters" (sputters). Thanks to Julia FAST for material! :)<br>
+- New feature for unregistered users: now every wallpaper contributor will be granted with free registration key for a week!
+Just upload one of your images to our site using wallpaper exchange service and enter registration information from the resulting page into WireChanger :)<br>
+- Option to hide personal information (calendar, notes, etc) before shutdowning computer<br>
+- Zip support. Now you can add archives of images as well as single images! But archived pictures has some limitations: They can`t be sorted in "Resolution" and "Size" mode, archive`s deleted files are not detected as broken links<br>
+- Now you can pack selected images or whole theme into single zip archive<br>
+- Added clock options in all third-party clocks. Now any clock downloaded from ColClocks collection or other collections will be automatically supplemented with size/position/transparency options<br>
+- Tooltips over notes and interactive elements on your desktop. Hold mouse on interactive element to popup tooltip with detailed description/additional information<br>
+- Desktop icons transparency under WinXP/2000 even when Active Desktop is enabled (as far as we know, WireChanger is the only app that can do that!)<br>
+- Desktop animation is hidden now by default - to enable it, check option in the "System options"<br>
+Fixed:<br>
+- Bug with notes position when desktop icons are disabled<br>
+- Some bugs in the effects library<br>
+- Bug with mirroring image edges<br>
+</td></tr>
+
+<tr><td><b>ver 2.7.2</td></tr>
+<tr><td>
+Added:<br>
+- New calendar skin and some improvements. Side effect - current caledar skin will be dropped (once), you have to select skin again (only once!)<br>
+- Added new funny ways to fill gaps between images and screen<br>
+- Option to set custom note opacity<br>
+- Option to stretch custom note background, instead of tile ('Tile background' in the note`s background submenu)<br>
+- Added new funny modifier for "Special effects" template - "Smart processing". This modifier can preserve parts of image from morphing<br>
+- Added 3 new effects in the "Special effects" template - "Miror", "Random part of the image" and "Geometric distortion"<br>
+- Added new options in memo pad and calendar templates (more Font settings)<br>
+- Updated Spanish translation by Nihcap!<br>
+- Sliders in preferences<br>
+Fixed:<br>
+- Some UI bugs with non-standard windows settings<br>
+- Some bugs in gaps filler<br>
+</td></tr>
+
+<tr><td><b>ver 2.7</td></tr>
+<tr><td>
+Added:<br>
+- New calendar skin.<br>
+- Main window`s interface redesign<br>
+- Option to remove notes and calendars from desktop wallpaper automatically when computer is locked by user (Windows NT and higher only)<br>
+- Now one can clone templates. Now it`s possible to set up more than one calendars (for current and next months), two different weather reports for different cities, etc<br>
+- Option to use additional modificator for wallpaper note to prevent accidental activation (Shift, Control or Alt key).<br>
+- New type of the note appearance - "Text only". Notes of this type will be rendered without title at all (but still with icon)<br>
+- If time-out occured during load of the html wallpaper, no changes will be applied to the background<br>
+- Option to select default type of the new note appearance.<br>
+- New enliver effect - "Random shifter"<br>
+- Russian help file by Klifton (thanks!!:)<br>
+- Custom note`s icons with history (10 previously used icons for quick access)<br>
+- Icons for calendar cells (sic!). Now you can assign icon to cell by assigning icon to cell`s note and this icon will be printed over cell too. Custom icons supported.<br>
+- A lot of warnings and confirmations to prevent accidental deletion, etc. All warnings can be turned off in preferences.<br>
+- Additional dialog for editing birthdays, holidays descriptions, etc. in calendar template. Now one can edit red-letter days too.<br>
+- Personal (user-defined) birthdays to show on calendar (each birthday will be printed directly over corresponding cell).<br>
+- Option to import image lists from other wallpaper changer programs (most of them)<br>
+Fixed:<br>
+- Bug with holidays descriptions in the calendar (again :)<br>
+- A lot of small bugs and inaccuracies<br>
+</td></tr>
+
+<tr><td><b>ver 2.5.5</td></tr>
+<tr><td>
+Added:<br>
+- Apply button in preferences and slight redesign<br>
+Fixed:<br>
+- Bug with holidays descriptions in the calendar<br>
+</td></tr>
+
+<tr><td><b>ver 2.5.3</td></tr>
+<tr><td>
+Added:<br>
+- New effects, like water-color explosions and others<br>
+- New desktop notes skins and updated Spanish translation by Nihcap (thanks! :)<br>
+Fixed:<br>
+- Resource leaks in Win98/ME<br>
+</td></tr>
+
+
+<tr><td><b>ver 2.5.2</td></tr>
+<tr><td>
+Added:<br>
+- New calendar skin<br>
+- New options in the "Mosaic" template<br>
+- Option to use custom file with citations in the "Citations" template<br>
+- Greatly improved "Special effects" plugin. Now it`s faster, less time/CPU/Memory consuming and supports additional effects. Enjoy! :)<br>
+Fixed:<br>
+- Bug with "Delete" key in the main window<br>
+</td></tr>
+
+<tr><td><b>ver 2.5</td></tr>
+<tr><td>
+Added:<br>
+- Greatly improved image mixer (picture in picture template). New stunning effects, definable frequency of effects applying, faster and efficient rendering (uses much less memory and CPU now),  etc... Advice: try to "play" with effect`s options. Results can be very funny sometimes :)<br>
+- Desktop note now can be switched into mini-mode or semi-mini-mode. In this modes only icon and title (optionally) will be shown (on wallpaper). To choose mode, you have to call icons menu while editing note text (click icon in the top-left corner of edit window) or press "Ctrl-1"/"Ctrl-2"/"Ctrl-3" shortcut<br>
+- Now you can change text/background color of the calendar cell`s note (Ctrl-B/Ctrl-T or note`s system menu). This cell will be painted with defined colors instead of default colors<br>
+- Option to disable desktop notes (they will not be shown on wallpaper, but will be still reachable via tray menu)<br>
+Fixed:<br>
+- Poor "randomness" on non-weighted themes<br>
+- Small resource leak on Win2000/XP<br>
+</td></tr>
+
+<tr><td><b>ver 2.4.5</td></tr>
+<tr><td>
+Added:<br>
+- Calendar`s template upgrade. Now it is faster, better, skinnable (2 skins by default) and even interactive! This means that you can simply double-click calendar cell to type text for that day (i.e. day-by-day note). Very convenient :)<br>
+- New template - CNN news. Extracts latest news from CNN web-site. You must be online to use this template. You can double click desktop news note to popup CNN web-site in separate browser<br>
+- Option to change wallpapers in the low-priority thread<br>
+- Option to move selected images from one theme to another<br>
+- Misc. improvements to all other templates<br>
+- New skins by Elexelm<br>
+Fixed:<br>
+- Bug with exit on Win98/WinME<br>
+</td></tr>
+
+<tr><td><b>ver 2.4</td></tr>
+<tr><td>
+Added:<br>
+- New ways to fill gaps between wallpaper and desktop edges (mirrored fill). Thanks to Julia FAST for suggestions :)<br>
+- Desktop note localization-depent strings are now saved in the skin directory with icons, not in the main lang file<br>
+- Multiple image selection. Shift and Control keys work just like in all MS Windows applications (hold shift to prolong selection, control to add single image to selection)<br>
+- Ability to enable/disable individual images within theme. Such images won`t be used as wallpaper, but they will be left in theme<br>
+- Citation template improvements: faster and efficient way to generate citations, option to choose citation font and user-friendly way to set citation size and position<br>
+- New template - "Mosaic". This plugin can modify your wallpaper by reversing and/or repeating it to fill the cells of the table with definable rows and columns<br>
+- New template - "Online quotation". If you are connected to the internet, you will be granted to place random quation from http://urbanlegend.f2o.org/<br>
+- New template - "Weather forecast icon". With this template you can place icon with current temperature 
+in your town right over your desktop. Double click this icon to open full forecast for your town. 
+If you know good weather forecast sites with image informers, you can send us a link - we will add 
+them in this template in future releases<br>
+- Improvements in 'Second image', 'Web camera' templates<br>
+Fixed:<br>
+- Misc. bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.3</td></tr>
+<tr><td>
+Added:<br>
+- New skin and Spain translation by F. Alvarado<br>
+- New option: change wallpaper only once if screen saver launched or window station became locked<br>
+- New way to tile patterns - semi-mirrored. Pattern will be mirrored every two steps (Thanks to Julia for suggestion)<br>
+- New way to make poorly stretched images to fit the screen - image edges can now be expanded to the screen edges with/without blend to background color(Thanks to Julia for suggestion)<br>
+- Desktop DirectX animator. _Very_ experimental at this time<br>
+- KDE skin slightly changed<br>
+Fixed:<br>
+- Inability to use preferences using keyboard only<br>
+</td></tr>
+
+<tr><td><b>ver 2.2.3</td></tr>
+<tr><td>
+Added:<br>
+<!--- Ability to add more than one template of the same type<br>-->
+- New note skin - KDE (Thanks to Agent 007 :)<br>
+- New note skin - Girls (Thanks to Megavolt :)<br>
+- Images to some buttons in the main window<br>
+- Templates options can be called directly from preferences now<br>
+Fixed:<br>
+- Bug with missed note bg in "No icon" case<br>
+Other:<br>
+- Changed format of the *.lng files. Incomaptible strings will be autoconverted at first use<br>
+</td></tr>
+
+<tr><td><b>ver 2.2.2.2.2</td></tr>
+<tr><td>
+Fixed:<br>
+- Small incompatibility bug with WinXP themes<br>
+</td></tr>
+
+<tr><td><b>ver 2.2.2.2</td></tr>
+<tr><td>
+Added:<br>
+- 'Wallpaper exchange' service, experimental. Now you can swap your image with one image from our site, so can other users. Its free and funny :)<br>
+- Option to delete current clock from hard drive<br>
+</td></tr>
+
+<tr><td><b>ver 2.2.2</td></tr>
+<tr><td>
+Added:<br>
+- 'No icon' option for desknote<br>
+- Some icons was changed<br>
+Fixed:<br>
+- Misc Win2003 incompatibilities<br>
+- Bug with note dispositions when active desktop enabled and taskbar is placed in the upper or left side of the screen<br>
+- Rare bug with desktop clock`s opacity level<br>
+</td></tr>
+
+<tr><td><b>ver 2.2</td></tr>
+<tr><td>
+Added:<br>
+- Now registration can be done through RegNow registration service<br>
+- Updated Spanish translation - thanks to F. Alvarado<br>
+- Sliders in the preferences dialog and main window<br>
+- All windows are redrawn using double-buffer technique<br>
+- New note skin "Emoticons"<br>
+Fixed:<br>
+- Misc Win98/WinME/WinNT4.0 incompatibilities<br>
+- Misc bugs when deleting a lot of notes at the same time<br>
+</td></tr>
+
+<tr><td><b>ver 2.1</td></tr>
+<tr><td>
+Added:<br>
+- Option to set start-up icon for desktop note. Pay attention to the "Random" choice...<br>
+- Now note foreground and background use the real note`s colors, not system colors<br>
+- New look-and-feel of the preferences window<br>
+- Italian localization by Sergio Lanzone<br>
+</td></tr>
+
+<tr><td><b>ver 2.0</td></tr>
+<tr><td>
+Added:<br>
+- New 'Desktop notes' feature. Just double-click your desktop image on the free space to popup note window.
+Type note text, title and then click button - and your wallpaper will be decorated with semi-transparent note, reminding you about things to do or something else :)<br>
+- To edit/delete desktop note just double-click note again!<br>
+- Quick access to desktop note icons through system icon in the left-top corner of the note window<br>
+- Additional buttons (save and delete) in the title area of the note window in the "text only" view<br>
+- Desktop note`s colors are fully adjustable directly in the note window. Font can be tuned through preferences<br>
+- 'Wallpaper change' tracking. Now you can change wallpaper from any other application: your desktop notes will be applied automatically<br>
+- Option to reuse wallpaper template`s renderer for faster rendering (but with slight overhead in memory usage)<br>
+Fixed:<br>
+- Desktop notes WinME incompatibility<br>
+- Misc bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.9.2</td></tr>
+<tr><td>
+Added:<br>
+- Tray menu redesign<br>
+- Default images on the first start<br>
+- Now it is possible to use "Space" bar, "Print screen", "Scroll lock", "Pause" and "Apps" in the hotkeys<br>
+- Now it is possible to use "Escape" key in the hotkeys. But because of Windows, most "Esc" combinations are defined already :(<br>
+- Now it is possible to use "Tab", "Caps Lock", "Backspace" keys in the hotkeys as well. As with "Esc" key, some combinations are defined by the system<br>
+- Finally: it is possible to use some mm-keyboard (not all) additional keys in the hotkeys (with Ctrl/Alt/Win modifiers, of course)!!!<br>
+- Memory snapshot optimizations<br>
+Fixed:<br>
+- Fixed Windows 98/ME compatibility issues. Due to internal conflict with the Win98/ME GDI architecture, all tray icons are disabled :(<br>
+- Misc rare bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.9</td></tr>
+<tr><td>
+Added:<br>
+- Interface improvements<br>
+- Template configs saved on per-user basis<br>
+- Added option for small images display type (tile or center)<br>
+Fixed:<br>
+- A lot of WinME incompatibilities. <b>Now WireChanger works fine in Window ME and (i hope) 98</b><br>
+</td></tr>
+
+<tr><td><b>ver 1.8.3</td></tr>
+<tr><td>
+Added:<br>
+- Different synchronization improvements<br>
+- Option to explicitly define sync folder for each theme<br>
+- Now you can rename image file just double-clicking its name (in fact you can even move file into another location)<br>
+- Support for different desktops. Now WireChanger can work in different desktop absolutely separately<br>
+- Option to inform user about exceptional situations (high CPU/Memory usage) by showing tray popup<br>
+- Image sorting speed optimizations<br>
+</td></tr>
+
+<tr><td><b>ver 1.8.2</td></tr>
+<tr><td>
+Added:<br>
+- 'Delete image with file' deletes even read-only files now<br>
+- Option to sort images by image dimensions (1024*768, 800*600, ...)<br>
+- Template parameters are saved in separate file. This prevents parameters discard after WireChanger upgrade<br>
+- Option to set desktop icons text color<br>
+Fixed:<br>
+- Memory leak with fast preview mode (since v1.7.1)<br>
+- Bug with calling URLs from templates option dialog<br>
+- Bug with active desktop after disabling clocks<br>
+</td></tr>
+
+<tr><td><b>ver 1.8.1</td></tr>
+<tr><td>
+Added:<br>
+- Ability to check for updates manually or every 20 days. Can be disabled of course :)<br>
+- Option to change size of the preview window<br>
+</td></tr>
+
+<tr><td><b>ver 1.8</td></tr>
+<tr><td>
+Added:<br>
+- Fully rewrote templates and template logic<br>
+- Now you can build your desktop by yourself, choosing components and their parameters. For example you can combine calendar with special effect and so on. And it is easier to write your own template<br>
+Fixed:<br>
+- Some UI bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.7.2</td></tr>
+<tr><td>
+Added:<br>
+- Minor improvements<br>
+</td></tr>
+
+<tr><td><b>ver 1.7.1</td></tr>
+<tr><td>
+Added:<br>
+- Count of theme images in main window<br>
+- Now you can double click on the image name or preview to open wallpaper in corresponding image viewer<br>
+- Option to set last generated wallpaper for default user (Win NT/2k/XP)<br>
+- Preview improvements, definable preview type and quality<br>
+</td></tr>
+
+<tr><td><b>ver 1.7</td></tr>
+<tr><td>
+Added:<br>
+- Interface improvements<br>
+- Minor templates changes<br>
+- XP manifest (Partial XP theme support)<br>
+- Option to set desktop icons transparent<br>
+- Ability to control themes through tray menu<br>
+- Active clocks support (thanks to  <a href="http://www.colclocks.com?Client=WireChanger">http://www.colclocks.com</a>), Active Desktop and <a href="http://www.macromedia.com/go/getflashplayer">Macromedia Flash plug-in</a> must be available<br>
+- Ability to set random clock on every wallpaper change<br>
+- Support for additional active clock`s folder<br>
+- Configurable clocks size and position<br>
+- Registration key format changed<br>
+- Optimized memory footprint<br>
+Fixed:<br>
+- bug with inactive weighted themes<br>
+- bug with moved images<br>
+</td></tr>
+
+<tr><td><b>ver 1.6</td></tr>
+<tr><td>
+Added:<br>
+- Theme images sorting and shuffling<br>
+- Hotkeys for next/prev wallpapers<br>
+- Wallpaper`s downloading service (still experimnental :)<br>
+- Ability to change citation positions and other parameters, small template`s improvements<br>
+- Ability to load URLs for template content - "$=&lt;DECLARE_URL(...)&gt;", wallpaper`s theme name and more<br>
+- Preview window in "Add image(s)" dialog<br>
+- Option to add directories without recursion<br>
+- Customizable preview delay in main window<br>
+Fixed:<br>
+- minor bugs<br>
+</td></tr>
+
+
+<tr><td><b>ver 1.5</td></tr>
+<tr><td>
+Added:<br>
+- New theme feature - "Sync with folder NOW"<br>
+- New special effect - Pixelation<br>
+- Ability to select template`s image effects separately<br>
+- Ability to edit template citations and calendar notes on-the-fly<br>
+- Preferences dialog interface improvements (for example: now you can drag`n`drop files from Explorer to the fields with file path/name)<br>
+- Weather report for calendar (Disabled by default, you must enable it in calendar options). Thanks to <a href="http://dyn.gismeteo.ru/cgi-bin/wtlist.exe?req=countries&lang=eng">www.gismeteo.ru</a>. In order to view weather report, www.gismeteo.ru must be reachable.<br>
+- New dates and famous peoples birthdays for Russian language (calendar template)<br>
+- Option to skip image rotation in memory shortage<br>
+- Option to skip image rotation in high CPU usage (NT only!)<br>
+Fixed:<br>
+- minor template`s dependent bugs<br>
+- bug with funny stretches in combination with templates<br>
+- bug with unmovable alert windows<br>
+</td></tr>
+
+<tr><td><b>ver 1.4.1</td></tr>
+<tr><td>
+Added:<br>
+- A lot of small usability improvements<br>
+Fixed:<br>
+- Misplaced image under some versions of Win98 (Thanks to Francisco Alvarado)<br>
+</td></tr>
+<tr><td><b>ver 1.4</td></tr>
+<tr><td>
+Added:<br>
+- Ability to define template actions added (own citations and so on)<br>
+- Template-driven options in tray-icon menu for quick access to special template actions<br>
+</td></tr>
+<tr><td><b>ver 1.3.3</td></tr>
+<tr><td>
+Added:<br>
+- New licensing option - use for free with registered version of WireNote<br>
+Fixed:<br>
+- Inability to disable (drop value) of the defined hotkey<br>
+</td></tr>
+<tr><td><b>ver 1.3.2</td></tr>
+<tr><td>
+Added:<br>
+- New feature: "remove broken links" - automatic removal of the links to the non-existing images<br>
+- Another feature: "Folder sync" - all new images from the location of the first synchronized theme`s image, will be automatically appended to such theme at startup<br>
+- Ability to remove image from theme and disk simultaneously, edit selected image in default image editor<br>
+Fixed:<br>
+- Inability to remove pictures from main theme<br>
+</td><tr>
+
+<tr><td><b>ver 1.3.1</td></tr>
+<tr><td>
+Added:<br>
+- Some interface improvements<br>
+</td><tr>
+
+<tr><td><b>ver 1.3</td></tr>
+<tr><td>
+Added:<br>
+- Now WireChanger can show your current wallpaper inside of the tray icon<br>
+- Calendar template was greatly improved with full holidays support (float holidays too)/images and so on<br>
+- 'Win' key support<br>
+Fixed:<br>
+- Small bugs fixed<br>
+- Fixed bug with menu icons when different font sizes were applied<br>
+</td></tr>
+
+<tr><td><b>ver 1.2</td></tr>
+<tr><td>
+Added:<br>
+- Multi-language support<br>
+- Integration with WireNote. Now you can see your ToDos/Reminders over wallpaper :)<br>
+</td></tr>
+
+<tr><td><b>ver 1.1</td></tr>
+<tr><td>
+Added:<br>
+- HTML-based template support<br>
+Fixed:<br>
+- Minor bugs<br>
+</td></tr>
+<tr><td><b>ver 1.0</td></tr>
+<tr><td>
+Added:<br>
+- Ability to add html pages and http:// links<br>
+</td></tr>
+</table>
+
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

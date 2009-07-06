@@ -1,0 +1,25 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>Preferences Dialog</h1><hr>
+<b>Buttons description</b>
+<table border=1 cellspacing=0 cellpading=0 width=100%>
+<tr><td  valign=top>&nbsp;Additionally</td><td  valign=top>&nbsp;Popups menu with additional actions, for example expand/collapse all folders from the left pane or discard changes and revert all settings to factory</td></tr>
+<tr><td  valign=top>&nbsp;Ok</td><td  valign=top>&nbsp;Apply all changes and close preferences dialog</td></tr>
+<tr><td  valign=top>&nbsp;Cancel</td><td  valign=top>&nbsp;Discard any changes and close preferences dialog</td></tr>
+<tr><td  valign=top>&nbsp;Help</td><td  valign=top>&nbsp;Show this page</td></tr>
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

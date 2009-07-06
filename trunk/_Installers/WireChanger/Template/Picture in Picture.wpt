@@ -1,0 +1,64 @@
+$=<TITLE:Image mixer>$=<SHOWINTRAY:PARAM_ROOT>$=<CATEG:Wallpaper modifiers>
+$=<DESCRIPTION:
+Merges two images from your gallery
+into new one. Can take background from one image
+and add figures from the second image.
+Use in conjunction with image morthing
+and special effects for more interesting results
+>
+$=<RENDER:EasyDraw.dll>$=<HINTS:RENDER-LAYER=(BG-3),ONLINE-STATE=(DONTCARE),WIN98WARN=(Please note: Some features are not supported on Win98/WinME),CONTAIN-MORTHING>
+$=<PARDEF:PARAM_ROOT>$=<PARDSC:PARAM_ROOT=Imposition options>$=<PARTYP:PARAM_ROOT=root>
+
+$=<PARDEF:EFF_ROOT>$=<PARDSC:EFF_ROOT=Mark effects you wish to use on your wallpaper>$=<PARTYP:EFF_ROOT=tip>
+$=<PARDEF:PP_EFF0=1>$=<PARDSC:PP_EFF0=Use 'Random waves'>$=<PARPAR:PP_EFF0=PARAM_ROOT>$=<PARTYP:PP_EFF0=bool>
+$=<PARDEF:PP_EFF0_INV=0>$=<PARDSC:PP_EFF0_INV=Invert waves opacity>$=<PARPAR:PP_EFF0_INV=PP_EFF0>$=<PARTYP:PP_EFF0_INV=bool>
+$=<PARDEF:PP_EFF1=1>$=<PARDSC:PP_EFF1=Use 'Chess field'>$=<PARPAR:PP_EFF1=PARAM_ROOT>$=<PARTYP:PP_EFF1=bool>
+$=<PARDEF:PP_EFF1a=1>$=<PARDSC:PP_EFF1a=Use 'Stripes'>$=<PARPAR:PP_EFF1a=PARAM_ROOT>$=<PARTYP:PP_EFF1a=bool>
+$=<PARDEF:PP_EFF1a_CNT=0>$=<PARDSC:PP_EFF1a_CNT=Stripes count (0-random)>$=<PARPAR:PP_EFF1a_CNT=PP_EFF1a>$=<PARTYP:PP_EFF1a_CNT=number>$=<PARMIN:PP_EFF1a_CNT=0>$=<PARMAX:PP_EFF1a_CNT=400>
+$=<PARDEF:PP_EFF1a_ANG=0>$=<PARDSC:PP_EFF1a_ANG=Stripes angle (0-random)>$=<PARPAR:PP_EFF1a_ANG=PP_EFF1a>$=<PARTYP:PP_EFF1a_ANG=number>$=<PARMIN:PP_EFF1a_ANG=-45>$=<PARMAX:PP_EFF1a_ANG=45>
+$=<PARDEF:PP_EFF1a_SMO=1>$=<PARDSC:PP_EFF1a_SMO=Smooth stripe edges>$=<PARPAR:PP_EFF1a_SMO=PP_EFF1a>$=<PARTYP:PP_EFF1a_SMO=bool>
+$=<PARDEF:PP_EFF2=1>$=<PARDSC:PP_EFF2=Use 'Brightness-based'>$=<PARPAR:PP_EFF2=PARAM_ROOT>$=<PARTYP:PP_EFF2=bool>
+$=<PARDEF:PP_EFF2_INV=0>$=<PARDSC:PP_EFF2_INV=Make image brighter (not darker)>$=<PARPAR:PP_EFF2_INV=PP_EFF2>$=<PARTYP:PP_EFF2_INV=bool>
+$=<PARDEF:PP_EFF2_ABS=0>$=<PARDSC:PP_EFF2_ABS=Use absolute brightness values>$=<PARPAR:PP_EFF2_ABS=PP_EFF2>$=<PARTYP:PP_EFF2_ABS=bool>
+$=<PARDEF:PP_EFF2_RAB=0>$=<PARDSC:PP_EFF2_RAB=Add opacity ripples>$=<PARPAR:PP_EFF2_RAB=PP_EFF2>$=<PARTYP:PP_EFF2_RAB=bool>
+$=<PARDEF:PP_EFF3=1>$=<PARDSC:PP_EFF3=Use 'Radial gradient'>$=<PARPAR:PP_EFF3=PARAM_ROOT>$=<PARTYP:PP_EFF3=bool>
+$=<PARDEF:PP_EFF4=1>$=<PARDSC:PP_EFF4=Use 'Left-to-right'>$=<PARPAR:PP_EFF4=PARAM_ROOT>$=<PARTYP:PP_EFF4=bool>
+$=<PARDEF:PP_EFF5=1>$=<PARDSC:PP_EFF5=Use 'Top-to-bottom'>$=<PARPAR:PP_EFF5=PARAM_ROOT>$=<PARTYP:PP_EFF5=bool>
+$=<PARDEF:PP_EFF6=1>$=<PARDSC:PP_EFF6=Use 'LeftTop-to-RightBottom'>$=<PARPAR:PP_EFF6=PARAM_ROOT>$=<PARTYP:PP_EFF6=bool>
+$=<PARDEF:PP_EFF7=1>$=<PARDSC:PP_EFF7=Use 'LeftBottom-to-RightTop'>$=<PARPAR:PP_EFF7=PARAM_ROOT>$=<PARTYP:PP_EFF7=bool>
+$=<PARDEF:PP_EFF9=1>$=<PARDSC:PP_EFF9=Use 'Emboss'>$=<PARPAR:PP_EFF9=PARAM_ROOT>$=<PARTYP:PP_EFF9=bool>
+
+$=<PARDEF:MASK_AA=0>$=<PARDSC:MASK_AA=Auto-adjust transparency mask>$=<PARPAR:MASK_AA=PARAM_ROOT>$=<PARTYP:MASK_AA=bool>
+$=<PARDEF:SECTYP=2>$=<PARDSC:SECTYP=Second image type>$=<PARPAR:SECTYP=PARAM_ROOT>$=<PARTYP:SECTYP=list>$=<PARLST:SECTYP=Random image with preprocessing,The same (use with Special effects template),Random image>
+
+$=<HASH:57A29688ED62CAC8A73DCB4E876672FE>
+
+{wp:body}<image-in-rect>
+X:({recommended-wallpaper-x})
+Y:({recommended-wallpaper-y})
+W:({recommended-wallpaper-w})
+H:({recommended-wallpaper-h})
+NO_FIT:(1)
+OPACITY:($=<PAR:G_STOP>)
+EFFECT:({wp:list.rnd}
+	$=<IF:$=<PAR:PP_EFF0>==1?WAVE/IF>,
+	$=<IF:$=<PAR:PP_EFF1>==1?CHESS/IF>,
+	$=<IF:$=<PAR:PP_EFF1a>==1?STRIP/IF>,
+	$=<IF:$=<PAR:PP_EFF2>==1?BRIGHT/IF>,
+	$=<IF:$=<PAR:PP_EFF3>==1?RADIAL/IF>,
+	$=<IF:$=<PAR:PP_EFF4>==1?LR/IF>,
+	$=<IF:$=<PAR:PP_EFF5>==1?TB/IF>,
+	$=<IF:$=<PAR:PP_EFF6>==1?LTRB/IF>,
+	$=<IF:$=<PAR:PP_EFF7>==1?LBRT/IF>,
+	$=<IF:$=<PAR:PP_EFF9>==1?BUMPMAP/IF>
+	{/wp:list.rnd})
+<image-src>$=<IF:$=<PAR:SECTYP>==0?$=<RND_WALLPAPER(rnd,num)>/IF>$=<IF:$=<PAR:SECTYP>==1?$=<RND_WALLPAPER(main)>/IF>$=<IF:$=<PAR:SECTYP>==2?$=<RND_WALLPAPER(rnd)>/IF></image-src>
+MASK-ADJUST:($=<PAR:MASK_AA>)
+MASK-WAVE-INVERT:($=<PAR:PP_EFF0_INV>)
+MASK-BRIGHT-INVERT:($=<PAR:PP_EFF2_INV>)
+MASK-BRIGHT-RAB:($=<PAR:PP_EFF2_RAB>)
+MASK-BRIGHT-ABS:($=<PAR:PP_EFF2_ABS>)
+MASK-IMAGE-STRIPES-COUNT:($=<PAR:PP_EFF1a_CNT>)
+MASK-IMAGE-STRIPES-ANGLE:($=<PAR:PP_EFF1a_ANG>)
+MASK-IMAGE-STRIPES-SMOOTH:($=<PAR:PP_EFF1a_SMO>)
+</image-in-rect>{/wp:body}

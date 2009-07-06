@@ -1,0 +1,27 @@
+;Translated by Romuald Giovani, 25.07.2006
+;For WireKeys v3.5.0
+Popt_stopCount_uysrnhiudj=Cesser de comptabiliser quand le clavier n'est pas utilisé durant une période indiquée en secondes
+Popt_showSymbo_spgxlpbjxl=Afficher les statistiques sur les symboles
+Popt_showWord_asnxetloah=Afficher les statistiques sur les mots
+Popt_showSpeci_hkewfvjlyf=Afficher les statistiques spéciales
+Popt_showRhyth_xpqihcycgn=Afficher la déviation de rythme
+Popt_windowTex_jrnfysdqbu=Couleur du texte de la fenêtre
+Popt_windowBac_iaofirodmd=Couleur de fond de la fenêtre
+ShowHideStatisctics=Afficher/masquer les statistiques
+TypingStatistics=Statistiques de frappe
+Dscplg_wp_typestats=Afficher votre compétence dans la frappe
+Close=Fermer
+Reset=Réinitialiser
+Details=Détails
+CommonStatistic=Statistiques communes
+Time=Temps
+Symbols=Symboles
+SymMin=Sym./Min.
+Words=Mots
+WordsMin=Mots/Min.
+Lines=Lignes
+Spaces=Espaces
+Deletions=Suppress.
+Rhythm=Rhythme
+Common=Commun
+DetailedStatistic=Statistiques détaillées

@@ -1,0 +1,23 @@
+;Translated by Romuald Giovani, 25.07.2006
+;For WireKeys v3.5.0
+Popt_toAddMod_bhangcrbtw=Pour ajouter/modifier une programmation à un événement/macro/etc développez la branche raccourci de l'action et cliquer sur le lien 'Ajouter/Modifier une programmation'
+Popt_playSound_msvseiqmtl=Jouer un son lorsque l'événement arrive à échéance
+Popt_soundFile_ilrkahcfib=Fichier son
+Scheduler=Programmateur
+ScheduledEvent=Evénement programmé
+AddEditReminder=Ajouter/Éditer un rappel
+AttentionTimeHaseCome=Attention! C'est l'heure!
+AddNewSchedule=Ajouter une nouvelle programmation
+AddNewReminder=Ajouter un nouveau rappel
+CloseMenu=Fermer ce menu
+
+AddEditReminders=Ajouter/Éditer les rappels
+ShowHideCalendar=Afficher/Masquer le calendrier
+Calendar=Calendrier
+Close=Fermer
+CreateReminder=Créer un rappel
+Week=Semaine
+Month=Mois
+Popt_defaultTr_tqeebfcybt=Vue du calendrier par défaut
+AttentionTimeHasCome=Attention! C'est l'heure!
+Nameplg_wp_schedule=Programmateur

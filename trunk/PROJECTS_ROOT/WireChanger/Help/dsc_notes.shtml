@@ -1,0 +1,47 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Çàìåòêè íà äåñêòîïå (èíòåðàêòèâíûå îáëàñòè íà îáîÿõ)" -->
+<!--#set var="PTITLE_EN" value="Wallpaper notes (clickable interactive areas on your desktop)" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Desktop Notes</h2><hr>
+This handy feature helps you to organize your schedule and to keep your ideas in a safe yet
+easily-accessible place - your desktop. To add a note, just double-click the desktop wallpaper
+and type your text in the newly created window. To edit the note, just double-click it again. All
+notes can be easily accessed through tray menu too. You can also choose a note icon and set its
+background color and text color. Another insteresting feature - reminding. You can set up reminder
+(it can be also reccurent) for note - just click icon in the note title. All reminders can
+be viewed (and modified) on calendar/minilendar widget as well or in separate Calendar (tray menu - calendar).
+<br><hr>
+Some keyboard shortcuts to quickly set some note parameters:<br><br>
+
+Ctrl-Enter/Ctrl-S: Add note to desktop<br>
+Ctrl-T/Ctrl-B: Note text/background color<br>
+Ctrl-Space: Change view (buttons/text only)<br>
+Ctrl-Up/Ctrl-Down/Ctrl-I: Change note icon<br>
+Ctrl-R: Add/Modify reminder<br>
+Ctrl-D: Delete note<br>
+- To quickly change note icon you can click system icon of the note window (in the top-left
+corner).<br>
+- In the "text only" view you can use additional buttons in the title area to save and delete
+note<br>
+<hr>
+WireChanger supports note skinning. The active skin can be changed through preferences. If you
+want to create your own skin, look at WireChanger's installation directory for "NoteSkin*"
+catalogs to find out how they are organized. We are always looking for new skins. If you want to
+use WireChanger for free, just create your own skin and send it to us. In reply, we will send you
+a free registration key.
+
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

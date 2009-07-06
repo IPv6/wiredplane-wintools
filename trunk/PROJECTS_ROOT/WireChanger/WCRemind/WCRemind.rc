@@ -1,0 +1,313 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CALENDAR2_DIALOG DIALOGEX 0, 0, 283, 263
+STYLE DS_SETFONT | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Calendar"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "MonthCalendar1",IDC_MONTHCALENDAR1,"SysMonthCal32",MCS_DAYSTATE | MCS_WEEKNUMBERS | WS_TABSTOP,4,20,276,104,WS_EX_CLIENTEDGE
+    CTEXT           "Event dialog. Set date, time, recurrency and actions",IDC_STATIC_TOP,8,4,272,12,SS_NOPREFIX | SS_CENTERIMAGE
+    CTEXT           "dd.mm.yyyy",IDC_STATIC_DDMMYY,132,128,80,12,SS_NOPREFIX | SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_TIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,216,128,48,12
+    LTEXT           "Event recurrency",IDC_CHECK_REC,8,144,120,12,SS_CENTERIMAGE
+    RTEXT           "Daily, Weekly",IDC_INFO_REC,132,145,132,12,SS_CENTERIMAGE | SS_SUNKEN
+    PUSHBUTTON      "...",IDC_BUTTON_REC,268,145,12,12
+    CONTROL         "Popup note with text",IDC_CHECK_ONEVENT_TEXT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,160,161,12
+    EDITTEXT        IDC_EDIT_TXT,4,176,276,32,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "Play sound",IDC_CHECK_ONEVENT_MP3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,212,124,12
+    EDITTEXT        IDC_EDIT_MP3,132,212,116,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_MP3,268,212,12,12
+    CONTROL         "Launch application",IDC_CHECK_ONEVENT_APP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,228,124,12
+    EDITTEXT        IDC_EDIT_APP,132,228,132,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_APP,268,228,12,12
+    LTEXT           "Event time",IDC_CHECK_ACTIVE2,8,128,120,12,SS_CENTERIMAGE
+    DEFPUSHBUTTON   "Cancel",IDCANCEL_REM,4,248,76,14
+    DEFPUSHBUTTON   "Delete event",IDDEL,84,248,76,14
+    DEFPUSHBUTTON   "Save and Close",IDOK,192,248,88,14
+    PUSHBUTTON      "...",IDC_BUTTON_TIME,268,128,12,12
+    PUSHBUTTON      "...",IDC_BUTTON_MP3_PLAY,252,212,12,12
+    LTEXT           "More options",IDC_CHECK_MOREOPTION,180,163,78,9,0,WS_EX_RIGHT
+    PUSHBUTTON      "...",IDC_BUTTON_MOREOPTIONS,268,161,12,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CALENDAR2_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_PP DIALOG  0, 0, 216, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         104,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,156,4,56,76
+    PUSHBUTTON      "Dismiss",IDOK,156,116,56,12
+    CONTROL         "",IDC_EDIT,"RICHEDIT",TCS_HOTTRACK | TCS_VERTICAL | TCS_RAGGEDRIGHT | TCS_MULTISELECT | WS_BORDER | WS_TABSTOP,4,4,148,124
+    PUSHBUTTON      "Postpone",ID_PPREMINDER,156,100,56,12
+END
+
+IDD_DIALOG_ENTER DIALOG  0, 0, 176, 41
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,84,24,88,14
+    PUSHBUTTON      "Cancel",IDCANCEL,4,24,76,14
+    RTEXT           "Specify period",IDC_STATIC1,4,4,104,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1,120,4,52,12,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DIALOG_CL DIALOGEX 0, 0, 335, 276
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Calendar",IDC_CALCTRL,"DBSWMDateCtrl",WS_TABSTOP,4,4,328,252,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Close",IDC_BUTTON_CLOSE,276,260,56,12
+    PUSHBUTTON      "New",IDC_BUTTON_NEWR,128,260,80,12
+    PUSHBUTTON      "View",IDC_BUTTON_VIEW,24,260,80,12
+    PUSHBUTTON      ">>",IDC_BUTTON_NEXT,108,260,16,12
+    PUSHBUTTON      "<<",IDC_BUTTON_PREV,4,260,16,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_PP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_DIALOG_ENTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 34
+    END
+
+    IDD_DIALOG_CL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 269
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WCRemind.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+IDI_ICON2               ICON                    "icon2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_REM          BITMAP                  "bitmap1.bmp"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "WCRemind DLL"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "WCRemind"
+            VALUE "LegalCopyright", "Copyright (C) 2005"
+            VALUE "OriginalFilename", "WCRemind.DLL"
+            VALUE "ProductName", "WCRemind Dynamic Link Library"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    101                     "&About Calendar..."
+    103                     "1 day selected"
+    104                     "%1!ld! days selected"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\WCRemind.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

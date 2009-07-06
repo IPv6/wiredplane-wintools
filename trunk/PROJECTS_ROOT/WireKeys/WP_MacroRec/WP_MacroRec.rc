@@ -1,0 +1,270 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 204, 221
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Desktop icons options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,156,188,46,28
+    EDITTEXT        IDC_EDIT_TITLE,96,4,104,12,ES_AUTOHSCROLL
+    CONTROL         "Record keypresses only",IDC_RADIO_KEYB,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,8,28,188,12
+    CONTROL         "Record mouse clicks too",IDC_RADIO_MOUSE,"Button",
+                    BS_AUTORADIOBUTTON,8,44,188,12
+    CONTROL         "Record JavaScript - compatible macro",IDC_RADIO_JSCRIPT,
+                    "Button",BS_AUTORADIOBUTTON,8,76,188,12
+    CONTROL         "Record menu items and buttons only",IDC_RADIO_MENUS,
+                    "Button",BS_AUTORADIOBUTTON,8,60,188,12
+    CONTROL         "Record pauses larger than (seconds)",IDC_CHECK_PAUSE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,92,146,12
+    EDITTEXT        IDC_EDIT_PAUSEL,158,92,36,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Open Macro in editor",IDC_CHECK_EDOPEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,108,188,12
+    LTEXT           "Title of new Macro",IDC_STATIC1,4,4,88,12,
+                    SS_CENTERIMAGE
+    GROUPBOX        "How to record switches between applications",
+                    IDC_STATIC3,4,124,196,60
+    CONTROL         "Ignore application switches, record into plain sequence",
+                    IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,8,137,
+                    188,12
+    CONTROL         "Record 'as is' (replay will switch between windows)",
+                    IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,8,153,188,12
+    CONTROL         "Record keypresses for each application separately",
+                    IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,8,169,172,12
+    PUSHBUTTON      "?",IDC_SEPHELP,184,169,12,12
+    GROUPBOX        "Recording options",IDC_STATIC_F,4,19,196,105
+    CTEXT           "Set parameters and press OK to start recording. To stop click red tray icon",
+                    IDC_STATIC2,4,188,148,28,SS_SUNKEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_RECMAIN DIALOG DISCARDABLE  0, 0, 92, 100
+STYLE DS_MODALFRAME | DS_CENTERMOUSE | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Macro recorder"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save and close",IDOK,4,84,84,14
+    DEFPUSHBUTTON   "Pause macro",IDPAUSE,4,4,84,14
+    DEFPUSHBUTTON   "Dismiss macro",IDDISMISS,4,68,84,14
+    DEFPUSHBUTTON   "Add milestone",IDREM,4,52,84,14
+    EDITTEXT        IDC_EDIT,4,20,84,28,ES_MULTILINE | ES_READONLY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_RECMAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 85
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BM_ICON             BITMAP  DISCARDABLE     "bm_icon.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_STOPREC             ICON    DISCARDABLE     "stoprec.ico"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "WK Plugin - macro recorder\0"
+            VALUE "CompanyName", "WiredPlane Labs\0"
+            VALUE "FileDescription", "WK Plugin - macro recorder\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "WP_MacroRec\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "WiredPlane Labs\0"
+            VALUE "OriginalFilename", "IconsFont.DLL\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "WK Plugin - macro recorder\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

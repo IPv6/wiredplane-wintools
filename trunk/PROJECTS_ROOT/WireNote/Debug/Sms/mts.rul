@@ -1,0 +1,90 @@
+SmsNdcList=495,812,861,910,911,912,913,914,915,916,917,918,919,927
+SmsMaxLength=100
+
+WndUrl=http://sms.mts.ru/
+WndTitle=Sms - MTS
+WndLoading=%PROGRESSTIME. Please wait, processing your\nmessage to +7%NDC-%MOBNUM...\n\n%unescapex(MESSAGE)\n---
+WndIcon=%THISPATH\sms.ico
+WndResize=0
+
+WndOnLoadScriptBegin
+function asendMsg()
+{
+	var imgCode=document.all['imgcode'].value;//alert(imgCode);
+	document.forms['aspnetForm'].ctl00$ctl08$ctl00$ctl00$ctl00$ctl04$ctl00$ctl00$qmSmsSend1$tbCode.value=imgCode;
+	document.forms['aspnetForm'].ctl00$ctl08$ctl00$ctl00$ctl00$ctl04$ctl00$ctl00$qmSmsSend1$btnSend.click();
+	return false;
+}
+
+var res="";
+//alert("%NDC - %MOBNUM - %MESSAGE");
+var _MobnumNDC=unescape("%NDC");
+var _Mobnum7DIGITS=unescape("%MOBNUM");
+var _Message=unescape("%MESSAGE");
+try{
+	// Connection timeout, etc
+	if(document.location.href.indexOf("res://")!=-1){
+		res="%UNREACHABLE ";
+		throw new String("No connection");
+	}
+	
+	// Do we get SUCCESS result?
+	try{
+		if(document.all['ctl00_ctl08_ctl00_ctl00_ctl00_ctl04_ctl00_ctl00_qmSmsSend1_lbSuccess'].innerText.length>0){
+			res="%SUCCESS, send ok";
+		}
+	}catch(e){};
+	
+	// Do we get ERROR result?
+	try{
+		if(document.all['ctl00_ctl08_ctl00_ctl00_ctl00_ctl04_ctl00_ctl00_qmSmsSend1_lbError'].innerText.length>0){
+			res="%FAILURE, send failed";
+		}
+	}catch(e){};
+	// We need to show our form for captha
+	if(res==""){
+		// Checking parameters
+		if(_MobnumNDC.length==3){
+			_MobnumNDC="7"+_MobnumNDC;
+		}
+		if(_Message.length>140 || _Mobnum7DIGITS.length!=7){
+			res="%FAILURE: lengths are too big or small!";
+		}
+		// NDC
+		var ndcField=document.forms['aspnetForm'].ctl00_ctl08_ctl00_ctl00_ctl00_ctl04_ctl00_ctl00_qmSmsSend1_ddPrefix;
+		for(i=0;i<ndcField.length;i++){
+			if(ndcField[i].value==_MobnumNDC){
+				ndcField.selectedIndex=i;
+				break;
+			}
+		}
+		// MOBNUM
+		document.forms['aspnetForm'].ctl00$ctl08$ctl00$ctl00$ctl00$ctl04$ctl00$ctl00$qmSmsSend1$txtMsisdn.value=_Mobnum7DIGITS;
+		// MESSAGE
+		document.forms['aspnetForm'].ctl00$ctl08$ctl00$ctl00$ctl00$ctl04$ctl00$ctl00$qmSmsSend1$tbMessage.value=_Message;
+
+		// We need to show our form for captha
+		document.body.style.overflow = 'hidden';
+		var sMyDiv="<div style='position: absolute; z-index:1000; border: 3 solid black;  left:0;top:0;width:expression(document.body.clientWidth);height:expression(document.body.clientHeight); background: white;'>";
+		sMyDiv+="<center>";
+		sMyDiv+="Enter text from this picture:";
+		sMyDiv+="<br>";
+		var sSrc=document.forms['aspnetForm'].all.tags('img')[0].src;
+		sMyDiv+="<img src='"+sSrc+"'>";
+		sMyDiv+="<br>";
+		sMyDiv+="<input type=text name='imgcode' size=10 onKeyDown='if(event.keyCode==13){event.returnValue=false;asendMsg();};'><br><a href='#' onClick='asendMsg();return false;'>";
+		sMyDiv+=">> Continue >>";
+		sMyDiv+="</a></center></div>";
+		document.all['ctl00_ctl08_ctl00_ctl00_ctl00_ctl04_ctl00_ctl00_qmSmsSend1_lbSuccess'].innerHTML=document.all['ctl00_ctl08_ctl00_ctl00_ctl00_ctl04_ctl00_ctl00_qmSmsSend1_lbSuccess'].innerHTML+sMyDiv;
+	}
+}catch(e)
+{
+	res+="%FAILURE: "+e.message;
+};
+
+// Returning result via defaultStatus
+if(res!=""){
+	window.defaultStatus=res+" ["+_MobnumNDC+"/"+_Mobnum7DIGITS+"/"+_Message+"]";
+}
+WndOnLoadScriptEnd
+

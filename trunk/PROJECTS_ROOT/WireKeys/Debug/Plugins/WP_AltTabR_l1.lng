@@ -1,0 +1,17 @@
+AltTabReplacer=Alt-Tab заменитель
+Dscplg_wp_alttabr=Этот плагин позволяет сортировать кнопки таскбара используя drag-n-drop и переключаться между окнами в том порядке, к котором они расположены на таскбаре, независимо от предпоследнего активного окна
+NextWindow=След. окно
+PreviousWindow=Пред. окно
+ReorderButtons=Переместить кнопки
+TaskbarExtender=Улучшатель таскбара
+Popt_addClose_dqblvyyvmy=Добавлять иконку 'Закрыть' к кнопкам таскбара
+Popt_killAppli_dfaruntgbm=Убивать приложение при нажатии на иконку 'Закрыть' вместо обычного закрывания приложения
+Popt_alwaysSug_vjqbytoooe=Предлагать убивать 'Не отвечающие' приложения
+KillThisApplication=Убить это приложение
+ApplicationIsNotResponding=Приложение не отвечает
+ApplicationIsIgnori_QDLCEFPKCF=Приложение не реагирует на команду закрытия
+Popt_activateP_vnwutdeekv=Активировать плагин только если нажат 'Control'
+Popt_allowDrag_kwrtuospaa=Позволять вытаскивание за пределы таскбара в плавающую иконку
+Popt_closeWind_psfegixltx=Закрывать приложение кликом средней кнопки мыши
+Nameplg_wp_alttabr=Заменитель Alt-Tab
+Popt_spaceBetw_rlrcnolyug=Растояние между иконкой 'Закрыть' и краем кнопки

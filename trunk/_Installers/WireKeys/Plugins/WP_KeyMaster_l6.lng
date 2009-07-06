@@ -1,0 +1,31 @@
+;WireKeys plugin 'Key Master' language file - Chinese Simplified
+;translated by Rocky Wolf (rockywolf@etang.com), Jul 2004
+
+Popt_hotkeyGui_pcxahvfqas=快捷键向导窗口不透明度 (百分比)
+Popt_autoRepea_lmfdpohsxy=当按下不放时自动重复快捷键功能
+Popt_thisIsVe_kjmcaipqjo=此功能非常类似于 Windows 的自动重复特性, 但它仅对快捷键有用, 并非针对一般按键
+Popt_distinguis_ubktvvoaft=区分左右键
+Popt_thisOptio_xsmiuksopt=此选项允许分别定义左右 Shift/Ctrl/Alt/Win 修饰键
+Popt_treatMous_wwkixihecb=将鼠标键当作一般按键
+Popt_thisOptio_edbrpggjsx=此选项允许在快捷键中使用鼠标键
+Popt_treatMoni_jfltkdkfwt=将屏幕边角作为一般按键
+Popt_thisOptio_wmlumlwfvd=此选项允许使用屏幕边角作为快捷键的一部分, 例如可以设定鼠标指针移往屏幕右上角时启动屏幕保护程序
+Popt_blockKeyp_umsbirnvmv=阻止 Apps (菜单) 键功能
+Popt_checkThis_dtbfksgtjd=希望使用 Apps 键作快捷键时可选取此项, 此时 Apps 键失去原来的功能
+Popt_blockKeyp_ujlyhknph=阻止 Win 键功能
+Popt_checkThis_lvbrjxhcvo=希望使用 Win 键作快捷键时可选取此项, 此时 Win 键失去原来的功能
+BlockKeypressesOnCa_GMKEXEULIJ=仅 Shift-Caps Lock 切换大小写锁定
+DropCapsLockStateWh_PRBDAXDFEO=Shift-Caps Lock 锁定大写/单击 Shift 取消大写
+DoNotAffectCapsLock=不影响 Caps Lock 键
+Popt_doSpecial_qdcljdpmst=特殊处理 Caps Lock 键
+Popt_hereYouC_fbhyllgral=此选项允许禁用 Caps Lock 键切换大小写锁定, 而以 Shift-Caps Lock 代替 (推荐. 被禁用的 Caps Lock 键可以作为快捷键使用. )
+WiredKeyCombinations=增强的组合键
+Dscplg_wp_keymaster=此插件允许利用特殊的按键组合来创建快捷键
+ShowHotkeysGuide=显示快捷键向导
+TemporarilyBlockHotkeys=暂时禁用快捷键
+WkeyCombinationsOptions=增强组合键选项
+Popt_timeoutFo_fvxtkvqryk=“按住不放”的超时设定
+Popt_howLongY_rkqckvdltd=规定按住快捷键多长时间才被认为是“按住不放”, 以秒计算. 设为 0 则禁用此特性
+AllHotkeysAreDisabled=已禁用所有快捷键
+AllHotkeysAreEnabled=已启用所有快捷键
+Popt_hideMouse_coxctlqapd=打字时隐藏鼠标指针

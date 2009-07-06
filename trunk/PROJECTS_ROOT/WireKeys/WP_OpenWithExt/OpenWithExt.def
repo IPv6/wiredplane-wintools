@@ -1,0 +1,23 @@
+; WP_OpenWithExt.def : Declares the module parameters.
+
+LIBRARY      "OpenWithExt.wkp"
+
+EXPORTS
+DllCanUnloadNow     PRIVATE
+DllGetClassObject   PRIVATE
+DllRegisterServer   PRIVATE
+DllUnregisterServer	PRIVATE
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKGetPluginFunctionHints
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+WKPluginOptions
+;WKPluginPause
+WKGetPluginFunctionHints

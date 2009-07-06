@@ -1,0 +1,2 @@
+;Nota día-a-día. Formato: "Día/Mes/año Texto de la nota de ese día". Ejemplo simple:
+1/1/2005 Feliz año nuevo! Ojalá todo te salga bien este año :)

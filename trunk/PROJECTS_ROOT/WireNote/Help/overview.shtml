@@ -1,0 +1,148 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h1>WireNote Overview</h1><hr>
+<b>Note / Todo / Reminder / LAN Messenger / Address book utility.</b><br>
+This program was created to help in organization of daily work with such features as ToDo/Reminders and sticky notes service along with 
+address book and LAN messenger. The kernel of the program is easy-to-use tree-structured data holder. Such data tree allows you to easily categorize all necessary information.
+You can store any kind of data in different ways and you will be able to access this structure at any time either from main window or from tray icon menu. You`ll never forget anything! :)
+All WireNote windows naturally "dock" to each other when they get near, like Winamp windows. WireNote has a lot of options for every application aspect and has a powerful messaging subsystem.
+This program can be used instead of standard Windows messaging service or Winpopup and can be extended in functionality when used with our other products.
+<br>
+<br> <b>Notes.</b> Note is the small sticker window, which stays on your desktop. 
+New note can be created in different ways - through tray menu, through main window or by pressing a defined hotkey.
+Notes can be used to store some text information about something you don`t want to forget. 
+Notes can be very smart, if you want so. You can attach note to any application window in the system and note will be visible on your screen only when you work with this application, never annoying you with information you don`t need right now. 
+Every note can have their own color code, note can be even semitransparent and auto-semitransparent, when your mouse walks over the note (if you work under windows 2000/Windows XP or higher). Look at screenshots to learn more about note possibilities.  
+<br>
+<br> <b>ToDos.</b> ToDos were designed to coordinate your activity on your workplace by holding any text data in one reachable place.
+ToDo can be created by just one tray click or by pressing a hotkey. ToDo stays in data tree and thus reminds you about things you have to do :)
+You can prioritise your ToDos, calculate an exact time you spend for each ToDo, or can view a report with what was done during last days (a week for example).
+You can also send ToDo to other WireNote user over LAN.
+<br>
+<br> <b>Reminders.</b> Reminder is powerful feature to perform any desired action at specified time or by schedule. 
+Reminder can start any program you want, play a sound, shutdown a computer, send a net message to other users, show ToDo or Note, or just show a small window with text. 
+If WireNote is not running at the reminder time, action will be performed directly after WireNote starts next time.  Reminders can be shared (if you have home LAN, 
+you can install WireNote on all computers and point them to one network folder. After that all shared reminders can be found and used on all computers at the same time),
+you can also send reminder to other WireNote user over LAN.
+<br>
+<br> <b>Messages.</b> WireNote can be used as LAN messenger application, instead of standard Windows messaging service for example.
+All messaging works with recipient name from Address book instead of real computer name (which can be hard to remember, sometimes).
+WireNote automatically keep track on all persons from your address book - who is online and who is not. Messages can be filtered using the set of rules.
+You can send messages through one of the 3 net protocols. Two of them are standard in Windows/Unix LAN networks - netbios and mailslot.
+Such protocols are supported by all WinPopup-like applications, so your online friends don`t have to use WireNote for messaging too.
+Another protocol - Xpc. With XPC power you will be able to attach files to your messages and send/receive them to/from other users!
+The last supported protocol - Billboard. This protocol was specially designed for non-standard LANs with mixed environment, where standard messaging tools simply cannot be used.
+The only required thing for Billboard protocol - shared folder with read/write properties, which must be visible from WireNote users (commonly this is the folder on the central LAN File server, for example).
+Example: one part of the LAN is behind the NAT server or firewall and this firewall/NAT blocks all connections from the inside.
+Using billboard you can publish your reminders/notes and ToDos to other users, connected to the same billboard as well as send them private messages.
+<br>
+<br> <b>Address book.</b> Address book can hold information about other users - their nickname, computer name and additional info.
+Address book is widely used for messaging. All persons from your address book periodically checked for availability for LAN messaging.
+<br>
+<br> <b>Links.</b> This additional feature can be used for fast reaching different documents and locations. You can create any link (to the web-site or any document from your hard disk, for example) just by dragging file from any file manager or other program and dropping it near the corresponding ToDo or note (or independent "Links" folder) in main window.
+As other items, link can be activated from tray icon menu or the main window.
+<br>
+<br> <b>Spam remover.</b> Powerful spam-remover, can support unlimited POP3 accounts, use "TheBat!" compatible spam-files format, can work in training mode. 
+Only message headers are downloaded, not whole emails. Full support for different international encodings<br>
+<br><br>
+<hr><b>Features</b><br>
+- Highly customizable interface<br>
+- Usability: All windows naturally "dock" to each other when they get near. You can undock any docked window by holding down either SHIFT key while dragging it, if you hold down the CONTROL and ALT keys while moving a window, every window will move along with it.<br>
+- Usability: All windows and items can have their own colors and font settings and one of the predefined icons<br>
+- Safety: Items can be deleted to the special trash folder (optional)<br>
+- Safety: All data saved at shutdown and restored at startup, all information saved on per user basis<br>
+- Safety: All data modifications are saved in the background, so you`ll not lose anything if the case of the unforeseen system crash<br>
+- Hotkey key can be assigned to any action ("Win" key permitted)<br>
+<br><br>
+<b>Tray-Icon menu</b><br>
+- Whole data tree can be easily accessed at any time<br>
+- Usability: You can choose which icon (Organizer or Message center or both) must appear in tray menu. Menu items from other icon`s menu will be available through special submenu<br>
+- Current date or day of the week can be depicted over tray icon<br>
+- Different actions can be assigned when user click tray icon with key modifier (Shift/Control/Alt pressed)<br>
+- Main window can be shown automatically when user move mouse over tray icon (optional)<br>
+- Mouse click style can be switched between single- and double-click<br>
+- Icon tooltip can show active ToDos (optional)<br>
+<br><br>
+<b>Main window</b><br>
+- Main window tree can hold any combination of ToDos, Notes, Reminders, Links and Folders<br>
+- Items can be dragged by mouse from one folder to another<br>
+- Every item have their own context menu (just right-click on it)<br>
+- You can quickly set item priority by right-clicking on first column<br> 
+- Click on column title to sort data by selected field<br>
+- To rename item just double-click on it<br>
+<br><br>
+<b>ToDo</b><br>
+- Time, spend on ToDo, can be logged and analyzed (ToDo report feature)<br>
+- If you attach corresponding note to any windows, ToDo will be automatically activated/deactivated with corresponding applications (optional)<br>
+<br><br>
+<b>Note</b><br>
+- Note can be switched in small icon view<br>
+- Note can be attached to any window. This mean that note will be displayed only when you work with corresponding application<br>
+- WireNote can hide Note when user moves mouse over it. Such behavior can be temporarily disabled by holding Alt key<br>
+<br><br>
+<b>Reminder</b><br>
+- Reminder can be repetitive<br>
+- Reminder can be preliminarily tested<br>
+- Reminder can activate/deactivate other reminders or ToDos, send LAN messages and do a lot of other stuff<br>
+<br>
+<b>Message</b><br>
+- To attach file to message you can simply drag it from other applications<br>
+- All messages from single sender can reuse the same message note (optional)<br>
+- WireNote can recognize fraud messages, sended on behalf of different user (optional)<br>
+<br>
+<b>Message Center/Address book</b><br>
+- 4 online statuses (Online/Away/Busy/DND)<br>
+- Autoaway as screensaver (optional)<br>
+- Group users (message to such user will be delivered to every computer in this group)<br>
+- WireNote can automatically answer on all incoming messages when you are away (optional)<br>
+- Automatic answering can be disabled for user that are not from your address book<br>
+- User online statuses updated periodically<br>
+<br>
+<b>Anti-SPAM module</b><br>
+- Unlimited POP3 accounts<br>
+- "TheBat!" compatible spam-files format<br>
+- Training mode<br>
+- Only messages headers are downloaded<br>
+- Ability to automatically download first lines of email and search spam-strings in such lines<br>
+- Full MIME-encoding support for all email fields (different languages and encodings support)<br>
+<br>And absolutely free! But <b>Even though WireNote is freeware</b>, we are highly appreciate any amount of donation. :) So if you like WireNote and find it helpful, 
+please consider sending us a donation to give incentive for future development and improvement. See information on <a href="http://www.wiredplane.com/order.shtml">our web-site</a>
+
+<hr><b>Patterns</b><br>
+For your convenience all application strings such as new Note/ToDo title or body can be formed automatically using patterns.
+Pattern - predefined string beginning with char "%", for example "%CLIP". Patterns will be substituted with the actual value at the run time.
+<br>Possible patterns are:<br>
+Common patterns are:<br>
+- "%DATE": Current date<br>
+- "%TIME": Current time<br>
+- "%YEAR": Current year<br>
+- "%MONTH": Current month<br>
+- "%DAY": Current day<br>
+- "%HOUR": Current hour<br>
+- "%MINUTE": Current minute<br>
+- "%SECOND": Current second<br>
+- "%CLIP": text from clipboard<br>
+<!--hr><b>Trial limitations</b><br>
+- All Notes and ToDos lifetime limited to 7 days<br>
+- Some functions are disabled ("Print note", "Show in tray" and "ToDo report")<br>
+- Nag screen every 6 hours<br-->
+<!-- hr><b>Credits</b><br>
+Thanks to
+<br>- www.rsdn.ru forum members for help
+<br>- 2Los (2Los@land.RU) for some basic controls
+<br>- Timofey Kuzmenko for helpful ideas<br-->
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

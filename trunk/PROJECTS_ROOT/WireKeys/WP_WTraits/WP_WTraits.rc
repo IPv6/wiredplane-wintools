@@ -1,0 +1,259 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS DIALOGEX 0, 0, 248, 306
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTERMOUSE | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "WireKeys plugin - Windows traits options"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,194,289,46,14
+    CTEXT           "Written by Ilja Razinkov @2008",
+                    IDC_STATIC99,4,289,124,14,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_EDIT2,2,100,238,60,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "Hide to tray inactive windows",IDC_MIN2,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFT | BS_VCENTER | WS_TABSTOP,2,4,
+                    132,12
+    LTEXT           "Place one title per line. Use '*' to substitute any substring. Use prefix like 'Minimize', 'Hide', 'Rollup', 'Tray', 'Floater' to specify desired action.\nDefault is ""Hide to tray""\n ------- Example -------\nMinimize: *Bat!\n*Internet Explorer",
+                    IDC_STATIC4,2,20,246,44,SS_SUNKEN
+    EDITTEXT        IDC_INACTSEC,196,4,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Inactivity period",IDC_STATICP,140,4,52,12,
+                    SS_CENTERIMAGE
+    LTEXT           "sec",IDC_STATIC5,224,4,20,12,SS_CENTERIMAGE
+    RTEXT           "Add title",IDC_STATIC_ADDT,8,80,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_NEWT,60,80,84,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_WAYS,148,80,48,56,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_BUTTON_ADD,200,80,40,12
+    LTEXT           "To remove title, simple delete line from the text above",
+                    IDC_STATIC_RDSC,4,268,240,16
+    GROUPBOX        "Add new title",IDC_STATIC_ADDF,2,68,240,28
+    PUSHBUTTON      "Options",IDOPTIONS,138,289,52,14
+    LTEXT           "Enter titles of applications that should minimize to tray instead of taskbar",
+                    IDC_STATIC_AH_TRAY,8,172,232,16
+    LTEXT           "Enter titles of applications that should minimize to tray instead of taskbar",
+                    IDC_STATIC_AH_FL,8,208,232,16
+    EDITTEXT        IDC_EDIT3,8,192,232,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,8,228,232,12,ES_AUTOHSCROLL
+    GROUPBOX        "Static",IDC_STATIC_SBLOCK,2,164,240,100
+    LTEXT           "Tips: You can use '*' for partial match. Delimit titles with ';'",
+                    IDC_STATIC_RDSC2,8,244,228,16
+END
+
+IDD_OPT_DIALOG2 DIALOGEX 0, 0, 244, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,192,142,48,14
+    LTEXT           "Here you can find names of applications, whose windows will be automatically docked to one or more borders of the screen ",
+                    IDC_STATIC_M,60,4,180,24
+    CONTROL         "Left",IDC_CHECK_L,"Button",BS_AUTOCHECKBOX | BS_VCENTER | 
+                    WS_TABSTOP,60,33,44,12
+    CONTROL         "Right",IDC_CHECK_R,"Button",BS_AUTOCHECKBOX | 
+                    BS_VCENTER | WS_TABSTOP,110,33,47,12
+    CONTROL         "Top",IDC_CHECK_T,"Button",BS_AUTOCHECKBOX | BS_VCENTER | 
+                    WS_TABSTOP,4,17,52,14
+    CONTROL         "Bottom",IDC_CHECK_B,"Button",BS_AUTOCHECKBOX | 
+                    BS_VCENTER | WS_TABSTOP,4,33,52,14
+    PUSHBUTTON      "Remove",IDC_BT_REM,192,68,48,14
+    LISTBOX         IDC_LIST,4,65,184,71,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "Move up",IDC_BT_UP,192,88,48,14
+    PUSHBUTTON      "Move down",IDC_BT_DOWN,192,107,48,14
+    PUSHBUTTON      "Add",IDC_BT_ADD,192,49,48,14
+    CTEXT           "Written by Ilja Razinkov @2008",
+                    IDC_STATIC99,4,140,184,14,SS_CENTERIMAGE | SS_SUNKEN
+    EDITTEXT        IDC_EDIT,4,49,184,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Options",IDOPTIONS,192,124,48,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        BOTTOMMARGIN, 305
+    END
+
+    IDD_OPT_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BM_ICON             BITMAP                  "bm_icon.bmp"
+IDB_BM_ICON1            BITMAP                  "bm_icon1.bmp"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "WK Plugin - desktop font controller"
+            VALUE "CompanyName", "WiredPlane Labs"
+            VALUE "FileDescription", "WK Plugin - Windows traits helper"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "WKHelper"
+            VALUE "LegalCopyright", "Copyright (C) 2003"
+            VALUE "LegalTrademarks", "WiredPlane Labs"
+            VALUE "OriginalFilename", "WKHelper.DLL"
+            VALUE "ProductName", "WK Plugin - desktop font controller"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

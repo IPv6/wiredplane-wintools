@@ -1,0 +1,155 @@
+{wp:head}
+category    		{Additional elements} clonable{false} sortc-id{aaa}
+title       		{Wallpaper controls}
+description 		{Adds special buttons on desktop background to set next/previous/random wallpaper}
+render      		{EasyDraw.dll}
+hints       		{ONLINE-STATE=(DONTCARE),RENDER-LAYER=(FG-LAST)}
+tray-items			{PARAM_ROOT}
+tray-transparency	{DATA_OPACITY}
+tray-position		{OC:(1),X:(DATA_XPOS),Y:(DATA_YPOS),W:(DATA_WIDTH),H:(DATA_HEIGHT)}
+
+{wp:define} [PARAM_ROOT]
+	title	{Controls options}
+	type	{root}
+{/wp:define}
+
+{wp:define} [DATA_OPACITY]{70}
+	title	{Opacity (percents)}
+	type	{slider} min{0} max{100}
+{/wp:define}
+
+{wp:define} [ENABLE_BORDER]{0}
+	title	{Show border}
+	type	{bool}
+{/wp:define}
+
+{wp:define} [ENABLE_BLR]{1}
+	title	{Show 'Next/Previous'}
+	type	{bool}
+{/wp:define}
+
+{wp:define} [ENABLE_BRA]{1}
+	title	{Show 'Random'}
+	type	{bool}
+{/wp:define}
+
+{wp:define} [ENABLE_BST]{1}
+	title	{Show 'Enable/Disable timer'}
+	type	{bool}
+{/wp:define}
+
+{wp:define} [SIMAGEFG]{#FFFFFF}
+	title	{Border color}
+	type	{color}
+{/wp:define}
+
+{wp:define} [DATA_SPOS]{0}
+	title	{Set position}
+	type	{set_position} action{OC:(1),X:(DATA_XPOS),Y:(DATA_YPOS),W:(DATA_WIDTH),H:(DATA_HEIGHT)}
+{/wp:define}
+
+{wp:define} [DATA_XPOS]{{wp:expr({screen-ntb-right}-245)}}
+	title	{X Position (pixels)}
+	type	{number} min{0} max{{screenX}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{wp:define} [DATA_YPOS]{{wp:expr({screen-ntb-bottom}-50)}}
+	title	{Y Position (pixels)}
+	type	{number} min{0} max{{screenY}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{wp:define} [DATA_WIDTH]{245}
+	title	{Width (pixels)}
+	type	{number} min{20} max{{screenX}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{wp:define} [DATA_HEIGHT]{40}
+	title	{Height (pixels)}
+	type	{number} min{20} max{{screenY}}
+	parent  {DATA_SPOS} oc{1}
+{/wp:define}
+
+{/wp:head}
+
+{wp:body}
+
+{wp:if condition{{ENABLE_BLR}==1} }
+<image-in-rect>
+X:({wp:expr({DATA_XPOS}+{DATA_WIDTH}/2-70)})
+Y:({DATA_YPOS})
+W:(32)
+H:(32)
+BORDER:({ENABLE_BORDER})
+BORDER-COLOR:({SIMAGEFG})
+OPACITY:({DATA_OPACITY})
+<image-src>$=<BASEPATH>/images/nav/left.gif</image-src>
+INTERACTIVITY:(1)
+<INTERACTIVITY_ACTION>
+HINTS:(WP:SET-WALLPAPER-PREV)
+<TOOLTIP>{wp:translate(comm,SetPrevWallpaper)}</TOOLTIP>
+</INTERACTIVITY_ACTION>
+</image-in-rect>
+{/wp:if}
+
+{wp:if condition{{ENABLE_BRA}==1} }
+<image-in-rect>
+X:({wp:expr({DATA_XPOS}+{DATA_WIDTH}/2-35)})
+Y:({DATA_YPOS})
+W:(32)
+H:(32)
+BORDER:({ENABLE_BORDER})
+BORDER-COLOR:({SIMAGEFG})
+OPACITY:({DATA_OPACITY})
+<image-src>$=<BASEPATH>/images/nav/random.gif</image-src>
+INTERACTIVITY:(1)
+<INTERACTIVITY_ACTION>
+HINTS:(WP:SET-WALLPAPER-RANDOM)
+<TOOLTIP>{wp:translate(comm,SetRandWallpaper)}</TOOLTIP>
+</INTERACTIVITY_ACTION>
+</image-in-rect>
+{/wp:if}
+
+{wp:if condition{{ENABLE_BST}==1} }
+<image-in-rect>
+X:({wp:expr({DATA_XPOS}+{DATA_WIDTH}/2+5)})
+Y:({DATA_YPOS})
+W:(32)
+H:(32)
+BORDER:({ENABLE_BORDER})
+BORDER-COLOR:({SIMAGEFG})
+OPACITY:({DATA_OPACITY})
+<image-src>$=<BASEPATH>/images/nav/onoff.gif</image-src>
+INTERACTIVITY:(1)
+<INTERACTIVITY_ACTION>
+HINTS:(WP:SWITCH-ONOFF)
+<TOOLTIP>{wp:translate(comm,SwitchOnOff)}</TOOLTIP>
+</INTERACTIVITY_ACTION>
+</image-in-rect>
+{/wp:if}
+
+{wp:if condition{{ENABLE_BLR}==1} }
+<image-in-rect>
+X:({wp:expr({DATA_XPOS}+{DATA_WIDTH}/2+40)})
+Y:({DATA_YPOS})
+W:(32)
+H:(32)
+BORDER:({ENABLE_BORDER})
+BORDER-COLOR:({SIMAGEFG})
+OPACITY:({DATA_OPACITY})
+<image-src>$=<BASEPATH>/images/nav/right.gif</image-src>
+INTERACTIVITY:(1)
+<INTERACTIVITY_ACTION>
+HINTS:(WP:SET-WALLPAPER-NEXT)
+<TOOLTIP>{wp:translate(comm,SetNextWallpaper)}</TOOLTIP>
+</INTERACTIVITY_ACTION>
+</image-in-rect>
+{/wp:if}
+
+{wp:if condition{{wc_version}<320} }
+{wp:ShowAlert(Wallpaper controls will work with WireChanger 3.2 and higher only!
+Please, upgrade WireChanger first)/}
+{/wp:if}
+{/wp:body}

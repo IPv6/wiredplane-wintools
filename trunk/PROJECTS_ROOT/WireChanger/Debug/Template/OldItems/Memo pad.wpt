@@ -1,0 +1,196 @@
+$=<TITLE:Memo pad>$=<SHOWINTRAY:*MEMOS_ROOT,TN_PARAM_ROOT>$=<CATEG:Calendars>
+$=<DESCRIPTION:
+Adds simple pad with ToDo list for today.
+Double-click Pad to edit today`s memo text
+>
+tray-transparency{TN_CLN_OPACITY}
+tray-position{OC:(1),X:(TN_CLN_XPOS),Y:(TN_CLN_YPOS),W:(TN_CLN_WIDTH),H:(TN_CLN_HEIGHT)}
+$=<RENDER:EasyDraw.dll>$=<HINTS:RENDER-LAYER=(FG),ONLINE-STATE=(DONTCARE),REFRESH-ON-NEW-DAY,CONTAIN-CONFIDENTIAL-INFO>
+$=<PARDEF:TN_PARAM_ROOT>$=<PARDSC:TN_PARAM_ROOT=Memo pad options>$=<PARTYP:TN_PARAM_ROOT=root>
+
+$=<PARDEF:BIRTHDAYS=1>$=<PARDSC:BIRTHDAYS=Show famous people birthdays>$=<PARTYP:BIRTHDAYS=bool>
+$=<PARDEF:TN_BIRDESC_ED>$=<PARDSC:TN_BIRDESC_ED=Edit birthdays>$=<PARACTION:TN_BIRDESC_ED=Edit[Pickers.dll:EditHoliday;Profile:birth_l{lang}.txt]/>$=<PARTYP:TN_BIRDESC_ED=action>
+
+$=<PARDEF:EVENTSDAYS=1>$=<PARDSC:EVENTSDAYS=Show interesting events for this day>$=<PARTYP:EVENTSDAYS=bool>
+$=<PARDEF:TN_DAYDESC_ED>$=<PARDSC:TN_DAYDESC_ED=Edit interesting events>$=<PARACTION:TN_DAYDESC_ED=Edit[Pickers.dll:EditHoliday;Profile:dates_l{lang}.txt]/>$=<PARTYP:TN_DAYDESC_ED=action>
+$=<PARDEF:TN_BIRCDESC_ED>$=<PARDSC:TN_BIRCDESC_ED=Edit annual events and local holidays>$=<PARACTION:TN_BIRCDESC_ED=Edit[Pickers.dll:EditHoliday;Profile:birthdesc.txt]/>$=<PARTYP:TN_BIRCDESC_ED=action>
+
+$=<PARDEF:TN_CLN_OPACITY=50>$=<PARDSC:TN_CLN_OPACITY=Memo pad opacity (percents)>$=<PARTYP:TN_CLN_OPACITY=slider>$=<PARMIN:TN_CLN_OPACITY=10>$=<PARMAX:TN_CLN_OPACITY=100>
+$=<PARDEF:TN_CLN_INTERACT=1>$=<PARDSC:TN_CLN_INTERACT=Edit memo text on double-clicking memo pad>$=<PARPAR:TN_CLN_INTERACT=CITAT_ROOT>$=<PARTYP:TN_CLN_INTERACT=bool>
+$=<PARDEF:MEMOS_ROOT>$=<PARDSC:MEMOS_ROOT=Add new memo>$=<PARPAR:TN_DAYDESC_ED=CITAT_ROOT>$=<PARACTION:MEMOS_ROOT=Profile:memo.txt/>$=<PARTYP:MEMOS_ROOT=action>
+
+$=<PARDEF:MEMTITLE>$=<PARDSC:MEMTITLE=Memo colors and fonts>$=<PARTYP:MEMTITLE=tip>
+$=<PARDEF:TN_CLN_BG=#FFFFFF>$=<PARDSC:TN_CLN_BG=Background color>$=<PARTYP:TN_CLN_BG=color>
+$=<PARDEF:TN_CLN_FG=#000000>$=<PARDSC:TN_CLN_FG=Foreground color>$=<PARTYP:TN_CLN_FG=color>
+$=<PARDEF:TN_CLN_FS=[fontname]Arial[/fontname][size value="-13"/][weight value="400"/]>$=<PARDSC:TN_CLN_FS=Font of the memo text>$=<PARPAR:TN_CLN_FS=CITAT_ROOT>$=<PARTYP:TN_CLN_FS=font>
+$=<PARDEF:TN_CLN_FSB=[fontname]Arial[/fontname][size value="-15"/][weight value="400"/]>$=<PARDSC:TN_CLN_FSB=Font of the memo title>$=<PARPAR:TN_CLN_FSB=CITAT_ROOT>$=<PARTYP:TN_CLN_FSB=font>
+$=<PARDEF:TN_CLN_FSA=[fontname]Arial[/fontname][size value="-10"/][weight value="400"/]>$=<PARDSC:TN_CLN_FSA=Font of the annual events and birthdays text>$=<PARPAR:TN_CLN_FSA=CITAT_ROOT>$=<PARTYP:TN_CLN_FSA=font>
+$=<PARDEF:TN_CLN_FSC=[fontname]Arial[/fontname][size value="-40"/][weight value="800"/]>$=<PARDSC:TN_CLN_FSC=Font of the day number>$=<PARPAR:TN_CLN_FSC=CITAT_ROOT>$=<PARTYP:TN_CLN_FSC=font>
+
+$=<PARDEF:POS_TIP>$=<PARDSC:POS_TIP=Memo pad size and position>$=<PARTYP:POS_TIP=tip>
+$=<PARDEF:TN_CLN_SPOS>$=<PARDSC:TN_CLN_SPOS=Set memo pad position>$=<PARPAR:TN_CLN_SPOS=TN_PARAM_ROOT>$=<PARTYP:TN_CLN_SPOS=set_position>$=<PARACTION:TN_CLN_SPOS=OC:(1),X:(TN_CLN_XPOS),Y:(TN_CLN_YPOS),W:(TN_CLN_WIDTH),H:(TN_CLN_HEIGHT)/>
+$=<PARDEF:TN_CLN_XPOS=$=<INTEXPR({screenX}-300)>>$=<PARDSC:TN_CLN_XPOS=X Position (pixels)>$=<PARTYP:TN_CLN_XPOS=number>$=<PARMIN:TN_CLN_XPOS=0>$=<PARMAX:TN_CLN_XPOS={screenX}>$=<PAROC:TN_CLN_XPOS=1>$=<PARPAR:TN_CLN_XPOS=TN_CLN_SPOS>
+$=<PARDEF:TN_CLN_YPOS=50>$=<PARDSC:TN_CLN_YPOS=Y Position (pixels)>$=<PARTYP:TN_CLN_YPOS=number>$=<PARMIN:TN_CLN_YPOS=0>$=<PARMAX:TN_CLN_YPOS={screenY}>$=<PAROC:TN_CLN_YPOS=1>$=<PARPAR:TN_CLN_YPOS=TN_CLN_SPOS>
+$=<PARDEF:TN_CLN_WIDTH=250>$=<PARDSC:TN_CLN_WIDTH=Width (pixels)>$=<PARTYP:TN_CLN_WIDTH=number>$=<PARMIN:TN_CLN_WIDTH=120>$=<PARMAX:TN_CLN_WIDTH={screenX}>$=<PAROC:TN_CLN_WIDTH=1>$=<PARPAR:TN_CLN_WIDTH=TN_CLN_SPOS>
+$=<PARDEF:TN_CLN_HEIGHT=300>$=<PARDSC:TN_CLN_HEIGHT=Height (pixels)>$=<PARTYP:TN_CLN_HEIGHT=number>$=<PARMIN:TN_CLN_WIDTH=120>$=<PARMAX:TN_CLN_HEIGHT={screenY}>$=<PAROC:TN_CLN_HEIGHT=1>$=<PARPAR:TN_CLN_HEIGHT=TN_CLN_SPOS>
+
+$=<HASH:C5F230611829B5D689CBAAEFCEED4327>
+
+{wp:body}
+<text-in-rect><!-- Memo text -->
+<TEXT-STYLE>
+X:($=<PAR:TN_CLN_XPOS>)
+Y:($=<PAR:TN_CLN_YPOS>)
+W:($=<PAR:TN_CLN_WIDTH>)
+H:($=<PAR:TN_CLN_HEIGHT>)
+SHADOW:($=<PAR:TN_CLN_SHADOW>)
+BORDER:(1)
+BG-RECT-OFFSETS:(7)
+BG-IMAGE:($=<BASEPATH>/images/memopad-bg.gif)
+IMAGE-BORDERS:(8)
+VALIGN:(TOP)
+HALIGN:(LEFT)
+TEXT-Y-OFFSET:(60)
+TEXT-CLIPY-OFFSET:(-30)
+TEXT-X-OFFSET:(10)
+TEXT-COLOR:($=<PAR:TN_CLN_FG>)
+BG-COLOR:($=<PAR:TN_CLN_BG>)
+FONT:($=<PAR:TN_CLN_FS>)
+OPACITY:($=<PAR:TN_CLN_OPACITY>)
+HINTS:(FULL-HEIGHT-BG,CLIP-TEXT)
+</TEXT-STYLE>
+INTERACTIVITY:($=<PAR:TN_CLN_INTERACT>)
+<INTERACTIVITY_ACTION>
+HINTS:(USE-NOTE-AS-EDITOR,TITLE-DISABLED,NOSIZE,NOMOVE,REDRAW-AFTER-EDIT,FULL-WND-EDIT,NO-COLOR-SELECT,NO-ICON)
+X:($=<PAR:TN_CLN_XPOS>)
+Y:($=<PAR:TN_CLN_YPOS>)
+W:($=<PAR:TN_CLN_WIDTH>)
+H:($=<PAR:TN_CLN_HEIGHT>)
+TITLE:($=<LOCAL_DATE>)
+EDIT-FILE:(Profile:memo.txt)
+FG:($=<PAR:TN_CLN_FG>)
+BG:($=<PAR:TN_CLN_BG>)
+</INTERACTIVITY_ACTION>
+<!-- Will Look for '$=<DAY>/$=<MONTH> ' and for 'W$=<WEEKDAY>_$=<WEEKNUM>/$=<MONTH> ' additionally -->
+<text-to-draw>
+$=<IF:$=<PAR:EVENTSDAYS>==1?
+$=<TEXTLINE(Profile:dates_l{lang}.txt,'$=<WEEKDAY>_$=<WEEKNUM>/$=<MONTH> ')>
+$=<TEXTLINE(Profile:dates_l{lang}.txt,'$=<DAY>/$=<MONTH> ')>
+$=<TEXTLINE(comm_l{lang}.txt,TODO=)>:/IF>
+$=<INCLUDE(Profile:memo.txt)>
+</text-to-draw>
+<text-transform-trimwhitespaces/>
+<text-transform-tags-to-text/>
+<text-transform-skiptags/>
+</text-in-rect>
+
+<text-in-rect><!-- Date-->
+X:($=<INTEXPR($=<PAR:TN_CLN_XPOS>+5)>)
+Y:($=<INTEXPR($=<PAR:TN_CLN_YPOS>+5)>)
+W:(60)
+H:(50)
+SHADOW:(1,S)
+BORDER:(1)
+MARGINS:(0)
+TEXT-COLOR:($=<PAR:TN_CLN_FG>)
+BG-COLOR:($=<PAR:TN_CLN_BG>)
+TEXT_FONT:($=<PAR:TN_CLN_FSC>)
+<text-to-draw>$=<DAY></text-to-draw>
+</text-in-rect>
+
+<text-in-rect><!-- Day of week -->
+X:($=<INTEXPR($=<PAR:TN_CLN_XPOS>+70)>)
+Y:($=<INTEXPR($=<PAR:TN_CLN_YPOS>+5)>)
+W:($=<INTEXPR($=<PAR:TN_CLN_WIDTH>-75)>)
+H:(50)
+VALIGN:(TOP)
+SHADOW:(1,S)
+BORDER:(1)
+MARGINS:(5)
+OPACITY:(10)
+BG-COLOR:($=<PAR:TN_CLN_BG>)
+TEXT-COLOR:($=<PAR:TN_CLN_FG>)
+TEXT_FONT:($=<PAR:TN_CLN_FSB>)
+<text-to-draw>$=<TEXTLINE(comm_l{lang}.txt,$=<WEEKDAY_NAME_FULL>=)></text-to-draw>
+</text-in-rect>
+
+<text-in-rect><!-- Month and year -->
+X:($=<INTEXPR($=<PAR:TN_CLN_XPOS>+70)>)
+Y:($=<INTEXPR($=<PAR:TN_CLN_YPOS>+28)>)
+W:($=<INTEXPR($=<PAR:TN_CLN_WIDTH>-70)>)
+H:(30)
+SHADOW:(0)
+BORDER:(0)
+MARGINS:(2)
+BG-COLOR:($=<PAR:TN_CLN_BG>)
+TEXT-COLOR:($=<PAR:TN_CLN_FG>)
+TEXT_FONT:($=<PAR:TN_CLN_FSB>)
+<text-to-draw>$=<TEXTLINE(comm_l{lang}.txt,$=<MONTH_NAME_FULL>=)>, $=<YEAR></text-to-draw>
+</text-in-rect>
+
+$=<IF:$=<PAR:BIRTHDAYS>==1?
+<text-in-rect><!-- Birthdays -->
+X:($=<PAR:TN_CLN_XPOS>)
+Y:($=<PAR:TN_CLN_YPOS>)
+W:($=<PAR:TN_CLN_WIDTH>)
+H:($=<PAR:TN_CLN_HEIGHT>)
+SHADOW:(1,M)
+BORDER:(0)
+MARGINS:(7)
+TMARGIN:(0)
+TMARGIN:($=<INTEXPR($=<PAR:TN_CLN_HEIGHT>-150)>)
+HALIGN:(CENTER)
+VALIGN:(BOTTOM)
+BG-COLOR:($=<PAR:TN_CLN_BG>)
+TEXT-COLOR:($=<PAR:TN_CLN_FG>)
+TEXT_FONT:($=<PAR:TN_CLN_FSA>)
+<!-- Look for '$=<DAY>/$=<MONTH> ' in 'birth_l{lang}.txt' -->
+<text-to-draw>$=<STRXTR-BEGIN:"; ">$=<TEXTLINE(Profile:birthdesc.txt,'$=<DAY>/$=<MONTH> ')>$=<STRXTR>$=<TEXTLINE(Profile:birth_l{lang}.txt,'$=<DAY>/$=<MONTH> ')>$=<STRXTR-END></text-to-draw>
+</text-in-rect>/IF>
+
+$=<IF:$=<PAR:ADDCALEN>==1?
+<image-in-rect>
+X:($=<INTEXPR($=<PAR:TN_CLN_XPOS>+60)>)
+Y:($=<INTEXPR($=<PAR:TN_CLN_YPOS>+18)>)
+W:(24)
+H:(24)
+OPACITY:(100)
+BORDER:(0)
+<image-src>$=<BASEPATH>/images/calendar.gif</image-src>
+INTERACTIVITY:(1)
+INTERACTIVITY_ACTION:(Edit[Pickers.dll:Show4Months])
+INTERACTIVITY_TOOLTIP:($=<TEXTLINE(comm_l{lang}.txt,Click_for4Months=)>)
+</image-in-rect>
+
+
+<image-in-rect>
+X:($=<INTEXPR($=<PAR:TN_CLN_XPOS>+60)>)
+Y:($=<INTEXPR($=<PAR:TN_CLN_YPOS>+18)>)
+W:(24)
+H:(24)
+OPACITY:(100)
+BORDER:(0)
+<image-src>$=<BASEPATH>/images/calendar.gif</image-src>
+</image-in-rect>
+
+
+<image-in-rect>
+X:($=<PAR:TN_CLN_XPOS>)
+Y:($=<PAR:TN_CLN_YPOS>)
+W:($=<PAR:TN_CLN_WIDTH>)
+H:(70)
+OPACITY:(0)
+BORDER:(0)
+<image-src>$=<BASEPATH>/images/calendar.gif</image-src>
+INTERACTIVITY:(1)
+INTERACTIVITY_TOOLTIP:($=<TEXTLINE(comm_l{lang}.txt,Click_for4Months=)>)
+<INTERACTIVITY_ACTION>
+EDIT-FILE:(Edit[Pickers.dll:Show4Months])
+X:($=<PAR:TN_CLN_XPOS>)
+Y:($=<PAR:TN_CLN_YPOS>)
+W:($=<PAR:TN_CLN_WIDTH>)
+H:(50)
+</INTERACTIVITY_ACTION>
+</image-in-rect>
+/IF>
+{/wp:body}

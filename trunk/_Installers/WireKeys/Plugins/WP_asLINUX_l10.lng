@@ -1,0 +1,16 @@
+Popt_restoreMa_eijmlaeyuo=Restore maximized windows before 'LINUX-Like' movements
+Popt_moveBack_vkpxvbcafb=Przenieœ z powrotem okno gdy zostanie wykryte prawe klikniêcie podczas przenoszenia 'LINUX-Like'
+LinuxLikeWindowsMove=Linux-like windows move
+Dscplg_wp_aslinux=Ten plugin pozwoli Ci przenosiæ okna jak w Linuxie
+LinuxLikeWindowMovingStyle=Linux-like window moving style
+
+DoNothing=Nic nie rób
+RestoreWindow=Przywróæ okno
+DoNotMoveWindow=Nie przenoœ okna
+Popt_whatToDo_xctplnuoby=Co robiæ z zmaksymalizowanymi oknami przy przenoszeniu 'LINUX-Like' 
+ShrinkWindow=Pomniejsz okno
+DragNewRectangleForWindow=Rysuj nowy prostok¹t dla okna
+SetNewWindowSize=Ustaw nowy rozmiar okna
+ExpandWindow=Powiêksz okno
+
+Nameplg_wp_aslinux=Linux-like windows move

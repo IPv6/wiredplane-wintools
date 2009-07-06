@@ -1,0 +1,18 @@
+; WP_AltTabR.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WP_AltTabR"
+DESCRIPTION  'WireKeys 2Text plugin'
+
+EXPORTS
+
+WKGetPluginFunctionCommonDesc
+WKGetPluginFunctionActualDesc
+WKPluginOptionsManager
+WKCallPluginFunction
+GetPluginDsc
+WKPluginStart
+WKPluginInit
+WKPluginStop
+WKGetPluginContainer
+CallWndRetProc
+MouseProc

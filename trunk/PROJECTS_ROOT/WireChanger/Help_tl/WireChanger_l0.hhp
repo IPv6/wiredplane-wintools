@@ -1,0 +1,27 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=WireChanger_l0.chm
+Contents file=Table of Contents.hhc
+Default topic=overview.html
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x409 Английский (США)
+Title=WireChanger
+
+
+[FILES]
+features.html
+overview.html
+registration.html
+faq.html
+dsc_main.html
+dsc_templates.html
+dsc_notes.html
+history.html
+preferences.html
+otherprods.html
+dsc_clocks.html
+license.rtf
+
+[INFOTYPES]
+

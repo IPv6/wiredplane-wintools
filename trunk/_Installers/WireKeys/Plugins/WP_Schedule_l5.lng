@@ -1,0 +1,24 @@
+; translated English version 3.6.4 to German
+; Andreas "Richy" Weidner
+; 03.12.2007
+; ------------------------------------
+
+Scheduler=Zeitplaner
+AddEditReminders=Hinzuf./Bearb. von Erinnerungen
+ShowHideCalendar=Zeigen/Verstecken Kalender
+Popt_toAddMod_bhangcrbtw=Um einen Zeitplan zu Ereignis/Makro/usw. hinzufügen/zu bearbeiten, erweitern Sie den Hotkey für die Aktion und klicken auf den Link "Zeitplan dazu".
+Popt_playSound_msvseiqmtl=Sound abspielen bei geplantem Ereignis
+Popt_soundFile_ilrkahcfib=Sound-Datei
+Week=Woche
+Month=Monat
+Popt_defaultTr_tqeebfcybt=Standard Tray-Kalender-Ansicht
+Nameplg_wp_schedule=Zeitplaner
+Popt_dateForma_cwqbhclojw=Datumsformat
+Popt_usedForA_rfppdtmado=Wird so ins Clipboard übertragen
+ScheduledEvent=Geplantes Ereignis
+AddNewSchedule=Neues Ereignis dazu
+Popt_addSubmen_eihcxrslew=Neues Untermenü mit Erinnerungen ins Tray-Menü
+AddNewReminder=Neue Erinnerung
+ShowCalendar=Zeige Kalender
+Reminders=Erinnerungen
+AttentionTimeHasCome=Achtung! Die Zeit ist ran!

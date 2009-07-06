@@ -1,0 +1,29 @@
+// Title: Append to diary
+// Description: Append selected text to the end of the file, defined in macro parameter.
+// ParamType: File
+
+// Step 1 of 3 - Reading selected text
+var OUTPUT=unescape('%ESCAPED');
+
+// Step 2 of 3 - Open file and write out selected text
+// Hardcoded diary file name
+var sDiaryFileName=unescape("%PARAMETER");
+// Creating File System handler
+var fso = new ActiveXObject('Scripting.FileSystemObject');
+// Standard constants
+var ForReading = 1, ForWriting = 2, ForAppending = 8;
+var TristateUseDefault = -2, TristateTrue = -1, TristateFalse = 0;
+// Opening file
+var ts = fso.OpenTextFile(sDiaryFileName,ForAppending, TristateUseDefault, true);
+// Writing text
+ts.Write("Appended %D.%M.%Y %h.%m.%s:\r\n");
+ts.Write(OUTPUT);
+ts.Write("\r\n\r\n");
+// Closing stream
+ts.Close();
+
+// Answering back...
+OUTPUT="Added OK!";
+
+// Step 3 of 3 - Typing result into WireKeys
+OUTPUT;

@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Acirc;&acirc;&aring;&auml;&aring;&iacute;&egrave;&aring;">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Icirc;&aacute;&ccedil;&icirc;&eth;">
+			<param name="Local" value="overview.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Otilde;&agrave;&eth;&agrave;&ecirc;&ograve;&aring;&eth;&iacute;&ucirc;&aring; &divide;&aring;&eth;&ograve;&ucirc;">
+			<param name="Local" value="features.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Egrave;&ntilde;&ograve;&icirc;&eth;&egrave;&yuml; &egrave;&ccedil;&igrave;&aring;&iacute;&aring;&iacute;&egrave;&eacute;">
+			<param name="Local" value="history.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Auml;&eth;&oacute;&atilde;&egrave;&aring; &iuml;&eth;&icirc;&atilde;&eth;&agrave;&igrave;&igrave;&ucirc;">
+			<param name="Local" value="otherprods.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&times;&agrave;&ntilde;&ograve;&icirc; &ccedil;&agrave;&auml;&agrave;&acirc;&agrave;&aring;&igrave;&ucirc;&aring; &acirc;&icirc;&iuml;&eth;&icirc;&ntilde;&ucirc;">
+			<param name="Local" value="faq.shtml">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Icirc;&iuml;&egrave;&ntilde;&agrave;&iacute;&egrave;&aring;">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Atilde;&euml;&agrave;&acirc;&iacute;&icirc;&aring; &icirc;&ecirc;&iacute;&icirc;">
+			<param name="Local" value="dsc_main.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ccedil;&agrave;&igrave;&aring;&ograve;&ecirc;&egrave; &eth;&agrave;&aacute;&icirc;&divide;&aring;&atilde;&icirc; &ntilde;&ograve;&icirc;&euml;&agrave;">
+			<param name="Local" value="dsc_notes.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Ecirc;&icirc;&euml;&euml;&aring;&ecirc;&ouml;&egrave;&yuml; &divide;&agrave;&ntilde;&icirc;&acirc;">
+			<param name="Local" value="dsc_clocks.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Oslash;&agrave;&aacute;&euml;&icirc;&iacute;&ucirc;">
+			<param name="Local" value="dsc_templates.shtml">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Пресеты">
+			<param name="Local" value="dsc_presets.shtml">
+			</OBJECT>			
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Iacute;&agrave;&ntilde;&ograve;&eth;&icirc;&eacute;&ecirc;&egrave;">
+			<param name="Local" value="preferences.shtml">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Форум поддержки">
+		<param name="URL" value="faq.shtml">
+		<param name="ImageNumber" value="15">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Регистрация">
+		<param name="Local" value="registration.shtml">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Euml;&egrave;&ouml;&aring;&iacute;&ccedil;&egrave;&icirc;&iacute;&iacute;&icirc;&aring; &ntilde;&icirc;&atilde;&euml;&agrave;&oslash;&aring;&iacute;&egrave;&aring;">
+		<param name="Local" value="license.rtf">
+		</OBJECT>
+</UL>
+</BODY></HTML>

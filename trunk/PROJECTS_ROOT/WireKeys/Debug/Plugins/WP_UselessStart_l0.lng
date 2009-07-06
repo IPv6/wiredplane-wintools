@@ -1,0 +1,7 @@
+MemoryUsage=Memory usage
+CpuUsage=CPU usage
+Popt_replaceTe_rnijmqmfov=Replace text on 'Start' button with
+Popt_refreshEv_bdsxloivke=Refresh every ... milliseconds
+UselessStart=Useless 'Start'
+Dscplg_wp_uselessstart=Replaces text on 'Start' button with CPU/Memory usage
+Nameplg_wp_uselessstart=Useless 'Start'

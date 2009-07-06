@@ -1,0 +1,11 @@
+; glprim.def : Declares the module parameters for the DLL.
+
+LIBRARY      "glprim"
+DESCRIPTION  'glprim Windows Dynamic Link Library'
+
+EXPORTS
+
+RenderScript
+GetApplicationLang
+_bmpX
+

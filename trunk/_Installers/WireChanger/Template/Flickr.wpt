@@ -1,0 +1,93 @@
+$=<TITLE:Flickr random image>$=<SHOWINTRAY:PARAM_ROOT>$=<CATEG:Secondary image>$=<SORTCID:bbb>
+tray-transparency{SIMAGEOPACITY}
+tray-position{OC:(1),X:(SIMAGEXPOS),Y:(SIMAGEYPOS),W:(SIMAGEWIDTH),H:(SIMAGEHEIGHT)}
+$=<RENDER:EasyDraw.dll>$=<HINTS:RENDER-LAYER=(FG),ONLINE-STATE=(DONTCARE),CONTAIN-CONFIDENTIAL-INFO>
+$=<PARDEF:PARAM_ROOT>$=<PARDSC:PARAM_ROOT=Flickr image options>$=<PARTYP:PARAM_ROOT=root>
+$=<PARDEF:SIMAGEINTERACT=1>$=<PARDSC:SIMAGEINTERACT=Open web-site on double-clicking image>$=<PARPAR:SIMAGEINTERACT=PARAM_ROOT>$=<PARTYP:SIMAGEINTERACT=bool>
+$=<PARDEF:SIMAGEBORDER=1>$=<PARDSC:SIMAGEBORDER=Show border>$=<PARPAR:SIMAGEBORDER=PARAM_ROOT>$=<PARTYP:SIMAGEBORDER=bool>
+$=<PARDEF:SIMAGEFG=#000000>$=<PARDSC:SIMAGEFG=Border color>$=<PARPAR:SIMAGEFG=PARAM_ROOT>$=<PARTYP:SIMAGEFG=color>
+$=<PARDEF:SIMAGESPOS>$=<PARDSC:SIMAGESPOS=Set position>$=<PARPAR:SIMAGESPOS=PARAM_ROOT>$=<PARTYP:SIMAGESPOS=set_position>$=<PARACTION:SIMAGESPOS=OC:(1),X:(SIMAGEXPOS),Y:(SIMAGEYPOS),W:(SIMAGEWIDTH),H:(SIMAGEHEIGHT)/>
+$=<PARDEF:SIMAGEXPOS=200>$=<PARDSC:SIMAGEXPOS=X Position (pixels)>$=<PARTYP:SIMAGEXPOS=number>$=<PARMIN:SIMAGEXPOS=0>$=<PARMAX:SIMAGEXPOS=$=<SCREEN_X>>$=<PAROC:SIMAGEXPOS=1>$=<PARPAR:SIMAGEXPOS=SIMAGESPOS>
+$=<PARDEF:SIMAGEYPOS=60>$=<PARDSC:SIMAGEYPOS=Y Position (pixels)>$=<PARTYP:SIMAGEYPOS=number>$=<PARMIN:SIMAGEYPOS=0>$=<PARMAX:SIMAGEYPOS=$=<SCREEN_Y>>$=<PAROC:SIMAGEYPOS=1>$=<PARPAR:SIMAGEYPOS=SIMAGESPOS>
+$=<PARDEF:SIMAGEWIDTH=200>$=<PARDSC:SIMAGEWIDTH=Width (pixels)>$=<PARTYP:SIMAGEWIDTH=number>$=<PARMIN:SIMAGEWIDTH=20>$=<PARMAX:SIMAGEWIDTH=$=<SCREEN_X>>$=<PAROC:SIMAGEWIDTH=1>$=<PARPAR:SIMAGEWIDTH=SIMAGESPOS>
+$=<PARDEF:SIMAGEHEIGHT=200>$=<PARDSC:SIMAGEHEIGHT=Height (pixels)>$=<PARTYP:SIMAGEHEIGHT=number>$=<PARMIN:SIMAGEWIDTH=20>$=<PARMAX:SIMAGEHEIGHT=$=<SCREEN_Y>>$=<PAROC:SIMAGEHEIGHT=1>$=<PARPAR:SIMAGEHEIGHT=SIMAGESPOS>
+
+$=<PAR:CUTLINE>
+<hlayout>
+{wp:tiscript}
+	var cacheFile=WireChanger.getUserFolder()+"flickr_cache.img";
+	var content="";
+	var imageURL="http://farm1.static.flickr.com/167/437337869_d9b19b8125_m.jpg";
+	var cacheText="";
+	//Reading Flickr page
+	//First variant - via TIScript sockets
+	//Second variant - via WC helper class
+	//content=WireChanger.getWebPage("http://www.flickr.com/explore/interesting/7days/?");
+	try{
+		var sock = Stream.openSocket( "www.flickr.com:80" , 50);
+		if(sock){
+			sock.println("GET http://www.flickr.com/explore/interesting/7days/? HTTP/1.0");
+			sock.println("User-Agent: IE6 [en]");
+			sock.println("");
+			while( true )
+			{
+				var s = sock.readln();
+				if(s == "undefined"){
+					break;
+				}
+				content+=s;
+			}
+
+			var imglinksRegExp=new RegExp("http:\/\/[^ ]*_m\.jpg","ig");
+			var list=imglinksRegExp.exec(content);
+			if(imglinksRegExp.length>0){
+				imageURL=imglinksRegExp[rand(imglinksRegExp.length)];
+				WireChanger.saveImageToFile(imageURL,cacheFile);
+			}
+		}else{
+			cacheText="$=<TEXTLINE(comm_l$=<LANG>.txt,No_Internet_Found=)>";
+		}
+	}catch(e){
+		cacheText="$=<TEXTLINE(comm_l$=<LANG>.txt,No_Internet_Found=)>";
+	}
+	htmlFinal=cacheText;
+	if(cacheFile.length>0)
+	{
+		var limiter="width: $=<PAR:SIMAGEWIDTH>px";
+		if($=<PAR:SIMAGEWIDTH> > $=<PAR:SIMAGEHEIGHT>)
+		{
+			limiter="height: $=<PAR:SIMAGEHEIGHT>px";
+		}
+		htmlFinal="<img src=\"file://"+cacheFile+"\" style=\"border: $=<PAR:SIMAGEBORDER> solid; border-color: $=<PAR:SIMAGEFG>; "+limiter+"\">";
+	}
+	//WireChanger.alert(htmlFinal);
+{/wp:tiscript}
+<!--
+X:($=<PAR:SIMAGEXPOS>)
+Y:($=<PAR:SIMAGEYPOS>)
+W:($=<PAR:SIMAGEWIDTH>)
+H:($=<PAR:SIMAGEHEIGHT>)
+INTERACTIVITY:($=<PAR:SIMAGEINTERACT>)
+INTERACTIVITY_ACTION:(http://www.flickr.com/explore/interesting/7days/?)
+INTERACTIVITY_TOOLTIP:($=<TEXTLINE(comm_l$=<LANG>.txt,Click_here_Site=)>)
+-->
+<html>
+<head>
+<style>
+html {
+	background-color:transparent;
+	overflow: none;
+}
+</style>
+</head>
+<body>
+<table width=100% height=100% border=0>
+<tr><td align=center valign=center>
+{wp:tiscript}
+	stdout.print(htmlFinal);
+{/wp:tiscript}
+</table>
+</body>
+</html>
+</hlayout>
+

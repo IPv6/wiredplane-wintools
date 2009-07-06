@@ -1,0 +1,39 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="Êðàòêîå îïèñàíèå âîçìîæíîñòåé" -->
+<!--#set var="TOPIC_EN" value="Short overview" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>WireKeys Overview</h2><hr>
+<table border=0><tr><td valign=top>
+WireKeys is an all-in-one tool for power users for automating
+common operations with text, applications, your desktop, and many Windows features. Define
+hotkeys using any keyboard combinations you can devise. You can even include mouse button clicks
+and wheel spins (if your mouse is so equipped) or remote buttons. You can automate and virtually eliminate almost
+all of your daily, repetitive tasks - file and directory manipulation, windows manipulation, text
+replacement, text processing, file uploads and downloads, and more. Extend WireKeys'
+functionality with additional plugins. The four most useful plugins (Window's traits, Autotext,
+special hotkeys support and Macro recorder) are already included in the installation package.
+<br>You can learn more by looking at <a href="features.shtml">Features</a>
+</td></tr></table>
+
+<hr><b>Credits:</b>
+<br>- www.rsdn.ru forum members for help
+<br>- Timofey Kuzmenko for helpful ideas and bug testing
+<br>- Bill Rucker for help in traslation and suggestions
+<br>- Gary Sonnenberg for help in translation and proofreading
+<br>- 2Los (2Los@land.RU) for some controls
+<br>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

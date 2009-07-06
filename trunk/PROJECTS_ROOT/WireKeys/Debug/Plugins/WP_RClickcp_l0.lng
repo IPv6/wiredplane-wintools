@@ -1,0 +1,16 @@
+RightClickPasteEnhancer=Right-click Paste Enhancer
+Dscplg_wp_rclickcp=This plugin will add history of clipboard to all popup menus with Paste item
+Popt_howManyH_usfvisarqn=How many history items add to menus
+Paste=Paste
+Popt_tweakMenu_eyhllikrnc=Tweak menus that contain following items
+Popt_delimitIt_xoxuohipxf=Delimit items with ';' character, for example 'Paste;Copy;Ctrl-V'. You can also type ID`s of the items
+Clipboard=Clipboard
+Popt_tweakAll_ldqofvwlug=Tweak all other menus too
+Popt_tweakAll_recqncckra=Tweak all menus that can`t be tweaked in normal way
+Popt_applicatio_crofgiyeke=Applications that must be tweaked in the alternative way
+Popt_someAppli_scncpfdxbq=Some applications must be handled in special ways, if you have problems with 'Paste' menu, type application name here. Delimit items with ';' character
+ClipboardHistory=Paste history
+Nameplg_wp_rclickcp=Right-click Paste Enhancer
+Popt_replacePa_mkxjvydisd=Replace Paste item instead of adding submenu
+Popt_tweakAll_seiakmbaed=Tweak *all* menus (Ignoring 'Paste' item presence)
+Popt_tweakAll_ahwonrkwoi=Tweak all menus even that can`t be tweaked in normal way

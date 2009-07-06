@@ -1,0 +1,47 @@
+// Title: Folder listing
+// Description: Select folder in explorer and call this macro. You will get listing of files in this folder.
+// Type parameter type (string/file/folder/none)
+// ParamType: none
+
+var sLog="Listing of files:\r\n";
+var	fso = new ActiveXObject("Scripting.FileSystemObject");
+var iTotalCounter=0,iTotalCounterFolder=0;
+function processFolder(fromFolder,toFolder)
+{
+	iTotalCounterFolder++;
+	var f = fso.GetFolder(fromFolder);
+	var ff = new Enumerator(f.files);
+	for (; !ff.atEnd(); ff.moveNext()){
+		sLog+="- "+ff.item()+"\r\n";
+		iTotalCounter++;
+	}
+	var fc = new Enumerator(f.SubFolders);
+	for (; !fc.atEnd(); fc.moveNext()){
+		// For each subfolder
+		processFolder(fc.item(),toFolder);
+	}
+}
+
+function wkMain(selectedText,macroParamenter)
+{// wkMain description: Simply generate listing of files in the selected directory
+	var sFolders=selectedText.split('\n');
+	// Target location...
+	if(sFolders.length>0){
+		sLog+="Selected folders:\r\n"+selectedText+"\r\n\r\n";
+		// For each folder in source...
+		for(i=0;i<sFolders.length;i++){
+			processFolder(sFolders[i],"");
+		}
+	}else{
+		sLog+="No folders selected!\r\n";
+	}
+	var logFile="c:\\wk_filelisting.txt";
+	var ts = fso.OpenTextFile(logFile,2, true, -2);
+	ts.Write(sLog);
+	ts.Write("\r\nResult: listed "+iTotalCounter);
+	ts.Write(" files and "+iTotalCounterFolder+" folders.\r\n\r\n");
+	ts.Close();
+	var WshShell = new ActiveXObject('WScript.Shell');
+	WshShell.Run("notepad.exe "+logFile,1,false);
+	return "";
+};

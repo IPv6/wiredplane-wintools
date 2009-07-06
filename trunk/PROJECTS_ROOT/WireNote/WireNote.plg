@@ -1,0 +1,485 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WireNote - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/WireNote.res" /d "NDEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireNote\WireNote.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP66C.tmp" with contents
+[
+/nologo /MT /W3 /GX /Z7 /Od /Gf /Gy /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_DEBUG2_" /Fr"Release/" /Fp"Release/WireNote.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Find.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_InfoWindow.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_SimpleEdit.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\ItemModif.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\LogActions.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\MiscUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\NoteEditCtrl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\WireNote.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\AddrBook.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Addrbook.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\NewPerson.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Note.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_NoteSettings.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Notesbook.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Newtask.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\TaskHistory.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Reminder.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Reminders.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_About.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_ChooseDate.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Chooser.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_OptionStyles.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Settings.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Emailbox.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Filebox.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Mailslot.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\MessageWrapper.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Netbios.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Rssreader.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\XmlRpc.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\AntiSpamAccount.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_AntiSpam.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Pop3.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\WireNoteDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\DLG_Options.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\IListCtrl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\SYSTEMTR.CPP"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\checksum.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\EXECryptor.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\Stdlik.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\AutoUpdate.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\FileInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\hotkeys.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\InternetUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SysService.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\xml\XMLite.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmallXmlRpcClientServer\exports.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmallXmlRpcClientServer\Utils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmallXmlRpcClientServer\XmlRpcClient.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmallXmlRpcClientServer\XmlRpcCommon.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmallXmlRpcClientServer\XmlRpcServer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP66C.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP66D.tmp" with contents
+[
+/nologo /MT /W3 /GX /Z7 /Od /Gf /Gy /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_DEBUG2_" /Fr"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\md5.c"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\cncb.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SystemInfo.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP66D.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP66E.tmp" with contents
+[
+/nologo /MT /W3 /GX /Z7 /Od /Gf /Gy /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_DEBUG2_" /Fr"Release/" /Fp"Release/WireNote.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP66E.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP66F.tmp" with contents
+[
+Winmm.lib User32.lib ws2_32.lib /nologo /subsystem:windows /pdb:none /machine:I386 /out:"\_WPLabs\_Installers\WireNote\WireNote.exe" 
+.\Release\DLG_Find.obj
+.\Release\DLG_InfoWindow.obj
+.\Release\DLG_SimpleEdit.obj
+.\Release\ItemModif.obj
+.\Release\LogActions.obj
+.\Release\MiscUtils.obj
+.\Release\NoteEditCtrl.obj
+.\Release\WireNote.obj
+.\Release\AddrBook.obj
+.\Release\DLG_Addrbook.obj
+.\Release\NewPerson.obj
+.\Release\DLG_Note.obj
+.\Release\DLG_NoteSettings.obj
+.\Release\Notesbook.obj
+.\Release\DLG_Newtask.obj
+.\Release\TaskHistory.obj
+.\Release\DLG_Reminder.obj
+.\Release\Reminders.obj
+.\Release\DLG_About.obj
+.\Release\DLG_ChooseDate.obj
+.\Release\DLG_Chooser.obj
+.\Release\DLG_OptionStyles.obj
+.\Release\Settings.obj
+.\Release\Emailbox.obj
+.\Release\Filebox.obj
+.\Release\Mailslot.obj
+.\Release\MessageWrapper.obj
+.\Release\Netbios.obj
+.\Release\Rssreader.obj
+.\Release\XmlRpc.obj
+.\Release\AntiSpamAccount.obj
+.\Release\DLG_AntiSpam.obj
+.\Release\Pop3.obj
+.\Release\StdAfx.obj
+.\Release\WireNoteDlg.obj
+.\Release\BMPUtil.obj
+.\Release\DelayLoadFuncs.obj
+.\Release\DLG_Options.obj
+.\Release\IListCtrl.obj
+.\Release\SmartWndSizer.obj
+.\Release\SYSTEMTR.OBJ
+.\Release\checksum.obj
+.\Release\EXECryptor.obj
+.\Release\md5.obj
+.\Release\Stdlik.obj
+.\Release\AutoUpdate.obj
+.\Release\cncb.obj
+.\Release\DataXMLSaver.obj
+.\Release\FileInfo.obj
+.\Release\hotkeys.obj
+.\Release\InternetUtils.obj
+.\Release\SupportClasses.obj
+.\Release\SupportClasses_m1.obj
+.\Release\SysService.obj
+.\Release\SystemInfo.obj
+.\Release\XMLite.obj
+.\Release\exports.obj
+.\Release\Utils.obj
+.\Release\XmlRpcClient.obj
+.\Release\XmlRpcCommon.obj
+.\Release\XmlRpcServer.obj
+.\Release\WireNote.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP66F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DLG_Find.cpp
+DLG_InfoWindow.cpp
+DLG_SimpleEdit.cpp
+ItemModif.cpp
+LogActions.cpp
+MiscUtils.cpp
+Z:\_WPLabs\PROJECTS_ROOT\WireNote\MiscUtils.cpp(448) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+NoteEditCtrl.cpp
+WireNote.cpp
+AddrBook.cpp
+DLG_Addrbook.cpp
+NewPerson.cpp
+DLG_Note.cpp
+DLG_NoteSettings.cpp
+Notesbook.cpp
+DLG_Newtask.cpp
+TaskHistory.cpp
+DLG_Reminder.cpp
+Reminders.cpp
+DLG_About.cpp
+DLG_ChooseDate.cpp
+Generating Code...
+Compiling...
+DLG_Chooser.cpp
+DLG_OptionStyles.cpp
+Settings.cpp
+Emailbox.cpp
+Online registration check disabled...
+Filebox.cpp
+Mailslot.cpp
+MessageWrapper.cpp
+Netbios.cpp
+Rssreader.cpp
+Z:\_WPLabs\PROJECTS_ROOT\WireNote\Netbios.cpp(288):ME - must find замена
+XmlRpc.cpp
+AntiSpamAccount.cpp
+DLG_AntiSpam.cpp
+Pop3.cpp
+WireNoteDlg.cpp
+BMPUtil.cpp
+DelayLoadFuncs.cpp
+DLG_Options.cpp
+IListCtrl.cpp
+SYSTEMTR.CPP
+checksum.cpp
+Generating Code...
+Compiling...
+EXECryptor.cpp
+Stdlik.cpp
+AutoUpdate.cpp
+DataXMLSaver.cpp
+FileInfo.cpp
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+hotkeys.cpp
+InternetUtils.cpp
+Add safe-threadness
+SupportClasses.cpp
+SupportClasses_m1.cpp
+SysService.cpp
+XMLite.cpp
+exports.cpp
+Utils.cpp
+XmlRpcClient.cpp
+XmlRpcCommon.cpp
+XmlRpcServer.cpp
+Generating Code...
+Compiling...
+SmartWndSizer.cpp
+Generating Code...
+Compiling...
+md5.c
+Generating Code...
+Compiling...
+cncb.cpp
+SystemInfo.cpp
+Generating Code...
+Linking...
+   Creating library \_WPLabs\_Installers\WireNote\WireNote.lib and object \_WPLabs\_Installers\WireNote\WireNote.exp
+
+
+
+<h3>Results</h3>
+WireNote.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: WireNote - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/WireNote.res" /d "_DEBUG" "Z:\_WPLabs\PROJECTS_ROOT\WireNote\WireNote.rc"" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP674.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "WINNT" /D "_DEBUG2_" /FR /Fp"Debug/WireNote.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Find.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_InfoWindow.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_SimpleEdit.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\ItemModif.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\LogActions.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\MiscUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\NoteEditCtrl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\AddrBook.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Addrbook.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\NewPerson.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Note.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_NoteSettings.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Notesbook.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Newtask.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\TaskHistory.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Reminder.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Reminders.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_About.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_ChooseDate.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_Chooser.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_OptionStyles.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Settings.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Emailbox.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Filebox.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Mailslot.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\MessageWrapper.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Netbios.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\Rssreader.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\XmlRpc.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\AntiSpamAccount.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\DLG_AntiSpam.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Pop3.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\WireNoteDlg.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\BMPUtil.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\BitmapUtils\DelayLoadFuncs.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\DLG_Options.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\IListCtrl.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\GUIClasses\SYSTEMTR.CPP"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\checksum.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\EXECryptor.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\Stdlik.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\AutoUpdate.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\DataXMLSaver.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\FileInfo.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\hotkeys.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\InternetUtils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SupportClasses_m1.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SysService.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\xml\XMLite.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmallXmlRpcClientServer\exports.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmallXmlRpcClientServer\Utils.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmallXmlRpcClientServer\XmlRpcClient.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmallXmlRpcClientServer\XmlRpcCommon.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmallXmlRpcClientServer\XmlRpcServer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP674.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP675.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "WINNT" /D "_DEBUG2_" /D "_NOUNLIM_" /FR /Fp"Debug/WireNote.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\WireNote.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP675.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP676.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "WINNT" /D "_DEBUG2_" /FR /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SmartWndSizer\SmartWndSizer.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\Lik\md5.c"
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\cncb.cpp"
+"Z:\_WPLabs\PROJECTS_ROOT\SmartWires\SystemUtils\SystemInfo.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP676.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP677.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "WINNT" /D "_DEBUG2_" /FR /Fp"Debug/WireNote.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\_WPLabs\PROJECTS_ROOT\WireNote\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP677.tmp" 
+Creating temporary file "C:\DOCUME~1\We\LOCALS~1\Temp\RSP678.tmp" with contents
+[
+User32.lib ws2_32.lib Winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"WireNote.pdb" /debug /machine:I386 /out:"Debug/WireNote.exe" /pdbtype:sept 
+.\Debug\DLG_Find.obj
+.\Debug\DLG_InfoWindow.obj
+.\Debug\DLG_SimpleEdit.obj
+.\Debug\ItemModif.obj
+.\Debug\LogActions.obj
+.\Debug\MiscUtils.obj
+.\Debug\NoteEditCtrl.obj
+.\Debug\WireNote.obj
+.\Debug\AddrBook.obj
+.\Debug\DLG_Addrbook.obj
+.\Debug\NewPerson.obj
+.\Debug\DLG_Note.obj
+.\Debug\DLG_NoteSettings.obj
+.\Debug\Notesbook.obj
+.\Debug\DLG_Newtask.obj
+.\Debug\TaskHistory.obj
+.\Debug\DLG_Reminder.obj
+.\Debug\Reminders.obj
+.\Debug\DLG_About.obj
+.\Debug\DLG_ChooseDate.obj
+.\Debug\DLG_Chooser.obj
+.\Debug\DLG_OptionStyles.obj
+.\Debug\Settings.obj
+.\Debug\Emailbox.obj
+.\Debug\Filebox.obj
+.\Debug\Mailslot.obj
+.\Debug\MessageWrapper.obj
+.\Debug\Netbios.obj
+.\Debug\Rssreader.obj
+.\Debug\XmlRpc.obj
+.\Debug\AntiSpamAccount.obj
+.\Debug\DLG_AntiSpam.obj
+.\Debug\Pop3.obj
+.\Debug\StdAfx.obj
+.\Debug\WireNoteDlg.obj
+.\Debug\BMPUtil.obj
+.\Debug\DelayLoadFuncs.obj
+.\Debug\DLG_Options.obj
+.\Debug\IListCtrl.obj
+.\Debug\SmartWndSizer.obj
+.\Debug\SYSTEMTR.OBJ
+.\Debug\checksum.obj
+.\Debug\EXECryptor.obj
+.\Debug\md5.obj
+.\Debug\Stdlik.obj
+.\Debug\AutoUpdate.obj
+.\Debug\cncb.obj
+.\Debug\DataXMLSaver.obj
+.\Debug\FileInfo.obj
+.\Debug\hotkeys.obj
+.\Debug\InternetUtils.obj
+.\Debug\SupportClasses.obj
+.\Debug\SupportClasses_m1.obj
+.\Debug\SysService.obj
+.\Debug\SystemInfo.obj
+.\Debug\XMLite.obj
+.\Debug\exports.obj
+.\Debug\Utils.obj
+.\Debug\XmlRpcClient.obj
+.\Debug\XmlRpcCommon.obj
+.\Debug\XmlRpcServer.obj
+.\Debug\WireNote.res
+]
+Creating command line "link.exe @C:\DOCUME~1\We\LOCALS~1\Temp\RSP678.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DLG_Find.cpp
+DLG_InfoWindow.cpp
+DLG_SimpleEdit.cpp
+ItemModif.cpp
+LogActions.cpp
+MiscUtils.cpp
+Z:\_WPLabs\PROJECTS_ROOT\WireNote\MiscUtils.cpp(448) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+NoteEditCtrl.cpp
+AddrBook.cpp
+DLG_Addrbook.cpp
+NewPerson.cpp
+DLG_Note.cpp
+DLG_NoteSettings.cpp
+Notesbook.cpp
+DLG_Newtask.cpp
+TaskHistory.cpp
+DLG_Reminder.cpp
+Reminders.cpp
+DLG_About.cpp
+DLG_ChooseDate.cpp
+DLG_Chooser.cpp
+Generating Code...
+Compiling...
+DLG_OptionStyles.cpp
+Settings.cpp
+Emailbox.cpp
+Online registration check disabled...
+Filebox.cpp
+Mailslot.cpp
+MessageWrapper.cpp
+Netbios.cpp
+Rssreader.cpp
+Z:\_WPLabs\PROJECTS_ROOT\WireNote\Netbios.cpp(288):ME - must find замена
+XmlRpc.cpp
+AntiSpamAccount.cpp
+DLG_AntiSpam.cpp
+Pop3.cpp
+WireNoteDlg.cpp
+BMPUtil.cpp
+DelayLoadFuncs.cpp
+DLG_Options.cpp
+IListCtrl.cpp
+SYSTEMTR.CPP
+checksum.cpp
+EXECryptor.cpp
+Generating Code...
+Compiling...
+Stdlik.cpp
+AutoUpdate.cpp
+DataXMLSaver.cpp
+FileInfo.cpp
+-- добавить поддержку определения изменения даты/размера файла и автоперечитывания --
+hotkeys.cpp
+InternetUtils.cpp
+Add safe-threadness
+SupportClasses.cpp
+SupportClasses_m1.cpp
+SysService.cpp
+XMLite.cpp
+exports.cpp
+Utils.cpp
+XmlRpcClient.cpp
+XmlRpcCommon.cpp
+XmlRpcServer.cpp
+Generating Code...
+Compiling...
+WireNote.cpp
+Compiling...
+SmartWndSizer.cpp
+Generating Code...
+Compiling...
+md5.c
+Generating Code...
+Compiling...
+cncb.cpp
+SystemInfo.cpp
+Generating Code...
+Linking...
+   Creating library Debug/WireNote.lib and object Debug/WireNote.exp
+
+
+
+<h3>Results</h3>
+WireNote.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,9 @@
+WindowSResizer=Ridimensiona finestre
+ResizeActiveWindow=Ridimensiona finestra attiva
+Dscplg_wp_sizewnd=Questo plugin permette di ridimensionare qualsiasi finestra senza tenere conto del tipo di finestra
+DragNewRectangleForWindow=Impostare la nuova dimensione della finestra
+WindowResizedSuccesfully=Finestra ridimensionata con successo
+WindowIsNotResized=Finestra non ridimensionata
+MakeWindowLarger=Ingrandisci finestra
+MakeWindowSmaller=Riduci finestra
+Nameplg_wp_sizewnd=Ridimensiona finestre

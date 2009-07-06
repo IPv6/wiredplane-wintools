@@ -1,0 +1,175 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#include ""res\\WKUtils2.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS_DIALOG DIALOGEX 0, 0, 400, 230
+STYLE DS_3DLOOK | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Options"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Help",IDHELP,7,215,49,14
+    PUSHBUTTON      "Additionally",IDRESET,63,215,63,14
+    CONTROL         "List1",IDC_LPANE,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,7,7,
+                    141,203,WS_EX_ACCEPTFILES | WS_EX_STATICEDGE
+    CONTROL         "List1",IDC_OPTIONSLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,160,7,
+                    232,145,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "Loading preferences...",ID_FOLDERACTIONS1,236,164,140,
+                    12
+    PUSHBUTTON      "...",ID_FOLDERACTIONS2,380,164,12,12
+    DEFPUSHBUTTON   "OK",IDOK,231,215,49,14
+    PUSHBUTTON      "CANCEL",IDCANCEL,287,215,49,14
+    DEFPUSHBUTTON   "Apply",IDAPPLY,343,215,49,14
+    LTEXT           "Initializing dialog...",IDC_QHELP_TXT,164,188,221,15
+    GROUPBOX        "Static",IDC_QHELP,161,175,231,35
+    EDITTEXT        IDC_EDIT_FIND,128,215,72,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Find",IDC_BUTTON_FIND,201,215,28,14
+    CONTROL         "...",ID_TOOLBAR1,"Button",BS_OWNERDRAW | WS_TABSTOP,160,
+                    164,12,12
+    CONTROL         "...",ID_TOOLBAR2,"Button",BS_OWNERDRAW | WS_TABSTOP,172,
+                    164,12,12
+    CONTROL         "...",ID_TOOLBAR3,"Button",BS_OWNERDRAW | WS_TABSTOP,184,
+                    164,12,12
+    CONTROL         "...",ID_TOOLBAR4,"Button",BS_OWNERDRAW | WS_TABSTOP,196,
+                    164,12,12
+    CONTROL         "...",ID_TOOLBAR5,"Button",BS_OWNERDRAW | WS_TABSTOP,208,
+                    164,12,12
+    CONTROL         "...",ID_TOOLBAR6,"Button",BS_OWNERDRAW | WS_TABSTOP,220,
+                    164,12,12
+    CONTROL         "",IDC_SLIDER_VERT,"Static",SS_ETCHEDVERT,152,100,2,30
+    CONTROL         "",IDC_SLIDER_HORZ,"Static",SS_ETCHEDHORZ,267,158,30,2
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904e3"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "WiredPlane.com\0"
+            VALUE "FileDescription", "WireKeys module\0"
+            VALUE "FileVersion", "1.0.0.1\0"
+            VALUE "InternalName", "WKUtils2.dll\0"
+            VALUE "LegalCopyright", "WiredPlane.com\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "WKUtils2.dll\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "WireKeys\0"
+            VALUE "ProductVersion", "1.0.0.1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1251
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#pragma code_page(1251)
+#include "res\WKUtils2.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,457 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="VBScript è JavaScript ìàêðîñû â WireKeys" -->
+<!--#set var="TOPIC_EN" value="VBScript and JavaScript macros in WireKeys" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>WireKeys Macros</h2><hr>
+Macros are used to perform predefined actions. Macro can be called by hotkey or from the quick-run menu or by typing autotext alias.
+Macro can be one of 3 types, application or insertion or text (keyboard).
+<br><br>The first type of macro (<b>application</b>) calls any application with parameters substituted at run-time.
+With this type of macro you can, for example, select an email address in any application and create a new email message 
+with the selected address as the email recipient.  This example macro must have "application path" set to "mailto:" 
+and "parameters" set to "%SELECTED" (without surrounding double quotes). Or you can select a word (or phrase), press just one hotkey, 
+and then see the results of a search for this word in Google.
+
+<br><br>The second type of macro (<b>insertion</b>) inserts line of the text into active application. You can insert one of the following combinations: simple text line, 
+text line+specified text file content, text line+random line of the text from specified file. Both text line and file content can contain patterns.
+This 3 way to insert are:
+<br>1) Simple text. For example you can assign string like "Good luck!" to hotkey Win-I-G. Or string like "%DATE %TIME" - current date/time - to hotkey Win-D
+<br>2) Text File. For example you have office address in the separate file (file can be even on the network
+folder and can be modified by other workers when needed). Pressing hotkey in any document will insert this address into cursor position. If
+defined, file content can be prefixed by specified string. in this case insertion will looks like "string"+"file"
+<br>3) Random text line from text file. For example, you have file with funny phrases or citations, one phrase on each line of text (in this file).
+Calling hotkey of this macro with this file  will insert exactly one citation (random citation!) from such file
+
+<br><br>The third type of macro (<b>text or keyboard</b>) executes special code (written in JavaScript or VBScript) with selected text as the parameter value and puts the result
+back into the active application.  The inline calculator is an example of this type of macro (the only difference is that the calculator script is hard-coded into WireKeys).
+
+<br><br>The core of macro power is <b>patterns</b>. Pattern - predefined string beginning with char '%', for example '%CLIP'. Patterns will be substituted with the 
+actual value at run-time. Using patterns one can create macro that behave differently according to foreground application. Refer to the "Patterns" help page.
+
+<br><br><b>Macro structure</b><br>
+The macro file starts with its title ('<b>// Title:</b>') and description ('<b>// Description:</b>'). The descriptive text will be visible in the preferences window. 
+Additionaly, you can declare macro parameter type by line '// ParamType: String', '// ParamType: File', '// ParamType: Folder' or '// ParamType: None' ('String', 'file name', 'folder' or 'without parameter' accordingly) but this is not required.
+For VBScript-macro one must use Visual Basic comments and macro file must have ".vbs" extension (ot must start with <b>' Language: VBScript</b> string in case of ".wkm" extension).
+Let`s look at the JScript-macro examples at first:
+<br><br>
+<b>Example 1 - simple script, without entry-points</b>
+<pre>
+// Title: Comment/Uncomment
+// Description: Adds or removes comment chars '/*' and '*/' around the selected text.
+// Step 1 of 3 - Reading selected text
+var OUTPUT=unescape('%ESCAPED');
+
+// Step 2 of 3 - Trim comment marks if they are present or add them in other case
+if(OUTPUT.slice(0,2)=='/*' && OUTPUT.slice(-2)=='*/'){
+	OUTPUT=OUTPUT.slice(2,-2);
+}else{
+	OUTPUT='/*'+OUTPUT+'*/';
+}
+
+// Step 3 of 3 - Typing result back into WireKeys
+OUTPUT;
+</pre>
+<lu>
+<li>First step - save selected text into a JavaScript variable with the name 'OUTPUT'. If you expect to use your macro with multiline text, use the 
+"%ESCAPED" pattern instead of "%SELECTED", because "%ESCAPED" will replace linefeed carriage return characters with its JavaScript-safe codes. The 
+JavaScript function <i>unescape</i> converts the escaped string back into normal view (this is happens in the line "var OUTPUT=unescape('%ESCAPED');").
+</li>
+
+<li>Second step - perform desired actions on the string. In the example above, the script will try to detect comment delimiters.  If they are present, they 
+will be trimmed; if not, they will be appended. The result must be placed back in the 'OUTPUT' variable.
+</li>
+
+<li>Last step - return a response.  This step is always the same: the name of the variable whose content will be placed back into the active application. If its content is empty, no text will be returned.
+</li>
+</lu>
+<br><br>
+<b>Example 2 - script with special entry-point function</b>
+<pre>
+// Type title of your macro
+// Title: Sample macro
+// Type description of your macro
+// Description: Sample macro description
+// Type parameter type (string/file/folder/none)
+// ParamType: String
+
+// This is the main function. WireKeys call this function
+// with selected text in 'selectedText' and macro parameter in 'macroParameter'
+function wkMain(selectedText,macroParameter)
+{
+	var OUTPUT=selectedText;
+	
+	// Do whatever is needed. You can use patterns (see Help for details)
+	// But remember that patterns are substituted BEFORE macro starts to work
+	OUTPUT+='Today date is %DAY.%MONTH.%YEAR, time: %HOUR:%MINUTE:%SECOND\r\n';
+	OUTPUT+='Macro parameter: '+macroParameter+'\r\n';
+	for(i=0;i<5;i++){
+		OUTPUT+='Line '+(i+1)+': Hello world!\r\n';
+	};
+	
+	// Returning result back into WireKeys
+	return OUTPUT;
+};
+</pre>
+<lu>
+<li>In this example you can see special function 'wkMain', which will be automatically called by WireKeys
+with selected text and macro parameter (if parameter is present of course)</li>
+</lu>
+<br><br>
+<b>Example 3 - script with several entry-points (each entry-point can be called with separate hotkey)</b>
+<pre>
+// Type title of your macro
+// Title: Sample macro
+// Type description of your macro
+// Description: Sample macro description
+// Type parameter type (string/file/folder/none)
+// ParamType: String
+
+function wkMain(selectedText,macroParameter)
+{// wkMain description: Entry point function number 1
+	return "Result 1";
+};
+
+function wkMain2(selectedText,macroParameter)
+{// wkMain2 description: Entry point function number 2
+	return "Result 2";
+};
+
+function wkMain3(selectedText,macroParameter)
+{// wkMain3 description: Entry point function number 3
+	return "Result 3";
+};
+</pre>
+<lu>
+<li>Pay attention to special comments - <b>"// wkMain description:","// wkMain2 description:","// wkMain3 description:"</b>. They are used as description to corresponding hotkeys in WireKeys preferences
+</li>
+</lu>
+<lu>
+<br><br>
+<b>Additional abilities - saving variables between calls to macro</b>
+<pre>
+function wkMain(selectedText,macroParameter)
+{
+	for(i=0;i<10000;i++){
+	if(WireKeys.GetCookie("TEST_PAUSE")==1){
+		WireKeys.ShowBaloon("Macros paused!!!");
+	}else{
+		s1=WireKeys.GetPixel(100,100);
+		s2=WireKeys.GetCursorPosX();
+		s3=WireKeys.GetCursorPosY();
+		WireKeys.ShowBaloon("Pixel="+s1+"\n X="+s2+"\n Y="+s3);
+	}
+	WireKeys.Sleep(100);
+	}
+	return "";
+};
+
+function wkMain2(selectedText,macroParameter)
+{// wkMain2 description: Pause/Unpause
+	WireKeys.SetCookie("TEST_PAUSE",WireKeys.GetCookie("TEST_PAUSE")==0?1:0);
+	return "";
+};
+</pre>
+<lu>
+<li>Using special commands - WireKeys.SetCookie / WireKeys.GetCookie one can save valuse under named variables ("TEST_PAUSE")
+and retrieve them later (even on next run) for futher processing. In this example second entry point set pause or reset pause for macro in first entry point.
+ To find full list of special functions, provided by WireKeys, check <a href="api.shtml">here</a>
+</li>
+</lu>
+<br><br>
+<lu>
+<li>Visual Basic macro is very similar to JavaScript (in the means of macro structure), except naming conventions and style of comments. Let`s look at the sample macro:</li>
+</lu>
+<pre>
+' Language: VBScript
+' Title: StartedServices
+' Description: This macro shows information about services
+' started on remote or local computer using WMI
+Function wkMain(selectedText)
+strRes = ""
+strComputer = "."
+strRes = "Information about services running on local computer"
+if Len(selectedText) > 0 Then
+	strComputer = selectedText
+	strRes = "Information about services running on " + strComputer
+End if
+strRes = strRes + vbCrLf
+strNamespace = "\root\cimv2"
+strClass = "Win32_Service"
+Set objSWbemServices = GetObject("winmgmts:\\" & strComputer & strNamespace)
+Set colSWbemObjectSet = objSWbemServices.ExecQuery("SELECT * FROM " & strClass)
+For Each objSWbemObject In colSWbemObjectSet
+	if objSWbemObject.State = "Running" Then
+	    strRes = strRes + vbCrLf
+	    strRes = strRes + "Display Name: " & objSWbemObject.DisplayName + vbCrLf
+	    strRes = strRes + "Start Mode:   " & objSWbemObject.StartMode  + vbCrLf
+	End if
+Next
+wkMain=strRes
+End Function
+</pre>
+<br>Another example of VBScript macro, used to convert strings like 'XYZ' to 'X*Y*Z' on-the-fly (it means that you can select text in any window and press hotkey to replace
+it with modified form)
+<pre>
+' Language: VBScript
+' Title: Inserisce asterisco
+' Author: Zoldex
+' Description: Inserisce un asterisco tra le lettere della stringa selezionata
+' ParamType: String
+
+Function wkMain(selectedText)
+dim FinalText, lungh
+
+FinalText = "*"
+lungh = Len(selectedText)
+
+for i = 1 to lungh
+FinalText = FinalText + Mid(Trim((selectedText,i,1)) + "*"
+next
+
+wkMain = FinalText
+end function
+</pre>
+<hr><br>Some of the useful objects that can be used in macro (examples are written in JavaScript):<br>
+<lu>
+<li>Shell object. Interesting methods are Run and Exec.
+<pre>
+//Description: JScript Example. Open MyTextFile.txt in Notepad 
+// as the active Window.  (Includes pause for Windows processing.)
+function Sleep(time)
+{
+	var d = new Date();
+	while((new Date()).getSeconds()-d.getSeconds()&lt;time){
+		// Do nothing :( There is no special JavaScript function to wait for awhile
+	};
+}
+var WshShell = new ActiveXObject('WScript.Shell');
+WshShell.Run("notepad c:\\MyTextFile.txt", 1, false);
+Sleep(2);
+WshShell.AppActivate("MyTextFile");
+WshShell.SendKeys ("Hello world!!");
+</pre>
+</li>
+<li>Another powerful method is SendKeys. Using SendKeys function you can do a lot of useful stuff - move cursor, type words, emulate special keyboard 
+combinations such as Ctrl-S (to save current document for example) and more. Some examples:<br>
+<table width=50% border=1>
+<tr><td>WshShell.SendKeys("^(s)");</td><td>'Ctrl-S' key;</td></tr>
+<tr><td>WshShell.SendKeys("{DOWN}");</td><td>'Down' key;</td></tr>
+<tr><td>WshShell.SendKeys("+{END}");</td><td>'Shift-END' key combination;</td></tr>
+<tr><td>WshShell.SendKeys("%{TAB}");</td><td>'Alt-TAB' combination;</td></tr>
+</table>
+<br>The full list of available keystrokes and their mnemonics can be found here: <a href="http://www.wiredplane.com/wirekeys-help/sendkeys.shtml?from=hhh">SendKeys help on-line</a>.
+<br>You can use "Macro recorder" plugin to record keystrokes in the 'SendKeys' format.
+<br>Look at example of batch image processing with IrfanView that illustrates 'SendKeys' usage: 
+<pre>
+// This is a macro for cropping images in a batch using IrfanView image viewer
+// Open image in IrfanView, select area and call this macro.
+function Sleep(time)
+{
+	var d = new Date();
+	while((new Date()).getSeconds()-d.getSeconds()&lt;time){
+		// Do nothing :( There is no special JavaScript function to wait for awhile
+	};
+}
+
+function wkMain(selectedText,macroParameter)
+{
+	var WshShell = new ActiveXObject('WScript.Shell');
+	// Sending Ctrl-Y (IrfanView`s "crop image to selected" command)
+	WshShell.SendKeys("^(y)");
+	// Sending 's' key (Save picture as ...)
+	WshShell.SendKeys("s");
+	Sleep(2);
+	var count=0;
+	// waiting until user closes "Save as" dialog
+	while(WshShell.AppActivate("Save Picture")==true){
+		count++;
+	}
+	// Sending space key - IrfanView`s "move to the next image" command
+	WshShell.SendKeys(" ");
+	// Return nothing
+	return "";
+};
+</pre>
+</li>
+<li>Other useful functions: Popup and RegRead/RegWrite/RegDelete
+<pre>
+var res='';
+var BtnCode = WshShell.Popup("Do you feel alright?", 7, "Answer This Question:", 4 + 32);
+switch(BtnCode) {
+   case 6:
+      res="Glad to hear you feel alright.";
+      break;
+   case 7:
+      res="Hope you're feeling better soon.";
+      break;
+   case -1:
+      res="Is there anybody out there?";
+      break;
+}
+WshShell.RegWrite ("HKCU\\Software\\WiredPlane\\MacrosTest\\", "Registry - "+res, "REG_SZ");
+</pre>
+</li>
+<li>File system object. Allows one to create, modify, copy and delete files and folders
+<pre>
+fso = new ActiveXObject("Scripting.FileSystemObject");
+fso.CopyFile ("c:\\mydocuments\\letters\\*.doc", "c:\\tempfolder\\")
+var a = fso.CreateTextFile("c:\\testfile.txt", true);
+a.WriteLine("This is a test.");
+a.Close();
+</pre>
+</li>
+</lu>
+<br><br>
+<lu>
+<li>You can call WireKeys function from macro by utilizing WireKeys object:</li>
+</lu>
+<pre>
+function wkMain(selectedText,macroParameter)
+{// wkMain description: Entry point function number 1
+	var selectedTextAgain=WireKeys.Copy();
+	WireKeys.ShowBaloon("Selected text:"+selectedTextAgain);
+	return "";
+};
+</pre>
+To find full list of special functions, provided by WireKeys, check <a href="api.shtml">here</a>
+<hr>
+Full help on all JavaScript and VBScript functions, statements and features can be found here: <b><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/js56jslrfjscriptlanguagereference.asp">JavaScript help on-line</a></b>.
+<br>If you have any questions not covered by this help, you can post them in our <a href="http://www.wiredplane.com/forum/board.php?cat=3&fid=1&s=s" target="_blank">support forum</a>.
+<br>
+<hr><br><b>Short overview of the predefined macros:</b>
+<lu>
+<li>New mail - Select email address and call this macro. WireKeys will open new email message where recipient will be replaced with selected address</li>
+<li>Search google - Select word, call macro, and WireKeys will open browser window with Google search results for selected word</li>
+<li>Append to file - Very useful macro for keeping a diary or gathering information.  Appends selected text to the end of the file 'c:\Diary.txt' in the root folder. You can also set file name in the macro parameter. You can define several macros with separate files but the same macro code file</li>
+<li>Comment/Uncomment - This macro automatically adds or removing comment chars '/*' and '*/' to the selected text</li>
+<li>Drive info - Display hard drive information. Type drive letter, select it and call this macro - you will get full info (free/total size, file system, serial number, etc)</li>
+<li>RecursiveCopy - Transfering all files from selected folder and it`s subfolders into user-defined directory. To run this macro open explorer, select sourse folders and press hotkey. WireKeys will ask for target directory and will copy all files from selected folders into target folder. "_copylog.txt" file will be created with all actions, taken by macro</li>
+</lu>
+<hr><br><b>Some tips:</b>
+<lu>
+<li> You can execute macro or quick-run item from shortcut (or bat/cmd/lnk/js/vbs file) using command line switch "-execute". 
+Example: "WireKeys.exe -execute=XXX" where XXX is the name of the macro or quick-run item. To execute action, set its number prepended with '!' instead of macro name. 
+Example "WireKeys.exe -execute=!15" will eject CD-Rom. To see action numbers look into <a href="qruns.shtml">here</a>. 
+Note: WireKeys must be already started to perform such execution.
+<li> You can also call quick-run or macro by typing predefined text using auto-text plugin. 
+Open plugin preferences and create "Execute" alias with quick-run/macro name (instead of path to the file) as replacement text. 
+Now you are able to start macro/item by simply typing alias in any application.
+<li> You can also call system-related dialogs directly from macro script. 
+See <a href="http://www.robvanderwoude.com/index.html">that page</a> for details
+</lu>
+<hr>
+<br>
+<br>Short description of the main JScript String functions:
+<table border=1 width=100% cellspacing=1 cellpadding=2>
+<tr>
+<td>String Function
+<td>Short description
+<td>Function prototype
+</td>
+</tr>
+<tr>
+<td>charAt
+<td>Returns the character at the specified index.
+<td>strObj.charAt(index)
+</td>
+</tr>
+<tr>
+<td>charCodeAt
+<td>Returns an integer representing the Unicode encoding of the character at the specified location.
+<td>strObj.charCodeAt(index)
+</td>
+</tr>
+<tr>
+<td>concat
+<td>Returns a string value containing the concatenation of two or more supplied strings.
+<td>string1.concat([string2[, string3[, . . . [, stringN]]]])
+</td>
+</tr>
+<tr>
+<td>fromCharCode
+<td>Returns a string from a number of Unicode character values.
+<td>String.fromCharCode([code1[, code2[, ...[, codeN]]]]) 
+</td>
+</tr>
+<tr>
+<td>indexOf
+<td>Returns the character position where the first occurrence of a substring occurs within a String object. 
+<td>strObj.indexOf(subString[, startIndex])
+</td>
+</tr>
+<tr>
+<td>lastIndexOf
+<td>Returns the last occurrence of a substring within a String object.
+<td>strObj.lastIndexOf(substring[, startindex])
+</td>
+</tr>
+<tr>
+<td>match
+<td>Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.
+<td>stringObj.match(rgExp) 
+</td>
+</tr>
+<tr>
+<td>replace
+<td>Returns a copy of a string with text replaced using a regular expression or search string. Full decription of RegExp syntax can be found here:
+<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/js56jsgrpregexpsyntax.asp">http://msdn.microsoft.com/...</a>
+<td>stringObj.replace(rgExp, replaceText). Example: resutl=textToprocess.replace(/text to replace (this|that)/ig,"text to replace with");
+</td>
+</tr>
+<tr>
+<td>search
+<td>Returns the position of the first substring match in a regular expression search.
+<td>stringObj.search(rgExp) 
+</td>
+</tr>
+<tr>
+<td>slice
+<td>Returns a section of a string.
+<td>stringObj.slice(start, [end]) 
+</td>
+</tr>
+<tr>
+<td>split
+<td>Returns the array of strings that results when a string is separated into substrings.
+<td>stringObj.split([separator[, limit]])
+</td>
+</tr>
+<tr>
+<td>substr
+<td>Returns a substring beginning at a specified location and having a specified length.
+<td>stringvar.substr(start [, length ]) 
+</td>
+</tr>
+<tr>
+<td>substring
+<td>Returns the substring at the specified location within a String object. 
+<td>strVariable.substring(start, end)
+</td>
+</tr>
+<tr>
+<td>toLowerCase
+<td>Returns a string where all alphabetic characters have been converted to lowercase.
+<td>strVariable.toLowerCase( )
+</td>
+</tr>
+<tr>
+<td>toUpperCase
+<td>Returns a string where all alphabetic characters have been converted to uppercase.
+<td>strVariable.toUpperCase( )
+</td>
+</tr>
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

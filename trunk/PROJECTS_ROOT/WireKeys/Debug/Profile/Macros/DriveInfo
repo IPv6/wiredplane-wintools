@@ -1,0 +1,38 @@
+// Title: Drive info
+// Description: Hard drive information. Type drive letter, select it and call this macros - you will get full info (free/total size and more)
+// ParamType: Folder
+
+// Step 1 of 3 - Reading selected text
+var OUTPUT=unescape('%ESCAPED');
+
+// Step 2 of 3 - Open drive and read information
+// Disk char
+var sDiskChar=OUTPUT.substr(0,1).toUpperCase();
+// Creating File System handler
+var fso = new ActiveXObject('Scripting.FileSystemObject');
+// Opening drive
+var d = fso.GetDrive(sDiskChar+':\\');
+// Gathering all information
+var AvailSpace=d.TotalSize;
+var FreeSpace=d.FreeSpace;
+var OccupiedSpace=AvailSpace-FreeSpace;
+var t='Unknown';
+// Drive type
+switch (d.DriveType)
+{
+	case 0: t = "Unknown"; break;
+	case 1: t = "Removable"; break;
+	case 2: t = "Fixed"; break;
+	case 3: t = "Network"; break;
+	case 4: t = "CD-ROM"; break;
+	case 5: t = "RAM Disk"; break;
+}
+// Creating output with gathered information
+OUTPUT='Disk: '+sDiskChar+' ('+d.VolumeName+'), Serial number: '+d.SerialNumber+'\r\n';
+OUTPUT+='File system: '+d.FileSystem+', Type: '+t+'\r\n';
+OUTPUT+='Available Space: ' + AvailSpace/1024 + ' Kbytes\r\n';
+OUTPUT+='Free Space: ' + FreeSpace/1024 + ' Kbytes\r\n';
+OUTPUT+='Occupied Space: '+OccupiedSpace/1024+' Kbytes\r\n';
+WireKeys.Alert(OUTPUT);
+// Step 3 of 3 - Typing result back into WireKeys
+OUTPUT="";

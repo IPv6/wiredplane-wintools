@@ -1,0 +1,64 @@
+// Language: WP_MacroRec.wkp
+// Title: Window Control
+// Description: Control window position via hotkeys
+// ParamType: none
+// Hint: No_sound, No_icon;
+
+<wkMain>// wkMain description: Center window
+Command("wnd::set rel=[0] x=[SCREEN_R] y=[SCREEN_B] savesize=[1] center=[1]");
+</wkMain>
+
+<wkMain2>// wkMain2 description: Move Up
+if("%COOKIE:WND_MOVE_MODE%"=="1"){
+	Command("wnd::set rel=[1] x=[0] y=[-50]");
+	return;
+}
+Command("wnd::set rel=[1] x=[0] y=[-10]");
+</wkMain2>
+
+<wkMain3>// wkMain3 description: Move Down
+if("%COOKIE:WND_MOVE_MODE%"=="1"){
+	Command("wnd::set rel=[1] x=[0] y=[50]");
+	return;
+}
+Command("wnd::set rel=[1] x=[0] y=[10]");
+</wkMain3>
+
+<wkMain4>// wkMain4 description: Move Left
+if("%COOKIE:WND_MOVE_MODE%"=="1"){
+	Command("wnd::set rel=[1] x=[-50] y=[0]");
+	return;
+}
+Command("wnd::set rel=[1] x=[-10] y=[0]");
+</wkMain4>
+
+<wkMain5>// wkMain5 description: Move Right
+if("%COOKIE:WND_MOVE_MODE%"=="1"){
+	Command("wnd::set rel=[1] x=[50] y=[0]");
+	return;
+}
+Command("wnd::set rel=[1] x=[10] y=[0]");
+</wkMain5>
+
+<wkMain6>// wkMain6 description: Switch speed (Normal/High)
+if("%COOKIE:WND_MOVE_MODE%"==""){
+	return "%SET:WND_MOVE_MODE=1%";
+}
+return "%RESET:WND_MOVE_MODE%";
+</wkMain6>
+
+<wkMain7>// wkMain7 description: Drop to left side of screen
+Command("wnd::set rel=[0] x=[SCREEN_L] y=[NOCHANGE_T] savesize=[1]");
+</wkMain7>
+
+<wkMain8>// wkMain8 description: Drop to top side of screen
+Command("wnd::set rel=[0] x=[NOCHANGE_L] y=[SCREEN_T] savesize=[1]");
+</wkMain8>
+
+<wkMain9>// wkMain9 description: Drop to right side of screen
+Command("wnd::set rel=[0] x=[SCREEN_R] y=[NOCHANGE_B] savesize=[1] rightbottom=[1]");
+</wkMain9>
+
+<wkMain10>// wkMain10 description: Drop to bottom side of screen
+Command("wnd::set rel=[0] x=[NOCHANGE_R] y=[SCREEN_B] savesize=[1] rightbottom=[1]");
+</wkMain10>

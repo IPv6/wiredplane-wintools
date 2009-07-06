@@ -1,0 +1,3 @@
+;Day-by day note. Format: "Date/Month/Year text of note for that day". Simple example:
+1/1/2005 Nuovo Anno!
+

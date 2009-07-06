@@ -1,0 +1,17 @@
+MacroRecorderPlugin=Makrorekorder PlugIn
+Dscplg_wp_macrorec=Dieses PlugIn erlaubt Dir das Aufzeichnen von Tastendrücken in ein Makro.Du kannst verschiedene Tastendrücke für verschiedene Anwendungen in einer Datei festhalten
+
+ReplayKeystrokesFor_NIFXOHLBMH=Wiederholen von Tastendrücken nur für aktive Anwendung
+SwitchActiveApplica_NRMVQCINNN=Wechsle aktive Anwendung während Makroabspielung wie aufgezeichnet
+IgnoreSwitches=Ignoriere Wechsel
+Popt_recording_xowmthlgik=Aufzeichnen: Wie sollen wechsel zwischen Anwendungen während Makroaufzeichnung wiedergegeben werden
+Popt_hereYouC_aiugsayiij=Hier kannst Du festlegen wie Anwendungswechsel aufgezeichnet werden sollen, z.B. können Tastendrücke seperat aufgezeichnet werden
+Popt_recording_womeomfdos=Aufzeichnen: zeichne Pausen zwischen Tastendrücken ebenfalls auf
+JscriptSendkeys=JScript-SendKeys
+InternalFormat=Internes Format
+Popt_recordFor_rsiloahclo=Aufzeichnungsformat
+Popt_internalF_haoixwkmfk=Internes Format ist stärker - es kann alle Tasten und Mausaktionen aufzeichnen, JScript-SendKeys Format kann nur Tastendrücke aufzeichnen, aber das aufgezeichnete Makro kann ohne WireKeys genutzt werden
+Popt_recording_ctbslbumuc=Aufzeichnen: zeichne Pausen zwischen Tastendrücken auf die grösser sind als (Sek.)
+Popt_afterReco_mrgcdlimus=nach dem Aufzeichnen: Öffne Makro in Texteditor
+Popt_afterReco_feumqsbiuo=nach dem Aufzeichnen: Makro zu WireKeys hinzufügen
+RecordNewMacro=Neues Makro aufzeichnen

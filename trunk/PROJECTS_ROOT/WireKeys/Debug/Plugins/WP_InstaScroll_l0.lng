@@ -1,0 +1,18 @@
+Dscplg_wp_instascroll=This plugin allows you to scroll windows using mouse
+InstantWindowSScrolling=Instant window`s scrolling
+
+InstantScrollingAndFullscreen=Instant scrolling and fullscreen
+ScrollingOptions=Scrolling options
+
+Nameplg_wp_instascroll=Instant window`s scrolling
+LeftShift=Left shift
+LeftAlt=Left alt
+LeftControl=Left control
+LeftWin=Left win
+RightShift=Right shift
+RightAlt=Right alt
+RightControl=Right control
+RightWin=Right win
+ToScrollWindowClick_QSCPWKKOBY=To scroll window click Right mouse and one of this keys
+Smoothness=Smoothness
+SpeedLimit=Speed limit

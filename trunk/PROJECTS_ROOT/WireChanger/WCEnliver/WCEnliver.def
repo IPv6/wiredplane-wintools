@@ -1,0 +1,12 @@
+; WCEnliver.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WCEnliver"
+DESCRIPTION  'WCEnliver Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+StartEnliver
+StopEnliver
+ChangeState
+EnliverOptions
+ChangeBackground

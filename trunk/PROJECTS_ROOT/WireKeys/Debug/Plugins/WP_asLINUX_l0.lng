@@ -1,0 +1,16 @@
+Popt_restoreMa_eijmlaeyuo=Restore maximized windows before 'LINUX-Like' movements
+Popt_moveBack_vkpxvbcafb=Move back window when right-click detected during 'LINUX-Like' movement
+LinuxLikeWindowsMove=Linux-like windows move
+Dscplg_wp_aslinux=This plugin allows you to move windows in Linux-like style
+LinuxLikeWindowMovingStyle=Linux-like window moving style
+
+DoNothing=Do nothing
+RestoreWindow=Restore window
+DoNotMoveWindow=Do not move window
+Popt_whatToDo_xctplnuoby=What to do with maximized windows on 'LINUX-Like' movements
+ShrinkWindow=Shrink window
+DragNewRectangleForWindow=Drag new rectangle for window
+SetNewWindowSize=Set new window size
+ExpandWindow=Expand window
+
+Nameplg_wp_aslinux=Linux-like windows move

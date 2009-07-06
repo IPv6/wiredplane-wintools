@@ -1,0 +1,51 @@
+Используя WireNote вы|помогаете живой природе!|Читайте далее...|http://www.wiredplane.com/ru/wpt-wirenote/donate.php
+Сделайте небольшой вклад в|программу - помогите ее развитию!|http://www.wiredplane.com/ru/wpt-wirenote/donate.php
+Используйте WireNote чтобы|спасти леса от вырубки!|Читайте далее...|http://www.wiredplane.com/ru/wpt-wirenote/donate.php
+Если Вам нравится эта|программа, внесите посильный|вклад в ее развитие|http://www.wiredplane.com/ru/wpt-wirenote/donate.php
+Эту рекламу можно убрать|если помочь развитию программы|http://www.wiredplane.com/ru/wpt-wirenote/donate.php
+Используя WireNote вы|помогаете живой природе!|Читайте далее...|http://www.wiredplane.com/ru/wpt-wirenote/donate.php
+Сделайте небольшой вклад в|программу - помогите ее развитию!|http://www.wiredplane.com/ru/wpt-wirenote/donate.php
+Используйте WireNote чтобы|спасти леса от вырубки!|Читайте далее...|http://www.wiredplane.com/ru/wpt-wirenote/donate.php
+Если Вам нравится эта|программа, внесите посильный|вклад в ее развитие|http://www.wiredplane.com/ru/wpt-wirenote/donate.php
+Эту рекламу можно убрать|если помочь развитию программы|http://www.wiredplane.com/ru/wpt-wirenote/donate.php
+
+Как мышью двигать|кнопки на таскбаре?|http://www.wiredplane.com/wirekeys/
+Как управлять компьютером|рисуя мышью рисунки|на экране?|http://www.wiredplane.com/wirekeys/
+Как добавить в систему|несколько дополнительных|клипбордов?|http://www.wiredplane.com/wirekeys/
+Как делать скриншоты и|автоматически сохранять|их в файл?|http://www.wiredplane.com/wirekeys/
+Как упростить регулярную|печать повторяющегося|текста?|http://www.wiredplane.com/wirekeys/
+Как управлять компьютером|с помощью пульта от|TV Tunerа?|http://www.wiredplane.com/wirekeys/
+Как сделать в системе|несколько виртуальных|десктопов?|http://www.wiredplane.com/wirekeys/
+Как запускать приложения|по нажатию горячей клавиши?|http://www.wiredplane.com/wirekeys/
+Как запускать макросы|по нажатию горячей|клавиши?|http://www.wiredplane.com/wirekeys/
+Как добавить в диалоги|сохранения последние|папки?|http://www.wiredplane.com/wirekeys/
+Как записать нажатия на|клавиши а потом|воспроизвести нажатое?|http://www.wiredplane.com/wirekeys/
+Как запретить окнам выходить|за пределы экрана?|http://www.wiredplane.com/wirekeys/
+Как добавить в контекстное|меню файлов свои пункты?|http://www.wiredplane.com/wirekeys/
+Как скопировать в буфер|путь к выделенному файлу?|http://www.wiredplane.com/wirekeys/
+Как добавить на десктоп|полупрозрачный календарь?|http://www.wiredplane.com/wirechanger/
+Как писать текст прямо|на обоях десктопа?|http://www.wiredplane.com/wirechanger/
+Как автоматически менять|обои через опр. время?|http://www.wiredplane.com/wirechanger/
+Как добавить на десктоп|текущий прогноз погоды?|http://www.wiredplane.com/wirechanger/
+Как добавить на десктоп|свежие новости дня?|http://www.wiredplane.com/wirechanger/
+Как добавить на десктоп|случайную цитату|или высказвание?|http://www.wiredplane.com/wirechanger/
+Как добавить на|десктоп игру 'Lines'?|http://www.wiredplane.com/wirechanger/
+Как добавить на десктоп|красивые часы, идущие|в ногу со временем?|http://www.wiredplane.com/wirechanger/
+Как добавить на десктоп|свежую картинку из интернета?|http://www.wiredplane.com/wirechanger/
+Как добавить на десктоп|картинку сгенерированную|компьютером?|http://www.wiredplane.com/wirechanger/
+Как добавить на десктоп|фрактальное изображение?|http://www.wiredplane.com/wirechanger/
+Как добавить на десктоп|картинку из матрицы?|http://www.wiredplane.com/wirechanger/
+
+;actualtools.com, 11.06
+Как поместить окно в трей|одним кликом?|http://www.actualtools.com/windowminimizer/?referer1=wirenote&referer2=mintotray&referer3=windowminimizer
+Как сделать окно|полупрозрачным?|http://www.actualtools.com/transparentwindow/?referer1=wirenote&referer2=seethrough&referer3=transparentwindow
+Как сделать окно всегда|поверх остальных?|http://www.actualtools.com/titlebuttons/stay_on_top_windows.shtml?referer1=wirenote&referer2=stayontop&referer3=titlebuttons
+Как освободить экран от|лишних окон с сохранением|к ним быстрого доступа?|http://www.actualtools.com/windowrollup/?referer1=wirenote&referer2=freedesktop&referer3=windowrollup
+Как автоматически уменьшать|приоритет неактивных|приложений?|http://www.actualtools.com/windowmanager/?referer1=wirenote&referer2=reducepriority&referer3=windowmanager
+Как автоматически разместить|окна на десктопе?|http://www.actualtools.com/windowguard/?referer1=wirenote&referer2=autoalignresize&referer3=windowguard
+Как сделать окно|"прозрачным" для кликов?|http://www.actualtools.com/windowmanager/?referer1=wirenote&referer2=clickthrough&referer3=windowmanager
+Как автоматически|закрывать ненужные окна?|http://www.actualtools.com/windowguard/?referer1=wirenote&referer2=autoclose&referer3=windowguard
+Как предотвратить|случайное закрытие окна?|http://www.actualtools.com/windowmanager/?referer1=wirenote&referer2=preventclosure&referer3=windowmanager
+Как задать свой заголовок|для любого окна?|http://www.actualtools.com/windowmanager/?referer1=wirenote&referer2=replacecaption&referer3=windowmanager
+
+ 

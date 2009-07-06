@@ -1,0 +1,54 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=WireKeys_l1.chm
+Contents file=Table of Contents.hhc
+Default topic=overview.shtml
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x419 Русский
+Title=WireKeys
+
+
+[FILES]
+api.shtml
+features.shtml
+overview.shtml
+faq.shtml
+history.shtml
+preferences.shtml
+otherprods.shtml
+patterns.shtml
+plugins.shtml
+macros.shtml
+hotkeys.shtml
+registration.shtml
+tutorial.shtml
+qruns.shtml
+styles.css
+c_macro.gif
+c_contm.gif
+c_float1.gif
+c_hist.gif
+c_hotm1.gif
+c_hotm1_2.gif
+c_hotm2.gif
+c_hotm3.gif
+c_hotm4.gif
+c_hotm5.gif
+c_rc_min1.gif
+c_rc_min2.gif
+c_rc_min3.gif
+c_rc_min4.gif
+cc_discover.gif
+cc_mastercard.gif
+cc_visa.gif
+smile.gif
+wc.gif
+wn.gif
+wkplugin.h
+reg_regnow.jpg
+sw_paypal.gif
+license.rtf
+
+[INFOTYPES]
+

@@ -1,0 +1,15 @@
+; WKUtils.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WKUtils"
+DESCRIPTION  'WKUtils - additional functionality for WireKeys'
+
+EXPORTS
+; Explicit exports can go here
+SystemGetOpenedHandles
+SaveBitmapToJpg
+SaveDesktopIcons
+RestoreDesktopIcons
+DXSwitchOverlaySupport
+CallWndRetProc
+DeleteFileNOW
+GetUserInfo
