@@ -1,1 +1,0 @@
-http://lurkmore.ru/Supliser

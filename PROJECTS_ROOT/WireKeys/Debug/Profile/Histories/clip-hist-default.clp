@@ -1,2 +1,0 @@
-sMacrosContent.Replace("[","{[}");
-		sMacrosContent.Replace("]","{]}");
