@@ -1,1 +1,0 @@
-uiTab.selectedIndex=0;

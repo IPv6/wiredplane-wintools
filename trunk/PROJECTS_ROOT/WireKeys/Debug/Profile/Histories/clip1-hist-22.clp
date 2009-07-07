@@ -1,1 +1,0 @@
-http://www.camelot.ru/cat_08-09/index2.php?id=15472

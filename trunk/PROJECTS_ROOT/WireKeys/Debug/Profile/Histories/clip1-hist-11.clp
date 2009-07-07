@@ -1,1 +1,0 @@
-http://vkontakte.ru/photo7312929_120836835

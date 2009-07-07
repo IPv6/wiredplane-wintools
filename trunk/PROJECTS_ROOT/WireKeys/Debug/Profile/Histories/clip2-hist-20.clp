@@ -1,1 +1,0 @@
-	uiTab.appendChild(tmplTabCl);

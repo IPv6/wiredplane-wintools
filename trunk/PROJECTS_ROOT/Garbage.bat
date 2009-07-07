@@ -1,3 +1,4 @@
+del *.res /S
 del *.obj /S
 del *.ncb /S
 del *.opt /S
