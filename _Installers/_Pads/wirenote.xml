@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+<MASTER_PAD_VERSION_INFO>
+  <MASTER_PAD_VERSION>2.00</MASTER_PAD_VERSION>
+  <MASTER_PAD_EDITOR>RoboSoft</MASTER_PAD_EDITOR>
+  <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+</MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-00520DBA0D5</Company_UIN>
+    <Product_UIN>APP-00520D6E17D</Product_UIN>
+    <Search_String>WireNote</Search_String>
+    <Comments_For_Reviewer></Comments_For_Reviewer>
+    <Additional_Categories></Additional_Categories>
+  </RoboSoft>
+  <Company_Info>
+    <Company_Name>WiredPlane.com</Company_Name>
+    <Address_1>pad@wiredplane.com</Address_1>
+    <Address_2></Address_2>
+    <City_Town>Moscow</City_Town>
+    <State_Province></State_Province>
+    <Zip_Postal_Code>117745</Zip_Postal_Code>
+    <Country>Russia</Country>
+    <Company_WebSite_URL>http://www.wiredplane.com/</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name>WiredPlane</Contact_First_Name>
+      <Contact_Last_Name>Labs</Contact_Last_Name>
+      <Contact_Email>pad@wiredplane.com</Contact_Email>
+      <Author_First_Name>WiredPlaneWiredPlane.com</Author_First_Name>
+      <Author_Email>pad@wiredplane.com</Author_Email>
+      <Author_Last_Name></Author_Last_Name>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>pad@wiredplane.com</Sales_Email>
+      <Support_Email>pad@wiredplane.com</Support_Email>
+      <General_Email>pad@wiredplane.com</General_Email>
+      <Sales_Phone>8-916-5468951</Sales_Phone>
+      <Support_Phone>8-916-5468953</Support_Phone>
+      <General_Phone>8-916-5468954</General_Phone>
+      <Fax_Phone>8-916-5468951</Fax_Phone>
+    </Support_Info>
+  </Company_Info>
+  <ASP>
+    <ASP_FORM>Y</ASP_FORM>
+    <ASP_Member>N</ASP_Member>
+    <ASP_Member_Number></ASP_Member_Number>
+  </ASP>
+  <Program_Info>
+    <Program_Name>WireNote</Program_Name>
+    <Program_Version>3.0</Program_Version>
+    <Program_Release_Month>28</Program_Release_Month>
+    <Program_Release_Day>09</Program_Release_Day>
+    <Program_Release_Year>2005</Program_Release_Year>
+    <Program_Cost_Dollars>0</Program_Cost_Dollars>
+    <Program_Cost_Other>0</Program_Cost_Other>
+    <Program_Type>Freeware</Program_Type>
+    <Program_Release_Status>Minor Update</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>Win98,WinME,WinXP,WinNT 3.x,WinNT 4.x,Windows2000</Program_OS_Support>
+    <Program_Language>English,Russian</Program_Language>
+    <File_Info>
+      <Filename_Versioned>wirenote.zip</Filename_Versioned>
+      <Filename_Previous>wirenote.zip</Filename_Previous>
+      <Filename_Generic>wirenote.zip</Filename_Generic>
+      <Filename_Long>wirenote.zip</Filename_Long>
+      <File_Size_Bytes>951114</File_Size_Bytes>
+      <File_Size_K>929</File_Size_K>
+      <File_Size_MB>0.93</File_Size_MB>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info>
+      <Expire_Based_On>Days</Expire_Based_On>
+      <Expire_Count></Expire_Count>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+      <Expire_Year></Expire_Year>
+    </Expire_Info>
+    <Program_Specific_Category>Miscellaneous</Program_Specific_Category>
+    <Program_Categories>Sticky note,Reminders,Lan messaging,ToDo</Program_Categories>
+    <Program_System_Requirements>If your Windows works fine - this is enough</Program_System_Requirements>
+    <Includes_JAVA_VM>N</Includes_JAVA_VM>
+    <Includes_VB_Runtime>N</Includes_VB_Runtime>
+    <Includes_DirectX>N</Includes_DirectX>
+    <Program_Change_Info>Bug fixes</Program_Change_Info>
+    <Program_Cost_Other_Code></Program_Cost_Other_Code>
+    <Limitations></Limitations>
+    <Awards></Awards>
+    <Program_Category_Class></Program_Category_Class>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>http://www.wiredplane.com/wpt-wirenote/</Application_Info_URL>
+      <Application_Order_URL>http://www.wiredplane.com/order/</Application_Order_URL>
+      <Application_Screenshot_URL>http://www.wiredplane.com/images/wn_scr/main.gif</Application_Screenshot_URL>
+      <Application_Icon_URL>http://www.wiredplane.com/images/wn_scr/logo.gif</Application_Icon_URL>
+      <Application_XML_File_URL>http://www.wiredplane.com/download/wirenote.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>http://www.wiredplane.com/download/wirenote.zip</Primary_Download_URL>
+      <Secondary_Download_URL></Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Permissions>
+    <Distribution_Permissions>WireNote is distributed as Freeware.
+To put it on CD/DVD please contact pad@wiredplane.com</Distribution_Permissions>
+    <EULA>WIREDPLANE.com END-USER LICENSE AGREEMENT 
+
+PLEASE CAREFULLY READ THE FOLLOWING TERMS AND CONDITIONS BEFORE USING THIS 
+PRODUCT. IT CONTAINS SOFTWARE, THE USE OF WHICH IS LICENSED BY WIREDPLANE.com 
+TO ITS CUSTOMERS FOR THEIR USE ONLY AS SET FORTH BELOW. BY DOWNLOADING THE 
+SOFTWARE, OPENING THE MEDIA PACKAGE, INSTALLING THE SOFTWARE ON YOUR COMPUTER, 
+OR BY ENTERING A REGISTRATION NUMBER TO ACTIVATE IT, YOU AGREE TO BE BOUND BY 
+ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE WITH THESE 
+TERMS, YOU MUST PROMPTLY DESTROY ALL COPIES OF THE SOFTWARE AND ACCOMPANYING 
+DOCUMENTATION. USING ANY PART OF THE SOFTWARE INDICATES THAT YOU ACCEPT THESE 
+TERMS AND CONDITIONS. 
+
+1. In this agreement, "Software" shall mean the machine readable Software 
+program. The term "Software" shall also include any upgrades, modified versions, 
+updates, additions, and copies of the Software licensed to you by WiredPlane 
+labs. 
+
+2. All copyrights to this software are exclusively owned by the author - 
+Razinkov Ilja - and WiredPlane.com. All title and copyrights in and to the 
+Software, as well as any backup copy made by you, are owned by WiredPlane.com 
+and may be protected by applicable copyright or other intellectual property laws 
+and treaties. Except as stated above, this agreement does not grant you any 
+rights to patents, trade secrets, trademarks, copyrights or any other rights in 
+respect of the Software. 
+
+3. This software is distributed on a freeware basis, for non-commersial use 
+only. The software may be freely distributed, added to any CD compilation or 
+online software repository, provided the distribution package is not modified. 
+No person or company may charge a fee for the distribution of this software 
+without written permission from the copyright holder. 
+
+4. Product maintenance. WiredPlane.com is not obligated to provide you with 
+maintenance or updates for the Software. However, any maintenance or updates 
+provided by WiredPlane.com shall be covered by this agreement. 
+
+5. You may not alter this software in any way. You are also not allowed to 
+emulate, decompile, disassemble or attempting to discover the source code, 
+otherwise reverse engineer any executable part of original package. Any such 
+unauthorized use shall result in immediate and automatic termination of this 
+license and may result in criminal and/or civil prosecution. 
+
+6. Disclaimer of warranty: THIS SOFTWARE IS DISTRIBUTED "AS IS". NO WARRANTY OF 
+ANY KIND IS EXPRESSED OR IMPLIED. YOU USE IT AT YOUR OWN RISK. WE MAY NOT BE 
+HELD LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, 
+PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES 
+FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS 
+INFORMATION) OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE. 
+
+7. This license shall terminate automatically if you fail to comply with the 
+limitations described in this Agreement. No notice shall be required from 
+WiredPlane.com. to effectuate such termination. On termination you must destroy 
+all copies of the Software. 
+
+8. All rights not expressly granted here are reserved by Razinkov Ilja and 
+WiredPlane.com. 
+
+9. Installing and using this software signifies acceptance of these terms and 
+conditions of the license. If you do not agree with the terms of this license 
+you must remove this software from your storage devices and cease to use the 
+product.</EULA>
+  </Permissions>
+  <PADRING>
+    <PADRING_FORM>Y</PADRING_FORM>
+    <PADRING>http://www.wiredplane.com/wirekeys/pad_file.xml
+http://www.wiredplane.com/wirechanger/pad_file.xml</PADRING>
+  </PADRING>
+  <Simtel>
+    <Simtel_FORM>Y</Simtel_FORM>
+    <Simtel_DOS_Category>Select - MS-DOS Platform (blank)</Simtel_DOS_Category>
+    <Simtel_Platform>win95 - Win95/Win98/WinME</Simtel_Platform>
+    <SIMTEL_FORM_VER>1.6 11/26/2002</SIMTEL_FORM_VER>
+    <Simtel_Category>Desktop Sticky Note Programs</Simtel_Category>
+  </Simtel>
+  <TPA>
+    <TPA_FORM>Y</TPA_FORM>
+    <TPA_Member>Y</TPA_Member>
+    <TPA_Member_ID>WIRE</TPA_Member_ID>
+    <Trial_License_Type>Feature-limited trial</Trial_License_Type>
+  </TPA>
+  <Delphi>
+    <D1>FALSE</D1>
+    <D2>FALSE</D2>
+    <D3>FALSE</D3>
+    <D4>FALSE</D4>
+    <D5>FALSE</D5>
+    <D6>FALSE</D6>
+    <D7>FALSE</D7>
+    <BCB1>FALSE</BCB1>
+    <BCB3>FALSE</BCB3>
+    <BCB4>FALSE</BCB4>
+    <BCB5>FALSE</BCB5>
+    <BCB6>FALSE</BCB6>
+    <K1>FALSE</K1>
+    <K2></K2>
+    <K3></K3>
+    <D1_URL></D1_URL>
+    <D2_URL></D2_URL>
+    <D3_URL></D3_URL>
+    <D4_URL></D4_URL>
+    <D5_URL></D5_URL>
+    <D6_URL></D6_URL>
+    <D7_URL></D7_URL>
+    <BCB1_URL></BCB1_URL>
+    <BCB3_URL></BCB3_URL>
+    <BCB4_URL></BCB4_URL>
+    <BCB5_URL></BCB5_URL>
+    <BCB6_URL></BCB6_URL>
+    <K1_URL></K1_URL>
+    <K2_URL></K2_URL>
+    <K3_URL></K3_URL>
+    <Type></Type>
+    <Price></Price>
+    <Source></Source>
+    <File_Location></File_Location>
+    <Link_URL></Link_URL>
+    <Download_URL></Download_URL>
+    <Version></Version>
+    <Notes></Notes>
+  </Delphi>
+  <Affiliates>
+    <Affiliates_FORM>Y</Affiliates_FORM>
+    <Affiliates_VERSION>1.0</Affiliates_VERSION>
+    <Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+    <Affiliates_FORM_VER></Affiliates_FORM_VER>
+    <Affiliates_Information_Page></Affiliates_Information_Page>
+    <Affiliates_BMTMicro_Order_Page></Affiliates_BMTMicro_Order_Page>
+    <Affiliates_BMTMicro_Vendor_ID></Affiliates_BMTMicro_Vendor_ID>
+    <Affiliates_BMTMicro_Product_ID></Affiliates_BMTMicro_Product_ID>
+    <Affiliates_BMTMicro_Maximum_Commission_Rate></Affiliates_BMTMicro_Maximum_Commission_Rate>
+    <Affiliates_DigiBuy_Order_Page></Affiliates_DigiBuy_Order_Page>
+    <Affiliates_DigiBuy_Vendor_ID></Affiliates_DigiBuy_Vendor_ID>
+    <Affiliates_DigiBuy_Product_ID></Affiliates_DigiBuy_Product_ID>
+    <Affiliates_DigiBuy_Maximum_Commission_Rate></Affiliates_DigiBuy_Maximum_Commission_Rate>
+    <Affiliates_DigitalCandle_Order_Page></Affiliates_DigitalCandle_Order_Page>
+    <Affiliates_DigitalCandle_Vendor_ID></Affiliates_DigitalCandle_Vendor_ID>
+    <Affiliates_DigitalCandle_Product_ID></Affiliates_DigitalCandle_Product_ID>
+    <Affiliates_DigitalCandle_Maximum_Commission_Rate></Affiliates_DigitalCandle_Maximum_Commission_Rate>
+    <Affiliates_Emetrix_Order_Page></Affiliates_Emetrix_Order_Page>
+    <Affiliates_Emetrix_Vendor_ID></Affiliates_Emetrix_Vendor_ID>
+    <Affiliates_Emetrix_Product_ID></Affiliates_Emetrix_Product_ID>
+    <Affiliates_Emetrix_Maximum_Commission_Rate></Affiliates_Emetrix_Maximum_Commission_Rate>
+    <Affiliates_eSellerate_Order_Page></Affiliates_eSellerate_Order_Page>
+    <Affiliates_eSellerate_Vendor_ID></Affiliates_eSellerate_Vendor_ID>
+    <Affiliates_eSellerate_Product_ID></Affiliates_eSellerate_Product_ID>
+    <Affiliates_eSellerate_Maximum_Commission_Rate></Affiliates_eSellerate_Maximum_Commission_Rate>
+    <Affiliates_Kagi_Order_Page></Affiliates_Kagi_Order_Page>
+    <Affiliates_Kagi_Vendor_ID></Affiliates_Kagi_Vendor_ID>
+    <Affiliates_Kagi_Product_ID></Affiliates_Kagi_Product_ID>
+    <Affiliates_Kagi_Maximum_Commission_Rate></Affiliates_Kagi_Maximum_Commission_Rate>
+    <Affiliates_NorthStarSol_Order_Page></Affiliates_NorthStarSol_Order_Page>
+    <Affiliates_NorthStarSol_Vendor_ID></Affiliates_NorthStarSol_Vendor_ID>
+    <Affiliates_NorthStarSol_Product_ID></Affiliates_NorthStarSol_Product_ID>
+    <Affiliates_NorthStarSol_Maximum_Commission_Rate></Affiliates_NorthStarSol_Maximum_Commission_Rate>
+    <Affiliates_Order1_Order_Page></Affiliates_Order1_Order_Page>
+    <Affiliates_Order1_Vendor_ID></Affiliates_Order1_Vendor_ID>
+    <Affiliates_Order1_Product_ID></Affiliates_Order1_Product_ID>
+    <Affiliates_Order1_Maximum_Commission_Rate></Affiliates_Order1_Maximum_Commission_Rate>
+    <Affiliates_Osolis_Order_Page></Affiliates_Osolis_Order_Page>
+    <Affiliates_Osolis_Vendor_ID></Affiliates_Osolis_Vendor_ID>
+    <Affiliates_Osolis_Product_ID></Affiliates_Osolis_Product_ID>
+    <Affiliates_Osolis_Maximum_Commission_Rate></Affiliates_Osolis_Maximum_Commission_Rate>
+    <Affiliates_Regnet_Order_Page></Affiliates_Regnet_Order_Page>
+    <Affiliates_Regnet_Vendor_ID></Affiliates_Regnet_Vendor_ID>
+    <Affiliates_Regnet_Product_ID></Affiliates_Regnet_Product_ID>
+    <Affiliates_Regnet_Maximum_Commission_Rate></Affiliates_Regnet_Maximum_Commission_Rate>
+    <Affiliates_Regnow_Order_Page></Affiliates_Regnow_Order_Page>
+    <Affiliates_Regnow_Vendor_ID></Affiliates_Regnow_Vendor_ID>
+    <Affiliates_Regnow_Product_ID></Affiliates_Regnow_Product_ID>
+    <Affiliates_Regnow_Maximum_Commission_Rate></Affiliates_Regnow_Maximum_Commission_Rate>
+    <Affiliates_Regsoft_Order_Page></Affiliates_Regsoft_Order_Page>
+    <Affiliates_Regsoft_Vendor_ID></Affiliates_Regsoft_Vendor_ID>
+    <Affiliates_Regsoft_Product_ID></Affiliates_Regsoft_Product_ID>
+    <Affiliates_Regsoft_Maximum_Commission_Rate></Affiliates_Regsoft_Maximum_Commission_Rate>
+    <Affiliates_ShareIt_Order_Page></Affiliates_ShareIt_Order_Page>
+    <Affiliates_ShareIt_Vendor_ID></Affiliates_ShareIt_Vendor_ID>
+    <Affiliates_ShareIt_Product_ID></Affiliates_ShareIt_Product_ID>
+    <Affiliates_ShareIt_Maximum_Commission_Rate></Affiliates_ShareIt_Maximum_Commission_Rate>
+    <Affiliates_SWReg_Order_Page></Affiliates_SWReg_Order_Page>
+    <Affiliates_SWReg_Vendor_ID></Affiliates_SWReg_Vendor_ID>
+    <Affiliates_SWReg_Product_ID></Affiliates_SWReg_Product_ID>
+    <Affiliates_SWReg_Maximum_Commission_Rate></Affiliates_SWReg_Maximum_Commission_Rate>
+    <Affiliates_V-Share_Order_Page></Affiliates_V-Share_Order_Page>
+    <Affiliates_V-Share_Vendor_ID></Affiliates_V-Share_Vendor_ID>
+    <Affiliates_V-Share_Product_ID></Affiliates_V-Share_Product_ID>
+    <Affiliates_V-Share_Maximum_Commission_Rate></Affiliates_V-Share_Maximum_Commission_Rate>
+    <Affiliates_VFree_Order_Page></Affiliates_VFree_Order_Page>
+    <Affiliates_VFree_Vendor_ID></Affiliates_VFree_Vendor_ID>
+    <Affiliates_VFree_Product_ID></Affiliates_VFree_Product_ID>
+    <Affiliates_VFree_Maximum_Commission_Rate></Affiliates_VFree_Maximum_Commission_Rate>
+    <Affiliates_Yaskifo_Order_Page></Affiliates_Yaskifo_Order_Page>
+    <Affiliates_Yaskifo_Vendor_ID></Affiliates_Yaskifo_Vendor_ID>
+    <Affiliates_Yaskifo_Product_ID></Affiliates_Yaskifo_Product_ID>
+    <Affiliates_Yaskifo_Maximum_Commission_Rate></Affiliates_Yaskifo_Maximum_Commission_Rate>
+  </Affiliates>
+  <Newsfeed>
+    <NewsFeed_FORM>Y</NewsFeed_FORM>
+    <NewsFeed_VERSION>1.0</NewsFeed_VERSION>
+    <NewsFeed_URL>http://Submit-Everywhere.com/extensions/NewsFeed.htm</NewsFeed_URL>
+    <NewsFeed_DESCRIPTION>This PAD extension allows you to add your RSS and Atom news feeds info into your PAD file. This info can be used by RSS feed submission software or by feed directories themselves.</NewsFeed_DESCRIPTION>
+    <NewsFeed_Type>RSS 0.90</NewsFeed_Type>
+    <NewsFeed_Language>English</NewsFeed_Language>
+    <NewsFeed_Purpose>News</NewsFeed_Purpose>
+  </Newsfeed>
+  <Press_Release>
+    <Press_Release></Press_Release>
+  </Press_Release>
+  <Program_Descriptions>
+    <English>
+      <Keywords>Message,Note,ToDo,Reminder,WinPopup,LAN Messenger,SPAM,Junk email</Keywords>
+      <Char_Desc_45>Note/Reminder/LAN Messenger/Todo utility</Char_Desc_45>
+      <Char_Desc_80>Note/Reminder/Messenger/Todo/ utility. Easy-to-use tree-structured data holder</Char_Desc_80>
+      <Char_Desc_250>Note/Todo/Reminder/LAN Messenger/Address book utility. Easy to use tree-structured data holder: You`ll never forget anything! :) Can be used instead of messaging service/WinPopup for LAN. A lot of options for every application aspect</Char_Desc_250>
+      <Char_Desc_450>Note/Todo/Reminder/LAN Messenger/Address book utility. This program was created to help in organization of daily work with 
+such features as ToDo/Reminders and sticky notes service along with address book and LAN messenger. The kernel of the program is easy-to-use tree-structured data holder. This program can be used instead of standard Windows messaging service or WinPopup and can be extended in functionality when used with our other products.</Char_Desc_450>
+      <Char_Desc_2000>Note / Todo / Reminder / LAN Messenger / Address book utility
+This program was created to help in organization of daily work with such features as ToDo/Reminders and sticky notes service along with address book and LAN messenger. The kernel of the program is easy-to-use tree-structured data holder. You can store any kind of data in different ways and you will be able to access this structure at any time either from main window or from tray icon menu. You`ll never forget anything! :) All WireNote windows naturally "dock" to each other when they get near, like Winamp windows. WireNote has a lot of options for every aspect and has a powerful messaging subsystem. This program can be used instead of standard Windows messaging service and can be extended in functionality when used with our other products
+1) Note is the small sticker window, which stays on your desktop. You can stick note to any application window in the system and note will be visible on your screen only when you work with this application, never annoying you with information you don`t need right now. Every note can have their own color, note can be even semitransparent
+2) ToDos were designed to coordinate your activity on your workplace by holding any text data in one place
+3) Reminder can start any program you want, play a sound, shutdown a computer, send a net message to other users, show alert. Reminders can be shared among net users 
+4) WireNote can be used as LAN messenger (instead of messaging service or WinPopup). You will be able to attach files to your messages and send/receive them to/from other users, filter messages
+5) Address book holds information about LAN users - their nickname, computer name and additional info. Address book is widely used for messaging. WireNote automatically keeps track on all persons - who is online and who is not
+6) Links can be used for fast reaching documents and locations
+7) Anti-SPAM module can free your mailbox of junk emails
+And absolutely free!!</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+</XML_DIZ_INFO>
