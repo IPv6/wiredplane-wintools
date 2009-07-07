@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+<MASTER_PAD_VERSION_INFO>
+  <MASTER_PAD_VERSION>2.00</MASTER_PAD_VERSION>
+  <MASTER_PAD_EDITOR>NoneSoft</MASTER_PAD_EDITOR>
+  <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+</MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-00520DBA0D5</Company_UIN>
+    <Product_UIN>APP-03620DDEBF3</Product_UIN>
+	<Search_String>Amulet Adventures game</Search_String>
+    <Comments_For_Reviewer></Comments_For_Reviewer>
+    <Additional_Categories></Additional_Categories>
+  </RoboSoft>
+  <Company_Info>
+    <Company_Name>WiredPlane.com</Company_Name>
+    <Address_1>pad@wiredplane.com</Address_1>
+    <Address_2></Address_2>
+    <City_Town>Moscow</City_Town>
+    <State_Province></State_Province>
+    <Zip_Postal_Code>117745</Zip_Postal_Code>
+    <Country>Russia</Country>
+    <Company_WebSite_URL>http://www.wiredplane.com/</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name>WiredPlane</Contact_First_Name>
+      <Contact_Last_Name>Labs</Contact_Last_Name>
+      <Contact_Email>pad@wiredplane.com</Contact_Email>
+      <Author_First_Name>WiredPlaneWiredPlane.com</Author_First_Name>
+      <Author_Email>pad@wiredplane.com</Author_Email>
+      <Author_Last_Name></Author_Last_Name>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>pad@wiredplane.com</Sales_Email>
+      <Support_Email>pad@wiredplane.com</Support_Email>
+      <General_Email>pad@wiredplane.com</General_Email>
+      <Sales_Phone>8-916-5468951</Sales_Phone>
+      <Support_Phone>8-916-5468953</Support_Phone>
+      <General_Phone>8-916-5468954</General_Phone>
+      <Fax_Phone>8-916-5468951</Fax_Phone>
+    </Support_Info>
+  </Company_Info>
+  <ASP>
+    <ASP_FORM>Y</ASP_FORM>
+    <ASP_Member>N</ASP_Member>
+    <ASP_Member_Number></ASP_Member_Number>
+  </ASP>
+  <Program_Info>
+    <Program_Name>Amulet Adventures</Program_Name>
+    <Program_Version>1.0</Program_Version>
+    <Program_Release_Month>12</Program_Release_Month>
+    <Program_Release_Day>01</Program_Release_Day>
+    <Program_Release_Year>2006</Program_Release_Year>
+    <Program_Cost_Dollars>19.99</Program_Cost_Dollars>
+    <Program_Cost_Other_Code>RUB</Program_Cost_Other_Code>
+    <Program_Cost_Other></Program_Cost_Other>
+    <Program_Type>Shareware</Program_Type>
+    <Program_Release_Status>Major Update</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>WinME,WinXP,Windows2000</Program_OS_Support>
+    <Program_Language>English,Russian</Program_Language>
+    <File_Info>
+      <Filename_Versioned>amulet.zip</Filename_Versioned>
+      <Filename_Previous>amulet.zip</Filename_Previous>
+      <Filename_Generic>amulet.zip</Filename_Generic>
+      <Filename_Long>amulet.zip</Filename_Long>
+      <File_Size_Bytes>11000000</File_Size_Bytes>
+      <File_Size_K>11000</File_Size_K>
+      <File_Size_MB>11</File_Size_MB>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>Y</Has_Expire_Info>
+      <Expire_Count>14</Expire_Count>
+      <Expire_Based_On>Days</Expire_Based_On>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+      <Expire_Year></Expire_Year>
+    </Expire_Info>
+    <Program_Specific_Category>Games</Program_Specific_Category>
+	<Program_Categories>Puzzle games</Program_Categories>
+	<Program_System_Requirements>DirectX 8m, 32Mb vram</Program_System_Requirements>
+    <Includes_JAVA_VM>N</Includes_JAVA_VM>
+    <Includes_VB_Runtime>N</Includes_VB_Runtime>
+    <Includes_DirectX>N</Includes_DirectX>
+    <Limitations>No limitations</Limitations>
+    <Program_Change_Info></Program_Change_Info>
+    <Awards></Awards>
+    <Program_Category_Class></Program_Category_Class>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>http://game.wiredplane.com/</Application_Info_URL>
+      <Application_Order_URL>http://www.wiredplane.com/order/</Application_Order_URL>
+      <Application_Screenshot_URL>http://game.wiredplane.com/data/screenshot1.jpg</Application_Screenshot_URL>
+      <Application_Icon_URL>http://www.wiredplane.com/data/logo.png</Application_Icon_URL>
+      <Application_XML_File_URL>http://www.wiredplane.com/data/amulet.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>http://www.wiredplane.com/download/amulet.zip</Primary_Download_URL>
+      <Secondary_Download_URL></Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Permissions>
+	<Distribution_Permissions>Amulet adventures are distributed as Trialware. This is not Freeware or Public Domain.
+You may use the trialware version for 14 days.
+If after 14 days you would like to continue using it, you need to purchase a license.
+See documentation or visit our web site for more information.
+You can distribute installation package without ANY modifications to its content</Distribution_Permissions>
+    <EULA>WIREDPLANE.com END-USER LICENSE AGREEMENT 
+
+PLEASE CAREFULLY READ THE FOLLOWING TERMS AND CONDITIONS BEFORE USING THIS 
+PRODUCT. IT CONTAINS SOFTWARE, THE USE OF WHICH IS LICENSED BY WIREDPLANE.com 
+TO ITS CUSTOMERS FOR THEIR USE ONLY AS SET FORTH BELOW. BY DOWNLOADING THE 
+SOFTWARE, OPENING THE MEDIA PACKAGE, INSTALLING THE SOFTWARE ON YOUR COMPUTER, 
+OR BY ENTERING A REGISTRATION NUMBER TO ACTIVATE IT, YOU AGREE TO BE BOUND BY 
+ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE WITH THESE 
+TERMS, YOU MUST PROMPTLY DESTROY ALL COPIES OF THE SOFTWARE AND ACCOMPANYING 
+DOCUMENTATION. USING ANY PART OF THE SOFTWARE INDICATES THAT YOU ACCEPT THESE 
+TERMS AND CONDITIONS. 
+
+1. In this agreement, "Software" shall mean the machine readable Software 
+program. The term "Software" shall also include any upgrades, modified versions, 
+updates, additions, and copies of the Software licensed to you by WiredPlane 
+labs. 
+
+2. All copyrights to this software are exclusively owned by the author - 
+Razinkov Ilja - and WiredPlane.com. All title and copyrights in and to the 
+Software, as well as any backup copy made by you, are owned by WiredPlane.com 
+and may be protected by applicable copyright or other intellectual property laws 
+and treaties. Except as stated above, this agreement does not grant you any 
+rights to patents, trade secrets, trademarks, copyrights or any other rights in 
+respect of the Software. 
+
+3. This software is distributed on a Trialware basis (also known as 
+'Try-before-you-buy'). The trial limited version of this software may be used 
+for evaluation purposes at the user's own risk for a period of 14 days from the 
+date of installation. At the end of the trial period, the user must either 
+purchase a license to continue using the software, or remove it from his/her 
+system. The trial limited version may be freely distributed, added to any CD 
+compilation or online software repository, provided the distribution package is 
+not modified. No person or company may charge a fee for the distribution of this 
+software without written permission from the copyright holder. 
+
+4. On payment of the appropriate license fee, the user is granted a 
+non-exclusive license to use this software, for any legal purpose, at a time. 
+You may not sublicense, rent, lease or transfer the software. You may install 
+and use one registered/purchased copy of software on up to 3 computers and 
+install all future minor updates of the application for free. 
+
+5. Product maintenance. WiredPlane.com is not obligated to provide you with 
+maintenance or updates for the Software. However, any maintenance or updates 
+provided by WiredPlane.com shall be covered by this agreement. 
+
+6. You may not alter this software in any way. You are also not allowed to 
+emulate, decompile, disassemble or attempting to discover the source code, 
+otherwise reverse engineer any executable part of original package. Any such 
+unauthorized use shall result in immediate and automatic termination of this 
+license and may result in criminal and/or civil prosecution. 
+
+7. Disclaimer of warranty: THIS SOFTWARE IS DISTRIBUTED "AS IS". NO WARRANTY OF 
+ANY KIND IS EXPRESSED OR IMPLIED. YOU USE IT AT YOUR OWN RISK. WE MAY NOT BE 
+HELD LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, 
+PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES 
+FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS 
+INFORMATION) OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE. 
+
+8. This license shall terminate automatically if you fail to comply with the 
+limitations described in this Agreement. No notice shall be required from 
+WiredPlane.com. to effectuate such termination. On termination you must destroy 
+all copies of the Software. 
+
+9. All rights not expressly granted here are reserved by Razinkov Ilja and 
+WiredPlane.com. 
+
+10. Installing and using this software signifies acceptance of these terms and 
+conditions of the license. If you do not agree with the terms of this license 
+you must remove this software from your storage devices and cease to use the 
+product.</EULA>
+  </Permissions>
+  <PADRING>
+    <PADRING_FORM>Y</PADRING_FORM>
+    <PADRING>http://www.wiredplane.com/wirenote/pad_file.xml
+http://www.wiredplane.com/wirechanger/pad_file.xml
+http://www.wiredplane.com/wirekeys/pad_file.xml</PADRING>
+  </PADRING>
+  <Simtel>
+    <Simtel_FORM>Y</Simtel_FORM>
+    <Simtel_DOS_Category>Select - MS-DOS Platform (blank)</Simtel_DOS_Category>
+    <Simtel_Platform>win95 - Win95/Win98/WinME</Simtel_Platform>
+    <SIMTEL_FORM_VER>1.6 11/26/2002</SIMTEL_FORM_VER>
+    <Simtel_Category></Simtel_Category>
+  </Simtel>
+  <TPA>
+    <TPA_FORM>Y</TPA_FORM>
+    <TPA_Member>Y</TPA_Member>
+    <TPA_Member_ID>WIRE</TPA_Member_ID>
+  </TPA>
+  <Delphi>
+    <D1>FALSE</D1>
+    <D2>FALSE</D2>
+    <D3>FALSE</D3>
+    <D4>FALSE</D4>
+    <D5>FALSE</D5>
+    <D6>FALSE</D6>
+    <D7>FALSE</D7>
+    <BCB1>FALSE</BCB1>
+    <BCB3>FALSE</BCB3>
+    <BCB4>FALSE</BCB4>
+    <BCB5>FALSE</BCB5>
+    <BCB6>FALSE</BCB6>
+    <K1>FALSE</K1>
+    <K2></K2>
+    <K3></K3>
+    <D1_URL></D1_URL>
+    <D2_URL></D2_URL>
+    <D3_URL></D3_URL>
+    <D4_URL></D4_URL>
+    <D5_URL></D5_URL>
+    <D6_URL></D6_URL>
+    <D7_URL></D7_URL>
+    <BCB1_URL></BCB1_URL>
+    <BCB3_URL></BCB3_URL>
+    <BCB4_URL></BCB4_URL>
+    <BCB5_URL></BCB5_URL>
+    <BCB6_URL></BCB6_URL>
+    <K1_URL></K1_URL>
+    <K2_URL></K2_URL>
+    <K3_URL></K3_URL>
+    <Type></Type>
+    <Price></Price>
+    <Source></Source>
+    <File_Location></File_Location>
+    <Link_URL></Link_URL>
+    <Download_URL></Download_URL>
+    <Version></Version>
+    <Notes></Notes>
+  </Delphi>
+  <Affiliates>
+    <Affiliates_FORM>Y</Affiliates_FORM>
+    <Affiliates_VERSION>1.0</Affiliates_VERSION>
+    <Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+    <Affiliates_FORM_VER></Affiliates_FORM_VER>
+    <Affiliates_Information_Page></Affiliates_Information_Page>
+    <Affiliates_BMTMicro_Order_Page></Affiliates_BMTMicro_Order_Page>
+    <Affiliates_BMTMicro_Vendor_ID></Affiliates_BMTMicro_Vendor_ID>
+    <Affiliates_BMTMicro_Product_ID></Affiliates_BMTMicro_Product_ID>
+    <Affiliates_BMTMicro_Maximum_Commission_Rate></Affiliates_BMTMicro_Maximum_Commission_Rate>
+    <Affiliates_DigiBuy_Order_Page></Affiliates_DigiBuy_Order_Page>
+    <Affiliates_DigiBuy_Vendor_ID></Affiliates_DigiBuy_Vendor_ID>
+    <Affiliates_DigiBuy_Product_ID></Affiliates_DigiBuy_Product_ID>
+    <Affiliates_DigiBuy_Maximum_Commission_Rate></Affiliates_DigiBuy_Maximum_Commission_Rate>
+    <Affiliates_DigitalCandle_Order_Page></Affiliates_DigitalCandle_Order_Page>
+    <Affiliates_DigitalCandle_Vendor_ID></Affiliates_DigitalCandle_Vendor_ID>
+    <Affiliates_DigitalCandle_Product_ID></Affiliates_DigitalCandle_Product_ID>
+    <Affiliates_DigitalCandle_Maximum_Commission_Rate></Affiliates_DigitalCandle_Maximum_Commission_Rate>
+    <Affiliates_Emetrix_Order_Page></Affiliates_Emetrix_Order_Page>
+    <Affiliates_Emetrix_Vendor_ID></Affiliates_Emetrix_Vendor_ID>
+    <Affiliates_Emetrix_Product_ID></Affiliates_Emetrix_Product_ID>
+    <Affiliates_Emetrix_Maximum_Commission_Rate></Affiliates_Emetrix_Maximum_Commission_Rate>
+    <Affiliates_eSellerate_Order_Page></Affiliates_eSellerate_Order_Page>
+    <Affiliates_eSellerate_Vendor_ID></Affiliates_eSellerate_Vendor_ID>
+    <Affiliates_eSellerate_Product_ID></Affiliates_eSellerate_Product_ID>
+    <Affiliates_eSellerate_Maximum_Commission_Rate></Affiliates_eSellerate_Maximum_Commission_Rate>
+    <Affiliates_Kagi_Order_Page></Affiliates_Kagi_Order_Page>
+    <Affiliates_Kagi_Vendor_ID></Affiliates_Kagi_Vendor_ID>
+    <Affiliates_Kagi_Product_ID></Affiliates_Kagi_Product_ID>
+    <Affiliates_Kagi_Maximum_Commission_Rate></Affiliates_Kagi_Maximum_Commission_Rate>
+    <Affiliates_NorthStarSol_Order_Page></Affiliates_NorthStarSol_Order_Page>
+    <Affiliates_NorthStarSol_Vendor_ID></Affiliates_NorthStarSol_Vendor_ID>
+    <Affiliates_NorthStarSol_Product_ID></Affiliates_NorthStarSol_Product_ID>
+    <Affiliates_NorthStarSol_Maximum_Commission_Rate></Affiliates_NorthStarSol_Maximum_Commission_Rate>
+    <Affiliates_Order1_Order_Page></Affiliates_Order1_Order_Page>
+    <Affiliates_Order1_Vendor_ID></Affiliates_Order1_Vendor_ID>
+    <Affiliates_Order1_Product_ID></Affiliates_Order1_Product_ID>
+    <Affiliates_Order1_Maximum_Commission_Rate></Affiliates_Order1_Maximum_Commission_Rate>
+    <Affiliates_Osolis_Order_Page></Affiliates_Osolis_Order_Page>
+    <Affiliates_Osolis_Vendor_ID></Affiliates_Osolis_Vendor_ID>
+    <Affiliates_Osolis_Product_ID></Affiliates_Osolis_Product_ID>
+    <Affiliates_Osolis_Maximum_Commission_Rate></Affiliates_Osolis_Maximum_Commission_Rate>
+    <Affiliates_Regnet_Order_Page></Affiliates_Regnet_Order_Page>
+    <Affiliates_Regnet_Vendor_ID></Affiliates_Regnet_Vendor_ID>
+    <Affiliates_Regnet_Product_ID></Affiliates_Regnet_Product_ID>
+    <Affiliates_Regnet_Maximum_Commission_Rate></Affiliates_Regnet_Maximum_Commission_Rate>
+    <Affiliates_Regnow_Order_Page></Affiliates_Regnow_Order_Page>
+    <Affiliates_Regnow_Vendor_ID></Affiliates_Regnow_Vendor_ID>
+    <Affiliates_Regnow_Product_ID></Affiliates_Regnow_Product_ID>
+    <Affiliates_Regnow_Maximum_Commission_Rate></Affiliates_Regnow_Maximum_Commission_Rate>
+    <Affiliates_Regsoft_Order_Page></Affiliates_Regsoft_Order_Page>
+    <Affiliates_Regsoft_Vendor_ID></Affiliates_Regsoft_Vendor_ID>
+    <Affiliates_Regsoft_Product_ID></Affiliates_Regsoft_Product_ID>
+    <Affiliates_Regsoft_Maximum_Commission_Rate></Affiliates_Regsoft_Maximum_Commission_Rate>
+    <Affiliates_ShareIt_Order_Page></Affiliates_ShareIt_Order_Page>
+    <Affiliates_ShareIt_Vendor_ID></Affiliates_ShareIt_Vendor_ID>
+    <Affiliates_ShareIt_Product_ID></Affiliates_ShareIt_Product_ID>
+    <Affiliates_ShareIt_Maximum_Commission_Rate></Affiliates_ShareIt_Maximum_Commission_Rate>
+    <Affiliates_SWReg_Order_Page></Affiliates_SWReg_Order_Page>
+    <Affiliates_SWReg_Vendor_ID></Affiliates_SWReg_Vendor_ID>
+    <Affiliates_SWReg_Product_ID></Affiliates_SWReg_Product_ID>
+    <Affiliates_SWReg_Maximum_Commission_Rate></Affiliates_SWReg_Maximum_Commission_Rate>
+    <Affiliates_V-Share_Order_Page></Affiliates_V-Share_Order_Page>
+    <Affiliates_V-Share_Vendor_ID></Affiliates_V-Share_Vendor_ID>
+    <Affiliates_V-Share_Product_ID></Affiliates_V-Share_Product_ID>
+    <Affiliates_V-Share_Maximum_Commission_Rate></Affiliates_V-Share_Maximum_Commission_Rate>
+    <Affiliates_VFree_Order_Page></Affiliates_VFree_Order_Page>
+    <Affiliates_VFree_Vendor_ID></Affiliates_VFree_Vendor_ID>
+    <Affiliates_VFree_Product_ID></Affiliates_VFree_Product_ID>
+    <Affiliates_VFree_Maximum_Commission_Rate></Affiliates_VFree_Maximum_Commission_Rate>
+    <Affiliates_Yaskifo_Order_Page></Affiliates_Yaskifo_Order_Page>
+    <Affiliates_Yaskifo_Vendor_ID></Affiliates_Yaskifo_Vendor_ID>
+    <Affiliates_Yaskifo_Product_ID></Affiliates_Yaskifo_Product_ID>
+    <Affiliates_Yaskifo_Maximum_Commission_Rate></Affiliates_Yaskifo_Maximum_Commission_Rate>
+  </Affiliates>
+  <Newsfeed>
+    <NewsFeed_FORM>Y</NewsFeed_FORM>
+    <NewsFeed_VERSION>1.0</NewsFeed_VERSION>
+    <NewsFeed_URL>http://Submit-Everywhere.com/extensions/NewsFeed.htm</NewsFeed_URL>
+    <NewsFeed_DESCRIPTION>This PAD extension allows you to add your RSS and Atom news feeds info into your PAD file. This info can be used by RSS feed submission software or by feed directories themselves.</NewsFeed_DESCRIPTION>
+    <NewsFeed_Type>RSS 0.90</NewsFeed_Type>
+    <NewsFeed_Language>English</NewsFeed_Language>
+    <NewsFeed_Purpose>News</NewsFeed_Purpose>
+  </Newsfeed>
+  <Press_Release>
+    <Press_Release></Press_Release>
+  </Press_Release>
+  <Program_Descriptions>
+    <English>
+      <Keywords>Casual, pussle, game</Keywords>
+      <Char_Desc_45>Puzzle game</Char_Desc_45>
+      <Char_Desc_80>Puzzle game</Char_Desc_80>
+      <Char_Desc_250>Puzzle game</Char_Desc_250>
+      <Char_Desc_450>Puzzle game</Char_Desc_450>
+      <Char_Desc_2000>Puzzle game</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+</XML_DIZ_INFO>
