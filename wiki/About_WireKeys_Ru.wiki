@@ -1,5 +1,5 @@
 #summary One-sentence summary of this page.
-#labels WireKeys,Hotkey,Macros
+#labels WireKeys,Hotkey,About
 
 = Introduction Ru =
 
