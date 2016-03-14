@@ -36,5 +36,9 @@ BOOL WINAPI GetJobA( IN HANDLE, IN DWORD,IN DWORD,OUT LPBYTE,IN DWORD,OUT LPDWOR
 }
 
 #ifndef _VC6
-extern "C" { FILE _iob[3] = {__iob_func()[0], __iob_func()[1], __iob_func()[2]}; }
+extern "C" { FILE _iob[3] = {NULL,NULL, NULL}; 
+//int printf(char const* const _Format, ...) { return 0; };
+//int fprintf(FILE* const ff, char const* const _Format, ...) { return 0; };
+}//{__iob_func()[0], __iob_func()[1], __iob_func()[2]}
 #endif
+

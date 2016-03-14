@@ -1,7 +1,5 @@
-http://gamerotor.com/node/247#comment-20
-http://gamerotor.com/node/249#comment-19
-
-
+// TBD: http://gamerotor.com/node/247#comment-20
+// TBD: http://gamerotor.com/node/249#comment-19
 
 // Settings.cpp: implementation of the CSettings class.
 //

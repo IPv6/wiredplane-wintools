@@ -757,7 +757,7 @@ public:
 	{
 		CString sRes="";
 		const char* szSearchFrom=szString+iFrom;
-		char* szFrom=strstr(szSearchFrom,szStart);
+		char* szFrom=(char*)strstr(szSearchFrom,szStart);
 		if(szFrom){
 			sRes=(const char*)(szFrom+strlen(szStart));
 			iFrom=(szFrom-szString)+strlen(szStart);

@@ -558,7 +558,8 @@ int WINAPI WKTrayMenuPopup(int iActionType, int& iItemId, HMENU hMenu)
 		while((*fp)(szKey,rem)){
 			COleDateTime tm(rem.EventTime);
 			sText=GetRemDsc(rem,TRUE);
-			if(sText!="" && abs(tm-dtNow)<=14 && !rem.bDisableRemider){
+			long long ddif = tm - dtNow;
+			if(sText!="" && abs(ddif)<=14 && !rem.bDisableRemider){
 				AppendMenu(mn,MF_STRING,iItemId,sText);
 				aRKeys.SetAtGrow(iPos,rem.szKey);
 				iPos++;

@@ -8,6 +8,13 @@
 #define VC_EXTRALEAN		// Exclude rarely-used stuff from Windows headers
 #endif
 
+#if !defined(WINVER)
+#define WINVER 0x0501
+#define _WIN32_WINNT _WIN32_WINNT_WINXP
+#define NTDDI_VERSION NTDDI_WINXP
+#endif
+
+
 // Modify the following defines if you have to target a platform prior to the ones specified below.
 // Refer to MSDN for the latest info on corresponding values for different platforms.
 #ifndef WINVER				// Allow use of features specific to Windows 95 and Windows NT 4 or later.

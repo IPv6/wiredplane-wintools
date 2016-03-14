@@ -267,7 +267,7 @@ HANDLE hThread = 0;
 HANDLE hThreadStopped = 0;
 
 char szHookLibPath[MAX_PATH] = "";
-typedef WINUSERAPI long  (WINAPI  *BroadcastSystemMessageA)(DWORD, LPDWORD, UINT, WPARAM, LPARAM);
+//typedef WINUSERAPI long  (WINAPI  *BroadcastSystemMessageA)(DWORD, LPDWORD, UINT, WPARAM, LPARAM);
 DWORD WINAPI MainThread(LPVOID)
 {
     //«агружаем вторую копию этой библиотеки так как,

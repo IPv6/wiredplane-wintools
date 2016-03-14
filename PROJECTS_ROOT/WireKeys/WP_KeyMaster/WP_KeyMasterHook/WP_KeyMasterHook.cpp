@@ -500,6 +500,9 @@ LRESULT CALLBACK KeyboardProc(int code,WPARAM wParam,LPARAM lParam)
 // Ёто все делаетс€  ак журналинг в контексте потока установившего хук!
 // —оответсвенно длл по идее не нужна - но оставим как есть
 //#include <winuser.h>
+#if !defined(__KBDLLHOOKSTRUCT)
+#define __KBDLLHOOKSTRUCT
+
 #define WH_KEYBOARD_LL			13
 #define WH_MOUSE_LL				14
 /*
@@ -510,26 +513,30 @@ LRESULT CALLBACK KeyboardProc(int code,WPARAM wParam,LPARAM lParam)
 #define LLKHF_ALTDOWN        0x00000020
 #define LLKHF_UP             0x00000080
 #define LLMHF_INJECTED       0x00000001
+
 /*
  * Structure used by WH_KEYBOARD_LL
  */
-typedef struct tagKBDLLHOOKSTRUCT {
-    DWORD   vkCode;
-    DWORD   scanCode;
-    DWORD   flags;
-    DWORD   time;
-    DWORD   dwExtraInfo;
-} KBDLLHOOKSTRUCT, FAR *LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT;
+//typedef struct tagKBDLLHOOKSTRUCT {
+//    DWORD   vkCode;
+//    DWORD   scanCode;
+//    DWORD   flags;
+//    DWORD   time;
+//    DWORD   dwExtraInfo;
+//} KBDLLHOOKSTRUCT, FAR *LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT;
+
 /*
  * Structure used by WH_MOUSE_LL
  */
-typedef struct tagMSLLHOOKSTRUCT {
-    POINT   pt;
-    DWORD   mouseData;
-    DWORD   flags;
-    DWORD   time;
-    DWORD   dwExtraInfo;
-} MSLLHOOKSTRUCT, FAR *LPMSLLHOOKSTRUCT, *PMSLLHOOKSTRUCT;
+//typedef struct tagMSLLHOOKSTRUCT {
+//    POINT   pt;
+//    DWORD   mouseData;
+//    DWORD   flags;
+//    DWORD   time;
+//    DWORD   dwExtraInfo;
+//} MSLLHOOKSTRUCT, FAR *LPMSLLHOOKSTRUCT, *PMSLLHOOKSTRUCT;
+#endif
+
 LRESULT CALLBACK LowLevelKeyboardProc(int code,WPARAM wParam,LPARAM lParam)
 {
 	if(WKUtils::isWKUpAndRunning() && dwOkHOOKNumber==g_dwOkHOOKNumber){

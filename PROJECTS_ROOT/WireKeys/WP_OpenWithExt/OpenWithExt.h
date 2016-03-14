@@ -1,19 +1,27 @@
+
+
 /* this ALWAYS GENERATED file contains the definitions for the interfaces */
 
 
-/* File created by MIDL compiler version 5.01.0164 */
-/* at Mon Jul 06 06:50:51 2009
+ /* File created by MIDL compiler version 8.00.0603 */
+/* at Thu Jan 07 17:38:12 2016
  */
-/* Compiler settings for Z:\_WPLabs\PROJECTS_ROOT\WireKeys\WP_OpenWithExt\OpenWithExt.idl:
-    Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext
+/* Compiler settings for OpenWithExt.idl:
+    Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 8.00.0603 
+    protocol : dce , ms_ext, c_ext, robust
     error checks: allocation ref bounds_check enum stub_data 
+    VC __declspec() decoration level: 
+         __declspec(uuid()), __declspec(selectany), __declspec(novtable)
+         DECLSPEC_UUID(), MIDL_INTERFACE()
 */
-//@@MIDL_FILE_HEADING(  )
+/* @@MIDL_FILE_HEADING(  ) */
+
+#pragma warning( disable: 4049 )  /* more than 64k source lines */
 
 
 /* verify that the <rpcndr.h> version is high enough to compile this file*/
 #ifndef __REQUIRED_RPCNDR_H_VERSION__
-#define __REQUIRED_RPCNDR_H_VERSION__ 440
+#define __REQUIRED_RPCNDR_H_VERSION__ 475
 #endif
 
 #include "rpc.h"
@@ -31,15 +39,16 @@
 #ifndef __OpenWithExt_h__
 #define __OpenWithExt_h__
 
-#ifdef __cplusplus
-extern "C"{
-#endif 
+#if defined(_MSC_VER) && (_MSC_VER >= 1020)
+#pragma once
+#endif
 
 /* Forward Declarations */ 
 
 #ifndef __IWKShellExtender_FWD_DEFINED__
 #define __IWKShellExtender_FWD_DEFINED__
 typedef interface IWKShellExtender IWKShellExtender;
+
 #endif 	/* __IWKShellExtender_FWD_DEFINED__ */
 
 
@@ -59,8 +68,10 @@ typedef struct WKShellExtender WKShellExtender;
 #include "oaidl.h"
 #include "ocidl.h"
 
-void __RPC_FAR * __RPC_USER MIDL_user_allocate(size_t);
-void __RPC_USER MIDL_user_free( void __RPC_FAR * ); 
+#ifdef __cplusplus
+extern "C"{
+#endif 
+
 
 #ifndef __IWKShellExtender_INTERFACE_DEFINED__
 #define __IWKShellExtender_INTERFACE_DEFINED__
@@ -79,29 +90,31 @@ EXTERN_C const IID IID_IWKShellExtender;
     public:
     };
     
+    
 #else 	/* C style interface */
 
     typedef struct IWKShellExtenderVtbl
     {
         BEGIN_INTERFACE
         
-        HRESULT ( STDMETHODCALLTYPE __RPC_FAR *QueryInterface )( 
-            IWKShellExtender __RPC_FAR * This,
+        HRESULT ( STDMETHODCALLTYPE *QueryInterface )( 
+            IWKShellExtender * This,
             /* [in] */ REFIID riid,
-            /* [iid_is][out] */ void __RPC_FAR *__RPC_FAR *ppvObject);
+            /* [annotation][iid_is][out] */ 
+            _COM_Outptr_  void **ppvObject);
         
-        ULONG ( STDMETHODCALLTYPE __RPC_FAR *AddRef )( 
-            IWKShellExtender __RPC_FAR * This);
+        ULONG ( STDMETHODCALLTYPE *AddRef )( 
+            IWKShellExtender * This);
         
-        ULONG ( STDMETHODCALLTYPE __RPC_FAR *Release )( 
-            IWKShellExtender __RPC_FAR * This);
+        ULONG ( STDMETHODCALLTYPE *Release )( 
+            IWKShellExtender * This);
         
         END_INTERFACE
     } IWKShellExtenderVtbl;
 
     interface IWKShellExtender
     {
-        CONST_VTBL struct IWKShellExtenderVtbl __RPC_FAR *lpVtbl;
+        CONST_VTBL struct IWKShellExtenderVtbl *lpVtbl;
     };
 
     
@@ -110,13 +123,13 @@ EXTERN_C const IID IID_IWKShellExtender;
 
 
 #define IWKShellExtender_QueryInterface(This,riid,ppvObject)	\
-    (This)->lpVtbl -> QueryInterface(This,riid,ppvObject)
+    ( (This)->lpVtbl -> QueryInterface(This,riid,ppvObject) ) 
 
 #define IWKShellExtender_AddRef(This)	\
-    (This)->lpVtbl -> AddRef(This)
+    ( (This)->lpVtbl -> AddRef(This) ) 
 
 #define IWKShellExtender_Release(This)	\
-    (This)->lpVtbl -> Release(This)
+    ( (This)->lpVtbl -> Release(This) ) 
 
 
 #endif /* COBJMACROS */
@@ -158,3 +171,5 @@ WKShellExtender;
 #endif
 
 #endif
+
+

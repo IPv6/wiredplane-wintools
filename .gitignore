@@ -1,0 +1,12 @@
+*.exp
+*.log
+*.idb
+*.filters
+*.bsc
+*.pch
+*.pdb
+*.sbr
+*.ipch
+*.obj
+*.sfd
+*.tlog
