@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: MAPI2POP3: UTF-8 HTML";
+$rcontent="there is the way, but it is hard :( you can enum all addresses of the person (person can be grabbed with this encoded string from exchange) and find lines with &#34;email&#34; flag - actual person emails. but there is ambiguity when person has more than one email address.
+
+just one more question - what version of code did you use?
+in fact we removed backward compatibility support because of license issues. Backward-compatible way used to work throu MimePP library. We though it is GLP too, but it turns out that it is not. So";
+$rauthor="WiredPlane";
+$rdate="1171465526";
+$rip="195.210.162.152";
+
+?>

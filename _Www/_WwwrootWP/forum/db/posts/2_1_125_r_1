@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: &#34;Show history for standard clipboard&#34;";
+$rcontent="yes, menu in fact (not a box).
+Check the following in &#34;Selected text operations&#34;:
+- No check box in &#34;Do not interfere with clipboard&#34;
+- Depth of clipboard history greater than 0 (Additional text clipboards folder)
+";
+$rauthor="WiredPlane";
+$rdate="1126830025";
+$rip="195.209.143.44";
+
+?>

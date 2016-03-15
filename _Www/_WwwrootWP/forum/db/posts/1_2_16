@@ -1,0 +1,19 @@
+<?php
+
+$psubject="New site logo by vide.ru";
+$pcontent="New logo created by vide.ru studio %)";
+$pauthor="WiredPlane";
+$pdate="1114261681";
+$plastdate="1114261681";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="870";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

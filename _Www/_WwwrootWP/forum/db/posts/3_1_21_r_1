@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: &#34;Universal media players control&#34; not working with BSplayer";
+$rcontent="Which version of WK you are using?
+To v2.7.6 it`s slightly changed, so it`s better to upgrade WK _and_ macro from our site
+the other thing about this macro - it will work only while BSPlayer in foreground :( i mean while you are watching a movie for example";
+$rauthor="WiredPlane";
+$rdate="1100938471";
+$rip="195.209.143.44";
+
+?>

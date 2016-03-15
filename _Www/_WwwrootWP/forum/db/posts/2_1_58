@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Предлжение по OSD";
+$pcontent="Предлагаю в выборе места показа OSD ещё добавить:
+По центру вверху и по центру внизу.";
+$pauthor="McStar";
+$pdate="1100868331";
+$plastdate="1101307920";
+$pimage="2.gif";
+$plastreply="6";
+$plastauthor="McStar";
+$preplies="6";
+$pviews="683";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|FAST|WiredPlane|stepone|AGu|cepera";
+$psticky="";
+
+?>

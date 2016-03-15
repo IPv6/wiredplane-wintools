@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Elefun: Partnership";
+$pcontent="We became partners with Elefun company (www.elefun-desktops.com)
+Now WC supports animated wallpapers by Elefun. WC3 will add even more great stuff to this support %)";
+$pauthor="WiredPlane";
+$pdate="1114427647";
+$plastdate="1114427647";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="836";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|pharaon|JWartist";
+$psticky="";
+
+?>

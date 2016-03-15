@@ -1,0 +1,19 @@
+<?php
+
+$psubject="reminder problem";
+$pcontent="How can I sent reminder to multi-receivers since I can choose one receiver each tiime. As I choose more than one , the new one will replace the old one. However, I can add receivers when I sending the messages.";
+$pauthor="pos";
+$pdate="1142906797";
+$plastdate="1142926818";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="578";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus|esmo|Anonymous";
+$psticky="";
+
+?>

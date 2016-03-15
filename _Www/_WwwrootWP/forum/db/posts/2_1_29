@@ -1,0 +1,42 @@
+<?php
+
+$psubject="Feature requests";
+$pcontent="Hi. I have a couple requests that I think will greatly add to Wirekeys&#39; power, but not bloat the code. As far as I know some of these functions do not exist in any standalone
+apps; I don&#39;t know if they all are possible (I am not a coder), but I think that if they are possible, many people will find them useful.
+
+They fall into two main categories. The first is Window manipulation. Currently with Wirekeys, one can maximize, minimize, shade, hide, and tray a window easily. This is awesome. I would like to see this go further and manipulate windows by hotkey to:
+
+-move any window x number of pixels in any of 8 directions (left/right/up/down/diagonals) without having to use the windows&#39; context menu (Alt-Space-M) and arrow keys.
+
+-move any window to one of 10 locations on the screen: center, bottom right, bottom center, bottom left, center left, center right, top left, top center, top right. The software &#39;Freeshade (http://www.hmmn.org/FreeShade/)&#39; does this, and it is very very convenient.
+(Freeshade also does something very cool, which is to maximize a window horizontally or vertically only, and not to the entire screen. It&#39;s neat and worth checking out.)
+
+The second category is Explorer folder manipulation. The ability to hotkey the following would be super cool:
+
+-Change a folder&#39;s view setting. Ex: Ctrl-Alt-u changes current explorer window to &#39;List&#39; view, Ctrl-Alt-i changes explorer window to &#39;Details&#39; view, etc.
+
+-Fully expand the contents of chosen columns in a folder window, and auto-resize the window to fit the expanded columns. Here&#39;s screenshots for what I mean:
+http://buddafly.net/before.jpg
+http://buddafly.net/after.jpg
+
+It would also be hugely handy if this could be done with open/save dialogues (there was a piece of software some years ago that did this, but forget the name now), but I am guessing that this adds another level of complexity.
+
+Thanks for any response!
+jaco
+PS- I asked that you add the ability to backup Wirekeys&#39; configuration to a file about a year ago. It works great- thanks for adding it  :)
+";
+$pauthor="jaco";
+$pdate="1091839452";
+$plastdate="1098526008";
+$pimage="1.gif";
+$plastreply="11";
+$plastauthor="WiredPlane";
+$preplies="11";
+$pviews="1095";
+$pnotify="|jaco|BillR";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|jaco|stepone|BillR|hulland|AGu|AzazelSP";
+$psticky="";
+
+?>

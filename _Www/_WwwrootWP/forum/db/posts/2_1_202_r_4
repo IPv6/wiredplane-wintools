@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: оплата через SMS";
+$rcontent="Alawar Entertainment
+http://www.alawar.ru/
+Игра Гиперболоид";
+$rauthor="garry63";
+$rdate="1152867304";
+$rip="83.239.130.107";
+
+?>

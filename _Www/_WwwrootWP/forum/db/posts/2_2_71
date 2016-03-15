@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Calendar";
+$pcontent="Is it possible to load in a calendar exported from either google calendars or outlook?";
+$pauthor="Anonymous";
+$pdate="1188849477";
+$plastdate="1188895361";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="377";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|pharaon|Anonymous|Mitiuha";
+$psticky="";
+
+?>

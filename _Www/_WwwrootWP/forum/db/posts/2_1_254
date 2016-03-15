@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Создать текстовый файл";
+$pcontent="А можно стандартными средствами реализовать такое - по горячей клавише создаётся текстовый документ с заранее известным именем, например - opisanie.txt
+Заранее спасибо!  :)";
+$pauthor="garry63";
+$pdate="1194294924";
+$plastdate="1194700065";
+$pimage="5.gif";
+$plastreply="6";
+$plastauthor="garry63";
+$preplies="6";
+$pviews="340";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|garry63|WiredPlane|Mitiuha|pharaon|Anonimus";
+$psticky="";
+
+?>

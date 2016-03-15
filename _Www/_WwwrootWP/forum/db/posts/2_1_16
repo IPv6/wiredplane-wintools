@@ -1,0 +1,30 @@
+<?php
+
+$psubject="dbPowerAmp support?";
+$pcontent="I&#39;m so demanding...  ;-)
+
+I decided to give up on Winamp since it uses way too much system resources for me. I have found another audio player that is awesome. It&#39;s called dbPowerAmp  http://www.dbpoweramp.com
+
+It is so lightweight but has great features. You should check it out...
+
+Anyway, they have great Visual Basic controls at http://www.dbpoweramp.com  I thought maybe it would be easy to control dbPowerAmp through Wirekeys. Maybe set a hotkey to show artist and track in the OSD? 
+
+Here is the page with the developer tools:
+http://www.dbpoweramp.com/developer-scripting.htm
+
+Don&#39;t implement just for me, but maybe more people like dbPowerAmp too...";
+$pauthor="rij73";
+$pdate="1084044526";
+$plastdate="1084804990";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="271";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|rij73|BillR";
+$psticky="";
+
+?>

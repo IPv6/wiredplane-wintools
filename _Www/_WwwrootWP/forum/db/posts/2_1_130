@@ -1,0 +1,28 @@
+<?php
+
+$psubject="Новые  функции";
+$pcontent="Вы не могли бы пояснить на русском, в чем заключаются и как пользоваться этими функциями:
+1) Special menu for selected text (in any window) added. Select text anywhere and right click on it holding down Control key to popup menu with matching actions
+ver 2.9.10
+
+2) Option to edit clipboard items (check main/additional clipboard history menu).
+
+3) List of recently used folders (for quick navigation in Open/Save dialogs or Total Commander) is triggered by middle-click on active window title from now
+
+ :?
+";
+$pauthor="feedbee";
+$pdate="1128362138";
+$plastdate="1128428601";
+$pimage="5.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="760";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|feedbee|Anonimus|McStar|GRISHIN|Gorbush|ValeraVi";
+$psticky="";
+
+?>

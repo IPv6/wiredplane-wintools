@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Disable Pause Key&#39;s Default Function";
+$rcontent="Open options, click on ? sign at the right-top corner of window. Type &#34;Pause&#34; in the search field.
+ Focus will be moved to the page where Pause key is defined. Just clear hotkey of that action and that is all :)";
+$rauthor="WiredPlane";
+$rdate="1181809803";
+$rip="195.210.162.152";
+
+?>

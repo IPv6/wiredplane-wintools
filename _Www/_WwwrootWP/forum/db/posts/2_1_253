@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Window transparency";
+$pcontent="How do I use WireKeys to set the transparency of a window to a percentage value, e.g. 35% transparency.
+
+Henrik";
+$pauthor="staccato";
+$pdate="1193747633";
+$plastdate="1194341059";
+$pimage="5.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="376";
+$pnotify="|staccato";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

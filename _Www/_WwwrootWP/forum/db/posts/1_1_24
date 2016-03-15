@@ -1,0 +1,20 @@
+<?php
+
+$psubject="ПРОКСИ ИАУТЛУК";
+$pcontent="Друзья. неподскажите чего за лажа*
+У мя комп с инетом. я подключил через прокси к нему ноутбук. Все работает. а вот аутлук . скатина. нехочет. все настройки также делал как и на компе( Чего нетак то?";
+$pauthor="Anonymous";
+$pdate="1170543914";
+$plastdate="1170663243";
+$pimage="7.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="490";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous";
+$psticky="";
+
+?>

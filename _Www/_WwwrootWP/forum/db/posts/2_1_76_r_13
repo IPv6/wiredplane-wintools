@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK2.9.10 Released. Bug with рщелун blocking fixed now. Some internal procedures optimized.";
+$rauthor="WiredPlane";
+$rdate="1126685565";
+$rip="195.245.232.12";
+
+?>

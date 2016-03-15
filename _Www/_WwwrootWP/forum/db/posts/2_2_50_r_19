@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="Thanks again!!! :)
+It seems that we done with it. But MS has  very interesting (not to say strange) approach for mapping wallpaper on multiple monitors. Can you re-download WireChanger again? Now it should be fine. The only case when WC can act strangely again - when second monitor is above primary one. Can you test this situation on latest WireChanger build when you will have spare time?
+About different images - we will add this later (Step by step approach ^)
+
+";
+$rauthor="WiredPlane";
+$rdate="1139557151";
+$rip="195.245.232.22";
+
+?>

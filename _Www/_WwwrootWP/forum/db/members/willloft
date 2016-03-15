@@ -1,0 +1,36 @@
+<?php
+
+$userid="128";
+$password="5978db2d24bc48b338f62889948c3567";
+$username="willloft";
+$useralias="willloft";
+$userrealname="WILLIAM LOFTIN";
+$useremail="wfl1@verizon.net";
+$useremhide="hide";
+$userip="138.88.175.225";
+$usersig="============
+====ooo=====";
+$userslogan="why not";
+$useravatar="spar4.gif";
+$usermsn="";
+$userposts="0";
+$usericq="";
+$userqq="";
+$userwebavatar="";
+$userrank="1";
+$useryahoo="";
+$useraim="";
+$userlocation="alexandria, va";
+$userjoined="1123771231";
+$userhomepage="http://www.wmloftin.us";
+$useradmin="0";
+$usermod="0";
+$userban="0";
+$userlastvisit="1123771231";
+$userlastpost="1123771231";
+$userprevvisit="1123771231";
+$useranimsmilies="";
+$lastaliaschange="1123771231";
+$userlang="en";
+
+?>

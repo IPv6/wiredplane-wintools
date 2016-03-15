@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Нестабильная работа с буфером обмена";
+$pcontent="В некоторых программах при попытке использовать историю буфера обмена вместо того, что надо вставляется &#34;v&#34;. Хотя через плагин вставки вроде бы работает корректно.";
+$pauthor="McStar";
+$pdate="1098971094";
+$plastdate="1105967414";
+$pimage="4.gif";
+$plastreply="11";
+$plastauthor="McStar";
+$preplies="11";
+$pviews="1356";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|AGu|Anonimus|stepone";
+$psticky="";
+
+?>

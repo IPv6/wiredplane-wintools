@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Перезагрузка";
+$pcontent="Теперь при однократном нажатии комп, почеиу-то, выключается.";
+$pauthor="McStar";
+$pdate="1134757189";
+$plastdate="1135075531";
+$pimage="3.gif";
+$plastreply="6";
+$plastauthor="McStar";
+$preplies="6";
+$pviews="833";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|ValeraVi|stepone";
+$psticky="";
+
+?>

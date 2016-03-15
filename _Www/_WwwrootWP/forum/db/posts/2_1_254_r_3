@@ -1,0 +1,40 @@
+<?php
+
+$rsubject="RE: Создать текстовый файл";
+$rcontent="вот скрипт добавления строчки в текстовый файл (если его нет - он создатся). практически что надо :)
+
+// Title: Append to diary
+// Description: Append selected text to the end of the file, defined in macro parameter.
+// ParamType: File
+
+// Step 1 of 3 - Reading selected text
+var OUTPUT=unescape(&#39;%ESCAPED&#39;);//Xnj gbitv
+
+// Step 2 of 3 - Open file and write out selected text
+// Hardcoded diary file name
+var sDiaryFileName=unescape(&#34;%PARAMETER&#34;);//Путь и имя файла например &#34;C:&#92;&#92;aaa.txt&#34;
+// Creating File System handler
+var fso = new ActiveXObject(&#39;Scripting.FileSystemObject&#39;);
+// Standard constants
+var ForReading = 1, ForWriting = 2, ForAppending = 8;
+var TristateUseDefault = -2, TristateTrue = -1, TristateFalse = 0;
+// Opening file
+var ts = fso.OpenTextFile(sDiaryFileName,ForAppending, TristateUseDefault, true);
+// Writing text
+ts.Write(&#34;Appended %D.%M.%Y %h.%m.%s:&#92;r&#92;n&#34;);
+ts.Write(OUTPUT);
+ts.Write(&#34;&#92;r&#92;n&#92;r&#92;n&#34;);
+// Closing stream
+ts.Close();
+
+// Answering back...
+OUTPUT=&#34;Added OK!&#34;;
+
+// Step 3 of 3 - Typing result into WireKeys
+OUTPUT;
+";
+$rauthor="WiredPlane";
+$rdate="1194419348";
+$rip="195.210.162.152";
+
+?>

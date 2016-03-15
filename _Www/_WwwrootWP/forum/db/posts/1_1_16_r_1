@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Help for MAPI2POP3";
+$rcontent="Just redownload MApi2pop3 from sf.net
+We managed to remove mime++ dependency from mapi2pop3 (since it is not free after all).
+But you should try mapi2pop3 with your outlook client manually after that. it was tested with outlook 2003 only!";
+$rauthor="WiredPlane";
+$rdate="1158735310";
+$rip="195.210.162.152";
+
+?>

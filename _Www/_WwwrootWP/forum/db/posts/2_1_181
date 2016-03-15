@@ -1,0 +1,21 @@
+<?php
+
+$psubject="floating icon hides";
+$pcontent="Если навести и оставить курсор на свернутом во floater окно,то значок исчезает и появляется при перемещении курсора с него.Это нормально?
+
+P.S.на каком языке писать лучше в этом разделе форума?";
+$pauthor="triplex";
+$pdate="1142670259";
+$plastdate="1142839683";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="419";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SkyRE|triplex";
+$psticky="";
+
+?>

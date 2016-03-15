@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: Two change requests";
+$rcontent="Thanks for suggestions :)
+
+1) Added (on-site package will be updated soon)
+2) Will be added in future releases
+
+P.S. Happy New Year!!! %)";
+$rauthor="WiredPlane";
+$rdate="1104222745";
+$rip="195.209.143.44";
+
+?>

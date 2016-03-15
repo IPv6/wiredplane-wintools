@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: WireNote and WireKeys - no WK tray icon ";
+$rcontent="WireKeys options-&#62;Common preferences-&#62;Additional options-&#62;WireNote integration :)
+But! this option can be seen only when WireNote is started with WK
+
+so you should open WK options from inside WireNote tray menu...
+
+And i should remove this annoing feature from the past... :)";
+$rauthor="WiredPlane";
+$rdate="1196925822";
+$rip="212.111.75.10";
+
+?>

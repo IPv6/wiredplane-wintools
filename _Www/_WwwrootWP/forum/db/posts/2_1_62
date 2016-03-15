@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Падение при удалении комбинации";
+$pcontent="Если назначенную комбинацию попытаться удалить при помощи крестика, то приложение вываливается с эксепшеном.";
+$pauthor="McStar";
+$pdate="1102074016";
+$plastdate="1102079920";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="585";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|AGu";
+$psticky="";
+
+?>

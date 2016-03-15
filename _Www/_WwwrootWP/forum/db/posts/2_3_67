@@ -1,0 +1,21 @@
+<?php
+
+$psubject="resize window 2";
+$pcontent="Thanks for you reply. If &#39;Shift-select&#39; function is added, it will be very helpful. 
+
+I can drag the window border to change the size. However, I cannot set it as default size. Everytime I have to resize the window when I open a new message. ";
+$pauthor="lawtm";
+$pdate="1150791807";
+$plastdate="1175578998";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="theitdept";
+$preplies="2";
+$pviews="880";
+$pnotify="|theitdept";
+$plock="";
+$pip="";
+$pvisitors="|theitdept|WiredPlane|Milan";
+$psticky="";
+
+?>

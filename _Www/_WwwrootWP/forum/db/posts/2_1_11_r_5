@@ -1,0 +1,19 @@
+<?php
+
+$rsubject="RE: Hotkey Guide does not autoreduce";
+$rcontent="Hotkey Guide Enhancement Request
+
+1. Multikey autoreduces on all characters in multicharacter hotkeys (e.g., press either &#34;R&#34; or &#34;W&#34; and show Win-R-W).
+
+1A. Option (or standard behavior) so that modifier key press-n-hold (based on preference for delay?) autoreduces hotkey guide (e.g., press-n-hold Win displays Win-R-W and Win-G).
+
+-----
+Am I overlooking some obvious reason why these are not good ideas?  Technically infeasible?
+
+Thanks,
+";
+$rauthor="BillR";
+$rdate="1090228633";
+$rip="68.239.78.168";
+
+?>

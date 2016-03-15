@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="ver 3.6.4
+- New features in Autotext plugin: 1) If you set &#34;Text insertion method&#34; in plugin preferences to &#34;SendKeys&#34;, you will be able to use special markers in replacement string (like {LEFT}{HOME}, etc), which will change cursor position or fire control/alt key combinations; 2) In &#34;Execute&#34; replcement item, you can now execute macro instead of starting application. Just start replcement string with &#34;javascript:&#34; text (similar to in-place macro of quick-run items)
+- Added new plugin: Post-it notes. It will allow you to create and manage feature-reach post-it notes (similar to post-it notes of WireNote application)
+- New script methods: GetForegroundWindow,SetWindowPosition,SetWindowSize&#60;br&#62;
+- Additional feature added to &#34;Run as from command line&#34; action. Now it understands &#34;Smart keywords&#34; (like short bookmark name in FireFox/&#39;g ...&#39; for Google search in Opera, etc). You can edit list of smart keywords in preferences, for usefull smart keywords see this link: &#60;a href=&#34;http://www.wiredplane.com/wirekeys-help/smart_keywords.shtml&#34;&#62;Smart keywords info&#60;/a&#62;
+- Text screenshot plugin fixed&updated (much more usefull now, really grabs any text in any window)
+- fixed several bugs";
+$rauthor="WiredPlane";
+$rdate="1191327684";
+$rip="195.210.162.152";
+
+?>

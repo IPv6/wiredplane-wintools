@@ -1,0 +1,51 @@
+<?php
+
+$rsubject="Messages from old forum";
+$rcontent="Roger Parks  [23rd October, 2003 10:52:12] 
+Dear Sirs: Wirekeys is FABULOUS! Thank you for making it freely available.
+
+-Request: Please develop an option that allows one to hide application icons. I have a number of useful applications that create icons in the tray, but I really don&#39;t need to access or see the icons.
+
+-Comment: 1.9.6 indicated that an update was available, but then downloaded an identical copy of 1.9.6. (Oops - just noticed that BillR mentioned this)
+
+-Request: How about a &#34;donation&#34; option with Shareit? If not, I can register WireNote (but it&#39;ll really be a donation for WireKeys).
+
+
+BillR  [20th October, 2003 13:04:59] 
+Thanks for making this freeware available. WireKeys is very useful. Just installed WireNote.
+1. Update bug; 2. Update enhancement; 3. & 4. Correct my comments. 
+1. Bug - WireKeys and WireNote always show that an update is available when run on demand. Current versions: 1.9.6 (Oct 19) and 1.9 (Oct 19)respectively. Just downloaded WireNotes again. The files inside the zip have the same size and date values as prior download.
+2. Ideally the update popup should include both the date and the version of the latest release. Even better, show both installed and available. Web page should show both version and date of release.. 
+Is the date in the about box the install date or the release date (adjusted in some fashion for time difference?). 
+3. I misinterpreted a prior note. Would still like to see the active window minimize to tray on right click of minimize button. Shading and pinning would also be useful. 
+4. &#34;About&#34; --&#62; &#34;Help&#34; in 18 Oct msg.
+ 
+BillR  [18th October, 2003 22:45:02] 
+Thanks for implementing minimize to tray in WireKeys. Three (more) suggestions: 
+1. Add an option to list and control _all_ Windows hotkeys (desktop, start menu, ??). If Admin, then include all users (and All Users). Sort by key or by program. Print option. 
+2. Don&#39;t require redundant confirmation when &#34;About&#34; | &#34;Check for update&#34; is selected.
+3. Separate default reset key from expand/collapse keys. Default key is much too easy to press by accident.
+Again, thanks for your responsiveness.  
+ 
+WiredPlane Labs  [23rd September, 2003 15:27:42] 
+2jason: Thanks! :)
+1. Ok, sounds good, we will add this in the very next release
+2. You mean option to switch between system menu and main menu? Yes, that`s would be usefull too :)  
+ 
+
+jason  [22nd September, 2003 00:31:52] 
+Very nice app. Has replaced HotkeyControlXP for me (but not CoolKeys;).
+
+Two requests for it: 
+1) Allow config to be saved to a file. Would be very nice to use WireKeys on many computers, but takes too much time to config it on a new comp.
+2) When an app is minimized to the tray, it would be handy to choose between it&#39;s native title bar context menu and the Wirekeys generated one (Open, terminate, close) when right clicked. Would also be cool if you could assign a hotkey to recall a tray icon-ized app, automatically if there&#39;s only one, or pull up an arrow scrollable menu if there&#39;s more than one.
+
+Thanks!
+Jason  
+ 
+";
+$rauthor="WiredPlane";
+$rdate="1081769854";
+$rip="195.245.232.12";
+
+?>

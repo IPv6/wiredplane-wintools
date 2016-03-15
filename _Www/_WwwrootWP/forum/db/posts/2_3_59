@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Давно что-то не обновлялис заметки...";
+$pcontent="Сабж";
+$pauthor="McStar";
+$pdate="1143720295";
+$plastdate="1143806093";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="1087";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|Bedolaga|Anonimus|der74hva3";
+$psticky="";
+
+?>

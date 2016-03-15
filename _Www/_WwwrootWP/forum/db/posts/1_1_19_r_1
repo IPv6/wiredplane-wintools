@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Problem with MAPI2POP3 and multiple sets of folders";
+$rcontent="it seems that you are right. it is hard to reproduce for us right now (we don`t have exchange for experiments any more :( ), but we will fix this in the future.
+If you can fix it on your side and send us your code we will contribute it into sources :)
+
+thanks for report!";
+$rauthor="WiredPlane";
+$rdate="1165830370";
+$rip="195.210.162.152";
+
+?>

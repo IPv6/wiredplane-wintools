@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Having MAPI2POP3 skip certain folders";
+$rcontent="there is no installer of sf.net, just exe with additional files. Can you modify code by yourself? adding folder path instead of name is not difficult anyway";
+$rauthor="WiredPlane";
+$rdate="1169781224";
+$rip="85.141.178.14";
+
+?>

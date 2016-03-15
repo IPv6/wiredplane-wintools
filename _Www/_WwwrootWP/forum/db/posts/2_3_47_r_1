@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: I&#39;m baffled as to how to set up for LAN";
+$rcontent="Ok, i see. There is a limitation - XPC doesnot support find users action. You can send them by using thier netbios names or IP adresses. And here is the address book comes into play. Just open messenger window (main). This is you address book (by default there is only one entry - our support). You can add here your LAN buddies and use their names instead of computer name when sending messages. wna is the backup file or your address book. You can save it for later use or for sharing LAN addreses with friends in the same LAN";
+$rauthor="WiredPlane";
+$rdate="1132328108";
+$rip="195.245.232.12";
+
+?>

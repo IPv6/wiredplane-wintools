@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: False Positive Trojan?";
+$rcontent="If you read this.. Can you try with WK again (reinstall latest build)? We disscussed situation with McAfee presentatives and fixed what they tell us. We just need to check that this was enough :)";
+$rauthor="WiredPlane";
+$rdate="1124060987";
+$rip="213.87.57.246";
+
+?>

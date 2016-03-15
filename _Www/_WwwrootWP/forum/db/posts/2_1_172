@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Работа с мышкой как в Опере, возможно?";
+$pcontent="Пример: Нажать правую кнопку, вниз враво - закроет эту прогу(Alt+F4)";
+$pauthor="Anonimus";
+$pdate="1140511441";
+$plastdate="1140515714";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="394";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SkyRE|FAST|McStar";
+$psticky="";
+
+?>

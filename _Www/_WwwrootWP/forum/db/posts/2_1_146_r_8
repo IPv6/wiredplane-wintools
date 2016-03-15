@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: New version questions";
+$rcontent="About AZZ Cardfile - it is not possible to activate window from tray if it is support tray nativly. to do this one should write specific macro (capture &#34;show main window&#34; item first and use it from the macro). WireKeys using common approach in hiding applications to tray, Cardfile uses its own, that is why it is not possible. You can hide it to tray using WierKeys instead of build-in option though...";
+$rauthor="WiredPlane";
+$rdate="1134632149";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Strange price policy";
+$rcontent="&#34;Help&#34; : I mean one line in *.lng file (PleaseRegisterWirekeys)
+
+The utility is very usefull - so it costs.
+
+The disappointed thing is the difference between advertising on the site and the real price...";
+$rauthor="stepone";
+$rdate="1109879590";
+$rip="unknown";
+
+?>

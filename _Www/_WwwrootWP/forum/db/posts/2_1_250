@@ -1,0 +1,28 @@
+<?php
+
+$psubject="wirekeys infected by Trojan horse Generic5.ZXV";
+$pcontent="wirekeys infected by Trojan horse Generic5.ZXV, anybody with the same experience?
+
+virus identified by avg 7.5 antivirus free edition with latest antivirus definitions today...
+funny thing is that i installed wirekeys as a gaotd, and avg 7.5 free antivirus did not consider it a threat then...
+
+bitdefende 8 free edition, ms windows defender and avg antispyware  ignored it...
+
+yahooed and googled the virus with no info results...
+
+i think this is a false positive...";
+$pauthor="malakaayo";
+$pdate="1185801256";
+$plastdate="1185953504";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="malakaayo";
+$preplies="3";
+$pviews="579";
+$pnotify="|malakaayo";
+$plock="";
+$pip="";
+$pvisitors="|malakaayo|WiredPlane|garry63|McStar|SkyRE|Anonymous";
+$psticky="";
+
+?>

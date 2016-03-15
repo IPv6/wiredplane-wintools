@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Help with Calendar";
+$pcontent="I just downloaded wirechanger.
+but I got a calendar on it and 
+I did&#39;t want it on my desktop
+can some please help me remove it.
+
+Thanks 
+Lorna";
+$pauthor="ladywinfall";
+$pdate="1206121477";
+$plastdate="1206147915";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="99";
+$pnotify="|ladywinfall";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous";
+$psticky="";
+
+?>

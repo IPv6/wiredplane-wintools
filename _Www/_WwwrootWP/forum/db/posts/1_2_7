@@ -1,0 +1,19 @@
+<?php
+
+$psubject="BrotherSoft.com";
+$pcontent="Our products were awarded 5 of 5 at BrotherSoft.com";
+$pauthor="WiredPlane";
+$pdate="1083822216";
+$plastdate="1083822216";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="1019";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous";
+$psticky="";
+
+?>

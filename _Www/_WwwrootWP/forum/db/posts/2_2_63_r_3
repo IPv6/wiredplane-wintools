@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Displays too many wallpapers";
+$rcontent="Looks like your system has 3 monitors. Did you upgrade drivers for example?";
+$rauthor="WiredPlane";
+$rdate="1172560511";
+$rip="195.210.162.152";
+
+?>

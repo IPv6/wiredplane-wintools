@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: 100% CPU now used by Wirekeys after update";
+$rcontent="Hi there:
+Thanks for early reply.
+I had to uninstall and lost the backup.
+I will try disabling plugins and reinstalling latest version and let you know.
+No it is not the trial version. I purchased registration as comsec@comsecnet.com";
+$rauthor="comsec";
+$rdate="1142157823";
+$rip="81.35.193.192";
+
+?>

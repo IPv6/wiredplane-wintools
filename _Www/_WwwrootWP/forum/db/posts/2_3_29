@@ -1,0 +1,22 @@
+<?php
+
+$psubject="WireNote traducido al Espa&#241;ol (WireNote translated to Spanish language)";
+$pcontent="Este mensaje es para el administrador.
+Si quiere el WireNote traducido al espa&#241;ol hag&#225;melo saber a mooca@debien.com .
+This message is for Administrator.
+If you want the WireNote translated to Spanish language let me know to mooca@debien.com";
+$pauthor="Gabi";
+$pdate="1111776016";
+$plastdate="1111776016";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="Gabi";
+$preplies="0";
+$pviews="474";
+$pnotify="|Gabi";
+$plock="";
+$pip="";
+$pvisitors="|Gabi|AGu|WiredPlane";
+$psticky="";
+
+?>

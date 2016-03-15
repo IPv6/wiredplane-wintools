@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="WireChanger 3 beta";
+$rcontent="Hello!
+We decided to Put WireChanger 3 for beta testing to interested ones %) feel free to try, suggest or report errors %) by using this download link:
+http://www.wiredplane.com/download/wirechanger_beta.zip
+
+Most of the features allows one to control desktop more conviniently. New template added - minilendar - something similar to calendars from other calendar-related applications, but with all interactivity supported by WireChanger. Greatly expanded Elefun`s walppapers support (install any of thier wallpapers first and then run WC3 to handle them with notes and calendars over animations)
+";
+$rauthor="WiredPlane";
+$rdate="1115130212";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: How to make desktop icons tranparent?";
+$rcontent="What OS did you use and what widgets are active?
+There is only one limitation - desktop icons background can not be transparent when active desktop is active";
+$rauthor="WiredPlane";
+$rdate="1180946582";
+$rip="195.210.162.152";
+
+?>

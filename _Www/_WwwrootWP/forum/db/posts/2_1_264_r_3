@@ -1,0 +1,19 @@
+<?php
+
+$rsubject="RE: How to show a hidden app via hotkey?";
+$rcontent="i meant by the name of the executable :)
+lets` say you hide &#34;notepad.exe&#34;
+then use this script to unhide it from tray:
+
+function wkMain()
+{
+	WireKeys.ActivateWindowByApp(&#34;notepad&#34;);
+	return &#34;&#34;;
+};
+
+But i think by window title it would be usefull too... :) will be added :)";
+$rauthor="WiredPlane";
+$rdate="1204505875";
+$rip="83.217.46.99";
+
+?>

@@ -1,0 +1,20 @@
+<?php
+
+$rsubject="RE: Open Command Here plugin";
+$rcontent="[quote]Thanks for suggestion!! Will be added :)
+Just a question: What did you mean under &#34;open the CMD window when right clicking inside an open window&#34; - open Explorer window or any window?[/quote]
+
+hmm how to explain this...
+
+Open up your c drive, or whatever drive.
+You will see files, folders and just the blank white area, depending on how large your window is.  Hmm, that doesnt work to well...um...
+
+Just open an empty folder.  An empty folder.  If you right click anywhere in the place where files WOULD be listed, you get a menu with view, arrange icons, refresh, customize this folder..., etc.
+That menu is where i would like to see the open command window.  And it would open a command window in the folder that you are right clicking in.
+
+If you would like me to take a few screenies i wont mind.";
+$rauthor="Chewyfood";
+$rdate="1088034367";
+$rip="68.80.136.177";
+
+?>

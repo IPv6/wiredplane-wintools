@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: What&#39;s new in 2.8?";
+$rcontent="Bugfixes mostly. Also some icons were changed and notes are more useful then before (most used items are moved to the note window instead of context menu)
+
+";
+$rauthor="WiredPlane";
+$rdate="1121089367";
+$rip="195.245.232.12";
+
+?>

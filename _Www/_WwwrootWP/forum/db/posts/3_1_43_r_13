@@ -1,0 +1,30 @@
+<?php
+
+$rsubject="RE: [req] need very simple script :)";
+$rcontent="Сорри, мы тут уже нашли недоработку... возсьмите сегодняшний апдейт, работает уже это :)
+Вот конкретный скрипт на котором проверялось (работает), кликает правее курсора %)
+
+[quote]
+// Language: WP_MacroRec.wkp
+// Title: Bdkoy (21.05.2005)
+// Description: Recorded macro
+// ParamType: String
+
+// Hint: wait_for_key_release;
+// Playback Speed ratio (&#39;1&#39; means as recorded)
+SET_SPEED(1);
+
+// &#60;wkMain&#62;: Start of macro
+function wkMain()
+{// wkMain description: Replay keystrokes
+// Active application: &#39;The Bat!&#39; (C:&#92;Program Files&#92;The Bat!&#92;thebat.exe)
+Command(&#34;mou::msg=[513] h=[486] l=[400] rel=[CURSOR] x=[20] y=[0]&#34;);
+Command(&#34;mou::msg=[514] h=[486] l=[400] rel=[CURSOR] x=[20] y=[0]&#34;);
+};
+// &#60;/wkMain&#62;: End of macro
+[/quote]";
+$rauthor="WiredPlane";
+$rdate="1116717387";
+$rip="213.87.80.197";
+
+?>

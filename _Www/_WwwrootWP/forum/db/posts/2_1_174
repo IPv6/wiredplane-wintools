@@ -1,0 +1,20 @@
+<?php
+
+$psubject="check for update link";
+$pcontent="before version 3.40, i could right-click the tray icon and use the &#34;check for update link.&#34; after installing the various versions of 3.40, i get an error message when i try to check for updates: &#34;can&#39;t connect to the &#39;wiredplane labs&#39; web-page. check aborted.&#34;
+is this a bug or what? is it due to the redesign of the web pages (which i think is dificult to read and are not easy on the eyes)?";
+$pauthor="Anonimus";
+$pdate="1140733526";
+$plastdate="1140844622";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="414";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|ValeraVi|McStar|stepone";
+$psticky="";
+
+?>

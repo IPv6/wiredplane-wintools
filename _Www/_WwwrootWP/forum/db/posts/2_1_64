@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Two change requests";
+$pcontent="Hi. Would it be possible to modify the following two actions:
+
+1) After a &#39;Minimize&#39;, could a double press of that hotkey restore the window? There already is a separate hotkey for rollup, and after a window minimizes i think the only way to restore it by hotkey is to Alt-Tab it.
+
+2) For the &#39;Window&#39;s Helper&#39; plugin, the window snapping is inconsistent. When I move a window with &#39;Linux-like windows move&#39;, it won&#39;t snap upon release. Same with moving windows via &#39;Active Window&#39;s Scrolling&#39;. The software &#39;AllSnap&#39; (which I love but am still trying to replace with Wirekeys) auto-snaps windows to borders during moves, but lets you keep moving the window if desired.
+
+Thanks!";
+$pauthor="jaco";
+$pdate="1104116797";
+$plastdate="1106452295";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="jaco";
+$preplies="2";
+$pviews="776";
+$pnotify="|jaco";
+$plock="";
+$pip="";
+$pvisitors="|jaco|WiredPlane|McStar|AGu|BillR";
+$psticky="";
+
+?>

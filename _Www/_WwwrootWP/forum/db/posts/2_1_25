@@ -1,0 +1,21 @@
+<?php
+
+$psubject="want to get a free licence by translating";
+$pcontent="hello, admin!
+
+wirekeys is really a very useful tool! since i haven&#39;t got an international credit card :tear, i cannot support you by paying &#36;s. so, may i get a free licence by translating wirekeys (2.6.3) into simplified chinese language? :grins waiting for your reply...";
+$pauthor="rockywolf";
+$pdate="1090745715";
+$plastdate="1111486154";
+$pimage="4.gif";
+$plastreply="16";
+$plastauthor="cleg";
+$preplies="16";
+$pviews="1225";
+$pnotify="|cleg";
+$plock="";
+$pip="";
+$pvisitors="|cleg|WiredPlane|AGu|Anonimus|McStar";
+$psticky="";
+
+?>

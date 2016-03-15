@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Тэги в pattern&#39;ах";
+$pcontent="Добрый день, подскажите плз, где можно найти полный перечень тэгов, которые можно использвать в pattern&#39;ах при формировании названий заметок?";
+$pauthor="Anonimus";
+$pdate="1138709100";
+$plastdate="1138779193";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="1030";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus|ValeraVi";
+$psticky="";
+
+?>

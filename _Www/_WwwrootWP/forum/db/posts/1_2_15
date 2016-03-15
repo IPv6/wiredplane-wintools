@@ -1,0 +1,19 @@
+<?php
+
+$psubject="New products";
+$pcontent="New products released: Mapi2Pop3 proxy, ScreenCannon and others";
+$pauthor="WiredPlane";
+$pdate="1114261223";
+$plastdate="1114261223";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="869";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

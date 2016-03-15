@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Special characters in insertion macro?";
+$rcontent=":( currently the only way to do this is to save text into file and use &#34;insert from file&#34; type of insertion macro";
+$rauthor="WiredPlane";
+$rdate="1145713537";
+$rip="195.245.232.22";
+
+?>

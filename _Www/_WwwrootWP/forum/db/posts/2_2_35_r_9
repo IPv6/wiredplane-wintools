@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WC3 updated again:
+- Kaleidoscope powered with new randomizering options: change zooming of original image and limit kaleidoscope range. It is possible now to clone widget to get several kaleidoscopes on the same image
+- Arabic translation updated (thanks to Awadh:)
+Fixed:
+- Bug with 100% CPU usage when loading big or corrupted .jpg/.jpeg images
+";
+$rauthor="WiredPlane";
+$rdate="1115622630";
+$rip="213.87.59.0";
+
+?>

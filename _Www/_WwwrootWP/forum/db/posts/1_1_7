@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Do You have RSS for Your site?";
+$pcontent="I like to use RSS format for the news about upgrade/new version/critical bugs etc.
+
+Do You support RSS on Your site?
+If yes, what is the address of the RSS file?";
+$pauthor="stepone";
+$pdate="1098701950";
+$plastdate="1098713815";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="662";
+$pnotify="|stepone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|BillR|cepera|AzazelSP|Anonimus";
+$psticky="";
+
+?>

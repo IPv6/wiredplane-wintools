@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Горячие клавиши ярлыка";
+$pcontent="Здравствуйте,
+
+у меня задана последовательность кнопок Ctrl - Alt - A
+на ярлык.
+После установки WireKeys она перестала работать.
+Я пробовал переназначить на другие кнопки - то же самое, не пашет.
+В самом WireKeys на эти кнопки ничего не назначено.";
+$pauthor="Anonymous";
+$pdate="1190785129";
+$plastdate="1192605215";
+$pimage="1.gif";
+$plastreply="6";
+$plastauthor="Anonymous";
+$preplies="6";
+$pviews="500";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane|garry63|McStar|Mitiuha|Anonimus";
+$psticky="";
+
+?>

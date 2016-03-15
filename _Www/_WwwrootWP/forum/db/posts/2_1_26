@@ -1,0 +1,23 @@
+<?php
+
+$psubject="translation package in simplified chinese is ready!";
+$pcontent="hi, admin!
+
+the translation package in simplified chinese was sent to you via email. it contains 5 files, 1 for wirekeys and 4 for the default plugins. please check.
+
+ps. i&#39;d like to name the language as &#34;Chinese Simplified&#34; instead of simplified chinese. the reason was given in the email. :glad";
+$pauthor="rockywolf";
+$pdate="1091196815";
+$plastdate="1091196815";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="rockywolf";
+$preplies="0";
+$pviews="269";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|rockywolf|WiredPlane|Anonimus";
+$psticky="";
+
+?>

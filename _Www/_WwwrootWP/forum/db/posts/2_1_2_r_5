@@ -1,0 +1,58 @@
+<?php
+
+$rsubject="Old messages";
+$rcontent="
+Pavel  [30th November, 2003 20:23:38] 
+Hello.
+
+WireKeys very useful program, but in additional desktops want to see feature for moving windows between desktops.  
+ 
+
+BillR  [10th November, 2003 20:49:39] 
+v1.9.8 - Wow. I can&#39;t keep up. New features are coming faster than I can learn them. Multicharacter hotkeys and multimedia keyboard support will be welcome additions. 
+
+I&#39;m just starting to figure out things I can do with macros. Lot of power there. Maybe others will publish their favorite general purpose macros. (Please)
+
+Also thanks for making WireNote 1.9.x available as freeware. Has lots of nice features beyond a simple &#34;yellow stickies&#34; application.
+ 
+ 
+
+SNSD  [31st October, 2003 12:51:30] 
+I&#39;m really enjoying this program. The latest version is great. I have one question/request. Until I discovered WireKeys, I&#39;ve been using Copernic&#39;s WinKey version 2.8. One feature I really like in WinKey is the ability to open a folder using the key combinations. For example, to open My Documents, I created a key combination of Windows Key + Space Bar. Is it possible to open a specific folder using WireKeys and, if so, how do I do so? If not, this would be a great feature to add in a future release.
+
+Thanks again for providing such an excellent program - for free!  
+ 
+
+WiredPlane Labs  [26th October, 2003 16:07:49] 
+WireKeys 1.9.7 released!
+2danprime: just download new version  
+ 
+
+WiredPlane Labs  [25th October, 2003 18:26:52] 
+2HITECH: Thanks :) About your question: full answer (with small example) can be found in the FAQ of the WireKeys 1.9.7. so you may download new version and check Help file. It is too big for this guestbook :)
+ 
+ 
+
+HITECH (HTTP://WWW.HOTPOKERNIGHTS.COM)  [24th October, 2003 11:29:26] 
+Awesome Program!!!!! Like it much better than the old program i was using, but two questions. 
+
+#1) How can I put a return line in the output for a Keyboard Macro? I would like to push multiple lines of text
+
+#2) How can I direct the output of a Keyboard Macro to a specific windows. I may have 4 windows up, but want my macros to know which windows to push the text to.
+
+Thanks so much for the app....this rocks!!!!!!!!  
+ 
+
+danprime (http://www.DanielTse.com)  [20th October, 2003 02:26:10] 
+Great Program!!!
+
+Just a suggestion: it would be nice to have volume control (when you right-click on the Close App button) even though the WireKeys icon isn&#39;t in the tray. :)
+
+Keep it up!!  
+ 
+";
+$rauthor="WiredPlane";
+$rdate="1081769519";
+$rip="195.245.232.12";
+
+?>

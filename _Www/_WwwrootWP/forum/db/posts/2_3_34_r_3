@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: WireNote is good, but can the look and feel be changed";
+$rcontent="Sorry, read the second line as I guess, you might ....
+
+It was a typo.
+
+Thanks
+Ram";
+$rauthor="Anonimus";
+$rdate="1114689457";
+$rip="12.38.196.83";
+
+?>

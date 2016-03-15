@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Task Bar Extender";
+$pcontent="I have been mumbling about this problem for some time, now here is my &#34;official&#34; cry for help.
+
+I find the taskbar extender one of the most useful plug-ins, and I use it all day and everyday.
+But, after a few minutes of creating floaters, moving the order of the icons and general use, I find that the first one or even two icons always disappears BEHIND the Windows Start button ( which I also use to display % of cpu). It can only be corrected by a re-logging on to PC.
+
+I have never seen anyone else report this problem, so either it is just with Windows 2000Pro, as I use, or it must be my system. But it happens on all three of my PC&#39;s. Naturally, I can supply a screen shot if it is of any help. Hope someone can suggest a work-around? thnaks. Ian.";
+$pauthor="hulland";
+$pdate="1119933934";
+$plastdate="1119951002";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="331";
+$pnotify="|hulland";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|hulland|Anonimus|AGu";
+$psticky="";
+
+?>

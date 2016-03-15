@@ -1,0 +1,19 @@
+<?php
+
+$psubject="How do I disable message center temporarily?";
+$pcontent="I recently installed wirenote. I could not find an option to disable message center for the time being as I use only the organizer part of it. Is there an option to disable the message center?";
+$pauthor="Anonimus";
+$pdate="1122712796";
+$plastdate="1123147955";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="889";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|Anonymous";
+$psticky="";
+
+?>

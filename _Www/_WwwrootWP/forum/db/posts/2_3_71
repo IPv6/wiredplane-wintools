@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Printing To Dos";
+$pcontent="I&#39;m a new user.  I do like the program but have not figured out how to print a To Do.  I see how to print a note but not a To Do.  I know I can generate a report that includes my To Do but it also includes other things, like my Notes - and I don&#39;t see how I can keep my notes from being included in the reports.  This seems to be a clever program so it seems strange to me that it would be so difficult to print from it.";
+$pauthor="Anonymous";
+$pdate="1157495616";
+$plastdate="1157530845";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="706";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous|freebird";
+$psticky="";
+
+?>

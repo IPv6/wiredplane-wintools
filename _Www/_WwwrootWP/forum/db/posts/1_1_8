@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Migartion with settings of Wire Keys?";
+$pcontent="Sorry if this is wrong forum-can&#39;t follow the categories!
+
+Having got WK to be set up for HotKeys, Macros and Clipboards, is there some sort of file in the installation folder ( *.ini ?) that I can copy so that after a re-install of Windows I can immediately restore WK to how it was before please?
+
+Thanks in advance. Ian. (Island of Malta)";
+$pauthor="hulland";
+$pdate="1098766755";
+$plastdate="1098770524";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="863";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|BillR|mcc|Anonimus|cepera|Leshiy";
+$psticky="";
+
+?>

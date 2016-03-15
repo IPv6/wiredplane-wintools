@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Посылка сообщений об ответах.";
+$pcontent="Когда всё-таки почините отсылку сообщений на почту об ответах???";
+$pauthor="McStar";
+$pdate="1181143534";
+$plastdate="1182257959";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="596";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|pharaon";
+$psticky="";
+
+?>

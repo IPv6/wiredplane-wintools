@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE:  [ANN] WireNote updates";
+$rcontent="WN 2.7 released!
+- Reminders can wake up computer from Sleep mode now (this behaviour can be disabled in preferences)
+- Billboard system. Filebox protocol is now moved into Billboard`s private messages
+- New reminder options: Skip reminder on specified days of week/month. Now you can set up days, on wich reminder should be silently skipped if triggered
+- New anti-spam setting: custom-defined email client (instead of automatically detected)
+Fixed:
+- Navigation using keyboard arrow keys (thanks to AGu for suggestions:)";
+$rauthor="WiredPlane";
+$rdate="1108816626";
+$rip="195.209.143.44";
+
+?>

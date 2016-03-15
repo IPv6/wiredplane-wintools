@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: optimize memory bug";
+$rcontent="sorry, but I still see the same problem. I get the OSD but the memory doesn&#39;t optimize. If I select it from the sirekeys menu right after trying the hotkey, it does optimize. After that, the hotkey works... It&#39;s a tiny problem, but I thought it was a little strange so I should mention it. Also, it would be great to be able to create desktop shortcuts for optimizing memory or displaying the processes list. I think I mentioned it before...";
+$rauthor="rij73";
+$rdate="1096748104";
+$rip="68.175.28.226";
+
+?>

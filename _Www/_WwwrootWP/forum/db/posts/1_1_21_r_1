@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Having MAPI2POP3 skip certain folders";
+$rcontent="Yes, it is quite easy... but as i remebmer right last version has an option about the mask for RIGHT folders.. so you can teach it what folders should be processed
+
+Check installation from sf.net";
+$rauthor="WiredPlane";
+$rdate="1169462474";
+$rip="195.210.162.152";
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Couple of new user questions";
+$rcontent="To disable this baloon open preferences-&#62;network feature-&#62;messages-&#62;incoming messages-&#62;popup baloon on incoming message.
+
+about xpc protocol... can you do the same with screenshot when you trying to send message with attachment?";
+$rauthor="WiredPlane";
+$rdate="1144329643";
+$rip="195.245.232.22";
+
+?>

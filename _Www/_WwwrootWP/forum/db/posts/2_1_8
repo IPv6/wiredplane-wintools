@@ -1,0 +1,38 @@
+<?php
+
+$psubject="Forum Organization";
+$pcontent=" :bulb :qmark  Reorganize fora (forums):
+Separate forum for Preferences for each product
+Separate forum for developer discussion
+Separate forum for documentation
+
+Perhaps (off the top of my head) for each product something like:
+WK Announcements, Product FAQ, Forum Decorum
+WK Use - &#34;How do I?&#34; for WK and default plugins and macros (list 4 plugs, macros beginning with xxx)
+WK Use - &#34;How do I?&#34; for other plug-ins and macros
+WK Bug Reports
+WK Enhancement Requests
+WK Programming - Coding new plugins and macros
+
+Alternatively, add some subject specific &#34;post icons&#34; (e.g., &#34;bug&#34; or plus sign for new feature/enhancement) 
+or tooltips for existing icons (e.g., &#34;question&#34; for 
+questionmark; ) 
+while removing ambiguous icons (what is difference between thumb up/down and smile/frown icons?).
+
+
+Also, where should off topic posts go?  The Off-Topic icon is handy, but perhaps it should be available for the thread";
+$pauthor="BillR";
+$pdate="1082634178";
+$plastdate="1082644222";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="BillR";
+$preplies="2";
+$pviews="565";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane|Leshiy";
+$psticky="";
+
+?>

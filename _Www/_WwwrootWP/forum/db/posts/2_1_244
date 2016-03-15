@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Assign Hotkey to &#34;Folder Options&#34;?";
+$pcontent="I&#39;ve been unable to find this subject in the documentation and would appreciate some assistance from anyone.
+
+By right-clicking the top of the window, I got my &#34;Internet Properties&#34; (C:&#92;WINDOWS&#92;system32&#92;rundll32.exe) hotkey to work just fine, but when I&#39;ve attempted to assign a hotkey to &#34;Folder Options&#34;, all I can get is &#34;C:&#92;WINDOWS&#92;Explorer.EXE&#34; to run.
+
+Anyone got a solution for me please?";
+$pauthor="pike942";
+$pdate="1180291107";
+$plastdate="1180784876";
+$pimage="5.gif";
+$plastreply="5";
+$plastauthor="pike942";
+$preplies="5";
+$pviews="480";
+$pnotify="|pike942";
+$plock="";
+$pip="";
+$pvisitors="|pike942|garry63|WiredPlane";
+$psticky="";
+
+?>

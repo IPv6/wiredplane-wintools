@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="We decided to put beta-version of WK 3.5
+Main feature - internal optimizations, now WK loads much faster and use less memory. 
+Please try this beta and give us feedback if possible :)
+
+beta can be downloaded here:
+
+[url]http://www.wiredplane.com/download/wirekeys_.zip[/url]";
+$rauthor="WiredPlane";
+$rdate="1151651512";
+$rip="195.245.232.22";
+
+?>

@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Wirekeys problem with Outlook Attachments";
+$rcontent="Uf, we managed to reproduce error and fixed it. BTW you can still send messages in this situation by using Ctrl-Enter combination.
+
+WK3.5 will be released soon.
+
+Offtopic: interesting, but Outlook still use some programming practices that was prohibited by Microsoft (as MSDN notes) from the time of Win98`s! And that was the root of this problem.";
+$rauthor="WiredPlane";
+$rdate="1152889810";
+$rip="195.245.232.22";
+
+?>

@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="Hello!
+
+We recently updated WC with new improvements in multi-monitor environment
+1) fixed screensaver: now it works on different monitors with different aspect ratios
+2) fixed wallpaper generation routine, now it supports monitors with different aspect ratios.
+
+As before, the second needs to be checked... but about the first we are pretty sure already";
+$rauthor="WiredPlane";
+$rdate="1139320458";
+$rip="195.245.232.22";
+
+?>

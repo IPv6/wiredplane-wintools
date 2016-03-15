@@ -1,0 +1,21 @@
+<?php
+
+$rsubject="RE: How do I register my copy of Wire Keys?";
+$rcontent="We are sorry that registration process is not clear :(
+There are detailed instructions on how to do it:
+1) Run WireKeys, open it (tray menu-&#62;&#34;open WireKeys&#34;). Look at left part of the window. There is &#34;Registration&#34; item in the end of the list.
+Click on it.
+2) Type you registration email or, in case of Giveawayoftheday, type &#34;Giveawayoftheday&#34; without &#34;
+3) in the field &#34;registration email&#34; (double-click field twice to enter information)
+and your key in the &#34;serial number&#34; field.
+3) Click Ok button and that is all :)
+We are really sorry for inconvinience :(
+
+After entering this info correctly, &#34;About&#34; dialog will state that
+WireKeys is registered to &#34;Giveawayoftheday&#34;
+";
+$rauthor="WiredPlane";
+$rdate="1179577770";
+$rip="85.141.123.99";
+
+?>

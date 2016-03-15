@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Help for MAPI2POP3";
+$rcontent="it is really not easy. to get email intead of OUTLOOK address you should open address book, find person using this /O=OCEMAIL/OU=AG-OC... address, iterate through all adresses and find one with type=email
+
+:(";
+$rauthor="WiredPlane";
+$rdate="1160381258";
+$rip="195.210.162.152";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Find Online Users doesn&#39;t work";
+$rcontent="strange :(  if you network is not bug, can you try to send mailslot message to domain name or *? will other computers receive them?";
+$rauthor="WiredPlane";
+$rdate="1130486551";
+$rip="195.245.232.12";
+
+?>

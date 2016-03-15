@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: I can not use some national characters in wireNote.";
+$rcontent="It seems to be something specific for localized version of Windows. Is it good for you to add option to disable all keyboard shortcuts at all in WN? i think this will help";
+$rauthor="WiredPlane";
+$rdate="1127921112";
+$rip="195.245.232.12";
+
+?>

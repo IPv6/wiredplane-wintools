@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Will Not Display Reminders ";
+$rcontent="There is a bug found about such reminders, its already fixed. Update will be available soon";
+$rauthor="WiredPlane";
+$rdate="1108417079";
+$rip="195.209.143.44";
+
+?>

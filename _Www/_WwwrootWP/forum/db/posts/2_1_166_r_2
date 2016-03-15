@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="I&#39;ve used the link for some console application (FAR, You know :-) )
+However, I could reproduce this with every Windows application (i.e. Excel & Word ). Just create the link somewhere and put the hotkey for it into WK. 
+Looks like it&#39;s new bug, &#39;cause everything works fine in 3.3.5";
+$rauthor="stepone";
+$rdate="1139477581";
+$rip="62.225.37.69";
+
+?>

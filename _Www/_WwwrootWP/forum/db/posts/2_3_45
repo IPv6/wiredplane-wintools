@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Find Online Users doesn&#39;t work";
+$pcontent="I have just started using Wirenote, and it works fine - except that if I select &#34;Find Online Users&#34; on any of the LAN computers and put * as the text to find, it only finds the computer I am using, even though all the LAN computers are online with Wirenote running. If I put in a user name, it doesn&#39;t find anything.  :?I can successfully send messages from any computer to any other.";
+$pauthor="GMC";
+$pdate="1130404577";
+$plastdate="1130515939";
+$pimage="5.gif";
+$plastreply="4";
+$plastauthor="GMC";
+$preplies="4";
+$pviews="1035";
+$pnotify="|GMC";
+$plock="";
+$pip="";
+$pvisitors="|GMC|orion|WiredPlane|GRISHIN";
+$psticky="";
+
+?>

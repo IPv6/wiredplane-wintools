@@ -1,0 +1,21 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="I realize the goal of hotkeys is to reduce the number of keystrokes required for frequent actions (or substitute for mouse actions and vice versa), but some suggestions require the same number of key presses as existing methods without providing the visual clues.  For example when viewing a folder, Alt, V, &#60;underlined character&#62; (or Alt+V, &#60;underlined character&#62;) will allow you to change the view between list, details, etc.  Changing that to Ctrl+Alt+&#60;char&#62; merely changes three keystrokes to a triplet keystroke without making it easier to remember.
+
+That said, I would like to define a hotkey for Alt,V,E,O.  So much for my consistency.  But then I almost always work in Details with Folders unless I&#39;m searching.  
+
+As for redefining 2*LMB or 2*RMB for rollup, wouldn&#39;t it make more sense to use the middle/scroll button?  The only conflict I can see is that some applications use scrollclick followed by scrollup and scrolldown for zooming a window.  (Hint! Or maybe that is already in WK.)
+
+Along the same lines, I would like to see the additional window menu (alt,space or alt+space) recognize letter keys such as R for Rollup (or perhaps T for Rollup to Title) just as Alt+Space,X means Maximize.  
+
+Note, ideally this would work as does the Program menu -- and older OSs that allow one to specify the menu shortcut key -- where if a character is used as the menu shortcut key (label abbreviation?  I don&#39;t know what that feature is called post 3.11) more than once, pressing that character more than once moves the selected item to the next appropriate occurrence.
+
+Finally, I would like to be able to define a macro simply as a series of keystrokes.  This would allow me to define a rollup window macro as Alt+Space,Dwn,Dwn,Dwn (or even better, as Alt+Space,R).   That would make it very easy to define a hotkey to combine several separate keystrokes.
+
+";
+$rauthor="BillR";
+$rdate="1092862486";
+$rip="151.200.122.9";
+
+?>

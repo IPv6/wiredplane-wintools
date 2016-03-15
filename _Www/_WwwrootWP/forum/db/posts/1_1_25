@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Would like MAPI2POP3 to leave messages in the &#34;Deleted Items&#34; folder";
+$pcontent="Sometimes what I get from MAPI2POP3 in my email client is incomplete (for instance: for Outlook calendaring notifications). I would like to modify the code so that when the email client uses POP3 to delete messages, they are indeed deleted from Outlook, but the way one deletes messages manually in Outlook, i.e. the message is moved to the &#34;Deleted Items&#34; folder where it remains until Outlook is exited.
+
+Any clue?
+
+TIA
+";
+$pauthor="sba";
+$pdate="1170665476";
+$plastdate="1170665476";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="sba";
+$preplies="0";
+$pviews="342";
+$pnotify="|sba";
+$plock="";
+$pip="";
+$pvisitors="|sba|WiredPlane|IAMLARRY";
+$psticky="";
+
+?>

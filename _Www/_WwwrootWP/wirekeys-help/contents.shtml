@@ -1,0 +1,27 @@
+<table border=0 width=100% cellspacing=0 cellpadding=2>
+<UL>
+	<LI> Introduction
+	<UL>
+		<LI><a href="/wirekeys/help/overview.shtml">Overview</a>
+		<LI><a href="/wirekeys/help/features.shtml">Features</a>
+		<LI><a href="/wirekeys/help/tutorial.shtml">Tutorial</a>
+		<LI><a href="/wirekeys/help/history.shtml">Version history</a>
+		<LI><a href="/wirekeys/help/faq.shtml">FAQ</a>
+	</UL>
+	<LI> Description
+	<UL>
+		<LI><a href="/wirekeys/help/qruns.shtml">Quick-run items</a>
+		<LI><a href="/wirekeys/help/preferences.shtml">Preferences</a>
+		<LI><a href="/wirekeys/help/api.shtml">WireKeys API</a>
+		<LI><a href="/wirekeys/help/macros.shtml">Macros</a>
+		<LI><a href="/wirekeys/help/patterns.shtml">Patterns</a>
+		<LI><a href="/wirekeys/help/hotkeys.shtml">Hotkeys</a>
+		<LI><a href="/wirekeys/help/plugins.shtml">Plugins</a>
+	</UL>
+	<LI> Registration
+	<UL>
+		<LI><a href="/wirekeys/help/registration.shtml">How to register?</a>
+	</UL>
+</UL>
+</td></tr>
+</table>

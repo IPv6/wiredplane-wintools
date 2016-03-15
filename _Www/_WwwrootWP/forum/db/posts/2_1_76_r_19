@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK3.3 released.
+Added:
+- Hotkey to show/hide small calendar (1-4 months). See Scheduler options
+- Hotkey to create simple reminders that are not connected to specific action. See Scheduler options
+- Ability to assign multiple schedules to the same item (quick-run, macro or action)
+- New language added - Korean, thanks to Taewon Yun
+- New options for quick-run items: 1) What to do if the same application is already started (close/kill previous instance and more), 2) Set application`s window opacity after start 
+";
+$rauthor="WiredPlane";
+$rdate="1133942521";
+$rip="195.245.232.12";
+
+?>

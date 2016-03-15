@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Reminders for every xx day day of the month";
+$rcontent="Hi there, thanks for your fast reply.
+
+I&#39;m sorry, but I still don&#39;t understand it.
+
+I see settings for a specific day/month/year, and for every day/month/year, and for &#34;every xxxxday&#34; on the right.
+
+But if I choose, for example &#34;every Tuesday&#34;, wouldn&#39;t I get reminded every week then?
+
+I need to be reminded once a month, on the first Tuesday (only). How do I do that?";
+$rauthor="Anonymous";
+$rdate="1173896578";
+$rip="69.153.12.150";
+
+?>

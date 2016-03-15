@@ -1,0 +1,18 @@
+<?php
+
+$rsubject="RE: Hotkey Guide does not autoreduce";
+$rcontent="Set delay to zero. Pressing a letter key autoreduces (where one is defined). Pressing Shift, Control, Alt, and Win changes the title but does not autoreduce the list.
+
+My apologies for not noticing earlier that autoreduce worked for letters but not for control, alt, etc. (My excuse is that I don&#39;t think that way as I would press a modifier key before pressing a letter. I don&#39;t hold letter keys down very often except for spacebar.)
+
+Note, I have Win-R-W defined for Windows Resizer (mnemonic: W-Resize-Window). This is shown (autoreduce) for R but not for W -- nor of course Win.
+
+Thanks for continuing to investigate this.
+
+--------------------------------------------------------------------------------
+BillR";
+$rauthor="BillR";
+$rdate="1085322726";
+$rip="68.239.121.224";
+
+?>

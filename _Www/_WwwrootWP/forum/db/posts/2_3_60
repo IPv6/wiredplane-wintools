@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Couple of new user questions";
+$pcontent="Is there anyway to prevent both a wirenote message box and a Windows information popup balloon from appearing around the tray when a new message arrives? I&#39;m only using /xpc.
+
+When I send messages to other users that are not logged on their computer, they are not notified of the message when they log on. Is there some setting that will notify them they have unread messages. Or do those messages just go undelivered if you are not signed on?
+
+Very nice app. Just wish it were skinnable and the message tray icon was user selectable. 
+
+Thanks.";
+$pauthor="cellphone";
+$pdate="1144177825";
+$plastdate="1144329643";
+$pimage="1.gif";
+$plastreply="8";
+$plastauthor="WiredPlane";
+$preplies="8";
+$pviews="1123";
+$pnotify="|cellphone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|cellphone|esmo|Bedolaga|Anonimus|Anonymous|Milan";
+$psticky="";
+
+?>

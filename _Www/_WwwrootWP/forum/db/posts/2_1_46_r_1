@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Saving WK Configuration?";
+$rcontent="Just use &#34;backup config&#34; feaure - it will create single file that can be used to restore all settings later.
+About add/remove - you can choose which program to remove (directly) - from special submenu of the tray menu (&#34;Latest installations&#34;)
+There are no hotkey to this action, this can be done manually only (i.e. mousanly :)";
+$rauthor="WiredPlane";
+$rdate="1098862557";
+$rip="195.245.232.12";
+
+?>

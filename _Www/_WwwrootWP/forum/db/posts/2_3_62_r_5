@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Error Message";
+$rcontent="yes, you are right :(  but we started this app with an intention to give user possibility to chaneg any aspect he wants. it is hard to imagine how it can be more friendly. But if you have any siggestions we will be glad to implement them in future releases!";
+$rauthor="WiredPlane";
+$rdate="1146908521";
+$rip="195.245.232.22";
+
+?>

@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="That`s really great!!! :)
+[img]http://www.wiredplane.com/forum/templates/pb/images/smile/dance.gif[/img]
+
+Although there is still stuff to do (effects are applied to primary monitor only, some othe things), it is great that we fix it. it was almost impossible to do without real dual-monitors system so thank you very much for contribution in ths process! We are starting to implement other features that you`ve just requested :)
+
+Thank you again! :)";
+$rauthor="WiredPlane";
+$rdate="1139561266";
+$rip="195.245.232.22";
+
+?>

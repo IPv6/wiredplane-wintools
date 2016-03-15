@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Can&#39;t get ClipBoards to work!!";
+$pcontent="Running Win 2000 Pro. Pentium 4 
+Switch on &#34;Num LOck&#34;,( Grey keys)   Ctrl + Num 1/2/3 does not copy-should I be switching something on in Wire Keys first?
+Am using Net Captor as browser, Explorer2 for file management.
+Was hoping to use this faciltiy to save on-line data then browse it later and again cut/paste into various Notepad-type files. Help Please?? Ian. (Island of Malta)";
+$pauthor="hulland";
+$pdate="1098771820";
+$plastdate="1098823082";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="hulland";
+$preplies="2";
+$pviews="667";
+$pnotify="|hulland";
+$plock="";
+$pip="";
+$pvisitors="|hulland|WiredPlane|jaco|BillR|Anonimus|AGu";
+$psticky="";
+
+?>

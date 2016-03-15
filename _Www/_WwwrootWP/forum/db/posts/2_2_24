@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Предложение";
+$pcontent="А можно сделать так, чтобы можно было указывать какие шаблоны показывать при блокировании компьютера, а какие наоборот показывать?";
+$pauthor="McStar";
+$pdate="1099565843";
+$plastdate="1099573525";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="1015";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Immobilisation of Windows Keys";
+$rcontent="Did you block Win key and Apps key in the &#34;Global-&#62;Hotkeys-&#62;Block Win key/Block Apps key&#34;?
+";
+$rauthor="WiredPlane";
+$rdate="1119950807";
+$rip="195.245.232.12";
+
+?>

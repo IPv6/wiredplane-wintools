@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Вчерашний релиз.";
+$pcontent="При выборе &#34;дополнительные настройки&#34; грячих клавишь, программа вываливается с exception.";
+$pauthor="McStar";
+$pdate="1101209076";
+$plastdate="1101455732";
+$pimage="1.gif";
+$plastreply="12";
+$plastauthor="McStar";
+$preplies="12";
+$pviews="1046";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|Shaker|stepone|AGu";
+$psticky="";
+
+?>

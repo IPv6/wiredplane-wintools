@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Запуск Winamp";
+$pcontent="На одной клавише Pause висят два действия - пауза/плей в Winamp и пауза/плей в Light Alloy (макрос Light Alloy Control). Возникает следущая проблема.
+При НЕ запущенном винампе смотрю LA, жму кнопку - Light Alloy паузится, но начинает запускаться winamp. Как сделать, чтобы нажатие кнопки для винампа срабатывало только при запущенном винампе?";
+$pauthor="Anonimus";
+$pdate="1115311781";
+$plastdate="1115372838";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="342";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AGu|McStar";
+$psticky="";
+
+?>

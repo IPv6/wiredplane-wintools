@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Couple of new user questions";
+$rcontent="1) an yopu send screenshot of those windows popups? it is strange if you are using xpc
+2) it is possible if you`ll use billboard publishing. or email protocol. all other protocols will report error if recipient is not online
+";
+$rauthor="WiredPlane";
+$rdate="1144200705";
+$rip="195.209.143.44";
+
+?>

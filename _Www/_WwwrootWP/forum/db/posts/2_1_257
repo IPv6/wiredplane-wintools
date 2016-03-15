@@ -1,0 +1,35 @@
+<?php
+
+$psubject="WireKeys more German translations available ";
+$pcontent="I translated these files to have a more complete localized WireKeys:
+[quote]WP_Autotext_l5.lng
+WP_RClickcp_l5.lng
+WP_OpenWithExt_l5.lng
+WP_KeyMaster_l5.lng
+WP_NotesMdl_l5.lng
+WireKeys_l5.lng[/quote]
+
+Now it&#39;s almost perfect.  :sungl
+
+I&#39;m also working on the huge notes language file.
+
+If ur interested in the files, let me know.  :&#62;
+
+Richy.
+
+";
+$pauthor="Richy";
+$pdate="1196386493";
+$plastdate="1196650304";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="280";
+$pnotify="|Richy";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Richy|wtiger";
+$psticky="";
+
+?>

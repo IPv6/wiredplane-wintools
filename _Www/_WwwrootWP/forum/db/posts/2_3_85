@@ -1,0 +1,26 @@
+<?php
+
+$psubject="WireNote translated into German";
+$pcontent="I&#39;ve translated the WireNotes language file into German.
+This file can be used both for WireNote separately and  the WireKeys Notes-plugin.
+
+The file was sent to WiredPlane support.
+Have fun.
+
+Richy.
+";
+$pauthor="Richy";
+$pdate="1196740976";
+$plastdate="1196754685";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="129";
+$pnotify="|Richy";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Richy|Anonymous";
+$psticky="";
+
+?>

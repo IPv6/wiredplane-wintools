@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Messages from old forum";
+$pcontent="Tst";
+$pauthor="WiredPlane";
+$pdate="1081770049";
+$plastdate="1081770049";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="490";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Smogg|Anonimus|AGu";
+$psticky="";
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WC updated again.
+Now widsets can be randomized from main window, without opening widget props, by using slider similar to theme weight
+fixed bug with registration keys and loading broken jpg files (previous versions get 100% of CPU ni that case)";
+$rauthor="WiredPlane";
+$rdate="1116403934";
+$rip="195.245.232.12";
+
+?>

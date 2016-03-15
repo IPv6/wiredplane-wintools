@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Отключение флешки горячей клавишей";
+$pcontent="Здравствуйте
+Можно ли в Wirekeys настроить горячие клавиши на отключение флешек?
+Пункт меню Eject если щелкаешь правой кнопкой мыши по сменному диску в Мой компьютер
+И еще вопрос. Как настроить запуск двух (трех) программ
+по одной горячей клавише? То есть запускается одна программа
+к примеру Word и следом за ним автоматически сразу Excel.";
+$pauthor="Anonymous";
+$pdate="1185725193";
+$plastdate="1185868968";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="WiredPlane";
+$preplies="2";
+$pviews="523";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|garry63|Anonimus|wtiger|Anonymous";
+$psticky="";
+
+?>

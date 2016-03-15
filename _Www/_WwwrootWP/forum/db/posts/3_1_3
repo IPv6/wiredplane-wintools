@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Paste enhancer, buttons enabler and case conversion macros";
+$pcontent="Hello!
+ We just uploaded 2 new plugins and 4 macros on our site. They are:
+ - Paste enhancer. When started, this plugin will add history of main clipboard to all popup menus with &#34;Paste&#34; in all applications. This is very convinient enhancement, because you will be able to choose what text you want to be pasted
+ - Windows and menus enabler by Bulavin Alex & Mushinsky Sergey. When started, this plugin will enable all buttons (grayed out, inactive and so on) anywhere in other programs, all windows and items in all popup menus on your computer
+ - Macros by Decil to change capitalization of the selected text in various ways.
+ That is all for now :) Good luck!";
+$pauthor="WiredPlane";
+$pdate="1085866313";
+$plastdate="1085866313";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="505";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|Leshiy";
+$psticky="";
+
+?>

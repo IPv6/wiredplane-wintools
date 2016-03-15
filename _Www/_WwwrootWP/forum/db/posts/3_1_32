@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN]  Windows and menus enabler by Alex Bulavin & Sergey Mushinsky";
+$pcontent="Please, leave your comments here (in English if this is possible).";
+$pauthor="WiredPlane";
+$pdate="1103819856";
+$plastdate="1158576971";
+$pimage="1.gif";
+$plastreply="8";
+$plastauthor="WiredPlane";
+$preplies="8";
+$pviews="2137";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|Anonymous|SkyRE|Loong|Anonimus|Robbson";
+$psticky="";
+
+?>

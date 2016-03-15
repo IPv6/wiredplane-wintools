@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: MAPI2POP3: UTF-8 HTML";
+$rcontent="I&#39;m using 1.2.3
+
+Back to my original question : would it be feasible to have the backwards compatibility code path changed to not use UTF-8?
+
+";
+$rauthor="sba";
+$rdate="1171532688";
+$rip="194.3.183.35";
+
+?>

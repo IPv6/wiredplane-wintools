@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Ideas for new plugins";
+$pcontent="We invite you to post your ideas about new plugins for future releases. For this time we have following suggestions:
+- True window`s docking
+- System console line with history
+- Taskbar helper (drag and drop and more)
+- ???
+:)";
+$pauthor="WiredPlane";
+$pdate="1081967776";
+$plastdate="1081967776";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="498";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|rij73|Leshiy|cleg|adontz|SergeyL|Zoldex";
+$psticky="";
+
+?>

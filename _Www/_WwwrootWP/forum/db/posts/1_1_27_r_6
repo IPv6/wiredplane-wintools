@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: MAPI2POP3: UTF-8 HTML";
+$rcontent="The customization is described in my earlier (February 13, 2007, 10:17:46 AM) post on this very thread...
+
+As far as I remember, when the &#34;backwards compatibility&#34; option is OFF, there is NO WAY to obtain the &#34;real&#34; (&#34; /O=.../P=&#34;) address for sender / recipients, that is why I have turned the option &#34;on&#34; in the first place...
+
+Or did I miss anything?
+
+I can provide you with the modified code if you want to better understand what I&#39;m doing...
+
+";
+$rauthor="sba";
+$rdate="1171447648";
+$rip="194.3.183.35";
+
+?>

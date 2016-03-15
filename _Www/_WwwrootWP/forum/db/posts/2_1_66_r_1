@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Launch Sets";
+$rcontent="Currently it is can`t be used to run programs at specified intervals, only by hotkey only :(
+We are developing plugin that will be able to do what you want but it is in very beta state for the now";
+$rauthor="WiredPlane";
+$rdate="1105316122";
+$rip="195.209.143.44";
+
+?>

@@ -1,0 +1,26 @@
+<?php
+
+$psubject="What&#39;s new in 2.8?";
+$pcontent="Hi,
+
+I see (and have) the new version of WireNote 2.8.
+What is new from this version over the old 2.7?
+The updates are not in the version history.
+
+Thanks,
+-arcadesdude";
+$pauthor="arcadesdude";
+$pdate="1120828676";
+$plastdate="1121116099";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="arcadesdude";
+$preplies="2";
+$pviews="1065";
+$pnotify="|arcadesdude";
+$plock="";
+$pip="";
+$pvisitors="|arcadesdude|Anonimus|WiredPlane|sam|fzirp|McStar";
+$psticky="";
+
+?>

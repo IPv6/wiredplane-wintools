@@ -1,0 +1,19 @@
+<?php
+
+$psubject="small request";
+$pcontent="not sure is this would be a macro or in the program, but would it be possible to add a hotkey option to &#34;scan file underneath cursor for virus&#34; ?";
+$pauthor="jaco";
+$pdate="1111290128";
+$plastdate="1111553355";
+$pimage="1.gif";
+$plastreply="6";
+$plastauthor="jaco";
+$preplies="6";
+$pviews="870";
+$pnotify="|jaco";
+$plock="";
+$pip="";
+$pvisitors="|jaco|WiredPlane|McStar|AGu|Anonimus";
+$psticky="";
+
+?>

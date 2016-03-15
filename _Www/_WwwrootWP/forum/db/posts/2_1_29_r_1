@@ -1,0 +1,39 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="[quote]
+move any window x number of pixels in any of 8 directions (left/right/up/down/diagonals) without having to use the windows&#39; context menu (Alt-Space-M) and arrow keys.
+[/quote]
+Well, fine! :) We will publish macro for this task on the website soon! :)
+
+[quote]
+-move any window to one of 10 locations on the screen: center, bottom right, bottom center, bottom left, center left, center right, top left, top center, top right. The software &#39;Freeshade (http://www.hmmn.org/FreeShade/)&#39; does this, and it is very very convenient.
+(Freeshade also does something very cool, which is to maximize a window horizontally or vertically only, and not to the entire screen. It&#39;s neat and worth checking out.)
+[/quote]
+If fact this can be done with current version too.
+To send window to the screen edge middle-click or right-click on window border (when cursor changes to the resize arrows)
+To maximize window up-down ot left-right double-click right button on the desired edge. if you with to assign hotkeys to that actions - we will add them
+
+[quote]
+The second category is Explorer folder manipulation. The ability to hotkey the following would be super cool:
+
+-Change a folder&#39;s view setting. Ex: Ctrl-Alt-u changes current explorer window to &#39;List&#39; view, Ctrl-Alt-i changes explorer window to &#39;Details&#39; view, etc.
+[/quote]
+Ok, there will be another macro for it!
+
+[quote]
+-Fully expand the contents of chosen columns in a folder window, and auto-resize the window to fit the expanded columns. Here&#39;s screenshots for what I mean:
+http://buddafly.net/before.jpg
+http://buddafly.net/after.jpg
+[/quote]
+Well, nice idea. we will add this too - just have to research the situation
+
+[quote]
+It would also be hugely handy if this could be done with open/save dialogues (there was a piece of software some years ago that did this, but forget the name now), but I am guessing that this adds another level of complexity.
+[/quote]
+Yers, this is cool thing, we are now making plugin for this task! ^)";
+$rauthor="WiredPlane";
+$rdate="1091868634";
+$rip="213.87.15.38";
+
+?>

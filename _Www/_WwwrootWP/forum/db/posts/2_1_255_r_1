@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: WireKeys portable";
+$rcontent="Yes, it is possible. To do so Just create folder called &#34;Profile&#34; in the WK application folder (where wirekeys.exe is located). Then copy whole directory from this place:
+&#34;c:&#92;Documents and Settings&#92;&#60;user name&#62;&#92;Application Data&#92;WireKeys&#34;
+into this newly created &#34;Profile&#34; folder. If WK sees this folder (with name &#34;Profile&#34; inside installation directory), it will use it for saving all data. Copy folder &#34;WireKeys&#34; (with WireKeys.exe in it and all other files and subfolders including plugins you need) on the stick and that is all!
+
+But note that you can not enable &#34;run with windows&#34; option in this case: at startup your drive (with WK inside it) may not be visible yet. But this is depends on the flash type you are using.";
+$rauthor="WiredPlane";
+$rdate="1196306750";
+$rip="83.217.57.73";
+
+?>

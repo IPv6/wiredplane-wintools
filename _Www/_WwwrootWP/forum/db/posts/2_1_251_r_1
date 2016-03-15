@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: New translation into German";
+$rcontent="Hello!
+
+Thank you very much, we received translation file and it will be included into next release :) Thanks for contribution!!!!";
+$rauthor="WiredPlane";
+$rdate="1188811419";
+$rip="195.210.162.152";
+
+?>

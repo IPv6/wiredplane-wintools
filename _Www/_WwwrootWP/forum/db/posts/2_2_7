@@ -1,0 +1,31 @@
+<?php
+
+$psubject="ANN: WireChanger 2.5.3";
+$pcontent="This release adds more effects to &#34;Special effects&#34; template:
+- Color planes
+- Explosion
+- Water color
+- Edge detection
+- Brigthness noise
+- Sharpen
+and two more desktop skins by Nihcap - our friend from Spain 
+:D
+
+Also fixed bugs when WC is used under Windows 98/ Windows ME (GDI resources leaks)
+
+P.S. If you know interesting effect you can always write an email to us - and we will add this effect to WC as soon as possible! ";
+$pauthor="WiredPlane";
+$pdate="1084490331";
+$plastdate="1084490331";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="513";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SergeySV|Leshiy|quizote";
+$psticky="";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Username Pattern Equivalent";
+$rcontent="No, for this time :( This is unexpected usage, but you can be sure we will add support for environment strings into very next update :)";
+$rauthor="WiredPlane";
+$rdate="1092897680";
+$rip="195.245.232.12";
+
+?>

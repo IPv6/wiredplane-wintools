@@ -1,0 +1,22 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="[quote]
+And Win-Y key: did you have assign some action on this key?[/quote]
+
+Yes, I have this assignment. Please, take into the account, that I have German keyboard, so &#34;Y&#34; and &#34;Z&#34; are interchanged (in comparision with English keyboard)
+
+Here is the result of the test:
+Tue Mar 28 14:48:46 2006
+ %2DEC C:&#92;_WPLabs&#92;PROJECTS_ROOT&#92;WireKeys&#92;WireKeysDlg.cpp(6454): Executing ShellExecuteEx open C:&#92;Programme&#92;Far&#92;far.lnk ((null)), res=1
+
+Tue Mar 28 14:48:46 2006
+ %2DEC C:&#92;_WPLabs&#92;PROJECTS_ROOT&#92;WireKeys&#92;WireKeysDlg.cpp(6465): Executing ShellExecute/Ex GetLastError=0000007E (00000000)
+
+The &#34;Far.lnk&#34; is not started by &#34;Win+Y&#34; (neither any other link by any other hotkey) also in 3.42.
+It was OK in 3.3.5";
+$rauthor="stepone";
+$rdate="1143560445";
+$rip="62.225.37.69";
+
+?>

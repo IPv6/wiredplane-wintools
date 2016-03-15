@@ -1,0 +1,18 @@
+<?php
+
+$fname="WireNote";
+$fdescription="New releases, betas and future plans, etc.";
+$flasturl="post.php?cat=2&fid=3&pid=92&page=1";
+$flastauthor="Anonymous";
+$flastpost="1210226922";
+$freplies="305";
+$ftopics="92";
+$fusers="|all";
+$fvisitors="|Anonymous|WiredPlane";
+$flock="unlocked";
+$fallowreply="1";
+$fsticky="0";
+$flastpostnumber="92";
+$fhide="";
+
+?>

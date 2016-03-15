@@ -1,0 +1,19 @@
+<?php
+
+$psubject="New feature request";
+$pcontent="Please add calendar like in outlook to overview all created reminders!";
+$pauthor="Anonymous";
+$pdate="1147668993";
+$plastdate="1147668993";
+$pimage="2.gif";
+$plastreply="0";
+$plastauthor="Anonymous";
+$preplies="0";
+$pviews="726";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane|jrwatts|helmerichs";
+$psticky="";
+
+?>

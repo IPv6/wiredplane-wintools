@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [PLUGIN] GPIO remote control";
+$rcontent="What AverMedia card do you use? currently plugin supports AverMedia 305/307 models only (and higher), there is no need in additional tuning for this models";
+$rauthor="WiredPlane";
+$rdate="1115971009";
+$rip="195.245.232.12";
+
+?>

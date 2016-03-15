@@ -1,0 +1,19 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WireChanger 2.9.5 released:
+- New, built-in SlideShow screensaver, that will show images based on your WireChanger`s image lists. Screensaver is able to apply templates as well as WireChanger
+- New look-and-feel of notes/main window interfaces
+- Several usability improvements in main window and notes
+- Hotkey to snap note size to it`s text
+- Option to change note`s title font
+- New template: News reader. Get fresh news from miriads od sources on your desktop! Supported news protocols: RSS 2.0
+- New temaplates at our web-site: search bar (type a word/phrase and search results window will be opened for you), translation bar (type a word and get translation from biggest internet dictionaries), Video clip (now you can put movies on your desktop!), new Cursor boosters packs
+- New wallpaper generator and several improvements (some of them are very attractive) in generation algorithms
+- Bug fixes
+";
+$rauthor="WiredPlane";
+$rdate="1108540114";
+$rip="195.245.232.12";
+
+?>

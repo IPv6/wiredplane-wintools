@@ -1,0 +1,22 @@
+<?php
+
+$psubject="ѕри проверке обновлений пишет не ту версию";
+$pcontent="¬ы используете      	Wirekeys 3.6.1,	от 02.04.2007
+¬ы можете загрузить 	Wirekeys 3.6.1,	от 03.04.2007
+
+’от€ уже давно скачана от третьего числа и переставлена не раз.";
+$pauthor="McStar";
+$pdate="1178172586";
+$plastdate="1182170486";
+$pimage="1.gif";
+$plastreply="11";
+$plastauthor="McStar";
+$preplies="11";
+$pviews="1068";
+$pnotify="|McStar|garry63";
+$plock="";
+$pip="";
+$pvisitors="|McStar|pharaon|garry63|WiredPlane|ValeraVi";
+$psticky="";
+
+?>

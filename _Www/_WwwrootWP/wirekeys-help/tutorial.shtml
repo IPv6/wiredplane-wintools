@@ -1,0 +1,319 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="???????? ???????????? WireKeys" -->
+<!--#set var="TOPIC_EN" value="Main abilities of WireKeys" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+<h2>WireKeys Tutorial</h2><hr>
+Introduction: 
+WireKeys is multi-purpose automation tool for power users with extensive tray support.
+This program can improve your productivity in various ways: Common actions with text (regardles of the currently running task), 
+windows, access to frequently used folders or documents or applications can be greatly simplified. 
+WireKeys provide an easy way to hold all this possibilities just at your fingertips. 
+<br><br>
+This tutorial contains examples of some of WireKeys' most useful tasks: operations with selected
+text, additional clipboards, quick access to the special window's controls, the floater, and so
+on. Note that all hotkeys and combinations used below are the WireKeys defaults. You can change
+any or all of them as needed.
+
+Descriptions of other features, such as WinAmp control, Smart CD eject, Screenshot making, Boss
+key, Desktop switching, Resolution changer, and more, can be found elsewhere in these Help pages.
+<br><br>
+
+<h2>1. Operations with selected text</h2>
+<br>A) <b>Run selected text as from command string.</b> You can greatly increase the speed of starting
+applications and opening documents. Type the name of the desired application or select the path
+to the document, press the 'Ctrl-Alt-R' hotkey (all 3 keys at the same
+time), and WireKeys will execute corresponding command for you! 
+See the examples below. Select the text and press the hotkey for each box.
+<form action="" method="get">
+<input type=text size=15 value="notepad"><input type=text size=15 value="mspaint"><input type=text size=15 value="calc.exe"><input type=text size=15 value="c:\">
+<br><br>
+Examples for advanced users. The method is the same - select the text and press 'Ctrl-Alt-R'.
+These are not recommended unless you know what they are for (smart keywords, application running)<br>
+<br><input type=text size=25 value="g wiredplane"><input type=text size=25 value="ping www.wiredplane.com"><input type=text size=47 value="::{450D8FBA-AD25-11D0-98A8-0800361B1103}">
+</form>
+This feature keeps a history of use. To popup this history, double-press the hotkey as explained
+below.<br>
+Press and hold 'Ctrl' then 'Alt' then 'R'.<br>
+Release 'R' still holding Ctrl and Alt.<br>
+Press 'R' again.<br>
+Then release all three keys.<br>
+(This hotkey combination can be referenced as 'Ctr-Alt-R-R')<br>
+In this history of use, you can "pin" favorite items for later use by selecting item with the
+'Shift' key.
+<br><br>
+B) <b>Inline calculator.</b> Enter an expression that ends with '=' (equal sign) and press 'Ctrl-Alt-R'.
+The expression will be replaced by its result. Look at the examples below. With WireKeys running,
+you could enter '2+2=' including the equals sign and press 'Ctrl-Alt-R', then release them, and the number 4 will appear in its place. 
+Try this: put cursor behind expression and press Ctrl-Alt-R
+<form action="" method="get"><input type=text size=35 value="sqrt(4)+2*PI=">&nbsp;<input type=text size=35 value="5+3*(5*cos(3.1415))="></form>
+Expressions can be very complex. You can use mathematical functions (such as those found in
+JavaScript), perform simple translations between different numbering systems (such as hex, decimal and
+octal), or write a small, C-like program and run it in-line.
+<form action="" method="get">
+<input type=text size=35 value="255(10->16)=">&nbsp;<input type=text size=35 value="var res=2;for(i=0;i<10;i++){res*=2;};res=">
+</form>
+C) <b>Changing case/keyboard layout of the text.</b> Select the text in this field and press
+'Ctrl-Alt-Gray Minus' (Gray Minus is the key from keyboard's additional pad where 'Num lock' key
+can usually be found). This will popup an additional menu with
+the currently available actions. Move your mouse pointer onto the "Selected text" submenu and
+choose "Convert to lower case" to change the case of the selected text. For quick access, you can
+set a hotkey for every item in this submenu. The case of the selected text can be automatically
+changed with the 'Alt-`' hotkey by default The '`' key (called grave, and pronounced grah-vay) is
+found below the Escape key to the left of the number 1 key.
+<form action="" method="get"><input type=text size=35 value="CAPS LOCK IS ON"></form>
+If you have more than one keyboard layout on your computer, WireKeys can automatically change
+text typed in the wrong layout using the 'Ctrl-`' hotkey. The keyboard will be automatically
+converted into right layout as well.
+<form action="" method="get"><input type=text size=35 value="Ghbdtn dctv rnj gjybvftn heccrbq zpsr :)"></form>
+D) <b>Context menu.</b> Almost anything you can do with selected etxt can be called from special context menu in any application.
+Select text, press Control key and click on text with right mouse button to popup it. Try to call this menu on the following text:
+<form action="" method="get"><input type=text size=35 value="Sample text"></form>
+E) <b>Text macros</b> Macros are used to perform different repetitive specific actions and to process
+selected text. Select the first line of text below and call the hot menu ('Ctrl-Alt-Gray Minus'),
+then choose any appropriate macro from its submenu. Initially WireKeys does not assign hotkeys to
+pre-installed macros - this can be done on your own through preferences dialog.
+<br>
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr><td valign=top><form action="" method="get">
+1) Select the text in the following field and call the "Swap line parts" macro:
+<input type=text size=25 value="PEACE=GOOD"><br><br>
+2) Select the text in the next field and call the "New mail" macro:
+<input type=text size=25 value="support@wiredplane.com">
+</form></td><td><img src="c_hotm4.gif"></td></tr>
+</table>
+<br>
+You can use additional macros from our web-site or create and add your own macros. The only thing you
+need to do that is the implementation of your specific text processing in the JavaScript or VBScript
+language. To learn more about macros, refer to the '<a href="macros.shtml">macros help page</a>'
+<br><br>
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr><td valign=top>
+You can also record keyboard into macro using "Record macro feature". 
+Short 'How to': Start recording and press key you wish to see in macro.
+Then press "Save and close" to add macro to WireKeys and assign hotkey for it.
+You can record mouse clicks and movements too - Just choose what you wnat to record after pressing
+"Record macro" item in tray menu
+</td><td><img src="c_macro.gif"></td></tr>
+</table>
+
+<h2>2. Additional clipboards</h2>
+Additional clipboards help you manage many blocks of text at once. Normally, you have only one
+clipboard, and when you copy text (hereafter referred to as a snippet) into it, all previous data
+is lost. With WireKeys you can copy snippets into different clipboards at the same time and hold
+them until you need them. Data copied to additional clipboards is NOT copied to the standard clipboard, 
+these clipboards can be used in addition to the standard clipboard.
+WireKeys saves clipboard contents between shutdowns, so you can copy a
+snippet today and use it tomorrow. Additional clipboards can also hold images. By default, 
+WireKeys adds 3 clipboards; you can have up to 99 clipboards. 
+With the NumLock key turned on, use hotkey 'Ctrl-Num 1' (where 'Num 1' is the 1 key
+on your keyboard's right-hand keypad) to copy to clipboard #1. 'Ctrl-Num 2' copies to clipboard
+#2; 'Ctrl-Num 3' copies to clipboard #3; and so on. Use 'Alt-Num 1', 'Alt-Num 2', and 'Alt-Num 3'
+to paste snippets from their respective clipboards into a document or textbox as needed.<br>
+With WireKeys running, try this. Select 'Text for clipboard 1' from the textbox below and press
+'Ctrl-Num 1', then select 'Text for clipboard 2' and press 'Ctrl-Num 2'. 
+Then click the textbox next to 'Try here' and randomly
+press 'Alt-Num 1' and 'Alt-Num 2' a few times. You should see each snippet being
+pasted into the box proving that all three are available as needed.<br>
+<form action="" method="get">
+<input type=text size=30 value="Text for clipboard 1">&nbsp;<input type=text size=30 value="Text for clipboard 2">
+<br><input type=text size=30 value="More Text for clipboard 1">&nbsp;<input type=text size=30 value="More Text for clipboard 2">
+<br>Try here: <input type=text size=50 value="">
+</form>
+<br>
+
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr><td valign=top>1) Every clipboard has a history of use. You can use clipboards as much as you want and can revert to the previously used snippet at any time. Access a history by pressing 'Win-Num 1',
+'Win-Num 2', 'Win-Num 3', and so on. WireKeys adds every item to the top of the corresponding
+history and moves all previous snippets down. You can define the maximum number of history
+snippets in preferences. You can 'pin' your favorite item in the history, so it will never be
+removed. To pin a snippet, open the history, press and hold the 'Shift' key, and click desired
+item.<br>
+2)WireKeys adds a history of use to the standard clipboard too. Press 'Win-V' to access the standard clipboard's history of use.
+</td>
+<td><img src="c_hist.gif"></td>
+</tr>
+</table>
+<p>
+By assigning hotkey to "Show application-specific history" action, You can call history in filtered mode. Press this hotkey to get history of items from the currently active application.
+Additional clipboard can also be extended with additional plugin - "Right-Click paste enchancer" (can be downloaded from <a href="http://www.wiredplane.com/download/wkplugins/wkp_rclickcp.zip">here</a>).
+This plugin adds history of the clipboard to all popup/context menus in almost *all* applications, instead of (or next to) standard 'Paste' item,so you will always be able see and choose what text you want to paste
+<p>
+Clipboard-related hotkeys by default
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr>
+<td>&nbsp;
+<td>Standard
+<td>Clip #1
+<td>Clip #2
+<td>Clip #3
+<tr>
+<td>Copy
+<td>Ctrl-C
+<td>Ctrl-Num 1
+<td>Ctrl-Num 2
+<td>Ctrl-Num 3
+<tr>
+<td>Paste
+<td>Ctrl-V
+<td>Alt-Num 1
+<td>Alt-Num 2
+<td>Alt-Num 3
+<tr>
+<td>Popup history
+<td>Win-V
+<td>Win-Num 1
+<td>Win-Num 2
+<td>Win-Num 3
+</table>
+
+<h2>3. Convinient ways to control windows</h2>
+With WireKeys you can hide windows to the tray, minimize them to the taskbar or into a floater,
+roll them up to the titlebar, change a window's 'On-top' state, move it back into view, change
+its opacity, create a shortcut or hotkey for quick access, and much more. All these actions can
+be done using hotkeys, but there are alternatives.
+<br><br>
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr><td valign=top>1) Another way to quickly call these commands is through the hot menu. Press the 'Ctrl-Alt-Gray Minus' hotkey and choose the desired option. Note that the action's hotkey can also be found on the right side of the menu item, 
+so it's easy to remember hotkey combinations. Check submenus to get an idea what 'force' you have now
+<br>
+2) In the 'System actions', you can view and set some window's parameters and look at the corresponding application's information. (This information will open in a separate window.)
+<br>3) Visit "Application shortcut" menu. Here you can instantly add hotkey to run this application, create link to it on desktop or quick launch bar, make this application automatically hide to tray when you switch to another one
+</td><td><img src="c_hotm3.gif">
+</td></tr>
+
+<br>WireKeys has a built-in plugin called "Window's traits". This allows you to control window
+actions by mouse gestures or even automatically.<br><br>
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr><td valign=top>3) With this plugin, you can minimize any window to the tray by right-clicking the window's minimize button, 
+roll it up to its titlebar by right-clicking the window's maximize button, and open the hot menu by right-clicking the 
+window's close button. </td>
+<td><img src="c_rc_min1.gif"></td></tr>
+</table>
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr><td><img src="c_rc_min2.gif"></td><td valign=top>4) If you minimize an application to the tray, you can still access its main 
+menu directly through tray icon's menu. Also you can detach a hidden window into a floater. A floater is a small icon that sits 
+on your screen without obscuring your tray. Floater will hide itself automatically if you place mouse pointer over it without 
+clicking on floater for while. Double click on icon in tray or floater
+to unhide corresponding window.</td></tr>
+</table>
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr><td valign=top>5) Plugin will modify system menu of each application you use.
+<br>Using system menu you can quickly assign a hotkey to the active application,
+hide the application and open additional menus. System menu can be called by
+the 'Win-Space' hotkey or by right-clicking the window's title or
+by clicking icon in the top-left corner of window's title .
+</td><td><img src="c_rc_min3.gif"></td></tr>
+</table>
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr>
+<td><img src="c_rc_min4.gif"></td>
+<td valign=top>Some special actions when the cursor becomes a right-left or up-down arrow: 
+<br>- Dock the window to the screen edges by left-clicking its resizing areas
+<br>- Expand the window by right-clicking its resizing areas. Repeat this action to revert the window to its original size.
+<br><br>
+You can use this to quickly align several windows near the screen edge.
+</td></tr>
+</table>
+<br>
+The "Window's traits" plugin can also automatically hide unused windows. For example, let's say
+you are reading your email in your email program. When you are done reading, you can simply
+switch to another application, and WireKeys will move the unused email program to the tray
+automatically. You can define a list of applications that you want moved to the tray (or to a
+floater) in preferences.
+<br>
+<h2>4. Window`s floater</h2>
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr>
+<td valign=top>A floater keeps your tray uncluttered by creating icons that must be visible anyway but not
+adding them to the tray. To create a floater:
+<br>- Click a hotkey (as defined in preferences)
+<br>- Choose the corresponding menu item from a minimized-to-tray application
+<br>- Set the corresponding option for a quick-run item
+<br>A floater can be temporarily hidden by holding the mouse cursor over it for a few seconds. 
+<hr>If you create a floater from the quick-run folder, you can browse the folder's contents from the
+floater's context menu and quickly copy files into that folder by dragging them onto the
+floater's window.
+</td>
+
+<td><img src="c_float1.gif"></td>
+</tr>
+</table>
+
+<h2>5. Context menus and quick access to preferences</h2>
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr>
+<td><img src="c_contm.gif"></td>
+<td valign=top>Almost every item in the tray menu has its own context menu which you can right-click it to get additional benefits:
+<br>- Set process priority, view process information, etc. 
+<br>- Select the resolution with different BPP/Color depth combinations
+<br>- Detach quick-run into a separate icon, show quick-run options, and more
+<br>- Popup explorer's menu for the selected file
+<hr><b>Tip:</b> To quickly set options for a particular feature, you can choose the item from the menu with the Shift key. This will popup the corresponding section from the preferences dialog (instead of
+activating the chosen feature).
+</td>
+</tr>
+</table>
+
+<h2>6. Open/Save dialog improvements and shell extensions</h2>
+
+<table cellspacing=1 cellpadding=2 border=0 width=600>
+<tr>
+<td><img src="c_hotm2.gif"></td>
+<td valign=top>1) WireKeys extends Explorer`s context menu with some new and useful items. To see additional items right-click
+on any file or folder in Explorer and look into "WK Specials" and "Jump to folder" submenus.
+<br>2) Look at any Open/Save dialog and middle-click on dialog title. You will instantly get list of the recently used folders.
+By choosing item from this list, you will jump to this folder quickly, without need of drilling through 
+folders manually. This will work in Open/Save dialogs in Explorer, Microsoft Office, Total Commander
+and many other programs - just click on dialog title with middle mouse button
+<br>3) You can also assign hotkey to quickly jump to favourite folder or change dialog style (icons, list, thumbnails, etc) by hotkey
+</td>
+</tr>
+</table>
+
+<h2>8. Scheduler</h2>
+Every hotkey in preferences has special 'plus' mark. Click on it to open submenu with action`s schedule.
+You can add schedule to any action that can be called with hotkey
+<br>
+
+<h2>9. Hotkeys</h2>
+Up to 3 hotkeys can be assigned to any action. With extended hotkey processing, you can assign
+hotkeys like RCtrl-1-2-3. (This hotkey would be triggered by pressing Right-Ctrl, key 1, key 2
+and key 3 simultaneously.) Using this type of key combination, it is easy to assign meaningful,
+self-describing hotkeys. You can include mouse buttons and borders in your hotkeys. To enter such
+hotkeys in preferences, choose items from the context menu to add them to hotkey. 
+<table cellspacing=1 cellpadding=2 border=0 width=600><tr><td valign=top>
+You can also automatically activate hotkey`s action by schedule or by 
+typing simple alias of your choice in any text window. See hotkey`s suboptions
+<td width=1%><img src="c_hotm5.gif">
+</table>
+<br><br>
+You can reassign standard Windows hotkeys (like Win-R or Win-F). You can also use the
+"Press-and-Hold" effect to create unique hotkeys. To define such hotkeys, just press the
+combination and hold it for 2 seconds. (This timeout can be changed in preferences).
+<br><br>
+Useful tip: You can disable the Caps Lock key to prevent accidental toggling. The Caps
+Lock toggle will be performed with "Shift-Caps Lock" instead. Then you can use this key in your
+combinations too! If you don't want to use left and right Shift/Alt/Control/Win keys separately,
+you can disable this feature in the 'Extended hotkeys processing' in preferences.
+<br><br>
+You can always get a list of all currently active hotkeys by choosing "List all hotkeys" from the
+"Help" submenu of the tray menu.
+<br><br>
+If you have unanswered questions about any WireKeys feature, please
+use our <a href="http://www.wiredplane.com/forum/board.php?cat=2&fid=1&s=s" target="_blank">support forum</a> or
+email our support services. More information can be found elsewhere in these Help pages.
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->
+

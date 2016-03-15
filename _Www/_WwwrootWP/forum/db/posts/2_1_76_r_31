@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK 3.6.1 released
+Small features added to task list, scripting API, HID device support (partial, experimental, but a first step toward working with joysticks, midi keyboards, crazy equipment of all types)
+
+Fixed bug with deleting quick-runs from macros tree";
+$rauthor="WiredPlane";
+$rdate="1174290015";
+$rip="85.141.178.81";
+
+?>

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE:  [ANN] WireNote updates";
+$rcontent="WN 3.0  Released!
+a lot of small changes and convinient quick pad in main window were added...";
+$rauthor="WiredPlane";
+$rdate="1127890516";
+$rip="195.245.232.12";
+
+?>

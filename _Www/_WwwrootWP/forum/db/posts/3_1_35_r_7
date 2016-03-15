@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [PLUGIN] Spell checker by Karcade";
+$rcontent="Just checked - yes, Russian Dictionary has one prblem, it is in KOI8-R encoding. Converted dictionary, suitable for windows can be downloaded here: [url]http://www.wiredplane.com/download/extras/dic-ru-1251.zip[/url]";
+$rauthor="WiredPlane";
+$rdate="1118240191";
+$rip="195.209.143.44";
+
+?>

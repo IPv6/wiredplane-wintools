@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Find Online Users doesn&#39;t work";
+$rcontent="Under &#34;Active Protocols&#34; there is:
+
+Default net protocol: Wirenote; 
+Maintain Mailshot protocol (checked)
+Maintain Winpopup protocol (checked)
+Maintain Wirenote protocol (checked)
+Maintain EMail protocol (checked)
+
+My network operates under TCP/IP with IP addresses allocated by DHCP";
+$rauthor="GMC";
+$rdate="1130485772";
+$rip="83.151.204.160";
+
+?>

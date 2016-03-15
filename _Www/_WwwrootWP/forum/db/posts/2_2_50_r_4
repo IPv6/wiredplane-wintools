@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="Hello!
+We just uploaded WC with fixed screensaver on dual-monitor systems (at least we think so, because there is no way to test for us).
+Can you test it wgen you`ll have spare time?
+There is only one thing - after installing you should open &#34;preferences&#34; - &#34;screensaver&#34; and click on &#34;install as screensaver&#34; to replace actual screensaver with new one.
+Please answer with any results ^)
+Good luck!";
+$rauthor="WiredPlane";
+$rdate="1138367453";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Desktop image";
+$rcontent="1,2 - open main window and disable anything you don`t like.
+3 - yes, just drag-n-drop them over desktop. Click on it and drag without releasing your mouse";
+$rauthor="WiredPlane";
+$rdate="1180350750";
+$rip="195.210.162.152";
+
+?>

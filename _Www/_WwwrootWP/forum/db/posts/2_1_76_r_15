@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK3.1 released. Main new feature - sequence hotkeys. This new type of hotkeys allows you to type hotkeys instead of pressing hotkey keys simultaneusly. See help for details. This feature were suggested by Julia FAST (Thank you Julia! :) )";
+$rauthor="WiredPlane";
+$rdate="1130420135";
+$rip="195.245.232.12";
+
+?>

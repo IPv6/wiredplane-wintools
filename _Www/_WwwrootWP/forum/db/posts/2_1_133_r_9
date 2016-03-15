@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: hotkey for folder context menu item (&#34;Play In Winamp&#34;)";
+$rcontent="visit forums.winamp.com for other winamp command line options ^)
+to start playng file instead of addint it to play list you can simply omit /ADD option. But it seems that this will destroy playlist as well :(
+
+";
+$rauthor="WiredPlane";
+$rdate="1135844082";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Лоток CD.";
+$pcontent="Всё-таки функция автоматического закрытия лотка работает нестабильно. Иногда он сам закрывается, а иногда нет. Выяснить почему, не удалось. На разных системах. Как 2000, так и XP.
+И ещё не определяется автоматически открыт лоток или закрыт.";
+$pauthor="McStar";
+$pdate="1126526085";
+$plastdate="1126770822";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="McStar";
+$preplies="4";
+$pviews="676";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|w11";
+$psticky="";
+
+?>

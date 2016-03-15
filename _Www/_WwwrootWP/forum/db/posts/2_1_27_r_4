@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: bugs & suggestions";
+$rcontent="About encoding into URL-compliant string
+New WK 2.7.2 now supports templates like URL_SELECTED
+Selected text will be encoded into %XX%XX%XX... sequence where required :)";
+$rauthor="WiredPlane";
+$rdate="1092984386";
+$rip="195.245.232.12";
+
+?>

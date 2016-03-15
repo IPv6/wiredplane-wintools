@@ -1,0 +1,78 @@
+<?php
+
+$rsubject="RE: Вопросы, жалобы и просьбы";
+$rcontent="[quote]можно будет вам скинуть ссылку для проверки работает ли он на вашего оператора? [/quote]
+Да, конечно, с удовольствием проверю.  :) А универсальный сервис - удобнее, но надежен ли он? Не будет ли противодействия со стороны опсосов?
+
+[quote]На закрытие после проверки есть опция в настройках[/quote]
+Пока не нашел, сколько ни искал. :) Вообще надо сказать, не в обиду, что система помощи и организация настроек в программе - не user-friendly совершенно. Сугубое имхо, конечно.
+
+[quote]вы можете прислать листинг файлов в каталоге WireNote?[/quote]
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;unins000.dat
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;unins000.exe
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;adv_l0.txt
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;file_id.diz
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;history.html
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;license.rtf
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;readme.txt
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;spam-addr.def
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;spam-body.def
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;spam-subj.def
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;WiredPlane.url
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;WireNote.exe
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;WireNote.exe.manifest
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;WireNote_l0.chm
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;WireNote_l0.lng
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;WireNote_l1.lng
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;WireNote_l2.lng
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;WireNote_l3.lng
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sms
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;install.ini
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;spam-subj.txt
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;spam-addr.txt
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;spam-body.txt
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;spam-head.txt
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;adv_l1.txt
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;angel.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;cool.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;down.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;drink.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;heart.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;lol.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;mad.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;sad.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;smile.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;smirk.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;snail.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Smiles&#92;up.bmp
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sms&#92;beeline.rul
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sms&#92;megafon.rul
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sms&#92;mts.rul
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sms&#92;sms.ico
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sms&#92;smssend.exe
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sms&#92;default.rul
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;error.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;hourly.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;mail.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;message.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;msgdeliv.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;msgnotdeliv.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;msgsend.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;publ.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;remind.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;remind_note.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;tdactiv.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;tddone.wav
+C:&#92;Program Files&#92;WiredPlane&#92;WireNote&#92;Sound&#92;watch.wav
+
+Ну и еще пара-тройка предложений :D
+- Убирать окно Организатора при повторном нажатии на иконку в трее
+- При сортировке по важности ToDo задачи с &#34;!&#34; идут раньше, чем &#34;!!&#34;, хотя последние - это &#34;наиважнейшие&#34;
+- Проверка почты разных аккаунтов  - в одном окне";
+$rauthor="vadbars";
+$rdate="1170249845";
+$rip="212.220.96.180";
+
+?>

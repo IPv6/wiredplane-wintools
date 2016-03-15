@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Couple of new user questions";
+$rcontent="Here&#39;s the image of the duplicate message notifications. I only have /xpc installed. As far as the file attachment error the program complains of not having the /nb protocol. I thought only /xpc was necessary...
+
+[url] http://www.medianxt.com/Images11/wnote.gif [/url]
+
+Hmmm. Looks like I can&#39;t upload a screen shot here. And the URL tags in the forum don&#39;t seem to work eithere. I  created a hyperlink (above) unless there&#39;s an easier solution...";
+$rauthor="cellphone";
+$rdate="1144328659";
+$rip="68.101.40.139";
+
+?>

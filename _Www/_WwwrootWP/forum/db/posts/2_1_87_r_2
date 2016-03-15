@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: &#39;Network and Dialup Connections&#39; folder";
+$rcontent="I would like to open the main Network and Dialup Connections folder, not one of the individual connections. ";
+$rauthor="jaco";
+$rdate="1111097600";
+$rip="66.114.67.40";
+
+?>

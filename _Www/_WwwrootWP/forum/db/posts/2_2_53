@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Feature requests for WireChanger";
+$pcontent="OK, now that we&#39;ve got the widescreen & dual display features sorted out  :glad, I have a few requests for further features, if you feel so inclined ;):
+
+1) With dual monitors, allow each screen to have a separate image, preferably as an option that can be turned on or off (yes, I already mentioned this in the other thread)
+
+2) I&#39;d like a widget that displays the image&#39;s filename (either just the name or the complete path)
+
+3) I would like presets to also save the state of the themes as well as the widgets.  For example, I would like to be able to have 2 presets which enable different themes (or just use different weights for them).  This is somewhat related to hiclass&#39; request, I think.
+
+WireChanger is a great program, and I&#39;m amazed at how responsive you&#39;ve been to my requests so far.  I recommend it to everyone!  :thmbup";
+$pauthor="jrwatts";
+$pdate="1139560053";
+$plastdate="1139562843";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="726";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|jrwatts|FAST|ValeraVi|hiclass|vidiont|helmerichs";
+$psticky="";
+
+?>

@@ -1,0 +1,80 @@
+<?php
+
+$psubject="Messages from old forum";
+$pcontent="Claes  [01st January, 2004 11:54:18] 
+Hi
+I think it is possibel develop your program to a killer appz
+by changing a bit in the code.
+I have exspeimented a year with url links and how to make it.
+1. add to your program import of urls from asci.txt files
+not only one link.
+2. add import av htm table to visulaise jpg, sound and more
+3. Add exsport of settings not only as wallpaper but as htm
+
+Now you got an url visualisation tool
+Relise it as Freeware to make it change the whole internet
+
+I have been developing this for over a year andthis is a bit of it.
+Whats your comments to go futher in development.  
+ 
+
+Bboy  [14th December, 2003 10:33:08] 
+А каким образом можно на hotkey повесить создание папки???  
+
+WiredPlane Labs (http://www.wiredplane.com)  [08th November, 2003 17:23:21] 
+2MCA: Yes, of course, if you have time and want to help us in localization process - we will be happy to give you a life registration key :)
+About conflicts. If you are using Windows 98/Windows ME, just download updated installation packages. We have just fixed major incompatibility issue with Win98/ME GDI resource leak :(  
+ 
+
+MCA (http://www.zetatalk.com)  [06th November, 2003 08:02:00] 
+Hi there.
+
+Amazingly great programs your Wirekeys and WireNotes. It&#39;s a pity Wirekeys is still a very conflicting app... however... As it seems or as far as i have noted, it conflicts and interferes with almost any other program. 
+
+I am going to give a try to your WireChange. Apparently, it seems to be another great program also. How about having it translated into Brazilian Portuguese in exchange for a life registration key? Please, let me know about this.
+
+Regards.
+
+http://www.greenbrowser.com
+
+http://www.shawneelink.net/~bgmiller/ 
+
+http://www.win-utilities.com/ (I am sure you can do something as great as this app ;)
+
+ 
+ 
+
+Anonimus  [01st November, 2003 06:34:23] 
+ 
+
+WiredPlane Labs (http://www.wiredplane.com)  [26th October, 2003 16:05:21] 
+WireKeys 1.9.7 released.
+2Roger Parks: Will be implemented soon :) Thanks for suggestion!  
+ 
+
+Roger Parks  [25th October, 2003 15:26:51] 
+Dear Sirs:
+
+Well, I&#39;ve another - how about a second (or third) &#34;boss key&#34;?
+
+I&#39;m using your present bosskey to -hide- some DOS windows that bring up communications tunnels, plus any other apps that need hiding. 
+
+If I had a second bosskey, I&#39;d put in all of the windows that I want to &#34;hide to tray&#34;.
+
+Third bosskey would &#34;terminate&#34; all of the apps that need instant termination:-) 
+";
+$pauthor="WiredPlane";
+$pdate="1081769797";
+$plastdate="1081769885";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="WiredPlane";
+$preplies="2";
+$pviews="1312";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|mcc|Loong|Anonymous";
+$psticky="";
+
+?>

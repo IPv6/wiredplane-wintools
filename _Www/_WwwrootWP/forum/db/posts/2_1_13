@@ -1,0 +1,28 @@
+<?php
+
+$psubject="ASCII Support?";
+$pcontent="I use ASCII characters for my password when I remotely log onto other machines. What do I need to do so that the ALT key and a 3 digit number combination is interpreted as a ASCII character instead of a Wirekeys command?
+
+For example Alt 175 = »
+Wirekeys sees it as = 75
+
+(I have re-mapped the Clipboard keys)
+
+Thanks
+-Jim
+";
+$pauthor="Socrates42";
+$pdate="1083240478";
+$plastdate="1083240707";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="243";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR";
+$psticky="";
+
+?>

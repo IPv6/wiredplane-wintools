@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [PLUGIN] Spell checker by Karcade";
+$rcontent="And this plugin not correct work. For example i was wrote &#34;&#1055;&#1088;&#1102;&#1074;&#1077;&#1090;&#34;. Press hot keys and show message, what all correct.";
+$rauthor="McStar";
+$rdate="1118144688";
+$rip="unknown";
+
+?>

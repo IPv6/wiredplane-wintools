@@ -1,0 +1,24 @@
+<?php
+
+$rsubject="RE: Переключение окон произвольным хоткеем.";
+$rcontent="// Language: WP_MacroRec.wkp
+// Title: Macro #1 (06.06.2004)
+// Description: Automatically recorded macro
+// ParamType: String
+
+// Hint: wait_for_key_release;
+// Playback Speed ratio (&#39;1&#39; means as recorded)
+SET_SPEED(1);
+
+// Recorded keystrokes
+Command(&#34;key::msg=[260] l=[#00003812] keydown=[1] ext=[0]&#34;);
+Command(&#34;key::msg=[260] l=[#00000F09] keydown=[1] ext=[0]&#34;);
+Command(&#34;key::msg=[261] l=[#00000F09] keydown=[0] ext=[0]&#34;);
+Command(&#34;key::msg=[257] l=[#00003812] keydown=[0] ext=[0]&#34;);
+
+а можно посмотреть то что у тебя зарекордилось?";
+$rauthor="WiredPlane";
+$rdate="1086585672";
+$rip="195.209.143.44";
+
+?>

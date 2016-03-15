@@ -1,0 +1,54 @@
+<?php
+
+$psubject="suggestion for time and date in OSD";
+$pcontent="It would be great if we could personalize this display as in some other programs that offer this kind of functionality. We could enter a string corresponding to the time and date display we wanted. Time should be available as 12 or 24 hour display.
+
+Here are directions for how to format a date in another program I use:
+
+-----------------------
+d      Day of month as digits with no leading zero for single-digit days.
+
+dd     Day of month as digits with leading zero for single-digit days.
+
+ddd    Day of week as a three-letter abbreviation.
+
+dddd   Day of week as its full name.
+
+M      Month as digits with no leading zero for single-digit months.
+
+MM     Month as digits with leading zero for single-digit months.
+
+MMM    Month as a three-letter abbreviation.
+
+MMMM   Month as its full name.
+
+y      Year as last two digits, but with no leading zero for years less than 10.
+
+yy     Year as last two digits, but with leading zero for years less than 10.
+
+yyyy   Year represented by full four digits.
+
+gg     Period/era string. This element is ignored if the date to be formatted does not have an associated era or period string.
+
+
+For example, to get the date string
+Wed, Aug 31 94
+
+use the following picture string:
+ddd, MMM dd yy
+";
+$pauthor="rij73";
+$pdate="1082131371";
+$plastdate="1083631047";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="rij73";
+$preplies="5";
+$pviews="542";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|rij73|WiredPlane|BillR";
+$psticky="";
+
+?>

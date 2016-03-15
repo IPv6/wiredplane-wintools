@@ -1,0 +1,42 @@
+<?php
+
+$psubject="WK Lite v. WK Registered/Trial v. WK Unreg/Expired Trial";
+$pcontent="Ilja,
+
+I want to recommend WK to a friend for a couple of specific features but I want to be sure I understand what is in the various versions.
+
+Lite - WK 1.9.9
+v1.9.9 has early versions of a few plug-ins.  Are these disabled?
+
+Trial - WK 2.6.x 
+100% of functionality for 15 days. (I don&#39;t see trial duration listed on site but Version History, 2.0 has it.)
+
+Unregistered (Expired Trial)  - WK 2.6.x
+Stops working?  Numerous features disabled but still 2.6.x?  Just plug-ins disabled?  (Version History, 2.0 says just plug-ins are diabled but that was some time ago.)
+
+Just what is included in &#34;disabled plug-ins&#34; in this context beyond the downloadable and user-written ones?  E.g., are macros disabled?  
+
+Recommendation
+Given that WK 2.6.x is (presumably :D) more stable, would he be better off using the current (and future?) unregistered version rather than v1.9.9 assuming the several initial &#34;key&#34; features are in both (i.e., basic hotkeys - single Ctrl/Shift/Alt + char; improved Window controls - to tray, roll-up, add&#39;l menu; basic quick-run menu; simple scripting)?
+
+Keep up the good work but remember to smell the flowers while they are blooming.  ;)
+
+Thanks,
+
+Edit: typos.
+";
+$pauthor="BillR";
+$pdate="1091384511";
+$plastdate="1091479636";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="290";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|jaco|stepone|McStar|AGu";
+$psticky="";
+
+?>

@@ -1,0 +1,23 @@
+<?php
+
+$psubject="New Arabic translation file for WireChanger 2.7";
+$pcontent="Hi:
+
+Please accept the New Arabic translation file for WireChanger 2.7
+
+[b] Attachment[/b]: [att]1WireChanger_l4.rar[/att]";
+$pauthor="awadh";
+$pdate="1091812455";
+$plastdate="1098222185";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="awadh";
+$preplies="5";
+$pviews="304908";
+$pnotify="|awadh";
+$plock="";
+$pip="";
+$pvisitors="|awadh|WiredPlane|eriw22";
+$psticky="";
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Task Bar Extender";
+$rcontent="Strange, using this all the time on XP and 2000 and never see such behaviour :(
+
+Screenshot would be very useful. Second try - after expirencing such problem, can you try to resize taskbar? Just make it bigger and than return to original size. Does this help?";
+$rauthor="WiredPlane";
+$rdate="1119951002";
+$rip="195.245.232.12";
+
+?>

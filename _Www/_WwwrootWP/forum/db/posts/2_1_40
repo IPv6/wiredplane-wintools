@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Не считается количество символов";
+$pcontent="Есть текст, типа
+BugDB00000579
+
+BugDB00000658
+
+BugDB00000590
+
+и т.д...
+Выделяю текст. выбираю в специальном меню &#34;Выделенный текст - количество символов&#34; Выдаёт 0.";
+$pauthor="McStar";
+$pdate="1098105117";
+$plastdate="1098180140";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="McStar";
+$preplies="4";
+$pviews="564";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

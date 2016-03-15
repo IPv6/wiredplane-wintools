@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: reminder problem";
+$rcontent="you mean &#34;send message when reminder is activated&#34;? or something else?";
+$rauthor="WiredPlane";
+$rdate="1142926818";
+$rip="195.245.232.22";
+
+?>

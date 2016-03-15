@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Microsoft Natural keyboard";
+$pcontent="Имеется в наличии сия клавиатура. Хочу запрограммить как хоткеи ее дополнительные клавишы, но при их нажатии WireKeys вообще никак не реагирует. Это невозможно или я что-то не так делаю?
+
+Алексей.
+
+P.S. Пока под впечатлением обилия (жуткого :)) настроек... Пробую разобраться";
+$pauthor="Anonimus";
+$pdate="1128602919";
+$plastdate="1130777479";
+$pimage="5.gif";
+$plastreply="8";
+$plastauthor="WiredPlane";
+$preplies="8";
+$pviews="830";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Lecter|AlexZ";
+$psticky="";
+
+?>

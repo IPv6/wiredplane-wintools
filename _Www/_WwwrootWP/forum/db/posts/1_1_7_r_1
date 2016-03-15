@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Do You have RSS for Your site?";
+$rcontent="Currently no. But we will try to implement this, thanks for suggestion :)";
+$rauthor="WiredPlane";
+$rdate="1098713815";
+$rip="195.245.232.12";
+
+?>

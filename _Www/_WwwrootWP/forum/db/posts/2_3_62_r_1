@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Error Message";
+$rcontent="you should remove Ctrl-Alt-A from WN. You can use search to find which action is using this hotkey. Then change hotkey from ctrl-alt-a to something else.
+";
+$rauthor="WiredPlane";
+$rdate="1146728197";
+$rip="195.245.232.22";
+
+?>

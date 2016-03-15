@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Feature request";
+$rcontent="On the same note,the ability to access the context menu in the process list with the keyboard as well,the same way I can access it with the extra windows key in other programs (its identified as Apps in Wirekeys).
+And if I can assing hotkeys to actions (K for kill for example) that would be even better.
+
+Last and this might be overkill,you be the judge of that :),since a single column is in the works then a tree structure the same one that &#34;Process Explorer&#34; or &#34;WhatsRunning&#34; uses would be great.";
+$rauthor="annon";
+$rdate="1176722194";
+$rip="81.4.131.117";
+
+?>

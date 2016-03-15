@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="File was actually called &#34;Wired_screensaver.scr&#34;.  Just in case, I went ahead and re-downloaded the Wirechanger ZIP, deleted Wired_screensaver.scr, and then re-installed Wirechanger.  Clicked on the &#34;install screensaver&#34;, set to new preset.  Date/Time stamp and Minilender still present (for the one image it displays).
+
+What&#39;s odd is that the previous release (before the &#34;fixed&#34; screensaver) had the preset option, and had separate checkboxes for the Date/Time stamp and Mililender.  Those separate checkboxes are missing....";
+$rauthor="jrwatts";
+$rdate="1138640289";
+$rip="68.35.144.64";
+
+?>

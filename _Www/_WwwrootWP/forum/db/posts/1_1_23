@@ -1,0 +1,41 @@
+<?php
+
+$psubject="Bcc:&#39;s yield duplicate messages";
+$pcontent="Just wanna know whether someone&#39;s already looked into this bug.
+
+When my email client sends a message To: x Cc: y Bcc: z this is actually two SMTP transactions:
+
+#1
+SMTP recipients = x y
+Headers:
+To: x
+Cc: y
+
+#2
+SMTP recipients = z
+Headers:
+To: x
+Cc: y
+Bcc: z
+
+The problem is that on the second transaction, MAPI2POP3 causes the message to be delivered to x+y+z, not to z only.
+
+I&#39;ll look into the code to fix this myself, but with little help from my friends ;-) would speed my up...
+
+TIA
+";
+$pauthor="sba";
+$pdate="1170081226";
+$plastdate="1170140533";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="437";
+$pnotify="|sba";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

@@ -1,0 +1,36 @@
+<?php
+
+$rsubject="RE: [req] small text substitution";
+$rcontent="Ok, I&#39;ve made this VB script as a .wkm file and it works!  :bulb
+
+[quote]
+&#39; Language: VBScript
+&#39; Title: Inserisce asterisco
+&#39; Description: Inserisce un asterisco tra le lettere della stringa selezionata
+&#39; ParamType: String
+
+Function wkMain(selectedText)
+dim FinalText, lungh
+
+FinalText = &#34;*&#34;
+lungh = Len(selectedText)
+
+for i = 1 to lungh
+	FinalText = FinalText + Mid(Trim((selectedText,i,1)) + &#34;*&#34;
+next
+	
+wkMain = FinalText
+end function
+[/quote]
+
+...anyways i&#39;d like to rip off the spaces and other not-alphanumericals chars from selected text (I&#39;ve removed the external spaces with the Trim function, yet)
+Can&#39;t find a valid VB function for that...
+
+Any hint?
+
+";
+$rauthor="Zoldex";
+$rdate="1128101794";
+$rip="81.174.3.114";
+
+?>

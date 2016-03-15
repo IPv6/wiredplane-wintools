@@ -1,0 +1,19 @@
+<?php
+
+$psubject="ѕо быстрому клику на новост€х открываетс€ правка заметки";
+$pcontent="Ќа рабочем столе шаблон новостей. ≈сли быстро кликнуть на скролле, то открываетс€ окно ввода заметки, вместо того, чтобы пролистнуть новости.";
+$pauthor="McStar";
+$pdate="1171829523";
+$plastdate="1171887809";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="522";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar";
+$psticky="";
+
+?>

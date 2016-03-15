@@ -1,0 +1,18 @@
+<?php
+
+$fname="WiredPlane Labs";
+$fdescription="Common questions,  partnership offers and so on";
+$flasturl="post.php?cat=1&fid=1&pid=37&page=1";
+$flastauthor="GloriaLW";
+$flastpost="1213845412";
+$freplies="132";
+$ftopics="36";
+$fusers="|all";
+$fvisitors="|GloriaLW|WiredPlane";
+$flock="unlocked";
+$fallowreply="0";
+$fsticky="1";
+$flastpostnumber="37";
+$fhide="";
+
+?>

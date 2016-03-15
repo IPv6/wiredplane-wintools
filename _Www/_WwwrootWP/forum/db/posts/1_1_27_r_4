@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: MAPI2POP3: UTF-8 HTML";
+$rcontent="yes. I have customized the code so that the /O=.../P= addresses are converted to a form (typically, our internal &#34;acronyms&#34;) usable by my email client AND that will not trigger questions from users asking &#34;what are these strange addresses&#34;
+
+I still don&#39;t understand how the conversion of addresses in headers is related to the encoding of HTML bodies...
+
+";
+$rauthor="sba";
+$rdate="1171379866";
+$rip="194.3.183.35";
+
+?>

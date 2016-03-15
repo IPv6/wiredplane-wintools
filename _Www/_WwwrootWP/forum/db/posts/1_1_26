@@ -1,0 +1,26 @@
+<?php
+
+$psubject="A few recipients get empty messages";
+$pcontent="I use Pegasus Mail for Windows as my email client, and MAPI2POP3&#39;s SMTP proxy for sending messsages.
+
+With a handful of recipients within my company (they have a slightly different configuration as they use laptops -- the IT folks claim their Outlook is exactly the same ,-), message I send appear empty. More precisely: when saving the message to .MSG format, one can see the HTML version of the body has GONE (only the plain text version remains), whereas other recipients of the very same message (i.e. the message is sent to a dozen To: recipients, and not all recipients end up with the same message in Outlook&#39;s inbox!!!!) do get the message unaltered.
+
+Does this ring a bell?
+
+TIA
+";
+$pauthor="sba";
+$pdate="1170665771";
+$plastdate="1171541033";
+$pimage="1.gif";
+$plastreply="11";
+$plastauthor="WiredPlane";
+$preplies="11";
+$pviews="1188";
+$pnotify="|sba";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|sba";
+$psticky="";
+
+?>

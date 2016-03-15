@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Shared reminders";
+$pcontent="I have tried unsuccessfully to share reminders. I have created a shared folder on a network machine (and tested it) and entered its full network path (&#92;&#92;comsec-intel&#92;netreminders) in the preferences &#39;shared folder&#39;. I have switched on shared reminders and by default and a &#39;shared&#39; folder has appeared in the organiser into which all new reminders are shown - but nothing appears in the shared folder. What am I doing wrong. Its a really great programme and this is one feature I would like to use.";
+$pauthor="comsec";
+$pdate="1108716566";
+$plastdate="1108725864";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="527";
+$pnotify="|comsec";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AGu|jaco|Urza|Anonymous";
+$psticky="";
+
+?>

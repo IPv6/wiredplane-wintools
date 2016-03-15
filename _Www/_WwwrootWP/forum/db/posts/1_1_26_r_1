@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: A few recipients get empty messages";
+$rcontent="What Exchange server did you use (your company)? This conversion is done by exchange in fact, may be version number will give us a hint...
+Besides that, if this is happening with certain recipients, can you try to send message personaly? did it happens without cc bcc filed in other words?
+sorry, seems like a bug :(";
+$rauthor="WiredPlane";
+$rdate="1170754411";
+$rip="195.210.162.152";
+
+?>

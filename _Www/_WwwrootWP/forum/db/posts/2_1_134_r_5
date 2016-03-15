@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Strange code in my keyboard capture";
+$rcontent="- As WK is using Windows internal JScript engine, some delay can occur during its initialization (We can workaround this for specific typed of macro)
+- Please let us know if you will be able to replicate this. We didn`t had similar problems yet
+- i see, the problem her is in the preprocessing macros.
+%h and %m are replaced with current hour and month respectively. to workaround you can use following notation: %(h)%(m). But we will change preprocessing macros in the near future as it seems to be the common issue
+- application is in the continually development, any suggestions are highly welcome. currently we fixing everything that shows up to create most stable release, new features are added only by request and by new plugins/ Bug fixing has the highest priority, we can upload fixed updaet in the same day as the bug were reproduced by us.
+- You can send your questions, suggestions and anything else to support@wiredplane.com
+";
+$rauthor="WiredPlane";
+$rdate="1130063442";
+$rip="195.245.232.12";
+
+?>

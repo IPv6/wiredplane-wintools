@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: offline";
+$rcontent="Да, конечно можно. Сейчас попробую";
+$rauthor="GRISHIN";
+$rdate="1090408876";
+$rip="195.222.66.24";
+
+?>

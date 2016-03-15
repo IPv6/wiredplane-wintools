@@ -1,0 +1,25 @@
+<?php
+
+$psubject="WinRar and &#34;Startup directory&#34;";
+$pcontent="I&#39;m trying to hotkey WinRar&#39;s &#34;Extract files to new folder here&#34; command for an archive that has focus. 
+
+The command &#39;winrar e -ad %SELECTED&#39; almost works - it creates a new archive, but it creates it in C:&#92;Documents and Settings&#92;[username] instead of in the current folder.
+
+I thought maybe, is there a variable such as %SELECTED that stands for &#39;current directory&#39;? I would try it in the &#39;Advanced options--&#62; Startup directory&#39; for it&#39;s &#39;Quick Run&#39; entry.
+
+TIA ";
+$pauthor="jaco";
+$pdate="1165077605";
+$plastdate="1168975996";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="jaco";
+$preplies="4";
+$pviews="725";
+$pnotify="|jaco";
+$plock="";
+$pip="";
+$pvisitors="|jaco|WiredPlane|Anonymous|Shaker";
+$psticky="";
+
+?>

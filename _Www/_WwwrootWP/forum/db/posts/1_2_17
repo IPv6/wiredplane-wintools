@@ -1,0 +1,20 @@
+<?php
+
+$psubject="We were hacked";
+$pcontent="Our site were hacked using a bug in this forum, PBLang :(
+Now everything is OK, but it is a pitty anyway";
+$pauthor="WiredPlane";
+$pdate="1114261917";
+$plastdate="1114261917";
+$pimage="3.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="826";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Agostino|McStar|Anonimus|AzazelSP|jrwatts|Anonymous|Loong|JWartist";
+$psticky="";
+
+?>

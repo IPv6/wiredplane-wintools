@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Могу посоветовать [url]http://www.smscoin.com/[/url]";
+$pcontent="Могу посоветовать [url]http://www.smscoin.com/[/url] -- надежная компания и очень хорошие условия.
+Восемь стран обслуживания.";
+$pauthor="Anonymous";
+$pdate="1162562227";
+$plastdate="1162562227";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="Anonymous";
+$preplies="0";
+$pviews="481";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|AlexZ|ValeraVi|WiredPlane|Shaker";
+$psticky="";
+
+?>

@@ -1,0 +1,11 @@
+IndexIgnore *
+DirectoryIndex about.php
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+Options +FollowSymLinks 
+RewriteEngine on
+RedirectMatch permanent ^(.*)/pad_file\.xml$ /download/wirekeys.xml
+RedirectMatch permanent ^(.*)/wirekeys\.xml$ /download/wirekeys.xml

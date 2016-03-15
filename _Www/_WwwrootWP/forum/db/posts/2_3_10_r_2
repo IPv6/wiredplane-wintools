@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Some suggestions";
+$rcontent=" :P I looked hard to find it but I just didn&#39;t see it.
+This brings me to a couple more things:
+1) After I modify the x button to hide the note, the tooltip still says delete and not hide
+2) I would also like to have a delete option in the menu (maybe  in the pin menu?)
+3) I don&#39;t see any option to increase the point size of the font, but only to change the color.
+4) Would it be possible to have the calendar stored in ical format (it is a standard supported by many other applications)
+5) Check email on IMAP with/without SSL
+I realize that 4) and 5) may be to hard to implement by one can always express a wish, right? ;-)
+Ciao and thanks";
+$rauthor="fabio";
+$rdate="1099080058";
+$rip="152.3.183.110";
+
+?>

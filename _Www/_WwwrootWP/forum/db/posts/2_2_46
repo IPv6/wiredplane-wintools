@@ -1,0 +1,28 @@
+<?php
+
+$psubject="HI:Arabic Translation is here for WireChanger";
+$pcontent="HI:
+
+Arabic Translation is here for WireChanger 3.2.1
+Please include it in the program setup....as soon as possible.
+
+BEST WISHES,
+Arabic Translator:
+Awadh A Al-Ghaamdi
+
+[b] Attachment[/b]: [att]2WireChanger_l4.zip[/att]";
+$pauthor="awadh";
+$pdate="1127853957";
+$plastdate="1136849961";
+$pimage="1.gif";
+$plastreply="16";
+$plastauthor="WiredPlane";
+$preplies="10";
+$pviews="1678";
+$pnotify="|awadh";
+$plock="";
+$pip="";
+$pvisitors="|awadh|WiredPlane";
+$psticky="";
+
+?>

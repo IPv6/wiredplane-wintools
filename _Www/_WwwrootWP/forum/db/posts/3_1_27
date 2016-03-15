@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN] Instant scrolling";
+$pcontent="Please, leave your comments here (in English if this is possible).";
+$pauthor="WiredPlane";
+$pdate="1103819554";
+$plastdate="1118209849";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="McStar";
+$preplies="3";
+$pviews="1598";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|jaco|Shaker|garry63|ValeraVi|wtiger";
+$psticky="";
+
+?>

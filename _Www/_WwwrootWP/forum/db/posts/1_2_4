@@ -1,0 +1,24 @@
+<?php
+
+$psubject="WireKeys 2.5 released!";
+$pcontent="We just uploaded new release here:
+[url]http://www.wiredplane.com/download/wirekeys.zip[/url]
+
+We want specially mention that new plugins (like window`s resizer) will not work with previous versions of WireKeys
+Window`s resizer plugin can be taken here:
+[url]http://www.wiredplane.com/download/wkp_sizewnd.zip[/url]";
+$pauthor="WiredPlane";
+$pdate="1081879749";
+$plastdate="1081879749";
+$pimage="4.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="976";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

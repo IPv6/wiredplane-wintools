@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: New. Hotkeys without running WireKeys?";
+$rcontent="Thank you, 20060101--That works just fine. :)
+
+I read the pattern section, and I simply cannot figure out the syntax for specifying a date/time of a particular format (listed at the bottom). %DATE:yyyyMMdd fails, as well as %DATE:yyyyMMdd%. It seems it evaluates %DATE before anything, and thus doesn&#39;t consider the specified format. Oh well, I suppose it isn&#39;t a major issue.
+
+By the way... normally I would actually register in the forums having asked this much (despite my appreciation for the ability not to have to). The reason I haven&#39;t is because my E-mail (webmail) server is... doing something odd. It gives me an error upon attempting to login. First time anything like that has happened in 6+ years. I guess I should start using my Gmail account, heh. I just hate to risk it getting spammed like mad.
+
+Thanks again. I hope you had a happy new year as well,
+
+Jinx";
+$rauthor="Anonimus";
+$rdate="1136168002";
+$rip="67.162.203.45";
+
+?>

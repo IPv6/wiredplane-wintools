@@ -1,0 +1,36 @@
+<?php
+
+$psubject="Some issues in WK 2.8.1";
+$pcontent="Hi,
+
+there are some isses, found in WK 2.8.1 (on XP SP1):
+
+ - incorrect work with &#34;Win&#34; key (see another post in this forum)
+
+ - insert from Clipboard History doesn&#39;t work in some programs (e.g. in Windows telnet).
+
+ - &#34;Explorer plugin&#34; - &#34;Manage folders&#34; : if I try to add folder &#34;C:&#92;TEMP&#34; (without trailing backslash) it adds only &#34;c:&#92;&#34;. For &#34;C:&#92;TEMP&#92;&#34; it works normally.
+
+ - &#34;Explorer plugin&#34; - &#34;add To Places&#34; - Displays message &#34;Not enough rights to work with Places&#34;. What does it mean? What are these &#34;places&#34; at all?
+
+ - &#34;Check for update&#34; menu item doesn&#39;t work (probably, because I&#39;m located behind proxy - there is no seting for proxy in the program).
+
+Do You plan the new release? If Yes, could You closely look on these issues?
+
+Thanks 
+";
+$pauthor="stepone";
+$pdate="1109885831";
+$plastdate="1110802295";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="WiredPlane";
+$preplies="2";
+$pviews="650";
+$pnotify="|stepone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|stepone|jaco|AGu|Leshiy|Anonimus";
+$psticky="";
+
+?>

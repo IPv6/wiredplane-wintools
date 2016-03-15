@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Displays too many wallpapers";
+$rcontent="[quote]Looks like your system has 3 monitors. Did you upgrade drivers for example?[/quote]I tried updating the video card driver after this started. but it made no difference.
+
+You&#39;ll also notice that the left and right wallpapers are perfectly centered on the left and right monitors, so it&#39;s not dividing the three as if there are three monitors.";
+$rauthor="helmerichs";
+$rdate="1172578221";
+$rip="199.199.201.203";
+
+?>

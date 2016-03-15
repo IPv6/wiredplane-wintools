@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="Some of this thing are already fixed (scheduler bug for example) some not... but all of them are memorized in the notebook with development plans.
+
+I`ll make an update. Really!";
+$rauthor="WiredPlane";
+$rdate="1211753187";
+$rip="83.217.42.188";
+
+?>

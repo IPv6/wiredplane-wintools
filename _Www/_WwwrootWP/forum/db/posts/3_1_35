@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN] Spell checker by Karcade";
+$pcontent="Please, leave your comments here (in English if this is possible).";
+$pauthor="WiredPlane";
+$pdate="1103819916";
+$plastdate="1118243788";
+$pimage="1.gif";
+$plastreply="10";
+$plastauthor="annon";
+$preplies="10";
+$pviews="1693";
+$pnotify="|annon|McStar";
+$plock="";
+$pip="";
+$pvisitors="|annon|McStar|WiredPlane|Anonimus|w11|triplex";
+$psticky="";
+
+?>

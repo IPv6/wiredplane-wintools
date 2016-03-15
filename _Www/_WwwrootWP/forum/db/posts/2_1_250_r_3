@@ -1,0 +1,21 @@
+<?php
+
+$rsubject="RE: wirekeys infected by Trojan horse Generic5.ZXV";
+$rcontent="[quote]Got reply :) Nothing wrong with WK
+=================
+Re: G#0702110075 - False-positive after latest AVG 7.5 update
+Dear Sir/Madam,
+Thank you for your email.
+This false positive detection will be fixed in today&#39;s Virus Base update.
+Thank you.
+Best regards,
+Jiri Tuma
+[/quote]
+
+thank you sir for a very quick reply.
+more power.";
+$rauthor="malakaayo";
+$rdate="1185953504";
+$rip="203.177.118.152";
+
+?>

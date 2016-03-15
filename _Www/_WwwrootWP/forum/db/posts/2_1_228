@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Блокировка WK после игры.";
+$pcontent="Нашёл странную глюку. После выхода из игры Dark Messiah. WK не распознаёт горячие клавиши. Никакие. Хоть обнажимайся. Помагает перезапуск программы.";
+$pauthor="McStar";
+$pdate="1171267298";
+$plastdate="1172326031";
+$pimage="1.gif";
+$plastreply="6";
+$plastauthor="McStar";
+$preplies="6";
+$pviews="704";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|garry63|Anonymous|WiredPlane|LAVir|DSR";
+$psticky="";
+
+?>

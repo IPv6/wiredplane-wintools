@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Quick Launch Window from Main Window";
+$pcontent="Hello,
+
+When I select &#34;Open Wirekeys&#34; from the tray icon, the Main Window opens. From that Main Window is it possible to get to the Plugins or Macros/Quick Launch window? 
+
+And is it possible to hotkey those system windows?
+
+
+TIA,
+jaco";
+$pauthor="Anonymous";
+$pdate="1196369093";
+$plastdate="1196650190";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="254";
+$pnotify="|jaco";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus|iphigenie";
+$psticky="";
+
+?>

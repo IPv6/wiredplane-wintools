@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Username Pattern Equivalent";
+$rcontent="%USERNAME would suffice but the more general capability would be nice.  Neither is urgent.  I haven&#39;t dug into JS and VBS functions yet.  I expect I&#39;ll find something there.
+
+[quote]
+This is unexpected usage
+
+[/quote]
+Someone has to keep you on your toes.   :&#62;";
+$rauthor="BillR";
+$rdate="1092934832";
+$rip="151.200.180.134";
+
+?>

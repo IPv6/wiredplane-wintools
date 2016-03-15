@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Enhancement - Add Search to Help and Preferences ";
+$pcontent="Enhancement - Add keyword or text search of Help text.  WK Help does not include text search and does not have keywords defined.  Text search may be easiest to support.
+
+Enhancement - Add keyword or text search of WK Preferences.
+";
+$pauthor="BillR";
+$pdate="1111084230";
+$plastdate="1111425404";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="BillR";
+$preplies="2";
+$pviews="670";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane|AGu|jaco";
+$psticky="";
+
+?>

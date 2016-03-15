@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Printing To Dos";
+$rcontent="Yes, ToDo printing is not supported at this time... we will add this later. sorry :(";
+$rauthor="WiredPlane";
+$rdate="1157530845";
+$rip="195.245.232.22";
+
+?>

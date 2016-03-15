@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Debug Log";
+$pcontent="Отключил в настройках запись дебажного лога. Но он всё равно пишеться.";
+$pauthor="McStar";
+$pdate="1141889857";
+$plastdate="1142234877";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="1190";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|jrwatts|helmerichs";
+$psticky="";
+
+?>

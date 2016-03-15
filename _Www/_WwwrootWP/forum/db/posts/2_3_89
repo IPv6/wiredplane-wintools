@@ -1,0 +1,28 @@
+<?php
+
+$psubject="ssl support";
+$pcontent="Hello,
+
+Congrats on your near perfect program.
+I saw there was already a discussion regarding SSL but it was in a strange language.
+
+Is SSL supported (gmail accounts require it) and if not will you add it in the future?
+
+Thank you
+
+Neo";
+$pauthor="neocobe";
+$pdate="1201010242";
+$plastdate="1201053664";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="121";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

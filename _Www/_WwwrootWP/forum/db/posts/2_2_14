@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Thank you and I have send you another update...I";
+$pcontent="Thank you and I have send you another update...I hope you recieved it...";
+$pauthor="awadh";
+$pdate="1093012737";
+$plastdate="1094063833";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="WiredPlane";
+$preplies="2";
+$pviews="971";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|eriw22";
+$psticky="";
+
+?>

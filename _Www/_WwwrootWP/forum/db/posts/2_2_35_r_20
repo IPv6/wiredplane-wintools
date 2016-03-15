@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WC 3.5 updated
+- normal transparency in calendar (text, numbers)
+- timestamp can be personalized by using text template
+- some bugs fixed (including &#34;tile images&#34; option of the theme)";
+$rauthor="WiredPlane";
+$rdate="1142234978";
+$rip="195.245.232.22";
+
+?>

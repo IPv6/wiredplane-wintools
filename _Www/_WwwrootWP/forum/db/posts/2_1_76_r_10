@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK updated again (3 small bugs fixed)";
+$rauthor="WiredPlane";
+$rdate="1116770721";
+$rip="213.87.58.32";
+
+?>

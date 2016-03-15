@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Proposal: List of recently used folders";
+$rcontent="Oh, it&#39;s cool!
+
+However, the &#39;Recent&#39; is also very important. 
+Especially if You need to select twice very long  directory, that is not used very often...";
+$rauthor="stepone";
+$rdate="1096033199";
+$rip="53.122.192.14";
+
+?>

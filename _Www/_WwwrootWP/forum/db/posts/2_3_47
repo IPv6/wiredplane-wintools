@@ -1,0 +1,21 @@
+<?php
+
+$psubject="I&#39;m baffled as to how to set up for LAN";
+$pcontent="I&#39;m baffled as to how to set up for LAN access.  Apparently, reactivation of XP Messenger Service is too much of a hassle in that it&#39;s been blocked by who knows how many antispyware programs (with my approval).  Reactivating that would seem to be a step backward anyway.  Consequently, I&#39;m trying to use the apparently superior XPC protocol which version I take to be inherent to WireNote [per the XPC (wirenote)designation].  I&#39;ve pared the access settings down to XPC only in the preferences on both computers on my LAN.  I&#39;ve even permitted port 1709 on my firewall.  I can&#39;t find any other computer however, even with a &#34;*&#34; search.  
+
+Furthermore, importing of an address book allows only an *.wna extension which is apparently specific to WireNote.  How does one create an address book in the WireNote format in the first place?  BTW, there is no default *.wna address book on my computer as the result of WireNote installation either.  ";
+$pauthor="Stranded";
+$pdate="1132324487";
+$plastdate="1132328108";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="697";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus";
+$psticky="";
+
+?>

@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Файлы помощи";
+$pcontent="В пункте меню WK есть два пункта Documentation и WireKeys Help file.
+Я полагаю там должны быть русская и англйская версии файла, но они указывают на один и тот же файл.";
+$pauthor="McStar";
+$pdate="1117431915";
+$plastdate="1117447045";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="682";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|miander|AGu";
+$psticky="";
+
+?>

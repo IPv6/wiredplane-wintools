@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Need Index/Search for Preferences";
+$pcontent="Now that WK has so many options -- a plethora; a cornucopia -- I sometimes have trouble finding them.  I would find a search/find function or index handy.  
+";
+$pauthor="BillR";
+$pdate="1085321913";
+$plastdate="1085321913";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="BillR";
+$preplies="0";
+$pviews="291";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane|rij73|hulland";
+$psticky="";
+
+?>

@@ -1,0 +1,27 @@
+<?php
+
+$psubject="New. Hotkeys without running WireKeys?";
+$pcontent="First of all I want to thank whoever produced this program. Although a bit complex at first, it seems to have quite a bit of functionality. I also want to thank the forum owners for allowing anonymous entry: so much less of a hassle. Lastly, I want to let anyone reading this know that I am completely new to this program.
+
+This question may then seem noobish, but I&#39;m curious if there is any way to get some hotkeys to work without leaving WireKeys running. I know it&#39;s possible to remove the tray icon, but, being a purist, I hate to have any tasks running of which I don&#39;t make regular use. I&#39;m not doing anything complicated: my only real goal in using this program is to created a single Shifted global hotkey for my &#34;Media&#34; button so that a different media player opens depending on the shift key.
+
+Thank you in advance for any assistance,
+
+Jinx
+
+";
+$pauthor="Anonimus";
+$pdate="1135676322";
+$plastdate="1136196070";
+$pimage="1.gif";
+$plastreply="7";
+$plastauthor="WiredPlane";
+$preplies="7";
+$pviews="827";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|ValeraVi|AzazelSP|McStar|jrwatts|AlDl";
+$psticky="";
+
+?>

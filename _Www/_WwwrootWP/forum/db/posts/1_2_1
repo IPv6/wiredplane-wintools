@@ -1,0 +1,20 @@
+<?php
+
+$psubject="News archive";
+$pcontent="Previous news can be found here, in this topic
+";
+$pauthor="WiredPlane";
+$pdate="1081770133";
+$plastdate="1081770219";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="WiredPlane";
+$preplies="2";
+$pviews="4236";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR";
+$psticky="";
+
+?>

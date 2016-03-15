@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: small request";
+$rcontent="Will be waiting for reply :) There is no hard reason why not to show the same gui when calling app with command line options, so i`m sure there must be workaround somehow %)";
+$rauthor="WiredPlane";
+$rdate="1111477305";
+$rip="195.245.232.12";
+
+?>

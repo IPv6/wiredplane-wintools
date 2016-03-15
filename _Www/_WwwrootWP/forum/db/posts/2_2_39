@@ -1,0 +1,19 @@
+<?php
+
+$psubject="не могу найти настройку прокси";
+$pcontent="не могу найти настройку прокси";
+$pauthor="Anonimus";
+$pdate="1110017920";
+$plastdate="1110035613";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="714";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|SergeySV";
+$psticky="";
+
+?>

@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Bug? - &#34;Change Text of Selected Text&#34; Pastes Buffer 1";
+$pcontent="Bug - Applying Change Case without Reproduce - Select one word in block of text.  Apply Change Case of Selected Text (default: Alt-`).  Apply again (without selecting text).  Note that this pastes the text in buffer 1 with case changed.
+
+Rather than being a flaw, this could be a feature -- if clearly documented.  :-)   
+";
+$pauthor="BillR";
+$pdate="1111079625";
+$plastdate="1111131125";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="359";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|AGu";
+$psticky="";
+
+?>

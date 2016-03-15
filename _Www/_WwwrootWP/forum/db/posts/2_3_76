@@ -1,0 +1,29 @@
+<?php
+
+$psubject="Reminders for every xx day day of the month";
+$pcontent="Hi all.
+
+I have been using WireNote for several months now; and I&#39;m very impressed with it. Actually, I wouldn&#39;t know to do without it.
+
+But there is something I&#39;ve never been able to figure out. I have a meeting every first Tuesday of the month. Is there a way to create a reminder with that date parameter?
+
+If not, this would be a nice feature to add, I think.
+
+Thanks,
+
+GE";
+$pauthor="Anonymous";
+$pdate="1173834190";
+$plastdate="1174063560";
+$pimage="1.gif";
+$plastreply="6";
+$plastauthor="Anonymous";
+$preplies="6";
+$pviews="689";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane";
+$psticky="";
+
+?>

@@ -1,0 +1,24 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="[quote]
+Now you can download new update to WK and download special macro from our site (&#39;Macros&#39; page) to control window size and position.
+Macro can move window left/right/top/bottom at 2 speeds and send widnow to corresponding screen edge as well - all-in-one place
+[/quote]
+
+Window moving works very well. Thank you. Is is possible to allow keys to interact? ie. Ctrl-Alt-NumPad5 moves window up, Ctrl-Alt-NumPad1 moves window left, Ctrl-Alt-NumPad5+NumPad1 moves window diagonally up-left.
+
+How does one control the window size?
+
+[quote]
+New macro to support quick switching between modes in Explorer and new plugin that can switch mode and adds history of used folders to Open/Save dialogs
+[/quote]
+
+Quick switching mode works very well so far. 
+History plugin is very *very* cool. Would it be possible to add more Favourite spots? Does &#39;Switch Explorer into view&#39; in this plugin duplicate what the quick switching macro does?
+";
+$rauthor="jaco";
+$rdate="1098504972";
+$rip="66.114.67.40";
+
+?>

@@ -1,0 +1,39 @@
+<?php
+
+$psubject="Plugin Menu Issues (Windows Enabler, Etc.)";
+$pcontent="
+Plugin Menu (1)
+I like having Windows enabler on the Plugins Menu as a toggle.  The next step is to have it show the status (enabled/disabled).  This could be done by either having the menu choice change text (i.e., if disabled, then menu choice would be &#34;Start Enabler&#34;; if disabled, then &#34;Stop Enabler&#34; (but see below).  Even more descriptive text would be desirable.
+
+Plugin Menu (2)
+Another approach would be to add a visual indicator to indicate status such as a red bar through the plugin icon, a red/green symbol at the beginning or end of the text, etc.
+
+This would be appropriate for plugins like the Linux-like Window Move where the menu command opens the popup.  It would be confusing when combined with &#34;Start&#34; and &#34;Stop&#34; but might work with the current &#34;Start/Stop&#34;.
+
+Plugin Menu (3)
+This raises two more general questions.  
+
+1. What is the purpose of this submenu?  Some plugins don&#39;t appear, some commands enable/disable, and some plugins open popup windows. 
+
+2. How should commands be organized and described on the menu?  The commands that appear are inconsistent and unclear (although better since the command for Windows Enabler was changed to &#34;Start/Stop Enabler&#34;).  
+
+Part of the problem is due to the confusion created by enabling the plugin that enables disabled buttons, menus, etc.  This conflicts with the desire to keep label names short.  The best alternative that I&#39;ve thought of so far is to change the label to something like &#34;Enable Disabled Window Objects&#34; or &#34;Override Disabled Buttons, Menus, Etc.&#34;.  I haven&#39;t thought of a satisfactory label for the opposite action: &#34;Restore Disable...&#34; is simply confusing.  
+
+In conclusion, I haven&#39;t found quite the right combination of actions to suggest.  All I have been able to do is identify a problem.
+
+";
+$pauthor="BillR";
+$pdate="1093348883";
+$plastdate="1093348883";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="BillR";
+$preplies="0";
+$pviews="291";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane|stepone";
+$psticky="";
+
+?>

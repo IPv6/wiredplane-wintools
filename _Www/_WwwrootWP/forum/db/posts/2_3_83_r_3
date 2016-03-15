@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: When I sent a message to a group, some get";
+$rcontent="Yes, there are some differences, but still no way to resend message to failed recipients only :(
+We willplan this feature to add later";
+$rauthor="WiredPlane";
+$rdate="1196049382";
+$rip="91.149.66.37";
+
+?>

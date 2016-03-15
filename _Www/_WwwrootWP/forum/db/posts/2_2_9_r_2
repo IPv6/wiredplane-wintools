@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Предложения, замечания";
+$rcontent="Мы тут решили выложить бету WC 2.7, многое добавлено (пара серьезных вещей для доработки еще в планах и постепенно реализовывается)
+в частности Ctrl-A теперь работает as expected :)
+
+http://www.wiredplane.com/download/wirechanger_bt.zip";
+$rauthor="WiredPlane";
+$rdate="1090997198";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Strange price policy";
+$rcontent="Thanks again :) in fact this string in lng file is not used in program anymore, just forgot to clean it up...
+
+but, again - on site there is only one price for now or we missed something again? :(";
+$rauthor="WiredPlane";
+$rdate="1109928386";
+$rip="195.245.232.12";
+
+?>

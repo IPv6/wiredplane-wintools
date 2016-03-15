@@ -1,0 +1,23 @@
+<?php
+
+$psubject="How to delete note on Calendar";
+$pcontent="I&#39;m probably missing something very obvious here, but can&#39;t for the life of me see what it is.
+
+I created a note by double clicking on my calendar.  I set it to repeat each year on May 28th.  I now have a note on top of my calendar with a smily face  on the corner that I can&#39;t move or delete.  How can I get rid of this?
+
+Thanks";
+$pauthor="PegM4";
+$pdate="1180406682";
+$plastdate="1180595946";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="316";
+$pnotify="|PegM4";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous";
+$psticky="";
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Couple of new user questions";
+$rcontent="OK. Thanks. I tried to get a screen shot but the balloon somehow doesn&#39;t get captured in the screen grab. Weird. 
+
+By the way, attachments don&#39;t seem to work just using the /xpc protocol even though the docs suggest that that is it&#39;s main benefit.";
+$rauthor="cellphone";
+$rdate="1144202429";
+$rip="68.106.106.198";
+
+?>

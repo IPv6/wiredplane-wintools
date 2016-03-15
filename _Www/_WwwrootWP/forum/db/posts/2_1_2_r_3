@@ -1,0 +1,56 @@
+<?php
+
+$rsubject="Old messages";
+$rcontent="Zup  [05th February, 2004 17:46:03] 
+Hi there! Your prog rocks! But... when I close it under Win98SE it crashes! In WinXP Pro it doesn&#39;t give me any problems... Maybe a WinNT&#39;s API call? Ah, my MM keyboard (Trust 360B Easyscroll Deskset) &#39;s MM keys aren&#39;t recognized...  
+ 
+
+Roger  [03rd February, 2004 23:15:33] 
+Suggestion/Question:
+
+Requesting another mouse option.
+
+IIUC, the middle - scroll button can shift a window up and down by rolling the wheel, but also has a &#34;depress&#34; signal; by depressing the wheel.
+
+My present mouse reacts to scroll up and scroll down, but does not have a function assigned to &#34;depress&#34;.
+
+I&#39;d like to be able to program the &#34;depress&#34; signal to &#34;stick&#34; the mouse curser to the window wherever it is pointing. I could then move the window up/down/left/right within the frame, as long as the scroll wheel was depressed.
+
+Does this make sense? Thanks for the forum.
+
+
+
+ 
+ 
+
+rij73  [01st February, 2004 12:04:47] 
+Thank you. You are great! I will download that update when it&#39;s available. I will keep 2.0, and when I can, I will purchase it. I tried so many hotkey programs, but this is the only one that does everything I need in a simple manner.  
+ 
+
+WiredPlane Labs (http://www.wiredplane.com)  [31st January, 2004 19:27:07] 
+2rij73: Yes, the difference is great...
+I think we will change behaviour of the &#34;terminate&#34; hotkey to close application, and termination will be &#34;double-press&#34; extension to this hotkey. update will be available soon :)
+
+Yes, WK2.0 is not freeware, but previous version is still available for free here:
+http://www.wiredplane.com/download/wkeys_lt.zip.
+But! WK2 is fully functional for 14 days, after that period all plugins will be forcebly disabled. This is the only limitation, all other functions are not restricted!  
+ 
+
+rij73  [30th January, 2004 12:08:22] 
+ok, I am trying 2.0. It is very nice! I see the option to make a hotkey for &#39;terminate application&#39;, but i still don&#39;t see one to &#39;close application&#39;. There is a big difference, and I would like a hotky for closing applications properly, not just killing the process... Thank you!  
+ 
+
+rij73  [29th January, 2004 22:24:30] 
+Thanks for the answer... I&#39;m glad the function is in the new version. But, the new version isn&#39;t freeware, is it?  
+ 
+
+WiredPlane Labs (http://www.wiredplane.com)  [29th January, 2004 19:46:23] 
+2rij73: in the &#34;Active window&#34; subfolder of the WireKeys preferences dialog.
+&#34;Terminate active application&#34;. If you hasn`t this switch, just download new version  
+ 
+";
+$rauthor="WiredPlane";
+$rdate="1081769461";
+$rip="195.245.232.12";
+
+?>

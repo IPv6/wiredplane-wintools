@@ -1,0 +1,19 @@
+<?php
+
+$psubject="WireChanger 2.8";
+$pcontent="WireChanger 2.8 released. Main new features are: new image formats support (tiff,tga and corrected png), zip archives support (now you add archives to themes or can quickly pack images/themes into one zip), tooltips over desktop elements,  direct import of Flash clocks or other multimedia content (with support for all corresponding options like size/position/etc) and simplified design";
+$pauthor="WiredPlane";
+$pdate="1098005414";
+$plastdate="1098005414";
+$pimage="2.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="551";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|eriw22";
+$psticky="";
+
+?>

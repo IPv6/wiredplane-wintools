@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [PLUGIN] Taskbar extender";
+$rcontent="Fixed serious bug that could crash application in some cases under Win2000. Please re-download this plugin in case you use it.";
+$rauthor="WiredPlane";
+$rdate="1139210950";
+$rip="195.245.232.22";
+
+?>

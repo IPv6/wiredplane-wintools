@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Изменение размера заметки";
+$pcontent="Я уже как-то писал. Есть предел заметки меньше которого её уменьшить нельзя. Надо бы это убрать. :)) По Автоматической подгонке размера подгоняется с запасом снизу. Хотелось бы что было впритык, как и со всех других сторон.";
+$pauthor="McStar";
+$pdate="1198839476";
+$plastdate="1198891459";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="143";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|Anonymous";
+$psticky="";
+
+?>

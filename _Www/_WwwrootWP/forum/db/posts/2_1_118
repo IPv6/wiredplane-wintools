@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[FAQ] Frequently asked questions, etc";
+$pcontent="Here we will post FAQs and simple hints for common tasks";
+$pauthor="WiredPlane";
+$pdate="1124274898";
+$plastdate="1124274938";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="323";
+$pnotify="|WiredPlane";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|Shaker|Anonimus";
+$psticky="";
+
+?>

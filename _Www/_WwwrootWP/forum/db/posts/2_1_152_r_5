@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: New. Hotkeys without running WireKeys?";
+$rcontent="%SELECTED and some othe variables are specific to WireKeys. You can read more on them if you spent some minutes reading &#34;Patterns&#34; topic in the help file. In short, specific substrings (like %SELECTED) are replaced by WireKeys before executing macro/action.
+Here the answer to the second question - to change format of the date replace %DATE with the following line:
+%YEAR%MONTH%DAY
+
+here you can see 3 patterns insted of one (%DATE). This will insert date in the way you want ^)
+Good luck! Happy new year!";
+$rauthor="WiredPlane";
+$rdate="1135840749";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: (date & time) alarm column is missing ";
+$rcontent="Hello!
+Yes, we didn`t take into account use cases you mentioned here, thanks! We will add this column to main window.
+Thanks!";
+$rauthor="WiredPlane";
+$rdate="1168611630";
+$rip="195.210.162.152";
+
+?>

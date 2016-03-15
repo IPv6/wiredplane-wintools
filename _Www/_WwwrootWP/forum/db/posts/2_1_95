@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Hot Key to CLOSE acive window?";
+$pcontent="I may be missing something here, but I noticed that Wire Keys saves me loads of mouse movements etc.
+
+However, after finishing with a window in, for example, a multi-tab browser, it is a fiddle to have to mouse click on every window to close it. Even more so if I have 4 windows of Excel/Word open, I was wondering if there is a way to create a hot key to close the active window instead of searching for that tiny &#34;X&#34; with the mouse/ Sorry if it already exists, but I searched in the Help/Index already! Thanks. Ian.";
+$pauthor="hulland";
+$pdate="1114760156";
+$plastdate="1119910391";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="BillR";
+$preplies="2";
+$pviews="732";
+$pnotify="|hulland";
+$plock="";
+$pip="";
+$pvisitors="|BillR|hulland|WiredPlane|jaco|Anonimus|AGu|AzazelSP";
+$psticky="";
+
+?>

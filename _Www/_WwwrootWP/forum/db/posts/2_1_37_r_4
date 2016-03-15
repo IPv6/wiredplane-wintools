@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: Proposal: List of recently used folders";
+$rcontent="Hello!
+ We are just uploaded first version of the plugin that extends Save/Load dialogs. In fact it extends Explorer`s context menu with two subfolders - &#34;jump to folder&#34; and &#34;WK specials&#34; (it`s hard to invent names for menu items...) 
+Jump to folder contains list of recently used folders, user-defined folders and items to add folders to placebar (standard panel in all explorer-style open/save dialogs)
+works in Explorer, Explorer-based Open/save dialogs, Total commander and even MS Office Word, Excel, etc.
+Though MS team do thier best to guard its dialogs against tweaking from outside, so office dialogs support sometimes may not work properly
+ The other thing is that this plugin will work with new version of WK - 2.7";
+$rauthor="WiredPlane";
+$rdate="1096539752";
+$rip="195.245.232.12";
+
+?>

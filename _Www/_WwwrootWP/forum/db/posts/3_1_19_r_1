@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Red X over Tray Icon";
+$rcontent="Sorry. There is nothing wrong with this &#34;X&#34; (i mean that it doesnot mean anything), this is fixed, update will be posted soon. As a workaround i can suggest to set tray icon as indicator for CPU load for example - this will erase &#34;X&#34; with CPU histogram";
+$rauthor="WiredPlane";
+$rdate="1099296083";
+$rip="195.245.232.12";
+
+?>

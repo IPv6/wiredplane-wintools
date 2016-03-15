@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Грузит Explorer";
+$pcontent="WireKeys грузить программа explorer на 20% что не очень хорошо,
+это так и должно быть?
+p.s. P4 2.8 Ghz
+Версия проги последняя";
+$pauthor="Anonimus";
+$pdate="1137329657";
+$plastdate="1137614020";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="Anonimus";
+$preplies="3";
+$pviews="794";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonimus|ValeraVi|WiredPlane|McStar";
+$psticky="";
+
+?>

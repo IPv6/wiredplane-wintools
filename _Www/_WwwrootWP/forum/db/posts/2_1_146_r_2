@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: New version questions";
+$rcontent="Hello!
+1) Yes, thanks, we will change the name of the item. About trayed application - can you name it? We will find out why
+2) You are right. We will add the question before deletion
+3) In some cases. What do you change in quick-run item mostly?
+4) :( Can you clarify? Which cases did you mean? We will fight this cases individually :)
+
+About XYZ - can you name this application? This feature really may not work with some applications, but we can add workarounds for specific types of applications
+Good luck!";
+$rauthor="WiredPlane";
+$rdate="1133953192";
+$rip="195.245.232.12";
+
+?>

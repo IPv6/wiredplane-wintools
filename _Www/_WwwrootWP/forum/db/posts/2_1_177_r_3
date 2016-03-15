@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: 100% CPU now used by Wirekeys after update";
+$rcontent="OK - disabled macros and reinstalled this time no problem.
+Autotext is still running (but the &#39;followed by space&#39; feature does not work nor has in the last two of your updates)
+Mouse gestures is running (although I have never used it nor know what it does)
+Macro recorder is now off
+Shell extender is now off
+Windows helper is now off
+WinLIRC Remote Controls is now off
+
+When I can risk it I will try switching them on one by one and let you know. But right now I have a big job on that I rely on Autotext to help write code. Can you mend the &#39;after space&#39; feature? It was very useful.";
+$rauthor="comsec";
+$rdate="1142159213";
+$rip="81.35.193.192";
+
+?>

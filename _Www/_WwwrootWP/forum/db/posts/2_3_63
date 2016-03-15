@@ -1,0 +1,21 @@
+<?php
+
+$psubject="problem with Virtual Dimension";
+$pcontent="When I try to send a message over the LAN while Virtual Dimension (v0.94, virt-dimension.sourceforge.net) is running, I get an error message (&#34;Message has not been sent&#34;) and an empty message is delivered. Is it a problem of Wirenote or of Virtual Dimension?
+
+Best regards";
+$pauthor="Anonymous";
+$pdate="1149764674";
+$plastdate="1149838866";
+$pimage="5.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="1061";
+$pnotify="|Anonymous";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|HReaLWin";
+$psticky="";
+
+?>

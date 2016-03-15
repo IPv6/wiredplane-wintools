@@ -1,0 +1,21 @@
+<?php
+
+$psubject="сорри за флуд... тестим...";
+$pcontent="к вопросу http://www.wiredplane.com/forum/post.php?cat=1&fid=1&pid=20&page=1
+зарегал нового юзера...
+если всё будет нормально, то проще будет старого юзера грохнуть чесслово...";
+$pauthor="akaLoong";
+$pdate="1169743203";
+$plastdate="1169743462";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="akaLoong";
+$preplies="2";
+$pviews="636";
+$pnotify="|akaLoong";
+$plock="";
+$pip="";
+$pvisitors="|akaLoong|WiredPlane|Anonimus|Anonymous";
+$psticky="";
+
+?>

@@ -1,0 +1,22 @@
+<?php
+
+$rsubject="RE: Shortcut for Winamp title in OSD";
+$rcontent="Very minimized means, I have the Winamp-GUI as a very (!) small floater at top of my desktop. I think 2 mm hight.
+
+The problem is, that I cannot SEE the title playing now.
+I have to point to the little pixel that stands for playlist. Then look for the running title.
+
+When Winamp starts a new title I see the name in the OSD.
+That&#39;s fine.
+
+But I want to see the just running title.
+It&#39;s enough it would appear for let&#39;s say 4 seconds after pressing a hotkey.
+
+Hmh, I understand what I mean... ;-)
+
+Richy. ";
+$rauthor="Richy";
+$rdate="1200029051";
+$rip="79.214.204.20";
+
+?>

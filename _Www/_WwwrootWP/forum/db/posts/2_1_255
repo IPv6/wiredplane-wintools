@@ -1,0 +1,27 @@
+<?php
+
+$psubject="WireKeys portable";
+$pcontent="Hi Guys,
+I want to use WireKeys right from the USB-Stick.
+It isn&#39;t allowed at my current customer&#39;s site to install any program on the workstation.
+So I have to start WK from USB stick.
+
+1. Is it possible as a user with restricted rights (non admin)?
+2. I would like to have my settings in a directory on the stick (not in windows profile directory). a) How to transfer my own settings on home PC to the stick and b) how to start WK to use directories on stick?
+
+Richy.";
+$pauthor="Richy";
+$pdate="1196296723";
+$plastdate="1196386185";
+$pimage="5.gif";
+$plastreply="3";
+$plastauthor="Richy";
+$preplies="3";
+$pviews="275";
+$pnotify="|Richy";
+$plock="";
+$pip="";
+$pvisitors="|Richy|WiredPlane|garry63|Anonimus|wtiger";
+$psticky="";
+
+?>

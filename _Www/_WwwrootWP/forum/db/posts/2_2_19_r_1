@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Non BMP images";
+$rcontent="yes, WC converts them to bmp and applying all effects/templates to bmo - so there is no need in active desktop to use non bmp images (even for tga/tiff etc)
+Active desktop is used for flash clocks. underlying image is bmp again :)
+though bmp is bigger than other formats (compared to jpg for example) it loads faster because of simplified image format";
+$rauthor="WiredPlane";
+$rdate="1098212517";
+$rip="195.209.143.44";
+
+?>

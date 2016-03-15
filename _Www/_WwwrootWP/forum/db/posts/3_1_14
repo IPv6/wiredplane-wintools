@@ -1,0 +1,20 @@
+<?php
+
+$psubject="ANN: Plugins";
+$pcontent="JFYI: All plugins that can be found at our plugins page were updated. Some of them got new features (for example the latest plugin - Shell Extender), some got bugfixes :)
+";
+$pauthor="WiredPlane";
+$pdate="1097356768";
+$plastdate="1097356768";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="441";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|stepone|McStar";
+$psticky="";
+
+?>

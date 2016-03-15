@@ -1,0 +1,21 @@
+<?php
+
+$psubject="WireChanger 2.4 released";
+$pcontent="Hello! We just released WireChanger 2.4 with a lot of new features (more to come :) ):
+[url]http://www.wiredplane.com/wirechanger/history.shtml[/url]
+All new features based on suggestions from our users. Thanks to all who find a time to write us, especially to Julia FAST and D. Tkachenko :)";
+$pauthor="WiredPlane";
+$pdate="1082186143";
+$plastdate="1082186143";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="903";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|GRISHIN";
+$psticky="";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Опять обновление";
+$pcontent="Снова говорит, что есть обновление за 9 число, хотя я его уже ставил.";
+$pauthor="McStar";
+$pdate="1200307527";
+$plastdate="1200307527";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="McStar";
+$preplies="0";
+$pviews="297";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|Anonymous";
+$psticky="";
+
+?>

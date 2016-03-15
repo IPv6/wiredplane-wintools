@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: How does one select a different post icon";
+$rcontent="Hello! :)
+
+[quote]How does one select a different post icon after posting?  Edit form does not display the icons despite the label.[/quote]
+
+For this time it is impossible :( We will add some missed features to this forum (forum is an open-source project) from time to time. You suggestion will be implemented too :)
+
+ ";
+$rauthor="WiredPlane";
+$rdate="1082637506";
+$rip="195.245.232.12";
+
+?>

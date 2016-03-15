@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Вопрос по поводу краёв экрана.";
+$pcontent="В настройках горячих клавишь есть галочка, что мол считать края и углы монитора за горячие клавиши. Это круто, только вот я не понял каким образом их можно задействовать?";
+$pauthor="McStar";
+$pdate="1098692699";
+$plastdate="1098769160";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="McStar";
+$preplies="4";
+$pviews="569";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|Shaker";
+$psticky="";
+
+?>

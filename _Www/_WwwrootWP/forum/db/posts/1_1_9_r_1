@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Strange price policy";
+$rcontent="Ups %(( sorry, thanks for letting us know
+This is our bug, prices mustn`t be in help files anywway...
+
+BTW, did you think that 30 is too much? ^)";
+$rauthor="WiredPlane";
+$rdate="1109871064";
+$rip="195.245.232.12";
+
+?>

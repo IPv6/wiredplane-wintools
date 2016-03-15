@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Новая версия - старый файл.";
+$pcontent="При проверке WK говорит что есть новая версия 3.3.6 от 27.01.06, а когда скачиваешь из http://www.wiredplane.com/download/wirekeys.zip
+там лежит  3.3.4 за Fri, 30 Dec 2005 06:18:40 GMT.
+
+Поправьте, пожалуйста.
+";
+$pauthor="Anonimus";
+$pdate="1138463697";
+$plastdate="1138606694";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="405";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|test|SkyRE|ValeraVi|stepone";
+$psticky="";
+
+?>

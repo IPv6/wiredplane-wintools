@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Could not start WK 3.5.1";
+$rcontent="i see... we are working on it :( The problem exists on some localized versions of Windows.
+
+Update will be ready soon! BTW, can you help by testing (oh, again) debug version? if yes, it can speed up the fix.
+
+sorry for inconvinience ^(";
+$rauthor="WiredPlane";
+$rdate="1155203592";
+$rip="195.245.232.22";
+
+?>

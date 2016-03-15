@@ -1,0 +1,6 @@
+IndexIgnore *
+DirectoryIndex info.shtml index.html
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>

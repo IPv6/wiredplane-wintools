@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: maximizing IE windows";
+$rcontent="Yes, that`s strange :(
+May i ask you about small experiment? What will happen if you choose &#34;Maximize&#34; from Explorer`s system menu (Alt-Space by default)?";
+$rauthor="WiredPlane";
+$rdate="1081954975";
+$rip="195.245.232.12";
+
+?>

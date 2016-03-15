@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WireChanger 3 updated. New widget added - Kaleidoscope.
+It modifies wallpaper like real kaleidoscope, rotating parts of the image";
+$rauthor="WiredPlane";
+$rdate="1115275392";
+$rip="195.245.232.12";
+
+?>

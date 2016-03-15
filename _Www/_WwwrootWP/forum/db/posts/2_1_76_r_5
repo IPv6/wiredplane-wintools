@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WireKeys updated with small improvements and several bugfixes: new macro extensions can be used and more
+";
+$rauthor="WiredPlane";
+$rdate="1110191753";
+$rip="195.209.143.44";
+
+?>

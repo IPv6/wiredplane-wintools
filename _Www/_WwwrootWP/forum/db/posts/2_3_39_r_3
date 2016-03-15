@@ -1,0 +1,31 @@
+<?php
+
+$rsubject="RE: I can not use some national characters in wireNote.";
+$rcontent="Hi,
+
+Sorry for late replay.
+
+&#62;can you send us more info about this issue? after checking we &#62;found that there are no shortcuts with Alt key used %(
+&#62;Only Ctrl-Alt-?
+
+In my configuration (standard configuration in Polish &#34;right&#34; ALT is the same as Ctrl-Alt.
+So, You could press &#34;right&#34; ALT+a to get &#34;&#261;&#34; or &#34;left&#34; ALT+Ctrl+a to get the same &#34;&#261;&#34;. 
+
+&#62;... combinations for some tasks, but they can be removed in &#62; preferences
+
+Yes, but after removing that combinations, it is not working
+&#34;right&#34; Alt-O open Advanced options window
+&#34;right&#34; Alt-E block notes from editing (thought shortcut is Ctrl-E)
+&#34;right&#34; Alt-N give note auto-hide mode.(thought shortcut is Ctrl-N)
+&#34;right&#34; Alt-A  selecting all text in note
+&#34;right&#34; Alt-L and Alt-S doing nothing
+
+PS. Above also affect version 2.8 
+
+br.
+Darek";
+$rauthor="Anonimus";
+$rdate="1120037186";
+$rip="195.85.249.110";
+
+?>

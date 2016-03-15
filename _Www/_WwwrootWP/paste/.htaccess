@@ -1,0 +1,24 @@
+IndexIgnore *
+DirectoryIndex about.php
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+Options +FollowSymLinks 
+RewriteEngine on
+
+RedirectMatch permanent ^/$ /index.html
+
+RewriteRule ^en/(.*)$ /$1?language=en [L,NS,NC,QSA]
+RewriteRule ^ru/(.*)$ /$1?language=ru [L,NS,NC,QSA]
+
+RewriteCond %{HTTP_REFERER} ^http://.*0daycheck.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*irboys\.com.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*plop\.ru.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*bestserials.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*e-lunatic.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*warezdownloads\.info.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*warez.*$ [NC]
+RewriteRule ^(.*)download(.*) http://www.download.com/3120-20_4-0.html?qt=wiredplane [R]

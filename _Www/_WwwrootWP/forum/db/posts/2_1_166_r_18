@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="Yes, this is possible that non-English version of Windows may affect this. We will return the way of starting specific files as we do in old versions";
+$rauthor="WiredPlane";
+$rdate="1146049282";
+$rip="195.245.232.22";
+
+?>

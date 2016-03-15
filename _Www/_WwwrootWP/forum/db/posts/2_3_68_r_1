@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Say thanks";
+$rcontent="Thanks to you for suggestion! :)
+If you have others suggestions feel free to leave them here :)
+";
+$rauthor="WiredPlane";
+$rdate="1151997100";
+$rip="195.245.232.22";
+
+?>

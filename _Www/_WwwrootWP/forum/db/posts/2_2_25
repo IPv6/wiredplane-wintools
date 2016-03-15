@@ -1,0 +1,20 @@
+<?php
+
+$psubject="WireChanger 2.8.1";
+$pcontent="It is recomennded to update WireCahnger to v2.8.1
+Among other features, it can automatically add images to your collection (and themes) that you may install as wallpaper from other applications (for example using &#39;Set as background&#39; item of Internet Explorer`s context menu)";
+$pauthor="WiredPlane";
+$pdate="1100492526";
+$plastdate="1100492526";
+$pimage="4.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="555";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Leshiy|jrwatts";
+$psticky="";
+
+?>

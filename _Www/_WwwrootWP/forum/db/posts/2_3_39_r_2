@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: I can not use some national characters in wireNote.";
+$rcontent="can you send us more info about this issue? after checking we found that there are no shortcuts with Alt key used %(
+Only Ctrl-Alt-? combinations for some tasks, but they can be removed in preferences
+
+";
+$rauthor="WiredPlane";
+$rdate="1119534976";
+$rip="195.245.232.12";
+
+?>

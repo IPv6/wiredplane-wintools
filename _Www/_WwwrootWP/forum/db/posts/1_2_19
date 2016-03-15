@@ -1,0 +1,19 @@
+<?php
+
+$psubject="New release - KaleidosWallpaper";
+$pcontent="We are just released new utility - small freeware wallpaper generator KaleidosWallpaper. You just have to point it to your images folder and it will generate futuristic wallpapers periodically :)";
+$pauthor="WiredPlane";
+$pdate="1116780628";
+$plastdate="1116780628";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="949";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|JWartist";
+$psticky="";
+
+?>

@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Taskbar Extender";
+$pcontent="Hello!
+We just released new version of WK and new version of plugin, previously known as alt-tab replacer
+now it is real booster to your taskbar!
+with this lpugin you will be able to drag buttins inside taskbar to sort them, drag them to tray/main screen to minimize it to icon/floater.
+plugin alsoo adds new icon to taskbar buttons - quick close/kill application
+
+enjoy! %)";
+$pauthor="WiredPlane";
+$pdate="1103292234";
+$plastdate="1103292234";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="894";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|rjcwiredplane|Anonimus";
+$psticky="";
+
+?>

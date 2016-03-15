@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Is it possible to use &#39;App&#39; key?";
+$pcontent="Hello!
+
+Is it possible to use &#39;App&#39; key (this one, with Windows Menu character on it) ?
+
+I use &#39;Windows&#39; key intensively (thanks, WiredKeys!), but never tried &#39;App&#39;. Is it possible at all?";
+$pauthor="stepone";
+$pdate="1095943372";
+$plastdate="1096039988";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="545";
+$pnotify="|stepone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|BillR|hulland|AzazelSP";
+$psticky="";
+
+?>

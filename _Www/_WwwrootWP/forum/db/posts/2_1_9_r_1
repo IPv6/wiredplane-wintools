@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Preferences - Why is &#34;Disable double-press&#34; under &#34;Check for updates&#34;?";
+$rcontent="It`s a bug, sorry :( Thanks that you find it. Now fixed";
+$rauthor="WiredPlane";
+$rdate="1082638386";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [PLUGIN] Taskbar extender";
+$rcontent="Plugin is updated again. New option added: &#34;Activate plugin only when Control key is down&#34;. This will allow to use plugin`s features on taskbar with control pressed only. Without control no changes on taskbar will be casted :)";
+$rauthor="WiredPlane";
+$rdate="1108539438";
+$rip="195.245.232.12";
+
+?>

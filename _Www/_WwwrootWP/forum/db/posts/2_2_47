@@ -1,0 +1,20 @@
+<?php
+
+$psubject="WC Price";
+$pcontent="We are planning to raise the price for WireChanger up to &#36;30 per license (single license for up to 3 computers).
+If anybody can advise - what price is OK for a tool like WireChanger? Except &#39;for Free&#39; %)";
+$pauthor="WiredPlane";
+$pdate="1129104569";
+$plastdate="1129104569";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="682";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar";
+$psticky="";
+
+?>

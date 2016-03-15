@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="[quote]
+after that try to start different links by hotkey. wiredplane_debug.log in the c:// will be created.
+[/quote]
+
+The better idea is to enter the name of the log in the options - some users do not have write access to the disk c: (I have it by lucky incident).
+
+Some users even do not have even disk c: :-)";
+$rauthor="stepone";
+$rdate="1143550237";
+$rip="62.225.37.69";
+
+?>

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Bcc:&#39;s yield duplicate messages";
+$rcontent="i see... yes, this is a bug, we`ll fix this issue.
+NB: If you managed to fix it before us, share fix with us if possible ^) to speed up things...";
+$rauthor="WiredPlane";
+$rdate="1170140533";
+$rip="195.210.162.152";
+
+?>

@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Strange Start Button Behaviour";
+$pcontent="Using the % CPU on start button, also the Taskbar button plug-in, but the first icon in tray is always pushed into hiding BEHIND the Start button !
+
+Is this just in Windows 2000K ? Is there an easy work-around for this as it happens on my 2 other PC&#39;s too? Thanks for any help. Ian.";
+$pauthor="hulland";
+$pdate="1117522781";
+$plastdate="1117743070";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="356";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|AGu";
+$psticky="";
+
+?>

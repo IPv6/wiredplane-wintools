@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Dual Monitor support for WireChanger";
+$rcontent="Just tried this, and it did the exact same thing.  Told nVidia to use a different background for each display, set the second background to &#34;C:&#92;Documents and Settings&#92;Jonathan&#92;Application Data&#92;WireChanger&#92;IPv6WallPaper.bmp&#34; (the same as the primary monitor), and Wirechanger still prompted if I wanted to add it to the collection, and messed up the display on both monitors.
+
+As with the screensaver issue, I&#39;m willing to help troubleshoot.
+
+Even if it had worked, it still would be less than optimal, since with the &#34;center&#34; option, I would have a cropped image (due to the lower resolution), and with the &#34;stretch&#34; option, I would have a distorted image (due to the different aspect ratio).  :(
+
+  - Jonathan";
+$rauthor="jrwatts";
+$rdate="1138046311";
+$rip="68.35.144.64";
+
+?>

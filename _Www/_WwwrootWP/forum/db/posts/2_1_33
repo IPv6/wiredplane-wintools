@@ -1,0 +1,52 @@
+<?php
+
+$psubject="Preferences - Change Tab Color When Secondary Hotkey Selected, Etc.";
+$pcontent="Enhancement Requests
+
+1. When more than one hotkey is specified, change the color of the tab to indicate this.
+
+2. When defining hotkeys, the context menu Add Control does not contain all control keys (i.e., shiftkey when it is enabled).  Note, CapsLock does appear under Keys.
+
+3. Preferences documentation - when using CapsLock as a control key, Shift+CapsLock toggles CapsLock on/off. 
+
+4. Prefs doc - comment for hotkey selection field should remind users:
+1. To clear a hotkey assignment, you must first select the field by dbl-clicking and then clear it via the context menu.
+b. To leave hotkey assignment field, use Escape or Backspace or select another field with mouse. (??)
+
+5. Odd behavior? & Backspace as Clear
+ - Opening the hotkey assignment field and then press Esc.  Nothing happens.  2xEsc does close the field.  Backspace behaves the same way.
+ - Escape does not close context menu in hotkey assignment but backspace does.  This may have to do with whether an item on the menu has focus.  
+ - With menu open, 2xEsc or 2xBksp exit (but don&#39;t clear).  
+ - After making an assignment, 2xEsc or 2xBksp is required to exit.
+ - Whatever the assignment (cleared or hotkey), Backspace and Escape leave that value intact.  The only way to clear an existing value or prevent a new assignment is to use the context menu.  (I didn&#39;t test going directly to the Cancel button.)
+
+This may be perfectly valid and normal behavior but it is confusing.  
+
+6. I think being able to use backspace to clear the field is desirable.  The current behavior is strikes me as counterintuitive/inconsistent with normal Windows behavior.
+
+When defining multi-key hotkeys, backspace might clear only the last &#34;keystroke&#34; until all are cleared and then exit.
+
+
+
+
+
+
+
+5. Add context menu to hotkey selection field  
+
+(Some of these are incredibly picky.  I hope polishing WK will help it succeed.)";
+$pauthor="BillR";
+$pdate="1093357374";
+$plastdate="1093357374";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="BillR";
+$preplies="0";
+$pviews="290";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane|hulland";
+$psticky="";
+
+?>

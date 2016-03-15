@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="Well, the new screensaver appears to work worse than the old one!  :(
+
+Just tried to run it twice, both times it displayed one image on the primary monitor, and that was it.  I started it up, did something else for 10 minutes, came back, and it still had the same image up on the primary monitor, and the original background (with &#34;Please wait...&#34; in the corner) on the secondary.
+
+Also noticed that the options to turn off the Date/Time stamp and Minilender are gone.";
+$rauthor="jrwatts";
+$rdate="1138396430";
+$rip="68.35.144.64";
+
+?>

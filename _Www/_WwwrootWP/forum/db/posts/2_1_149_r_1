@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: One more bug";
+$rcontent="Fixed version uploaded to site.
+NB: After changing lang again new items will be created again, but in futher changes they will be only translated into active language (no duplications any more)";
+$rauthor="WiredPlane";
+$rdate="1134632268";
+$rip="195.245.232.12";
+
+?>

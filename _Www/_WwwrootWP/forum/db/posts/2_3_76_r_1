@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Reminders for every xx day day of the month";
+$rcontent="Yes, it is possible. In the new reminder window, click on bottom-left button, reccurency. There you will be able to set specific days of month instead of the exact date for reminder!";
+$rauthor="WiredPlane";
+$rdate="1173862501";
+$rip="195.210.162.152";
+
+?>

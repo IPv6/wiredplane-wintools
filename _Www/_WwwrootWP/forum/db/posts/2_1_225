@@ -1,0 +1,22 @@
+<?php
+
+$psubject="А где в новой версии управление вторым CD приводом?";
+$pcontent="В предыдущей версии (от декабря 2006) в первый раз появилась функция управления несколькими приводами (двумя). При нажатии той же комбинации клавиш 2 раза. 
+ :thmbup
+А в новой версии (от 25 января 2007) - эта очень удобная функция, вроде бы снова пропала (не могу ее найти).
+Почему???    :?";
+$pauthor="Anonymous";
+$pdate="1169975427";
+$plastdate="1170255964";
+$pimage="5.gif";
+$plastreply="6";
+$plastauthor="Anonymous";
+$preplies="6";
+$pviews="621";
+$pnotify="|Anonymous|McStar";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|AlexZ|garry63|WiredPlane|Mitiuha|LAVir";
+$psticky="";
+
+?>

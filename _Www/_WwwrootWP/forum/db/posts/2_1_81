@@ -1,0 +1,29 @@
+<?php
+
+$psubject="Problems with &#34;Win&#34; hotkeys";
+$pcontent="Hi,
+
+I use WKeys 2.8.1 on XP and have the problems with &#34;Win&#34; hotkeys.
+
+When I press such hotkey (e.g. Win+Y), the &#34;Start&#34; menu appear on the screen and only then the necessary application starts. 
+
+The appearance of &#34;Start&#34; menu is not very convenient :-). In addition, application doesn&#39;t receive focus during the start - so some applications (like crazy telnet programs) even could not be started properly.
+
+I tried to use option &#34;Block Win key&#34; (I don&#39;t like this solution anyway) - but it didn&#39;t help. 
+
+I didn&#39;t have such problems with Lite version.";
+$pauthor="stepone";
+$pdate="1109881994";
+$plastdate="1109928522";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="351";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AGu|stepone|Anonimus|jignesh";
+$psticky="";
+
+?>

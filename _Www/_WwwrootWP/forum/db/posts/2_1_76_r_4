@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK 2.8.1 updated again with bugfixes, new default macro (TimeRename) and fix to newly added hotkey (Extreme shutdown)";
+$rauthor="WiredPlane";
+$rdate="1108812507";
+$rip="195.209.143.44";
+
+?>

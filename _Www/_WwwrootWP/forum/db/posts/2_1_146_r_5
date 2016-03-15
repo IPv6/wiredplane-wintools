@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: New version questions";
+$rcontent="[quote]
+About XYZ - can you name this application? This feature really may not work with some applications, but we can add workarounds for specific types of applications
+[/quote]
+You could try it even with calc.exe.
+I have calc.exe bound to &#34;win+c&#34;. Press &#34;win+c&#34;. Press &#34;win+c&#34; one more time. In most cases (not always!) the second calculator will be started in the background.
+
+PS Small typing error in the default reminder:
+[quote]Attention! Time [b]hase[/b] come![/quote]
+";
+$rauthor="stepone";
+$rdate="1134473450";
+$rip="62.225.37.69";
+
+?>

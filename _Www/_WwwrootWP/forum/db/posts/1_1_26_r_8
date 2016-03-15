@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: A few recipients get empty messages";
+$rcontent="Do you plan to investigate further, or do you have any hints to give me for where to look at in the code?
+";
+$rauthor="sba";
+$rdate="1171467794";
+$rip="194.3.183.35";
+
+?>

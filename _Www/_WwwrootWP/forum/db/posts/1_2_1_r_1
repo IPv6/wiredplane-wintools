@@ -1,0 +1,79 @@
+<?php
+
+$rsubject="News archive";
+$rcontent="27.03.2004  
+WireKeys 2.4 with new interesting plugin (macro recorder) released. Our macros/plugins page was updated with &#34;Full sound control&#34; plugin and two macros. They are using online services to deliver useful content (quotes and help :)
+
+ 
+14.03.2004  
+WireKeys 2.3 and WireChanger 2.3 were released. Plans for future for WireChanger: very impressive 3D animations right over desktop, greatly improved perfomance and memory footprint, all templates will be interactive (for example double clicking weather forecast will direct you to corresponding site, double clicking calendar cell will popup note for that day and so on). Additional thanks to Julia FAST for interesting suggestions!
+
+ 
+21.02.2004  
+WireKeys 2.1.5 released! See history page
+
+ 
+06.02.2003  
+Some plugins (KeyLogger) were updated
+
+ 
+30.01.2004  
+WireKeys 2.0 released! The most remarkable addition - full multimedia keyboards support and support for multi-key hotkeys and wired key combinations. See history page for full list of changes
+Previous version of WireKeys (WireKeys Light) will be always available for download here.
+
+ 
+21.12.2003  
+Released: WireChanger 2.2. Updated WireChanger`s Spanish localization by F. Alvarado, new note skin and new clocks collection added. An now our products can be registered with RegNow
+
+ 
+13.12.2003  
+Released: WireChanger 2.1, WireNote 2.1 and new clock`s collection. Check out new preferences dialog design. WireChanger was translated into Italian language by Sergio Lanzone
+
+ 
+01.12.2003  
+New site design, we hope you`ll like it :) Added modern shout bar, where you can leave message about anything you want (its just for fun)
+
+ 
+26.11.2003  
+New release:
+- WireChanger 2.0. The main new feature - desktop notes. Can be added by double-clicking your desktop. Fonts, colors and opacity can be changed in preferences. Very convenient thing!
+- WireNote 2.0. New protocol added. This protocol was specially designed to be used in the mixed LANs. The only requirement for this protocol - visible from different computers shared net folder
+
+ 
+14.11.2003  
+WireKeys 1.9.9 released - with new features, improvements and bug fixes
+
+ 
+04.11.2003  
+All products were updated. Check out history pages :)
+
+ 
+25.10.2003  
+WireKeys version 1.9.7 released. Fixed known bugs and added some features requested by users. Special thanks to BillR for help in refining documentation
+
+ 
+15.10.2003  
+WireKeys was updated to version 1.9.6. Fixed some bugs and added icons for everything
+
+ 
+09.10.2003  
+WireKeys 1.9.5 released. Fixed some bugs and added 2 new plugins:
+- Desktop icons font master. This plugin allows to set font and color of the desktop icons. Full source code included (see &#34;Plugins&#34; help page). Plugin disabled by default, you can enable it in preferences
+- WireKeys windows traits. This plugin makes all windows in your system sticky and allows you to hide windows to tray by right-clicking its minimize button. &#39;Sticky&#39; mean that window will be automatically snapped to other windows edges and screen boundaries when moved. Stickness can be temporaly disabled by holding Shift key while moving window. Other plugin features: ability to force all windows to be inside screen boundaries (so you will never cry on window with its title bar placed beyond monitor edge ;), ability to define windows to be settled in tray instead of taskbar (such windows will be automatically moved to tray on focus blur). This plugin is disabled by default also, you can enable it in preferences
+
+ 
+03.10.2003  
+WireNote became donationware, and as free as WireKeys for now. We thought this application will be more useful when it`s free :)
+
+ 
+28.09.2003  
+WireKeys 1.9 released. The key feature of this release is keyboard macros. You can check history page for details
+
+ 
+26.09.2003  
+Lately we have started to use Windows ME in our every day work . We discovered that our products didn`t work simply :( New update fixes this unfortunate misunderstanding - now all work fine (except really NT-specific features)";
+$rauthor="WiredPlane";
+$rdate="1081770177";
+$rip="195.245.232.12";
+
+?>

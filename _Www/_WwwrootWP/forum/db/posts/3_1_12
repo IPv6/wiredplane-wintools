@@ -1,0 +1,20 @@
+<?php
+
+$psubject="New plugin: Spell checker";
+$pcontent="New plugin available, created by Karcade
+This is universal spell checker. All you have to do - assign hotkey to spell checking. Then select word in any window and press hotkey - and this plugin will show variants of right spelling or will confirm that everything is ok. By default, plugin uses english dictionary. More dictoinaries can be downloaded from http://lingucomponent.openoffice.org/spell_dic.html ";
+$pauthor="WiredPlane";
+$pdate="1095662958";
+$plastdate="1095662958";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="475";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR";
+$psticky="";
+
+?>

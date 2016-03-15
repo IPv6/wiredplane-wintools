@@ -1,0 +1,34 @@
+<?php
+
+$psubject="Tutorial: Add&#39;l Clipboards & Win Trait &#36;5 Graphic";
+$pcontent="I happened to need multiple clipboards so I just read through that tutorial.  
+
+Suggestion 1 - Clarify that these clipboards are in addition to the standard clipboard.  Data copied to additional clipboards is NOT copied to the standard clipboard.
+
+Suggestion 2 - Note that Ctl+Num1 is equivalent to Ctl+P; Alt+Num1 ~ Ctl+V, and Win+V ~ Win+Num1.  I think explaining this for one clipboard and then having a little table with information for the standard clipboard and two or three additional clipboards would be clearer than explaining the same thing twice in text.
+
+Suggestion 3 - Add another row of data for the clipboards and ignore clipboard 3:
+Text for Clipboard 1       Text for Clipboard 2
+More Text for Clipboard 1  More Text For Clipboard 2
+(Try Here) 
+
+Suggestion 4 - For pinned items, use an example with two pinned items (e.g., &#34;pinned text example&#34; and &#34;more pinned text&#34;) and three items in the unpinned text stack.
+
+Suggestion 5 - Mention the paste enhancement plug-in for the regular clipboard.
+
+Suggestion 6 - The graphic for Windows Traits #5 is confusing.  First, I would not have the window abut the task bar.  Second, the arrow on the menu appears to point to the minimize button.  Third, my windows menu has neither the arrow nor the stylized window and it opens in the upper left corner but those differences may just be because I use the US version. ";
+$pauthor="BillR";
+$pdate="1119913623";
+$plastdate="1119951228";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="306";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|annon|Anonimus|AGu|stepone";
+$psticky="";
+
+?>

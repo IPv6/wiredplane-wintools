@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: &#34;Universal media players control&#34; not working with BSplayer";
+$rcontent="I&#39;ve  used v.2.7.5 and old version of macros. Today i updated both of them - everything is fine!  
+I  think the problem was with macro. There is no any info about version and date of plugin/macros at download page! :sad1
+Thanks for the help! :)";
+$rauthor="Shaker";
+$rdate="1100973000";
+$rip="62.118.130.34";
+
+?>

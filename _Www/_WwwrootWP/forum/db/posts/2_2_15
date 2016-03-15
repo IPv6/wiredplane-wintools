@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Ann: WireChanger 2.8 beta";
+$pcontent="For thouse who like to test and use newest soft, here are beta version of WC 2.8:
+www.wiredplane.com/download/wirechanger_bt.zip
+
+New features are: Zip support (Add and use images directly from zip archive/pack theme or selected images into one single file), Convinient Flash clock importer, Default options for all third-party clocks added, new design (more usable), new templates (tongue-twisters - Thanks to Julia FAST for them, image morthing, Countdown (days till New Year for example), new effects for dekstop images, old effects are refined (for example Smart image postprocessing)). A lot of small features to protect data privacy on your desktop (for example all data can be removed from desktop before shutdown) and a lot af small bugfixes
+New WC can now hide desktop icons easiliy (and much faster that it can be done through desktop`s context menu), change font of desktop icons and can even make icons background transparency when active desktop is enabled under WindowsXP (unability to do this is confirmed bug in Windows XP, we just found nice workaround for it)
+And one of the most convinient features - now all active elements on your desktop has standard tootip! So you can read notes without need to open them - just point your mouse and wait for a second :)";
+$pauthor="WiredPlane";
+$pdate="1097250202";
+$plastdate="1097250202";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="545";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar";
+$psticky="";
+
+?>

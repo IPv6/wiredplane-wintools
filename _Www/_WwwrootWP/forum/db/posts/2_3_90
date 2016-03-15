@@ -1,0 +1,29 @@
+<?php
+
+$psubject="Silent mail check";
+$pcontent="Sorry to bother you guys again.
+
+Is it possible to set the email check to complete silence?
+No spam-check pop-up, no- other screens just an change of the tray icon indication that there is new mail (blinking / color change).
+
+This way it&#39;s, well ehh more silent ;-)
+
+Thank you!
+
+Neo
+";
+$pauthor="neocobe";
+$pdate="1201011033";
+$plastdate="1201053710";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="155";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

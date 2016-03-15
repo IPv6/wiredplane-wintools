@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Wirekeys Freeze";
+$rcontent="it seems that this is something in driver.
+did you haev distrib of it? can you send it?
+we can also prepare debug version with some logging about this FJ key. i think we can mask it from wirekeys and it will be ok. i think that this key is used by driver to distinguish some additional keyboard fetures.
+BTW, can it be that this key is present according to some of the additional keys at your new keyboard?
+Sorry for inconvinience :(";
+$rauthor="WiredPlane";
+$rdate="1143185458";
+$rip="195.245.232.22";
+
+?>

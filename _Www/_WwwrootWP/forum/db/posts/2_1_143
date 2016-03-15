@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Последнее обновение";
+$pcontent="А что такое &#34;Preferences UI: Added buttons for common actions over quick-run items&#34;?";
+$pauthor="McStar";
+$pdate="1133427017";
+$plastdate="1133537553";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="814";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|w11|stepone|Anonimus";
+$psticky="";
+
+?>

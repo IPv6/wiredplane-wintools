@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Quintesentual player";
+$pcontent="Очень хорошая программа, но вот с сабжевым плеером подружить не могу. Точнее могу, он апи winamp имитирует... Но вот если он не загружен, то по нажатию Play плеейр сам не запускается.
+Отсюда вопрос: можно ли сделать выбор плеера для запуска по нажатию Play?";
+$pauthor="cleg";
+$pdate="1088076621";
+$plastdate="1088876052";
+$pimage="2.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="593";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|cleg|BillR|stepone|McStar";
+$psticky="";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Глюк с курсором";
+$pcontent="При настройках, &#34;прятать курсор мыши при печати&#34; он может пропасть насовсем!";
+$pauthor="McStar";
+$pdate="1102056504";
+$plastdate="1102097815";
+$pimage="1.gif";
+$plastreply="6";
+$plastauthor="McStar";
+$preplies="6";
+$pviews="637";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|AGu";
+$psticky="";
+
+?>

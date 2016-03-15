@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Some suggestions";
+$pcontent="First of all, great program :-)
+it does almost everything I would like it to but I have a couple of suggestions:
+1) When I type the note I would like to use the x button to hide it (or is there a chance to make it configurable?)
+2) I&#39;d like to have a calendar view. The same widget (?) you find in the reminder would be great so I can quickly view the calendar and maybe look at the other months. It would be nice to see the days with appointments or maybe double click on a day to be able to add/delete a reminder
+Thanks again for this great program
+fabio";
+$pauthor="fabio";
+$pdate="1099003945";
+$plastdate="1099784538";
+$pimage="2.gif";
+$plastreply="5";
+$plastauthor="fabio";
+$preplies="5";
+$pviews="937";
+$pnotify="|fabio";
+$plock="";
+$pip="";
+$pvisitors="|fabio|WiredPlane|McStar|mcc|Anonimus|AGu|jaco|pos";
+$psticky="";
+
+?>

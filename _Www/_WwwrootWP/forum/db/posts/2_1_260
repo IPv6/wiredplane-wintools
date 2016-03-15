@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Макрос &#34;Вырезать выделенное число - приплюсовать 1 - вставить результат&#34;";
+$pcontent="Скажите чайнику, как сделать?
+contradictor@gmail.com";
+$pauthor="Anonymous";
+$pdate="1197796044";
+$plastdate="1197858873";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="141";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|dnknitro";
+$psticky="";
+
+?>

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Displays too many wallpapers";
+$rcontent="can you send screenshot of this?
+Besides that what widget do you have enabled? can you try to disable one by one? It is likely a bug in one of them :(";
+$rauthor="WiredPlane";
+$rdate="1172480333";
+$rip="195.210.162.152";
+
+?>

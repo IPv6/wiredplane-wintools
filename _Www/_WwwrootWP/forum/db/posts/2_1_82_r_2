@@ -1,0 +1,25 @@
+<?php
+
+$rsubject="RE: Some issues in WK 2.8.1";
+$rcontent="Answers:
+
+ - incorrect work with &#34;Win&#34; key (see another post in this forum)
+We are working on it. Unfortunately there is no really good solution anyway
+
+- insert from Clipboard History doesn&#39;t work in some programs (e.g. in Windows telnet).
+Sorry, currently console windows are not supported. This is Windows limitation :(((
+
+
+- &#34;Explorer plugin&#34; - &#34;Manage folders&#34; : if I try to add folder &#34;C:&#92;TEMP&#34; (without trailing backslash) it adds only &#34;c:&#92;&#34;. For &#34;C:&#92;TEMP&#92;&#34; it works normally.
+This is because one can drag and drop files from explorer and there can be file &#34;TEMP&#34; without extension. We will add fix
+
+- &#34;Explorer plugin&#34; - &#34;add To Places&#34; - Displays message &#34;Not enough rights to work with Places&#34;. What does it mean? What are these &#34;places&#34; at all?
+This is vertical bar at the left of Save/Load dialogs (with &#34;My documents&#34;, etc folders). Not enough rights means that WK can`t write specail registry information to trick this folders
+
+- &#34;Check for update&#34; menu item doesn&#39;t work (probably, because I&#39;m located behind proxy - there is no seting for proxy in the program)
+Currently proxy from explorer used for this conection. Just define right proxy in the Explorer`s settings :)";
+$rauthor="WiredPlane";
+$rdate="1110802295";
+$rip="195.245.232.12";
+
+?>

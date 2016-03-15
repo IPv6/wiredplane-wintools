@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Есть ли инструкция на русском языке
+Если есть";
+$pcontent="Есть ли инструкция на русском языке
+Если есть то по какой ссылке ее можно скачать";
+$pauthor="Anonimus";
+$pdate="1114338080";
+$plastdate="1114426047";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="582";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AGu|GRISHIN";
+$psticky="";
+
+?>

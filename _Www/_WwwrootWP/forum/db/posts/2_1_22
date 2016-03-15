@@ -1,0 +1,19 @@
+<?php
+
+$psubject="WireKeys 2.6";
+$pcontent="Released new version of Wirekeys! %) Most important changes - support for TV-tuner remote controls and hotkey alternatives. Slightly changed interface of defining new hotkey. Now some &#34;keys&#34; like screen borders or mouse clicks can be added via context menu only (right-click input field while defining hotkey and you will get popup menu with all relevant keys grouped by key &#34;origin&#34;). Remote control butons can be found in this menu too :)";
+$pauthor="WiredPlane";
+$pdate="1088635633";
+$plastdate="1088635633";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="295";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Leshiy|rij73|BillR|rockywolf|McStar";
+$psticky="";
+
+?>

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK 3.2.5 released
+among other features - convinient mini-toolbar (in perferences dialog) for quick access to quick-run/macros actions";
+$rauthor="WiredPlane";
+$rdate="1133421842";
+$rip="195.245.232.12";
+
+?>

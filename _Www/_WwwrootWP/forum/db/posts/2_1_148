@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Ќапоминани€ и календарь";
+$pcontent="напоминание в WK, конечно, хорошо только несколько излишне наверное ну ладно. Ќо предложение в следующем. ћожет можно в календаре WK считывать настройки напоминаний из WireNote и наоборот?";
+$pauthor="McStar";
+$pdate="1133959886";
+$plastdate="1133961207";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="673";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|Anonimus|stepone|ValeraVi|SkyRE|pharaon";
+$psticky="";
+
+?>

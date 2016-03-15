@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Windows Media Player Compatibility";
+$rcontent="there is a macro for this
+http://www.wiredplane.com/download/wkmacros/wkm_mediaplayers.zip
+it can control several players at once (WMP is one of them)
+try it! :)";
+$rauthor="WiredPlane";
+$rdate="1132213383";
+$rip="195.245.232.12";
+
+?>

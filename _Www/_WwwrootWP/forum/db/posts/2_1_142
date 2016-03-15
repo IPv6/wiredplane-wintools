@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Не обновляется список скринсейверов динамически";
+$pcontent="Хотелось бы, чтобы была возможность обновлять список скрнсейверов динамически, а не перегружая программу.";
+$pauthor="McStar";
+$pdate="1132756102";
+$plastdate="1134018355";
+$pimage="1.gif";
+$plastreply="7";
+$plastauthor="WiredPlane";
+$preplies="7";
+$pviews="741";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|Anonimus|SkyRE";
+$psticky="";
+
+?>

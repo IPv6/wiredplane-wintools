@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Не показываются подсказки.";
+$pcontent="Пока не могу определить с чем связано. Но не покаызваются пожсказки нажд активными элементаи. Соответствующая галочка стоит. То ли это после запуска скринсейвера проиходит, то ли ещё после чего.";
+$pauthor="McStar";
+$pdate="1100876080";
+$plastdate="1101112436";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="McStar";
+$preplies="3";
+$pviews="1124";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

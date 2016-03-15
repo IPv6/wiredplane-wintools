@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: New User - Some questions";
+$rcontent="Thak you for your answer.
+What are the supported patterns?
+
+Dani";
+$rauthor="Anonimus";
+$rdate="1143656325";
+$rip="192.114.47.51";
+
+?>

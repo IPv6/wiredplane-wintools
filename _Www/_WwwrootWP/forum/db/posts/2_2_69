@@ -1,0 +1,22 @@
+<?php
+
+$psubject="How to make desktop icons tranparent?";
+$pcontent="I am struggling on how to make desktop icons to be tranparent.
+I know that there is one menu in preference showing option of &#34;desktop icons transparent&#34; but it has now impact on my desktop.
+
+Please help";
+$pauthor="Anonymous";
+$pdate="1180867601";
+$plastdate="1181063450";
+$pimage="5.gif";
+$plastreply="4";
+$plastauthor="Anonymous";
+$preplies="4";
+$pviews="616";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane";
+$psticky="";
+
+?>

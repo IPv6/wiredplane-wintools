@@ -1,0 +1,26 @@
+<?php
+
+$psubject="Vista support";
+$pcontent="В Vista не работает. При запуске пишется &#34;WireKeys Application has stopped working&#34; и все :(
+
+Когда планируете поддержать новую операционку? А то она уже скоро выходит.
+
+Если нужны какие-то логи или что-то еще -- помогу чем смогу.
+
+А то без WK неуютно, постоянно чего-то нехватает...
+";
+$pauthor="AlexZ";
+$pdate="1160753692";
+$plastdate="1164814098";
+$pimage="5.gif";
+$plastreply="15";
+$plastauthor="AlexZ";
+$preplies="15";
+$pviews="1500";
+$pnotify="|AlexZ";
+$plock="";
+$pip="";
+$pvisitors="|AlexZ|WiredPlane|jaco|DSR";
+$psticky="";
+
+?>

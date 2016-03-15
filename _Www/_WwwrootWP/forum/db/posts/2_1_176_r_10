@@ -1,0 +1,42 @@
+<?php
+
+$rsubject="RE: По поводу...WinAmp controls";
+$rcontent="Кста у меня чёт скриптец не рабочий для Media Library.
+И Jump To File будет попроще (это не упрёк)
+
+[code]//Open Jump to file
+WireKeys.SendMessage(WireKeys.FindWindow(&#39;Winamp v1.x&#39;),0x0111,40194,0);
+WireKeys.ShowOSD(&#34;Jump To File - WinAmp&#34;, 2000);
+[/code]
+
+[code]// Close|Show WinAmp Media Library Window
+WAWnd = WireKeys.FindWindow(&#39;Winamp v1.x&#39;);
+MLWnd = WireKeys.FindWindow(&#39;Winamp Gen&#39;,&#39;Winamp Library&#39;);
+if (WireKeys.IsEnabled(MLWnd) == 0) {
+	WireKeys.SendMessage(WAWnd,0x0111,40380,0);
+	WireKeys.ShowOSD(&#34;Closing Media Library - WinAmp&#34;,1000)
+} else {
+	WireKeys.SendMessage(WAWnd,0x0111,40379,0);
+	WireKeys.ShowOSD(&#34;Showing Media Library - WinAmp&#34;,1000)
+}
+// 40040 - Togle Playlist
+// 40044 - Prev Track
+// 40045 - Play
+// 40046 - Pause
+// 40047 - Stop
+// 40048 - Next Track
+// 40019 - On Top
+// 40001 - Exit
+// 40023 - Shuffle
+// 40022 - Repeat
+// 40012 - Preferences
+// 40194|40318 - Jump to File
+// 40244 - EQ Enable|Disable
+// ID_FILE_SHOWLIBRARY             40379
+// ID_FILE_CLOSELIBRARY            40380
+[/code]";
+$rauthor="SkyRE";
+$rdate="1157014492";
+$rip="194.88.1.234";
+
+?>

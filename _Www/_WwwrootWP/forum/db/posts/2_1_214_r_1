@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Shell extender передает рус. имена для diff app в DOS кодировке";
+$rcontent="да, проблема ясна :(
+пока такой опции. нет
+добавим!";
+$rauthor="WiredPlane";
+$rdate="1160983626";
+$rip="195.210.162.152";
+
+?>

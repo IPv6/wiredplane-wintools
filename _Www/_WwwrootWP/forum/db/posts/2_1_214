@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Shell extender передает рус. имена для diff app в DOS кодировке";
+$pcontent="Как я понял плагин Shell extender передает русские имена файлов в приложение для сравнения (diff app) в DOS кодировке (или в какой-то другой... не сильно разбирался :) ). Для дефолтного fc.exe может это и полезно, но для чего-нить виндовского (UltraCompare например) не подходит :(... Наример файл &#34;проверка.txt&#34; превращается во что-то типа &#34;яЁютхЁър.txt&#34;.
+ Может можно добавить какую-нить опцию чтоб подправить кодировку? :) Или может она есть а я не нашёл? :help";
+$pauthor="ValeraVi";
+$pdate="1160753930";
+$plastdate="1160983626";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="408";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AlexZ|ValeraVi|Anonimus|SkyRE";
+$psticky="";
+
+?>

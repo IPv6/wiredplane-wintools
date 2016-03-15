@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: Empty Bin / Windows key";
+$rcontent="1) Will be added! :)
+2) You have to disable Win key as well in preferences.
+This is because Win key is very special key in windows and blocking it from time to time (when you press hotkey with Win) can cause some clues (sometimes it became stucked)
+so we decided - &#34;all or nothing&#34;, i.e. you have to shoose disable it always or keypresses on win will not be blocked.
+may be this is subject to change in future though
+3) you can add caps lock to hotkeys simply pressing it while entering hotkey or choose caps lock from context menu
+
+4) which guidances are hard to find, specify please,  we will improve help file too ^)";
+$rauthor="WiredPlane";
+$rdate="1098978307";
+$rip="195.245.232.12";
+
+?>

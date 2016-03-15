@@ -1,0 +1,23 @@
+<?php
+
+$psubject="&#34;Show history for standard clipboard&#34;";
+$pcontent="Hi. I&#39;m running Win2k, SP4, WK v2.9.0, and I can&#39;t seem to get the &#34;Show history for standard clipboard&#34; feature to work. I&#39;ve tried it with different applications in focus, and no matter what hotkey i assign it, nothing happens.
+
+I think it&#39;s supposed to pull up a box with the last X clipboard entries in it, and you can scroll to paste, yes?
+
+TIA";
+$pauthor="jaco";
+$pdate="1126823148";
+$plastdate="1126835505";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="jaco";
+$preplies="2";
+$pviews="647";
+$pnotify="|jaco";
+$plock="";
+$pip="";
+$pvisitors="|jaco|McStar|WiredPlane";
+$psticky="";
+
+?>

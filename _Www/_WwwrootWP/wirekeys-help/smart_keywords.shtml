@@ -1,0 +1,282 @@
+<!--#set var="TOPIC_RU" value="JavaScript - SendKeys" -->
+<!--#set var="TOPIC_EN" value="JavaScript - SendKeys" -->
+<!--#include virtual="/_before.shtml"-->
+
+<h1 class="firstHeading">Using keyword searches</h1>
+<div id="bodyContent">
+<div id="contentSub"></div>
+<dl><dd> <i>This article applies to Firefox and WireKeys.</i><br>
+</dd></dl>
+<p>In Firefox and Mozilla Suite you can specify keywords for bookmarks by filling in the “Keyword” field in the bookmark’s Properties. When you type the keyword into the Location Bar and hit <tt>[Enter]</tt>, the keyword will be replaced with the bookmarked URL. For example, bookmarking <a href="http://google.com/" class="external free" title="http://google.com/" rel="nofollow">http://google.com/</a>, giving it a keyword of “<tt>g</tt>”, and typing “<tt>g</tt>” into the Location Bar will take you to Google.
+</p><p>What makes keywords very powerful is that if you add a “<tt>%s</tt>” at some place in your bookmark’s URL, it will be replaced by the words you type in after the keyword. (These are sometimes called “Quicksearches”.) For example, if we were to modify the bookmark mentioned above so that it pointed to “<tt><a href="http://google.com/?q=%s" class="external free" title="http://google.com/?q=%s" rel="nofollow">http://google.com/?q=%s</a></tt>”, we can type “<tt>g mozilla</tt>” into the Location Bar to arrive at “<tt><a href="http://google.com/search?q=mozilla" class="external free" title="http://google.com/search?q=mozilla" rel="nofollow">http://google.com/search?q=mozilla</a></tt>”.
+</p>
+
+<a name="Default_searches"></a><h2>Default searches</h2>
+<p>By default, Mozilla Firefox comes with several bookmarks with keywords defined. They’re located in the “Quick Searches” folder in the default bookmarks.
+</p>
+<table style="border: 1px solid rgb(170, 170, 170); margin: 1em 1em 1em 0pt; background: rgb(252, 252, 252) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; border-collapse: collapse;" border="2" cellpadding="4" cellspacing="0">
+
+<tbody><tr>
+
+<th> Bookmark Name
+</th><th> Keyword
+</th><th> Bookmark URL
+</th></tr>
+<tr>
+<td> Google Quicksearch
+</td><td> <tt>google</tt>
+</td><td> <a href="http://www.google.com/search?q=%s" class="external free" title="http://www.google.com/search?q=%s" rel="nofollow">http://www.google.com/search?q=%s</a>
+</td></tr>
+
+<tr>
+<td> Dictionary.com Quicksearch
+</td><td> <tt>dict</tt>
+</td><td> <a href="http://dictionary.reference.com/search?q=%s" class="external free" title="http://dictionary.reference.com/search?q=%s" rel="nofollow">http://dictionary.reference.com/search?q=%s</a>
+</td></tr>
+<tr>
+<td> Stock Symbol Quicksearch
+</td><td> <tt>quote</tt>
+</td><td> <a href="http://www.google.com/search?q=stocks:%s" class="external free" title="http://www.google.com/search?q=stocks:%s" rel="nofollow">http://www.google.com/search?q=stocks:%s</a>
+
+</td></tr>
+<tr>
+<td> Wikipedia Quicksearch
+</td><td> <tt>wp</tt>
+</td><td> <a href="http://en.wikipedia.org/wiki/Special:Search?search=%s" class="external free" title="http://en.wikipedia.org/wiki/Special:Search?search=%s" rel="nofollow">http://en.wikipedia.org/wiki/Special:Search?search=%s</a>
+</td></tr>
+<tr>
+<td> Urban Dictionary
+</td><td> <tt>slang</tt>
+
+</td><td> <a href="http://www.urbandictionary.com/define.php?term=%s" class="external free" title="http://www.urbandictionary.com/define.php?term=%s" rel="nofollow">http://www.urbandictionary.com/define.php?term=%s</a>
+</td></tr></tbody></table>
+<a name="Creating_bookmarks_with_keywords"></a><h2>Creating bookmarks with keywords</h2>
+<p>In Mozilla Firefox, you can simply right-click in a search field on a web page and choose “Add a Keyword for this Search.” This will pop up a dialog for you to add a bookmark name and keyword.
+</p><p>You can also create it manually:
+</p>
+<ol><li> Do a search on the site you want to add a quicksearch to.
+</li><li> Bookmark the page you are brought to (the results page).
+</li><li> Open the Properties dialog for your new bookmark.
+
+</li><li> In your bookmark’s URL (the Location field), find and replace what you searched for with <tt>%s</tt> (If it does not appear, you cannot use a quicksearch here)
+</li><li> Add a keyword
+</li></ol>
+<p><i>Note: Mozilla Suite users can use the “Bookmarks > File Bookmark...” feature and edit bookmark’s properties at the moment of its creation.</i>
+<hr>
+
+Below is a list of various keyword searches for <a href="/Mozilla_Suite" title="Mozilla Suite">Mozilla Suite</a> and 
+<a href="/Firefox" title="Firefox">Firefox</a>. The keywords shown are only a suggestion and you can change them to fit your preferences. The keywords are case-insensitive. To use a keyword, type the keyword followed by the search terms in the Location Bar. For more information refer to <a href="/Using_keyword_searches" title="Using keyword searches">Using keyword searches</a>.
+</p><p>For keyword searches not listed below, the Mozilla extension <a href="http://needlesearch.mozdev.org/" class="external text" title="http://needlesearch.mozdev.org/" rel="nofollow">NeedleSearch</a> allows you to discover the requied URI parameters, not only for searches, but for many other types of forms based interfaces.
+</p>
+
+<a name="Search_engines"></a><h2>Search engines</h2>
+<table border="1" cellpadding="5" rules="all" width="100%">
+<tbody><tr>
+<th align="left"> Name </th><th align="left"> Location/URL </th><th align="left"> Keyword
+</th></tr>
+
+<tr>
+<th align="left"> <a href="http://www.alltheweb.com/" class="external text" title="http://www.alltheweb.com/" rel="nofollow">AlltheWeb</a>
+</th><td> <a href="http://www.alltheweb.com/search?q=%s" class="external free" title="http://www.alltheweb.com/search?q=%s" rel="nofollow">http://www.alltheweb.com/search?q=%s</a>
+</td><td> atw
+</td></tr>
+<tr>
+<th align="left"> <a href="http://www.altavista.com/" class="external text" title="http://www.altavista.com/" rel="nofollow">AltaVista</a>
+</th><td> <a href="http://www.altavista.com/web/results?q=%s" class="external free" title="http://www.altavista.com/web/results?q=%s" rel="nofollow">http://www.altavista.com/web/results?q=%s</a>
+
+</td><td> av
+</td></tr>
+<tr>
+<th align="left"> <a href="http://dmoz.org/" class="external text" title="http://dmoz.org/" rel="nofollow">dmoz.org</a>
+</th><td> <a href="http://search.dmoz.org/cgi-bin/search?search=%s" class="external free" title="http://search.dmoz.org/cgi-bin/search?search=%s" rel="nofollow">http://search.dmoz.org/cgi-bin/search?search=%s</a>
+</td><td> dmoz
+</td></tr>
+<tr>
+<th align="left"> <a href="http://www.dogpile.com/" class="external text" title="http://www.dogpile.com/" rel="nofollow">Dogpile</a>
+
+</th><td> <a href="http://www.dogpile.com/info.dogpl/search/web/%s" class="external free" title="http://www.dogpile.com/info.dogpl/search/web/%s" rel="nofollow">http://www.dogpile.com/info.dogpl/search/web/%s</a>
+</td><td> dp
+</td></tr>
+<tr>
+<th align="left"> <a href="http://google.com/" class="external text" title="http://google.com/" rel="nofollow">Google</a>
+</th><td> <a href="http://www.google.com/search?q=%s" class="external free" title="http://www.google.com/search?q=%s" rel="nofollow">http://www.google.com/search?q=%s</a>
+</td><td> g
+</td></tr>
+<tr>
+
+<th align="left"> <a href="http://google.com/" class="external text" title="http://google.com/" rel="nofollow">Google's "I'm Feeling Lucky"</a>
+</th><td> <a href="http://www.google.com/search?q=%s&amp;btnI=I%27m+Feeling+Lucky" class="external free" title="http://www.google.com/search?q=%s&amp;btnI=I%27m+Feeling+Lucky" rel="nofollow">http://www.google.com/search?q=%s&amp;btnI=I%27m+Feeling+Lucky</a>
+</td><td> go
+</td></tr>
+<tr>
+<th align="left"> <a href="http://images.google.com/" class="external text" title="http://images.google.com/" rel="nofollow">Google Images</a>
+</th><td> <a href="http://images.google.com/images?&amp;q=%s" class="external free" title="http://images.google.com/images?&amp;q=%s" rel="nofollow">http://images.google.com/images?&amp;q=%s</a>
+
+</td><td> gi
+</td></tr>
+<tr>
+<th align="left"> <a href="http://news.google.com/" class="external text" title="http://news.google.com/" rel="nofollow">Google News</a>
+</th><td> <a href="http://news.google.com/news?q=%s" class="external free" title="http://news.google.com/news?q=%s" rel="nofollow">http://news.google.com/news?q=%s</a>
+</td><td> gn
+</td></tr>
+<tr>
+<th align="left"> <a href="http://search.looksmart.com/" class="external text" title="http://search.looksmart.com/" rel="nofollow">Looksmart</a>
+
+</th><td> <a href="http://search.looksmart.com/p/search?qt=%s" class="external free" title="http://search.looksmart.com/p/search?qt=%s" rel="nofollow">http://search.looksmart.com/p/search?qt=%s</a>
+</td><td> ls
+</td></tr>
+<tr>
+<th align="left"> <a href="http://lycos.com/" class="external text" title="http://lycos.com/" rel="nofollow">Lycos</a>
+</th><td> <a href="http://search.lycos.com/default.asp?query=%s" class="external free" title="http://search.lycos.com/default.asp?query=%s" rel="nofollow">http://search.lycos.com/default.asp?query=%s</a>
+</td><td> lycos
+</td></tr>
+<tr>
+
+<th align="left"> <a href="http://channels.netscape.com/ns/search/default.jsp" class="external text" title="http://channels.netscape.com/ns/search/default.jsp" rel="nofollow">Netscape</a>
+</th><td> <a href="http://search.netscape.com/ns/search?query=%s" class="external free" title="http://search.netscape.com/ns/search?query=%s" rel="nofollow">http://search.netscape.com/ns/search?query=%s</a>
+</td><td> netscape
+</td></tr>
+<tr>
+<th align="left"> <a href="http://search.yahoo.com/" class="external text" title="http://search.yahoo.com/" rel="nofollow">Yahoo!</a>
+</th><td> <a href="http://search.yahoo.com/search?&amp;p=%s" class="external free" title="http://search.yahoo.com/search?&amp;p=%s" rel="nofollow">http://search.yahoo.com/search?&amp;p=%s</a>
+
+</td><td> yahoo
+</td></tr>
+<tr>
+<th align="left"> <a href="http://teoma.com/" class="external text" title="http://teoma.com/" rel="nofollow">Teoma</a>
+</th><td> <a href="http://s.teoma.com/search?q=%s" class="external free" title="http://s.teoma.com/search?q=%s" rel="nofollow">http://s.teoma.com/search?q=%s</a>
+</td><td> teoma
+</td></tr></tbody></table>
+<a name="References"></a><h2>References</h2>
+
+<table border="1" cellpadding="5" rules="all" width="100%">
+<tbody><tr>
+<th align="left"> Name </th><th align="left"> Location/URL </th><th align="left"> Keyword
+</th></tr>
+<tr>
+<th align="left"> <a href="http://dictionary.com/" class="external text" title="http://dictionary.com/" rel="nofollow">Dictionary.com</a>
+</th><td> <a href="http://dictionary.reference.com/search?q=%s" class="external free" title="http://dictionary.reference.com/search?q=%s" rel="nofollow">http://dictionary.reference.com/search?q=%s</a>
+</td><td> dict
+
+</td></tr>
+<tr>
+<th align="left"> <a href="http://www.dict.org/" class="external text" title="http://www.dict.org/" rel="nofollow">Dict.org</a>
+</th><td> <a href="http://www.dict.org/bin/Dict?Form=Dict1&amp;Strategy=*&amp;Database=*&amp;Query=%s" class="external free" title="http://www.dict.org/bin/Dict?Form=Dict1&amp;Strategy=*&amp;Database=*&amp;Query=%s" rel="nofollow">http://www.dict.org/bin/Dict?Form=Dict1&amp;Strategy=*&amp;Database=*&amp;Query=%s</a>
+</td><td> dict
+</td></tr>
+<tr>
+<th align="left"> <a href="http://www.hyperdictionary.com/" class="external text" title="http://www.hyperdictionary.com/" rel="nofollow">HyperDictionary.com</a>
+
+</th><td> <a href="http://www.hyperdictionary.com/dictionary/%s" class="external free" title="http://www.hyperdictionary.com/dictionary/%s" rel="nofollow">http://www.hyperdictionary.com/dictionary/%s</a>
+</td><td> dict
+</td></tr>
+<tr>
+<th align="left"> <a href="http://thesaurus.com/" class="external text" title="http://thesaurus.com/" rel="nofollow">Thesaurus.com</a>
+</th><td> <a href="http://thesaurus.reference.com/search?q=%s" class="external free" title="http://thesaurus.reference.com/search?q=%s" rel="nofollow">http://thesaurus.reference.com/search?q=%s</a>
+</td><td> thes
+</td></tr>
+<tr>
+
+<th align="left"> <a href="http://wikipedia.org/" class="external text" title="http://wikipedia.org/" rel="nofollow">Wikipedia</a>
+</th><td> <a href="http://www.wikipedia.org/wiki/%s" class="external free" title="http://www.wikipedia.org/wiki/%s" rel="nofollow">http://www.wikipedia.org/wiki/%s</a>
+</td><td> w
+</td></tr>
+<tr>
+<th align="left"> <a href="http://www.acronymfinder.com/" class="external text" title="http://www.acronymfinder.com/" rel="nofollow">Acronym Finder</a>
+</th><td> <a href="http://www.acronymfinder.com/af-query.asp?String=exact&amp;Acronym=%s&amp;Find=Find" class="external free" title="http://www.acronymfinder.com/af-query.asp?String=exact&amp;Acronym=%s&amp;Find=Find" rel="nofollow">http://www.acronymfinder.com/af-query.asp?String=exact&amp;Acronym=%s&amp;Find=Find</a>
+
+</td><td> ac
+</td></tr>
+<tr>
+<th align="left"> <a href="http://taa.pileofcrap.org/" class="external text" title="http://taa.pileofcrap.org/" rel="nofollow">The Acronym Archive</a>
+</th><td> <a href="http://taa.pileofcrap.org/acronym/%s/" class="external free" title="http://taa.pileofcrap.org/acronym/%s/" rel="nofollow">http://taa.pileofcrap.org/acronym/%s/</a>
+</td><td> acro
+</td></tr>
+</tbody></table>
+<a name="Other"></a><h2>Other</h2>
+
+<table border="1" cellpadding="5" rules="all" width="100%">
+<tbody><tr>
+<th align="left"> Name </th><th align="left"> Location/URL </th><th align="left"> Keyword
+</th></tr>
+<tr>
+<th align="left"> <a href="http://bugzilla.mozilla.org/" class="external text" title="http://bugzilla.mozilla.org/" rel="nofollow">Bugzilla</a>
+</th><td> <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=%s" class="external free" title="http://bugzilla.mozilla.org/show_bug.cgi?id=%s" rel="nofollow">http://bugzilla.mozilla.org/show_bug.cgi?id=%s</a>
+</td><td> bug
+
+</td></tr>
+<tr>
+<th align="left"> <a href="http://translate.google.com/" class="external text" title="http://translate.google.com/" rel="nofollow">Google Translator</a>
+</th><td> <a href="http://translate.google.com/translate?u=%s" class="external free" title="http://translate.google.com/translate?u=%s" rel="nofollow">http://translate.google.com/translate?u=%s</a>
+</td><td> trans
+</td></tr>
+<tr>
+<th align="left"> <a href="http://us.imdb.com/" class="external text" title="http://us.imdb.com/" rel="nofollow">Internet Movie Database</a>
+</th><td> <a href="http://us.imdb.com/find?q=%s" class="external free" title="http://us.imdb.com/find?q=%s" rel="nofollow">http://us.imdb.com/find?q=%s</a>
+
+</td><td> movie
+</td></tr>
+<tr>
+<th align="left"> RFCs
+</th><td> <a href="ftp://ftp.rfc-editor.org/in-notes/rfc%s.txt" class="external free" title="ftp://ftp.rfc-editor.org/in-notes/rfc%s.txt" rel="nofollow">ftp://ftp.rfc-editor.org/in-notes/rfc%s.txt</a>
+</td><td> rfc
+</td></tr>
+<tr>
+<th align="left"> <a href="http://www.rottentomatoes.com" class="external text" title="http://www.rottentomatoes.com" rel="nofollow">Rottentomatoes.com</a>
+</th><td> <a href="http://www.rottentomatoes.com/search/full_search.php?search=%s" class="external free" title="http://www.rottentomatoes.com/search/full_search.php?search=%s" rel="nofollow">http://www.rottentomatoes.com/search/full_search.php?search=%s</a>
+
+</td><td> rot
+</td></tr>
+<tr>
+<th align="left"> <a href="http://sourceforge.net/" class="external text" title="http://sourceforge.net/" rel="nofollow">SourceForge Project Home Page</a>
+</th><td> <a href="http://%s.sourceforge.net/" class="external free" title="http://%s.sourceforge.net/" rel="nofollow">http://%s.sourceforge.net/</a>
+</td><td> sf
+</td></tr>
+<tr>
+<th align="left"> <a href="http://validator.w3.org/" class="external text" title="http://validator.w3.org/" rel="nofollow">W3C Validator</a>
+
+</th><td> <a href="http://validator.w3.org/check?uri=%s" class="external free" title="http://validator.w3.org/check?uri=%s" rel="nofollow">http://validator.w3.org/check?uri=%s</a>
+</td><td> w3c
+</td></tr>
+<tr>
+<th align="left"> <a href="http://www.w3schools.com/html/html_reference.asp" class="external text" title="http://www.w3schools.com/html/html_reference.asp" rel="nofollow">W3Schools HTML tag reference</a>
+</th><td> <a href="http://www.w3schools.com/tags/tag_%s.asp" class="external free" title="http://www.w3schools.com/tags/tag_%s.asp" rel="nofollow">http://www.w3schools.com/tags/tag_%s.asp</a>
+</td><td> html
+</td></tr>
+<tr>
+
+<th align="left"> <a href="http://www.php.net/manual/en/" class="external text" title="http://www.php.net/manual/en/" rel="nofollow">PHP Function Ref</a>
+</th><td> <a href="http://www.php.net/search.php?lang=en&amp;pattern=%s&amp;show=quickref" class="external free" title="http://www.php.net/search.php?lang=en&amp;pattern=%s&amp;show=quickref" rel="nofollow">http://www.php.net/search.php?lang=en&amp;pattern=%s&amp;show=quickref</a>
+</td><td> php?
+</td></tr>
+</tbody></table>
+<a name="O.27Reilly"></a><h2>O'Reilly</h2>
+
+<table border="1" cellpadding="5" rules="all" width="100%">
+<tbody><tr>
+<th align="left"> Name </th><th align="left"> Location/URL </th><th align="left"> Keyword
+</th></tr>
+<tr>
+<td> <a href="http://www.oreilly.com/" class="external text" title="http://www.oreilly.com/" rel="nofollow">O'Reilly.com</a><br><a href="http://www.oreillynet.com/" class="external text" title="http://www.oreillynet.com/" rel="nofollow">O'Reilly Network</a>
+</td><td> <a href="http://catsearch.atomz.com/search/catsearch/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9" class="external free" title="http://catsearch.atomz.com/search/catsearch/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9" rel="nofollow">http://catsearch.atomz.com/search/catsearch/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9</a>
+
+</td><td rowspan="4"> you can name<br>the keywords<br>to whatever<br>you want
+</td></tr>
+<tr>
+<td> Books
+</td><td> <a href="http://search.atomz.com/search/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9&amp;sp-k=Books" class="external free" title="http://search.atomz.com/search/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9&amp;sp-k=Books" rel="nofollow">http://search.atomz.com/search/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9&amp;sp-k=Books</a>
+</td></tr>
+<tr>
+
+<td> Articles
+</td><td> <a href="http://search.atomz.com/search/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9&amp;sp-k=Articles" class="external free" title="http://search.atomz.com/search/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9&amp;sp-k=Articles" rel="nofollow">http://search.atomz.com/search/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9&amp;sp-k=Articles</a>
+</td></tr>
+<tr>
+<td> Blogs
+</td><td> <a href="http://search.atomz.com/search/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9&amp;sp-k=Weblogs" class="external free" title="http://search.atomz.com/search/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9&amp;sp-k=Weblogs" rel="nofollow">http://search.atomz.com/search/?sp-q=%s&amp;sp-t=cat_search&amp;sp-a=sp1000a5a9&amp;sp-k=Weblogs</a>
+
+</td></tr></tbody></table>
+
+<!--#include virtual="/_after.html"-->
+
+

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: WireKeys portable";
+$rcontent="You can use WK under limited account too.
+But some function will not work in this case (that need extended provoledges). For example you will not be able to kill system processes. Hotkeys and clipboard stuff will work ok though.";
+$rauthor="WiredPlane";
+$rdate="1196306839";
+$rip="83.217.57.73";
+
+?>

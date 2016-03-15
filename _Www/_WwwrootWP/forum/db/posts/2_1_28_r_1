@@ -1,0 +1,21 @@
+<?php
+
+$rsubject="RE: WK Lite v. WK Registered/Trial v. WK Unreg/Expired Trial";
+$rcontent="[quote]v1.9.9 has early versions of a few plug-ins. Are these disabled?[/quote]
+Yes, WK lite has first versions of some plugins and they are not disabled, they work without limitations. WK 1.9.9 has no limitations at all (but a few bugs as can be seen from retrospective)
+
+Older versions of WK will work without any limitations or nag screens for 14 days. After that period 
+1) all plugins will be disabled (all their preferences will be saved for future re-enabling after registration is completed), including roll-up/hide window to title via window buttons (i.e. rclick on &#39;Minimize&#39; button). But rolling and hiding via defined hotkeys will work as always 
+2) rare nag screen will appear and some additional strings will be added to preferences recommeding to register WK
+3) after 90 days of use additional clipboards and anything related to paste operation will be disabled.
+
+Macros and everything that will be in the preferences will work as advertised even after trial period is up :)
+
+About recommendation: If the nag screen (rare) is not fatal to your friends, the unregistered 2.6.x and later releases are prefferable :) We are fixing bugs, adding features and improving usability, so there is no need to use lite version :)
+
+";
+$rauthor="WiredPlane";
+$rdate="1091479636";
+$rip="213.87.14.40";
+
+?>

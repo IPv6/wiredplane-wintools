@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Send to...";
+$pcontent="Привет всем!
+Как можно реализовать (и возможно ли такое вообще) пердачу аргумента в коммандной строке для операции. Т.е. нужно из файлового менеджера по правой кнопке мыши через меню &#34;Отправить&#34; запускать WireNote в режиме нового &#34;Сообщения&#34;.
+Заранее всем спасибо за помощь.";
+$pauthor="dIMASTy";
+$pdate="1116998981";
+$plastdate="1117006451";
+$pimage="4.gif";
+$plastreply="2";
+$plastauthor="dIMASTy";
+$preplies="2";
+$pviews="1077";
+$pnotify="|dIMASTy";
+$plock="";
+$pip="";
+$pvisitors="|dIMASTy|WiredPlane|Smogg|fzirp|pos|Anonymous";
+$psticky="";
+
+?>

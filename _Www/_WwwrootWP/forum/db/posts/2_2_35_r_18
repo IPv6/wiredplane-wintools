@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WC3.3.3 released.
+Several bugs fixed, new calendar skin and weather widget were added";
+$rauthor="WiredPlane";
+$rdate="1134373721";
+$rip="195.245.232.12";
+
+?>

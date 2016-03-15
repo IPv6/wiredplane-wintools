@@ -1,0 +1,21 @@
+<?php
+
+$rsubject="RE: Can&#39;t get Wire Keys to work with eEye Blink Firewall/AV software";
+$rcontent="I get the following error in the eEye Blink log:
+
+ Application protection : Application alert    05/23/2007 09:51:17 AM   
+ Event ID:  BLINK-APP-100  
+ Severity:  High  
+ Description:  Blink detected a suspicious system call. If you believe this application is not malicious, you can add it to a list of approved applications in the Config&#92;apiex.ini file using this format &#39;FilePath;[Optional MD5];Kevlar;0&#39;  
+ Reason: NTDLL.DLL!NtCreateKey 
+ Action: Ignored 
+ Program: C:&#92;Program Files&#92;WiredPlane&#92;WireKeys&#92;WireKeys.exe 
+ Alert: Yes 
+ 
+
+I&#39;ve already tried the modification to the apiex.ini file but it still seems to be blocking it and causing it to crash...";
+$rauthor="Anonymous";
+$rdate="1179957763";
+$rip="71.108.7.186";
+
+?>

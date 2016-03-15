@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Proposal: List of recently used folders";
+$rcontent="Cool!
+I will try it ...";
+$rauthor="stepone";
+$rdate="1096532912";
+$rip="53.122.192.14";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Mapi2Pop3";
+$pcontent="А где можно поподробнее почитать об этой утилитке? Что это и с чем её едят, а то на сайте только самые общие описания. А судя по всему вешчь нужная и полезная. Особенно в плане синхронизации с The Bat! :))";
+$pauthor="McStar";
+$pdate="1118141809";
+$plastdate="1193304270";
+$pimage="5.gif";
+$plastreply="23";
+$plastauthor="Anonymous";
+$preplies="23";
+$pviews="3240";
+$pnotify="|McStar|augur|andriy|Anonymous";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane";
+$psticky="";
+
+?>

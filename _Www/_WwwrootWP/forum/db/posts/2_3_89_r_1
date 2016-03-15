@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: ssl support";
+$rcontent="Currently no, sorry. We are still planning to add it though";
+$rauthor="WiredPlane";
+$rdate="1201053664";
+$rip="92.36.19.163";
+
+?>

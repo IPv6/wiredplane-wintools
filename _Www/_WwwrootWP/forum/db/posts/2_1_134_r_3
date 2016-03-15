@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Strange code in my keyboard capture";
+$rcontent="sendKeys are not able to work with Win key, but native WK-recorded macros are able to replay this keys. Just record keypresses via WireKeys (not JavaScript-compatible type or recording)";
+$rauthor="WiredPlane";
+$rdate="1129878342";
+$rip="195.245.232.12";
+
+?>

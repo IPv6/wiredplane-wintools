@@ -1,0 +1,19 @@
+<?php
+
+$psubject="По поводу буфера обмена";
+$pcontent="А можно реализовать, чтобы последние использованные данные из списка буфера обмена можно было вставлять при нажатии на горячую клавишу встаки из буфера, а не выбирать каждый раз из списка?";
+$pauthor="McStar";
+$pdate="1132306996";
+$plastdate="1132338480";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="McStar";
+$preplies="4";
+$pviews="764";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|AlexZ|WiredPlane|w11|ValeraVi";
+$psticky="";
+
+?>

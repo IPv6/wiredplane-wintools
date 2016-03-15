@@ -1,0 +1,19 @@
+<?php
+
+$psubject="ANN: New desktop clocks collection #12";
+$pcontent="We just uploaded new desktop clocks collection - collection #12. This clocks will work with registered version of WireChanger only, so if you are not registered still - this is good reason to do so ;)";
+$pauthor="WiredPlane";
+$pdate="1081887326";
+$plastdate="1081887326";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="502";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|waltheck";
+$psticky="";
+
+?>

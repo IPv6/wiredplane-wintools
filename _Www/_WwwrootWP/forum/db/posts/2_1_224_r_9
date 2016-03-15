@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Feature request";
+$rcontent="Hm.... active process in the process viewer can be killed by Del. If you need extensive process viewer i can recommend great tool from Sysinternals (process explorer). It seems unnatural to duplicate process viewer functions in WK.
+Current &#34;Kill active application&#34; hotkey kills application with active window at this time
+";
+$rauthor="WiredPlane";
+$rdate="1179731085";
+$rip="195.210.162.152";
+
+?>

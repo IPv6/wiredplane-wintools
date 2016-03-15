@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Wirenote 2.7 How to restore a deleted note?";
+$pcontent="I have notes deleted but they&#39;re encrypted in here:
+
+C:&#92;Documents and Settings&#92;Username&#92;Application Data&#92;WireNote&#92;Trash&#92;
+
+How do you restore a deleted note? (Note was deleted to trash)";
+$pauthor="arcadesdude";
+$pdate="1119035845";
+$plastdate="1119110850";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="arcadesdude";
+$preplies="2";
+$pviews="1042";
+$pnotify="|arcadesdude";
+$plock="";
+$pip="";
+$pvisitors="|arcadesdude|WiredPlane|Urza|Anonymous";
+$psticky="";
+
+?>

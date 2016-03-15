@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: small request";
+$rcontent="Application macro :)
+You should have antivirus app installed.
+exe-path of the macro must point to this exe and macro parameter should be %SELECTED";
+$rauthor="WiredPlane";
+$rdate="1111302816";
+$rip="195.245.232.12";
+
+?>

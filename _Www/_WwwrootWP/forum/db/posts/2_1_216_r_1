@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Settings are not saved.";
+$rcontent="This is sounds like it is not registered and trial period is over. Can you check this?
+Besides that did you use non-standard place for saving settings (command line switches or registry switch)?
+
+And what OS you are using?";
+$rauthor="WiredPlane";
+$rdate="1164108589";
+$rip="195.210.162.152";
+
+?>

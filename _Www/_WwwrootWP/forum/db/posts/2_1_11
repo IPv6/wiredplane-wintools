@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Hotkey Guide does not autoreduce";
+$pcontent=" :bad  The hotkey guide shows the initial key as the title when it is pressed, but the hotkey guide no longer reduces the displayed list of possible hotkeys based on that key (and has not for at least several releases).  For example, Alt-Win-M is still displayed when pressing Ctrl (and holding Ctrl so I can read the keys displayed).  Same thing with Shift.
+
+For slower computers or for those who find a dynamic hotkey guide distracting, perhaps the autoreducing feature could be a preference (perhaps &#34;static&#34; and &#34;dynamic&#34; hotkey guide?).
+
+The dynamic guide is quite useful for anyone starting to use or adding WireKeys hotkeys (or starting to use Windows hotkeys in general) or with a long list of sporadically used hotkeys.";
+$pauthor="BillR";
+$pdate="1082977078";
+$plastdate="1090231513";
+$pimage="1.gif";
+$plastreply="6";
+$plastauthor="WiredPlane";
+$preplies="6";
+$pviews="773";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Leshiy|BillR|rockywolf";
+$psticky="";
+
+?>

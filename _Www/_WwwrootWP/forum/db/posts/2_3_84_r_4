@@ -1,0 +1,20 @@
+<?php
+
+$rsubject="RE: WireNote and WireKeys - no WK tray icon ";
+$rcontent="Thx - this works:
+1. Start WK without notes plugin
+2. Start WN --&#62; WK icon is gone
+3. Open WK main window by pressing Win-K (you can&#39;t click the icon, u know?)
+4. Common preferences-&#62;Additional options-&#62;WireNote integration: Uncheck.
+
+That&#39;s fine now.
+
+But - new little confusion.  :sungl
+Now I have to places for reminders:
+a) in Wirenote
+b) in WireKeys";
+$rauthor="Richy";
+$rdate="1196967971";
+$rip="79.214.210.2";
+
+?>

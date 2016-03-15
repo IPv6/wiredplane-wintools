@@ -1,0 +1,25 @@
+<?php
+
+$psubject="optimize memory bug";
+$pcontent="Hi,
+
+This has bothered me for a while but I&#39;m finally posting about it...
+
+Whenever I want to optimize memory, and it is the first time since starting Windows, I have to use the Wirekeys menu - my keyboard shortcut doesn&#39;t work. After doing it once from the menu, though, I can use the keyboard shortcut as much as I want until I restart Windows.
+
+Hope you understand...";
+$pauthor="rij73";
+$pdate="1095789610";
+$plastdate="1096909579";
+$pimage="1.gif";
+$plastreply="7";
+$plastauthor="rij73";
+$preplies="7";
+$pviews="601";
+$pnotify="|rij73";
+$plock="";
+$pip="";
+$pvisitors="|rij73|WiredPlane|BillR|McStar|jaco";
+$psticky="";
+
+?>

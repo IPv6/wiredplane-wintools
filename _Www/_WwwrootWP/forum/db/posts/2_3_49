@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Прозрачные заметки";
+$pcontent="Есть такая программулька. RainLendar кажется называется. Как-то так. Там есть возможность кликать по экранным компонентам расположенным под заметкой. То есть заметка как бы прозрачная для курсора. Можно такую штуку сделать?";
+$pauthor="McStar";
+$pdate="1132900850";
+$plastdate="1132908504";
+$pimage="2.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="1231";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|GRISHIN";
+$psticky="";
+
+?>

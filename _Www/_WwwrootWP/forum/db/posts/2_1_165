@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Bind Wheel click such that it Shift + right clicks?";
+$pcontent="This program is amazing, it seems to be very technically adept at many tasks.
+How do I bind a mouse Wheel click such that it Shift + right clicks?
+
+I find I have to do this (Shift + right click) hundreds of times a day, and I would like to do it easier (and quicker) with one hand.
+
+Thank you,
+Larry";
+$pauthor="Anonimus";
+$pdate="1138730913";
+$plastdate="1138779337";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="355";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SkyRE|ValeraVi";
+$psticky="";
+
+?>

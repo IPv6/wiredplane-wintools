@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: [PLUGIN IDEA] Baby-protect (block kb/mouse)";
+$rcontent="Heh, it is funny!! this functionality is already present!!
+And, by the way, by the very same reason :))))
+
+To set hotkey for blocking keyboard/optionally mouse too open prefs-&#62;common-&#62;hotkeys.
+
+Be aware, that some inconvinients were fixed in this functionality, so use the latest 2.8.2 WK";
+$rauthor="WiredPlane";
+$rdate="1112883381";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Иконки в трее Scroll Lock";
+$pcontent="Галочка соответствующая в настйроках снята, но всегда при нажатии показывается иконка в трее.";
+$pauthor="McStar";
+$pdate="1109923808";
+$plastdate="1110799349";
+$pimage="1.gif";
+$plastreply="6";
+$plastauthor="WiredPlane";
+$preplies="6";
+$pviews="692";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|AGu";
+$psticky="";
+
+?>

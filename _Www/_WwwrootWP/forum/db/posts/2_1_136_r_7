@@ -1,0 +1,26 @@
+<?php
+
+$rsubject="RE: «апуск программы при запуске скринсейвера";
+$rcontent="ѕример:
+
+// Set autostart with screensaver...
+function wkMain(selectedText,macroParameter)
+{
+ WireKeys.SetWKOption(&#34;ScreenSaverAutoStartFile&#34;,&#34;c://path_to_exe_file.exe&#34;);
+ return &#39;&#39;;
+};
+
+// Remove autostart with screensaver...
+function wkMain2(selectedText,macroParameter)
+{
+ WireKeys.SetWKOption(&#34;ScreenSaverAutoStartFile&#34;,&#34;&#34;);
+ return &#39;&#39;;
+};
+
+на первую гор€чую клавишу макроса вешаете шедулер (в смысле запуска по расписанию) &#34;каждый день в 9 часов вечера&#34;, а на вторую &#34;каждый день в 8 утра&#34;.
+таким образом в 9 часов автостарт будет устанавливатьс€ в нужное ¬ам приложение, а в 8 утра автостарт скринсейвера будет автоматом выключатьс€. примерно вот так";
+$rauthor="WiredPlane";
+$rdate="1132566866";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Установка WireChanger";
+$pcontent="Не было проблемы ни у кого, при установке WC процесс доходит до момента копирования самого экзешника и на этом виснет?
+Windows XP+SP2.
+Хотя на работе на Win 2k вроде бы нормально поставилось...";
+$pauthor="McStar";
+$pdate="1116873567";
+$plastdate="1117001325";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="McStar";
+$preplies="3";
+$pviews="1309";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|cosmo|SergeySV";
+$psticky="";
+
+?>

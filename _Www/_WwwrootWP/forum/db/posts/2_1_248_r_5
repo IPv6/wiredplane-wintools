@@ -1,0 +1,59 @@
+<?php
+
+$rsubject="RE: јнтивирус ругаетс€ на релиз от 25.07.07";
+$rcontent="ѕроверил дистрибутив еще одной провер€лкой
+
+File: 	wirekeys.zip
+Status: 	
+OK
+MD5: 	78908eab134fe9821014da47244103a7
+Packers detected: 	
+PE_PATCH
+Bit9 reports: 	File not found
+Scanner results
+Scan taken on 26 Jul 2007 08:04:29 (GMT)
+A-Squared 	
+Found nothing
+AntiVir 	
+Found nothing
+ArcaVir 	
+Found nothing
+Avast 	
+Found nothing
+AVG Antivirus 	
+Found nothing
+BitDefender 	
+Found nothing
+ClamAV 	
+Found nothing
+CPsecure 	
+Found nothing
+Dr.Web 	
+Found nothing
+F-Prot Antivirus 	
+Found nothing
+F-Secure Anti-Virus 	
+Found nothing
+Fortinet 	
+Found nothing
+Kaspersky Anti-Virus 	
+Found nothing
+NOD32 	
+Found nothing
+Norman Virus Control 	
+Found nothing
+Panda Antivirus 	
+Found nothing
+Rising Antivirus 	
+Found nothing
+Sophos Antivirus 	
+Found nothing
+VirusBuster 	
+Found nothing
+VBA32 	
+Found nothing";
+$rauthor="WiredPlane";
+$rdate="1185437414";
+$rip="195.210.162.152";
+
+?>

@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="[quote][quote]can you test this in WK 3.4.3? :)[/quote]
+
+ok, i will test it[/quote]
+
+Just tested WK 3.4.4
+It doesn&#39;t work with lnk-files either.
+
+Could You reproduce such behaviour? 
+Could I help You to discover the reason for this strange thing?";
+$rauthor="stepone";
+$rdate="1148989058";
+$rip="62.225.37.69";
+
+?>

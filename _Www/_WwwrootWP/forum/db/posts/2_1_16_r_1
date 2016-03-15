@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: dbPowerAmp support?";
+$rcontent="Hello! Sorry for late answer :)
+In fact it is better to write plugin for dbPowerAmp that simulates WinAmp i think. This will give more opportunites for this player - it`s really use very little resources.
+What i like in WinAmp (and no other player can challenge it with this) - is visualizations. Milkdrop`s are my favourites :)";
+$rauthor="WiredPlane";
+$rdate="1084804990";
+$rip="195.245.232.12";
+
+?>

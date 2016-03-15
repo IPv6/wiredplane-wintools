@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: Hi,I try to explain my problem.I have";
+$rcontent="Hi!!!
+
+Yes am interested to check the translation in french.  i will contact you by email.
+
+a free registration is a good idea...
+
+thank&#39;s
+";
+$rauthor="Anonimus";
+$rdate="1124038689";
+$rip="24.203.197.14";
+
+?>

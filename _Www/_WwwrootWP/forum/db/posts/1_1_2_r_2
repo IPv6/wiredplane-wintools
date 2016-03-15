@@ -1,0 +1,35 @@
+<?php
+
+$rsubject="Messages from old forum";
+$rcontent="WiredPlane Labs  [18th September, 2003 15:53:47] 
+To use inline calculater try to reproduce this steps:
+1. run notepad
+2. type &#39;(50+30)*2=&#39; text
+3. Select text between &#39;&#39; chars and press run/calculate hotkey (Ctrl-Alr-R by default)
+4. Equation will be replaced with result - 160  
+ 
+
+BillR  [17th September, 2003 23:54:13] 
+I see that several of my suggestions have already been implemented. Fast work! (Which is to say I should have read the new features list for the last couple of releases.)  
+ 
+
+WiredPlane Labs  [07th September, 2003 14:31:11] 
+Hi all! :) Check out new version of WireChanger. And we are looking for new useful templates - try to write your own!
+Good luck!  
+ 
+
+nihcap  [20th August, 2003 23:16:53] 
+Hi, Pretty cool changes and new stuff on version 1.7
+Congrats, you&#39;re kicking asses!  
+ 
+
+Test  [17th August, 2003 09:07:43] 
+Not bad ^)  
+
+Telepusik  [27th May, 2003 17:56:28] 
+Good apps, thanks!  ";
+$rauthor="WiredPlane";
+$rdate="1081769885";
+$rip="195.245.232.12";
+
+?>

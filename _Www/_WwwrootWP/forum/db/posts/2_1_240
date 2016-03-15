@@ -1,0 +1,19 @@
+<?php
+
+$psubject="How do I register my copy of Wire Keys?";
+$pcontent="Can anyone please advise me on how I can register my copy of Wire Keys?";
+$pauthor="Anonymous";
+$pdate="1179475282";
+$plastdate="1179577770";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="308";
+$pnotify="|Anonymous";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AlexZ|boatsman|Anonymous";
+$psticky="";
+
+?>

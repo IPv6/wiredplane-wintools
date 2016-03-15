@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Is there any language support for the clipboard? I cant copy greek characters...";
+$rcontent="Some questions:
+What is default language on your computer?
+Can you copy them throug clipboard without wirekeys running?
+
+This &#34;chinese&#34; effect can be viewd in all applications or in the specific application only?";
+$rauthor="WiredPlane";
+$rdate="1121089265";
+$rip="195.245.232.12";
+
+?>

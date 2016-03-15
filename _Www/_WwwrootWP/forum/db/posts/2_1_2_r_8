@@ -1,0 +1,36 @@
+<?php
+
+$rsubject="Old messages";
+$rcontent="NSi  [16th July, 2003 18:23:49] 
+HOLY CRAP. I can&#39;t this program actually exists!! I thought I was having a dream... THANK YOU!
+
+Now you only need to add support for mouse clicks and multimedia keys! :)  
+ 
+
+Lior [mltg]  [14th July, 2003 17:10:13] 
+I have only one word for this application - AMAZING !!!
+Thank you ! Thank you ! Thank you ! I&#39;ve been waiting so long for something like that.  
+ 
+
+Maybe  [27th May, 2003 17:58:33] 
+Can you add feature to empty recycle bin at hot key?  
+ 
+
+WiredPlane  [16th April, 2003 23:21:20] 
+Version 1.5 released!  
+ 
+
+Sorter  [30th March, 2003 21:42:58] 
+Coll app! Saving lot of time, Thanks!  
+ 
+
+Questionmark  [28th March, 2003 18:19:18] 
+Very good program. Sometimes the Program itself crashes (ends abrupt) on my Win XP Computer. 
+Maybe you could add a feature to warn if a hotkey is already used by Windows or Wirekeys.  
+ 
+";
+$rauthor="WiredPlane";
+$rdate="1081769614";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="ƒиалог выбора файла.";
+$pcontent="ѕредлагаю в диалоге выбора, например, когда выбираешь картинку, когда комп залочен, добавить поле предварительного просмотра.";
+$pauthor="McStar";
+$pdate="1102404821";
+$plastdate="1102677909";
+$pimage="4.gif";
+$plastreply="18";
+$plastauthor="McStar";
+$preplies="18";
+$pviews="2047";
+$pnotify="|McStar|FAST";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|Anonimus";
+$psticky="";
+
+?>

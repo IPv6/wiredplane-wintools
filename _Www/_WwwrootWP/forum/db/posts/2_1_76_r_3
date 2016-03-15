@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WireKeys 2.8.1 was updated
+- new hotkey for extreme shutdown
+- misc improvements in several modules
+- bug fixes";
+$rauthor="WiredPlane";
+$rdate="1108540088";
+$rip="195.245.232.12";
+
+?>

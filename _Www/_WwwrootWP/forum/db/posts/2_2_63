@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Displays too many wallpapers";
+$pcontent="Suddenly, WireChanger is not only displaying one image on each monitor, but a third image centered between the two monitors; when they overlap, the regular images are in the foreground and the third is hidden behind them.
+
+I&#39;ve tried shutting down and restarting WireChanger; doing the same while changing the wallpaper to a Windows tiled image in between; and rebooting the computer after shutting down WireChanger and changing to a tiled image.
+
+How can I fix this?
+
+Thanks!";
+$pauthor="helmerichs";
+$pdate="1172265474";
+$plastdate="1172649021";
+$pimage="5.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="790";
+$pnotify="|helmerichs";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|helmerichs|Anonymous";
+$psticky="";
+
+?>

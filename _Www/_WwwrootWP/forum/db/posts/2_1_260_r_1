@@ -1,0 +1,18 @@
+<?php
+
+$rsubject="RE: Макрос &#34;Вырезать выделенное число - приплюсовать 1 - вставить результат&#34;";
+$rcontent="// Type basic information about this macro in the next lines
+// Title: Plus1
+function wkMain(selectedText,macroParameter)
+{
+	var OUTPUT=selectedText;
+	OUTPUT=1+1*OUTPUT;
+	// Returning result back into active application (if not empty)
+	return OUTPUT;
+};
+";
+$rauthor="WiredPlane";
+$rdate="1197858873";
+$rip="91.149.66.91";
+
+?>

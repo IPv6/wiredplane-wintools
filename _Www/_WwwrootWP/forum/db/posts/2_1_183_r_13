@@ -1,0 +1,19 @@
+<?php
+
+$rsubject="RE: Wirekeys Freeze";
+$rcontent="Hello!
+Can you try the following to help us track this issue futher? When you have a time for this of course
+1) download WK 3.4.3, install it and run
+2) Open preferences, enable &#34;Autotext&#34; plugin (you can disable it after all)
+3) Open &#34;Settings&#34;-&#62;&#34;Additional settings&#34;-&#62;&#34;Write debug log&#34; (last checkbox in the right pane)
+4) restart WK.
+5) Look on any hotkey with @FJ key in it (in preferences). Notice the number that will be shown after it (Hotkey will look like &#39;A[#0000004D]-@FJ[a342f645]&#39;)
+6) Make screenshot of this hotkey with this number fully visible and send it to us :)
+7) Disable debug log (see 3) and restart WK again
+
+We will release new version with this strange key blocked down";
+$rauthor="WiredPlane";
+$rdate="1147244739";
+$rip="195.245.232.22";
+
+?>

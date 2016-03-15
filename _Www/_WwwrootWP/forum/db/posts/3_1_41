@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Alt-D is Reserved MS Hotkey";
+$pcontent="Bug? - Alt-D is a MS reserved hotkey (i.e., in Explorer, IE, Firefox, etc., go to Address Bar).  Alt-D shoul not be the default for Insert Date.
+";
+$pauthor="BillR";
+$pdate="1111077578";
+$plastdate="1111302710";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="740";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|Anonimus|McStar";
+$psticky="";
+
+?>

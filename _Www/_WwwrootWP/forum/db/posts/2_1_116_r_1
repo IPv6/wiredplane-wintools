@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Hi,I try to explain my problem.I have";
+$rcontent="It`s a small bug. Now fixed.
+But you should set &#34;Press and hold&#34; timeout (preferences-&#62;hotkeys) to 0 or to big value (larger than 5 seconds), because behaviour you want and this feature are incompatible.
+
+Re-download WK tomorrow (it will be updated in 2 hours)";
+$rauthor="WiredPlane";
+$rdate="1124030671";
+$rip="213.87.61.81";
+
+?>

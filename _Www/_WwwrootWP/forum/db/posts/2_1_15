@@ -1,0 +1,23 @@
+<?php
+
+$psubject="winamp and osd problem...";
+$pcontent="Hi,
+
+I just installed Winamp 5 and I have discovered a problem with WireKeys. 
+
+When Winamp is set to scroll the title on the taskbar button (which I really like), the OSD showing the song title goes crazy! It flashes on and off in a scrolling fashion. It&#39;s really strange.";
+$pauthor="rij73";
+$pdate="1083631026";
+$plastdate="1083654916";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="327";
+$pnotify="|rij73";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|rij73|BillR|Teff|AzazelSP";
+$psticky="";
+
+?>

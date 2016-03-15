@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Could not start WK 3.5.1";
+$rcontent="Hello! We managed to fix this problem :) can you try WK 3.5.1
+when you`ll have spare time for it of course ^)
+Thanks!";
+$rauthor="WiredPlane";
+$rdate="1155539244";
+$rip="195.245.232.22";
+
+?>

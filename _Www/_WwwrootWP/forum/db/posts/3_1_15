@@ -1,0 +1,19 @@
+<?php
+
+$psubject="ANN New plugins";
+$pcontent="are coming soon!!!";
+$pauthor="WiredPlane";
+$pdate="1097692701";
+$plastdate="1097692701";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="453";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR";
+$psticky="";
+
+?>

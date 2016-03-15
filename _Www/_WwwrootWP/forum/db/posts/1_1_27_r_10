@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: MAPI2POP3: UTF-8 HTML";
+$rcontent="I can imagine that.
+
+But ISO8859-1 would fit the bill for French/English/German/Dutch.
+
+Where in the code do I have to look at?
+
+";
+$rauthor="sba";
+$rdate="1171552067";
+$rip="194.3.183.35";
+
+?>

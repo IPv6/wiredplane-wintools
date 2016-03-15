@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: always 100 % cpu usage at system start";
+$rcontent="1) yes, ther e is an option about changing at start up = wait and change. Try it :)
+2) currently no, we will add this option!";
+$rauthor="WiredPlane";
+$rdate="1181809670";
+$rip="195.210.162.152";
+
+?>

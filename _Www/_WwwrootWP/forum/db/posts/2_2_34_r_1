@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Dual Monitor support for WireChanger";
+$rcontent="Can you please write how it works for now?
+Same wallpaper on both monitors?
+Wallpaper image stretched to fit both monitors?
+or something else? ^)
+We will try to ad support for dual monitors, though we have only one at this time ^)";
+$rauthor="WiredPlane";
+$rdate="1108394149";
+$rip="195.245.232.12";
+
+?>

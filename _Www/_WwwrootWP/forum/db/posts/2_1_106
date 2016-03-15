@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Заценим конкурента :)";
+$pcontent="А вот моё детище, тоже менеджер горячих клавиш :)
+
+[img]http://www.drive-software.com/shots/actvkeyb.gif[/img]
+
+Инфа:
+[url]http://www.drive-software.com/actvkeyb.html[/url]";
+$pauthor="Anonimus";
+$pdate="1118779869";
+$plastdate="1120094461";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="Anonimus";
+$preplies="2";
+$pviews="823";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|Anonimus|WiredPlane|McStar|AGu|stepone|Shaker";
+$psticky="";
+
+?>

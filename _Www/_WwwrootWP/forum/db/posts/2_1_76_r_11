@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK 2.9 updated again. Fixed issue with images in clipboard (previous releases were unable to insert images from clips history into, let say, MS Word, under specific conditions) and large data blocks produced by MS Excel";
+$rauthor="WiredPlane";
+$rdate="1117262762";
+$rip="213.87.8.86";
+
+?>

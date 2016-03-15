@@ -1,0 +1,30 @@
+<?php
+
+$psubject="По поводу...WinAmp controls";
+$pcontent="[b]Хотелось бы увидеть:[/b]
+- Switch Repeat
+- Show/Hide Playlist Window
+- Show/Hide Media Library Window
+- Show/Hide Jump To File Window
+
+[b]Наблюдаються глюки:[/b]
+- При изменении громкости в ОСД всегда показывает шаг = 5 (независимо от настроек) - изменения отрабатываються тока при перезагрузке WireKeys.
+- Изменение громкости происходит не на шаг указанный в настройках, а немного больше так 5 = 7, 20 = 31 (это значения, от 0% громкости)
+
+WireKeys 3.4.0 (15.02.2006)
+WinAmp 5.2.0";
+$pauthor="SkyRE";
+$pdate="1148460391";
+$plastdate="1157014290";
+$pimage="4.gif";
+$plastreply="10";
+$plastauthor="SkyRE";
+$preplies="10";
+$pviews="1264";
+$pnotify="|SkyRE";
+$plock="";
+$pip="";
+$pvisitors="|SkyRE|WiredPlane|McStar|garry63|AlexZ|AzazelSP|DSR|LAVir";
+$psticky="";
+
+?>

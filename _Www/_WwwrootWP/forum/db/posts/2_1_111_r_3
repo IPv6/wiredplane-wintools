@@ -1,0 +1,21 @@
+<?php
+
+$rsubject="RE: Is there any language support for the clipboard? I cant copy greek characters...";
+$rcontent="Answers
+
+1. English (but I write german and greek also / windows2000)
+
+2. Yes, In the most cases I can copy greek without problem. But I have found only few clipboard-programms which can copy and then paste them properly and only one which can show them also properly on the list (list of name or title of the clips). The one which works ok is the clipboard recorder (lw-works.com). But this programm has otherwise not enough features for me.
+
+3. dito
+
+e.g.(the next sentence is in greek:)
+&#963;&#965;&#957;&#964;&#951;&#961;&#949;&#943;&#964;&#949; &#963;&#969;&#963;&#964;&#940;
+
+thanks for the response!
+ :)";
+$rauthor="Anonimus";
+$rdate="1122470835";
+$rip="62.69.32.239";
+
+?>

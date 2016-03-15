@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Feature request";
+$rcontent="Yes a keyboard shortcut to kill the process under the curson(or better yet the highlighted process),instead of navigating with the context menu and selecting kill.
+
+Basically I want to be able to do the whole process without using the mouse.";
+$rauthor="annon";
+$rdate="1176818317";
+$rip="81.4.128.176";
+
+?>

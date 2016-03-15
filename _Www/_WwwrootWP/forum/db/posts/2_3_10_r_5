@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Some suggestions";
+$rcontent="I finally found it: right click in the note window and choose delete ;-)
+
+Fabio";
+$rauthor="fabio";
+$rdate="1099784538";
+$rip="152.3.183.110";
+
+?>

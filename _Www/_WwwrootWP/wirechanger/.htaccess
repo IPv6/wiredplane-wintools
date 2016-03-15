@@ -1,0 +1,11 @@
+IndexIgnore *
+DirectoryIndex about.php
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+Options +FollowSymLinks 
+RewriteEngine on
+RewriteRule ^(.*)/pad_file\.xml?$ /download/wirechanger.xml [R,L]
+RewriteRule ^(.*)/wirechanger\.xml?$ /download/wirechanger.xml [R,L]

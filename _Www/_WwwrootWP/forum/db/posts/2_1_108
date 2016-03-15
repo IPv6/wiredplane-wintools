@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Recycle Bin";
+$pcontent="Any news as to when, or IF this will be available as a working hotkey please?
+";
+$pauthor="hulland";
+$pdate="1119933507";
+$plastdate="1119951419";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="337";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|hulland|jaco|AGu";
+$psticky="";
+
+?>

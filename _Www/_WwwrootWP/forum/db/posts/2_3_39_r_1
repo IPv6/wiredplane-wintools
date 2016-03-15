@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: I can not use some national characters in wireNote.";
+$rcontent="Îê, this shortcuts will be changed to the end of this week!
+Sorry, we simply didn`t expect such conflicts %)
+";
+$rauthor="WiredPlane";
+$rdate="1119516840";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Wirekeys Freeze";
+$rcontent="did you try WK 3.4.3? We did some job about this issue but we can not be sure that this problem is fixed still";
+$rauthor="WiredPlane";
+$rdate="1146908352";
+$rip="195.245.232.22";
+
+?>

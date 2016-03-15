@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: WinRar and &#34;Startup directory&#34;";
+$rcontent="[quote]You mean &#34;Directory part of the current path&#34;?[/quote]
+I believe so. I&#39;m looking for a variable that translates to &#34;Directory that a file is currently in&#34;, with &#34;a file&#34; in this case being a Quick run application.";
+$rauthor="jaco";
+$rdate="1165515017";
+$rip="68.116.182.122";
+
+?>

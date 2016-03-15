@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: small request";
+$rcontent="Unfortunately there is no way to call Shell extension in that way :( But i think that there are must be GUI exe that accept suspicious file as parameter. Look into the antivirus folder and try all exe`s one by one
+Hope this would help";
+$rauthor="WiredPlane";
+$rdate="1111419306";
+$rip="195.245.232.12";
+
+?>

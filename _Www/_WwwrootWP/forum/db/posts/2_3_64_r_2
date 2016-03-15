@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: reminder problems";
+$rcontent="I cannot send a reminder to more than one receiver at the same time.
+
+I can send message to more than one receiver by press the shift key to add receivers. However, I cannot do that when I decide to set a reminder to send message.";
+$rauthor="Anonymous";
+$rdate="1150268510";
+$rip="203.169.251.34";
+
+?>

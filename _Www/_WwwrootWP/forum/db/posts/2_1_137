@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Windows Media Player Compatibility";
+$pcontent="Hello,
+
+I need to control Windows Media player by hotkeys.
+
+There is a plugin for WMP like Winamp support that is included in wirekeys.
+
+Can you help me.
+
+thanks!";
+$pauthor="AzazelSP";
+$pdate="1132165466";
+$plastdate="1132213383";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="372";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AzazelSP|McStar|AlexZ|Anonimus";
+$psticky="";
+
+?>

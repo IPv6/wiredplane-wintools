@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Red X over Tray Icon";
+$pcontent="When I updated to WireKeys 7.2 its tray is displayed with a red x.
+
+What does this mean and how do I fix it?";
+$pauthor="GregWM";
+$pdate="1099236484";
+$plastdate="1099296083";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="577";
+$pnotify="|GregWM";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|GregMathiesen|BillR|McStar|Anonimus";
+$psticky="";
+
+?>

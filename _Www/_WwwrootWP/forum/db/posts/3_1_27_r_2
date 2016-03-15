@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: [PLUGIN] Instant scrolling";
+$rcontent="It is working with two notices %)
+1) not all applications support this
+2) options dialog has one error - to scroll active window one should press right mouse button, not left.
+
+and it is still beta. Mainly because of 1). We failed to find good way to perform smooth scrolling in all applications";
+$rauthor="WiredPlane";
+$rdate="1118159672";
+$rip="213.87.11.60";
+
+?>

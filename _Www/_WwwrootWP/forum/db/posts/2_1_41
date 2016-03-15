@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Non-Explorer Hot keys";
+$pcontent="I may be stupid, but I can&#39;t figure out how to do the following;- 
+I don&#39;t use Windows Explorer but much prefer Explorer2-I love using Hot keys for lauching EVERYTHING. How can I STOP the default explorer hot keys but still use the same combinations ?
+For example. I want to use Windows Key + Y for Yahoo, but I get My Docs first. I want to be able to remove the default My Docs from this Hot key, so I can use it for other things. The same with Win + C, don&#39;t use the calculator. Thanks for any help. Ian Island of Malta.";
+$pauthor="hulland";
+$pdate="1098161945";
+$plastdate="1098192224";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="586";
+$pnotify="|hulland";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|hulland|McStar|BillR|stepone";
+$psticky="";
+
+?>

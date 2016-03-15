@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Windows and menus enabler - problem with some progs";
+$rcontent="Commonly when cursor is moving over buttons the &#34;arrow&#34; changes to &#34;hand&#34; so it possible to press buttons. If plugin is enabled cursor doesn’t change and buttons does not work. Even context menu doesn’t appear.";
+$rauthor="Shaker";
+$rdate="1100940796";
+$rip="62.118.130.100";
+
+?>

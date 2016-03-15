@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Последняя версяя WK нестабильна!";
+$rcontent="[quote]Ctrl+Alt+Home.
+Вот и на ноом релизе та же фигня.[/quote]
+
+Fixed! %)";
+$rauthor="WiredPlane";
+$rdate="1124349786";
+$rip="195.245.232.12";
+
+?>

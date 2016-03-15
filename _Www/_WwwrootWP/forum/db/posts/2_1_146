@@ -1,0 +1,35 @@
+<?php
+
+$psubject="New version questions";
+$pcontent="Hello,
+
+just tested the new version (3.3.0)
+Thank You for Your work!
+
+Some remarks:
+1) Application quick-run, item &#34;If You already started this application&#34;: the list doesn&#39;t have the most important action &#34;Switch to the opened instance&#34; (&#34;Don&#39;t start new instance&#34; is not very clear).
+The switch to the existing instance doesn&#39;t work (at least, in my tests) if the application is minimized to trace.
+
+2) There is no confirmation window for delete action in Application quick run. This could be really dangerous...
+
+3) Is is possible to avoid refresh of the Preferences window after the Apply operation?
+
+4) In some combination with &#34;Win&#34; key the Start Menu is still displayed. It&#39;s very inconvenient...
+
+
+";
+$pauthor="stepone";
+$pdate="1133942996";
+$plastdate="1134632149";
+$pimage="1.gif";
+$plastreply="8";
+$plastauthor="WiredPlane";
+$preplies="8";
+$pviews="719";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|ValeraVi|AzazelSP";
+$psticky="";
+
+?>

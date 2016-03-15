@@ -1,0 +1,18 @@
+<?php
+
+$fname="Company news";
+$fdescription="New releases, betas and future plans, etc.";
+$flasturl="post.php?cat=1&fid=2&pid=24&page=1";
+$flastauthor="WiredPlane";
+$flastpost="1182929348";
+$freplies="2";
+$ftopics="25";
+$fusers="|all";
+$fvisitors="|WiredPlane|pharaon|McStar|ValeraVi|garry63|JWartist|Anonymous|jrwatts|Richy";
+$flock="locked";
+$fallowreply="0";
+$fsticky="1";
+$flastpostnumber="24";
+$fhide="";
+
+?>

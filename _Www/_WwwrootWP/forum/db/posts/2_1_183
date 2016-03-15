@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Wirekeys Freeze";
+$pcontent="Hi!!
+
+I Have buyed a Microsoft Comfort Keyboard.  I Have intalled the IntelliType Pro 5.5 Drivers to assign the special keys of my new keyboard...
+
+but now wirekeys (v. 3.4.2) freeze when start my computer.  It run ok for tree or 4 hotkeys and after he freeze.
+
+anyone have an idea to solve this bug?
+
+thank&#39;s!!!";
+$pauthor="AzazelSP";
+$pdate="1142979746";
+$plastdate="1150309069";
+$pimage="1.gif";
+$plastreply="28";
+$plastauthor="McStar";
+$preplies="28";
+$pviews="1917";
+$pnotify="|AzazelSP|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|AzazelSP|WiredPlane|stepone|Anonimus";
+$psticky="";
+
+?>

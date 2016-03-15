@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Не работает настройка отключения показа длины трека";
+$pcontent="От установки или снятия галочки &#34;Добавлять полную длину трека к OSD&#34; ничего не меняется. Длина трека всё-равно показывается.";
+$pauthor="McStar";
+$pdate="1099382751";
+$plastdate="1099637132";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="McStar";
+$preplies="4";
+$pviews="681";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

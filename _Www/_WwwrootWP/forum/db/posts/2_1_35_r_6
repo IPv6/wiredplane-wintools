@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: optimize memory bug";
+$rcontent="Sorry, _now_ its fixed!
+Re-get last version please :)";
+$rauthor="WiredPlane";
+$rdate="1096872182";
+$rip="195.245.232.12";
+
+?>

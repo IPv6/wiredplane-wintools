@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Создать текстовый файл";
+$rcontent="Конечно - макрос :)
+
+var fso = new ActiveXObject(&#39;Scripting.FileSystemObject&#39;);
+
+и иже с ним :)";
+$rauthor="WiredPlane";
+$rdate="1194341281";
+$rip="195.210.162.152";
+
+?>

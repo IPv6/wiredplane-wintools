@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: One more bug";
+$rcontent="[quote]
+What did you mean under &#34;Force&#34;? explicitly move any new active window on top of others?
+[/quote]
+
+Yes, exactly, I mean this.
+
+";
+$rauthor="stepone";
+$rdate="1135703343";
+$rip="62.225.37.69";
+
+?>

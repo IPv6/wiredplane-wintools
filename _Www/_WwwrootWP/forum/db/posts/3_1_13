@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Open/Save shell extender, universal media control macro and more";
+$pcontent="We are just uploaded first version of the plugin that extends Save/Load dialogs. In fact it extends Explorer`s context menu in whole with two subfolders - &#34;jump to folder&#34; and &#34;WK specials&#34; (it`s hard to invent names for menu items...) Jump to folder contains list of recently used folders, user-defined folders and items to add folders to placebar (standard panel in all explorer-style open/save dialogs)works in Explorer, Explorer-based Open/save dialogs, Total commander and even MS Offices Word, Excel, etc. Though MS team do thier best to guard ots dialogs against tweaking from outside, so office dialogs support sometimes may not work properly. The other thing is that this plugin will work with new version of WK - 2.7
+
+We also updated macro section of our site with several useful macros - check them out :)";
+$pauthor="WiredPlane";
+$pdate="1096529149";
+$plastdate="1096529149";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="505";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|stepone";
+$psticky="";
+
+?>

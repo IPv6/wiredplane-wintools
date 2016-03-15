@@ -1,0 +1,7 @@
+<?php
+
+$cname="Products";
+$cdescription="Questions and suggestions";
+$cforums="3";
+
+?>

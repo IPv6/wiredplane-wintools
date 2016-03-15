@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE:  [ANN] WireNote updates";
+$rcontent="WN updated. High CPU load on some mother boards fixed";
+$rauthor="WiredPlane";
+$rdate="1111137932";
+$rip="213.87.8.153";
+
+?>

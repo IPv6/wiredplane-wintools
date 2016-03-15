@@ -1,0 +1,21 @@
+<?php
+
+$psubject="WinLIRC";
+$pcontent="Is anybody using winLIRC to control PC with remote?
+We need some help (we can grant free key for unregistered users in exchange for this help!)
+Thank you!";
+$pauthor="WiredPlane";
+$pdate="1132566365";
+$plastdate="1132566365";
+$pimage="5.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="450";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|w11|Anonimus|SkyRE";
+$psticky="";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject=" урсор не в той позиции";
+$pcontent=" огда есть заметка при клике на ней курсор оказываетс€ не в том месте, где кликнул, а там, где он был при последнем редактировании. Ќеудобно.";
+$pauthor="McStar";
+$pdate="1132840985";
+$plastdate="1132856810";
+$pimage="4.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="663";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar";
+$psticky="";
+
+?>

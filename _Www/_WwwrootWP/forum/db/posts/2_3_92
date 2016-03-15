@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Ќе могу изменить или ввести название заметки";
+$pcontent="«аметки по€вл€ютс€ с собственными названи€ми, и никак не могу эти названи€ изменить!";
+$pauthor="Anonymous";
+$pdate="1210193612";
+$plastdate="1210226922";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="Anonymous";
+$preplies="2";
+$pviews="228";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane";
+$psticky="";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Нельзя переименовать пункт меню быстрого запуска";
+$pcontent="Нельзя переименовать пункт меню для запуска программы. Как задали на этопе создания по имени файла так и всё. Хотелось бы переименовывать.";
+$pauthor="McStar";
+$pdate="1121849801";
+$plastdate="1121859073";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="672";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|AGu";
+$psticky="";
+
+?>

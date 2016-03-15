@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="If it&#39;s ready by noon, Mountain time (GMT -7:00), I should be able to give it a quick test.  Otherwise, I probably won&#39;t have time until Wednesday, most likely.
+
+Regarding the Preset option for the screensaver:  I had it set to &#34;Default&#34;, and my default options don&#39;t include the Minilender (and can&#39;t include the Date/Time stamp!).  As an experiment, I created a new preset and turned off all Widgets (and set the screensaver to use the new preset), and it still showed the Date/Time stamp and Minilender.  :?";
+$rauthor="jrwatts";
+$rdate="1138608274";
+$rip="68.35.144.64";
+
+?>

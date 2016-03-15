@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: A few recipients get empty messages";
+$rcontent="Yes, we plan to investigate futher
+We wish at first place to record full SMTP data that is sent to the proxy and analize it. if you don`t mind, may we ask you to run such version when it will be available?";
+$rauthor="WiredPlane";
+$rdate="1171528465";
+$rip="195.210.162.152";
+
+?>

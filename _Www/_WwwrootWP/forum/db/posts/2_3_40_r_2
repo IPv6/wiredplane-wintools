@@ -1,0 +1,20 @@
+<?php
+
+$rsubject="RE: Idea on some customization";
+$rcontent="Hi Guys,
+
+two more ideas..
+
+on Organizer view, I am not sure how the reminders are listed (is it sorted alphabetically): it would be nice to be able to sort by different option.. ie; by Actuation date.
+
+if I have Organizer default action set to &#34;New reminder&#34; clicking the tray icon pops-up two reminder window, and are saved even if I click Cancel. Should it not save only on &#34;OK&#34;?
+
+regards
+
+Rana Hossain
+";
+$rauthor="Anonimus";
+$rdate="1121787398";
+$rip="80.7.194.137";
+
+?>

@@ -1,0 +1,35 @@
+<?php
+
+$psubject="WK website links defect";
+$pcontent="Hi WK Guys,
+
+the WireKeys links are not working anymore!
+One will get
+[quote]Internal Server Error
+The server encountered an internal error or misconfiguration and was unable to complete your request.
+...
+Apache Server at www.wiredplane.com Port 80[/quote]
+
+These links are involved:
+http://www.wiredplane.com/en/wirekeys/info.php
+http://www.wiredplane.com/en/wirekeys/wkplugins.php
+http://www.wiredplane.com/en/wirekeys/wkmacros.php
+
+I wanted to check for new plugins, but...
+
+Richy.";
+$pauthor="Richy";
+$pdate="1211401563";
+$plastdate="1211419950";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="47";
+$pnotify="|Richy";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|garry63|Richy";
+$psticky="";
+
+?>

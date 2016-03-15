@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: How to make desktop icons tranparent?";
+$rcontent="Hello!
+
+I checked this app, nice one by the way!!
+But it seems that currently there is no way to make it work together with WC. We will try to fix it. This is because both programs are trying to hack desktop and icons (because there is NO way to do such things in legal manner) and didn`t know anything about each other.
+BTW, what features you are like most of all with this tool?";
+$rauthor="WiredPlane";
+$rdate="1181052206";
+$rip="195.210.162.152";
+
+?>

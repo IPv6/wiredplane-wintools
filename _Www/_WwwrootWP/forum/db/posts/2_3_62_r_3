@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Error Message";
+$rcontent="Type &#34;Ctrl-Alt-A&#34; int the field &#34;Find&#34; in the preferences dialog. Then press find button. you will be moved to the place whene this hotkey is defined";
+$rauthor="WiredPlane";
+$rdate="1146829374";
+$rip="195.245.232.22";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: А как игра?";
+$rcontent="Ага. Именно.";
+$rauthor="McStar";
+$rdate="1183740809";
+$rip="85.192.55.5";
+
+?>

@@ -1,0 +1,25 @@
+<?php
+
+$rsubject="RE: A few recipients get empty messages";
+$rcontent="It seems I cannot reproduce the problem *unless* there are several recipients.
+
+I can supply you [how? this forum doesn&#39;t support attachments AFAIK] with a zipfile showing .MSG files saved at recipients affected by the problem and at recipients NOT affected by the problem (for the very same original message).
+
+I am willing to try and fix the bug myself, but I need some clues.
+
+How can something at the recipient side be different that will cause such a conversion? Can it be at the server side (something with the configuration of their mailboxes?)
+
+I&#39;m not sure what the version of our Exchange server is.
+
+On the SMTP side of things, it outputs the following banner:
+
+Microsoft ESMTP MAIL Service, Version: 6.0.3790.1830
+
+I&#39;ll ask the IT folks for more info.
+
+";
+$rauthor="sba";
+$rdate="1170768063";
+$rip="194.3.183.35";
+
+?>

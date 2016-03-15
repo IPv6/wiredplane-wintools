@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Can&#39;t get ClipBoards to work!!";
+$rcontent="What happens when you are pressing Win-Num 1/Win-Num 2
+Try this when Num Lock is On and when it is Off
+Then try to switch off &#34;Fast insterts&#34; in the preferences (additional clipboard section) - may be apps are conficting with WK (just may be)
+How additional clips are work in Notepad?";
+$rauthor="WiredPlane";
+$rdate="1098796203";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,22 @@
+<?php
+
+$psubject="hotkey for folder context menu item (&#34;Play In Winamp&#34;)";
+$pcontent="Hello!
+Maybe i am bad with searching and it has been answered already, but i would like to ask anyway :)
+Is it possible with this program to set hotkeys for standart windows folder context menu item(s) ? More specific, i am looking for ability to execute &#34;Play in winamp&#34; for folder contents (it is line in right-click folder menu).
+Thank you in advance!";
+$pauthor="Anonimus";
+$pdate="1129211344";
+$plastdate="1135844082";
+$pimage="1.gif";
+$plastreply="9";
+$plastauthor="WiredPlane";
+$preplies="9";
+$pviews="929";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|ValeraVi|jaco";
+$psticky="";
+
+?>

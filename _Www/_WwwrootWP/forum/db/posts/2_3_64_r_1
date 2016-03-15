@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: reminder problems";
+$rcontent="you mean you can not send message from reminder or can not send reminder as attachment to message?";
+$rauthor="WiredPlane";
+$rdate="1150198520";
+$rip="195.245.232.22";
+
+?>

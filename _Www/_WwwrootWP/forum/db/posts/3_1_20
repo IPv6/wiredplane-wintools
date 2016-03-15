@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Ошибка в плагине помошник по окнам.";
+$pcontent="Если расширить окно по горизонтали до границ экрана, то такое окно спокойно выпускается за пределы без нажатия на Shift. Если размер уменишить хоть на пиксел. То сразу начинает оотрабатывать нормально.";
+$pauthor="McStar";
+$pdate="1100873171";
+$plastdate="1100947803";
+$pimage="4.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="893";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|egomodestus|SkyRE";
+$psticky="";
+
+?>

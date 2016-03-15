@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: resize message window";
+$rcontent="You mean that shift-select should be supported too?
+ok, we will add it.
+
+About resizing: just as any other window, by dragging window border. Or you mean something else?";
+$rauthor="WiredPlane";
+$rdate="1150698480";
+$rip="195.245.232.22";
+
+?>

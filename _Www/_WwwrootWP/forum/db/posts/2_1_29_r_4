@@ -1,0 +1,22 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="[quote]
+1) To open My computer, just create new app macro...
+[/quote]
+
+Thanks! Works great.
+
+[quote]
+2) What double-click you mean (i am not familiar with Mac behaviour : )
+[/quote]
+
+You are lucky  ;)
+
+Windows on Macs can be rolled-up by double clicking the titlebar. Default behaviour for this on Windows is to maximize the window. Possible to make double-left-click the titlebar roll it up?
+";
+$rauthor="jaco";
+$rdate="1092411938";
+$rip="66.114.67.40";
+
+?>

@@ -1,0 +1,18 @@
+<?php
+
+$fname="Bug tracking";
+$fdescription="Everything about bugs and their status";
+$flasturl="post.php?cat=3&fid=3&pid=46&page=1";
+$flastauthor="WiredPlane";
+$flastpost="1213496814";
+$freplies="159";
+$ftopics="46";
+$fusers="|all";
+$fvisitors="|WiredPlane";
+$flock="unlocked";
+$fallowreply="1";
+$fsticky="";
+$flastpostnumber="46";
+$fhide="";
+
+?>

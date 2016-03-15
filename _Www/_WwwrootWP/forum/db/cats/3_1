@@ -1,0 +1,18 @@
+<?php
+
+$fname="WireKeys: plugins and macros";
+$fdescription="Announcements, new plugins and macros from our users";
+$flasturl="post.php?cat=3&fid=1&pid=83&page=1";
+$flastauthor="OnosovDV";
+$flastpost="1207798571";
+$freplies="320";
+$ftopics="83";
+$fusers="|all";
+$fvisitors="|OnosovDV|WiredPlane|dnknitro|Richy|Anonymous";
+$flock="unlocked";
+$fallowreply="1";
+$fsticky="0";
+$flastpostnumber="83";
+$fhide="";
+
+?>

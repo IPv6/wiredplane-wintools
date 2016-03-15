@@ -1,0 +1,20 @@
+<?php
+
+$psubject="&#34;Universal media players control&#34; not working with BSplayer";
+$pcontent="It&#39;s not working with version Pro 1.00 Build 811! 
+What I have to change in the macros?";
+$pauthor="Shaker";
+$pdate="1100935019";
+$plastdate="1100973000";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="Shaker";
+$preplies="2";
+$pviews="1016";
+$pnotify="|Shaker";
+$plock="";
+$pip="";
+$pvisitors="|Shaker|WiredPlane|Leshiy|McStar|Anonimus";
+$psticky="";
+
+?>

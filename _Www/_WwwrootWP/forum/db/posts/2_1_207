@@ -1,0 +1,31 @@
+<?php
+
+$psubject="Could not start WK 3.5.1";
+$pcontent="Hi,
+
+I have the problems with the upgrade from 3.3.5 to 3.5.1
+The wirekeys.exe just doesn&#39;t start after the upgrade!
+It doesn&#39;t show any error windows and I don&#39;t see it in the list of the processes.
+It works normally, if I make rollback to 3.3.5
+
+Could You please help me with this?
+
+Environment: WinXP SP1 German
+
+
+";
+$pauthor="stepone";
+$pdate="1155198683";
+$plastdate="1155641075";
+$pimage="7.gif";
+$plastreply="6";
+$plastauthor="WiredPlane";
+$preplies="6";
+$pviews="743";
+$pnotify="|stepone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous|Loong";
+$psticky="";
+
+?>

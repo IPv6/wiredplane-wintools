@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Feature request";
+$rcontent="There is already hotkey for killing active process. Or you mean something more complicated?";
+$rauthor="WiredPlane";
+$rdate="1179279663";
+$rip="91.76.109.46";
+
+?>

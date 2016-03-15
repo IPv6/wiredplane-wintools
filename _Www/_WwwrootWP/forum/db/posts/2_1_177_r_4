@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: 100% CPU now used by Wirekeys after update";
+$rcontent="we would be very appreciate for this experiment.
+About space feature - it is fixed in 3.4.2 (today or tomorrow it will be ready for download)";
+$rauthor="WiredPlane";
+$rdate="1142170169";
+$rip="195.245.232.22";
+
+?>

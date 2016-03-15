@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Arabic Translation for WireChanger 2.8";
+$rcontent="We updated installation, thanks for localization!
+BTW, this can be interesting for you. We published new template - Arabic-Russian language teacher. It will show random word with translation from Rus-Arab or Arab-Rus language on your desktop every time your wallpaper changes.
+If you, or your friends are learning russian, any feedback will be welcome!!!";
+$rauthor="WiredPlane";
+$rdate="1098447842";
+$rip="195.209.143.44";
+
+?>

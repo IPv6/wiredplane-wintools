@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Так и не сделали в своё время, чтобы можно";
+$pcontent="Так и не сделали в своё время, чтобы можно было менять набор шаблонов для скринсейвера и блокировки.";
+$pauthor="McStar";
+$pdate="1121250152";
+$plastdate="1121252666";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="1193";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|cosmo|SergeySV";
+$psticky="";
+
+?>

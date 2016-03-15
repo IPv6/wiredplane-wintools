@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Calendar Skin";
+$rcontent="now you can use MSN weather site, just re-download WC again (i think it will be easier to find your city at weather.msn.com then gismeteo.ru. But we can find your city by ourselves, because we know Rusiian language). besides that we added another calendar skin.
+
+BTW, if you send us an example of good calendar design we can mimic it in WireChanger";
+$rauthor="WiredPlane";
+$rdate="1134373682";
+$rip="195.245.232.12";
+
+?>

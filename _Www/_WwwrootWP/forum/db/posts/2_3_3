@@ -1,0 +1,20 @@
+<?php
+
+$psubject="New feature request";
+$pcontent="Hello! Very nice piece of software, and even for free!
+I have one suggestion though: Can you add appointments into your WireNote application?";
+$pauthor="guest";
+$pdate="1081771411";
+$plastdate="1081771411";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="guest";
+$preplies="0";
+$pviews="568";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|guest|rij73|WiredPlane|Smogg|cleg|Leshiy|McStar|Anonimus|AGu|jaco|Anonymous|Milan";
+$psticky="";
+
+?>

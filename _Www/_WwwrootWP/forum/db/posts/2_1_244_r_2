@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Assign Hotkey to &#34;Folder Options&#34;?";
+$rcontent="Well, I Googled it and found the associated CLSID but I don&#39;t know what to do with it now :-)
+
+Folder Options: {6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}
+
+[http://www.digitalinsane.com/archives/2006/10/23/guids_cp_applets/]
+
+I&#39;m gonna need a little help with this please.";
+$rauthor="pike942";
+$rdate="1180407761";
+$rip="216.166.216.138";
+
+?>

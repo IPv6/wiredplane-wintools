@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Settings are not saved.";
+$rcontent="Hmm... maybe you are right. Now that I recall, I was using Wirekeys 2.x, but then switched to Wirekeys Lite after the trial period was over. I&#39;ve been using that for a while and didn&#39;t even remember that I started using the 2.x trial. I would think 3.x would at least allow a new trial period, but apparently not. I&#39;m running Windows XP, and I don&#39;t think I&#39;ve saved settings (other than exporting) to another area, so I guess I will have to switch back to the lite version. Thank you for your help.";
+$rauthor="Anonymous";
+$rdate="1164445028";
+$rip="24.11.114.10";
+
+?>

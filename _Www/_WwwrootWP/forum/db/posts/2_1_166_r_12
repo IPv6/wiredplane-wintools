@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="Some more strange thing: 
+if I hold the &#34;Win&#34; key, press &#34;Y&#34;, then release &#34;Y&#34;, and then release &#34;Win&#34;, the WireKeys application just disappear.
+
+Looks like there are problems with processing &#34;hold/release&#34; events.";
+$rauthor="stepone";
+$rdate="1143550494";
+$rip="62.225.37.69";
+
+?>

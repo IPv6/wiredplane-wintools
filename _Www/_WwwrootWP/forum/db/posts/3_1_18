@@ -1,0 +1,19 @@
+<?php
+
+$psubject="New plugin";
+$pcontent="";
+$pauthor="WiredPlane";
+$pdate="1098466401";
+$plastdate="1098466401";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="487";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|hulland|BillR|McStar|Leshiy|dawn";
+$psticky="";
+
+?>

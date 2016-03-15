@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="Yesterday WK was updated again :)
+- small improvement in the AutoText plugin. Now it is even more friendly to CPU than before :)
+- Autotext plugin can show suggestions for partial matches agains defined aliases. for example, if you define &#34;.email1-&#62;aaa@bbb.ccc&#34; and &#34;.email2-&#62;qqq@www.ee&#34; and that type &#34;.em&#34;+Space, popup menu will be shown with 2 choices - aaa@bbb.ccc and qqq@www.ee. Choose one of them and it will be inserted instead of &#34;.em&#34;";
+$rauthor="WiredPlane";
+$rdate="1106665634";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,5 @@
+Hello! Do you mean that some appliactions are not receive any input upon pressing insertion-macro hotkey? i tried them in different apps and they are ok. they must work in all applications that are working with additional clipboards (the same technology internally)
+
+i think this is the next obstacle i have to remove :)
+
+BTW: patterns are case-sensitive, so if you wih to insert date, text for insertion have to be %DATE, not %date. May be this is the reason?

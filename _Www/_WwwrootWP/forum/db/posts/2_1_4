@@ -1,0 +1,19 @@
+<?php
+
+$psubject="maximizing IE windows";
+$pcontent="Whenever I use my shortcut key to maximize windows in Internet Explorer, it makes the window go to full screen instead. If I maximize the normal way, it works correctly, but the shortcut key always does the wrong thing. Why might this be?";
+$pauthor="rij73";
+$pdate="1081864883";
+$plastdate="1082120051";
+$pimage="1.gif";
+$plastreply="9";
+$plastauthor="rij73";
+$preplies="9";
+$pviews="796";
+$pnotify="|rij73";
+$plock="";
+$pip="";
+$pvisitors="|rij73|WiredPlane|BillR|Cermit|MickeForumWpL|hulland";
+$psticky="";
+
+?>

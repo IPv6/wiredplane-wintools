@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Регистрация ";
+$pcontent="Я оплатил счет через Rupay еще 06.04, писал вам на banking@wiredplane.com и support@wiredplane.com, но пока ни ответа ни ключа.
+Помогите пожалуйста.";
+$pauthor="Snegovik";
+$pdate="1144760822";
+$plastdate="1144997783";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="Snegovik";
+$preplies="5";
+$pviews="845";
+$pnotify="|Snegovik";
+$plock="";
+$pip="";
+$pvisitors="|Snegovik|WiredPlane|Anonimus|SkyRE|stepone|garry63";
+$psticky="";
+
+?>

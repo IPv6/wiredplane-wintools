@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Is there any language support for the clipboard? I cant copy greek characters...";
+$pcontent="Hi guys, this is a great programm you have  
+a q.:
+
+Is there any language support for the clipboard? I cant copy greek characters... they come out as ...chinese for me (how you say in greece!)
+
+many thanks for an answer in advace
+dr  :) :) :)";
+$pauthor="Anonimus";
+$pdate="1120841110";
+$plastdate="1123148020";
+$pimage="5.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="795";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|jaco|Anonimus|stepone";
+$psticky="";
+
+?>

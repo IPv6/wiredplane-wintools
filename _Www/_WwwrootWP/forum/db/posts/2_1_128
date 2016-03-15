@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Как узнать цвет пикселя на экране ?";
+$pcontent="Как узнать цвет пикселя на экране и затем переключить активное окно на другое..";
+$pauthor="Anonimus";
+$pdate="1127883212";
+$plastdate="1127981706";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="846";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus|McStar|Gorbush";
+$psticky="";
+
+?>

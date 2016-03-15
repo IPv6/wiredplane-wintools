@@ -1,0 +1,31 @@
+<?php
+
+$psubject="bug wit Wirekeys 2.9.9 last build....";
+$pcontent="Hello!
+
+I Have a bug with the Quick run application...
+
+For exemple, i have &#34;Win+C&#34; hotkey to open calculator...
+
+for no reason, if i press &#34;C&#34; without &#34;win&#34; the calculator open...
+
+the probleme is intermitemps... but when the bug arrive, the only solution to correct, is to close wirekeys and restart...
+
+Any solution for me?
+
+thanks!";
+$pauthor="AzazelSP";
+$pdate="1125673098";
+$plastdate="1125934252";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="656";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AzazelSP|Shaker|Anonimus|McStar";
+$psticky="";
+
+?>

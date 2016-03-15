@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: One more bug";
+$rcontent="[quote]its really strange :((( still unreproducable on my computer
+can you check - after switching to such pop-under window, will it stay on top when you switch focus to another app?[/quote]
+
+Yes, &#34;About&#34; window stays on top when I switch to another application.
+
+Regarding all other applications, that are opened in the background:
+I have the impression (but I&#39;m not sure), that it happens when Windows &#34;Remote Client&#34; standard software is running. Could it change the standard behaviour of the applications?
+Is it possible to [b]force[/b] the application to be active in WireKeys?";
+$rauthor="stepone";
+$rdate="1135695162";
+$rip="62.225.37.69";
+
+?>

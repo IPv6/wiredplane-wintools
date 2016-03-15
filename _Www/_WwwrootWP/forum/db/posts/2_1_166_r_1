@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="Ooops... Will be fixed very soon!
+Can you write what is the link for? Is it pointing normal application or something like Connection or control panel element for example?
+did you see any messages when starting link by hotkey";
+$rauthor="WiredPlane";
+$rdate="1139475602";
+$rip="195.245.232.22";
+
+?>

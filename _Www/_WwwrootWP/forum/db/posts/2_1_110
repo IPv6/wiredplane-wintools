@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Immobilisation of Windows Keys";
+$pcontent="Running Windows 2000Pro with 6 partitions. 
+Nearly always get the &#34;MS-generated-Windows-menu&#34; popping up when using left or right Windows keys in my hotkeys. When using the &#34;Apps&#34; key as double keypress ALWAYS get the &#34;Windows Apps&#34; menu popping up then too. 
+
+I still get the Programs to open that have the configured hot keys, but it is getting to be a pain to click the extra time on the tskbar to make the Windows menu disappear again. Naturally I have all the various things ticked in PREFERENCES to override the Windows keys. Is this something we just have to live with or is there a 100% way to kill the default Windows Keys once and for all? Thanks for any help. Ian.";
+$pauthor="hulland";
+$pdate="1119934328";
+$plastdate="1119950807";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="351";
+$pnotify="|hulland";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus|AGu|stepone";
+$psticky="";
+
+?>

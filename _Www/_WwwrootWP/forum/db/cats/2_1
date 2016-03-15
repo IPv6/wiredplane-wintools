@@ -1,0 +1,18 @@
+<?php
+
+$fname="WireKeys";
+$fdescription="New releases, betas and future plans, etc.";
+$flasturl="post.php?cat=2&fid=1&pid=268&page=1";
+$flastauthor="SkyRE";
+$flastpost="1213862142";
+$freplies="1320";
+$ftopics="267";
+$fusers="|all";
+$fvisitors="|SkyRE|WiredPlane";
+$flock="unlocked";
+$fallowreply="1";
+$fsticky="0";
+$flastpostnumber="268";
+$fhide="";
+
+?>

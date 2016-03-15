@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Some suggestions";
+$rcontent="1) Will be fixed
+2) It is already here... The last item (Ctrl-D)
+3) Yes,it`s not clear... font can be changed in the &#34;Change style&#34; - &#34;Edit dialog&#34;
+4) and 5) We will try to do our best :) May be it`s really will be hard to do, but this must be interesting ^)";
+$rauthor="WiredPlane";
+$rdate="1099200315";
+$rip="213.87.14.166";
+
+?>

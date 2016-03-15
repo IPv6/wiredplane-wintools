@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Shortcut for Winamp title in OSD";
+$rcontent="So you want to see track name in OSD by hotkey?
+Hm... there is already hotkey for that action in the Winapi section of preferences ;) cfn you check it and write is that what you need?
+:)";
+$rauthor="WiredPlane";
+$rdate="1200041176";
+$rip="212.111.75.10";
+
+?>

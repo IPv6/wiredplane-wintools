@@ -1,0 +1,32 @@
+<?php
+
+$psubject="New translation into German";
+$pcontent="Hi guys,
+
+last weekend I was happy to translate WK main module into German.
+
+Last German version was of approx. 2004.
+Now it is of WK 3.6.3.
+Added 500 hundred lines.
+And corrected the other if necessary.
+
+I sent the correspondig file to WireKeys-at-wiredplane.com.
+Would be fine to have it in the next release.
+
+Richy.
+";
+$pauthor="Richy";
+$pdate="1188691133";
+$plastdate="1188811419";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="350";
+$pnotify="|Richy";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Richy|McStar|garry63|Anonymous";
+$psticky="";
+
+?>

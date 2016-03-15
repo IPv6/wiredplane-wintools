@@ -1,0 +1,28 @@
+<?php
+
+$psubject="Could not start lnk file";
+$pcontent="Hello,
+I found the strange bug in 3.4.0 version.
+I could not start the lnk file (Windows shortcut). It worked normally in 3.3.5.
+
+Steps to reproduce:
+1) Create shortcut for any application on the Desktop.
+2) Create &#34;Quick launch&#34; for this link in WK and assign it to some keyboard combination (i.e. Win+Y)
+3) Try to start keyboard combination. Application does not start.
+
+Try to do the same thing in 3.3.5. It will work normally.";
+$pauthor="stepone";
+$pdate="1139472847";
+$plastdate="1148989427";
+$pimage="1.gif";
+$plastreply="22";
+$plastauthor="WiredPlane";
+$preplies="22";
+$pviews="2015";
+$pnotify="|stepone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone";
+$psticky="";
+
+?>

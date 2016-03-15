@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Old messages";
+$pcontent="Here will be posted messages from prevoius forum";
+$pauthor="WiredPlane";
+$pdate="1081769340";
+$plastdate="1081769614";
+$pimage="1.gif";
+$plastreply="8";
+$plastauthor="WiredPlane";
+$preplies="8";
+$pviews="683";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Tark|rij73|hulland|AzazelSP";
+$psticky="";
+
+?>

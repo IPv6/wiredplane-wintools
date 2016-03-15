@@ -1,0 +1,29 @@
+<?php
+
+$rsubject="RE: Strange code in my keyboard capture";
+$rcontent="Gotcha.  I&#39;ll try that out.  There are a couple of other things -- first, I&#39;m seeing a lengthy delay sometimes when I trigger a macro for playing with the keyboard.  A small icon (script icon, I think -- small light-green boxes connected to a dark-green one) shows up in my system tray, sometimes for a few seconds, before the macro begins playing.
+
+The second, and I&#39;m not sure how to replicate this, is that I&#39;m seeing spots where the macro will seem to stop playing in the middle of a script.  I will do my best to replicate it so that you can see it.
+
+Finally, worth honorable mention, is an issue I&#39;ve found with the following script.  It should type h, alt-h and then alt-m (try this in notepad.  those function keys don&#39;t do anything important)
+
+function wkMain(selectedText,macroParameter)
+{
+	var WshShell = new ActiveXObject(&#39;WScript.Shell&#39;);
+	WshShell.SendKeys (&#34;h%h%m&#34;);
+};
+
+It doesn&#39;t though, on my computer.  it types h0845.  Is there some sort of escaping I need to do?
+
+I guess most of all, I want to make sure that this product is continually in development, being worked on, before I purchase it -- that I can expect that bugs will be fixed where found.
+
+I&#39;d also like to know if feature requests are a possibility down the road.
+
+Also, Is there an email where I can direct further questions of a more individual nature?
+
+Thanks very much!";
+$rauthor="umop";
+$rdate="1129910139";
+$rip="67.180.141.230";
+
+?>

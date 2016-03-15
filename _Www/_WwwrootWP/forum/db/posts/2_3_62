@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Error Message";
+$pcontent="How can I get rid of the error massage &#34;Some hotekeys can&#39;t be registered! Maybe they are used by other apllication.Failed to register: ctrl-alt-a&#34;. The program is fine, but this message is a nuisance.
+
+Regards
+tolip";
+$pauthor="Anonimus";
+$pdate="1146721944";
+$plastdate="1146908521";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="1046";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus|Anonymous";
+$psticky="";
+
+?>

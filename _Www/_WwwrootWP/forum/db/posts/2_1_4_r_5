@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: maximizing IE windows";
+$rcontent="Next try: What hotkey you assigned to the &#34;Maximize&#34; action?
+May be this hotkey contain Explorer-specific key and IE reacts to it?";
+$rauthor="WiredPlane";
+$rdate="1081974669";
+$rip="195.209.143.44";
+
+?>

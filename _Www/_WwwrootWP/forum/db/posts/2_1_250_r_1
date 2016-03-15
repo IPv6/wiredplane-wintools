@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: wirekeys infected by Trojan horse Generic5.ZXV";
+$rcontent="Yes, i think this is false positive too, just two days back there was an issue with NOD32 antivirus (Generic virus suspections). We emailed to them about this false positive and they fixed it with latest antivirus update.
+
+I will email to AVG to dig into situation, hope they will find what is wrong with euristic analiser fast.
+
+Thank for letting us know!";
+$rauthor="WiredPlane";
+$rdate="1185868740";
+$rip="195.210.162.152";
+
+?>

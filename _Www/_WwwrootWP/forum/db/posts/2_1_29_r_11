@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="To move windows in diagonal direction, it`s easier to add hotkey entries to macro and assign combined combinations to them (Left+Top, etc). It`s tricky to allow hotkeys to interact cos this will affect all other hotkeys that will work unpredictably with this interaction
+We will add such etries soon :) along with position control
+
+About history - ok, max count of favourite items will be increased (along with new features) - soon!";
+$rauthor="WiredPlane";
+$rdate="1098526008";
+$rip="195.245.232.12";
+
+?>

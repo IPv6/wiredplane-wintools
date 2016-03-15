@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Dual Monitor support for WireChanger";
+$rcontent="Even this option doesn&#39;t help a whole lot.  It does prevent Wirechanger from prompting to add the wallpaper and then messing up the display.  However, the next time Wirechanger changes the background image, the secondary display reverts to a cropped copy of the primary display&#39;s background again!   :oops";
+$rauthor="jrwatts";
+$rdate="1138267487";
+$rip="68.35.144.64";
+
+?>

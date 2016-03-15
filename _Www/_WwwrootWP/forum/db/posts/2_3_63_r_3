@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: problem with Virtual Dimension";
+$rcontent="Following the suggestion of Virtual Dimension developers, I disabled shell integration for Wirenote in VD, and now Wirenote works fine.
+
+Thanks";
+$rauthor="Anonymous";
+$rdate="1149835805";
+$rip="213.82.98.5";
+
+?>

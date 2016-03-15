@@ -1,0 +1,25 @@
+<?php
+
+$psubject="a suggestion";
+$pcontent="First, thanks for the great program.
+
+I have a feature suggestion. I feel it is redundant to have three options (add to do, add notes, add reminder). Why don&#39;t combine them into one &#34;add notes&#34;, then allows users to add reminders only if needed, as the function is already available.
+
+This should make the program more compact and clean.
+
+Thank you.";
+$pauthor="Anonymous";
+$pdate="1155965616";
+$plastdate="1200877594";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="Anonymous";
+$preplies="2";
+$pviews="759";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane|neocobe|Milan";
+$psticky="";
+
+?>

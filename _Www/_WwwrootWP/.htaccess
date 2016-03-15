@@ -1,0 +1,75 @@
+IndexIgnore *
+DirectoryIndex about.php
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+Options +FollowSymLinks 
+RewriteEngine on
+
+RedirectMatch permanent ^/paste/$ /paste/index.html
+
+# dailysensation
+RewriteCond %{HTTP_HOST}!^(.*)?dailysensation\.com(.*) [NC]
+RewriteRule ^(.*)$ /_dailysensation/$1 [L,NS,NC,QSA]
+
+RewriteCond %{HTTP_HOST}!^(.*)?dailysensation\.com$ [NC]
+RewriteRule .* /_dailysensation/index.html [L,NS,NC,QSA]
+
+# Sape
+RedirectMatch permanent ^/6cce80cdb6d666c984f5d5f2b8231826/(.*) /6cce80cdb6d666c984f5d5f2b8231826/$1
+RedirectMatch permanent ^/googlehostedservice.html /googlehostedservice.html
+
+# Subdomains
+# RedirectMatch permanent  ^games(.*)$ game$1
+# RewriteCond %{HTTP_HOST}!^(game\.)?wiredplane\.com [NC]
+# RewriteCond %{HTTP_HOST}!^(www\.)?wiredplane\.com [NC]
+#RewriteCond %{HTTP_HOST} ^(.*)\.wiredplane\.com [NC]
+#RewriteRule .* /googlehostedservice.html?lang=%1 [L] 
+
+# Misc redirects for backward compatibility. Order is very important!
+RedirectMatch permanent ^(.*)wirechanger/help/([^/]*).shtml$ /en/wirechanger-help/help.php?section=$2
+RedirectMatch permanent ^(.*)wirechanger-help/([^/]*).shtml$ /en/wirechanger-help/help.php?section=$2
+RedirectMatch permanent ^(.*)wirekeys/help/([^/]*).shtml$ /en/wirekeys-help/help.php?section=$2
+RedirectMatch permanent ^(.*)wirekeys-help/([^/]*).shtml$ /en/wirekeys-help/help.php?section=$2
+RedirectMatch permanent ^/soft/wc(.*)$ /en/wirechanger/about.php
+RedirectMatch permanent ^/order/(.*)$ /en/commons/order.php
+
+RedirectMatch permanent ^(.*)/info-lt.shtml$ $1/info.shtml
+RedirectMatch permanent ^(.*)/info_lt.shtml$ $1/info.shtml
+RedirectMatch permanent ^(.*)index.shtml(.*) /en/commons/about.php
+RedirectMatch permanent ^(.*)index-ru.shtml(.*) /ru/commons/about.php
+RedirectMatch permanent ^(.*)clocks(.*).shtml(.*) /en/wirechanger/wcclocks.php
+RedirectMatch permanent ^(.*)wallpapers.shtml(.*) /en/wirechanger/wallpapers.php
+RedirectMatch permanent ^(.*)wcskins.shtml(.*) /en/wirechanger/wcskins.php
+RedirectMatch permanent ^(.*)wctemplates.shtml(.*) /en/wirechanger/widgets.php
+RedirectMatch permanent ^(.*)wkmacros.shtml(.*) /en/wirekeys/wkmacros.php
+RedirectMatch permanent ^(.*)wkplugins.shtml(.*) /en/wirekeys/wkplugins.php
+RedirectMatch permanent ^(.*)wksources.shtml(.*) /en/wirekeys/wksources.php
+
+RedirectMatch permanent ^(.*)/wirenote/(.*).xml$ /download/wirenote.xml
+RedirectMatch permanent ^(.*)/wirenote/(.*)$ /en/wpt-wirenote/about.php
+RedirectMatch permanent ^/(.*)/([^/]*).shtml$ /en/$1/about.php
+RedirectMatch permanent ^/([^/]*).shtml$ /en/commons/$1.php
+
+RedirectMatch permanent ^/$ /en/commons/about.php
+RedirectMatch permanent ^/en/(.*)/$ /en/$1/about.php
+RedirectMatch permanent ^/ru/(.*)/$ /ru/$1/about.php
+RedirectMatch permanent ^/en/$ /en/commons/about.php
+RedirectMatch permanent ^/ru/$ /ru/commons/about.php
+RedirectMatch permanent ^/(.*)/$ /en/$1/about.php
+
+RewriteRule ^en/(.*)$ /$1?language=en [L,NS,NC,QSA]
+RewriteRule ^ru/(.*)$ /$1?language=ru [L,NS,NC,QSA]
+
+RewriteCond %{HTTP_REFERER} ^http://.*0daycheck.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*irboys\.com.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*plop\.ru.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*bestserials.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*e-lunatic.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*warezdownloads\.info.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*warez.*$ [NC]
+RewriteRule ^(.*)download(.*) http://www.download.com/3120-20_4-0.html?qt=wiredplane [R]
+

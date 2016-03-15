@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: A few recipients get empty messages";
+$rcontent="if you wish you can send zip on our email address - support@wiredplane.com, we will check it.
+To be sure - this is happenning with always the same recipients? or &#34;empty messages&#34; delivered to random adresses among cc/bcc?";
+$rauthor="WiredPlane";
+$rdate="1170834293";
+$rip="195.210.162.152";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WC3.1 updated with new translation (Thanks to Agostino C.) and  ability to add as many reminders per note/calendar cell as needed";
+$rauthor="WiredPlane";
+$rdate="1123836072";
+$rip="195.245.232.12";
+
+?>

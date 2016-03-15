@@ -1,0 +1,21 @@
+<?php
+
+$psubject="WireChanger 2.7 released!";
+$pcontent="A lot of new features in the notes and templates areas, main window and note window were fully redesigned to conform with the usability stuff. Templates now can be cloned (so you now can have more than one calendar at a time, several webcamersa and pictures, mixed effects and so on), Note can be gived individual font/background image/icon
+
+More to come! :)";
+$pauthor="WiredPlane";
+$pdate="1091750464";
+$plastdate="1091750464";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="479";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="Better, but still not there!
+
+It now works correctly if the secondary monitor is positioned to the right of or below the primary monitor.   :)
+
+With the secondary monitor positioned to the left, WC is still creating a 4160x1200 image.  The left-most 1280x1200 portion is the image that belongs in the secondary monitor, then there&#39;s the 1600x1200 image for the primary monitor, then a 1280x1200 blank border.
+
+The left-most 1600x1200 portion of the image is what actually gets displayed on the primary monitor, with the top-right 1280x720 portion (all blank) being displayed on the secondary monitor.
+
+Similar problem (but with vertical orientation) if the secondary monitor is positioned above the primary.  :oops";
+$rauthor="jrwatts";
+$rdate="1139473837";
+$rip="68.35.144.64";
+
+?>

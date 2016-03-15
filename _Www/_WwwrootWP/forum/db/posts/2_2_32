@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Сохранение настроек";
+$pcontent="Вроде в истории версий есть, что добавлена фишка созранения настроек. Но что-то я её не нашёл?!";
+$pauthor="McStar";
+$pdate="1102519966";
+$plastdate="1105698878";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="McStar";
+$preplies="5";
+$pviews="1171";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|sawa";
+$psticky="";
+
+?>

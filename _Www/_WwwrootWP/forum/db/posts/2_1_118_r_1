@@ -1,0 +1,21 @@
+<?php
+
+$rsubject="RE: [FAQ] Frequently asked questions, etc";
+$rcontent="Q: Can you tell me how to set up a key combination that will put a laptop PC into stand by mode?
+
+A: Create new application macro. 
+- Set &#34;application path&#34; to 
+rundll32.exe
+- Set &#34;Parameters&#34; to
+powrprof.dll, SetSuspendState
+
+Assign hotkey and that is all %)
+
+Another way is to Define hotkey for quick shutdown and set shutdown type to suspend - this is what stand by on laptops is.
+
+";
+$rauthor="WiredPlane";
+$rdate="1124274938";
+$rip="195.245.232.12";
+
+?>

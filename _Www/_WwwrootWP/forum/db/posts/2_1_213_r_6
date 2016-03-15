@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Vista support";
+$rcontent="ЭХ :(
+Сегодня вечером!";
+$rauthor="WiredPlane";
+$rdate="1162538584";
+$rip="195.210.162.152";
+
+?>

@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WC updated again.
+New features
+- improvements in dual-monitor systrems support
+- new widget &#34;Comics of the day&#34;
+
+And fixes to known bugs";
+$rauthor="WiredPlane";
+$rdate="1139470739";
+$rip="195.245.232.22";
+
+?>

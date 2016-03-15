@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Forum fixed";
+$pcontent="Due hoster`s problems (a leak of free disk space) forum was temporally down and corrupted in some way. Now problems are fixed, but some messages can be lost :( We added some specials already to prevent such problems in future";
+$pauthor="WiredPlane";
+$pdate="1082976936";
+$plastdate="1082976936";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="713";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|rij73|BillR|Leshiy|sam|Anonymous|Loong";
+$psticky="";
+
+?>

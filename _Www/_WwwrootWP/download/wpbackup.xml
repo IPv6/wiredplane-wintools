@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<XML_DIZ_INFO>
+<MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>1.15</MASTER_PAD_VERSION>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+</MASTER_PAD_VERSION_INFO>
+<Company_Info>
+        <Company_Name>WiredPlane</Company_Name>
+        <Address_1>support@wiredplane.com</Address_1>
+        <Address_2>support@wiredplane.com</Address_2>
+        <City_Town>Moscow</City_Town>
+        <State_Province />
+        <Zip_Postal_Code />
+        <Country>Russia</Country>
+        <Company_WebSite_URL>http://www.wiredplane.com/</Company_WebSite_URL>
+<Contact_Info>
+        <Author_First_Name>Ilja</Author_First_Name>
+        <Author_Last_Name>Razinkov</Author_Last_Name>
+        <Author_Email>support@wiredplane.com</Author_Email>
+        <Contact_First_Name />
+        <Contact_Last_Name />
+        <Contact_Email>support@wiredplane.com</Contact_Email>
+    </Contact_Info>
+<Support_Info>
+        <Sales_Email>sales@wiredplane.com</Sales_Email>
+        <Support_Email>support@wiredplane.com</Support_Email>
+        <General_Email>support@wiredplane.com</General_Email>
+        <Sales_Phone />
+        <Support_Phone />
+        <General_Phone />
+        <Fax_Phone />
+    </Support_Info>
+</Company_Info>
+<Program_Info>
+        <Program_Name>WPBackup</Program_Name>
+        <Program_Version>1.0</Program_Version>
+        <Program_Release_Month>10</Program_Release_Month>
+        <Program_Release_Day>10</Program_Release_Day>
+        <Program_Release_Year>2004</Program_Release_Year>
+        <Program_Cost_Dollars>20.00</Program_Cost_Dollars>
+        <Program_Cost_Other_Code>RUR</Program_Cost_Other_Code>
+        <Program_Cost_Other>200</Program_Cost_Other>
+        <Program_Type>Shareware</Program_Type>
+        <Program_Release_Status>Major Update</Program_Release_Status>
+        <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+        <Program_OS_Support>Win98,WinME,WinNT 3.x,WinNT 4.x,WinXP,Windows2000</Program_OS_Support>
+        <Program_Language>English,Russian</Program_Language>
+<File_Info>
+        <Filename_Versioned>WPBackup.zip</Filename_Versioned>
+        <Filename_Previous>WPBackup.zip</Filename_Previous>
+        <Filename_Generic>WPBackup.zip</Filename_Generic>
+        <Filename_Long>WPBackup.zip</Filename_Long>
+        <File_Size_Bytes>252969</File_Size_Bytes>
+        <File_Size_K>247</File_Size_K>
+        <File_Size_MB>0.25</File_Size_MB>
+    </File_Info>
+<Expire_Info>
+        <Has_Expire_Info>Y</Has_Expire_Info>
+        <Expire_Count>14</Expire_Count>
+        <Expire_Based_On>Days</Expire_Based_On>
+        <Expire_Other_Info />
+        <Expire_Month />
+        <Expire_Day />
+        <Expire_Year />
+    </Expire_Info>
+        <Program_Change_Info />
+        <Program_Specific_Category>Miscellaneous</Program_Specific_Category>
+        <Program_Categories>Clipboard, Hotkey manager</Program_Categories>
+        <Program_System_Requirements>If your Windows works fine - this is enough</Program_System_Requirements>
+        <Includes_JAVA_VM>N</Includes_JAVA_VM>
+        <Includes_VB_Runtime>N</Includes_VB_Runtime>
+        <Includes_DirectX>N</Includes_DirectX>
+</Program_Info>
+<Program_Descriptions>
+<English>
+        <Keywords>Backup, snapshot</Keywords>
+        <Char_Desc_45>Folder snapshot based backup utility</Char_Desc_45>
+        <Char_Desc_80>Folder snapshot based backup utility (command-line tool, single exe file)</Char_Desc_80>
+        <Char_Desc_250>Folder snapshot based backup utility (command-line tool, single exe file)</Char_Desc_250>
+        <Char_Desc_450>Folder snapshot based backup utility (command-line tool, single exe file)</Char_Desc_450>
+        <Char_Desc_2000>Folder snapshot based backup utility (command-line tool, single exe file)</Char_Desc_2000>
+</English>
+</Program_Descriptions>
+<Web_Info>
+<Application_URLs>
+        <Application_Info_URL>http://www.wiredplane.com/wpt-wpbackup/info.shtml</Application_Info_URL>
+        <Application_Order_URL>http://www.wiredplane.com/order.shtml?who=wpbackup</Application_Order_URL>
+        <Application_Screenshot_URL />
+        <Application_Icon_URL />
+        <Application_XML_File_URL>http://www.wiredplane.com/wpt-wpbackup/pad_file.xml</Application_XML_File_URL>
+    </Application_URLs>
+<Download_URLs>
+        <Primary_Download_URL>http://www.wiredplane.com/download/wpbackup.zip</Primary_Download_URL>
+        <Secondary_Download_URL />
+        <Additional_Download_URL_1 />
+        <Additional_Download_URL_2 />
+    </Download_URLs>
+</Web_Info>
+<Permissions>
+        <Distribution_Permissions>WPBackup is distributed as Freeware.
+See documentation or visit our web site for more information.
+You can distribute installation package without ANY modifications to its content</Distribution_Permissions>
+        <EULA>WIREDPLANE.com END-USER LICENSE AGREEMENT 
+
+PLEASE CAREFULLY READ THE FOLLOWING TERMS AND CONDITIONS BEFORE USING THIS 
+PRODUCT. IT CONTAINS SOFTWARE, THE USE OF WHICH IS LICENSED BY WIREDPLANE.com 
+TO ITS CUSTOMERS FOR THEIR USE ONLY AS SET FORTH BELOW. BY DOWNLOADING THE 
+SOFTWARE, OPENING THE MEDIA PACKAGE, INSTALLING THE SOFTWARE ON YOUR COMPUTER, 
+OR BY ENTERING A REGISTRATION NUMBER TO ACTIVATE IT, YOU AGREE TO BE BOUND BY 
+ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE WITH THESE 
+TERMS, YOU MUST PROMPTLY DESTROY ALL COPIES OF THE SOFTWARE AND ACCOMPANYING 
+DOCUMENTATION. USING ANY PART OF THE SOFTWARE INDICATES THAT YOU ACCEPT THESE 
+TERMS AND CONDITIONS. 
+
+1. In this agreement, &quot;Software&quot; shall mean the machine readable Software 
+program. The term &quot;Software&quot; shall also include any upgrades, modified versions, 
+updates, additions, and copies of the Software licensed to you by WiredPlane 
+labs. 
+
+2. All copyrights to this software are exclusively owned by the author - 
+Razinkov Ilja - and WiredPlane.com. All title and copyrights in and to the 
+Software, as well as any backup copy made by you, are owned by WiredPlane.com 
+and may be protected by applicable copyright or other intellectual property laws 
+and treaties. Except as stated above, this agreement does not grant you any 
+rights to patents, trade secrets, trademarks, copyrights or any other rights in 
+respect of the Software. 
+
+3. This software is distributed on a Freeware basis (also known as 
+'Try-before-you-buy'). The software may be freely distributed, added to any CD 
+compilation or online software repository, provided the distribution package is 
+not modified. No person or company may charge a fee for the distribution of this 
+software without written permission from the copyright holder. 
+
+4. Skipped
+
+5. Product maintenance. WiredPlane.com is not obligated to provide you with 
+maintenance or updates for the Software. However, any maintenance or updates 
+provided by WiredPlane.com shall be covered by this agreement. 
+
+6. You may not alter this software in any way. You are also not allowed to 
+emulate, decompile, disassemble or attempting to discover the source code, 
+otherwise reverse engineer any executable part of original package. Any such 
+unauthorized use shall result in immediate and automatic termination of this 
+license and may result in criminal and/or civil prosecution. 
+
+7. Disclaimer of warranty: THIS SOFTWARE IS DISTRIBUTED &quot;AS IS&quot;. NO WARRANTY OF 
+ANY KIND IS EXPRESSED OR IMPLIED. YOU USE IT AT YOUR OWN RISK. WE MAY NOT BE 
+HELD LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, 
+PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES 
+FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS 
+INFORMATION) OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE. 
+
+8. This license shall terminate automatically if you fail to comply with the 
+limitations described in this Agreement. No notice shall be required from 
+WiredPlane.com. to effectuate such termination. On termination you must destroy 
+all copies of the Software. 
+
+9. All rights not expressly granted here are reserved by Razinkov Ilja and 
+WiredPlane.com. 
+
+10. Installing and using this software signifies acceptance of these terms and 
+conditions of the license. If you do not agree with the terms of this license 
+you must remove this software from your storage devices and cease to use the 
+product.</EULA>
+</Permissions>
+</XML_DIZ_INFO>

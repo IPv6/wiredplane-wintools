@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: New. Hotkeys without running WireKeys?";
+$rcontent="Thank you, :) and a Happy New Year to you, too.
+
+Most interesting. I&#39;m suprised MS couldn&#39;t have allowed the option with all the money they spend on developmenet. Fortunately, WireKeys uses only about 15MB in my RAM, so I should be fine with running it in the &#34;background.&#34; It is definitely a useful little program, and seems to be quite powerful, too.
+
+In exploring its options, I&#39;ve now spawned a new question. Is there any way to access the path of the currently selected file? For example, what I&#39;d love to do is configure a hotkey to run a program with a parameter including a file or list of files currently selected in the active folder on Windows Explorer. This would allow something similar to creating my own Rclick-Context-Menus by allowing certain commands to be performed on a file.
+
+Anyway, if this is possible, please let me know. :) Thank you,
+
+Jinx";
+$rauthor="Anonimus";
+$rdate="1135723027";
+$rip="67.162.203.45";
+
+?>

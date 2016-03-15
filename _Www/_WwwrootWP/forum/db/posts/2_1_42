@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Порядок выделения текста.";
+$pcontent="Заметил одну вещь, может быть это только у меня, не знаю, но... Если выделять текст от конца к началу, то всякие макросы над выделеным текстом не всегда отрабатывают.";
+$pauthor="McStar";
+$pdate="1098455310";
+$plastdate="1098682343";
+$pimage="4.gif";
+$plastreply="4";
+$plastauthor="McStar";
+$preplies="4";
+$pviews="545";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|AGu";
+$psticky="";
+
+?>

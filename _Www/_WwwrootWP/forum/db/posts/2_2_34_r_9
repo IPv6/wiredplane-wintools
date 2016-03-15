@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Dual Monitor support for WireChanger";
+$rcontent="Just did a bit more digging in the registry.  Don&#39;t know if this helps but I found that HKEY_CURRENT_USER&#92;Software&#92;NVIDIA Corporation&#92;Global&#92;nView&#92;PerMonitorWallpaper&#92;PerMonitorDataDesk_0
+contains a bunch of keys labeled &#34;WallpaperMonitor_X&#34;, where X is 0 to 15.  WallpaperMonitor_0 shows &#34;C:&#92;Windows&#92;Web&#92;Wallpaper&#92;Stonehenge.jpg&#34;, while WallpaperMonitor_1 shows &#34;S:&#92;Jonathan&#92;My Documents&#92;My Pictures&#92;Doctor Who&#92;Doctor Who Logo 2005.jpg&#34; (the image I used for the secondary display).
+";
+$rauthor="jrwatts";
+$rdate="1138336821";
+$rip="68.35.144.64";
+
+?>

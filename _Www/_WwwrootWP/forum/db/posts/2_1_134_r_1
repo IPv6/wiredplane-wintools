@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Strange code in my keyboard capture";
+$rcontent="Strange behaviour :( Some questions:
+1) Write the name of this action (where &#34;Caps Lock-L-@AN&#34; appeared).
+2) Check if the extended hotkey processing is disabled (preferences-&#62;global options-&#62;hotkeys)
+3) Try to enter the same hotkey for another hotkey slot (i.e. action), for WK preferences for example. Will it be the same?
+";
+$rauthor="WiredPlane";
+$rdate="1129791172";
+$rip="195.245.232.12";
+
+?>

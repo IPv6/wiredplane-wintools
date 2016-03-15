@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: suggestion for time and date in OSD";
+$rcontent="That particular scheme does not support one or two character days of the week.  d, dd, D, DD, DDD, DDDD, DDDDD would work, however.
+";
+$rauthor="BillR";
+$rdate="1082597468";
+$rip="151.200.183.134";
+
+?>

@@ -1,0 +1,31 @@
+<?php
+
+$rsubject="RE: Работа с OSD";
+$rcontent="это можно сделать макросом, пользуясь функциями предоставляемыми WK
+1) Показать строку в OSD
+WireKeys.ShowOSD(&#34;text&#34;)
+2) Установка и получение куки-значения (запоминаются между перезапусками)
+WireKeys.SetCookie/GetCookie
+
+Пример функции с куками
+function wkMain()
+{
+var FxON=WireKeys.GetCookie(&#34;IS_FN_ON&#34;);
+if(FxON==&#34;1&#34;){
+ FxON=&#34;0&#34;;
+ WireKeys.ShowOSD(&#34;FN_OFF&#34;);
+}else{
+ FxON=&#34;1&#34;;
+ WireKeys.ShowOSD(&#34;FN_ON&#34;);
+}
+WireKeys.SetCookie(FxON);
+return &#34;&#34;;
+};
+
+
+ну и нужно на горячую клавишу не забить добавить опцию &#34;прозрачности&#34; чтобы WireKeys не маскировал клавишу от системы";
+$rauthor="WiredPlane";
+$rdate="1142235269";
+$rip="195.245.232.22";
+
+?>

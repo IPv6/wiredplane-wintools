@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Изменить поведение API функции SendMessage";
+$pcontent="Она всегда возвращает результат запуска WinAPI SendMessage, а хотелось бы чёб это был результат который возвращает WinAPI SendMessage.
+Может это уже реализовано...но я нигде не нашёл.";
+$pauthor="SkyRE";
+$pdate="1156928878";
+$plastdate="1157013874";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="SkyRE";
+$preplies="2";
+$pviews="822";
+$pnotify="|SkyRE";
+$plock="";
+$pip="";
+$pvisitors="|SkyRE|McStar|WiredPlane|AlexZ|Anonimus";
+$psticky="";
+
+?>

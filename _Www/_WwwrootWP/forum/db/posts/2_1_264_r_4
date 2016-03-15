@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: How to show a hidden app via hotkey?";
+$rcontent="Thanks, it works in principle.
+
+But for my Treepad, it show a color-setting dialog (may be of Treepad), that [b]can&#39;t[/b] be closed.
+And Treepad is remaining hidden in tray.
+
+I used this part:
+[quote]WireKeys.ActivateWindowByApp(&#34;treepadBIZ.exe&#34;);[/quote]
+";
+$rauthor="Richy";
+$rdate="1204561728";
+$rip="212.185.98.165";
+
+?>

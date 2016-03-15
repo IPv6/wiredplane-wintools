@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Иконки сбрасываются при смене обоев.";
+$pcontent="С помощью wirekeys запоминаю положение иконок. Но каждый раз при смене обоев при помощи WC позиции иконок, почему-то, сбрасываются и они располагаются по порядку.";
+$pauthor="McStar";
+$pdate="1143368981";
+$plastdate="1143439497";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="1217";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

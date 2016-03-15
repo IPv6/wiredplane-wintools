@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Вылет проги с ошибкой, после удаления ярлыка.";
+$pcontent="Если из меню быстрый запуск и макросы удалить любой ярлык из списка, то программа завершается с ошибкой.
+Притом проверил это на двух различных компьютерах.
+Система - Win XP SP2 (на одном компе - все обновления).
+
+[url]http://risunok.net/pic/4040[/url]
+[url]http://risunok.net/pic/4041[/url]
+
+Это только у меня или как?
+";
+$pauthor="Anonymous";
+$pdate="1171303804";
+$plastdate="1171447853";
+$pimage="7.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="692";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous|garry63|Shaker|McStar|Mitiuha|AlexZ|DSR|LAVir|woffer";
+$psticky="";
+
+?>

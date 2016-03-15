@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Preferences - Why is &#34;Disable double-press&#34; under &#34;Check for updates&#34;?";
+$pcontent=" :qmark  Preferences - Why is &#34;Disable &#39;double-press&#39; extensions&#34; beneath (within/under/below) &#34;Check for updates ...&#34; on Global Options?
+
+";
+$pauthor="BillR";
+$pdate="1082632959";
+$plastdate="1082643891";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="BillR";
+$preplies="2";
+$pviews="541";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane|rij73";
+$psticky="";
+
+?>

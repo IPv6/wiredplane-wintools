@@ -1,0 +1,19 @@
+<?php
+
+$psubject="WireChanger 2.5";
+$pcontent="We just released WireChanger 2.5 with a number of new improvements, for example try to enable picture mixer if it is not enabled yet and enjoy new images, algorithmically created from your collection!";
+$pauthor="WiredPlane";
+$pdate="1083413313";
+$plastdate="1083413313";
+$pimage="2.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="824";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|sonya";
+$psticky="";
+
+?>

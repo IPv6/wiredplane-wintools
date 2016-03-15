@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Some notes are not loaded: they are corrupted ";
+$rcontent="Those notes are placed here:
+&#34;c:&#92;Documents and Settings&#92;&#60;user name&#62;&#92;Application Data&#92;WireNote&#92;Notes&#34; 
+
+it seems that your computer crashed once during shutdown :( This is the only imaginable way to corrupt note file";
+$rauthor="WiredPlane";
+$rdate="1198297317";
+$rip="91.149.100.132";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Отключение плагинов";
+$pcontent="Пытался выглючить плагин &#34;Расширитель оболочки&#34; После нажатия на кнопку &#34;Применить&#34; WK глобально зависло, пришлось прибивать.";
+$pauthor="McStar";
+$pdate="1106636480";
+$plastdate="1106739923";
+$pimage="1.gif";
+$plastreply="10";
+$plastauthor="McStar";
+$preplies="10";
+$pviews="695";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|AGu";
+$psticky="";
+
+?>

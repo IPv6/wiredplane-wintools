@@ -1,0 +1,22 @@
+<?php
+
+$psubject="WireNote и Win+D";
+$pcontent="Здравствуйте, спасибо за отличную программу.
+Такой вопрос: необходимо, чтобы заметки оставались на рабочем столе при нажатии клавиш Win+D или кнопки &#34;Свернуть все окна&#34;, но при этом не перекрывали другие окна, если их открыто несколько.
+Возможно ли это?
+";
+$pauthor="Anonymous";
+$pdate="1198183844";
+$plastdate="1198350680";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="Anonymous";
+$preplies="2";
+$pviews="237";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane|McStar";
+$psticky="";
+
+?>

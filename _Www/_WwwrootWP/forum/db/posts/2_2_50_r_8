@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="very strange :(((
+Is it possible that you somehow use the old screensaver still?
+Can you do the following (2 min max)?
+- Find WCSaver.src in Windows folder (in the root or may be in the system32 subfolder)
+- Delete file completely (or files if it managed to be copied in different folders)
+- open WC preferences, goto the &#34;screensaver&#34; page and click on &#34;install screensaver&#34;. then set preset option to your new preset that you just created
+
+that is all. check screensaver when it will be started by system again";
+$rauthor="WiredPlane";
+$rdate="1138612360";
+$rip="195.245.232.12";
+
+?>

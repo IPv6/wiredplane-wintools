@@ -1,0 +1,21 @@
+<?php
+
+$psubject="tray icon problem";
+$pcontent="Nice pice of software, but something is wrong with the tray icon. Single click or double clock doesn&#39;t work. I have to right click and choose &#39;organizer&#39; to see main window. 
+
+Messenger works ok. ";
+$pauthor="Anonymous";
+$pdate="1199873146";
+$plastdate="1199873146";
+$pimage="5.gif";
+$plastreply="0";
+$plastauthor="Anonymous";
+$preplies="0";
+$pviews="141";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane|McStar|Milan";
+$psticky="";
+
+?>

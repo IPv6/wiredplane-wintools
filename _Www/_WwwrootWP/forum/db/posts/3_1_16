@@ -1,0 +1,26 @@
+<?php
+
+$psubject="Snap to Windows / Screen Edge Bug";
+$pcontent="BUG - Snap to windows and to screen edge does not work.  I noticed this a few weeks ago, but forgot to report it.  I have used it intermittently in the past.
+
+I have tried setting both snap options off and then on and on separately; re-enabling the plug-in;; and different snap distances -- but not all combinations of the above.  Forcing window inside screen boundries did work in v2.7 and earlier releases.
+
+Present in WireKeys v2.7 on Win2k.  
+Previously noticed in v2.6.x or perhaps v2.5.5.
+
+ENHANCEMENT - Add About item to WK Preferences menu somewhere.";
+$pauthor="BillR";
+$pdate="1098394521";
+$plastdate="1098541520";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="589";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|Anonimus|Shaker";
+$psticky="";
+
+?>

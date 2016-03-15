@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [PLUGIN] Taskbar extender";
+$rcontent="Updated again. Removed flickering over taskbar`s close button (under XP and 2000)";
+$rauthor="WiredPlane";
+$rdate="1106665195";
+$rip="195.245.232.12";
+
+?>

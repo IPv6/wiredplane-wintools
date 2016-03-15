@@ -1,0 +1,42 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="[quote]
+quote:
+Along the same lines, I would like to see the additional window menu (alt,space or alt+space) recognize letter keys such as R for Rollup (or perhaps T for Rollup to Title) just as Alt+Space,X means Maximize. 
+:/quote 
+
+In fact this functionality is already implemented in the system menu, you can press first letter of the item to move selection to it or activate it [b]if it is the only one with this character in first place.[/b]We`ll try to improve this menu in the next update, though this is a system menu and this is slightly tricky  
+[/quote] {emphasis added}
+
+The letter isn&#39;t underlined and &#39;R&#39; [b]will [/b]Restore.  At least change the menu shortcut character to O, L, or T (which ever you think is most consistent and least likely to interfere/overlap/be confused with existing or future assignments.
+
+
+[quote]
+quote:
+Finally, I would like to be able to define a macro simply as a series of keystrokes. This would allow me to define a rollup window macro as Alt+Space,Dwn,Dwn,Dwn (or even better, as Alt+Space,R)
+:/quote
+
+All additional items from system menu have separate hotkeys that can be defined through preferences, so there is no need to create macro for calling this actions  May be you mean something else?
+[/quote]
+You are absolutely correct.  My choice of example was arbitrary (and pooly chosen).  Please substitute switching to Explorer with Folder Bar (Alt,V,E,O).
+
+
+[quote]
+quote:
+1) To open My computer, just create new app macro...
+:/quote 
+
+Thanks! Works great.
+[/quote]
+
+I&#39;ll have to investigate that macro to see what the difference is between it and Win+E (depending upon your Windows preference settings).
+
+
+P.S., Thanks for your quick responses and enhancements.
+Edit: typo";
+$rauthor="BillR";
+$rdate="1096592783";
+$rip="151.200.180.134";
+
+?>

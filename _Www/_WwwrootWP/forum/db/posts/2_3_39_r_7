@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: I can not use some national characters in wireNote.";
+$rcontent="Fixed!
+please, re-download WN to check if the prolem still exist!";
+$rauthor="WiredPlane";
+$rdate="1127950569";
+$rip="195.209.143.44";
+
+?>

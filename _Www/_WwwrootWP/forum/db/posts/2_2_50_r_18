@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="E-mail is on the way...it&#39;s a 5.6MB ZIP file this time! :o
+
+A couple of observations:
+
+1) If I have the secondary monitor configured on the right when I start WC, everything works correctly, even if I then switch the monitor back to the left (without restarting WC, of course).
+
+2) I noticed that the special image modifiers (Kaleidoscope, Image Mosaic, etc.) are only applied to the image for the primary screen.
+
+3) Would it be possible to generate different images for each display?  (OK, that was a question, not an observation!   :P)  Perhaps provide an option in the preferences to either generate the same image or different images per display? ";
+$rauthor="jrwatts";
+$rdate="1139541872";
+$rip="68.35.144.64";
+
+?>

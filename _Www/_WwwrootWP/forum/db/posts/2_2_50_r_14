@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="One last note:
+
+Above, I was saying there was a 1600x1200 image centered within the IPv6WallPaper.bmp files.  Actually, it looks like WireChanger is scaling the image proportional to the final BMP file size, and then centering it within the file.  I hope that last sentence made sense! :P";
+$rauthor="jrwatts";
+$rdate="1139440410";
+$rip="68.35.144.64";
+
+?>

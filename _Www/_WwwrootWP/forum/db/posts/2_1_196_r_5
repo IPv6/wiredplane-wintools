@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Проблема с window docking";
+$rcontent="да, можете запаковать каталог
+&#34;C:&#92;Documents and Settings&#92;&#60;user name&#62;&#92;Application Data&#92;WireKeys&#34; 
+и прислать его нам?";
+$rauthor="WiredPlane";
+$rdate="1147270275";
+$rip="195.245.232.22";
+
+?>

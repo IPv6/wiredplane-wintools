@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Force to use only for some applications?";
+$rcontent="for other hotkeys method i described is perfect. more over, you can directly record macro for several applications at once (just choose &#34;record for each application separately&#34;) to create working template for such macro.
+the thing with ctrl-c is paste operaation can work with text and images for now and it is impossible (for now) to send ctrl-c from macro with ctrl-c assigned becuase it will cause endless cicle of macro calls";
+$rauthor="WiredPlane";
+$rdate="1143618461";
+$rip="195.245.232.22";
+
+?>

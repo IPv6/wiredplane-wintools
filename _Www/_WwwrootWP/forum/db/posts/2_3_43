@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Application Switching";
+$pcontent="When I close a page/application with an attached note, the not remains on the screen until another application, or the desktop, gets focus. Would it be possible to have the note disappear when the page/application is closed instead of having to wait for a new focus?";
+$pauthor="fzirp";
+$pdate="1127591342";
+$plastdate="1127906064";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="fzirp";
+$preplies="2";
+$pviews="993";
+$pnotify="|fzirp";
+$plock="";
+$pip="";
+$pvisitors="|fzirp|WiredPlane|GRISHIN";
+$psticky="";
+
+?>

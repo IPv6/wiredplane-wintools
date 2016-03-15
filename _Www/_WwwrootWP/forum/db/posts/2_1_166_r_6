@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="[quote]very strange! :( can we ask you for help? we can prepare test version which will generate special log with detailed error description. We can not reproduce the bug on our computers :([/quote]
+
+OK, I could start such debug version. Where could I download it? 
+Could I read the log files then (I want to be sure about the information that I send).";
+$rauthor="stepone";
+$rdate="1141657180";
+$rip="62.225.37.69";
+
+?>

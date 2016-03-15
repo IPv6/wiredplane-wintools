@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Пожелания и замечания";
+$pcontent="Как письмо получили? 
+Что думаете на счет иконок и продления. В таком варианете.";
+$pauthor="FAST";
+$pdate="1101219657";
+$plastdate="1102345691";
+$pimage="6.gif";
+$plastreply="52";
+$plastauthor="WiredPlane";
+$preplies="52";
+$pviews="3482";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|sawa";
+$psticky="";
+
+?>

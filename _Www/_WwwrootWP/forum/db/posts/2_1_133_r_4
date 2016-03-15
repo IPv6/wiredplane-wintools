@@ -1,0 +1,26 @@
+<?php
+
+$rsubject="RE: hotkey for folder context menu item (&#34;Play In Winamp&#34;)";
+$rcontent="Simple macro that adds highlited file to winamp playlist.
+you shoulf change path to winamp first to actual path at your computer.
+can be easily changed to add folders or list of files as well ^)
+
+[quote]
+// Title: Add2WinAmp
+// Description: Adds selected file int WinAmp play list
+
+var WshShell = new ActiveXObject(&#39;WScript.Shell&#39;);
+
+function wkMain(selectedText,macroParameter)
+{
+	startLine=&#39;&#34;c:&#92;&#92;Program Files Ex&#92;&#92;Winamp5&#92;&#92;winamp.exe&#34; /ADD &#34;&#39;+selectedText+&#39;&#34;&#39;;
+	WireKeys.Alert(startLine);
+	WshShell.Run(startLine, 1, false);
+	return &#34;&#34;;
+};
+[/quote]";
+$rauthor="WiredPlane";
+$rdate="1129550675";
+$rip="195.245.232.12";
+
+?>

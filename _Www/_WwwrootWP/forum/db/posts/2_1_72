@@ -1,0 +1,28 @@
+<?php
+
+$psubject="more- folder manipulation";
+$pcontent="I feature requested about this a month ago and was pleased with the results. Thank you!
+
+A couple more questions/requests-
+
+1) Possible to determine any window&#39;s unique ID (like PID).
+2) If so, possible to adjust said unique window&#39;s dimensions to a preset horizontal/vertical pixel ratio?
+
+
+
+";
+$pauthor="jaco";
+$pdate="1106452852";
+$plastdate="1106452852";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="jaco";
+$preplies="0";
+$pviews="263";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|jaco|WiredPlane|McStar|AGu";
+$psticky="";
+
+?>

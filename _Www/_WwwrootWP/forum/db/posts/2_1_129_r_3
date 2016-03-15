@@ -1,0 +1,20 @@
+<?php
+
+$rsubject="RE: [req] small text substitution";
+$rcontent="Wow! Very nice!!!
+May i use it in &#34;Macro&#34; section of the WireKeys help file as illustration of text processing in VBScript?
+
+About stripping characters - loop can be rewritten as follows:
+
+cur_character=Mid(selectedText,i,1);
+if (cur_character&#62;=&#39;a&#39; and cur_character&#60;=&#39;z&#39;) or
+(cur_character&#62;=&#39;A&#39; and cur_character&#60;=&#39;Z&#39;) then
+FinalText = FinalText + cur_character + &#34;*&#34;
+
+spaces and other stuff will be erased as Well
+";
+$rauthor="WiredPlane";
+$rdate="1128211468";
+$rip="195.209.143.44";
+
+?>

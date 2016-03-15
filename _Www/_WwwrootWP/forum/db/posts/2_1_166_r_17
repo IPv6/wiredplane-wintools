@@ -1,0 +1,22 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent=" OK, my system has a lot of inconsistencies (this is for sure), however, I could reproduce the problem on (at least) 3 machines. As far as this bug reappear on every lnk-file, and as far as the old version didn&#39;t have this strange behaviour, I believe, it&#39;s the problem of WireKeys.
+ 
+ Could it be caused by non-English Windows installation? (I have German one)
+
+ Could You please also check the &#34;key-up&#34; processing: sometimes if I hold the key from keyboard combination for 1-2 seconds and then release it, the WireKey just disappear... :-(
+
+Steps to reproduce:
+ - make a link to any program (i.e. Notepad)
+ - Create the combination with &#34;Win&#34; key (i.e. Win+Q) and assign it to this link.
+ - Press Win
+ - Wait a second
+ - Press Q
+ - Release both Win and Q at the same time
+ - WireKey disappears (it&#39;s not always so)";
+$rauthor="stepone";
+$rdate="1145972330";
+$rip="62.225.37.69";
+
+?>

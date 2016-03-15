@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Покупка wire keys";
+$pcontent="Оплатил 200 с чем то рублей, товар не получил, оплата производилась через rupay";
+$pauthor="Anonimus";
+$pdate="1145366511";
+$plastdate="1145713709";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="436";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|garry63|Anonimus|Digitall";
+$psticky="";
+
+?>

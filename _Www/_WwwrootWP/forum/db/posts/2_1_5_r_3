@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: New plugins: Window`s resizer and &#34;text screenshot&#34;";
+$rcontent="Issue with tinySpell may be specific to my system or that session.  I&#39;ll check again.
+
+tinySpell is a nice but limited checker.  I did not mean to suggest that Windows  Resizer do anything other than allowing the window to be stretched to accommodate long hyphenated words and scientific agglomerations (actually, taxonomy).
+
+";
+$rauthor="BillR";
+$rdate="1082975457";
+$rip="151.200.139.131";
+
+?>

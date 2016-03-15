@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Ошибке при старте системы.";
+$pcontent="При старте системы WireNote выдал ошибку: &#34;An attempt was made to access an unnamed file past its end.&#34; И отказался по человечески работать, в частности все заметки пропали. После перезапуска программы всё вроде заработало.";
+$pauthor="McStar";
+$pdate="1170835824";
+$plastdate="1171378173";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="763";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

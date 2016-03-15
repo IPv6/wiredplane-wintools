@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: One more bug";
+$rcontent="i`ll check &#34;Remote Client&#34; compatibility, it can be the reason of such behaviour.
+What did you mean under &#34;Force&#34;? explicitly move any new active window on top of others?
+
+BTW, Happy new year! :)";
+$rauthor="WiredPlane";
+$rdate="1135697457";
+$rip="195.245.232.12";
+
+?>

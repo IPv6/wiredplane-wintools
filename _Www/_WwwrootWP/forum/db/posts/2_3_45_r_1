@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Find Online Users doesn&#39;t work";
+$rcontent="What LAN protocols are enabled on your and other computers?
+Find online works with mailslot and billboard enabled currently";
+$rauthor="WiredPlane";
+$rdate="1130419808";
+$rip="195.245.232.12";
+
+?>

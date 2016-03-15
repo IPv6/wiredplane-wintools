@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: MAPI2POP3: UTF-8 HTML";
+$rcontent="Did you use option for backward compatibility? check preferences please!";
+$rauthor="WiredPlane";
+$rdate="1171014543";
+$rip="195.210.162.152";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$rsubject="RE: Dual Monitor support for WireChanger";
+$rcontent="i got it :(
+Can you take a little test? Of course, you you have spare time for this!!!
+- Exit WireChanger
+- Open display properties and set wallpaper to any image you like
+- enable &#34;Set wallpaper on second monitor to user file&#34; in NVidia and set it to different image
+I assume that after that steps both monitors shows different images with OK proportions (one from display props and second from NVidia tool)
+- open desktop preferences again. Notice what image is choosed as wallpaper now (i thing this will be new image, not the same you choosed before! most likely it will contain word NVidia in it). Find this image in windows folder or your documents and settings folder.
+- zip this image and send it to support@wiredplane.com
+We will fix WC according to that image, which should look correctly on your both monitors
+
+BTW, screensaver fix is almost done, new version will be available soon ^)";
+$rauthor="WiredPlane";
+$rdate="1138278702";
+$rip="195.245.232.12";
+
+?>

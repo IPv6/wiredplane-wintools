@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="Updated again. 
+- Fixed incompatibility between Taskbar extender and Macro recorder under WinXP SP2
+- Confirmation dialog added before &#34;drop settings to defaults&#34; in preferences";
+$rauthor="WiredPlane";
+$rdate="1107122797";
+$rip="195.209.143.44";
+
+?>

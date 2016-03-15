@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Статья про WiredPlane Labs";
+$pcontent="В прошлом номере Украинского еженедельника &#34;Мой Компьютер&#34; опубликована моя статья о программных продуктах  компании.
+Статья будет доступна на сайте журнала через 2 недели.";
+$pauthor="cleg";
+$pdate="1125667542";
+$plastdate="1128599394";
+$pimage="2.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="1453";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus|stepone|test|McStar|SkyRE|Anonymous|Loong|garry63";
+$psticky="";
+
+?>

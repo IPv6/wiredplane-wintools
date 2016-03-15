@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Не регулируется громкость";
+$pcontent="Почему-то не регулируется громкость при помощи горячих клавиш. Всё время пишется в OSD 100%, хотя на самом деле меньше.";
+$pauthor="McStar";
+$pdate="1149765470";
+$plastdate="1157444813";
+$pimage="1.gif";
+$plastreply="21";
+$plastauthor="WiredPlane";
+$preplies="21";
+$pviews="1747";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SkyRE|garry63|McStar|AlexZ|Anonimus|DSR";
+$psticky="";
+
+?>

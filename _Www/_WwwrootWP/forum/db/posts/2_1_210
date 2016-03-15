@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Доп. клавиша Sleep.";
+$pcontent="Собственно проблема в том, что не получаеться повесить какое либо действие на кнопку &#34;Sleep&#34;, при однократном нажатии на неё, wk её просто не переваривает :(. Видит он её только при двухкратном нажатии и более... Хотелось бы верить что я что-то не так делаю...";
+$pauthor="Anonymous";
+$pdate="1157233204";
+$plastdate="1170663148";
+$pimage="1.gif";
+$plastreply="13";
+$plastauthor="WiredPlane";
+$preplies="13";
+$pviews="1398";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|garry63|AlexZ|Shaker|LAVir";
+$psticky="";
+
+?>

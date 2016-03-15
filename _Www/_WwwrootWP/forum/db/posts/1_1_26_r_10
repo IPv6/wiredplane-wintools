@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: A few recipients get empty messages";
+$rcontent="I can ask Pegasus Mail to record the SMTP transaction in a logfile and provide this to you -- no need for a special version of the proxy, unless you want to record it in a special way.
+
+Would this fit the bill?
+";
+$rauthor="sba";
+$rdate="1171532621";
+$rip="194.3.183.35";
+
+?>

@@ -1,0 +1,27 @@
+<?php
+
+$psubject="WireChanger 2.5.5 Arabic Translation";
+$pcontent="HI
+
+I would like to translate WireChanger 2.5.5 into Arabic language...I have translated 83 programs so far...
+Can I DO THAT?
+
+BEST WISHES,
+Arabic Translator:
+Awadh A Al-Ghaamdi
+awadhahmad15@hotmail.com";
+$pauthor="awadh";
+$pdate="1087071356";
+$plastdate="1089308300";
+$pimage="1.gif";
+$plastreply="9";
+$plastauthor="awadh";
+$preplies="9";
+$pviews="996";
+$pnotify="|awadh";
+$plock="";
+$pip="";
+$pvisitors="|awadh|WiredPlane";
+$psticky="";
+
+?>

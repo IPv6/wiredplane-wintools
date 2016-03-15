@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: A few recipients get empty messages";
+$rcontent="I will send you a zipfile with some messages and explanations.
+
+The problem is always happening with the same recipients.
+
+Thx for your help.
+";
+$rauthor="sba";
+$rdate="1170837111";
+$rip="194.3.183.35";
+
+?>

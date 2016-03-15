@@ -1,0 +1,21 @@
+<?php
+
+$psubject="WireNotes, Printing reminder and to do lists";
+$pcontent="Is there a way to print reminder or to do list without using Print Scrn?  Is there a way to save the lists as text files?
+
+Thank you for creating a very useful program";
+$pauthor="Anonimus";
+$pdate="1104602573";
+$plastdate="1112289322";
+$pimage="5.gif";
+$plastreply="5";
+$plastauthor="TWiN";
+$preplies="5";
+$pviews="1234";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|TWiN|AGu|WiredPlane|jaco|fzirp|Anonimus";
+$psticky="";
+
+?>

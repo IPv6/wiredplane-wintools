@@ -1,0 +1,21 @@
+<?php
+
+$psubject="управление Winamp&#39;ом";
+$pcontent="Давно мучает вопрос. Почему управление Winamp&#39;ом - это неотъемлимая часть WK, а вот WinLIRC поддерживается через плагин, который за ненадобностью можно отключить?
+Нельзя ли и Winamp вынести в плагины?
+Или объясните почему этого не следует / нельзя делать.";
+$pauthor="DSR";
+$pdate="1172486356";
+$plastdate="1172648775";
+$pimage="5.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="693";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|garry63|DSR|McStar|LAVir";
+$psticky="";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: WireNotes, Printing reminder and to do lists";
+$rcontent="and maybe even add an &#34;AUTOMATIC IMPORT FROM URL/FILE&#34; everytime that the program is opened or every X minutes...";
+$rauthor="TWiN";
+$rdate="1112289322";
+$rip="65.184.168.246";
+
+?>

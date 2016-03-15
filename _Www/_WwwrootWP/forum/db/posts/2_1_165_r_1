@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Bind Wheel click such that it Shift + right clicks?";
+$rcontent="Just record a macro (Keyboard only) with Shift-RClick and assign @MMB key to it (from hotkey context menu for example)
+assuming middle-mouse button and mouse wheel click is the same :)";
+$rauthor="WiredPlane";
+$rdate="1138779337";
+$rip="195.245.232.12";
+
+?>

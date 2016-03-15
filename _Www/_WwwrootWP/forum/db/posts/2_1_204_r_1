@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Wirekeys problem with Outlook Attachments";
+$rcontent="very strange behaviour.
+- what plugins do you use? Do you use menus/buttons enabler plugin?
+- please install WK3.5 beta (link can be found in the parallel thread). It is used another way to deal with plugins and system, it may fix the problem (because of this change)
+";
+$rauthor="WiredPlane";
+$rdate="1152609132";
+$rip="195.245.232.22";
+
+?>

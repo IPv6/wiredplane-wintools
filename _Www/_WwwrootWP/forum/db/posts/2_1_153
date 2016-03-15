@@ -1,0 +1,19 @@
+<?php
+
+$psubject="&#60;Discard&#62; (Accidental post)";
+$pcontent="Accidental post. I&#39;m sorry.";
+$pauthor="Anonimus";
+$pdate="1135723070";
+$plastdate="1135723070";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="Anonimus";
+$preplies="0";
+$pviews="357";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonimus|WiredPlane|stepone";
+$psticky="";
+
+?>

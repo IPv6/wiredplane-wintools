@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="да, это ошибочка в окне About
+в одном месте цифирку не исправили :)";
+$rauthor="WiredPlane";
+$rdate="1142577498";
+$rip="195.245.232.22";
+
+?>

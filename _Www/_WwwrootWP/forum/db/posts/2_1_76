@@ -1,0 +1,21 @@
+<?php
+
+$psubject="[ANN] WireKeys updates";
+$pcontent="Here will be posted information about all updates to WireKeys and build-in plugins (since they are distributed with WireKeys). All changes, even smallest one, will be posted here.
+For updates to separate plugins, visit plugins-related forum
+[url]http://www.wiredplane.com/forum/board.php?cat=3&fid=1&s=s[/url]";
+$pauthor="WiredPlane";
+$pdate="1106664975";
+$plastdate="1213575964";
+$pimage="1.gif";
+$plastreply="50";
+$plastauthor="WiredPlane";
+$preplies="50";
+$pviews="5714";
+$pnotify="|annon|dnknitro|garry63|Richy|wtiger";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|dnknitro|Richy";
+$psticky="";
+
+?>

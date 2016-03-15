@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Синонимы";
+$pcontent="А нет возможности не учитыать регистр при учёте синонима. При нажатии на кнопке &#34;Опции&#34; ничего не происходит.";
+$pauthor="McStar";
+$pdate="1135779910";
+$plastdate="1135935943";
+$pimage="1.gif";
+$plastreply="9";
+$plastauthor="McStar";
+$preplies="9";
+$pviews="768";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

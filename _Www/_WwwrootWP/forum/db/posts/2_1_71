@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Задержки при вводе текста в Edit&#39;е с автодополнением";
+$pcontent="Точнее это наверное ComboBoxEdit наверное называется :) Так вот при достаточно большом количестве элементов после ввода каждого символа случается пауза наверное чуть меньше секунды.";
+$pauthor="736b";
+$pdate="1105624736";
+$plastdate="1105624736";
+$pimage="5.gif";
+$plastreply="0";
+$plastauthor="736b";
+$preplies="0";
+$pviews="291";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|736b|WiredPlane|AGu";
+$psticky="";
+
+?>

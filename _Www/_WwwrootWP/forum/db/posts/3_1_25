@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Thanks";
+$pcontent="Thanks.  This sounds like everything we discussed and more.  I look forward to using it next week.";
+$pauthor="BillR";
+$pdate="1103467096";
+$plastdate="1103536668";
+$pimage="6.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="553";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone";
+$psticky="";
+
+?>

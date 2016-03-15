@@ -1,0 +1,30 @@
+<?php
+
+$psubject="ToDo: Creation date, history and report issues";
+$pcontent="Hello to everybody,
+
+I&#39;m newbie on WireNote and I note as follow:
+
+Using ToDos, all time I start WireNote app creation date of all todos are changed at time I started. Any idea about that?
+
+Then history and report issues: 
+- I retrive only a list of todo, but not time spent, creation date and so on.
+
+Could anybody help me?
+
+Thanks in advance, Andrea";
+$pauthor="Anonimus";
+$pdate="1108550857";
+$plastdate="1108566317";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="497";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AGu|jaco|sergiomis";
+$psticky="";
+
+?>

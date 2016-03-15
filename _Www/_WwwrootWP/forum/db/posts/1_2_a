@@ -1,0 +1,20 @@
+<?php
+
+$psubject="New full-featured forum (PBLang by Martin Senftleben)";
+$pcontent="As you can see, we decided to replace our old, guestbook-styled &#34;forum&#34; with this full-featured bulletin-board by Martin Senftleben (Many thanks!). Now you will be able to search, attach files to your messages, receive answers to email and much more :)
+";
+$pauthor="WiredPlane";
+$pdate="1081770448";
+$plastdate="1081770448";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="2341";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|rij73|Teff|McStar|stepone|AzazelSP|triplex|ValeraVi|pharaon|Anonymous|Loong|garry63";
+$psticky="1";
+
+?>

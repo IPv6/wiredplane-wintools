@@ -1,0 +1,39 @@
+<?php
+
+$userid="7";
+$password="2456c715b59def06a2abe28c8a045fe3";
+$username="schuewol";
+$useralias="schuewol";
+$userrealname="Wolfgang Schuetz";
+$useremail="wolfgang.schuetz@eu.effem.com";
+$useremhide="hide";
+$userip="unknown";
+$usersig="Wolfgang Sch&#252;tz";
+$userslogan="Was man wirklich will, erreicht man auch";
+$useravatar="";
+$usermsn="";
+$userposts="0";
+$usericq="";
+$userqq="";
+$userwebavatar="";
+$userrank="1";
+$useryahoo="";
+$useraim="";
+$userlocation="Rethem";
+$userjoined="1082023668";
+$userhomepage="http://";
+$useradmin="0";
+$usermod="0";
+$userban="0";
+$userfriend="";
+$userlastvisit="1082023697";
+$userlastpost="1082023668";
+$userprevvisit="1082023668";
+$useranimsmilies="";
+$lastaliaschange="1082023662";
+$userlang="de";
+$uservisits="1";
+$aliaslist="";
+$noavatars="";
+
+?>

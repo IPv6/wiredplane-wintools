@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: optimize memory bug";
+$rcontent="Check version 2.7 please
+Note, that hotkeys are not working directly after restart while red X is on the tray icon :)";
+$rauthor="WiredPlane";
+$rdate="1096526600";
+$rip="195.245.232.12";
+
+?>

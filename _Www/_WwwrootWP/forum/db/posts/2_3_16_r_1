@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Will Not Display Reminders ";
+$rcontent="You just have to check &#34;Kepp reminding until dissmissed&#34; checkbox in the reminder action`s dropdown
+this checkbox control how reminder should perform if it is unablee to run at specified time";
+$rauthor="WiredPlane";
+$rdate="1105947908";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Open Command Here plugin";
+$pcontent="(Dont know where else to suggest plugins)
+
+Theres a Microsoft PowerToy called &#34;Command Here&#34; which adds an option to the shell menu &#34;Open Command Window Here&#34; which when clicks opens a CMD window with the base folder the folder you right clicked.
+The problem with the PowerToy is that it will only show up when you right click a FOLDER in explorer.  So for example when you right click the Desktop, for example, there is no &#34;Open Command Window Here&#34; option.  To get that option on the Desktop folder, you have to browse to &#34;C:&#92;Documents and Settings&#92;&#60;UserName&#62;&#92;&#34; and right click the Desktop folder.
+
+Im just suggesting a plugin that has the same functionality as the PowerToy but can open the CMD window when right clicking inside an open window (ShellToysXP has this ability...but I dont feel like running that program anymore).";
+$pauthor="Chewyfood";
+$pdate="1087315118";
+$plastdate="1096527693";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="716";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|BillR";
+$psticky="";
+
+?>

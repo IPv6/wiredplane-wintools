@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN] Time sync";
+$pcontent="Please, leave your comments here. In English, if this is possible :)";
+$pauthor="WiredPlane";
+$pdate="1107389310";
+$plastdate="1107389310";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="552";
+$pnotify="|WiredPlane";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

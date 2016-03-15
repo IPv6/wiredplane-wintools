@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Some suggestions";
+$rcontent="&#62;&#62;2) I would also like to have a delete option in the menu &#62;&#62;(maybe in the pin menu?)
+
+&#62; 2) It is already here... The last item (Ctrl-D)
+Sorry it took so long to reply.
+If I change the behavior of the x to hide instead of delete, the delete functionality is no longer accessible with the mouse. I could still open the organizer to delete it but it would be easier if I could use the mouse on the note window :-).
+Thanks for your quick reply
+Ciao
+
+ Fabio";
+$rauthor="fabio";
+$rdate="1099778391";
+$rip="152.3.183.110";
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Proposal: List of recently used folders";
+$rcontent="It somewhat depends upon how easily &#34;favorites&#34; are to change.  One application I use makes this so easy that I don&#39;t mind that it doesn&#39;t track recently used.  That said, I wish it did track the most recent MRU as the first favorite each time.  That I want the add-on to do this is really a flaw in the underlying design of the dialogue.
+
+I look forward to seeing the forthcoming plug-in for favorite folders.";
+$rauthor="BillR";
+$rdate="1096038116";
+$rip="68.239.110.170";
+
+?>

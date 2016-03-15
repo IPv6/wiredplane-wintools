@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="Hi, just installed 3.4.1 - it has the same problem with the link...";
+$rauthor="stepone";
+$rdate="1141654372";
+$rip="62.225.37.69";
+
+?>

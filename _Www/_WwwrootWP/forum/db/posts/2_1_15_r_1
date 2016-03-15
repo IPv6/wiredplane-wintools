@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: winamp and osd problem...";
+$rcontent="yes.. :( for this time this option is incompatible with automated tracking of new song in WK, cos WireKeys is simply extracts song name from WinAmp`s window title! And when this title is scrolled by WinAmp, it is changes a bit (by one char) in fact (to simulate scrolling). So WK &#34;detects&#34; new song";
+$rauthor="WiredPlane";
+$rdate="1083654916";
+$rip="195.209.143.44";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: WireNote";
+$rcontent="No, WireNote does not protects from script viruses. There are a lot of antivirus software that can do this %)";
+$rauthor="WiredPlane";
+$rdate="1106724283";
+$rip="195.245.232.12";
+
+?>

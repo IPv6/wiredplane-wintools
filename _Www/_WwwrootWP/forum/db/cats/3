@@ -1,0 +1,7 @@
+<?php
+
+$cname="Related stuff";
+$cdescription="Questions and announcements about WireChanger`s clocks and templates and WireKeys macros and plugins";
+$cforums="4";
+
+?>

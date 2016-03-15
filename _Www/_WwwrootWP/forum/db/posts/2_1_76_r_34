@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="That&#39;s a mistake on the web page.
+Your version installed is correct.
+There&#39;s no newer one available.";
+$rauthor="Richy";
+$rdate="1206665066";
+$rip="62.206.73.131";
+
+?>

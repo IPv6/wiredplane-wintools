@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: a suggestion";
+$rcontent="Thanks! we will think about it! 3 options was added because aech of them can be called with separate hotkey";
+$rauthor="WiredPlane";
+$rdate="1156063510";
+$rip="195.245.232.22";
+
+?>

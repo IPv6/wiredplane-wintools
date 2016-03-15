@@ -1,0 +1,30 @@
+<?php
+
+$psubject="I have a script which works at 3.1.4 but not 3.4.0 - any ideas?";
+$pcontent="&#39; Language: VBScript
+&#39; Title: Test
+&#39; Description: Test Calling Routine
+
+Function Test(NotesIDs)
+	Test=&#34;Hello World!&#34;
+End Function
+
+Function wkMain()
+	&#39;wkMain=&#34;wkMain started with text &#39;%SELECTED&#39; and returned &#39;&#34;+Test(&#34;%SELECTED&#34;)+&#34;&#39;&#34;
+	wkMain=Test(&#34;%SELECTED&#34;)
+End Function";
+$pauthor="smarchese";
+$pdate="1140269565";
+$plastdate="1140994197";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="smarchese";
+$preplies="4";
+$pviews="769";
+$pnotify="|smarchese";
+$plock="";
+$pip="";
+$pvisitors="|smarchese|WiredPlane|pharaon|psYman|SkyRE";
+$psticky="";
+
+?>

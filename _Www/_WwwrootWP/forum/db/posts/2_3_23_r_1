@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: ToDo: Creation date, history and report issues";
+$rcontent="It`s seems that this is the same bug as with reminders we discovered earlier... Please, wait for new update (will be available soon). Sorry for inconvinience";
+$rauthor="WiredPlane";
+$rdate="1108566317";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Переключение окон произвольным хоткеем.";
+$pcontent="хочу повесить переключение окон (как по Alt-Tab) на свой произвольный хоткей.
+Мне это нужно для того чтобы с пульта (из Abit MediaXP) переключать окна.
+
+В текущей версии не смог найти как это сделать.
+
+Возможно ли какое-нибудь решение этой проблемы?";
+$pauthor="Leshiy";
+$pdate="1086062891";
+$plastdate="1092210396";
+$pimage="5.gif";
+$plastreply="28";
+$plastauthor="WiredPlane";
+$preplies="28";
+$pviews="1497";
+$pnotify="|Leshiy";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Leshiy|McStar";
+$psticky="";
+
+?>

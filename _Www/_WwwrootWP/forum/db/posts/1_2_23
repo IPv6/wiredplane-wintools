@@ -1,0 +1,19 @@
+<?php
+
+$psubject="WireNote 3.0";
+$pcontent="WireNote 3.0 released. A lot of small improvements and new quick-pad in main window were added";
+$pauthor="WiredPlane";
+$pdate="1127890601";
+$plastdate="1127890601";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="1394";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Zoldex|Shaker|RTX|garry63";
+$psticky="";
+
+?>

@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="1) To open My computer, just create new app macro (with any randomly choosen file or folder) and copy-paste the following into &#34;Application path&#34; () instead of path the the randomly choosen file
+::{20D04FE0-3AEA-1069-A2D8-08002B30309D}
+
+
+
+2) What double-click you mean (i am not familiar with Mac behaviour : )
+If you mean double clicking on any part of the window, you can assign &#34;Double-right click&#34; hotkey to the &#34;Rollup&#34; active window - and that is all :) But may be it is more convinient to use double-middle click, becouse right-click is commonly used to open context menu (and this can`t be blocked at this time)";
+$rauthor="WiredPlane";
+$rdate="1092208025";
+$rip="195.245.232.12";
+
+?>

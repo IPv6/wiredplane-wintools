@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Feature request";
+$pcontent="Hi. I use the processes list all the time and I&#39;d like to request a few additions:
+
+1) The ability to turn the process viewer on/off by pressing the same hotkey.
+2) The option to make the list one column instead of defaulting to two columns.
+3) The ability to define where the process list pops up (simple- left side, right side, center, @mouse cursor)
+4) The option to show the full-path of the process, not just the name.
+5) The ability to add other Windows performance counters (such as memory usage) to the list. 
+
+The last one I think would add a great deal of power, with not much code bloat, as Wirekeys could become a front end to all the Windows performance data using the same windowing system.";
+$pauthor="jaco";
+$pdate="1169856399";
+$plastdate="1181049316";
+$pimage="1.gif";
+$plastreply="11";
+$plastauthor="WiredPlane";
+$preplies="11";
+$pviews="977";
+$pnotify="|jaco|annon";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|garry63|pharaon|AzazelSP|jaco|Anonimus";
+$psticky="";
+
+?>

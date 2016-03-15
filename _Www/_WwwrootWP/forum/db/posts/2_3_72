@@ -1,0 +1,19 @@
+<?php
+
+$psubject="ToDo";
+$pcontent="Не понимаю как прилепить тодо к окнам.Что-то там про маску, а что такое маска? я неопытный пользователь, но мне нравится программа. Помогите, пожалуйста!!!";
+$pauthor="Irgi";
+$pdate="1160141098";
+$plastdate="1160381159";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="894";
+$pnotify="|Irgi";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SkyRE|Milan";
+$psticky="";
+
+?>

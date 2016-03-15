@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: MAPI2POP3: UTF-8 HTML";
+$rcontent="you can try ^) we get a lot of awfull thing with russian emails without UTF-8 :(";
+$rauthor="WiredPlane";
+$rdate="1171541138";
+$rip="195.210.162.152";
+
+?>

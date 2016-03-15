@@ -1,0 +1,19 @@
+<?php
+
+$psubject="параметры снимков экрана (имя файла)";
+$pcontent="Каким образом заменить подчеркивания на пробелы (как было ранее) в имени файла снимка?";
+$pauthor="Shaker";
+$pdate="1171709834";
+$plastdate="1171888693";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="Shaker";
+$preplies="2";
+$pviews="675";
+$pnotify="|Shaker";
+$plock="";
+$pip="";
+$pvisitors="|Shaker|McStar|garry63|WiredPlane|Mitiuha";
+$psticky="";
+
+?>

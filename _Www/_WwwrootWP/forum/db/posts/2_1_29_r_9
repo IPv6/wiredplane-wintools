@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="2Jaco: JFYI
+New macro to support quick switching between modes in Explorer and new plugin that can switch mode and adds history of used folders to Open/Save dialogs are now available from this site. Try them out :)
+But they will work with WK 2.7 (and futher versions too, of course) only";
+$rauthor="WiredPlane";
+$rdate="1096527462";
+$rip="195.245.232.12";
+
+?>

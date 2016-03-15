@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Сохранение списка";
+$pcontent="При сохранение списка, без стандартных тем, программа ВИСНЕТ! :)
+И &#34;очистка&#34; в стандартных темах не работает :(";
+$pauthor="lerico";
+$pdate="1172181162";
+$plastdate="1172480253";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="WiredPlane";
+$preplies="2";
+$pviews="640";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar";
+$psticky="";
+
+?>

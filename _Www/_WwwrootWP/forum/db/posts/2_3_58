@@ -1,0 +1,25 @@
+<?php
+
+$psubject="New User - Some questions";
+$pcontent="Downloaded the software today and it seems it&#39;s a great piece of work. Still some questions:
+1. Patterns - can&#39;t find paterns for title. I would like the title to be the first line of note/to-do.
+2. It is not clear if it is possible to send messages to other computers on the Internet, knowing their ip address and internal computer name.
+
+Thanks
+
+Dani";
+$pauthor="Anonimus";
+$pdate="1143534915";
+$plastdate="1143719212";
+$pimage="5.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="999";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|cellphone|esmo|Bedolaga|Milan";
+$psticky="";
+
+?>

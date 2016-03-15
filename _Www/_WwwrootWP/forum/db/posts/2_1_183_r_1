@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Wirekeys Freeze";
+$rcontent=":(((
+Before new driver everything was ok, right?
+
+Can you disable extended hotkey processing and check this freeze case again?";
+$rauthor="WiredPlane";
+$rdate="1143010696";
+$rip="195.245.232.22";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="А как игра?";
+$pcontent="Привет, вы там вроде говорили, что игру делаете...";
+$pauthor="McStar";
+$pdate="1177146286";
+$plastdate="1200448254";
+$pimage="1.gif";
+$plastreply="17";
+$plastauthor="WiredPlane";
+$preplies="17";
+$pviews="1584";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

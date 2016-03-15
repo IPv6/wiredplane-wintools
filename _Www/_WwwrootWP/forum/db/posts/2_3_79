@@ -1,0 +1,22 @@
+<?php
+
+$psubject="А можно ли сделать?";
+$pcontent="Очень понравилась прога!
+Вот только вопрос по поводу сетевых возможностей:
+
+А можно ли сделать так, чтобы получать - получали кто на что подписан, а отправлять можно было бы и в другие разделы - не только в те, на которые подписан.";
+$pauthor="Anonymous";
+$pdate="1182503925";
+$plastdate="1182754701";
+$pimage="2.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="478";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|garry63|Anonymous";
+$psticky="";
+
+?>

@@ -1,0 +1,25 @@
+<?php
+
+$rsubject="RE: New User - Some questions";
+$rcontent="Here they are
+
+Patterns
+For your convenience all application strings such as new Note/ToDo title or body can be formed automatically using patterns. Pattern - predefined string beginning with char &#34;%&#34;, for example &#34;%CLIP&#34;. Patterns will be substituted with the actual value at the run time. 
+Possible patterns are:
+Common patterns are:
+- &#34;%DATE&#34;: Current date
+- &#34;%TIME&#34;: Current time
+- &#34;%YEAR&#34;: Current year
+- &#34;%MONTH&#34;: Current month
+- &#34;%DAY&#34;: Current day
+- &#34;%HOUR&#34;: Current hour
+- &#34;%MINUTE&#34;: Current minute
+- &#34;%SECOND&#34;: Current second
+- &#34;%CLIP&#34;: text from clipboard
+
+we can add new types of patterns if you can suggest them (first line of note is good example of it)";
+$rauthor="WiredPlane";
+$rdate="1143719212";
+$rip="195.245.232.22";
+
+?>

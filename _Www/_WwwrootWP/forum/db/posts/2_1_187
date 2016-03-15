@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Microsoft Natural Ergonomic Keyboard 4000";
+$pcontent="Вроде писал, но что-то не могу найти тему. имею Субжевую клавиатур. Так вот. Одна кнопка не распознаётся. А я хотел её как паузу использовать. Стоят последние дрова для клавы.";
+$pauthor="McStar";
+$pdate="1143700790";
+$plastdate="1148143967";
+$pimage="1.gif";
+$plastreply="16";
+$plastauthor="McStar";
+$preplies="16";
+$pviews="1677";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|AzazelSP|Digitall|AlexZ";
+$psticky="";
+
+?>

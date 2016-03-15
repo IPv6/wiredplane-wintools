@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Reminders for every xx day day of the month";
+$rcontent="OK. I thought I was doing something wrong in the program settings.
+
+May I hereby submit a request for such a feature? That would be very helpful!
+
+Thanks,
+
+GE";
+$rauthor="Anonymous";
+$rdate="1173994884";
+$rip="69.153.12.150";
+
+?>

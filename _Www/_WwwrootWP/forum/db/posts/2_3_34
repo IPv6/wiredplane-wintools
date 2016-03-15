@@ -1,0 +1,25 @@
+<?php
+
+$psubject="WireNote is good, but can the look and feel be changed";
+$pcontent="hi,
+
+
+ As such the features of WireNote are exteremly cool, but if the look and feel is changed in such it really look cool, it would be great.
+
+thanks
+";
+$pauthor="Anonimus";
+$pdate="1114633559";
+$plastdate="1114782118";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="Anonimus";
+$preplies="5";
+$pviews="1021";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonimus|WiredPlane|AGu|jaco";
+$psticky="";
+
+?>

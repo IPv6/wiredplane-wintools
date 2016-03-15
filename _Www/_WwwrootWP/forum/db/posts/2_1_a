@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Welcome!";
+$pcontent="Hello everybody! We decided to install new, full-featured forum from [url]http://pblang.drmartinus.de/[/url]. Enjoy!
+All previous messages can be found in the special post to this forum";
+$pauthor="WiredPlane";
+$pdate="1081769239";
+$plastdate="1081769239";
+$pimage="6.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="16";
+$pnotify="|WiredPlane";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Tark|Cermit";
+$psticky="1";
+
+?>

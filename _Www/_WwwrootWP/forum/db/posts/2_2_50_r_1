@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="Thank you for your feedback!
+It seems that there is 2 copies of the screensaver are started in the same time, that is why the behaviour is so strange. this can be fixed in fact, expecially if you can help us by testing test versions of WC, because we dont have 2 monitors to test this by ourselfes. We can give you registration key (normal key, not limited, etc) in exchange for some help. Can you help us this way?";
+$rauthor="WiredPlane";
+$rdate="1138012524";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: [PLUGIN] GPIO remote control";
+$rcontent="Ups, so this plugin is not useful for you... it is tailored to the GPIO remotes, don`t think that your remote support this type of API...
+Did you try WinLirc, is it working with your remote? if yes, WK will support WinLirc soon";
+$rauthor="WiredPlane";
+$rdate="1116333525";
+$rip="195.245.232.12";
+
+?>

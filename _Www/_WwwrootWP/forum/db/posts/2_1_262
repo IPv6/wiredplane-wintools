@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Shortcut for Winamp title in OSD";
+$pcontent="I&#39;m looking for a shortcut to show Winamp&#39;s running title in the OSD.
+
+Reason: my Winamp runs in a *very* minimized way.
+Someting I want to know the title just played. 
+
+Any hint, please?";
+$pauthor="Richy";
+$pdate="1199939588";
+$plastdate="1200156820";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="Richy";
+$preplies="4";
+$pviews="262";
+$pnotify="|Richy";
+$plock="";
+$pip="";
+$pvisitors="|Richy|WiredPlane|garry63";
+$psticky="";
+
+?>

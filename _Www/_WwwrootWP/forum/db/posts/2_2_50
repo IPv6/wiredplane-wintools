@@ -1,0 +1,31 @@
+<?php
+
+$psubject="Widescreen support for Wirechanger&#39;s screensaver";
+$pcontent="I like using the screensaver built into Wirechanger, but it doesn&#39;t scale images properly on my secondary widescreen display; in fact, it behaves a bit strangely with 2 displays.
+
+My primary display is set to 1600x1200.  The secondary display is 1280x720.
+
+When the screensaver activates, it will use both displays, but it seems to be very random as to when it decides to change the image on each.  Sometimes, it changes both, one immediately after the other, at the 30 second interval I specified.  More often, however, one image will get &#34;stuck&#34;, and that display will not change for 5 minutes or more (while the other continues to change).  Sometimes, both will get stuck.  And sometimes, it just seems to be completely random as to when it will change images.
+
+To get back to the topic of the post, however, it always scales the images on both monitors assuming that they are a 4:3 display.  This means the images are correct on the primary monitor, but stretched too wide on the widescreen (16:9) display.
+
+Any chance of fixing this?
+
+  - Jonathan Watts
+
+P.S.  I had been using Wirechanger Lite, but I just upgraded and registered the latest version (3.4.9), and it seems to exhibit the same behavior.";
+$pauthor="jrwatts";
+$pdate="1138007189";
+$plastdate="1139561266";
+$pimage="1.gif";
+$plastreply="21";
+$plastauthor="WiredPlane";
+$preplies="21";
+$pviews="2238";
+$pnotify="|jrwatts";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|jrwatts|helmerichs|Anonymous";
+$psticky="";
+
+?>

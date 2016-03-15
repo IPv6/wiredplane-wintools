@@ -1,0 +1,37 @@
+<?php
+
+$rsubject="RE: По поводу...WinAmp controls";
+$rcontent="Создаете новый пункт быстрого запуска и вместо пути к программе вписываете (или создаете макрос и вписываете в его тело без префикса &#34;jscript:&#34;):
+
+- Switch Repeat
+jscript:WireKeys.SendMessage(WireKeys.FindWindow(&#39;Winamp v1.x&#39;),0x0111,40022,0);WireKeys.ShowBaloon(&#34;Repeat changed&#34;);
+
+- Show/Hide Playlist Window
+jscript:WireKeys.ActivateWindowByClass(&#39;Winamp v1.x&#39;);WireKeys.SendMessage(WireKeys.FindWindow(&#39;Winamp v1.x&#39;),0x0111,40040,0);
+
+- Show/Hide Media Library Window
+- Show/Hide Jump To File Window
+
+а это нужно сделать отдельный макрос с таким содержимым
+
+// Title: More WindAmp controls
+var WshShell = new ActiveXObject(&#39;WScript.Shell&#39;);
+
+//Open Jump to file
+function wkMain()
+{
+	WireKeys.ActivateWindowByClass(&#39;Winamp v1.x&#39;);WshShell.SendKeys(&#39;j&#39;);
+	return &#34;&#34;;
+};
+t
+//Open Media library
+function wkMain2()
+{
+	WireKeys.ActivateWindowByClass(&#39;Winamp v1.x&#39;);WshShell.SendKeys(&#39;%t&#39;);
+	return &#34;&#34;;
+};";
+$rauthor="WiredPlane";
+$rdate="1156842850";
+$rip="195.245.232.22";
+
+?>

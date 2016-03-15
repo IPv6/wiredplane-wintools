@@ -1,0 +1,35 @@
+<?php
+
+$userid="196";
+$password="5c801e81148af56b3e581ae83d2f2f83";
+$username="Patthoven";
+$useralias="same";
+$userrealname="";
+$useremail="Patthoven@aol.com";
+$useremhide="";
+$userip="67.162.3.21";
+$usersig="This whole internet thing never ceases to amaze me. I get to talk to people from Russia that I have never even met before!!! How cool is that  What a wonderful gift we have in our day and age. My father still thinks computers are the bane of all of our existence...... Talk about out of touch!!!!! Oh well, all of his contemporaries thought the telephone was a waste of time.... imagine... and that doesn&#39;t even take into account his favorite 1-900 numbers!!!!!!";
+$userslogan="I love WireKeys!!!";
+$useravatar="homer.gif";
+$usermsn="";
+$userposts="0";
+$usericq="";
+$userqq="";
+$userwebavatar="";
+$userrank="1";
+$useryahoo="";
+$useraim="";
+$userlocation="Chicago... USA";
+$userjoined="1147726064";
+$userhomepage="http://";
+$useradmin="0";
+$usermod="0";
+$userban="0";
+$userlastvisit="1147726064";
+$userlastpost="1147726064";
+$userprevvisit="1147726064";
+$useranimsmilies="";
+$lastaliaschange="1147726064";
+$userlang="en";
+
+?>

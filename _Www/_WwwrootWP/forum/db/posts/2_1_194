@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Wirekeys не выгружается";
+$pcontent="Решил написать. Вот качаю Wirekeys 3.4.3, чтобы установить ее, нужно выгрузить 3.4.1, нажимаю &#34;Выход&#34;, а wirekeys как висела в трее, так и продолжает висеть. 
+
+У меня Windows x64, может быть под Windows 2003 server такое же поведение, т.к. эти системы на движке Server 2003";
+$pauthor="Anonimus";
+$pdate="1146308159";
+$plastdate="1146764253";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="Anonimus";
+$preplies="2";
+$pviews="886";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonimus|WiredPlane|garry63|SkyRE|Anonymous";
+$psticky="";
+
+?>

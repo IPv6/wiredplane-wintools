@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Can WireKeys hotlaunch programs?";
+$rcontent="Yes, of course it can. The main difference between WireKeys and other programs of that kind - What can be used as a hotkey to launch applications, folders, macros, actions, etc. In other tools you are usually limited to standard Windows hotkeys (Modifier+One single key from main clipboard). WireKeys can launch applications on keys of any kind - multimedia buttons, mouse gestures, non-usual combinations like Ctrl-A-B-C or &#34;Right Alt key plus Double pressing Escape key&#34; and much more";
+$rauthor="WiredPlane";
+$rdate="1137228675";
+$rip="195.245.232.12";
+
+?>

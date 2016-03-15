@@ -1,0 +1,40 @@
+<?php
+
+$rsubject="RE: Использование табуляции в скрипте";
+$rcontent="[quote]а в какой программе вы хотите переключения добиться?[/quote]
+
+Программа была написана в Delphi 5 (по всей видимости).
+
+Вообще, экспериментировал на разных программах,
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x04F09] keydown=[1] ext=[0])&#39;);// Key down: {TAB}
+WireKeys.PlayRecord(&#39;Command(key::msg=[257] l=[0x04F09] keydown=[0] ext=[0])&#39;);// Key up: {TAB}
+чаще НЕ срабатывало, чем срабатывало
+
+[quote]
+второй вариант просто вставляет табуляцию и переключению не поможет,[/quote]
+Это понятно, просто пробовал.
+
+[quote]Можно еще записать макрос в режиме совместимости с ява-скриптом, тогда нажатие будет эмулироваться внутренними средствами Windows (но скрипт будет медленней работать).[/quote]
+Да, так
+WshShell.SendKeys(&#34;{TAB}&#34;);
+работало.
+
+Кстати, что интересно, Ctrl+A, Ctrl+C, Ctrl+V
+записанные в скрипте как
+WshShell.SendKeys...
+
+не работают напрочь, а вот так
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x041D11] keydown=[1] ext=[0])&#39;);// Key down: 0x11
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x041E41] keydown=[1] ext=[0])&#39;);// Key down: A
+WireKeys.PlayRecord(&#39;Command(key::msg=[257] l=[0x041E41] keydown=[0] ext=[0])&#39;);// Key up: A
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x042E43] keydown=[1] ext=[0])&#39;);// Key down: C
+WireKeys.PlayRecord(&#39;Command(key::msg=[257] l=[0x042E43] keydown=[0] ext=[0])&#39;);// Key up: C
+WireKeys.PlayRecord(&#39;Command(key::msg=[257] l=[0x041D11] keydown=[0] ext=[0])&#39;);// Key up: 0x11
+все работает хорошо.
+
+Словом, комбинируя их удалось получить желаемый результат.";
+$rauthor="Kostafey";
+$rdate="1185201708";
+$rip="195.161.247.67";
+
+?>

@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: want to get a free licence by translating";
+$rcontent="From Help -&#62; FAQ:
+
+Q: I want to see your program in my language. Is it possible?
+A: Yes. New languages will be added later. In order to speed up this process you can translate WireKeys_l0.lng file and send it to us. And [b]we will send you free registration key[/b] :) 
+";
+$rauthor="Leshiy";
+$rdate="1090823294";
+$rip="82.122.232.197";
+
+?>

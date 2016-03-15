@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Падение WireChanger";
+$rcontent="%((((
+Какие шаблоны включены? Как часто падает?
+просьба еще скачать и установить http://www.wiredplane.com/download/wirechanger28.zip
+это немного боковая ветвь. Посмотрите плиз, будут ли там падения?";
+$rauthor="WiredPlane";
+$rdate="1099045448";
+$rip="195.245.232.12";
+
+?>

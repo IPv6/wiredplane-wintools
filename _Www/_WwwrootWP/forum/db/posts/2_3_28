@@ -1,0 +1,25 @@
+<?php
+
+$psubject="CPU Load";
+$pcontent="After upgrading from version 2.6,  every time I start wirenote 
+the CPU monitor shows above 90% load. Since I use a laptop is realy noticeable because it warms up pretty quickly.
+Did anyone else notice this?
+Please let me know if you need further info 
+Thanks
+
+Fabio";
+$pauthor="Anonimus";
+$pdate="1110481029";
+$plastdate="1113255312";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="Anonimus";
+$preplies="2";
+$pviews="1107";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonimus|WiredPlane|AGu|jaco|McStar|Rana|Anonymous";
+$psticky="";
+
+?>

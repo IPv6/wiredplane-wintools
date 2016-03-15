@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: After upgrade to Vista shell extensions will not initialise";
+$rcontent="Did you use UAK? If so there is a problem :( This extensions can not work together with Explorer (to provide additional icons and features) since Vista is much more restrictive";
+$rauthor="WiredPlane";
+$rdate="1188811376";
+$rip="195.210.162.152";
+
+?>

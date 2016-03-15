@@ -1,0 +1,59 @@
+<?php
+
+$psubject="Messages from old forum";
+$pcontent="
+EvilOne  [02nd April, 2004 20:17:07] 
+Чтоб понять об чем тут идет речь прочти сначала сообщение что находится с низу 
+тобишь прямо под этим.
+А теперь само продолжение предыдущего сообщения
+Да и чуть не забыл не забудьте в настроиках задания указать что надо качать только обои а то он вам в придачу к обоям кучу мелких пикчей накачает, что тоже порой неплохо.
+З.Ы. Следующий секрет будет открыт чуть позже так как для того что бы понять об чем там идет речь нужно сначала обзавестись кучей обоев. До скорого! :))  
+ 
+
+EvilOne  [02nd April, 2004 20:13:04] 
+Привет однопрограняни ;)
+Я седне добрый и потому решил вам своим братьям открыть несколько секретов.
+Секрет первый если хочешь чтобы у тебя было много обоев разной тематики попробуй сбацать следующее скачаи специальную прогу для скачки картинок например я пикалоадером (PicaLoader) все качаю, сделай в ней пару не хитрых движений а именно создай новый проект (задание) в качестве строки от куда качать можно в бить например адрес страницы с обоями этого сайта (http://www.wiredplane.com/wallpapers.shtml) Для тех кто подумал что будет в день обоев по шесть накачиваться проясню ситуацию Дело в том что на этой страницы куча ссылок на сайты с обоями и если в пиколоадере установить глубину скачки картинок например 4 ссылки то соответсвенно все картинки что находится в пределах 4 кликов от главной обязательно скачаются все что вам будет нужно это немного подождать пока скачается необходимое вам количество обоев. Продолжение в следующем сообщении чёрт бы побрал это ограничение  
+
+WiredPlane Labs (http://www.wiredplane.com/)  [08th January, 2004 21:36:04] 
+Hello!
+We just want to say everybody that since v 2.2.2.2 WireChanger has built-in &#34;Wallpaper Exchange&#34; service. Its free and funny. Using this service everybody can put interesting pictures directly on this site. We hope that this feature will add interactivity to our wallpaper`s page and can extend wallpapers`s collections of our users and visitors  
+ 
+
+WiredPlane Labs  [26th October, 2003 16:06:47] 
+Check out new clocks at www.colclocks.com!  
+ 
+
+
+WiredPlane Labs (http://www.wiredplane.com)  [14th July, 2003 13:07:08] 
+2Me:
+Yes, you can now, just download new version  
+ 
+
+me  [15th June, 2003 13:08:03] 
+can the position of clock be changed....if i want both calendar and clock to be seen that it is troublesome...  
+ 
+
+Cooler  [27th May, 2003 17:57:11] 
+Cool application! Thanks a lot!  
+ 
+
+WiredPlane  [16th April, 2003 23:22:30] 
+Version 1.5 released!  
+ 
+";
+$pauthor="WiredPlane";
+$pdate="1081769983";
+$plastdate="1081769983";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="563";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Tark|Leshiy|Anonymous";
+$psticky="";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$rsubject="RE: offline";
+$rcontent="Одно из сообщений в папке:
+
+&#60;?xml version=&#39;1.0&#39; encoding=&#39;Windows-1251&#39;?&#62;
+
+&#60;FB-MESSAGE&#62;
+&#60;TimeStamp value=&#34;20.07.2004 16:49:32&#34;/&#62;
+&#60;to&#62;Bv&#60;/to&#62;
+&#60;from&#62;ADMINI1ER2AE&#60;/from&#62;
+&#60;message&#62;И снова проверяем&#60;/message&#62;
+&#60;attach&#62;&#60;/attach&#62;
+&#60;/FB-MESSAGE&#62;";
+$rauthor="GRISHIN";
+$rdate="1090331479";
+$rip="195.222.66.24";
+
+?>

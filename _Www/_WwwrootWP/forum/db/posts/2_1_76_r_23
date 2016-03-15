@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK updated, now it is 3.4.0
+Added:
+- Option to put items of your choice into Explorer`s context menu (of files and folders). To do so just move items you are interested in into one category and mark category`s option &#34;Add to explorer`s menu as a submenu&#34;.
+File-related macros and applications will be called with pointed/selected files. Clipboard is not altered during such invocation.
+- Fixed Desktop switcher. Now it is switching much much faster (immediately, only first switch will be noticibly long because some applications are started upon desktop creation). Fixed bugs in exetnded hotkey processing after switching between different desktops";
+$rauthor="WiredPlane";
+$rdate="1138606906";
+$rip="195.245.232.12";
+
+?>

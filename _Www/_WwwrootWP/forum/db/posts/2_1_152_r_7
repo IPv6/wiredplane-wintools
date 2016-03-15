@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: New. Hotkeys without running WireKeys?";
+$rcontent="there is no syntax for patterns, they are just replaced before execution. %DATE replaced by date that can be tuned in regional settings of Windows, no exeptions. To get result you need you have to use 3 several patterns (for day, month and year) combined in order you need. example
+%MONTH-%DAY-%YEAR -&#62;01-02-2006
+%YEAR:%MONTH:%DAY -&#62;2006:02:01
+
+You don`t have to be registered at this forum, we are answering on all questions ^)
+BTW, gmail is *very* good at filtering spam! i have one mailbox which is wiredly spammed (i`m leaving it on all placed where it is needed) and i never lost my messages. it is passing around 1% of spam into main mailbox";
+$rauthor="WiredPlane";
+$rdate="1136196070";
+$rip="195.209.143.44";
+
+?>

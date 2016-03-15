@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Записал макрос. Как заставить макрос повторяться";
+$pcontent="Записал макрос. Как заставить макрос повторяться нужное количество раз или зациклить процесс?
+Спасибо";
+$pauthor="Anonymous";
+$pdate="1179861967";
+$plastdate="1179861967";
+$pimage="5.gif";
+$plastreply="0";
+$plastauthor="Anonymous";
+$preplies="0";
+$pviews="256";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane|wtiger";
+$psticky="";
+
+?>

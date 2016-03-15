@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Assign Hotkey to &#34;Folder Options&#34;?";
+$rcontent="I checked this CLSID and unfortunately it can not be used with WireKeys by now :( There are different methods of activation COM objects identified with such codes, called CLSIDs. This one can not be called without exact folder with options you trying to change. I`ll think about how it can be called from WK and add changes to future releases.
+
+BTW, nice collection of Win-related stuff (including CLSIDs of  different system utilities, buried inside admin options. Most of them can be used with WK using method described earlier)
+http://www.virtualplastic.net/html/icn_reg.html";
+$rauthor="WiredPlane";
+$rdate="1180687093";
+$rip="195.210.162.152";
+
+?>

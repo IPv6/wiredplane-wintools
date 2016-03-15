@@ -1,0 +1,31 @@
+<?php
+
+$rsubject="RE: bugs & suggestions";
+$rcontent="[b]here is the macro i wrote.[/b] :sungl
+
+
+// Language: JScript
+// Title: Search Google
+// Description: Search Google with the seleted text, asian language supported. Writting by Rocky Wolf
+// ParamType: String
+
+var WshShell = new ActiveXObject(&#39;WScript.Shell&#39;);
+
+function wkMain(selectedText,macroParameter)
+{
+	var ExecStr = &#39;&#39;;
+
+	ExecStr += &#39;http://www.google.com/search?q=&#39;;
+        // Convert the selected text into UTF-8 format
+	ExecStr += encodeURIComponent(selectedText);
+	// For simplified Chinese, the parameter should be &#39;&ie=UTF-8&hl=zh-CN&lr=&#39;
+	ExecStr += macroParameter;
+
+	// Open the URL in default web browser
+	WshShell.Run(ExecStr, 1)
+}";
+$rauthor="rockywolf";
+$rdate="1091408291";
+$rip="218.14.61.25";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Wirekeys problem with Outlook Attachments";
+$rcontent="Another thing - can you temproarily disable Shell extender plugin and restart computer and check this weird Outlook effect again?";
+$rauthor="WiredPlane";
+$rdate="1152876919";
+$rip="195.245.232.22";
+
+?>

@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Username Pattern Equivalent";
+$pcontent="What is the easiest way to create an insertion hotkey for Username?  
+
+Is there an easy way to access system variables (e.g., USERNAME or %USERNAME%)?";
+$pauthor="BillR";
+$pdate="1092863379";
+$plastdate="1093027835";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="BillR";
+$preplies="4";
+$pviews="552";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane|Anonimus";
+$psticky="";
+
+?>

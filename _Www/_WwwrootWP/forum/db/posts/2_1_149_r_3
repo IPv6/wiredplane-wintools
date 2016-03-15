@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: One more bug";
+$rcontent="its really strange :((( still unreproducable on my computer
+can you check - after switching to such pop-under window, will it stay on top when you switch focus to another app?";
+$rauthor="WiredPlane";
+$rdate="1135267232";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Feature request";
+$rcontent="[quote]Hm.... active process in the process viewer can be killed by Del.
+[/quote]
+
+Sorry I meant &#34;processes list&#34; (the list Wirekeys provides).And I want a hotkey to kill the the selected process on the list.And to add one more thing the process to be removed from the list once killed.";
+$rauthor="annon";
+$rdate="1180973224";
+$rip="81.4.130.195";
+
+?>

@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: False Positive Trojan?";
+$rcontent="I just downloaded WireKeys and McAfee prevented it form installing.
+
+I am in a corporate environment and have no control or when McAfee database updates.
+
+I guess that I must get along without WireKeys until my IT department updates McAfee.";
+$rauthor="GregMathiesen";
+$rdate="1122904730";
+$rip="198.137.214.36";
+
+?>

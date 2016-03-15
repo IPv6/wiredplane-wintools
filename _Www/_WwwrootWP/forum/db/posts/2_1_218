@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Пустой список буфера обмена.";
+$pcontent="Почему-то, периодичесмки перестаёт пополнятся список буфера обмена. То просто не добавляются новые элементы, то вообще список пустой.";
+$pauthor="McStar";
+$pdate="1165070901";
+$plastdate="1169623343";
+$pimage="5.gif";
+$plastreply="14";
+$plastauthor="McStar";
+$preplies="14";
+$pviews="1177";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|garry63";
+$psticky="";
+
+?>

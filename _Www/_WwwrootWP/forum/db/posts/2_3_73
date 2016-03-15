@@ -1,0 +1,46 @@
+<?php
+
+$psubject="(date & time) alarm column is missing ";
+$pcontent="Hello
+i am very impressed by this note reminder very powerfull flexible and very good
+
+But something very important is missing ??
+in the organizer window
+we have a column for priority
+one other is tilte
+one other is modification date
+but what about a column for alarm date & time
+this is very very important for the following reasons
+1:
+when we add alarm to  a ToDo there is no way to knew after if alarm is activated or not and also no information about the time, unless we write it by our selves with the todo task(which is not convinient
+2:
+in reminders section we have to put the mouse cursor up the line to knew the alarm time so if we have to do that each time and over each note not convinient at all
+
+3: the most important point
+is that when we have a column with alarm date we can sort
+all our note using this criterion, which is very important 
+
+I am sure that is only forgotten by developpers team
+making so powerful program, to add just a column of alarm time is very easy
+
+Hope you will add it very soon
+cause i love this program, an di want use it fully
+
+thanks
+
+";
+$pauthor="freebird";
+$pdate="1168552027";
+$plastdate="1168611630";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="516";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|freebird";
+$psticky="";
+
+?>

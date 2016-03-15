@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="А чё в about пишет версия 3.4.1 (Mar 13 2006) ?
+И апдейт говорит мол стоит последняя версия....";
+$rauthor="SkyRE";
+$rdate="1142514221";
+$rip="194.88.1.234";
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: One more bug";
+$rcontent="BTW, we added several improvements to avoid bug you described, can you re-download WK when you will have time and test it?
+
+Happy new Year! ^)";
+$rauthor="WiredPlane";
+$rdate="1135854506";
+$rip="195.245.232.12";
+
+?>

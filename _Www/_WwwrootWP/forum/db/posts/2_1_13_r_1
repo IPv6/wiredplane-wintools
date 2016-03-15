@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: ASCII Support?";
+$rcontent="Hello :) Can you clarify where you want to use Alt-175?
+In what part of wirekeys?";
+$rauthor="WiredPlane";
+$rdate="1083240707";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,21 @@
+<?php
+
+$psubject="WC 2.8.1 and WK 2.7.6";
+$pcontent="WireChanger and WireKeys were updated with sseveral interesting features.
+WireChanger can now automatically grab interesting images from web-pages and add them to your collection.
+WireKeys is now capable of assigning actions to such hotkeys as double- and triple-press (any action, not specialy designed only)";
+$pauthor="WiredPlane";
+$pdate="1100491935";
+$plastdate="1100491935";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="903";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|BillR|Cermit|Anonimus";
+$psticky="";
+
+?>

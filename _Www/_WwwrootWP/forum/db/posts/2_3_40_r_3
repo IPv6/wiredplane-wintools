@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Idea on some customization";
+$rcontent="Thanks again!
+First of all, they are sorted in the order of creation. Alphabetical sort can be archived by clicking title column. Actualization date sort will be added in the future releases.
+
+About &#34;New reminder&#34; issue - this is a bug :( Thanks for letting us know, will be fixed!
+";
+$rauthor="WiredPlane";
+$rdate="1121843486";
+$rip="195.245.232.12";
+
+?>

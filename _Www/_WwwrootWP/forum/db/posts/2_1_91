@@ -1,0 +1,34 @@
+<?php
+
+$psubject="Enhancements to Change Case of Selected Text -- Cycle Case (or Menu); Maintain Selection ";
+$pcontent="Enhancement - Change operation of &#34;change case of selected text&#34; to cycle between lowercase, Sentence case, Initial Capital (Word Case), and UPPERCASE.
+
+Alternative - Upon keypress, display a small menu that offers a choice of 
+   L/N - lower or normal, 
+   S/I - sentence or initial, 
+   T/W - title or word, and 
+   U/C - upper or capital.  
+
+* Some people will relate more to one set of terms than the other, so both are presented in the menu.
+* Offering both sets of abbreviations facilitates use when both hands are on the keyboard (given the awkward reach for Alt-` that mispositions the left hand) as well as when one hand is on the keyboard and one is on the mouse.
+* When a single word is selected, S/I/T/W have the same result.
+* All of this could be implemented by creating a Change Case floating menu except for supporting multiple shortcuts for a menu item.  (Some of you may see a way to do even that.)
+
+Enhancement - After changing text, leave the (changed) text selected.  
+
+Text";
+$pauthor="BillR";
+$pdate="1111084500";
+$plastdate="1111131258";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="314";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|Leshiy|AGu";
+$psticky="";
+
+?>

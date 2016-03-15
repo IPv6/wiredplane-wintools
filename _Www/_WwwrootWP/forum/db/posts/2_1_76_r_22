@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK3.3.4 released.
+- Ability to put on desktop link to any action (expand action`s hotkey to find out how)
+- Ability to add wkm macros into WireKeys by simply double-clicking its file
+- New macros api, for example to load URLs into JScript variable. This gives great ability to retrieve different information directly into macro. As an example you can look at rambler`s translations macro at this site
+Fixed:
+- Crash after applying changes to recorded macro without reopening preferences
+";
+$rauthor="WiredPlane";
+$rdate="1135646414";
+$rip="195.209.143.44";
+
+?>

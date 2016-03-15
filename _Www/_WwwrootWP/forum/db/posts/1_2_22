@@ -1,0 +1,20 @@
+<?php
+
+$psubject="New widgets available";
+$pcontent="With release of WireChanger version 3.2 new widgets available.
+More is coming soon! %)";
+$pauthor="WiredPlane";
+$pdate="1126685901";
+$plastdate="1126685901";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="878";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|pharaon|garry63|JWartist";
+$psticky="";
+
+?>

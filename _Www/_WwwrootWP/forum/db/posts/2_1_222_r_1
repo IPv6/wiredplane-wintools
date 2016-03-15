@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Bug in &#34;Warning&#34; window ?";
+$rcontent="Bad :( Yes, this is a bug. you can workaround it by enabling alert title (prefs-&#62;options-&#62;additional options-&#62;place alerts on taskbar)
+Will be fixed!";
+$rauthor="WiredPlane";
+$rdate="1168611538";
+$rip="195.210.162.152";
+
+?>

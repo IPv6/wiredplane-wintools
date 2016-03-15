@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Замена ALT-TAB";
+$pcontent="Всем привет.
+Подскажите можно ли реализовать замену комбинации клавиш ALT-TAB например на ALT-Backspace с помошью Wirekeys (или плагина) -  я левша на мышь.
+Любые идеи как это сделать приветсвуются.   ";
+$pauthor="Anonimus";
+$pdate="1139925094";
+$plastdate="1155904268";
+$pimage="5.gif";
+$plastreply="6";
+$plastauthor="WiredPlane";
+$preplies="6";
+$pviews="1141";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous|pharaon|SkyRE|AlexZ|Anonimus";
+$psticky="";
+
+?>

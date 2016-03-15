@@ -1,0 +1,142 @@
+body {
+	color: #000;
+	font-family: "Bitstream Vera Sans", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background: #DDD url('../images/back.gif');
+}
+
+td.snapsTable {
+	width: 33%;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px;
+	background: #EEE;
+	color: #666;
+	border: 1px solid #666;
+}
+
+h1 {
+	padding: 5px;
+	margin: 0;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	color: #00B;
+}
+
+a:hover {
+	color: #666;
+}
+
+.snapsCrumb {
+	clear: both;
+	text-align: left;
+	background: #EEE;
+	color: #666;
+	border: 1px solid #666;
+	padding: 10px;
+	margin: 0 10px;
+}
+
+.snapsNotes {
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+.snapsCopy {
+	width: 680px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	margin-top: 10px;
+	background: #FFF;
+	color: #000;
+	border: 1px solid #666;
+}
+
+input {
+	font-size: 11px;
+}
+
+textarea {
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#adminav {
+	list-style: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+#adminav a {
+	display: block;
+	padding: 6px;
+	margin-bottom: -6px;
+	background: #EEE;
+	color: #AAA;
+	font-weight: bold;
+	border: 1px solid #AAA;
+	text-decoration: none;
+}
+
+#adminav a:hover {
+	display: block;
+	padding: 6px;
+	margin-bottom: -6px;
+	background: #FFF;
+	color: #009;
+	font-weight: bold;
+	border: 1px solid #009;
+	text-decoration: none;
+}
+
+#adminav a.cur {
+	display: block;
+	padding: 6px;
+	margin-bottom: -6px;
+	background: #FFF;
+	color: #009;
+	font-weight: bold;
+	border: 1px solid #009;
+	text-decoration: none;
+}
+
+html>body #adminav a {
+	margin-bottom: 4px;
+}
+
+html>body #adminav a:hover {
+	margin-bottom: 4px;
+}
+
+html>body #adminav a.cur {
+	margin-bottom: 4px;
+}
+
+#content {
+	text-align: left;
+}
+
+#content .box {
+	margin-left: 10px;
+	background: #EEE;
+	padding: 4px;
+	border: 1px solid #666;
+	line-height: 18px;
+	width: 520px;
+}
+
+.adminTD {
+	text-align: center;
+	vertical-align: middle;
+}

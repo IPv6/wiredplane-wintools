@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE:  [ANN] WireNote updates";
+$rcontent="released beta version of WN3.1
+It can be downloaded here:
+http://www.wiredplane.com/download/wirenote_.zip
+";
+$rauthor="WiredPlane";
+$rdate="1148989728";
+$rip="195.245.232.22";
+
+?>

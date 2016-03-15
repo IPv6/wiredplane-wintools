@@ -1,0 +1,32 @@
+<?php
+
+$psubject="Announcement of the new release of WireKeys";
+$pcontent="Hello! We are decided to announce new version of WireKeys
+
+New features is short:
+- Definable actions on double clicking tray icon with left, right or middle mouse buttons
+- CD ejecter improvements
+- Launch set`s hierarchy in preferences.
+- New hotkey to show current date and time in OSD
+- Active tracking of all recently installed applications. 
+- New plugin - Window`s resizer (can be downloaded from www.wiredplane.com)
+- New plugin - Text screenshot (can be downloaded from www.wiredplane.com). Can be used to extract text from elements of almost any dialog
+- New hotkey modifier - &#34;Press & hold&#34;. Now you can &#34;press & hold&#34; key combination to create unique hotkey.
+- Macro recorde improvements: plugin`s internal format (old Jscript-SendKeys format will be available too) which is capable of recording mouse movements and extended keyboard keys
+
+Fixed know bugs";
+$pauthor="WiredPlane";
+$pdate="1081792713";
+$plastdate="1081792713";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="846";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Пункт меню &#34;Дополнительно&#34;";
+$pcontent="А куда делся пункт меню &#34;Дополнительно&#34; из контектсного менбю эксплорера? Было удобно имена файлов копировать в буфер...";
+$pauthor="McStar";
+$pdate="1138625754";
+$plastdate="1138644159";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="775";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|ValeraVi|WiredPlane|FAST";
+$psticky="";
+
+?>

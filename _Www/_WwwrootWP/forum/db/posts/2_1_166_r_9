@@ -1,0 +1,18 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="can you try WK 3.4.2? when you`ll have spare time for trying of course.
+
+to create debug log to help us find the reason of the bug, open preferences-&#62;global option-&#62;additional options-&#62;WireNote integration (last checkbox). check it and restart WK.
+after that try to start different links by hotkey. wiredplane_debug.log in the c:// will be created.
+
+you can read it and modify if you find something to be private, path to lnk files for example. 
+
+if this is possible - replace several characters by * char in strings that you find private to scrable them, but leave whole structure intact.
+
+then send the log to us.";
+$rauthor="WiredPlane";
+$rdate="1142236015";
+$rip="195.245.232.22";
+
+?>

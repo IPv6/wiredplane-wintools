@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Proposal: List of recently used folders";
+$rcontent="We are just working over plugin with this functionality. The difference is that we will add configurable folders (not recent, but this is not a point - you just have to define all your favourite folders one time and use them forever). And our plugin will work not only in the save/load dialogs, but in the ordinary Explorer windows too (in other words, you will be able to just into any favourite folder in one click from any location)";
+$rauthor="WiredPlane";
+$rdate="1096014921";
+$rip="195.245.232.12";
+
+?>

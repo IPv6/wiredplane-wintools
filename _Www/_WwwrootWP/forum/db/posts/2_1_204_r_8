@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Wirekeys problem with Outlook Attachments";
+$rcontent="I am very happy that you have recreated the problem and found the solution!  Thank you  :)
+
+I can try to reinstall the beta and tell you more about the freezing ... Depends on time ...
+
+Also to let you know ... the shell extender plugin was never enabled.  When I go there, it has a link to enable it and there is no checkmark in the box.
+
+Thanks!!!";
+$rauthor="scyborski";
+$rdate="1152892487";
+$rip="67.155.1.146";
+
+?>

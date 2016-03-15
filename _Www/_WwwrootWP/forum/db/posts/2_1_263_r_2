@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Action when closing WirkeKeys";
+$rcontent="[quote]Did you want to see such reminder before shutdowning your computer too, for example?[/quote]
+No, not necessary.
+The background is, that sometimes I work at a customer.
+I&#39;m working there with WK running from stick.
+When I leave at evening I close WK (via systray).
+Then I went home and will notice having forgotten my stick.
+Therefore I want a reminder initiated by WK when about to close.
+
+Could it be done?";
+$rauthor="Richy";
+$rdate="1203585905";
+$rip="212.185.98.165";
+
+?>

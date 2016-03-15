@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Bug? - &#34;Change Text of Selected Text&#34; Pastes Buffer 1";
+$rcontent="Nice to hear you again! %)  :glad
+This is really have to be documented, but the problem is in the fact, that without selecting any text, all text operations will use actual content of clipboard (there is no way to distinct between selection and previous clip content)
+i assume you are copied something into 1st buffer before performing steps about ^)
+";
+$rauthor="WiredPlane";
+$rdate="1111131125";
+$rip="195.209.143.44";
+
+?>

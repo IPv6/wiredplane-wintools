@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="Accidentally WireChanger 3 was *released* today too %)
+------------------------------------------------------
+Among other features new registrations keys were implemented. All registrered users should send email from registration address and ask for new key. This is COMPLETELY free for already registered users.
+
+WireChanger will be updated soon again with some features that we planned for 3rd version";
+$rauthor="WiredPlane";
+$rdate="1115202913";
+$rip="195.245.232.12";
+
+?>

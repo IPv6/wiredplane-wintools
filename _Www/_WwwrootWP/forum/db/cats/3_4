@@ -1,0 +1,18 @@
+<?php
+
+$fname="Suggestions";
+$fdescription="Suggestions, Ideas and anything else to improve our software";
+$flasturl="post.php?cat=3&fid=4&pid=30&page=1";
+$flastauthor="WiredPlane";
+$flastpost="1205799463";
+$freplies="80";
+$ftopics="30";
+$fusers="|all";
+$fvisitors="|WiredPlane|Anonymous|Kein|Richy";
+$flock="unlocked";
+$fallowreply="1";
+$fsticky="";
+$flastpostnumber="30";
+$fhide="";
+
+?>

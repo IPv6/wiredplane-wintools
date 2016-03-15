@@ -1,0 +1,50 @@
+Hello <%FIO%>,
+
+Thank you for registering <%PRODUCT%>. This e-mail contains a registration code 
+which can be used to unlock all features of this application and remove all trial limitations. 
+It is therefore strongly recommended to print it out now and to keep it safe.
+
+We would be happy if you could send us a very short email with answers to 3 questions:
+1) Where did you first hear/read about <%PRODUCT%>?
+2) The main reasons why you finally registered <%PRODUCT%> instead of another product
+3) The main features of <%PRODUCT%> that made you hot for it.
+   This will help us to focus on features people are really interested in
+
+************************************************************************
+************************************************************************
+To register <%PRODUCT%> with the information 
+received in this email:
+
+1A. Save the email with the registration key to a file
+ or 1B. Copy *whole* email to the clipboard .
+
+2. Open <%PRODUCT%>'s preferences.
+
+3. Click on 'Registration' item in the left pane and then (in the right pane)
+click 'Insert from file' if you did 1A above or 
+click 'Insert from clipboard' if you did 1B above.
+
+4. Click 'OK' and restart <%PRODUCT%>.
+	
+************************************************************************
+************************************************************************
+Registration name:      <%REGNAME%>
+Serial number:          <%REGKEY%>
+************************************************************************
+************************************************************************
+
+Important note: If you expirience any problems - make sure you have latest version 
+of <%PRODUCT%>. You can download it anytime for free at http://www.WiredPlane.com.
+
+If you wish to buy more licenses to this or other products, contact us.
+We offer a flexible system of discounts for purchasing more than 5 licenses 
+at the same time, an unlimited site license, or for educational organizations. 
+
+Purchasing multi-user site licenses offers you a cost saving when you 
+implement our products throughout your organization, institution or business.
+
+If you have any suggestions or remarks to our products,
+ don`t hesitate to contact us :)
+-------------
+Best regards,
+WiredPlane Labs (mailto:support@wiredplane.com)

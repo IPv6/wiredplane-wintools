@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Will Not Display Reminders ";
+$pcontent="If I create a reminder that will be activated to pop up at a time when my computer is turned off that reminder will not pop  up the next time my computer turned is on.
+
+Example:  Reminder set to display on January 10.  Computer not turned on until January 12. - Reminder does not pop up.
+
+How do I set WireNote to have the reminder pop?
+
+If WireNote will pop up as above, it will be a very useful program.
+
+Thank you.";
+$pauthor="Anonimus";
+$pdate="1105897303";
+$plastdate="1108417079";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="WiredPlane";
+$preplies="2";
+$pviews="976";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AGu|Anonimus|pos";
+$psticky="";
+
+?>

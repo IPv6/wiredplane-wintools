@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Saving WK Configuration?";
+$pcontent="Is there an easy way to save Wire Keys configuration? By that I mean is there something like a single file ( *.ini?)to copy to a safe place in case of emergecy overwriting by (eg) Ghost image?--Also is there an easy way to make a Hot Key NOT to open Add/remove, but to actually start the removal process? ( without going into Control Panel etc.) Thanks for any feedback. Ian.";
+$pauthor="hulland";
+$pdate="1098823534";
+$plastdate="1098862557";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="300";
+$pnotify="|hulland";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|jaco|BillR|stepone";
+$psticky="";
+
+?>

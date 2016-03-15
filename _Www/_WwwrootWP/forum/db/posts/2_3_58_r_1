@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: New User - Some questions";
+$rcontent="1) Such case is not currently supported. We will add it, thanks for suggestion!
+2) It is possible to use ip address with other WireNotes over internet. to do this add you friends with computer address like
+128.3.24.33/xpc
+
+other protocols are oriented on LAN networks, except email protocol which is using POP3/SMTP exchange for delivering messages";
+$rauthor="WiredPlane";
+$rdate="1143541475";
+$rip="195.245.232.22";
+
+?>

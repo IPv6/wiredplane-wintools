@@ -1,0 +1,37 @@
+<?php
+
+$psubject="Idea on some customization";
+$pcontent="Hi Guys,
+
+first of all: WireNote seems like a neat tool. Thanks for providing it for free. Being a freeware software author myself, I know the amount of time the developer ends up spending on the tools; but at the end, users do appreciate it.
+
+Now, I have some suggestions. 
+
+1) Would it be possible to disable some functions in WireNote? It may sound like a strange request, but there are some good reasons. Presently, I am using WireNote only for Reminders. Once I get a bit more used to it, I can imaging I would use ToDo and Notes a lot more. However, I wouldn&#39;t be using any of the Network feature, Address book, or Mail checker. By having a disabling feature option, we can then have a much neater right-click on tray-icon: or perhaps even allow the user to customize right-click tray-icon.
+
+2) Option to choose a user directory from the software instead of command line parameters. For backup purposes, I like to keep all my data file in different drive that windows. I looked through all the option in preferences several times before finding the &#34;Profile&#34; folder option in help manual.
+
+3) Searchable CHM file
+
+Thanks again for a lovely software.
+
+regards
+
+Rana Hossain
+http://www.ranainside.com/
+";
+$pauthor="Anonimus";
+$pdate="1120763578";
+$plastdate="1121989702";
+$pimage="2.gif";
+$plastreply="4";
+$plastauthor="Rana";
+$preplies="4";
+$pviews="1124";
+$pnotify="|Rana";
+$plock="";
+$pip="";
+$pvisitors="|Rana|WiredPlane|Anonimus|Urza|fzirp|McStar|pos|Anonymous|Milan";
+$psticky="";
+
+?>

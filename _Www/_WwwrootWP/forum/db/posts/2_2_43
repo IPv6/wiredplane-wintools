@@ -1,0 +1,28 @@
+<?php
+
+$psubject="I am looking for a software that will do these";
+$pcontent="Hello all, I am looking for a &#34;slideshow&#34; software that has these features;
+1] Will show in &#34;Fullscreen&#34; mode.
+
+2] Have controls like &#34;Pause, previous, next&#34;.
+
+3] While on &#34;Pause&#34;, can &#34;zoom&#34; in or out of image.
+
+4] Will show all images in slideshow without seeing an image &#34;twice&#34; until the software has shown every image in a folder so it starts the cycle again. 
+
+  Thanks.";
+$pauthor="mikehende";
+$pdate="1120746864";
+$plastdate="1121238032";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="1293";
+$pnotify="|mikehende";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|mikehende|Zoldex|CynthiaBlue|jrwatts|heige";
+$psticky="";
+
+?>

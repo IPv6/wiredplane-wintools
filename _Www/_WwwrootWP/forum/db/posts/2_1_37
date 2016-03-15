@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Proposal: List of recently used folders";
+$pcontent="Hello,
+
+I use since long time one small utility, that adds &#39;List of Recent files&#39; and &#39;List of Recent folders&#39; into the every &#34;Save as/Open&#34; dialog window.
+
+It&#39;s very conveniant - especially for the old Windows version. 
+
+Unfortunatelly, this utility is quite old and absolutely not configurable. 
+
+Is it possible to include such functionality into WiredKeys? It could be really great!";
+$pauthor="stepone";
+$pdate="1095943582";
+$plastdate="1096613378";
+$pimage="1.gif";
+$plastreply="6";
+$plastauthor="WiredPlane";
+$preplies="6";
+$pviews="580";
+$pnotify="|stepone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|BillR|jaco";
+$psticky="";
+
+?>

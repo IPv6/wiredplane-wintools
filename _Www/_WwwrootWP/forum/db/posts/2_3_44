@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Problem when used with 2 monitors";
+$pcontent="Hello,
+I just download the lastest version of wirenote (3.0) and it it doesn&#39;t manage well the fact that I&#39;ve got two monitors. Wirenote seems to record its position relatively to a single screen each time I close it, but when I open it again, this position is then relative to the two monitors, and I can then only see the top of the window. Hope you understand my explanation :? However it&#39;s annoying, and I come back to the last version, which worked properly, waiting for someone to explain me if it can be fix
+
+thanx
+
+dweezil";
+$pauthor="Anonimus";
+$pdate="1130316910";
+$plastdate="1130949865";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="Anonimus";
+$preplies="2";
+$pviews="996";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus";
+$psticky="";
+
+?>

@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Apple Mighty Mouse support";
+$pcontent="Is it possible to implement? 
+People need this in demand,because of no windows driver available from Apple.";
+$pauthor="triplex";
+$pdate="1169219178";
+$plastdate="1195408106";
+$pimage="5.gif";
+$plastreply="5";
+$plastauthor="triplex";
+$preplies="5";
+$pviews="913";
+$pnotify="|triplex";
+$plock="";
+$pip="";
+$pvisitors="|triplex|WiredPlane|garry63|pharaon|Anonimus";
+$psticky="";
+
+?>

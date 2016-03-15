@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN] Taskbar extender";
+$pcontent="Please, leave your comments here (in English if this is possible).";
+$pauthor="WiredPlane";
+$pdate="1103819980";
+$plastdate="1139232934";
+$pimage="1.gif";
+$plastreply="12";
+$plastauthor="SkyRE";
+$preplies="12";
+$pviews="3148";
+$pnotify="|feedbee";
+$plock="";
+$pip="";
+$pvisitors="|SkyRE|WiredPlane|ValeraVi|pharaon|Anonymous|wtiger";
+$psticky="";
+
+?>

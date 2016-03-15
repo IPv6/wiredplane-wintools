@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: How to show a hidden app via hotkey?";
+$rcontent="Currently via script. You can activate main app window by its name, this will automatically unhide it.
+ But this is not intended.. may be there will be some glitches, it depends on application. If they will let me know!";
+$rauthor="WiredPlane";
+$rdate="1204339409";
+$rip="92.36.16.195";
+
+?>

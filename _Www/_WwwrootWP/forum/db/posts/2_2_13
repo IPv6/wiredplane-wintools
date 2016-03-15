@@ -1,0 +1,20 @@
+<?php
+
+$psubject="ANN: WireChanger 2.7.2";
+$pcontent="New update to WC package: WC 2.7.2
+New features (including new visual effects) and some bugfixes";
+$pauthor="WiredPlane";
+$pdate="1092377314";
+$plastdate="1092377314";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="529";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Анонс";
+$pcontent="Кстати, следующая версия ВК будет есть намного меньше памяти и быстрее работать!
+
+";
+$pauthor="Anonymous";
+$pdate="1151477780";
+$plastdate="1151516152";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="McStar";
+$preplies="3";
+$pviews="785";
+$pnotify="|Anonymous|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|pharaon|triplex|Anonimus|garry63|Digitall|AlexZ|ValeraVi|Anonymous|LAVir";
+$psticky="";
+
+?>

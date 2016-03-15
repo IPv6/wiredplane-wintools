@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Can&#39;t get Wire Keys to work with eEye Blink Firewall/AV software";
+$pcontent="Hello there --
+
+I have been a long time user of Wire Keys.  However, our company just recently changed personal firewall/av software from ZoneAlarm to eEye Blink and now my WireKeys won&#39;t start up at all.  And a number of times that I&#39;ve tried to reinstall the software, it just crashes the entire system...
+
+Would you be able to give some advice?  Thank you.
+
+";
+$pauthor="Anonymous";
+$pdate="1179517521";
+$plastdate="1179957763";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="Anonymous";
+$preplies="2";
+$pviews="409";
+$pnotify="|Anonymous";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane|AzazelSP";
+$psticky="";
+
+?>

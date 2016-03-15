@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE:  [ANN] WireNote updates";
+$rcontent="Released WN 2.4
+New features:
+- smiles in the notes/messages/etc (type :lol for example)
+- option to automatically resend message that was not delivery properly every 5 mins
+- click-through notes
+- usability improvements
+- automatic link highlighting
+- simple link checker
+";
+$rauthor="WiredPlane";
+$rdate="1149582451";
+$rip="195.245.232.22";
+
+?>

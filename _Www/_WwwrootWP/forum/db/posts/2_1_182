@@ -1,0 +1,19 @@
+<?php
+
+$psubject="@RMB question";
+$pcontent="  Назначил @RMB-@MOverMin на &#34;Спрятать активное окно в трэй&#34;.И теперь иногда какие-то окна/приложения сворачиваются в трей/floater просто по @RMB ...";
+$pauthor="triplex";
+$pdate="1142975336";
+$plastdate="1143439110";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="790";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SkyRE|triplex|stepone|psYman|garry63";
+$psticky="";
+
+?>

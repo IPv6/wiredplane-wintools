@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WC 3.2 Released. New features are: option to set period in minutes and hours for remining, support for new features used in new widgets (wallpaper controls and image frame - can be taken from our site)";
+$rauthor="WiredPlane";
+$rdate="1126685734";
+$rip="195.245.232.12";
+
+?>

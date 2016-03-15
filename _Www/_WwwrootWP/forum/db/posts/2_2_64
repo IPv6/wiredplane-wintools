@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Падение программы при отказе добавления картинки";
+$pcontent="После загрузки винды выдаётся предложение о добавлении картинки в галерею. При нажатии кнопки &#34;нет&#34; программа вылетает.";
+$pauthor="McStar";
+$pdate="1179123092";
+$plastdate="1179817045";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="704";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Mitiuha";
+$psticky="";
+
+?>

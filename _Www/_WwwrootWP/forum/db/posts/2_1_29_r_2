@@ -1,0 +1,21 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="[quote]
+To send window to the screen edge middle-click or right-click on window border (when cursor changes to the resize arrows)
+To maximize window up-down ot left-right double-click right button on the desired edge. if you with to assign hotkeys to that actions - we will add them.
+[/quote]
+
+That would be great! 
+
+Would the following maybe be possible too?
+-Ability to open &#39;My Computer&#39; folder by hotkey. Maybe this is already possible and I just am doing s/t wrong?
+-Option to rollup window by double left-click, like macintosh. 
+
+Thanks!
+";
+$rauthor="jaco";
+$rdate="1092190717";
+$rip="66.114.67.40";
+
+?>

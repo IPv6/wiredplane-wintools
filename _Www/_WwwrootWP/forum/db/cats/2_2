@@ -1,0 +1,18 @@
+<?php
+
+$fname="WireChanger";
+$fdescription="New releases, betas and future plans, etc.";
+$flasturl="post.php?cat=2&fid=2&pid=78&page=1";
+$flastauthor="WiredPlane";
+$flastpost="1212715505";
+$freplies="356";
+$ftopics="78";
+$fusers="|all";
+$fvisitors="|WiredPlane";
+$flock="unlocked";
+$fallowreply="1";
+$fsticky="0";
+$flastpostnumber="78";
+$fhide="";
+
+?>

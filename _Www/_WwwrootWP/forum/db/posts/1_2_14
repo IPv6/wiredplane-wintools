@@ -1,0 +1,19 @@
+<?php
+
+$psubject="WireNote 2.7 released";
+$pcontent="WireNote 2.7 released. Main advantage of this version - billboarding support. Great for using WN in LANs:)";
+$pauthor="WiredPlane";
+$pdate="1108816542";
+$plastdate="1108816542";
+$pimage="2.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="887";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|sam";
+$psticky="";
+
+?>

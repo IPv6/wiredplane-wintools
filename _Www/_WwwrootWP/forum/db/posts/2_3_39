@@ -1,0 +1,30 @@
+<?php
+
+$psubject="I can not use some national characters in wireNote.";
+$pcontent="Hi,
+
+WireNote is realy very good program, but I have some problems to fully use it.
+I can not use some national character (Polish) in wireNote.
+To write this character it is needed to press right ALT and corresponding letter (e, o, a, s, l, z, x, c, n).
+In ToDo module only ALT-O does not work (after removing some predefined shortcut in preferences).
+In Notes module only ALT-z, ALT-x and ALT-c works. 
+Is it possible to correct this in new version?
+
+br
+Darek 
+";
+$pauthor="Anonimus";
+$pdate="1119447084";
+$plastdate="1127978478";
+$pimage="1.gif";
+$plastreply="8";
+$plastauthor="orion";
+$preplies="8";
+$pviews="1087";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|orion|WiredPlane";
+$psticky="";
+
+?>

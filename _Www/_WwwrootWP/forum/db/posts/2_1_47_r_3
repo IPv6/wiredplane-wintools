@@ -1,0 +1,19 @@
+<?php
+
+$rsubject="RE: Empty Bin / Windows key";
+$rcontent="Yes, preferences section does not look not very usual :-)
+
+Maybe, You can add something like &#39;Find Option&#39; - small input line in the bottom of the screen, like i.e. in TOAD or in the TheBat!
+
+&#34;Copy&#34; function (for hotkeys) could be useful. 
+
+It&#39;s also good idea to ask confirmation before saving options file, if such file already exists
+
+PS Well, I still use free version - maybe, it&#39;s fixed in the full version? 
+
+PPS Do You plan special X-Mass version? It will be good reason to buy :-)";
+$rauthor="stepone";
+$rdate="1100288478";
+$rip="53.122.192.14";
+
+?>

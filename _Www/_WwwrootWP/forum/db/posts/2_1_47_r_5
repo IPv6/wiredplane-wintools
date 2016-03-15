@@ -1,0 +1,25 @@
+<?php
+
+$rsubject="RE: Empty Bin / Windows key";
+$rcontent="[quote] what you mean under &#34;Copy hotkey&#34;? clarify please %)[/quote]
+
+Just example: I have a lot (so, it&#39;s 5 :-) ) similar applications. I want to assign them to the hotkeys Win+1 , Win+2 , Win+3  and so on.
+Now I do it the following way: 
+- create the first hotkey (Win+1)
+- save configuration to XML-file
+- edit the result XML fle manually, copying first hotkey four times
+- load configuration from XML to WK
+- make additional changes (if any)
+
+All this long running process could be replaced by &#34;Copy hotkey&#34; operation
+
+[quote]About special christmass edition - it`s nice idea :) we can add support for special &#34;XMass&#34; and &#34;Holidays&#34; buttons on thouse keyboards that support them... 
+ :D[/quote]
+
+Well, usually &#34;X-Mass version&#34; means &#34;Special discount&#34; ;-)
+But it could be, of course, some hidden trick (&#39;Easter egg&#39;)";
+$rauthor="stepone";
+$rdate="1100366703";
+$rip="53.122.192.14";
+
+?>

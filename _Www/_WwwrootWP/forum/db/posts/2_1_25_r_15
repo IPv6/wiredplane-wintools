@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: want to get a free licence by translating";
+$rcontent="How to find what were updated: Look into the folder with WireKeys. locate WireKeys_l3.lng (or _l4 - with Ukrainian translation). Look into the file and locate last translated string (near the end of the file). Then Copy what is on the left of the last translated string (would be something like DontExcASDSDADD=) and find this string in the WireKeys_l1.lng. All string that are next to this string in the WireKeys_l1.lng :)
+
+We are still asking what we can give in exchange %)
+
+";
+$rauthor="WiredPlane";
+$rdate="1111477576";
+$rip="195.245.232.12";
+
+?>

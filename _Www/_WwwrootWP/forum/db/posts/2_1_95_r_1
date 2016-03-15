@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Hot Key to CLOSE acive window?";
+$rcontent="Windows has built-in hotkey for closing windows - Alt-F4
+You can also record macro with this keypresses and assign another hotkey for it ^)";
+$rauthor="WiredPlane";
+$rdate="1114785665";
+$rip="195.245.232.12";
+
+?>

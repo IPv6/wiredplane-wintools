@@ -1,0 +1,30 @@
+<?php
+
+$rsubject="RE: ÐžÑ‚ÐºÑ€Ñ‹Ð²Ð°ÐµÑ‚ÑÑ Ð½Ðµ Ñ‚Ð¾Ñ‚ Ñ„Ð°Ð¹Ð» Ð¼Ð°ÐºÑ€Ð¾ÑÐ°";
+$rcontent="Íàïðèìåð âîò:
+C:&#92;Program Files&#92;WiredPlane&#92;WireKeys&#92;Macros&#92;GetMD5Hash.wkm.js
+èëè
+C:&#92;Program Files&#92;WiredPlane&#92;WireKeys&#92;Macros&#92;GetMD5Hash.wkm.js
+
+Ñîäåðæèìîå äèðåêòîðèè C:&#92;Program Files&#92;WiredPlane&#92;WireKeys&#92;Macros&#92;
+
+AddFolderAsDrive.wkm
+AddToFile.wkm
+CommentMaster.wkm
+Convert2Base64.wkm.js
+DriveInfo.wkm
+FolderListing.wkm
+GetMD5Hash.wkm.js
+MouseControl.wkm
+MultilineExchange.wkm
+RecursiveCopy.wkm
+Revert.js
+Revert.js.wkm
+TimeRename.wkm
+Translit_LatRus.wkm
+Translit_RusLat.wkm";
+$rauthor="McStar";
+$rdate="1148640500";
+$rip="62.117.115.98";
+
+?>

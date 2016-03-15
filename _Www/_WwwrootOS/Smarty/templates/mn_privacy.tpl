@@ -1,0 +1,1 @@
+{include file="mn_disclaimer.tpl"}

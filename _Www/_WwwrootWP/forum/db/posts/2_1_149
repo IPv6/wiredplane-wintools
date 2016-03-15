@@ -1,0 +1,21 @@
+<?php
+
+$psubject="One more bug";
+$pcontent="There is a bug with language switching.
+If I try to switch to another language and back (i.e. first to German and then back to English), all the &#34;Application items&#34; are duplicated!
+";
+$pauthor="stepone";
+$pdate="1134558720";
+$plastdate="1135854506";
+$pimage="1.gif";
+$plastreply="7";
+$plastauthor="WiredPlane";
+$preplies="7";
+$pviews="772";
+$pnotify="|stepone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|ValeraVi|SkyRE|GregMathiesen";
+$psticky="";
+
+?>

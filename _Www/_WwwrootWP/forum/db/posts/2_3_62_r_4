@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Error Message";
+$rcontent="OK, I happened to find it and I happened to change it. Anyway, the way you do your settings including the interface could be more user friendly. It is not self-explanatory to me. But I do not want to complain too much on this.
+
+Regards";
+$rauthor="Anonimus";
+$rdate="1146844772";
+$rip="84.178.56.114";
+
+?>

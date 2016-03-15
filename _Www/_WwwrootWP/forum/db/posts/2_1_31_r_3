@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Username Pattern Equivalent";
+$rcontent="You can download new WK (updated 2.7.2) with support for environment strings. So to add user name, you`ll have to type %USERNAME%, etc";
+$rauthor="WiredPlane";
+$rdate="1092983867";
+$rip="195.245.232.12";
+
+?>

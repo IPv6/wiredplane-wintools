@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: New version questions";
+$rcontent="1) will be fixed soon!
+2) we will add separate hotkey for shutdown dialog and you will be able to call it from macro by action index anyway
+Thanks for suggestion!";
+$rauthor="WiredPlane";
+$rdate="1134462270";
+$rip="195.245.232.12";
+
+?>

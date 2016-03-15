@@ -1,0 +1,40 @@
+<?php
+
+$rsubject="Old messages";
+$rcontent="volkan  [07th September, 2003 17:45:22] 
+dont work eject/close cdrom...
+52x LG, win98 SE
+ 
+ 
+
+se  [23rd August, 2003 15:39:14] 
+I like the WK but, something is wrong (perhaps in my environment). I have tried to add
+an application,it worked fine until
+the first shutdown. By the new start it dissapeared!  
+ 
+
+Timmo  [26th July, 2003 11:58:01] 
+any chance of getting this program to remember changes to preferences in windows98???  
+ 
+
+Daniel  [25th July, 2003 07:18:42] 
+Re: Lost menu. Thank you, GMonkey.  
+ 
+
+GMonkey  [23rd July, 2003 18:31:34] 
+Daniel: Just hit Ctrl-Alt and the Number Pad&#39;s Minus key. The menu will pop up allowing you to click Preferences.  
+ 
+
+Daniel  [23rd July, 2003 17:51:26] 
+Fantastic app! Unfortunately, in the preferences, I disabled the tray icon. Is there any way I can now change the preferences?  
+ 
+
+GMonkey  [23rd July, 2003 14:50:04] 
+Very nice program. I do have a question though; does the &#34;Additional options -&#62; Distance to stick windows together (pix)&#34; option work on Windows XP? I have not noticed any stickiness at all.  
+ 
+";
+$rauthor="WiredPlane";
+$rdate="1081769581";
+$rip="195.245.232.12";
+
+?>

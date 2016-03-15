@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: I can not use some national characters in wireNote.";
+$rcontent="Hi
+
+the same is in version 3.0
+
+Br.
+Darek
+
+ps. the first post is mine (now I am registered ;) )";
+$rauthor="orion";
+$rdate="1127916449";
+$rip="195.85.249.110";
+
+?>

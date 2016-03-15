@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: New version questions";
+$rcontent="Problem with minimizing to tray: I use PIM &#34;AZZ Cardfile&#34; (www.azzcardfile.com). It has nice option &#34;minimize to trace&#34;.
+
+When this application is bound to the &#34;Windows&#34; hotkey (i.e. Win+A), and it&#39;s minimized to trace, I&#39;m not able to activate it with Win+A combination.";
+$rauthor="stepone";
+$rdate="1134555520";
+$rip="62.225.37.69";
+
+?>

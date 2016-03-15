@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Амулет трехцветья";
+$pcontent="Вышла наша первая игра, практически уже в финальном виде!
+http://game.wiredplane.com/
+
+П.С. А мы тем временем уже начали вторую игру...";
+$pauthor="WiredPlane";
+$pdate="1182929348";
+$plastdate="1182929348";
+$pimage="6.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="894";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|pharaon|McStar|garry63";
+$psticky="";
+
+?>

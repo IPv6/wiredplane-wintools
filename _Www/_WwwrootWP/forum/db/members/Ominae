@@ -1,0 +1,39 @@
+<?php
+
+$userid="32";
+$password="33b8199a303b059dfe3a3f9ace77c972";
+$username="Ominae";
+$useralias="Yu Ominae";
+$userrealname="Yu Ominae";
+$useremail="ominae@rambler.ru";
+$useremhide="";
+$userip="81.25.172.96";
+$usersig="";
+$userslogan="Badman Bloodclaat";
+$useravatar="southpark.gif";
+$usermsn="";
+$userposts="3";
+$usericq="316579235";
+$userqq="";
+$userwebavatar="";
+$userrank="1";
+$useryahoo="";
+$useraim="";
+$userlocation="казань";
+$userjoined="1092237877";
+$userhomepage="http://";
+$useradmin="0";
+$usermod="0";
+$userban="0";
+$userfriend="";
+$userlastvisit="1092260272";
+$userlastpost="1092261550";
+$userprevvisit="1092237973";
+$useranimsmilies="";
+$lastaliaschange="1092237876";
+$userlang="ru";
+$uservisits="2";
+$aliaslist="";
+$noavatars="";
+
+?>

@@ -1,0 +1,1124 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="??? ??????" -->
+<!--#set var="TOPIC_EN" value="What`s New" -->
+<!--#include virtual="/_before.shtml"--> 
+<!--#endif -->
+
+<h2>WireKeys - Version History</h2><hr>
+<table border=0>
+
+<tr><td><b>ver 3.7.1</td></tr>
+<tr><td>
+- After a long period i decided to put WireKeys (and some other programs i created) into Open Source, under GPL license. This programs (with full source code) can be found at code.google.com and can be used without any limitations. 
+Non-GPL usage (if anyone interested) can be discussed by email with me, Razinkov Ilja
+</td></tr>
+
+<tr><td><b>ver 3.7.0</td></tr>
+<tr><td>
+- Hotkeys now can be limited to choosen applications only (Expand hotkey option to find out new options) <br />
+- Hid devices support (gamepads for now). You can disable it in preferences (Hotkeys preference)<br />
+- Fixed annoying memleaks <br />
+<!-- You can hide splash on quick run activation: prepend its name with ! -->
+</td></tr>
+
+<tr><td><b>ver 3.6.8</td></tr>
+<tr><td>
+- Fixed crashes and locks on some clipboard operations<br />
+- Clipboard history and additional clipboards now works in console applications!!! Now you can finally paste text into console window (such as cmd.exe window) as usual<br />
+</td></tr>
+
+<tr><td><b>ver 3.6.7</td></tr>
+<tr><td>
+- ActivateWindowByTitle,FindWindowByTitle methods in scripting API<br />
+- Support for multiple desktops in Vista<br />
+- Reminder improvements (autoclose popups, etc)<br />
+</td></tr>
+
+<tr><td><b>ver 3.6.5</td></tr>
+<tr><td>
+- Number of columns in process list can be defined as number<br>
+- Macro recorder hang-ups fixed. Now works in Vista too.<br>
+- Fixes in "Linux-like Windows mover" plugin and "Typing statistics" plugin<br>
+- Other bug fixes and Vista compatibility improvements<br>
+</td></tr>
+
+<tr><td><b>ver 3.6.4</td></tr>
+<tr><td>
+- New features in Autotext plugin: 1) If you set "Text insertion method" in plugin preferences to "SendKeys", you will be able to use special markers in replacement string (like {LEFT}{HOME}, etc), which will change cursor position or fire control/alt key combinations; 2) In "Execute" replcement item, you can now execute macro instead of starting application. Just start replcement string with "javascript:" text (similar to in-place macro of quick-run items)<br>
+- Added new plugin: Post-it notes. It will allow you to create and manage feature-reach post-it notes (similar to post-it notes of WireNote application)<br>
+- New script methods: GetForegroundWindow,SetWindowPosition,SetWindowSize<br>
+- Additional feature added to "Run as from command line" action. Now it understands "Smart keywords" (like short bookmark name in FireFox/'g ...' for Google search in Opera, etc). You can edit list of smart keywords in preferences, for usefull smart keywords see this link: <a href="http://www.wiredplane.com/wirekeys-help/smart_keywords.shtml">Smart keywords info</a><br>
+- Text screenshot plugin fixed&updated (much more usefull now, really grabs any text in any window)<br>
+- fixed several bugs<br>
+</td></tr>
+
+
+<tr><td><b>ver 3.6.3</td></tr>
+<tr><td>
+- new script function "SwitchResolution". Aloows to set monitor resolution via script or shortcut<br>
+- improved clipboard compatibility<br>
+- fixed several bugs<br>
+</td></tr>
+
+<tr><td><b>ver 3.6.1</td></tr>
+<tr><td>
+- "Show process list" hotkey will now toggle it (show/hide) and can be shown in 1 column with/or full paths instead of simple process names<br>
+- autotext now can be spiced with patterns and env. variables<br>
+- Calendar: Right-click to popup menu with additional options<br>
+Fixed:<br>
+- Bug with deleting quick-runs from preferences using button<br>
+</td></tr>
+
+<tr><td><b>ver 3.6.0</td></tr>
+<tr><td>
+Added:<br>
+- Options are now divided in 3 parts: Main options/Hotkeys for quick-runs and macros/Plugins.As a result preferences UI is much faster now<br>
+- AutoText plugin can also save screenshots after specified amount of time<br>
+- New API functions: SaveScreenshot(path,type), Can be used to save screenshot into specified file by hotkey/schedule/etc; IsKeyPressed(code) returns is the key on keyboard is pressed or not<br>
+- Backup file format changed, Plugins preferences are saved in backup file too.
+ Attention! Backups from previous versions will not work with this one!<br>
+Fixed:<br>
+- "Unpress" hotkeys: "Pass-through" parameter is taken into account too<br>
+- Different clipboard-related issues<br>
+</td></tr>
+
+<tr><td><b>ver 3.5.2</td></tr>
+<tr><td>
+Added:<br>
+- IsVisible/SetVisible API functions<br>
+- Clipboard history improvements: now you can use right-click on item to pin/edit/delete item for futher use. Editing bitmap items will save it into file and open in editor automatically<br>
+- "Kill all ..." in the process context menu if there is more than one instance of the process<br>
+- New patterns %SELECTED_FOLDER, %SELECTED_FILE, see help for details<br>
+Fixed:<br>
+- Mutlimonitor issues<br>
+</td></tr>
+
+<tr><td><b>ver 3.5</td></tr>
+<tr><td>
+Added:<br>
+- Neat memory consumption optimization. As a result WK will now loads much faster<br>
+- New API functions - EmptyRecycleBin, OpenCD, CloseCD, StartInternetConnection, ShowPopupMenu<br>
+- Warning: after installing this update, you should re-enable non-default plugins manually, Including Autotext and quick-runs scheduler (if needed)!
+<br>Sorry for inconvinience<br>
+Fixed:<br>
+- Volume controller related bug<br>
+- Bug with opening macro in non-standart text editors<br>
+</td></tr>
+
+<tr><td><b>ver 3.4.5</td></tr>
+<tr><td>
+Added:<br>
+- Save/Open dialogs: Finally selected file will be automatically added to recent documents (even if this feature is not supported by active application). Works only when  "Recent folders" button/marks are enabled (check "Shell extension" plugin preferences)<br>
+Fixed:<br>
+- Memory leaks after several days of activity<br>
+</td></tr>
+
+
+<tr><td><b>ver 3.4.4</td></tr>
+<tr><td>
+Added:<br>
+- Calendar with all scheduled events and reminders. Check "Miscellaneous" section of tray menu<br>
+- Scripting: 'Ask' function<br>
+Fixed:<br>
+- @FJ key error<br>
+- "Copy file path/name" in Total commander<br>
+- "Arrange" type switching hotkeys in Windows XP ("Shell extender" plugin)<br>
+</td></tr>
+
+<tr><td><b>ver 3.4.3</td></tr>
+<tr><td>
+Added:<br>
+- Ability to redefine standard windows hotkeys (like Win-R or Win-F)<br>
+- Favoitite folders now works well in MS Visual Studio 2003, 2005 and MS Office 2003 and higher<br>
+- Added option to start quick-run items (applications) in backward-compatible mode (See Globals/Additional options). Use this option in case of troubles in starting lnk files<br>
+- Tootltips to minimized to tray/floater window now is in sync with window title (even when app title is dynamically changed)<br>
+- Option to disable WireKeys *completely* (with all hooks, etc) in specified applications, just type application window title in the corresponding option of "Windows helper" plugin<br>
+- Shell/Explorer extension plugin: new hotkeys added for switching current "Arrange by" mode (Name/Type/Size/Date)<br>
+- Shell/Explorer extension plugin: new "Recent folders" button added to all supported Save/Open dialogs.<br>
+- Shell/Explorer extension plugin: You should reassign hotkeys for all actions of this plugin. Sorry for inconvinience :(<br>
+- "Save/Open" dialogs: WK can add yellow mark to them. Click on it to popup list of recent folders. Experimental. Disabled by default (you can enable it in "Shell/Explorer extension" plugin preferences)<br>
+- "Save/Open" dialogs: System menu extended with "Recent folders" item<br>
+- New functions added to WireKeys API (to use them in scripts)<br>
+- Optional animation of windows hiding<br>
+- Updated Italian translation by Agostino Cavallotto<br>
+- New option in "Linux-like windows movements" plugin - protect maximized windows from such moves<br>
+- New action in "Linux-like windows movements" plugin - resize window by drawing its new rectangle and shrink/expand window by hotkey<br>
+Fixed:<br>
+- Volume OSD errors with small volume step<br>
+- Annoying "Start menu" after hotkeys with Win key<br>
+- "Replace alias after Space bar" feature fixed<br>
+- Bug with removing quick-run item using tray menu<br>
+</td></tr>
+
+<tr><td><b>ver 3.4.1</td></tr>
+<tr><td>
+Fixed:<br>
+- Whole bunch of small bugs and incompatibilities with other software titles<br>
+- Shell extender`s favourite folders bug (now they are faster and no hang-ups may occure anymore)<br>
+</td></tr>
+
+<tr><td><b>ver 3.4.0</td></tr>
+<tr><td>
+Added:<br>
+- Option to disable dragging outside taskbar in taskbar extender<br>
+- New Category option: Now you can mark category to be added into Explorer`s context menu (right-click on file/folder in explorer to check it). Works when shell extender is enabled. Great for file-oriented macros.<br>
+- Checkbox in "Shell extender" plugin: How WK should call macro with several files selected (in one call or in several independed calls with each file (default))<br>
+- New items in Explorer context menu: "Delete NOW" (works on locked files/files in use, currently beta) and "Add to PATH" - adds selected folder to system-widw environment variable "PATH". Add again to remove path from variable<br>
+- "Window sizer" plugin now have two more functions: Proportional, interactive change of window size (bigger/smaller)<br>
+- "Typing statistics", drop button: plugin will ask to save statistics into file first<br>
+- "Taskbar extender" now can close windows by middle-clicking its taskbar button<br>
+- Serious speed up in desktop switcher<br>
+Fixed:<br>
+- Desktop switcher bugs<br>
+- Overlapped OSD lines in some cases<br>
+- WinAmp auto-start after screensaver/locking<br>
+- Bug in "Right-click paste enchancer" plugin. It is recommended to redownload it from our site. Bug could cause application crash on some programs<br>
+- Bug in "Taskbar extender" plugin on Windows 2000. It is recommended to redownload it from our site. Bug could cause application crash on some programs<br>
+- Bug in starting lnk files via hotkey<br>
+- Bug in keyboard layout switcher<br>
+</td></tr>
+
+
+<tr><td><b>ver 3.3.6</td></tr>
+<tr><td>
+Added:<br>
+- Updated Italian translation by Agostino Cavallotto<br>
+- Prefereneces, right-click on selected option: menu item to reset current setting to default value<br>
+- Shift-Click or Control-click on favourite folders will open selected item in separate window<br>
+- Option to deinstall plugins from WireKeys (check unused plugin options)<br>
+- Mouse gestures are now drawing over desktop for better visibility<br>
+- New macro functions added<br>
+- Plugin API changes<br>
+- Now you can change window 'on-top' state directly from window`s system menu (right-click on application taskbar button to find our more)<br>
+- Now you will be always able to distinct 'on-top' windows from others: WK will automatically change icon of sucj windows. Can be disable (Check "Active windows" section of preferences)<br>
+Fixed:<br>
+- Missed 'W' mouse gesture were found<br>
+</td></tr>
+
+<tr><td><b>ver 3.3.5</td></tr>
+<tr><td>
+<font size=+1>Happy new Year! :)</font><br>
+Added:<br>
+- Sound added when hotkey is triggered (disabled by default)<br>
+- Sound added when remote button is pressed (see Remote plugin options)<br>
+- Typing sound added (random/artistical, check keyboard section of preferences)<br>
+- Updated Italian translation by Agostino Cavallotto<br>
+- Prefereneces, Additional: menu item to reset current setting to default value (not all)<br>
+</td></tr>
+
+<tr><td><b>ver 3.3.4</td></tr>
+<tr><td>
+Added:<br>
+- Option to ignore character case in aliases<br>
+- Quick-run/Macro option to force item to be placed in the root menus (tray, hot menu, etc) instead of corresponding submenu. Convinient for quick access to important macros/quick-runs<br>
+- Ability to put on desktop link to any action (expand action`s hotkey to find out how)<br>
+- Ability to add wkm macros into WireKeys by simply double-clicking its file<br>
+- Ability to quickly add typing alias to any action. Expand action`s hotkey to add it or remove old one. Autotext plugin must be enabled to use this feature<br>
+- New macros api, for example to load URLs into JScript variable. This gives great ability to retrieve different information directly into macro<br>
+- Clipboard`s history menu: item icons are based on originating application from now<br>
+- Clipboard`s history menu: new hotkey to show application-specific history. 
+Press hotkey to get items that were taken from the active application.
+Convinient to create application-specific clips for later use<br>
+- New inline calculator aliases: "999(h)=" -> "3E7", "FFFF(d)=" -> "65535", "999(o)=" -> "1747"<br>
+Fixed:<br>
+- Bug with autohide cursor feature<br>
+- Bug with OSD on 16b video modes<br>
+- Crash after applying changes to recorded macro without reopening preferences<br>
+</td></tr>
+
+<tr><td><b>ver 3.3.2</td></tr>
+<tr><td>
+Added:<br>
+- Hotkey to show standard shutdown dialog<br>
+- If CPU usage exceeds 40% limit, tray icon tooltip will be completed with the name of the CPU-consuming process<br>
+- Option to disable double-press behaviour of Launch sets (do not start all applicationf from the set even if hotkey was double-pressed)<br>
+- Hotkey to show/hide small calendar (1-4 months). See Scheduler options<br>
+- Hotkey to create simple reminders that are not connected to specific action. See Scheduler options<br>
+- Ability to assign multiple schedules to the same item (quick-run, macro or action)<br>
+- Now you can set permanent command line options for starting WireKeys in registry. Create registry key HCU\SOFTWARE\WiredPlane\WireKeys and
+set value "CommandLine". Example: to force WireKeys to save all preferences in C:\TEMP\WSETTINGS, set reg value CommandLine=> -ul="C:\TEMP\WSETTINGS"<br>
+- New options for quick-run items: 1) What to do if the same application is already started (close/kill previous instance and more), 2) Set application`s window opacity after start<br>
+- New Winamp hotkey - start/stop visualization plugin<br>
+- New language added - Korean, thanks to Taewon Yun<br>
+- Confirmation for Quick-run deletion was added<br>
+Fixed:<br>
+- fixed bug with default quick-runs clones after changing UI language<br>
+- bug with screensaver randomization<br>
+- fixed incompatibilities of some file-oriented macros and Explorer-like applications<br>
+</td></tr>
+
+<tr><td><b>ver 3.2.6</td></tr>
+<tr><td>
+Added:<br>
+- UI,Preferences: buttons for common actions over quick-runs added<br>
+- Option to protect preferences with code word (WK will ask it every time someone is trying to access preferences dialog)<br>
+- Reminders can play mp3/wma/midi/etc files from now<br>
+- Option to allow the following: If you start hotkey from "Pause keyboard" key, it will be automatically switched into "Sequence" mode<br>
+- New function to set WK options from script. This can be used to change parameters of WK by schedule. For example, to change application that will be started on screen saver activation, one can use the following line in the script: WireKeys.SetWKOption("ScreenSaverAutoStartFile","c://path_to_exe_file");<br>
+- Typing stats can be saved to file from script using the following line: WireKeys.CallPlugin('WP_TypeStats','save c:\\path_to_file.txt');<br>
+- Other function (available from JScript/VBScript) to control windows and applications<br>
+- Now you can use infrared remote buttons in your hotkeys via <a href="http://winlirc.sourceforge.net/">WinLIRC</a> (Must be up and running). To use them first enable "<a href="http://winlirc.sourceforge.net/">WinLIRC</a>" plugin (<a href="http://winlirc.sourceforge.net/">WinLIRC</a> must be up and running too). Then add buttons by simply pressing them while editing hotkey or you can choose them using hotkey context menu. Remote buttons are sequensed, so you can use sequences like '1-2-3-Play' to start something<br>
+- Option to allow WK to work in high priority mode<br>
+Fixed:<br>
+- Fixed bug with MediaPlayer control macro in Excel<br>
+- Full desktop redraw when browsing preferences<br>
+- Bug in macro recorder with the last mouse click<br>
+- Bug with screen borders in hotkeys<br>
+</td></tr>
+
+<tr><td><b>ver 3.1.2</td></tr>
+<tr><td>
+Added:<br>
+- Typing statistics plugin (can be taken from www.wiredplane.com)<br>
+- Some keyboard options (block Apps/Win/CapsLock/Pause hotkey) were moved to "Keyboard" section of preferences (from section Common->Hotkeys)<br>
+- Misc. sections of preferences were moved in proper categories<br>
+Fixed:<br>
+- Bug with tray icon when CPU usage with lang indicator were enabled in the same time<br>
+</td></tr>
+
+<tr><td><b>ver 3.1.1</td></tr>
+<tr><td>
+Added:<br>
+- New hotkey type (behaviour) - "Sequence". Hotkey of this type will be triggered 
+when you type keys exactly in the same order as they were added to hotkey.
+Example: create 'sequence' hotkey "Ctrl-W-O-R-D". Then press key 'Control' (and unpress it), 'W' (and unpress it),'O' (and unpress it),'R' (and unpress it),'D' (and unpress it), in this order to activate it.
+Something like typing hotkey in invisible console (regardless of active application)<br>
+- 'Pause keyboard' hotkey in the 'Hotkeys' section of preferences. This action will block all keyboard buttons, but leave hotkeys intact and active.
+You will be able to press hotkeys even when keyboard is paused. Additionaly, WK can automatically 
+remove pause when hotkey is triggered. Useful in conjuction with "Sequence" hotkeys. Pause key will be automatically added to all new sequence hotkeys by default for your convinience.
+See help for details<br>
+- New hotkey option - 'Press+Unpress'. Hotkey with this option will be triggered twice - when pressed and when unpressed. Can be used in conjuction with "Sequence" hotkeys.<br>
+- New plugin - "Window puncher" (can be taken from our site). Check out newly added "MegaMouse" plugin by Pharaon also!<br>
+Fixed:<br>
+- Delay when closing preferences dialog, Aplly works much much faster now<br>
+- bug fixes, stability improvements, CPU usage optimizations<br>
+- Preprocessing macros changes: %Y->%YEAR, %M->%MONTH, %D->%DAY, %h->%HOUR, %m->%MINUTE, %s->%SECOND<br>
+</td></tr>
+
+<tr><td><b>ver 3.0.1</td></tr>
+<tr><td>
+Added:<br>
+- Option search in preferences moved to the top of the dialog. It can properly handle names of hotkeys now<br>
+- New options if 'sort lines of text'. Now you can sort them with different options (Check 'Hot menu'->'Selected text' menu for changes)<br>
+Fixed:<br>
+- Some more bugs<br>
+</td></tr>
+
+<tr><td><b>ver 3.0</td></tr>
+<tr><td>
+Added:<br>
+- Actions can be scheduled now, to be activated at specified time<br>
+- Option to start specific application along with screensaver and to stop it on screensaver deactivation. Great for background processing like downloads, etc<br>
+- Clipboard history, bitmaps: if you choose to "Edit" bitmap from clipboard you will be asked to save it into bmp/jpg file first (according to screenshot settings). This is convinient way to save bitmaps directly from clipboard<br>
+- "Run as from command line": If you call this action on simple number, WK will convert in into hex value (from "255" to "0xFF"). And if you call it on hex number (like "0xFF") it will be converted to the decimal value (from "0xFF" to "255")<br>
+- "Run as from command line": if you press this hotkey when no text is selected. WK will automatically select text from cursor position to the beginning of current line<br>
+- Option to save clipboard histories periodically to prevent data loss on system crashes (disabled by default)<br>
+- Special menu for selected text (in any window) added. Select text anywhere and right click on it holding down Control key to popup menu with matching actions<br>
+- Option to duplicate quick-run or macros ('Make a copy' in quick-run preferences)<br>
+- Ability to cancel macro while it is running<br>
+- New functions available from JavaScript/VBScript macros<br>
+Fixed:<br>
+- Some more bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.9.10</td></tr>
+<tr><td>
+Added:<br>
+- Option to edit clipboard items (check main/additional clipboard history menu). Thanks McStar for suggestion.<br>
+</td></tr>
+
+<tr><td><b>ver 2.9.9</td></tr>
+<tr><td>
+Added:<br>
+- OSD Fade (Win2000/XP/Higher only), nicer round edges<br>
+- Misc optimizations in "Shell extender" plugin<br>
+- Byelorussian language added, translated by Alexander Sidorsky<br>
+- "Random screensaver" option now works even if screensaver is started by Windows (not by hotkey)<br>
+- List of recently used folders (for quick navigation in Open/Save dialogs or Total Commander) is triggered by middle-click on active window title from now<br>
+- Several "Window`s helper" plugin functions are binded to hotkeys now (instead of hardcoded mouse gestures like right-click on minimize button of window title)<br>
+- Special support for mouse gestures (check plugin`s page on www.wiredplane.com)<br>
+Fixed:<br>
+- Bug with macro recorder (now it is possible to record Alt-F4 for example)<br>
+</td></tr>
+
+
+<tr><td><b>ver 2.9.0</td></tr>
+<tr><td>
+Added:<br>
+- Widnows Helper plugin now works with Console windows as well (i.e. they can be used in autominimizer, etc)<br>
+- There are additional option for layout converter - WK can automatically replace characters from user-specified list. Useful for punctuation characters<br>
+- New registration key system. Registered users should write an email with request for new key and we will reissue it (please, include previous reg. key into email). This is absolutely free for all registered users<br>
+- New plugin - Close Console Windows by pressing Escape key (actually, by pressing Escape twice to avoid errors)<br>
+- "Autominimize windows to tray" now works on console windows too (including cmd.exe and Far, for example)<br>
+- To edit option in preferences one can double click on option title<br>
+Fixed:<br>
+- Bug with tray lang. indicator<br>
+- Fixed bug with pasting images into such applications as MS Word via clipboard history menus<br>
+- Fixed bug with large data in clipboard. Large amounts of data in clipboard (several Mb) are ignored now because of memory issues<br>
+- Additional desktops behavior changed. To speed up switching process, only extended hotkey support will work on all desktops, other plugins will remain on the main desktop only<br>
+- For now, "Convert last word to another layout" hotkey really converts last word, not line of text in whole as before (though there is an option to switch behaviour). Thanks to AGu for suggestion!<br>
+- Fixed bugs in several plugins, for example in Right-Click paste enchancer<br>
+</td></tr>
+
+<tr><td><b>ver 2.8.3</td></tr>
+<tr><td>
+Added:<br>
+- Option to call WK macros and actions from MacroRecorder macros (CALLMACRO and CALLACTION command)<br>
+- Command line switch "-execute" to start WK macros and actions from shortcuts. Just execute command like "WireKeys.exe -execute=XXX" where XXX is the name of the macro or quick-run item and it will be executed. To execute action, set its
+number instead of macro name prepended with '!', for example "WireKeys.exe -execute=!15" will eject CD-Rom. To see action numbers look into help file (Quick-Runs page). Warning: WireKeys must be already started to perform such execution.<br>
+Fixed:<br>
+- Bug with "Minimize active window" hotkey<br>
+- Bug with limitation of macros installed<br>
+- Bug with saving properties of some plugins<br>
+</td></tr>
+
+
+<tr><td><b>ver 2.8.2</td></tr>
+<tr><td>
+Added:<br>
+- Option to block Win key only when specified application is running (3D Game for example. Just add it`s exe file name to corresponding option)<br>
+Fixed:<br>
+- Crash when clearing hotkeys via 'X' button on some configurations<br>
+- "Apps", "Caps Lock" and "Win" blocking behaviour<br>
+- JScript error with Macro-recorder plugin`s macros<br>
+- AverTV-related bug: Button press was ignored sometimes<br>
+</td></tr>
+
+<tr><td><b>ver 2.8.1</td></tr>
+<tr><td>
+- *.wkm.js and *.wkm.vbs macro extensions; this extensions allow one to use JS/VB IDE for creating and debugging macro when installed<br>
+- New default macro - TimeRename. This macro can renaim file selected file (in Explorer window for example) by adding date/time to it`s file name<br>
+- "Convert last word to another layout" now works over last typed word/sentence rathar then single word. By default this action is assigned to 'Pause' key<br>
+- Option to add special tray icons, when Caps Lock/Num Lock/Scroll Lock is ON (thanks to Kosyakov Dmitriy for suggestion). Useful on some keyboards without Num/Caps/Scroll lock indicators<br>
+- "Autotext" plugin powered with 2 new features. Now aliases can be exanded only after pressing "Space" key, not automatically.
+And if WireKeys will find partial matches with what you type, special submenu with corresponding suggestions will be shown<br>
+- "Shell extension" plugin: option added to show recent folders only when shift is down<br>
+- "Taskbar extender" plugin: Confirmation to kill non-replying windows<br>
+- Hotkey for extreme shutdown (separate from ordinal shutdown hotkey)<br>
+- Usability changes in some menus<br>
+- Aded new level of clipboard integration (to the 'Fast inserts' option).
+Maximum speed with almost all applications except exotic ones.<br>
+- To dock window to screen edge now one can use single left-click, and single right-click to expand it in desired direction.
+There is no double-clicks any more (as were in previous versions)<br>
+Fixed:<br>
+- Small WinXP SP2-relaetd incompatibilities<br>
+- "Shell extension" plugin: Some UI-related bugs<br>
+- Several non-important bugs with clipboard, active windows<br>
+</td></tr>
+
+<tr><td><b>ver 2.8|Happy New Year!!! %)</td></tr>
+<tr><td>
+- Changed "Minimize active window" double-press behaviour. Now it restores last minimized window instead of rolling actiove window to the title<br>
+- Great improvements to "Alt-Tab replacement" plugin (and now it is called "Taskbar extender").
+With this plugin enabled you can drag and drop taskbar buttons inside taskbar (to place them in desired order), 
+drag applications outside taskbar to minimize them to floater or to tray (depends on drop target - main screen/tray area)<br>
+- "Shell extender" plugin powered with new hotkey - "Popup list of favourite folders" for quick browsing in Open/Save dialog.
+It is recomended to assign "Right-click on Help button" hotkey to this action. By using this hotkey,
+list of favourite/recent folders can be called by right-clicking on small '?' button at the top of the dialog
+(which is present on all supported Open/Save dialogs)<br>
+- New hotkey - "Make active window totally transparent" (thanks to Juslia FAST for idea)<br>
+- New item in shell extender - "Copy files - no tree". It will copy files from selected folder and all its subfolders to target folder of your choice ignoring source directory structure<br>
+- New options in "Window`s helper" plugin - masks for minimizing windows to tray/floater. 
+Try to minimize matched application: it will be automatically moved to tray/floater instead of taskbar<br>
+- Screenshots now able to take media player`s content as well (video/DVD playback). Windows 200 and up only<br>
+- Folding added to some plugins preferences for easier browsing<br>
+- Updated documentation (Thanks to Gary Sonnenberg)<br>
+Fixed:<br>
+<!-- - Fixed bug in 'Useless start' plugin, when 'Start' button was corrupted sometimes (became bigger that normal)<br>-->
+- Some incompatibilities<br>
+</td></tr>
+
+<tr><td><b>ver 2.7.6</td></tr>
+<tr><td>
+- New OSD positions - top-center and bottom-center<br>
+- New hotkey modifiers - "2x" and "3x"/ Hotkey with this modifier will trigger only wgen you press it 2 or 3 times respectively<br>
+- Definable step of changing WinAmp volume<br>
+- Now user can choose which screen savers will be used for rotation to be started by hotkey<br>
+Fixed:<br>
+- Compatibillity issues with some programms like "ACDSee mageFox 2.0" and MS Office 2003<br>
+- Bug with resolutions list<br>
+</td></tr>
+
+<tr><td><b>ver 2.7.5</td></tr>
+<tr><td>
+Added:<br>
+- 'Useless Start' plugin. Adds CPU/Memory usage on start button. Extracted
+from main WK functions<br>
+- "Shell extension" plugin extended with new functions: "Concatenate" selected files and
+"Show diff" to show differences between 2 similar files<br>
+- Option to force use of ole command on target application on quick-runs. To archive this, you have to add "[ole:...]" string to application parameters,
+where "..." - ole command. Example: Set application path to any document and parameters to "[ole:print]". This quick-run will quickly print document<br>
+- New default quick-run: Empty recycle bin. Choose to add default quick-runs in preferences if it is not here already<br>
+- New template for use in macros: '%ISRUN:xxx'. Will be evaluated to '1' if application 'xxx' is currently active (even as background process) or '0' if no active application with process name like 'xxx' found.
+Process names can be seen in task manager or "Processes" submenu<br>
+- New modifiers for mouse-enabled hotkeys. Now hotkey with mouse buttons can include part of 
+the active window under cursor - title, minimize/maximize buttons, etc. In other word, you can assign hotkey like "Click with middle button on window`s title" to any action. For example it is convinient 
+to assign "@MOverTitle-@WheelUp" and "@MOverTitle-@WheelDown" to Alt-Tab replacer`s actions "Switch to next window/Switch to previous window". You will be able to navigate between opened applications simply scrolling mouse wheel over active window`s title!<br>
+- New hotkey - "Convert last word to another layout". You don`t have to select text before pressing this key<br>
+- New options - "Show CPU and Memory usage in tray tooltip". Can be found in the "System resources indication" section of the preferences<br>
+Removed:<br>
+- Show CPU/memory usage on 'start' button - moved to plugin<br>
+- "Shell extender" plugin updated with several new items like "Diff" and "Merge"<br>
+Fixed:<br>
+- A lot of small usability issues<br>
+- Bug with windows that were invisible to WK<br>
+- Bug with tray icon<br>
+</td></tr>
+
+<tr><td><b>ver 2.7</td></tr>
+<tr><td>
+Added:<br>
+- Now tray icon can be used instead of Language Indicator<br>
+- New plugin - <a href="http://www.wiredplane.com/download/wkp_openwithext.zip">Shell extender</a>. This plugin adds useful items to Explorer right-click menu (context): "Jump to folder" and "WK Specials". In save/load dialog you can quickly switch current folder to one of the recently used,
+Full list of it`s abilities at this time: Folder jump in save/load dialogs (work in ordinal explorer windows, Total commander and MS Office products), register/unregister DLLs, find link target, 
+change folder icon, copy file path/name into clipboard, open cmd.exe session in current folder, 
+get file listing in the current folder and its subfolders,asssign hotkey to folder/file,
+mount selected folder as separate drive and add selected folder to "Send To" section of Explorer menu<br>
+- Quick-search for specific option in preferences - check "Contens" page of the preferences window<br>
+- Hotkeys for saving/restoring desktop icons and for switching monitor into Stand-by mode<br>
+- new option in the "Window`s helper" plugin - prevent focus from being steated:
+If you typing something, background applications will not be able to steal keyboard focus.
+ Note, that this has effect _only_ if you typing something<br>
+- "Escape" key now can be assigned to action as hotkey<br>
+- Hotkey now has new property - Act on unpress. 
+If you press such hotkey combination (assigned to action), nothing will happen.
+Action will be triggered as usual only when you unpress hotkey combination.
+Example: Suppouse Win-K is assigned to "Show preferences" and Win-K-L is assigned to "Pause WinAmp".
+If Win-K is not marked as "Act on unpress", pressing Win-K-L will show preferences and pause WinAmp at the same time
+(because while you are pressing Win-K-L, you are pressing Win-K too). But if you mark Win-K as "Act on unpress", Win-K will show preferences
+only when pressed and unpressed alone, and will not trigger event after unpressing Win-K-L (because Win-K-L triggering another action).<br>
+- Hotkey now has another new property - Transparency. Transparent hotkeys will not hide keypress from underlaying application.
+So it is possible to reload such combination like Ctrl-C for example - and currently active application will receive this keypress too and will copy it`s selected content into clipboard<br>
+- Both hotkeys properties (Act on unpres and transparent hotkeys) will work only when 'Extended hotkey processing' is ON<br>
+- New feature in the extended hotkey processing: Keyboard blocking. Usefull to protect computer from little child or a cat, walking on/playing with keyboard while you away :)<br>
+- Auto-repeat support in "AverTV remote" plugin<br>
+- Full image support in Clipboards histories <br>
+- Misc usability improvements<br>
+Fixed:<br>
+- Bug with plugins options - sometimes they were not saved properly<br>
+- Bug with memory optimizer, called by hotkey<br>
+- Bug with "Double-press extensions". They were unusable when "Distinguish between right and left keys" option was turned on. Now this bug is fixed<br>
+- Bug in "Window resizer" plugin<br>
+- Misc bugs in macro recorder<br>
+- Small bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.6.5</td></tr>
+<tr><td>
+Added:<br>
+- All clipboards histories (main/additional clips) will save bitmaps now as well as text. You can disable this additional support in preferences. Currently may not work well with big images.
+Warning: Saving big images in histories can bloat WireKeys configuration files!!! By default, big images will NOT be saved between restarts of the Wirekeys to prevent such bloat (but you can change this behaviour in preferences)<br>
+- Command line switch "-ul" to force WireKeys use non-standard location for saving persistent data (configuration files, etc)<br>
+Examples:<br>
+1) WireKeys.exe -ul<br>
+WireKeys will save its preferences in the folder "UserData" inside folder with WireKeys.exe file<br>
+2) WireKeys.exe -ul=XXX<br>
+WireKeys will save its preferences in the folder "XXX" inside folder with WireKeys.exe file<br>
+3) WireKeys.exe -ul="C:\XXX"<br>
+WireKeys will save its preferences in the folder "C:\XXX"<br>
+Fixed:<br>
+- Trial-period related bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.6.4</td></tr>
+<tr><td>
+Added:<br>
+- New features in macro recorder that allow you to use 'Window control' macro<br>
+- New pattern - '%URL_ESCAPED'. This pattern will code selected text with the URL-compliant encoding (Space=%20, Return=%0A%0D,etc)<br>
+- Environment strings are now supported in all places where patterns should work, for example "%USERNAME%"<br>
+- Option to create empty quick-run item<br>
+- Fast inserts are ON by default and they are really faster now. But, to be honest, fast inserts may not work in some applications or can work from second try only<br>
+- German translation by Wolfgang K?ting!<br>
+- Chinese Simplified translation by Rocky Wolf!<br>
+- Updated Ukrainian translation by Paul Dmitryew<br>
+Fixed:<br>
+- Misc small bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.6.3.1</td></tr>
+<tr><td>
+Added:<br>
+- Beta version of German translation (98%). Thanks to Wolfgang K?ting!!!<br>
+Fixed:<br>
+- Bug with no-exe in the installation package :)<br>
+</td></tr>
+
+<tr><td><b>ver 2.6.3</td></tr>
+<tr><td>
+Added:<br>
+- Shortcuts for creating "Internet link" quick-runs in preferences<br>
+New options in "Enabler" plugin: 1) it can be paused by default and 2) hotkey can be assigned to enable one control (or entire window) under cursor (one-time enable).  "One time enable" can even re-activate a main window blocked by the modal dialog (but use this feature at your own risk)
+- Option to hide mouse cursor when you are typing something. 
+Cursor will be shown when you touch your mouse again. Option can be found in "Extended hotkey processing" folder in preferences<br>
+- Now macro can hold more than one entry point. Each point can be connected to separate hotkey. 
+Another extension to macro structure - persistent cookies. 
+Now macro can store some data and analize it in subsequent calls (i.e. data is saved between different calls to macro)<br>
+- New macro - "Full media control" (one of the default macros). Based on previously described feature.
+This macro allows you to set hotkeys for such actions as Play, Pause, Stop, Forward, etc that will work in the same way 
+in WinAmp, Zoom Player, Windows Media Player, BSPlayer.
+In other words this macro will emit different commands depending of application you are using when calling this macro :)<br>
+- New option in "GPIO Remote control" - option to set control "mode". One can reserve control button to switch between different modes and the same
+button can be used for different action depending of the current control mode<br>
+- New option in "Macro recorder". Now it can record single button clicks, main menu items and toolbar buttons (for those who are familiar with WinAPI 
+- this mode will record all WM_COMMANDs)<br>
+- New macro - "Mouse control" (one of the default macros). This macro can be used to control mouse movements 
+and button clicks via keyboard or remote control. This macro also illustrates how to use persistent cookies in a macro<br>
+- Option to save clipboard content between restarts<br>
+Fixed:<br>
+- Bug with non-English characters in the AutoText plugin<br>
+</td></tr>
+
+<tr><td><b>ver 2.6</td></tr>
+<tr><td>
+Added:<br>
+- "Wired key combinations" plugin where moved to separate section of preferences - you can find it under "Common options" section<br>
+- Ability to define secondary (and third) hotkey for any action. This additional hotkeys serve as alternative hotkey for action. While editing hotkey: to switch between primary/secondary hotkey use hotkey`s context menu or down button to the right of the hotkey field. Especially useful with Remote Controls (with corresponding plugin)<br>
+- Extended functionality in plugin`s API. Now plugin can register and trigger "Events" and user can add this events to the hotkeys (from hotkey`s context menu). This is how remote control`s plugin is working.<br>
+- Remote controls support (via special plugins). For now you can download from our site plugin that supports AverTV Studio remote control buttons in all hotkeys. And not only buttons but even buttons sequences - you can define hotkey which will be triggered when you press two or more buttons one after another (without delays).<br>
+In fact this plugin can be used for all GPIO compatible remote controls (at least for all AverMedia controls), but to use it with other remotes, one have to rewrite remote config (can be found in the plugin`s installation folder). Share new config with us to get free registration key to WireKeys!<br>
+- Option to direct hotkeys actions with mouse clicks to under-cursor window, not foreground window<br>
+- Shortcut for creating internet links quick-runs<br>
+- A lot of small, unimportant changes<br>
+Fixed:<br>
+- Usability issues<br>
+</td></tr>
+
+<tr><td><b>ver 2.5.5</td></tr>
+<tr><td>
+Added:<br>
+- hotkey to clear clipboard histories<br>
+- Hotkeys to switch and set keyboard layouts<br>
+- Option to open floater or single click instead of double click<br>
+- Option to open floater`s catalog content on left mouse button single click<br>
+- Slightly changed procedure to set hotkey - now mouse-related keys can be added via newly added context menu only<br>
+- Hotkey to popup list of active processes<br>
+- Option to use fast inserts (they are faster but may be incompatible with some applications). Inserts are used on all operations with selected text and clipboards. Fast inserts were used in the WireKeys light<br>
+- Icon set for tray icons<br>
+Fixed:<br>
+- Bug with restoring from configuration backup<br>
+- Bug with hiding quick-run application to tray after start<br>
+- Small bugfixes<br>
+</td></tr>
+
+<tr><td><b>ver 2.5.3</td></tr>
+<tr><td>
+Added:<br>
+- Spanish translation by Eduardo Santiba?ez Silva (Thanks a lot!)<br>
+- Apply button in the preferences dialog and small changed in the interface and usability<br>
+- New plugin (can be downloaded from our site) called "Enabler". When started, it will enable
+all buttons (grayed out, inactive and so on) anywhere, all windows and items in all popup menus on your computer. Written by Bulavin Alex & Mushinsky Sergey<br>
+- New macros by Decil that handle all operations over case and capitalization of the selected text - can de downloaded from our site<br>
+- New plugin - "Right-click paste enchancer". This plugin will add history of clipboard to _all_ popup menus (most of them) that contain "Paste" item!
+You can change what menus to tweak in the preferences of this plugin<br>
+- Option to choose user-define icon for tray icon instead of default one<br>
+- Option to use all possible resolutions for secondary desktops<br>
+Fixed:<br>
+- Bug with WinAmp`s "Scroll title" feature enabled<br>
+- Fixed bug when WK is used without quick-run`s launch sets<br>
+</td></tr>
+
+<tr><td><b>ver 2.5</td></tr>
+<tr><td>
+Added:<br>
+- Option to enable additional tray icon when play macro file<br>
+- Definable actions on double clicking tray icon with left, right or middle mouse buttons<br>
+- On Windows exit WireKeys can eject loaded CD for CD drive. Now WireKeys will eject CD, wait for 2 seconds and close CD again automatically<br>
+- Launch set`s hierarchy in preferences. Warning: some actions over launch set`s positions will take effect after reopening preferences only. This will be fixed later<br>
+- New hotkey to show current date and time in OSD (in "System resource indication" section of preferences). Extremely useful when you are playing in 3D shooter and want to know what time is it but don`t have a time to look at clocks at all. Format can be changed (see help for details)<br>
+- Active tracking of all recently installed applications. Now every newly installed application will be reachable for quick uninstall from the subsection of "Miscellaneous" tray menu. Useful when you frequently installing new programs (just to test them) and tired of the slow interface of the Windows 'Installed applications' dialog<br>
+- New plugin - Window`s resizer (can be downloaded from www.wiredplane.com). Can be used to resize windows that are not support resize operation. Results sometimes can be strange (because there is no right method to do resizing from outside of application) but sufficient for most cases. You have to assign hotkey for this operation (we reccomend to assign "Caps Lock-R" combination)<br>
+- New plugin - Text screenshot (can be downloaded from www.wiredplane.com). Can be used to extract text from elements of almost any dialog<br>
+- New hotkey modifier - "Press & hold". Now you can "press & hold" key combination to create unique hotkey. Very useful for some actions, for example our favourite usage is to assign "Lock workstation" to "Press & hold escape key": Press escape key and hold it for 2 seconds (timeout can be changed in the "Wired key combinations" preferences) - and workstation will be locked for you :)<br>
+This feature is disabled by default, you have to assign non-zero timeout in the plugins preferences.<br>
+Fixed:<br>
+- Bug in macro-recorder (Shift key was not recored properly)<br>
+- Rare plugin`s start-up bug: when OS is heavily overloaded during start-up process, plugins initializations sometimes were erroneously aborted<br>
+- Autotext plugin rare slowdowns<br>
+</td></tr>
+
+<tr><td><b>ver 2.4</td></tr>
+<tr><td>
+Added:<br>
+- New default plugin - Macro Recorder. This plugin records all keypresses and generates macro file that can replay them. Additionally, this plugin can record macro that will replay different keystrokes depending of the active (at the replay-time) window<br>
+- Option to show WinAmp`s song only (without preficex and so on). Option to add total track time and already played time to the OSD<br>
+- "Just typed text" dialog in the "Auto-text" plugin. This feature can help when typed text is lost for some reasons (due active application crash, for example)<br>
+- Plugin`s localization strings are now stored in separete files, not in the main *.lng<br>
+- Option to show changes in WinAmp`s song in the tray tooltip instead of OSD<br>
+- Extended support for systems with large numbers of keyboard layouts used<br>
+- Ability to use mouse buttons _double clicks_ in your hotkeys<br>
+- Updated ukrainian translation by Andriy Dnylyuk<br>
+- Localizations for some plugin`s dialogs and UI<br>
+- Small tray icon during macro exection<br>
+Fixed:<br>
+- Small bug with frequent use of macros with external ActiveXes inside<br>
+</td></tr>
+
+<tr><td><b>ver 2.3</td></tr>
+<tr><td>
+Added:<br>
+- Ability to make screenshots of the Video windos. You have to enable this feature in the screenshot`s preferences before you start video file you want to capture<br>
+- Option to put CPU or Memory indicator on Window`s "START" button<br>
+- Launch set (a new feature since v2.2) hotkey behaviour changed: pressing hotkey will pop up additional menu whith all launch set`s subitems. 
+Double-pressing hotkey will start them all at once<br>
+- If you choose "Disable Caps Lock" option in "Wired key combiantions" plugin than Caps Lock can be triggered by pressing "Shift-Caps Lock"<br>
+- Option to "Auto-repeat" hotkey when pressed for awhile<br>
+- "Scales of notation"(arbitary bases) convertor now supports character base designators (B, O, D, H), so you can use expressions like "(100+99)(D to H)=" (this mean "calculate 100+99 and convert from decimal to hex")<br>
+- Ukrainian translation by Andriy Dnylyuk.<br>
+- Option to set volume at Windows start-up<br>
+Fixed:<br>
+- Plugins: Windows 98/ME related bugs<br>
+- Bug with hotkey modifiers when "Distinguish between left/right keys" option of the "Wired key combinations" is off<br>>
+- Inability to use preferences using keyboard only<br>
+</td></tr>
+
+<tr><td><b>ver 2.2</td></tr>
+<tr><td>
+Added:<br>
+- Double-press meaning to the "Show hot menu" hotkey - double press on this hotkey will pop up a subset of the Hot menu (can be defined in the preferences)<br>
+- Simple convertor between different scales of notation (conversion between arbitary bases).  Select (highlight) one of the following text strings and try "run as from command string" (Ctrl+Alt+R by default): '7(10->2)=', 'FF(16->10)=', '255(10->16)=', 'FF(16->2)=', '10200(3->10)='<br>
+- Option to start WinAmp if it was paused on "Screen saver" or "Lock computer" event after unlocking computer or when screen saver is stopped<br>
+- Quick-run Launch sets. Launch set can have its own hotkey. Calling a  launch set calls (runs) all the quick-run items in it.  You can add Launch set to the tray.  The individual items within it will be displayed in the corresponding context menu, where they may be selected individually.<br>
+- New macro type - insertion macro. This macro is intended to be used to quickly insert block of text by hotkey. You can insert one of the following combinations: simple text line, text line+specified text file content, text line+random line of the text from specified file<br>
+- Ability to assign one hotkey to different actions (available with "Wired key combinations" plugin only). Now to start more than one quick-run item with one hotkey just assign it to desired items. Or use categories.<br>
+- Ability to set activation hotkey to any floater or hidden window tray icon (separate hotkey for every floater/icon). Corresponding item added to the icon/floater`s context menu<br>
+- Option to disable 'Caps Lock' key ("Wired key combinations" plugin). Benefits: You will never accidentally press it again, this key can be easily used in hotkey combinations<br>
+- Button to install default macros and quick-run items again (can be found in the preferences under "Contents" folder)<br>
+Fixed:<br>
+- Plugins: Windows 98/ME related bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.1.5</td></tr>
+<tr><td>
+Added:<br>
+- Autotext plugin now supports multiline strings and can start applications and quick-run items instead of replace<br>
+- New 'Hot menu' items - Put link on desktop/Start menu/Quick launch toolbar/User-defined folder. Now one can quickly create shortcut to the active window`s application (with all command-line options) in the one of the frequently used location<br>
+- New "Autotext" plugin feature - now you can not only replace frequently typed text, but start quick-run applications by simply typing their aliases<br>
+- Option to strip song number and WinAmp state from WinAmp-related OSD strings with playing song title<br>
+- Memory optimization now supports registry optimizations (registry optimization is ON by default)<br>
+- Now tray icon can serve as indicator of CPU or Memory usage (Or just day of week)<br>
+- Button to quickly open application folder in the application`s info window<br>
+- Autotext plugin is included in the default configuration now<br>
+- Russian help file. Thanks to aBc, 3BePb, QyRoN, and others<br>
+- Option to define OSD border style<br>
+Fixed:<br>
+- Bug with middle-click on window`s border (expand of the window width/height feature)<br>
+- Fixed bug with focus "dribbling" on hiding windows into floaters<br>
+</td></tr>
+
+<tr><td><b>ver 2.1.0</td></tr>
+<tr><td>
+Added:<br>
+- Visual Basic support for Macro scripting. To specify VB-scripting engine, you must start macro file with <i>' Language: VBScript</i> string. See help file for details<br>
+- New macro (written in VBScript to serve as example). This macro can automatically mount selected (in explorer or another file manager) as new separate drive<br>
+- New additions to the "Wired key combinations" plugin. Now you can use screen corners and borders in your hotkeys as well (Corners will be depicted as "@RT-Corner", "@LB-Corner" (and so on) for Right-Top corner, Left-Bottom corner, etc.)<br>
+- New floater`s ability. If you make a floater of the application item or text macro, you can drag-n-drop files on it to start application/macro with corresponding files as parameter. This can help in automation of the repetitive tasks with files<br>
+- Now 'Expand window on double right-click/single middle-click on windows border' feature will toogle window shape between expanded and original<br>
+- "Windows trait`s plugin" options "Force screen to be inside screen edges" and "Snap windows" and now OFF by default<br>
+Fixed:<br>
+- Fixed bug with quick-run item deletion via tray menu<br>
+</td></tr>
+
+<tr><td><b>ver 2.0.3</td></tr>
+<tr><td>
+Added:<br>
+- New patterns: '%ACTIVEAPP'(name of the active application), '%ACTIVEEXE'(full path to the active application), '%ACTIVEWND'(title of the active window) and '%E_...' versions of this patterns (same values in escaped form). Now one can make application-specific macro (macro, that behave differently, according to the active application) using this patterns (becouse this values can be easily checked in run-time using JScript operations).
+More integrated support will be in the forthcoming 'Macro recorder' plugin<br>
+Fixed:<br>
+- Fixed bug with transmit-copy mode<br>
+- Fixed some plugins-related bugs<br>
+</td></tr>
+
+<tr><td><b>ver 2.0.2</td></tr>
+<tr><td>
+Added:<br>
+- "Window`s traits" plugin option: prevents 'intervention' of plugin into specified windows<br>
+- Additional tooltip for histories popup menus. This tooltip contain window`s title about where snippet was taken from<br>
+- New hotkey to close active application/kill(terminate) on double-press<br>
+- Option to show memory usage in the 'Processes' submenus<br>
+- Context menu for screenshot item in the tray submenu. Now you can change main screenshot properties without opening preferences<br>
+Fixed:<br>
+- Bug with red tray icon<br>
+- Bug with disabling hotkeys<br>
+- Bug with mouse keys and hotkey guide<br>
+- Bug with "Put screenshot into clipboard" option<br>
+- Other small bugs<br>
+Other:<br>
+- Changed format of the *.lng files. Incomaptible strings will be autoconverted at first use<br>
+</td></tr>
+
+<tr><td><b>ver 2.0.0</td></tr>
+<tr><td>
+Added:<br>
+- Trialware license. We decided to make WireKeys payable to continue development and improvement of this utility.
+From now, WireKeys will be distributed as trialware application and after 14 days of use all plugin modules will be automatically disabled.<br>
+- New plugin - <b>"Wired key combinations"</b>. One question, first: Do you use your right-shift key for capitalizing your text input frequently? Almost never! 
+Now you can use such keys in the hotkey combinations as well as all multimedia keys. This plugin incredibly increases "hotkeyness" of your keyboard. 
+With this plugin you can set different hotkeys for left- and right-shift/control/alt/win keys separately, use restricted key combinations for hotkey (such as Alt-Tab), 
+use all additional keys of the multimedia keyboards and use multi-key hotkeys, like LCtrl-A-B-C or Space-Enter for example. And that is not all! You can also use your mouse buttons (including MS XButtons) and mouse wheel in your hotkey combinations as well!!! Just think about increasing your sound volume by hotkey "LShift-@Wheel up", for example.
+Now you have unlimited possibilities to define hotkeys for your convenience :)<br>
+- Now new quick-run item can be easily added from hot menu. Open hot menu (either by hotkey or by right-clicking window`s close button) and choose corresponding item from "System actions" submenu<br>
+- New quick-run option: expand folder in the tray menu. Now quick-run folders can be accessed directly from tray submenu (without perfomance hit because of delayed loading of the directory content (at request only))<br>
+- Now quick-run application can be automatically positioned, sized (user-defined size and position) and converted to 'Always on top' window after start. It can be also started from specified directory. If you detach this item, you will be able to browse startup directory from tray/floater menu<br>
+- New macro - RecursiveCopy. This macro transfers all files from selected folder and it`s subfolders into user-defined directory. To run this macro open explorer, select sourse folders and press hotkey. WireKeys will ask for target directory and will copy all files from selected folders into target folder. "_copylog.txt" file will be created with all actions, taken by macro during execution</li>
+- New "Window`s traits" plugin ability - dock window on right-clicking and expand window on middle-clicking (or double right-clicking) window`s border. Now you can right/middle-click any window`s border to dock/prolong window in that direction to the screen edges<br>
+- New state of the hidden to tray apps. Now they can be detached from tray into small floating window! Such window remembers its position. To detach tray icon just choose corresponding item from the tray menu of the hidden app<br>
+- New screenshot ability - sequential screenshoting. WireKeys can make screenshots every XXX seconds and save them automatically. To stop sequential screenshoting, one must press screenshot hotkey again!<br>
+- New plugin: Linux-like window`s move. Holding Alt-key (or whatever you`ll set in the preferences), you can drag any window by any point (not just by title, as usual). Contributed by Vint<br>
+- Quick access to the pinned items in the clipboard history`s menus - now you can simply press '1'/'2'/... instead of choosing desired item by mouse (corresponding menu must be open)<br>
+- Option to set special display resolution and shell application for each desktops. Now you can set shell application and screen resolution on each desktop separately!<br>
+- New patterns - "%ASKFILE" and "%ASKFOLDER". When needed, user will be prompted to select file via "Open file" dialog or select folder via "Browse for folder" dialog<br>
+- Screenshot improvement: option to show snapshot`s area size and position while dragging mouse, right-click moves cursor into opposite snapshot`s rectangle corner<br>
+- Context menu for processes. Now you can right-click process name in the processes submenu and set process priority, view process info and more<br>
+- Additional submenu for screen resolution change. This submenu supports right-click - this will popup additional video modes to choose from<br>
+- Option to save desktop layout in different desktops. Now you can set your icons on each desktop separately! (Win NT/2000/XP only)<br>
+- "Clear history" item in the clip history menu, clears current clip only, not all (all clips can be cleared from preferences)<br>
+- Now you can double-press "Run as from command string" hotkey to popup history of the runs (to run something again)<br>
+- "Do not move focus for popup menus" option to prevent conflicts with some apps (like 'nView' utility from nVidia)<br>
+- Ability to right-click file of the expanded (in the tray menu) folder to popup Explorer`s context menu<br>
+- Notification of some actions (like copy/paste from additional clip) by cursor shape. Can be disabled<br>
+- New WinAmp hotkeys: "Forward song by 5 seconds" and "Back song by 5 seconds", "Change shuffling"<br>
+- Option to show system shutdown dialog instead of restart (by hotkey) - Win2000 and later only<br>
+- Option to free memory when hiding application to tray or completely (NT or higher only)<br>
+- Now WireKeys can track WinAmp and show new songs in the splash string (OSD)<br>
+- New hotkeys to control WinAmp: show current song, increase/decrease volume<br>
+- Option to remove rarely used folders from the preferences<br>
+- Delayed loading of processes for tray-menu submenu<br>
+- Hotkey to scroll active window up/down/left/right<br>
+- New hotkey to hide active window into floater<br>
+- Special support for multimonitor systems<br>
+- Option to show CPU Usage over tray icon<br>
+- Option to show CPU usage as histogram<br>
+- Option to draw cursor over screenshot<br>
+- New hotkey to free RAM memory<br>
+Fixed:<br>
+- 'Active window' related hotkey`s behaviour: If hotkey contains mouse buttons, WireKeys will apply corresponding action to the application under mouse cursor, not foreground window (as usually)<br>
+- Fixed bug with corruption of the Unicode text in the clipboard when using additional clips and text conversions from WK (Thanks to S.Serov for bugreport)<br>
+- Now selected text for macros is always extracted in Unicode, not plain text (Thanks to E. Menashe for bugreport)<br>
+- Fixed bug with new Quick-run item without active applications at all (Thanks to D. Sotropa for bugreport)<br>
+- Improved compatibility for operations over selected text in different applications<br>
+- Now hotkeys can be used even when preferences window is opened<br>
+Other:<br>
+- Plugin`s interface improvements. Now every plugin can add his options directly into WireKeys preferences dialog. Plugin creation is very simple process in fact, so programmers are welcome :)<!--#if expr="0=1" --> To write your own plugin you have to get a template (<a href="IconsFont.zip">here</a> you can find full source code to the simple plugin) and fill placeholders with your logic. That is all! You can also look at the <a href="wkplugin.h">main header file</a> for MS Visual Studio C++ 6.0)<!--#endif -->
+<br>
+</td></tr>
+
+<tr><td><b>ver 1.9.9</td></tr>
+<tr><td>
+Added:<br>
+- New WKHelper plugin`s options<br>
+- Additional splash string parameters<br>
+- New Rollup/Unroll active window hotkey<br>
+- Option to kill list of processes from tray menu item<br>
+- New "Do not show in tray menu" option for quick-run/macro items<br>
+- Double-press on "Hide completely" will unhide last hidden window<br>
+- Independent directory and "Auto-open in editor" option for double-press screenshots<br>
+- WKHelper plugin: added period of inactivity for tray auto-hide feature (in seconds)<br>
+- WKHelper plugin: added new feature - injection to the window`s system menu ('Alt-Space' or 'Right-click application taskbar button' menu) <br>
+- Hot menu improvement: system menu of the active window can be found under hot menu first item. May conflict with some apps, can be disabled in preferences<br>
+- Quick-run improvement: Support for extraction of the running application`s Command line (for New Quick-run item based on the running application). NT/2000/XP only<br>
+- Now it is possible to use "Escape", "Tab", "Caps Lock", "Backspace" keys in the hotkeys. But because of Windows, some combinations are reserved by the system (especially with "Esc")<br>
+- Finally: it is possible to use some mm-keyboard (not all at this time) additional keys in the hotkeys (with Ctrl/Alt/Win modifiers, of course)!!!<br>
+- Process list enhancement: choose process and Shift-click it. Main process window will be shown (if any)<br>
+- Memory usage optimizations, uncommon features will be loaded to memory on request only<br>
+- WinXP: Now some WireKeys`s windows resized using double-buffer technique<br>
+Fixed:<br>
+- Fixed issue with startup directory of the quick-run items. Thanks to W. Eley for bugreport<br>
+- Fixed Win98 issue with WKHelper plugin (active window focus losing). Thanks to E. Menashe for bugreport<br>
+- Fixed some "Rollup window" and "Hidden application`s main menu in tray icon" issues, for example with SpyBot prog. Thanks to B. Rucker for bugreport<br>
+- Fixed Windows 98/ME compatibility issues. Due internal conflict with the Win98/ME GDI architecture, all tray icons are disabled :(<br>
+- Fixed bug with clipboard`s history of use and clip`s popupness<br>
+- CD drive open/close bug. Thanks to C.Razinsky for bugreport<br>
+</td></tr>
+
+<tr><td><b>ver 1.9.8</td></tr>
+<tr><td>
+Added:<br>
+- Full WinAmp 5 compatibility<br>
+- Macros picked out to separate submenu<br>
+- Option to show current date or day of the week over tray icon<br>
+- Misc improvements in quick-run/macro section of the preferences<br>
+- Option to automatically eject loaded CD drives on Windows shutdown<br>
+- Hidden to tray application: Option to overlay tray icon with special marker<br>
+- Now it is possible to use "Space" bar, "Print screen", "Scroll lock", "Pause" and "Apps" in the hotkeys<br>
+- Alternative macro structure. Now it is possible to define special function 'function wkMain(selectedText,macroParamenter)'. See help for details<br>
+- WKHelper plugin: ability to specify independent action per single window (Hide to tray/Hide completely/Minimize/Rollup) for auto-hiding functionality<br>
+- Ability to set different behaviour for the boss key double-press (and different title`s mask). For example you are using 'Alt-Q' as boss key to hide all aplications to tray. Now you can set 'kill applications' behaviour to the automatically handled hotkey 'Alt-Q-Q' (press 'Q' twice while holding 'Alt')<br>
+- Ability to set different behaviour for the screenshot key double-press. For example you are using 'Alt-F12' as screenshot key to screenshot whole display. Now you can set 'Active window only' behaviour to the automatically handled hotkey 'Alt-F12-F12' (press 'F12' twice while holding 'Alt')<br>
+- Double-press on 'Minimize active window' hotkey will rollup (shade) this window (instead of minimize)<br>
+- New hotkey to show the most recently hidden window. Double-press this key to show all hidden windows<br>
+- Ability to set different CD drive for the 'Open CD' key double-press action<br>
+Note: because of hotkey`s double-press support, connected action will be executed just after releasing corresponding Ctrl/Alt/Shift/Win key (which is part of your hotkey), not immediately.
+You can disable this behaviour (along with additional functionality) in the Preferences: "Common"->"Additional options"->"Disable 'Double-press' extensions"<br>
+Fixed:<br>
+- Macro parameter and '\' char (thanks to E. Menashe)<br>
+- Documentation errors and mistakes (thanks to B. Rucker)<br>
+- 'Hide to tray' bug with taskbar buttons of some windows (thanks to V. Bourdo)<br>
+- Desktop icons layout was not properly saved sometimes (on icons with multylanguage names)<br>
+</td></tr>
+
+<tr><td><b>ver 1.9.7</td></tr>
+<tr><td>
+Added:<br>
+- Rollup (shade) window option in the Windows Traits plugin<br>
+- Lock workstation hotkey (NT/2000/XP only) with option to stop WinAmp before lock<br>
+- Option to stop WinAmp and(or) set random screen saver before launching screen saver by hotkey or from tray menu<br>
+- Drop volume before shutdown feature now works on all shutdowns (initialized by OS too, not by WireKeys only)<br>
+- Option to choose where to show 'Volume' submenu (in tray menu, in hot menu, in both menus)<br>
+- New option for Quick-run items: activate application window if quick-run application is already active (instead of starting another instance)<br>
+- Added app. icons in the tray "Hidden windows" submenu and "Quick-run" submenu, menus slightly redesigned for fast access<br>
+Fixed:<br>
+- WKHelper plugin snapping algorithm on the owned and unowned windows<br>
+- "Check for new version" bug<br>
+</td></tr>
+
+
+<tr><td><b>ver 1.9.6</td></tr>
+<tr><td>
+Added:<br>
+- Drop volume before shutdown feature<br>
+- Thematical folder icons in the preferences. This will help to organize WireKeys options (we hope)<br>
+- IconsFont plugin was improved to set desktop icons transparency and more...<br>
+- Some screenshot`s resizing quality improvements (when resizing is enabled only)<br>
+- Misc plugins interface improvements<br>
+- Misc optimizations<br>
+Fixed:<br>
+- WKHelper plugin: Algorithm of snapping. Tool windows, windows without any border and windows bigger than screen size are excluded from sphere of plugin`s interest<br>
+- Misc bugfixes<br>
+</td></tr>
+
+<tr><td><b>ver 1.9.5</td></tr>
+<tr><td>
+Added:<br>
+- First plugin - Desktop icons font master (IconsFont.wkp). This plugin allows to set font and color of the desktop icons. Full source code included (see "Plugins" help page). Plugin disabled by default, you can enable it in the preferences<br>
+- Another plugin - WireKeys windows traits (WKHelper.wkp). This plugin makes all windows in your system sticky and allows you to hide windows to tray by right-clicking its minimize button. 'Sticky' mean that window will be automatically snapped to other windows edges and screen boundaries when moved. Stickness can be temporaly disabled by holding Shift key while moving window. Other plugin features: ability to force all windows to be inside screen boundaries (so you will never cry on window with its title bar placed beyond monitor edge ;), ability to define windows to be settled in tray instead of taskbar (such windows will be automatically moved to tray on focus blur). This plugin is disabled by default also, you can enable it in the preferences<br>
+- 'Window opacity' submenu in the 'Hot menu' moved to the 'System operations' submenu. By the way, 'Hot menu' can be called by right-clicking 'Close' button ('X' button) of the almost any window in the system (with the help of the 'Windows traits' plugin only). Try out - a lot of useful stuff can be found here<br>
+- Hidden applications: Recent menu items improvements (auto-popup of the used item of the minimized to tray application)<br>
+- 'Application info' was improved to show active application`s opened file handles (NT/2000/XP only)<br>
+Fixed:<br>
+- Bug with quick-run of DOS programs and strange quick-run windows sizings<br>
+- Bug with hiding applications on 'Boss key' press<br>
+</td></tr>
+
+<tr><td><b>ver 1.9</td></tr>
+<tr><td>
+Added:<br>
+- Keyboard macros. Can be used from quick-run applications menu, macro can be saved in separate file and even use full power of JavaScript!!!<br>
+- Support for system suspend and hibernate (addidtional shutdown types). To work well this feature must be hardware-enabled<br>
+- New option for Quick-run applications. They can be started with WireKeys (and automatically disposed to the tray for example)<br>
+- Option to backup and restore WireKeys config to separate file (can be found under 'Additional options' section of preferences)<br>
+- Ability to view and use system menu of the hidden to tray application - just hold "Shift" key while opening tray menu<br>
+- Option to choose which menu (main or system) to show for hidden to tray applications by default<br>
+- Now you can save desktop icons positions by pressing "Restore desktop icons" menu item with "Shift" key pressed<br>
+- New item in the hot menu, Application information. Shows popup with exe-file path, memory usage and more<br>
+- WinAmp control: Option to show in splash string WinAmp title (currently playing song)<br>
+- Sample (yet useful) macros. You can check them to understand how it works<br>
+- Used items from clipboard history bubbled up when used now<br>
+- Added hotkeys for minimize/maximize/restore active window<br>
+- Boss key can hide a list of windows (not only one/all)<br>
+- Hotkey to temporarily mute sound<br>
+- Help file was updated<br>
+Fixed:<br>
+- Splash string does not drop fullscreen mode now (in games or while watching video for example)<br>
+- Minor bugs with mouse wheel scrolling and some other<br>
+</td></tr>
+
+<tr><td><b>ver 1.8.5</td></tr>
+<tr><td>
+Added:<br>
+- New way to add pinned pieces to the standard (only) clipboard history. Now this can be done by holding "Win" key during Copy operation (Ctrl-Win-C or Ctrl-Win-Ins)<br>
+- Auto-restore desktop icons positions, when user change display resolution<br>
+- Plugin API improvements<br>
+Fixed:<br>
+- A lot of WinME incompatibilities. <b>Now WireKeys works fine in Window ME and (i hope) 98</b>. There are few exceptions: restore icons positions, additional desktops<br>
+</td></tr>
+
+<tr><td><b>ver 1.8.2</td></tr>
+<tr><td>
+Added:<br>
+- Ability to pin pieces in clipboard history (additional and ordinary). Pinned pieces will not be pushed out from history list by other items. To pin clip piece just hold SHIFT key while choosing item from history menu<br>
+- Now when you copy file from explorer (for example), you can find fully qualified path to this file (or files) in clipboard history!<br>
+- Option to choose which image editor to use to edit screenshots<br>
+- "Run as from command line" improvements: WireKeys detects console applications and start them in separate "cmd.exe" session, so you can check out the results. Try to select and 'Run as from command string' this text: "ping www.wiredplane.com"<br>
+Fixed:<br>
+- Bug with wrongly added strings to clipboard history after converting text from another layout, changing text case, sorting lines of text, etc<br>
+- Rare bugs with screenshot making<br>
+</td></tr>
+
+<tr><td><b>ver 1.8.1</td></tr>
+<tr><td>
+Added:<br>
+- Ability to check for updates manually or every 20 days. Can be disabled of course :)<br>
+</td></tr>
+
+<tr><td><b>ver 1.8</td></tr>
+<tr><td>
+Added:<br>
+- Option to show all hotkeys bindings<br>
+- New abilities for hidden to tray applications were added. Now, if you select an item from tray submenu, it will be added to the top menu level too (for quick access)<br>
+</td></tr>
+
+
+<tr><td><b>ver 1.7.9</td></tr>
+<tr><td>
+Added:<br>
+- Minor additional menu items (Display properties, Add/Remove programs)<br>
+- Option to sort lines of selected text in ascending/descending order (in Hot menu)<br>
+- Ability to put screenshot in clipboard<br>
+</td></tr>
+
+<tr><td><b>ver 1.7.2</td></tr>
+<tr><td>
+Added:<br>
+- Desktop switcher (Win NT/2000/XP only)<br>
+- Now Quick-run applications can be stared in another desktop<br>
+- Ability to save/restore desktop icons positions (manually or automatically)<br>
+- Saved desktop icons positions can be automatically adjusted to current screen resolution<br>
+- Sound volume control in tray menu<br>
+Fixed:<br>
+- minor bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.7.1</td></tr>
+<tr><td>
+Added:<br>
+- Definable maximum size of stored clip content<br>
+- History of use for standard Windows clipboard (Default hotkey - 'Win-V') (Note: if you will upgrade from previous version of WireKeys, all old clip content will be dropped)<br>
+- Ability to make screenshot of specified rectangle (after pressing hotkey just hold mouse button and drag the rectangle)<br>
+- Transmit copy mode - any copy to any additional clipboard will be automatically pasted in the selected window<br>
+- Ability to add quick-run from one of the running application<br>
+- Added Error sound<br>
+Fixed:<br>
+- minor bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.7</td></tr>
+<tr><td>
+Added:<br>
+- Switch case hotkey<br>
+- Active process priority submenu<br>
+- Option to define volume change step<br>
+- XP manifest (Partial XP theme support)<br>
+- Option to save screenshots in jpeg format<br>
+- Customizable splash window colors and font<br>
+- Ability to start WinAmp when corresponding hotkeys were used<br>
+- Option to disable splash windows for Volume and WinAmp control<br>
+- optimized memory footprint<br>
+Fixed:<br>
+- minor bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.6</td></tr>
+<tr><td>
+Added:<br>
+- Automatical directory creation (if needed) for new screenshots<br>
+- Winamp hotkey control (for WinAmp 3 "<a href="http://www.winamp.com/components3/detail.jhtml?componentId=118230">Winamp 2x Plugin Manager</a>" must be installed)<br>
+- Greate acceleration for getting system processes list<br>
+- Option for invisible mode (without tray icon at all)<br>
+Fixed:<br>
+- minor bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.5</td></tr>
+<tr><td>
+Added:<br>
+- Kill before shutdown feature<br>
+- Ability to clear clipboards content and history<br>
+- Boss key, Ability to hide/terminate all shady applications in one step<br>
+- Ability to define JScript regexp for filtering paste operations. Usable when portions of the clipborad`s content must be smartly replaced on the regular basis<br>
+- Preferences dialog interface improvements (for example: now you can drag`n`drop files from Explorer to the fields with file path/name)<br>
+</td></tr>
+
+<tr><td><b>ver 1.4.3</td></tr>
+<tr><td>
+Added:<br>
+- Hotkeys for default browser and email client<br>
+- New compatibility mode for additional clipboards<br>
+- A lot of small usability improvements<br>
+- Added sound for calculator<br>
+Fixed:<br>
+- Clipboard modes (Ctrl-C/Ctrl-V and Ctrl-Insert/Shift-Insert) compatibility improved<br>
+- Clipboard`s content are fully saved between restarts now (with history and so on)<br>
+- Duplicated text pieces will not be stored in clip history twice now<br>
+- Fixed bug with messed character locale when inserting unicode text in some applications<br>
+</td></tr>
+
+<tr><td><b>ver 1.4.2</td></tr>
+<tr><td>
+Added:<br>
+- Hotkeys for quick volume control<br>
+- Auto open screenshot in image editor<br>
+Fixed:<br>
+- Auto update of the hidden windows title (so you can see the real application title through WireKeys tray menu at any time)<br>
+- Inability to disable (drop value) of the defined hotkey
+</td></tr>
+
+<tr><td><b>ver 1.4</td></tr>
+<tr><td>
+Added:<br>
+- Customizable shutdown type<br>
+- Unlimited number of additional clipboards<br>
+- History of use for every clipboards (unlimited maximal depth). Some applications does not work properly with this feature<br>
+- Inline calculator (called by the same hot key as "Run as from command string"). To be treated as expression selected string must end on '=' char<br>
+- Layout converter automatically change active keyboard layout for foreground application along with converting text<br>
+Fixed:<br>
+- bug with hang-up on restart<br>
+</td></tr>
+
+<tr><td><b>ver 1.3.2</td></tr>
+<tr><td>
+Added:<br>
+- Fast restart ability<br>
+- Active application boost<br>
+Fixed:<br>
+- some Win98-related bugs<br>
+</td></tr>
+
+<tr><td><b>ver 1.3.1</td></tr>
+<tr><td>
+Added:<br>
+- Fast shutdown hotkey<br>
+</td></tr>
+
+<tr><td><b>ver 1.3</td></tr>
+<tr><td>
+Added:<br>
+- Now you can start any application by pressing defined hotkey (+ automatically hide application to tray after start)<br>
+- Screensaver ON/OFF/Start options<br>
+- 'Hide completely' hotkey action<br>
+- 'Win' key support<br>
+</td></tr>
+
+<tr><td><b>ver 1.2</td></tr>
+<tr><td>
+Added:<br>
+- Multylanguage support<br>
+- 'Run as from command string' action<br>
+- Integration with WireNote. Now WireKeys tray icon can be automatically hidden into WireNote tray-menu
+</td></tr>
+<tr><td><b>ver 1.1</td></tr>
+<tr><td>
+Added:<br>
+- Screenshot processing added
+Fixed:<br>
+- Some bugs fixed<br>
+</td></tr>
+
+<tr><td><b>ver 1.0</td></tr>
+<tr><td>
+- Ability to browse main application menu from application tray icon (even ownerdraw menus!)
+</td></tr>
+</table>
+
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: statistics";
+$rcontent="This is from installation time, there is no way to clear it (manually edit config file is not an option?). &#34;In use&#34; does mean nothing actually... for debug only. Other options just &#34;For fun&#34;. Extended typing stats can be obtained via TypingStats plugin :)
+";
+$rauthor="WiredPlane";
+$rdate="1213665459";
+$rip="92.36.21.219";
+
+?>

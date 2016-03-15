@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Dual Monitor support for WireChanger";
+$rcontent="i see :(( Thanks for your help. We will work on fixing this (starting from screensaver).
+We will post new updates with several changes about dual-monitor support. We may also ask you to test some debug builds that will find out what happening on your systems.
+for now, you can disable System options-&#62;&#34;Track wallpaper changes and apply notes automatically&#34; to remove annoying message about expanding your gallery";
+$rauthor="WiredPlane";
+$rdate="1138090700";
+$rip="195.245.232.12";
+
+?>

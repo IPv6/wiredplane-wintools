@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: resize window 2";
+$rcontent="[quote]I see. we will think about changing default size of the note[/quote] :)
+
+hi,
+having the message/note window a user defined size would be great.
+
+also double clicking on the message to resize would be an option. dragging to resize really is a drag";
+$rauthor="theitdept";
+$rdate="1175578998";
+$rip="202.7.166.173";
+
+?>

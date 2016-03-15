@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Debug Log";
+$rcontent="fixed";
+$rauthor="WiredPlane";
+$rdate="1142234877";
+$rip="195.245.232.22";
+
+?>

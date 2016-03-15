@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Can&#39;t get Wire Keys to work with eEye Blink Firewall/AV software";
+$rcontent="Really strange... did it show any windows at start? error messages?
+
+I`ll try to find eEye Blink and test WK with it";
+$rauthor="WiredPlane";
+$rdate="1179577630";
+$rip="85.141.123.99";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN] Any-window resizer";
+$pcontent="Please, leave your comments here (in English if this is possible).";
+$pauthor="WiredPlane";
+$pdate="1103819779";
+$plastdate="1139558324";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="2768";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|ValeraVi|FAST|garry63|DLSQFLY|Digitall";
+$psticky="";
+
+?>

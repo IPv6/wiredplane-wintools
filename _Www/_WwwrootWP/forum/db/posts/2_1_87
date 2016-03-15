@@ -1,0 +1,19 @@
+<?php
+
+$psubject="&#39;Network and Dialup Connections&#39; folder";
+$pcontent="Is it possible to open the &#39;Network and Dialup Connections&#39; folder via hotkey? ";
+$pauthor="jaco";
+$pdate="1111045755";
+$plastdate="1111136515";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="jaco";
+$preplies="4";
+$pviews="764";
+$pnotify="|jaco";
+$plock="";
+$pip="";
+$pvisitors="|jaco|WiredPlane|AGu";
+$psticky="";
+
+?>

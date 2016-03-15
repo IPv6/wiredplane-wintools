@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: I have a script which works at 3.1.4 but not 3.4.0 - any ideas?";
+$rcontent="This is our bug :( Update will be available today.
+To workaround this error add two unused varibales into wkMain declaration
+Function wkMain(aaa,bbb)";
+$rauthor="WiredPlane";
+$rdate="1140869219";
+$rip="195.209.143.44";
+
+?>

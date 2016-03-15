@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN] Full sound control";
+$pcontent="Please, leave your comments here (in English if this is possible).";
+$pauthor="WiredPlane";
+$pdate="1103819759";
+$plastdate="1103819759";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="1103";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Shaker|Anonimus";
+$psticky="";
+
+?>

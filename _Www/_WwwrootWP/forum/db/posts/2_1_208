@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Дополнительные буферы";
+$pcontent="Ну добавьте пожалуйста, чтобы можно было в дополнительных буферах обмена удалять ненужные записи!  *)";
+$pauthor="McStar";
+$pdate="1155904495";
+$plastdate="1155913323";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="774";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|Anonymous|Anonimus|WiredPlane|Digitall|pharaon|garry63|AlexZ";
+$psticky="";
+
+?>

@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent=" Yes, i think i will put it under GPL/Mozilla license for noncommersial use if i decided to abandon it completely (not in the near future. in fact WK is what i use everyday in my work and there is no tool that can replace it with what i need).
+
+ But in fact there is too much features in WK for average user and there is no point to add new ones, except easy ones of course.
+ 
+";
+$rauthor="WiredPlane";
+$rdate="1213496720";
+$rip="91.149.65.81";
+
+?>

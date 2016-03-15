@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Последняя версяя WK нестабильна!";
+$pcontent="Привет, разработчикам. Сегодня скачал последнюю версию, а она у меня вылетает при старте. А старую уже затёр :((";
+$pauthor="McStar";
+$pdate="1124109083";
+$plastdate="1124366375";
+$pimage="4.gif";
+$plastreply="13";
+$plastauthor="McStar";
+$preplies="13";
+$pviews="1065";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

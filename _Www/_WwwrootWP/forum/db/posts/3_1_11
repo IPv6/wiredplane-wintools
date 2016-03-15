@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Enhancement: Include / Move Pin (On Top) and Transparency to Application Window Menu";
+$pcontent="Enhancement: Include / Move Pin (On Top) and Transparency to Application Window Menu
+
+Pin and Transparency are characteristics that are similar to  Rollup, Hide Completely, and Hide to Tray.  They should be available on the same menu (as option).
+
+Hide Completely and Hide to Tray should be adjacent on the application window menu.
+
+";
+$pauthor="BillR";
+$pdate="1095087430";
+$plastdate="1095087430";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="BillR";
+$preplies="0";
+$pviews="398";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane|staccato";
+$psticky="";
+
+?>

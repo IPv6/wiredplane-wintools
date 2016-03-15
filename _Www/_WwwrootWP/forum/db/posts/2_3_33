@@ -1,0 +1,21 @@
+<?php
+
+$psubject="How to install a newer version?";
+$pcontent="У меня стоит WireNote 2.7.1. Собираюсь проапгрейдить ее до более свежей (2.7.2). Как поступить, чтобы все настройки сохранились? Следует ли просто установить новую версию поверх старой?
+
+Аналогичный вопрос -- для WireKeys.";
+$pauthor="AGu";
+$pdate="1114587074";
+$plastdate="1114671110";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="513";
+$pnotify="|AGu";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AGu";
+$psticky="";
+
+?>

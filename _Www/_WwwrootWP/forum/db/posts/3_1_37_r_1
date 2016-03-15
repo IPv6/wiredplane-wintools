@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [PLUGIN] Taskbar extender";
+$rcontent="This plugin is updated. Now it should not crash Explorer on Windows XP and has some additional checkbox in preferences :)";
+$rauthor="WiredPlane";
+$rdate="1106502337";
+$rip="195.209.143.44";
+
+?>

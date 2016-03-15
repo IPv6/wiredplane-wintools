@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Latest news";
+$pcontent="- WK and WC upadted with bugfix to rejected registration info.
+The problem were in the third-party application we used for protecting WC from cracking. They give &#34;new&#34; version some time ago with several bugs in it. Then, fixing one bug after another, they added error in regdata checking procedure...
+We apologize for this problem and we will not allow this happen again in future
+- Two new note skins added: Night pack by Almaz and Girlsin blue by Stalker. Thank you guys!
+- Mouse gestures plugin added. It is rather basic this time, but we will improve it in future";
+$pauthor="WiredPlane";
+$pdate="1125470077";
+$plastdate="1125470077";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="780";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|garry63";
+$psticky="";
+
+?>

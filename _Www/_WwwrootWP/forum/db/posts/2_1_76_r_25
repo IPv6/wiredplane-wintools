@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="3.4.2 released.
+Most important bugfix - annoing &#34;Start menu&#34; after hotkey with &#34;Win&#34; button was fixed at last ^)";
+$rauthor="WiredPlane";
+$rdate="1142235658";
+$rip="195.245.232.22";
+
+?>

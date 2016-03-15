@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Preferences - Why is &#34;Disable double-press&#34; under &#34;Check for updates&#34;?";
+$rcontent="7:22 am - Why?
+8:53 am - Bug confirmed and fixed.
+
+There&#39;s responsive and then there&#39;s !responsive!.
+";
+$rauthor="BillR";
+$rdate="1082643891";
+$rip="141.156.212.231";
+
+?>

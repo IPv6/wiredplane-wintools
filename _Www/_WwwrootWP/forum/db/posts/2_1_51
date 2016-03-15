@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Возобновление проигрывания треков";
+$pcontent="Если я приостановил проигрывание треков. А затем залочил и разлочил компьютер, то воспроизведение возобновляется.";
+$pauthor="McStar";
+$pdate="1099573222";
+$plastdate="1099573222";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="634";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

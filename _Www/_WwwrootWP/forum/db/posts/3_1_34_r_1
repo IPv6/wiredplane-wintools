@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: [PLUGIN] GPIO remote control";
+$rcontent="Does anyone have any documentation for this plug-in?
+I can&#39;t figure out how it works.
+
+Also, i get an error saying that the remote control device drivers are not installed.  Can someone point me to a place where i can download the proper drivers?";
+$rauthor="Anonimus";
+$rdate="1115924308";
+$rip="209.128.112.242";
+
+?>

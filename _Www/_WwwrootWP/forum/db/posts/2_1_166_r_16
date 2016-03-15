@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="Partially. We added option to enable backward-compatible way of starting files (with less startup possibilities). Looking at log i see that your systems reported about successfull lnk activation. but something goes wrong after that (error 7e is about &#34;could not find one of the used modules&#34;). It seems that your system needs to be checked for consistency, may be third-party software installed old version of system dlls instead of actual files :(
+New version will be ready in be beginning of may";
+$rauthor="WiredPlane";
+$rdate="1145958024";
+$rip="195.245.232.22";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Время через инет";
+$pcontent="Есть предложение ввести возможность синхонизации времени через инет. Хотя можно и плагинчик к WireKeys. А можно и так и так :))";
+$pauthor="McStar";
+$pdate="1107261818";
+$plastdate="1107276436";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="895";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|AGu|Urza";
+$psticky="";
+
+?>

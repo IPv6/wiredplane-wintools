@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Problems with &#34;Win&#34; hotkeys";
+$rcontent="will be fixed. in fact blocking win key during hotkey press can cause some problems when used sometimes. Windows sometime forgets to &#34;Unpress&#34; it, leading to weird effects.
+but this is not common case and there will be option for it (enabled by default ^)";
+$rauthor="WiredPlane";
+$rdate="1109928522";
+$rip="195.245.232.12";
+
+?>

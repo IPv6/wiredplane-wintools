@@ -1,0 +1,19 @@
+<?php
+
+$rsubject="RE: WireNote and WireKeys - no WK tray icon ";
+$rcontent="You mean: I disable WN in WIREKEYS?
+
+Help says this could be done in WK&#39;s main menu &#34;Additional options&#34;
+I found 10 options there; but WireNote isn&#39;t mentioned!  :oops
+Although the entry can be found in the language file.
+[quote]IntegrateWithWirenote=xxx
+WirenoteIntegration=xxx[/quote]
+But it isn&#39;t displayed, unfortunately.
+What&#39;s wrong?
+
+Richy.";
+$rauthor="Richy";
+$rdate="1196908091";
+$rip="79.214.216.219";
+
+?>

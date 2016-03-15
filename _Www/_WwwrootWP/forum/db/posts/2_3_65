@@ -1,0 +1,20 @@
+<?php
+
+$psubject=" I mean I can not add more than one receiver";
+$pcontent=" I mean I can not add more than one receiver into &#34;To&#34; box inside reminder dialog. 
+ In the reminder dialog. I check &#34;send net message&#34; box and can not add more than one receiver in the right box.";
+$pauthor="Anonymous";
+$pdate="1150344169";
+$plastdate="1150350204";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="571";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous|lawtm";
+$psticky="";
+
+?>

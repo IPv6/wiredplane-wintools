@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Having MAPI2POP3 skip certain folders";
+$pcontent="Hi, 
+
+Just wanna know whether someone ever looked at teaching MAPI2POP3 that it should NOT retrieve messages from ALL folders (including &#34;Drafts&#34;, &#34;Synchronization errors&#34;, additional mailboxes added to the Exchange account) and the like...
+
+Sure, that should be a simple change... if you know the code...
+
+";
+$pauthor="sba";
+$pdate="1169462235";
+$plastdate="1169781224";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="697";
+$pnotify="|sba";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|sba";
+$psticky="";
+
+?>

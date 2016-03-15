@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Проблема с window docking";
+$rcontent="Есть какие-нибудь новости по моей проблеме?";
+$rauthor="Anonimus";
+$rdate="1148332626";
+$rip="213.184.238.50";
+
+?>

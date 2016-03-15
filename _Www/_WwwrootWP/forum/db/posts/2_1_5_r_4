@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: New plugins: Window`s resizer and &#34;text screenshot&#34;";
+$rcontent="[quote]www.numerit.com  -  Look in left column halfway down.
+http://www.megspace.com/computers/tinyspell/
+Window Resizer does not work well on this on[/quote]
+Hm, i just check this program - everything is work as expected. The only bad thing is that spelling window 
+is not able to contain more than one line of text. Is that what you mean? This can be fixed, though this is not &#34;resizing&#34; deal - such attributes are set by dialog`s application
+
+[quote]When displaying the resizer lines, could the &#34;inner rectangle&#34; be outlined more explicitly without overly burdening the system?[/quote]
+Will be done :)
+";
+$rauthor="WiredPlane";
+$rdate="1082908250";
+$rip="195.209.143.44";
+
+?>

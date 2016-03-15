@@ -1,0 +1,27 @@
+<?php
+
+$psubject="always 100 % cpu usage at system start";
+$pcontent="The nicest wallpaper changer I have found. Enough options and not too big memory usage. Marvelous!!!
+
+Two questions, however:
+
+1) is it possible to delay the start of changing? Because the first two minutes of starting  the PC is getting in the way of WC. So no notes and the balloon of 100 % CPU. After 10 minutes (changing time) the notes come back.
+
+2) Can the balloon with the remarks go away at a certain interval?
+
+";
+$pauthor="Anonymous";
+$pdate="1181738142";
+$plastdate="1181809670";
+$pimage="2.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="607";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous";
+$psticky="";
+
+?>

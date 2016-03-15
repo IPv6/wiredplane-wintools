@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Screensaver";
+$pcontent="Предлагаю для скринсейвера ввести свои шаблоны формирования картинки, а то не очень прикольно, когда личная информация присутствует.";
+$pauthor="McStar";
+$pdate="1108652297";
+$plastdate="1108714070";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="McStar";
+$preplies="4";
+$pviews="1095";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|cheerio|CynthiaBlue|jrwatts";
+$psticky="";
+
+?>

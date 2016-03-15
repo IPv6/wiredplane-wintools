@@ -1,0 +1,12 @@
+Ilja,
+I must have a mental block where this is concerned.
+
+    %MMM %d, %yyyy 
+--> 08MM %d, %yyyy 
+
+    %M %D %Y 
+--> 08 20 2004 
+
+Clearly the lower two tables in the help file are strictly format characters.  What is the syntax?  Where is it documented?  RTFM with a citation is fine.
+
+BTW, the Search tab in Help is confusing.  Does it search anything besides the plugin example?

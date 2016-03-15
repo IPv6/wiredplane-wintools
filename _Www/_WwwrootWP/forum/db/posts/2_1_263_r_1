@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Action when closing WirkeKeys";
+$rcontent="Did you want to see such reminder before shutdowning your computer too, for example?
+
+ Conserning USB sticks it is safe to switch computer off when it is attached to it. Windows will flush all data upon shutdown, so no information will be lost! Not sure about hibernate modes though";
+$rauthor="WiredPlane";
+$rdate="1203554453";
+$rip="83.217.56.4";
+
+?>

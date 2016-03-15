@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK updated to version 2.9
+Most changes are bug fixes and some internal optimizations. New plugin available - CCbyEsc, it allows one to close console (or any other) windows by double-pressing Escape key.
+
+For all registered users: you will  be asked to send request for new key to support@wiredplane.com. It is completely free. We are forced to do so %( sorry for inconvinience";
+$rauthor="WiredPlane";
+$rdate="1116333663";
+$rip="195.245.232.12";
+
+?>

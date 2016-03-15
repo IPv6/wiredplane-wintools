@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: offline";
+$rcontent="Шлю  логи с двух машин и общую папку тоже
+
+[b] Приложение[/b]: [att]2.rar[/att]";
+$rauthor="GRISHIN";
+$rdate="1090420880";
+$rip="195.222.66.24";
+
+?>

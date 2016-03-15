@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Ошибка проверки обновлений";
+$pcontent="Из меню по правому клику на wirekeys в трее Help-&#62;Check for Update
+выдаёт Can&#39;t connect to the &#39;WiredPlane Labs&#39; web-page. Check aborted.";
+$pauthor="SkyRE";
+$pdate="1140602583";
+$plastdate="1140787742";
+$pimage="4.gif";
+$plastreply="2";
+$plastauthor="SkyRE";
+$preplies="2";
+$pviews="703";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|SkyRE|Anonimus|WiredPlane|ValeraVi|stepone";
+$psticky="";
+
+?>

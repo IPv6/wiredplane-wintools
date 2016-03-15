@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: Feature request";
+$rcontent="[quote]Thanks! Nice additions!!!
+We will implement them in future versions![/quote]
+
+Nice work, thank you.
+
+Still would very much like to have the ability to place the menu in a static place. As it stands, menu creation where the mouse is is weird to me, because I rarely know where the mouse cursor actually is! If the process list was *always* centered or cornered at pixel (0,0) that consistency would be very nice.
+
+Cheers,";
+$rauthor="jaco";
+$rdate="1175611271";
+$rip="72.81.178.131";
+
+?>

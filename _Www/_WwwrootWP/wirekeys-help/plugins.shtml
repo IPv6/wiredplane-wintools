@@ -1,0 +1,76 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="Ïëàãèíû è èõ âîçìîæíîñòè" -->
+<!--#set var="TOPIC_EN" value="Plugins descriptions" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>WireKeys Plugins</h2>
+<hr width="100%">
+Plugins are small additional applications, which can add functionality to the main application.
+Any plugin can be "unplugged" by user, so it is YOU who decide what must take your system resources and what is not.
+WireKeys keeps track and remember user-defined hot keys for every action of every plugin. 
+Hotkeys and plugin`s preferences can be changed in the "Plugin options" window.
+Some plugins are disabled by default, you have to enable them in the preferences in order to use them
+<hr>
+<u><b>Short description of the default plugins</b></u>:
+<br><br><b>- Wired key combinations.</b> Do you use right-shift key for capitalizing your text input? And what about Caps Lock key? 80% of users have the same answer - Almost never! Now you can use such keys separately in 
+the hotkey combinations as well as Caps Lock key and all multimedia keys. This plugin incredibly increases "hotkeyness" of your keyboard. With this plugin you can set different hotkeys for left- and right-shift/control/alt/win keys, 
+use restricted key combinations for hotkey (such as Alt-Tab), use all additional keys of the multimedia keyboards and use multi-key hotkeys, like LCtrl-A-B-C or Space-Enter for example. You can also use 
+your mouse buttons (including MS XButtons) and mouse wheel in your hotkey combinations as well. To add mouse button to hotkey, mouse pointer must be over hotkey input field<br>
+<br>Options of this plugin can be found under "Global options" of the preferences dialog, in the "Hotkeys" section
+<br>
+<br><b>- WireKeys windows traits.</b> This plugin extends your abillity to control windows in the system. For example it makes all windows in your system sticky and allows you to hide windows to tray by right-clicking its minimize button.
+'Sticky' mean that window will be automatically snapped to other windows edges and screen boundaries when moved. Stickness can be temporaly disabled by holding Shift key while moving window.
+Other plugin features:
+<br>- ability to define windows to be settled in tray instead of taskbar (such windows will be automatically moved to tray on focus blur)
+<br>- ability to force all windows to be inside screen boundaries (so you will never cry on window with its title bar placed beyond monitor edge ;)
+<br>- ability to call 'Hot menu' by right-clicking 'Close' button ('X' button) or from the window`s system menu (Alt-Space menu). A lot of useful stuff can be found here - application shortcuts/selected text processings/macros and more.
+<br>- ability to inject usefult items (add to quick-run, hide to tray, etc) into window`s system menu (alt-space or right-clicking window`s title)
+<br>- ability to dock/expand window in horizontal/vertical direction on right/middle-clicking window`s border (try to right-click or middle click windwo`s border to get the idea)
+<br>
+<br><b>- Macro recorder.</b> Using this plugin you can easily record keystrokes to replay them later by hotkey. You can also record macro that will replay different keystrokes for different applications. 
+Simple example: you want to record "Open new media file" macro that will work in different media players - WinAmp and Media Player - in the same manner. This can be done by sending different keystrokes - 'L' for WinAmp, 'Ctrl-O' for Media Player - to player that is currently active. 
+To record such macro choose corresponding option in the pre-recording dialog, switch to WinAmp and press 'L' then switch to Media Player and press 'Ctrol-O'. After that click tray icon to finish recording - and 
+you will get what you want, new macro that will send 'L' key when WinAmp is active and 'Ctrl-O' when Media Player is in foreground<br>
+<br>
+<br><b>- <a href="http://winlirc.sourceforge.net/">WinLIRC</a> remote control.</b> Add any button from your remote to your hotkeys. <a href="http://winlirc.sourceforge.net/">WinLIRC</a> must be up and running. Native support for AverTV cards<br>
+<br>
+<br><b>- Desktop icons font master.</b> This plugin allows to set font and color of the desktop icons and was designed as free and simple sample for plugin developers. <a href="IconsFont.zip">Here</a> you can find full source code for it (compiled and tested on MSVC++ 6.0 Sp5)<br>
+<hr>
+<u><b>Useful plugins that can be downloaded from our site</b></u>:
+<br><b>- Taskbar extender.</b> Add ability to drag and drop buttons on taskbar, to move them out taskbar into floater or to tray to icon. Add hotkeys to switch to next/previous application in the taskbar`s order.
+<a href="http://www.wiredplane.com/download/wkp_alttabr.zip">Download...</a>
+<br><b>- Right-click paste enhancer.</b> Add history of clipboard use to all menus with 'Paste' item.
+<a href="http://www.wiredplane.com/download/wkp_rclickcp.zip">Download...</a>
+<br><b>- Windows and menus enabler</b>(by Bulavin Alex & Mushinsky Sergey). Enable all buttons and windows in all applications on your computer.
+<a href="http://www.wiredplane.com/download/wkp_enabler.zip">Download...</a>
+<br><b>- Window`s resizer.</b> Small tool to quickly resize unresizable windows.
+<a href="http://www.wiredplane.com/download/wkp_sizewnd.zip">Download...</a>
+<br><b>- Full sound control.</b> With this plugin you will be able to assign separate hotkeys to control Volume/Pan and other parameters on different pins of you sound card (Wave,Aux,etc).
+<a href="http://www.wiredplane.com/download/wkp_soundctr.zip">Download...</a>
+<br><b>- Text grabber.</b> Simple plugin to get text from all text field (even unselectable) on the active window into text file.
+<a href="http://www.wiredplane.com/download/wkp_textscr.zip">Download...</a> 
+<br><b>- As LINUX Move</b>(by Vint). Click and hold mouse button inside any window and drag it in any direction (not by title bar only).
+<a href="http://www.wiredplane.com/download/wkp_aslinux.zip">Download...</a>
+<br><b>- Instant scrolling.</b> Can scroll any window in vertical/horizontal directions dragging your mouse.
+<a href="http://www.wiredplane.com/download/wkp_iscroll.zip">Download...</a>
+<hr>
+<b>Developer info:</b><br>
+Plugin is the simple DLL file (renamed to '*.wkp') or stand-alone '*.exe', which must reside in the "Plugins" folder and export certain functions. 
+You can write your own plugin and send it to us to share with all WireKeys users in exchange for free registration key. Of course, you will be mentioned as author everywhere.
+<br>You can look at full <a href="http://www.wiredplane.com/wksources.shtml" target="_blank">source codes</a> (MSVC++ 6.0 Sp5) for several plugins as an example.
+<br>You can also look at the <a href="wkplugin.h">plugin`s header file</a> for MS Visual Studio C++ 6.0.
+<br>If you have any questions, you can post them in our <a href="http://www.wiredplane.com/forum/board.php?cat=3&fid=1&s=s">support forum</a>.
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

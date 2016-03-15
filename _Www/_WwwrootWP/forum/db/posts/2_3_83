@@ -1,0 +1,24 @@
+<?php
+
+$psubject="When I sent a message to a group, some get";
+$pcontent="When I sent a message to a group, some get them, but some did&#39;t. The program only display a message &#34;you message has not been sent. Do you wish to resend message after a while&#34; . This message does not display the name list who did not get the message. If there any functions that I can check it out?
+Besides, if I choose to resend later, it will send to all the persons again, those who has received the message before will get it again. How can I solve this problem?
+
+
+
+";
+$pauthor="Anonymous";
+$pdate="1194332905";
+$plastdate="1196049382";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="436";
+$pnotify="|Anonymous";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Richy|Milan";
+$psticky="";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$rsubject="RE: hotkey for folder context menu item (&#34;Play In Winamp&#34;)";
+$rcontent="change macro with this lines:
+
+ var sFilesFolders=selectedText.split(&#39;&#92;n&#39;);
+if(sFilesFolders.length&#62;0){
+ // For each folder in source...
+ for(i=0;i&#60;sFilesFolders.length;i++){
+ startLine=&#39;&#34;c:&#92;&#92;Program Files Ex&#92;&#92;Winamp5&#92;&#92;winamp.exe&#34; /ADD &#34;&#39;+sFilesFolders[i]+&#39;&#34;&#39;;
+ WshShell.Run(startLine, 1, false);
+ }
+}
+";
+$rauthor="WiredPlane";
+$rdate="1135756490";
+$rip="195.245.232.12";
+
+?>

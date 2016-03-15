@@ -1,0 +1,21 @@
+<?php
+
+$psubject="New plugin";
+$pcontent="Useless &#39;Start&#39; - this plugin replaces text on start button (really useless for exprienced users) with CPU/memory usage.
+
+Starting with this plugin secondary functionality of WK will be moved to plugins (CPU usage on Start button can be found in current version of WK)";
+$pauthor="WiredPlane";
+$pdate="1098467339";
+$plastdate="1098467339";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="545";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|hulland|BillR|stepone|McStar|Leshiy|Anonimus|triplex";
+$psticky="";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Hotkey Guide does not autoreduce";
+$rcontent="I see... :bulb Final test: go to the &#34;Wired key combiantions&#34; plugin preferences and set timeout for &#34;Press and hold&#34; to 0 (zero). after that try to check autoreducing again. Please, post the results here  :)";
+$rauthor="WiredPlane";
+$rdate="1083181600";
+$rip="195.209.143.44";
+
+?>

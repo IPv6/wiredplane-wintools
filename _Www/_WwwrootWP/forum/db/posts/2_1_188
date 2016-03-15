@@ -1,0 +1,19 @@
+<?php
+
+$psubject="ќптимизаци€ пам€ти и гор€чие клавиши";
+$pcontent="¬ случае, если запустить процесс оптимизации пам€ти и не дожида€сь его окончани€ использовать последовательную гор€чую клавишу (во завернул :)), то клавиатура автоматом не снимаетс€ с паузы после окончани€ набора. ’от€ сама последовательность срабатывает.";
+$pauthor="McStar";
+$pdate="1144308077";
+$plastdate="1144321108";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="431";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AzazelSP|pharaon|SkyRE|triplex|garry63";
+$psticky="";
+
+?>

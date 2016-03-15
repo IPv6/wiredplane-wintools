@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Последняя версия падает";
+$pcontent="В общем сабж. При генерации картинки, падает. Сразу после запуска.";
+$pauthor="McStar";
+$pdate="1165263893";
+$plastdate="1165477154";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="1043";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous|McStar|lerico|DSR";
+$psticky="";
+
+?>

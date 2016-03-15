@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: problem with Virtual Dimension";
+$rcontent="Can you open Message history and read what error did happen during send? can you send this log to us for analysis (remove any private data if needed)?";
+$rauthor="WiredPlane";
+$rdate="1149770722";
+$rip="195.245.232.22";
+
+?>

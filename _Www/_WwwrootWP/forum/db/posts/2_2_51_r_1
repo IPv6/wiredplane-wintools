@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: My evaluation and suggestion";
+$rcontent="Thank you for your suggestions!
+2. will be implemented in the next update
+3. is planned for future, will be added too
+1 and 4 are possible but this can be hard to tune widgets for hunders of wallpapers. How many wallpapers you usually use?";
+$rauthor="WiredPlane";
+$rdate="1139385092";
+$rip="195.245.232.22";
+
+?>

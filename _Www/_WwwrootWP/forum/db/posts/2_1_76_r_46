@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="Hello!
+Sorry:(
+
+To be honest - yes, WK in stagnation. We moved our development focus into casual games because we need to earn something and WK simply can not pay our check anymore... so there will be bugfixes in the future and easy-to-add features, but no heavy development anymore";
+$rauthor="WiredPlane";
+$rdate="1213402931";
+$rip="92.36.14.226";
+
+?>

@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Hotkey Guide does not autoreduce";
+$rcontent="[quote] :bad  The hotkey guide shows the initial key as the title when it is pressed, but the hotkey guide no longer reduces the displayed list of possible hotkeys based on that key (and has not for at least several releases).  For example, Alt-Win-M is still displayed when pressing Ctrl (and holding Ctrl so I can read the keys displayed).  Same thing with Shift.[/quote]
+
+Strange :oops As i see, you mean that some hotkeys, which are not match current combination, still visible in this window? May i ask to perform two checks:
+- Please, check hotkey guide`s title for &#34;(P+H)&#34; substring.
+- Is the text in this window starting from &#34;1. ...&#34;- i mean a number - or from &#34;-&#34; - minus sign?
+
+May be it is easier to assign small screenshot of this situation. I can`t reproduce it on my computer :( ";
+$rauthor="WiredPlane";
+$rdate="1082979696";
+$rip="195.209.143.44";
+
+?>

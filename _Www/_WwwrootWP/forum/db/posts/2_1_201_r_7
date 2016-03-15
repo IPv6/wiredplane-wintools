@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Не регулируется громкость";
+$rcontent="Странно, а у меня работает...
+WireKeys 3.4.4
+Windows XP Pro SP1 VL";
+$rauthor="SkyRE";
+$rdate="1150205231";
+$rip="194.88.1.234";
+
+?>

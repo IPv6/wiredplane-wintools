@@ -1,0 +1,27 @@
+<?php
+
+$psubject="My evaluation and suggestion";
+$pcontent="I am evaluating the ver 3.4.9 of WireChanger and would like to suggest:
+
+1. I suggest to have calendar settings per wallpaper. i.e. diff calendar settings (color, position, skins) will be used based on the wallpaper being applied.
+
+2. When loading pictures from folder, allows user to decide whether to include sub folder at the same time. Currently, user need to go to preferences-&#62;system options to toggle that
+
+3. Allows sub theme within a theme (for wallpaper), so user can organize wallpapers in a more detail manner.
+
+4. The &#34;scalling&#34; and some widgets like &#34;Exact wallpaper position&#34; should be allowed to work on per wallpaper basic. (instead of per theme only)";
+$pauthor="hiclass";
+$pdate="1139380403";
+$plastdate="1139385092";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="522";
+$pnotify="|hiclass";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|hiclass|jrwatts|Anonymous";
+$psticky="";
+
+?>

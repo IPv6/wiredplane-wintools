@@ -1,0 +1,20 @@
+<?php
+
+$psubject="offline";
+$pcontent="Господа, что-то я не въеду... А как передать сообщение клиенту в сети, который в данное время выключен? А компьютер свой он включит когда меня не будет (я свой вырублю)? Есть такая возможность?
+Извините если ламерский вопрос, ну совсем не хватает времени все досконально прочитать...";
+$pauthor="GRISHIN";
+$pdate="1089876171";
+$plastdate="1098344080";
+$pimage="1.gif";
+$plastreply="72";
+$plastauthor="GRISHIN";
+$preplies="72";
+$pviews="3584";
+$pnotify="|GRISHIN";
+$plock="";
+$pip="";
+$pvisitors="|GRISHIN|WiredPlane|McStar|Anonimus|AGu|jaco";
+$psticky="";
+
+?>

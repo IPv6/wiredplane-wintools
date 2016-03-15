@@ -1,0 +1,20 @@
+<?php
+
+$psubject="100% CPU now used by Wirekeys after update";
+$pcontent="I just downloaded and installed the latest version of Wirekeys. It now uses 100% CPU so cannot be run. If only I had just kept on using the old one.
+Any ideas?";
+$pauthor="comsec";
+$pdate="1142093800";
+$plastdate="1142170169";
+$pimage="4.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="750";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SkyRE";
+$psticky="";
+
+?>

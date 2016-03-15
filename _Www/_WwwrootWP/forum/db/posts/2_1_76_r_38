@@ -1,0 +1,29 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="[quote]:( WK is stalled but this is not a death :) There is simply not much useful changes to make a new update (i don`t whant to issue update without any real value) still... quote]
+
+I accept your point of releasing strategy.
+
+But I don&#39;t agree, that an update isn&#39;t worth. 
+Here a few meaningful points:  :bulb
+-- How to show a hidden app via hotkey?
+-- Action when closing WirkeKeys
+-- Shell Extender Favorite Folder Error
+-- Scheduler and reminders
+-- Autotext plugin more expand keys
+
+That were only MY suggustions in the past; see forum.
+(The russian text is not fully understandable to me :-(
+
+Awaiting the new WK.  :thmbup
+
+Richy.
+
+BTW: The good news is: the emailer is working now, when someting is posted.
+";
+$rauthor="Richy";
+$rdate="1211743538";
+$rip="79.214.225.237";
+
+?>

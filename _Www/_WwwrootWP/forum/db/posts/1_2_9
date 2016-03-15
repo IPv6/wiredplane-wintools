@@ -1,0 +1,24 @@
+<?php
+
+$psubject="New: WC 2.7!";
+$pcontent="A lot of new features in the notes and templates areas, main window and note window were fully redesigned to conform with the usability stuff. Templates now can be cloned (so you now can have more than one calendar at a time, several webcameras and pictures, mixed effects and so on), Note can be gived individual font/background image/icon
+
+More to come! 
+
+And now we moved from ShareIt registration service to SWReg company, which is able to receive PayPal payments.
+";
+$pauthor="WiredPlane";
+$pdate="1091750887";
+$plastdate="1091750887";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="819";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

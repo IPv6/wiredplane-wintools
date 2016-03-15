@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Bug in &#34;Warning&#34; window ?";
+$pcontent="Hi. I thought this was a Win2k thing, but after switching over to XP, it&#39;s still occurring. When WireKeys gives a &#34;Warning&#34; window, it&#39;s compressed so I can&#39;t see the text unless it&#39;s re-sized. 
+
+Note that if the window is re-sized, closed, then pops up again, it doesn&#39;t stay re-sized. 
+
+
+[edit]- removed screenshot link";
+$pauthor="jaco";
+$pdate="1173116993";
+$plastdate="1173200019";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="garry63";
+$preplies="3";
+$pviews="764";
+$pnotify="|jaco";
+$plock="";
+$pip="";
+$pvisitors="|garry63|jaco|WiredPlane|Anonymous|Alkash|Swan";
+$psticky="";
+
+?>

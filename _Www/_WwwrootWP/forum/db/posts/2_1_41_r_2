@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Non-Explorer Hot keys";
+$rcontent="Many thanks for instant reply. 
+Sorry I missed that! I must print out the help and read it carefully. 
+I also note that the Ctrl+1,2,3 etc for copy don&#39;t work, maybe because they are default keys for Explorer2 but I re-mapped them as Ctrl+F1 so all is well.
+One more question please-Can I generate MOUSE macros with Wire Keys? ( eg to save opening other Apps then clicking in about 5 diferent windows-like to make a mouse macro) Thanks for excellent Programme.";
+$rauthor="hulland";
+$rdate="1098181538";
+$rip="194.204.111.78";
+
+?>

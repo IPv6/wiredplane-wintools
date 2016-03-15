@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Ошибка при попытке скопировать путь";
+$pcontent="В TotalCommander через контекстное меню попытался скопировать путь до файла. Получил сообщение об ошибке:
+&#34;OLE2 Command failed! Either your OLE2 subsystem is damaged, or you have installed a shell extension which is incompatible with Total Commander!&#34;
+
+В прошлой версии WK такого не наблюдалось.";
+$pauthor="McStar";
+$pdate="1147253735";
+$plastdate="1148462278";
+$pimage="1.gif";
+$plastreply="6";
+$plastauthor="McStar";
+$preplies="6";
+$pviews="879";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

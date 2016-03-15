@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Shared reminders";
+$rcontent="Sorry for inconvinience. You just have to wait for next update (will be ready today or tomorrow) with new &#34;Billboard&#34; module. You will be able to share reminders/notes/todos with all users, connected to the same billboard (shared folder)
+
+feature you described is simply doesn`t supported any more (becouse of new Billboard feature)";
+$rauthor="WiredPlane";
+$rdate="1108725864";
+$rip="195.245.232.12";
+
+?>

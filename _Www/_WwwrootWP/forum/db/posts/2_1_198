@@ -1,0 +1,19 @@
+<?php
+
+$psubject="&#34;Сортировать файлы по типу...&#34;";
+$pcontent="Не работает. Шорткаты назначал разные-одиночные, двойные.. &#34;Переключить Explorer в режим просмотра ...&#34; работает. Версия wirekeys последняя. Устанавливал поверх старой.";
+$pauthor="triplex";
+$pdate="1147778721";
+$plastdate="1148550173";
+$pimage="5.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="911";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|triplex|McStar";
+$psticky="";
+
+?>

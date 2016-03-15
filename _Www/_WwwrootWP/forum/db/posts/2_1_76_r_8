@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="2.8.3 released.
+- latest known bugs fixed %)
+- a way to start WK macros/qruns/actions from bat files (command line)";
+$rauthor="WiredPlane";
+$rdate="1114261610";
+$rip="213.87.63.71";
+
+?>

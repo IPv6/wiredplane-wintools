@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="2Jaco: About moving window hotkeys
+Now you can download new update to WK and download special macro from our site (&#39;Macros&#39; page) to control window size and position.
+Macro can move window left/right/top/bottom at 2 speeds and send widnow to corresponding screen edge as well - all-in-one place :)
+Other suggestions will be implemented soon too";
+$rauthor="WiredPlane";
+$rdate="1092984089";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,20 @@
+<?php
+
+$psubject="ANN: Infra-red remote controls and WireCkeys";
+$pcontent="Just announce: We are planning to release plugins to support remote controls - to use their buttons as hotkeys for controlling your computer. First plugin will support Aver Media TV (all saa7134 cards with GPIO interface in fact). Later we will post plugins that supports WinLIRC and Grider drivers for remote controls
+";
+$pauthor="WiredPlane";
+$pdate="1083495174";
+$plastdate="1083495174";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="298";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Leshiy|BillR|Teff|JirkaB";
+$psticky="";
+
+?>

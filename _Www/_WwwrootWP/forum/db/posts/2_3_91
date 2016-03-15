@@ -1,0 +1,39 @@
+<?php
+
+$psubject="Croatian translation + few suggestions";
+$pcontent="First of all I would like to thank you all on making beautiful piece of software for free. 
+I made Croatian translation which is working fine...tell me where to send it.
+
+I see others make suggestions so why not...here&#39;s a list of what i think :
+
+
+
+1. Some user said implementing message and note features in one thing...as it realy is similar and better to use as one
+
+2. Instead of being a full anti spam solution I would like if I can select option to be only an e-mail notificator.
+( many people use very good thunderbird to have a mail client with antispam    but don&#39;t want to leave it open all the time...this would be an integrated answer from wirenote...couse i don&#39;t want to teach wirenote to filter spam ...i already did it with some other software for example- thunderbird.
+
+3. Implementing some of &#34;notezilla&#34; features. ( Of course i choose wirenote becouse it&#39;s better but you got to admit that these are great to have )
+   - some text editing features like making checklist
+   - attachment opening directly from note instead of save as like you did
+   - can copy paste selection from excel tables with borders to a note...and even checklist it afterwards
+   - make tags to notes ...mostly to have more groups of notes or todos...example you have more types of obligations and you would like WireNote to show you only one group at the time on desktop...group examples...private, supplies,project related, fun ...etc
+
+4. To make an option where will new notes be placed on desktop or similar...and then afterwards...every note is placed one under another in iconic mode...or tell me what is your best practice with placing notes...correct me if I&#39;m wrong
+
+Thank you once more...I love wirenote features implemented already and it is realy a full bundle freeware application that i&#39;m gonna glorify all over croatia.";
+$pauthor="Milan";
+$pdate="1201219738";
+$plastdate="1201224852";
+$pimage="6.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="241";
+$pnotify="|Milan";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Milan";
+$psticky="";
+
+?>

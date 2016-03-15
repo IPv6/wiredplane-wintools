@@ -1,0 +1,39 @@
+<?php
+
+$rsubject="RE: How does one select a different post icon + Bugs + Enhancements";
+$rcontent="I&#39;m not familiar with PBLang, but then I don&#39;t track BB software.  
+
+[quote] We will add some missed features to this forum [/quote] in your oh so copious spare time.  :)
+
+As long as I&#39;m making [glowred] requests [/glowred] ( :&#62; )
+
+- The post icon should be displayed on the thread page as well as the forum page.  
+
+- A review (prior to post) function would be handy 
+
+- I don&#39;t remember seeing an automatic &#34;edit&#34; date-time-stamp in addition to the original date-time-stamp.  (It might be there.  I&#39;ll find out as soon as I look elsewhere.)
+
+Nope.  Not there.  Just a latest post date-time-stamp.  I haven&#39;t experimented enough to know whether the edit stamp or the original stamp is used for sorting the thread.
+
+- A bullet list icon or other list support would be handy.
+
+- Quote button should put quote a) at the edit cursor and b) enclose clipboard text.  So should GlowRed, etc.
+
+- An easy way to see all my recent posts and the threaded replies, especially the new ones.  (Again, this may already be there.  I haven&#39;t used help yet.)
+
+- Some resizing of the layout to use the available space.  This could be as simple as a few standard sizes.  When I maximize the window (1024x768), about 1/2 of area is wasted.  Granted, Mozilla Firefox toolbars, titlebar, and footer take 5 lines, but 4 lines for smilies (given empty borders, especially on right)?  My MyIE2 layout is about the same.  Perhaps the WP Labs banner could be vertically compressed?
+
+- I don&#39;t see an easy way to reply to a PM, much less to quote from one while in the midst of writing one.
+
+- I also don&#39;t see a record of PMs sent.
+
+[glowred]Bug[/glowred] - At least one icon label (tooltip) is mixed up (i.e., sunglass icon has &#34;unhappy&#34; tooltip).  Basic smiley ( :) ) doesn&#39;t have a tooltip.
+
+Bug - GlowRed does not appear to work.  Perhaps my local settings are at fault.
+
+EDITED - several times to add new enhancements and a bug. ";
+$rauthor="BillR";
+$rdate="1082646987";
+$rip="141.156.212.231";
+
+?>

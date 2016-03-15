@@ -1,0 +1,34 @@
+<?php
+
+$psubject="[req] small text substitution";
+$pcontent="Hello!
+I&#39;d like to copy a string like:
+
+1FT6 062-6AC71-4AD1
+
+and paste it like this:
+
+*1*F*T*6*0*6*2*6*A*C*7*1*4*A*D*1*
+
+How should i do?
+I&#39;ve tried with search and substitution filter function, but i had no luck  :?
+
+Any suggestion would be greatly appreciated.
+
+Thanx in advance
+";
+$pauthor="Zoldex";
+$pdate="1128069113";
+$plastdate="1128338949";
+$pimage="5.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="747";
+$pnotify="|Zoldex";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Zoldex|jaco|Anonimus|smarchese";
+$psticky="";
+
+?>

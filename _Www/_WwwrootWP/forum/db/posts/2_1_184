@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Регистрация";
+$pcontent="Что-то я не понял... Оплатил 7 wmz, а дальше-то что? На почте только благодарности за использования rupay. А как зарегистрировать-то?";
+$pauthor="Sega";
+$pdate="1143120013";
+$plastdate="1143126552";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="422";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Sega|SkyRE|psYman|Snegovik|garry63";
+$psticky="";
+
+?>

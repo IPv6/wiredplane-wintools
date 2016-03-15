@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Настройки";
+$pcontent="С прошлой версии почему-то увеличилось поле комментария. При изменении размеров окна увеличивается именно область подсказки, а не настроек. См. скрин.
+
+[b] Приложение[/b]: [att]WIREKEYS WireKeys_ Настройки[10.02.2006 14.07.34].jpg[/att]";
+$pauthor="McStar";
+$pdate="1139569688";
+$plastdate="1140966157";
+$pimage="1.gif";
+$plastreply="7";
+$plastauthor="McStar";
+$preplies="7";
+$pviews="827";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|SkyRE|psYman";
+$psticky="";
+
+?>

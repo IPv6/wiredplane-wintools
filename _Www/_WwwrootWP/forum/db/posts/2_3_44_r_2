@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Problem when used with 2 monitors";
+$rcontent="Thanks, the problem is clear now.
+We will to to fix it soon!";
+$rauthor="Anonimus";
+$rdate="1130950327";
+$rip="137.121.41.72, 137.121.41.110, unknown";
+
+?>

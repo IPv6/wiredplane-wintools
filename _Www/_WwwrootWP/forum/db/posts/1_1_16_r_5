@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Help for MAPI2POP3";
+$rcontent="Email messages that comes from outside world (not from intranet Exchange users) have normal &#34;From&#34; emails, so you can answer them using POP3 client. This is the main usage which make us to create this software.
+
+Besides that you are free to extend software as sources are under GPL";
+$rauthor="WiredPlane";
+$rdate="1160463866";
+$rip="195.210.162.152";
+
+?>

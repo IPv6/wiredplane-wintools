@@ -1,0 +1,20 @@
+<?php
+
+$rsubject="RE: New plugins: Window`s resizer and &#34;text screenshot&#34;";
+$rcontent="For Resizer, please explain what is being resized.  
+- Is the entire window and various fields be proportionally resized?  
+- Is the resize property being turned on?
+
+As an experiment, try it on TinySpell spell check window
+     www.numerit.com
+
+When displaying the resizer lines, could the &#34;inner rectangle&#34; be outlined more explicitly without overly burdening the system?
+
+BTW, thanks for adding this plug-in.  I hope others also find it useful.
+
+";
+$rauthor="BillR";
+$rdate="1082648494";
+$rip="141.156.212.231";
+
+?>

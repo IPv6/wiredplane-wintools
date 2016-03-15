@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Drap & drop not working in Organizer";
+$rcontent="We are working on it.
+BTW, did you use auto-open organizer window option?
+And can you move files from Explorer int organizer window?";
+$rauthor="WiredPlane";
+$rdate="1138287355";
+$rip="195.245.232.12";
+
+?>

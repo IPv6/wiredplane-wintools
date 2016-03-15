@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK 2.9.9 repleased. Changes are:
+- Bugfixes (as always, newly known bugs are fixed)
+- OSD is nicer now, with cool fade effect
+- Improvements in shell extender plugin
+- Added JavaScript extensions. Now JavaScript macro can call WireKeys actions/special functions directly from code at execution time. Macro recorder now record javascript macros with full mouse/keyboard support
+- New translations added
+";
+$rauthor="WiredPlane";
+$rdate="1121238370";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="Hi,
+
+did You solve the problem with lnk-file? When do You plan to release the next version?
+";
+$rauthor="stepone";
+$rdate="1145879608";
+$rip="62.225.37.69";
+
+?>

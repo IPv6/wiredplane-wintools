@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent=":((( can you enable debug log in preferences, start lnk files several times ans send log to us? as you did before.
+very strange :( currently we can not reproduce such bug, but we can still guess the reasons";
+$rauthor="WiredPlane";
+$rdate="1148989427";
+$rip="195.245.232.22";
+
+?>

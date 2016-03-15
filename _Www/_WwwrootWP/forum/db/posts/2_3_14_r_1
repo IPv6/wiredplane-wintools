@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: WireNote 2.6.0 Command Line Switches";
+$rcontent="it seems that you missed &#39;=&#39; char after -io
+command line must be as follows
+WireNote.exe -io=&#60;path&#62;/aa.conf
+but for simple transfer of settings this is easier to open folder with WireNote data (Preferences-&#62;Common-&#62;Misc-&#62;Open folder with WireNote data...) and copy it to some location from source comp. Then open corresponding folder at target comp, close Wirenote (because it can overwrite some files upon exit) and overwrite all files.
+
+About shared reminders: Due planning feature of &#34;Billboard&#34; in WN (where all and any notes/todos/reminders will be possible to place in shared location without additional tuning), shared reminders itself are not supported in full.
+We will look into problem to find the reason for problem you discovered, but it is better to wait until January when version with billboard support will be released";
+$rauthor="WiredPlane";
+$rdate="1103102721";
+$rip="195.245.232.12";
+
+?>

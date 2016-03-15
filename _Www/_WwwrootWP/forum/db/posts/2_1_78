@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Скриншот";
+$pcontent="А когда снимаешь галочку &#34;Сохранять в Jpeg&#34; формат сохранения BMP? Ещё что-то меняется? А то я вот попробовал скрин снять без галочки, а там получилась только часть картинки.";
+$pauthor="McStar";
+$pdate="1107418941";
+$plastdate="1107511384";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="659";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|AGu|stepone";
+$psticky="";
+
+?>

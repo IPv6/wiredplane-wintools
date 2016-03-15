@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: CPU Load";
+$rcontent="Sorry  for not replying earlier but I didn&#39;t have any time to check the issue.
+Anyway I can confirm, that the newest update (2.7.2) fixes the problem  :thmbup
+Fabio";
+$rauthor="Anonimus";
+$rdate="1113255312";
+$rip="152.3.183.130";
+
+?>

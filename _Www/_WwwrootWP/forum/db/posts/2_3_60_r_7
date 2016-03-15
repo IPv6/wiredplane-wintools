@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Couple of new user questions";
+$rcontent="sorry, can you send file to support@wiredplane.com?
+it seems that it was not attached ^(";
+$rauthor="WiredPlane";
+$rdate="1144327957";
+$rip="195.245.232.22";
+
+?>

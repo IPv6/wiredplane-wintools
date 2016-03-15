@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: MAPI2POP3: UTF-8 HTML";
+$rcontent="this is not related, just the main reason we moved to native Exchange MIME-conversion support. You said that your customization is working with this option enabled (backward compatibility). What customization did you do? can it be applied to both code paths?";
+$rauthor="WiredPlane";
+$rdate="1171447284";
+$rip="195.210.162.152";
+
+?>

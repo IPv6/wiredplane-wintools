@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Silent mail check";
+$rcontent="Sorry, there is no such option still.
+Spam-check windows can be disabled though (check options :) )";
+$rauthor="WiredPlane";
+$rdate="1201053710";
+$rip="92.36.19.163";
+
+?>

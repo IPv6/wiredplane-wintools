@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Не отслеживается папка &#34;Мои документы&#34;";
+$pcontent="Динамически не отвлеживается расположение пользовательской папки &#34;Мои документы&#34;. Например у меня она настроена не как по умолчанию в &#34;Documents and settings&#34;, а по абсолютно жругому пути. А в WK это не отслеживается.";
+$pauthor="McStar";
+$pdate="1099377891";
+$plastdate="1101108120";
+$pimage="4.gif";
+$plastreply="4";
+$plastauthor="McStar";
+$preplies="4";
+$pviews="625";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

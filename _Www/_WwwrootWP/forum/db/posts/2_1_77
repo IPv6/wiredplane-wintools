@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Экстренная перезагрузка";
+$pcontent="Есть предложение навесить горячую клавишу для экстренной перезагрузки.
+И ещё вопрос, что значит автоматический выбор режима перезагрузки?";
+$pauthor="McStar";
+$pdate="1107415320";
+$plastdate="1110813871";
+$pimage="1.gif";
+$plastreply="23";
+$plastauthor="McStar";
+$preplies="23";
+$pviews="1329";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|Leshiy|AGu";
+$psticky="";
+
+?>

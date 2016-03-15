@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: New. Hotkeys without running WireKeys?";
+$rcontent="Hello!
+This is possible for some kind of tasks and actions, but shifted multimedia keys (for example Shift-Play, as i get it right?) can not be used in hotkeys without WireKeys (or without similar application of that kind). It is WireKeys who make such combinations visible to the Windows system, in fact.
+
+Happy new year! :)";
+$rauthor="WiredPlane";
+$rdate="1135691509";
+$rip="195.245.232.12";
+
+?>

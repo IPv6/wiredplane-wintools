@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Дополнительные буферы обмена";
+$pcontent="А вот ещё какой-то глюк непонятный. Периодически пропадает история дополнительных буферов обмена. И приходится всё заново запоминать в них :( То ли после установки новой версии программы иногда, то ли ещё как-то...";
+$pauthor="McStar";
+$pdate="1126861764";
+$plastdate="1126865814";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="712";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|stepone";
+$psticky="";
+
+?>

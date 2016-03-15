@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Linux-Like Move";
+$pcontent="I don&#39;t differentiate between L/R modifier keys, but I would like to use this handy plugin.
+";
+$pauthor="BillR";
+$pdate="1085323143";
+$plastdate="1085864296";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="579";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|Chewyfood";
+$psticky="";
+
+?>

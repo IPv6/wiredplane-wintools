@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Launch Sets";
+$pcontent="Hi,
+WireKeys seems to be an interesting product. However, I do not understand how the &#34;Launch Sets&#34; feature works. I imagine it can launch several programs at specified intervals, but I do not know how to indicate the desired programs. I&#39;m using XP pro, SP2.
+cymtron";
+$pauthor="cymtron";
+$pdate="1104780122";
+$plastdate="1105316122";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="329";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|cymtron|Anonimus|jaco|AGu";
+$psticky="";
+
+?>

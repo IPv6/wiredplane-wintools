@@ -1,0 +1,18 @@
+<?php
+
+$rsubject="RE: Having MAPI2POP3 skip certain folders";
+$rcontent="Thx for the info.
+
+From what I understand this will filter by folder name.
+
+But I have multiple &#34;trees&#34; with folders with the same name (&#34;Mailbox - Barizien, Stephane&#34; and &#34;Personal Folders&#34; at the very least; I might add some &#34;shared folders&#34; in the futurer) so I would like to filter by &#34;folder path&#34; - for instance, to search only the Inbox folder under &#34;Personal Folders&#34;...
+
+Any clue on where to modify the code would help.
+
+BTW, I cannot find the installation instrux on sf.net...
+";
+$rauthor="sba";
+$rdate="1169724892";
+$rip="194.3.183.35";
+
+?>

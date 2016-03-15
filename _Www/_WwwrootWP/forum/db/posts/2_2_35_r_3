@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WireChanger updated!
+Now it is possible to save images, installed as wallpaper from Explorer/Firefox/Acdesee, etc, in JPG format.
+Some effects and wp generators updated.
+BTW, now we are working over separate template devoted to fractals.";
+$rauthor="WiredPlane";
+$rdate="1110192359";
+$rip="195.209.143.44";
+
+?>

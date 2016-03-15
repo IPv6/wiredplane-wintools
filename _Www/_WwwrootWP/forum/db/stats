@@ -1,0 +1,17 @@
+<?php
+
+$todaysvisits="1";
+$totalvisits="1475";
+$today="1213905600";
+$lastvis10="Alice";
+$lastvis9="Kein";
+$lastvis8="OnosovDV";
+$lastvis7="jrwatts";
+$lastvis6="Anonymous";
+$lastvis5="metriodhunter";
+$lastvis4="Megas";
+$lastvis3="Richy";
+$lastvis2="GloriaLW";
+$lastvis1="WiredPlane";
+
+?>

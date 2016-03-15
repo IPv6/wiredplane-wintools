@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: [PLUGIN] &#34;As LINUX Move&#34; by Vint";
+$rcontent="[quote]What did you mean? &#34;Attach&#34; right-bottom corner of window to cursor when this combination is pressed?[/quote]
+No. Like in Linux:
+Alt-Left click in any window point - to move and
+Alt-Right click in any window point - to resize.
+Just resize in relative to starting position of click to new position...";
+$rauthor="Gorbush";
+$rdate="1142499672";
+$rip="193.151.88.185";
+
+?>

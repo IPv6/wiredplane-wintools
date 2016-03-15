@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Arabic for WireChanger 2.8.5";
+$pcontent="Arabic for WireChanger 2.8.5
+
+[b] Attachment[/b]: [att]WireChanger_l4.zip[/att]";
+$pauthor="awadh";
+$pdate="1101627007";
+$plastdate="1101631780";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="597";
+$pnotify="|awadh";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|awadh";
+$psticky="";
+
+?>

@@ -1,0 +1,27 @@
+<?php
+
+$rsubject="RE: Dual Monitor support for WireChanger";
+$rcontent="I, too, would like this feature.  Unfortunately, I think different display drivers require different implementations.  I have an Nvidia card with 2 monitors attached:
+
+Primary monitor is set to 1600x1200.  This is the monitor Wirechanger uses to scale the wallpaper.
+
+Secondary monitor is set to 1280x720 (widescreen), positioned to the left of the primary (so top left corner is at -1280 x 0).
+
+Will the default settings, the secondary monitor shows a cropped version of the wallpaper on the primary monitor (showing the top right 1280x720 portion of the 1600x1200 image on the primary).
+
+With nVidia&#39;s Desktop Manager enabled, there is also the option to have the second display take its background from a second, user-specified file.
+
+So, ideally, I would like Wirechanger to be able to create a second background image in a user-specified file, using the resolution of the secondary monitor.  Unfortunately, I couldn&#39;t figure out where to find this info in the registry.
+
+Interestingly, the screensaver included with Wirechanger is able to use both displays (although it seems to change images on each display at very random intervals, sometimes; often, one continues changing at the user-specified interval, while the other will stay static for a long time, but I haven&#39;t figured out any pattern to it).
+
+Edit:  OK, I just played around with the option to use a different image for the second display, and Wirechanger didn&#39;t like it!  When I set the second monitor to use a different image, Wirechanger instantly popped up message asking if I wanted to add the new image to the collection.  Whether I did or not, it then messed up the wallpaper, so that now both displays were showing half of the image on the primary display and half of the new image I was trying to set up on the secondary display.  Weird (and annoying)!
+
+I can try to take some screen shots and e-mail them if you&#39;ld like....
+ 
+  - Jonathan Watts";
+$rauthor="jrwatts";
+$rdate="1138008060";
+$rip="68.35.144.64";
+
+?>

@@ -1,0 +1,21 @@
+<?php
+
+$psubject="WireNote";
+$pcontent="Hi, does anyone know if Wirenote is also a software that protects script virus?
+
+Thank you..";
+$pauthor="Anonimus";
+$pdate="1106720026";
+$plastdate="1106724283";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="499";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AGu|GRISHIN|Anonimus|jaco|apanas";
+$psticky="";
+
+?>

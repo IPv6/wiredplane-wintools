@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: want to get a free licence by translating";
+$rcontent="translation(beta) done. just see the images!
+
+[img]http://photos.gznet.com/photos/1074961/1074961-V72OdjILit.jpg[/img]
+
+[img]http://photos.gznet.com/photos/1074961/1074961-jcvQ5sZjJp.jpg[/img]
+
+
+[glowred]to admin: search google is not working because of the incorrect tranformation of chinese string. i have to write a macro to resolve this. also it seems that chinese file names are not supported...i&#39;ll tell you more later.[/glowred]";
+$rauthor="rockywolf";
+$rdate="1090947773";
+$rip="219.128.35.107";
+
+?>

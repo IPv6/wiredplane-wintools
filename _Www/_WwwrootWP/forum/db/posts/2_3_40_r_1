@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Idea on some customization";
+$rcontent="Thanks for suggestions!!!
+First of all network-related functions can be disabled one-by-one and can be even hidden in preferences and will not bother you futher. If you mean the only one checkbox with &#34;Disable all network stuff&#34; - we will add one %)
+2) and 3) are reasonable things, will be added too
+Thanks again, good luck! %)
+";
+$rauthor="WiredPlane";
+$rdate="1120810825";
+$rip="195.245.232.12";
+
+?>

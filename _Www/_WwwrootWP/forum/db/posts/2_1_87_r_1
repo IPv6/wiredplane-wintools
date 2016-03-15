@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: &#39;Network and Dialup Connections&#39; folder";
+$rcontent="Yes. of course.
+Create shortcut to any connection on desktop.
+than right-click it and select &#34;Properties&#34;
+Look at shortcut target. It will be something like ::{1123-3232-34343-23123}
+Use this as Exe-path in appliation macro :)";
+$rauthor="WiredPlane";
+$rdate="1111057116";
+$rip="195.245.232.12";
+
+?>

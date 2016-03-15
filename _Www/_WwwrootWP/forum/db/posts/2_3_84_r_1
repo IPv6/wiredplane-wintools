@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: WireNote and WireKeys - no WK tray icon ";
+$rcontent="there is option to integrate WK into WN :) Just disable it and both icons will be available
+
+As you see, notes plugin is &#34;cut down&#34; version of wirenote with unused functions switched off";
+$rauthor="WiredPlane";
+$rdate="1196754558";
+$rip="212.111.75.10";
+
+?>

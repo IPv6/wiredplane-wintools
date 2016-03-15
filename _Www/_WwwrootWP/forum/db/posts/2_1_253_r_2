@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: Window transparency";
+$rcontent="Nothing happens when I press &#34;Ctrl&#34; + &#34;AltGr&#34; + &#34;-&#34;.
+I cannot find any menu or item called &#34;system actions&#34; when I open WireKeys from the system tray.
+
+Please give a more detailed description.
+
+Henrik";
+$rauthor="staccato";
+$rdate="1194269881";
+$rip="62.181.227.149";
+
+?>

@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Drap & drop not working in Organizer";
+$pcontent="Hi,
+
+Great program; does a lot of things just right..
+
+I&#39;ve a small problem though; drag & drop does not seem to work within Organizer. I can&#39;t move any items from folder to folder, and there&#39;s no &#39;Move to&#39; context option. Can you help?
+
+keithc";
+$pauthor="keithc";
+$pdate="1138091474";
+$plastdate="1138800107";
+$pimage="5.gif";
+$plastreply="7";
+$plastauthor="WiredPlane";
+$preplies="7";
+$pviews="1002";
+$pnotify="|keithc";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|ValeraVi|keithc|Anonimus";
+$psticky="";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="can you test this in WK 3.4.3? :)";
+$rauthor="WiredPlane";
+$rdate="1147243441";
+$rip="195.245.232.22";
+
+?>

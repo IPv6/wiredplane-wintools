@@ -1,0 +1,47 @@
+<?php
+
+$rsubject="Old Messages";
+$rcontent="WiredPlane Labs  [08th April, 2004 02:03:25] 
+2rij73: Thanks for suggestions :^) We just sended you your regkey (we are placed at the other side of the Earth, so our timezones are different). About true docking: create separate plugin for such feature would be really useful, as well as new hotkey and option to create shortcuts to different WireKeys actions (including calls to qrun items). Will be implemented soon :)  
+ 
+
+rij73  [07th April, 2004 17:45:15] 
+I realized that the windows traits plugin probably does what I want. I just purchased the software so I will know soon!
+
+In the meantime, I had another idea. What about a way to create a shortcut on the desktop for a wirekeys quick-run item? I use the wirekeys shortcuts all the time, but sometimes I like to click my desktop icons too. The thing is, I have lots of cool options set for resizing and placing application windows with wirekeys, and I would like my desktop icons to do the same things...  
+ 
+
+rij73  [07th April, 2004 12:02:41] 
+new plugin idea:
+
+Give users the ability to &#34;dock&#34; the current window to one side of the screen. It would have to be true docking behavior so that any maximized windows would not cover it but be positioned next to it. Is this possible??? I am using an application right now that I would love to be able to dock.  
+ 
+
+rij73  [07th April, 2004 11:48:58] 
+actually, just adding the ability to have the process list pop-up on hot menu key double-press would work great too....  
+ 
+
+rij73  [07th April, 2004 11:44:12] 
+I would really appreciate the ability to assign a hotket to the wirekeys processes list. I love how it pops up so quick and shows the amount of free memory. It would be great to get it with the touch of a button. Right now the quickest way is to pop up the hot menu and navigate through system actions to the processes list.  
+ 
+
+WiredPlane Labs  [26th March, 2004 08:19:13] 
+2Zup: Macro recorder plugin now can be found with new 2.4 release. So you can record &#34;CTRL-Z&#34; and assign MMKey to this combination. As well as some other usefull traits :)
+
+By the way, question 2All: What plugins you think WireKeys must have in the future? For this time we are planning to add 3 more plugins:
+- Taskbar master. Drag`n`drop buttons inside taskbar and tray, every taskbar button will have additional subbuttons to control window`s behaviour
+- Intuitive panel. Small helper window that can hold documents and information and will show only pieces linked with currently active application
+- Text screenshots. This plagin can be used to extract text from dialogs that do not support text selections
+
+Also we just released plugin that can assign hotkeys (even to balance and mute actions) to almost all sound controls in the system - wave, microphone, line in, synth and so on  
+ 
+
+rij73  [23rd March, 2004 16:06:47] 
+The updates are great. I especially love that it frees unused memory when hiding applications now. Now I use the hiding feature a lot!  
+ 
+";
+$rauthor="WiredPlane";
+$rdate="1081769375";
+$rip="195.245.232.12";
+
+?>

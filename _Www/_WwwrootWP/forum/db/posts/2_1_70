@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Ctrl+Tab неудачный хоткей по умолчанию";
+$pcontent="Имхо сабж. Всё таки MDI интерфейс достаточно часто используемая вещь.";
+$pauthor="736b";
+$pdate="1105609137";
+$plastdate="1105652483";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="414";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|736b|AGu";
+$psticky="";
+
+?>

@@ -1,0 +1,26 @@
+<?php
+
+$psubject="Special characters in insertion macro?";
+$pcontent="Is it possible to use special characters (like NEW-LINE character) in the insertion macro?
+
+For example, I want to create the macro, that will add to the current text the following:
+line1
+line2
+
+I tried to use &#34;line1&#92;nline2&#34;, however, it didn&#39;t work as expected.
+How can I do this? How to insert other special characters (like Tab) ?";
+$pauthor="stepone";
+$pdate="1145442826";
+$plastdate="1145713537";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="443";
+$pnotify="|stepone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|garry63|Anonymous";
+$psticky="";
+
+?>

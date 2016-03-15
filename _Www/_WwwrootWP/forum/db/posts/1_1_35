@@ -1,0 +1,24 @@
+<?php
+
+$psubject="After upgrade to Vista shell extensions will not initialise";
+$pcontent="Hi there:
+I have just upgraded to Windows Vista Ultimate and now get a startup error &#39;WK failed to initialise shell extensions&#39;
+
+Any suggestions?
+
+Paul.";
+$pauthor="comsec";
+$pdate="1188803906";
+$plastdate="1188811376";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="329";
+$pnotify="|comsec";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

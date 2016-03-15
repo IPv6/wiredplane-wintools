@@ -1,0 +1,22 @@
+<?php
+
+$psubject="горячие клавиши";
+$pcontent="Здравствуйте! Очень хотелось бы, чтобы назначались горячими клавишами кнопки на джойстике (или на gamepade).
+И ещё: можно ли доработать программу, чтобы с помощью горячих клавиш она не только могла открывать файлы, но и закрывать?
+Заранее, спасибо!
+С уважением, Станислав.";
+$pauthor="Stalker";
+$pdate="1179322999";
+$plastdate="1179904556";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="486";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|garry63|pike942|Loong|McStar|Anonimus|wtiger";
+$psticky="";
+
+?>

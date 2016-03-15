@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: I have a script which works at 3.1.4 but not 3.4.0 - any ideas?";
+$rcontent="Hello! Checking out, will reply shortly...";
+$rauthor="WiredPlane";
+$rdate="1140418819";
+$rip="195.245.232.22";
+
+?>

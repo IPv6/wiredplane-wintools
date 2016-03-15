@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN] Right-click paste/clipboard enhancer";
+$pcontent="Please, leave your comments here (in English if this is possible).";
+$pauthor="WiredPlane";
+$pdate="1103819876";
+$plastdate="1139210933";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="1264";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|ValeraVi|garry63|pike942";
+$psticky="";
+
+?>

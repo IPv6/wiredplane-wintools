@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Create a new folder for themes and images";
+$pcontent=" :glad  I have been trying to create a new folder for new themes and images I would like to have but can not for the life of me figure out how!!!  Can anyone HELP??";
+$pauthor="GloriaLW";
+$pdate="1213752574";
+$plastdate="1213845412";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="GloriaLW";
+$preplies="2";
+$pviews="21";
+$pnotify="|GloriaLW";
+$plock="";
+$pip="";
+$pvisitors="|GloriaLW|WiredPlane";
+$psticky="";
+
+?>

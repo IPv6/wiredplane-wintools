@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: maximizing IE windows";
+$rcontent="That&#39;s what I mean. I&#39;m using 6.0 with Windows XP. 
+
+I think I may know what the problem is. I used to use a program called IE New Windows Maximizer. It&#39;s at http://www.jiisoft.com/iemaximizer/
+I uninstalled it a long time ago because it is a bit buggy, and anyway, now with wirekeys hotkeys, maximizing is easy. But, maybe this software left something in my registry that is conficting with wirekeys. This is the only program where using the &#39;Maximize active window&#39; makes the window go to full screen, so maybe it is because of this old application. I will try searching for registry entries made by this other software.
+
+EDIT----------------
+I found and deleted some entries from that old software but it didn&#39;t fix my problem. In IE, the wirekeys maximize option goes to full screen every time. F11 works properly, and alt-space-X works properly too. Only wirekeys sends it to fullscreen when I want it maximized. Strange isn&#39;t it?";
+$rauthor="rij73";
+$rdate="1081892681";
+$rip="24.195.0.182";
+
+?>

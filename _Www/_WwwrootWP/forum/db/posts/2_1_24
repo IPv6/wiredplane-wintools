@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Wirekeys.exe disappears v2.6.3";
+$pcontent="After I install wirekeys 2.6.3 my wirekeys.exe file to run the program disappears.
+So im forced to run version 2.6 which has the exe.";
+$pauthor="Chewyfood";
+$pdate="1090217770";
+$plastdate="1090393186";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="WiredPlane";
+$preplies="2";
+$pviews="588";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|cleg|BillR|rockywolf|Teff|MickeForumWpL";
+$psticky="";
+
+?>

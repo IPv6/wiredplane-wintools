@@ -1,0 +1,22 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="Thanks for the update to WireKeys 3.6.7. :thmbup
+
+I think the history notes are a little bit short, aren&#39;t they?
+[quote]ver 3.6.6 
+- Volume control in Vista[/quote] 
+Where is 3.6.7? 
+
+And - unfortunately - I didn&#39;t find the improvements suggested earlier (e.g. some posts above).  :?
+
+May be, you can give some hints of improvements / bug fixes? :D
+Thankyou.
+
+cheers and beers
+Richy.";
+$rauthor="Richy";
+$rdate="1213020693";
+$rip="212.185.98.165";
+
+?>

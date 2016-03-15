@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Croatian translation + few suggestions";
+$rcontent="Thank you! It is great that WN is translated to Croatian language!!!! :) Can you send lng file on support@wiredplane.com?
+
+About suggestions: we are planning to add more robust (but still lightweight) text editor into notes. I think checklist and table stuff will be there too. Other things will be taken into consideration too. Thanks for suggestions!";
+$rauthor="WiredPlane";
+$rdate="1201224852";
+$rip="92.36.14.39";
+
+?>

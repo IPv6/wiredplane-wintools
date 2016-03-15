@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: New plugins: Window`s resizer and &#34;text screenshot&#34;";
+$rcontent="This plugin will proportionally resize full window and all his child windows one time (resize property will not be turned on), all you have is to &#34;draw&#34; new window in the place and with size you want.
+
+P.S1. Can`t find TinySpell spell check window at www.numerit.com
+May be this is special addition to numerit?
+
+P.S2. You mean additional lines to depict &#34;inner part&#34; of the resizing window during resize?";
+$rauthor="WiredPlane";
+$rdate="1082712367";
+$rip="195.245.232.12";
+
+?>

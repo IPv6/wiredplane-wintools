@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: Hi,I try to explain my problem.I have";
+$rcontent="Fix applied, WK updated. Please erinstall latest build.
+BTW, did you want to see our products in French language?
+We have French translation but didn`t sure about its quality. Can we ask you for help? we can grant you free registration key if you just look at translated application and say is translated good enough or translation contains some kind of errors.
+
+if you have time to help us make French version of WK, please contact us by email: french@wiredplane.com
+Good luck!
+";
+$rauthor="WiredPlane";
+$rdate="1124034536";
+$rip="213.87.60.83";
+
+?>

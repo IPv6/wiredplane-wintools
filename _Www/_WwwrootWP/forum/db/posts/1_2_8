@@ -1,0 +1,19 @@
+<?php
+
+$psubject="www.NoNags.com";
+$pcontent="WireNote 2.4 received highest award (6 of 6) at www.nonags.com!";
+$pauthor="WiredPlane";
+$pdate="1089536043";
+$plastdate="1089536043";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="1002";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|Teff|Anonimus|Anonymous";
+$psticky="";
+
+?>

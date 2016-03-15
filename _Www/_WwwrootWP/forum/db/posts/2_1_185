@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Force to use only for some applications?";
+$pcontent="Is it possible to use some keyboard combinations only for some specific applications?
+
+For example, I have some macros, that inserts copyright character into the text. I want to assign it to Ctrl+C in Notepad. Of course, I want that all other applications use this hotkey combination as usually (so paste from Clipboard).
+
+Is it possible to do so?
+
+Sorry, could not find this topic in the options or in the help.";
+$pauthor="stepone";
+$pdate="1143550016";
+$plastdate="1143618461";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="719";
+$pnotify="|stepone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SkyRE|triplex|stepone|vidiont";
+$psticky="";
+
+?>

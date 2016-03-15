@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Wirekeys problem with Outlook Attachments";
+$rcontent="Yes, but you notes not to send emails to you ;)
+Can you clarify what exactly was slow with your messenger after installing WK3.5? 
+
+We are reproducing Outlook attachment bug in this time, BTW";
+$rauthor="WiredPlane";
+$rdate="1152873998";
+$rip="195.245.232.22";
+
+?>

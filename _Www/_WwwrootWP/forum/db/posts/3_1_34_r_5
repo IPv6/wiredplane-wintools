@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [PLUGIN] GPIO remote control";
+$rcontent="plugin is not valid anymore, because of WinLIRC+AverTV native support (since WK 3.2)";
+$rauthor="WiredPlane";
+$rdate="1132281152";
+$rip="195.209.143.44";
+
+?>

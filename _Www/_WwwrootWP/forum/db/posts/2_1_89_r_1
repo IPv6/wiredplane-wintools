@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Enhancement - Add Search to Help and Preferences ";
+$rcontent="Thanks, will be implemented.
+BTW, WK prefs already has text search, you can even copy key binding and jump into the place where it is defined %)
+this is small edit box in the bottom part of the window";
+$rauthor="WiredPlane";
+$rdate="1111131446";
+$rip="195.209.143.44";
+
+?>

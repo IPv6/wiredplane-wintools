@@ -1,0 +1,38 @@
+<?php
+
+$psubject="Wirekeys problem with Outlook Attachments";
+$pcontent="
+Whenever I try to put an attachment on an email in Outlook by right-clicking the file and using the send to mail recipient option, the email &#34;send&#34; button is disabled on my email.  
+
+So for example:
+
+I open windows explorer and navigate to the file I want to send.
+Right-click the file and choose: send to - mail recipient
+A blank email opens with that file attached.  I enter an email address, subject and body text.
+I click &#34;send&#34; and nothing happens.
+I close wirekeys and click &#34;send&#34; and it works.
+
+I can send email attachments if I don&#39;t use that option to attach them.  i.e. I have to use the little paper-clip icon in Outlook to add the attachment to the email.
+
+By far, I use the &#34;send to mail recipient&#34; option.
+
+Anybody ever seen/heard of this before?
+
+Windows XP Pro / Outlook 2000
+
+Thanks!";
+$pauthor="scyborski";
+$pdate="1152562405";
+$plastdate="1152892487";
+$pimage="5.gif";
+$plastreply="8";
+$plastauthor="scyborski";
+$preplies="8";
+$pviews="944";
+$pnotify="|scyborski";
+$plock="";
+$pip="";
+$pvisitors="|scyborski|WiredPlane|Anonimus|AlexZ";
+$psticky="";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="great forum!";
+$pcontent="Congratulations on the wonderful forum. I was hoping you would do that soon!";
+$pauthor="rij73";
+$pdate="1081864686";
+$plastdate="1081864686";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="rij73";
+$preplies="0";
+$pviews="245";
+$pnotify="|rij73";
+$plock="";
+$pip="";
+$pvisitors="|rij73|WiredPlane|BillR|Cermit";
+$psticky="";
+
+?>

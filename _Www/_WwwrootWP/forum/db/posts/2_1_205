@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Stardock ObjectDock and Wirekeys";
+$pcontent="Wirekeys 1.5.1 doesn&#39;t react to right-click on its tray icon representing in ObjectDock&#39;s tray tab...";
+$pauthor="triplex";
+$pdate="1154607456";
+$plastdate="1154611751";
+$pimage="7.gif";
+$plastreply="4";
+$plastauthor="triplex";
+$preplies="4";
+$pviews="751";
+$pnotify="|triplex";
+$plock="";
+$pip="";
+$pvisitors="|triplex|WiredPlane|AlexZ|McStar|SkyRE";
+$psticky="";
+
+?>

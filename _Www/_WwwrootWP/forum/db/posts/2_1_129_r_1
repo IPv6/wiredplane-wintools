@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: [req] small text substitution";
+$rcontent="it is easier to create JavaScript macro.
+- It will receive slected text as input
+- create &#39;for&#39; loop 0..length of strng
+- append single char from input string and &#39;*&#39; to the temprorary string
+
+-return temprorary string. it will replace selected text with *.*.*.* ";
+$rauthor="WiredPlane";
+$rdate="1128081648";
+$rip="195.245.232.12";
+
+?>

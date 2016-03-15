@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: I am looking for a software that will do these";
+$rcontent="We can write such tool for you if you want. Please, write an email to support@wiredplane.com";
+$rauthor="WiredPlane";
+$rdate="1120810878";
+$rip="195.245.232.12";
+
+?>

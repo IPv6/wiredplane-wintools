@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Dual Monitor support for WireChanger";
+$rcontent="Wow!! :) Thank you very much for such a full investigation! :) It seems that things are clear now and they are much easier to handle as i thought before (i should check the image - it is still in the way (btw, 3.3 mb is ok - but the idea is clear). i think that ATI and others will share the same behaviour, because MS documentation contain description for similar things.
+We are starting ti implement nomal support for dual monitors, thank you very much, again!
+BTW version of WC with fixed screensaver will be ready today, i`ll post message when it will be uploaded for download :)";
+$rauthor="WiredPlane";
+$rdate="1138349578";
+$rip="195.245.232.12";
+
+?>

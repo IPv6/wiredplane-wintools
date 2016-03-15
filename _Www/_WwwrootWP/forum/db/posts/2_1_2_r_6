@@ -1,0 +1,70 @@
+<?php
+
+$rsubject="Old messages";
+$rcontent="WiredPlane Labs (http://www.wiredplane.com)  [01st October, 2003 17:22:01] 
+2Greg Mathiesen: thanks for suggestions! we have already added this features - just download wirekeys again
+2BillR: thanks, we will fix &#34;macro&#34; word (sorry for mistake :). Right-click on minimize button and a lot of other similar features will be added with plugins, because they are demand system hooks to be installed in the system. But the main forthcoming plugin will add to WK ability to use 1) multimedia keyboards additional buttons 2) Hotkey like Ctrl-C-D or A-B-C for example. By the way, can you explain what is rollup to caption? Can`t find this on niagara site
+ 
+ 
+
+BillR  [01st October, 2003 13:42:13] 
+New features keep coming - auto update, macros, etc. Thanks. Others should note, author _is_ responsive to suggestions.
+
+English suggestion for help file and site: &#34;macro&#34; and &#34;macros&#34; (plural), not &#34;macroses&#34;.
+
+Please consider incorporating features of 4t Tray Minimizer such as rollup to caption and right click minimize button to tray. 
+http://www.4t-niagara.com  
+ 
+
+Greg Mathiesen  [29th September, 2003 14:20:31] 
+Please add these hardcoded features to &#34;Desktop, icons and windows | Active window and Processes&#34;
+
+Restore Window - Restores maximized active window to previous size + position
+
+Minimize Window - Minimizes active window
+
+Maximize Window - Maximizes the active window
+
+I find these useful features to activate with Hotkeys.
+
+WinKey, a much less capable program than WireKeys, has these hardcoded.  
+ 
+
+Greg Mathiesen  [29th September, 2003 13:09:21] 
+KeyBindings.txt
+
+I found that KeyBindings.txt is written only when Help | Show Current Key Bindings is selected.
+
+When I reopen KeyBindings.txt with my text editor, it does not show current key bindings. It shows those active when Help | Show Current Key Bindings was last selected.
+
+It would be better to update KeyBindings.txt whenever preferences are changed as well as when Help | Show Current Key Bindings is selected.  
+ 
+
+Greg Mathiesen  [29th September, 2003 12:56:01] 
+KeyBindings.txt
+
+Found in ...&#92;Application Data&#92;WireKeys. 
+
+It shows &#34;Current Hotkey bindings&#34;. 
+
+When I change Preferences, this file is not updated to show my changes.
+
+1. When is KeyBindings.txt updated?
+
+2. If it is not updated, perhaps the first line should be &#34;Default Hotkey bindings&#34;
+ 
+ 
+
+WiredPlane Labs  [23rd September, 2003 15:30:22] 
+To all win98/ME users - sorry for a lots of bugs in this version of windows, we finally started to work on compatibility. In last update Preferences are saved fine, at least :)  
+ 
+
+WiredPlane Labs  [18th September, 2003 15:19:15] 
+Win 98/ME is not fully supported yet... sorry  
+ 
+";
+$rauthor="WiredPlane";
+$rdate="1081769552";
+$rip="195.245.232.12";
+
+?>

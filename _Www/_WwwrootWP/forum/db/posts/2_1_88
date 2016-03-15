@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Enhancement - Link KeyBindings to Preferences";
+$pcontent="Enhancement - For WK KeyBindings, either identify the location(s) where that key is defined or, even better, include a link(s) that opens WK Preferences to that binding.
+
+";
+$pauthor="BillR";
+$pdate="1111084252";
+$plastdate="1111084252";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="BillR";
+$preplies="0";
+$pviews="359";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane|AGu";
+$psticky="";
+
+?>

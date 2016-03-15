@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WC3.0 updated
+- added option to set save path for notes
+- widgets size and position can be changed directly from widgets tab, without entering widget preferences";
+$rauthor="WiredPlane";
+$rdate="1121321909";
+$rip="195.245.232.12";
+
+?>

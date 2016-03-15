@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Strange price policy";
+$pcontent="Hello,
+there is somewhat strange price policy for WireKeys.
+In Help and on the page http://www.wiredplane.com/wirekeys/info.shtml price is &#36;20, however on http://www.wiredplane.com/order.shtml and in real order the price is &#36;29.
+
+Well, it doesn&#39;t look nice...";
+$pauthor="stepone";
+$pdate="1109848061";
+$plastdate="1109928386";
+$pimage="7.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="1363";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|Leshiy|Zoldex|Lecter|jrwatts|Loong|adamtaa";
+$psticky="";
+
+?>

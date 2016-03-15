@@ -1,0 +1,21 @@
+<?php
+
+$psubject="New clocks by Adam Dorman";
+$pcontent="Hello!
+we can present new clocks by Adam Dorman ([url]http://www.adamdorman.com[/url])
+High-tech clocks and beautful design will surely make them favourites of your clocks collections :)";
+$pauthor="WiredPlane";
+$pdate="1100680011";
+$plastdate="1100680011";
+$pimage="2.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="543";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|sawa|JEAThirty5";
+$psticky="";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Проблема с плагином &#34;Помошник по окнам&#34;";
+$pcontent="Вношу часть заголовка окна, чтобы они пропускались, но они всё равно курочаться. Строка выглядит примерно следующим образом: &#34;*caption*&#34;.";
+$pauthor="McStar";
+$pdate="1097668774";
+$plastdate="1098352584";
+$pimage="1.gif";
+$plastreply="9";
+$plastauthor="McStar";
+$preplies="9";
+$pviews="595";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|Shaker|736b";
+$psticky="";
+
+?>

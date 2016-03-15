@@ -1,0 +1,18 @@
+<?php
+
+$fname="WireChanger: clocks and templates";
+$fdescription="Templates descriptions, instructions for desktop clocks and related questions";
+$flasturl="post.php?cat=3&fid=2&pid=30&page=1";
+$flastauthor="WiredPlane";
+$flastpost="1201136266";
+$freplies="53";
+$ftopics="36";
+$fusers="|all";
+$fvisitors="|WiredPlane";
+$flock="unlocked";
+$fallowreply="1";
+$fsticky="1";
+$flastpostnumber="36";
+$fhide="";
+
+?>

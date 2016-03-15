@@ -1,0 +1,36 @@
+<?php
+
+$rsubject="RE: Wirekeys Freeze";
+$rcontent="Hello,
+
+Yes i have the last version of WK v3.4.3.  And the problem is still remain.
+
+My hotkeys (all) function  randomly.
+When my Hotkey Guide (DEFIL) is open i see this.
+
+On 10 press of the same hotkey (CTRL+ALT+Right) i see this in guide:
+
+CTRL-Alt-Right
+CTRL-Alt-Right@FJ
+CTRL-Alt-Right@FJ
+CTRL-Alt-Right@FJ
+CTRL-Alt-Right@FJ
+CTRL-Alt-Right
+CTRL-Alt-Right@FJ
+CTRL-Alt-Right@FJ
+CTRL-Alt-Right
+CTRL-Alt-Right@FJ
+
+The hotkey is pressed at each 5 secondes.
+No interaction between each hotkey.  all program turned of except Winamp (for hotkey)
+
+i think that if wirekeys can exclude the &#34;@FJ&#34; the problem could be corrected.
+
+thanks
+
+ ";
+$rauthor="AzazelSP";
+$rdate="1146948088";
+$rip="24.203.178.252";
+
+?>

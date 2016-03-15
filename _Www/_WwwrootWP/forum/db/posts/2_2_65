@@ -1,0 +1,28 @@
+<?php
+
+$psubject="Desktop image";
+$pcontent="3 Questions:
+
+1.  Is there any way to remove the 2&#34;x3&#34; image showing another desktop in the lower right corner of my screen?
+
+2.  Can I remove the quote just above it.  
+
+3.  Can I move the clock to another location?
+
+Thanks
+Peg";
+$pauthor="PegM4";
+$pdate="1180295899";
+$plastdate="1180350750";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="346";
+$pnotify="|PegM4";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar";
+$psticky="";
+
+?>

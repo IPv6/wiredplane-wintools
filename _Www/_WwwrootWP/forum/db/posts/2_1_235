@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Wirekeys crash";
+$pcontent="I have a proble with wirekeys. The program crashes when each time I try to delete a quick-run or macro. So for me it&#39;s unpossible to delete quick-runs or macros, I just can disable them by not according any hotkey to them. I&#39;m using v.3.6.0 on Windows XP. Can someone help me ?
+
+Thanks";
+$pauthor="woffer";
+$pdate="1177239218";
+$plastdate="1179279695";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="320";
+$pnotify="|woffer";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar";
+$psticky="";
+
+?>

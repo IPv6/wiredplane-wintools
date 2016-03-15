@@ -1,0 +1,19 @@
+<?php
+
+$psubject="2.9.0";
+$pcontent="Нигде не нашел, что в этой версии нового по сравнению с 2.8.2?";
+$pauthor="feedbee";
+$pdate="1116421251";
+$plastdate="1116421568";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="328";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|feedbee|AGu|BillR|Anonimus";
+$psticky="";
+
+?>

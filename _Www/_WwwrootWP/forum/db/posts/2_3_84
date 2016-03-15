@@ -1,0 +1,38 @@
+<?php
+
+$psubject="WireNote and WireKeys - no WK tray icon ";
+$pcontent="Hi
+
+experimented with WireNote and the WireNote-plugin for WK.
+
+V1)
+When WN and WK are running at the same time, I have NO WK-icon in the tray available. It is covered (or replaced) by the WireNOTE one.
+BTW: WK&#39;s WireNote-plugin is NOT activated.
+
+V2)
+When I use WK with WireNote-Plugin activated, I have the WK-icon, but not the all the functions of WireNotes (sending msgs etc.)
+
+
+Now I&#39;m in conflict:
+Full notes with limited WK use
+OR
+Full WK use and limited Notes.
+
+What&#39;s your suggestion for V1) ?
+
+";
+$pauthor="Richy";
+$pdate="1196692246";
+$plastdate="1197082154";
+$pimage="5.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="288";
+$pnotify="|Richy";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous";
+$psticky="";
+
+?>

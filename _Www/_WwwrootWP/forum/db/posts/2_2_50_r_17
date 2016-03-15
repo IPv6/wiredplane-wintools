@@ -1,0 +1,18 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="i see... can you help us the last time?
+1) Open preferences, switch to system options and check the last checkbox in the right pane (Log debug on disk)
+2) Restart WireChanger (again... :)
+3) Switch wallpaper several times
+4) Find wallpaper image that was generated for desktop and add on it two rectangles (in paint application, for example) - what part of the image is visible on Primary monitor and another one is what you see on the secondary monitor (you don`t to be very accurate here :^)
+5) zip image with file c:&#92;wiredplane_debug.log (it will be auto created) and send it to us?
+6) Undo change from the point 1 to stop WC from updating wiredplane_debug.log
+
+This will be sufficient for us to finish the work :)
+Thank you in advance!";
+$rauthor="WiredPlane";
+$rdate="1139475504";
+$rip="195.245.232.22";
+
+?>

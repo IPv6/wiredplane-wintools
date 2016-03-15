@@ -1,0 +1,46 @@
+<?php
+
+$psubject="Problem with MAPI2POP3 and multiple sets of folders";
+$pcontent="Hi,
+
+Today the IT folks had to change something to my Outlook configuration.
+
+I now have a list of folders  called &#34;Mailbox - Barizien, Stephane&#34; (server-based, if I understood correctly) and another one called &#34;Personal Folders.&#34;
+
+New messages get delivered to the Inbox folder within &#34;Mailbox - Barizien, Stephane&#34;. This cannot be changed.
+
+Under these conditions, MAPI2POP3 does *retrieve* the messages but is unable to *delete* them. When mapi_EnsureMessages is called the second time to delete messages, the values of frows-&#62;cRows after
+
+...
+{// Loading emails in the folder
+IMAPITable *contents=0;
+HRESULT hr = ifolder-&#62;GetContentsTable(0,&contents);
+								if (hr==S_OK){ 
+									SizedSPropTagArray(8,foldcols) = {8, {PR_ENTRYID,PR_SUBJECT,PR_SENT_REPRESENTING_NAME,PR_MESSAGE_DELIVERY_TIME,PR_MESSAGE_SIZE,PR_TRANSPORT_MESSAGE_HEADERS,PR_INTERNET_MESSAGE_ID,PR_SMTP_MESSAGE_ID}};
+									SRowSet *frows=0;
+hr = pHrQueryAllRows(contents,(SPropTagArray*)&foldcols,NULL,NULL,0,&frows);
+...
+
+
+is ALWAYS zero.
+
+It seems MAPI2POP3 enumerates for reading all messages from all &#34;Inbox&#34; folders, but enumerates for deletion only the messages from the &#34;Inbox&#34; folder under &#34;Personal Folders.&#34;
+
+My current workaround is to have a rule that automatically moves all messages from the &#34;Mailbox - Inbox&#34; to the &#34;Personal Folders - Inbox&#34;.
+
+Any clue?";
+$pauthor="sba";
+$pdate="1165597035";
+$plastdate="1165830370";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="663";
+$pnotify="|sba";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|adamtaa|Loong|sba";
+$psticky="";
+
+?>

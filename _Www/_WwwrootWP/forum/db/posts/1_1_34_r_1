@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: When I sent a message to a group, some get";
+$rcontent="currently no :(
+But we will add the list of failed addresses to this message box.
+";
+$rauthor="WiredPlane";
+$rdate="1181227586";
+$rip="195.210.162.152";
+
+?>

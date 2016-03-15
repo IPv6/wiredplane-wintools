@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Прозрачность для кликов.";
+$pcontent="Спасибо, что сделали. Этого очень не хватало. :)";
+$pauthor="McStar";
+$pdate="1152598931";
+$plastdate="1154595448";
+$pimage="2.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="1189";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar";
+$psticky="";
+
+?>

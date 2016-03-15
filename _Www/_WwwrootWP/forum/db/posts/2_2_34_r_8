@@ -1,0 +1,31 @@
+<?php
+
+$rsubject="RE: Dual Monitor support for WireChanger";
+$rcontent="OK, did all this, and also watched the registry in the process.
+
+Initial state: nVidia Desktop Manager configured to use same background for both displays.
+
+1) Closed Wirechanger.
+2) Set desktop background to &#34;Stonehenge&#34;.
+3) Looked in registry at HKEY_CURRENT_USER&#92;Control Panel&#92;Desktop.  Entries of interest are:
+   ConvertedWallpaper = &#34;C:&#92;Windows&#92;Web&#92;Wallpaper&#92;Stonehenge.jpg&#34;
+   OriginalWallpaper = &#34;C:&#92;Documents and Settings&#92;Jonathan&#92;Local Settings&#92;Application Data&#92;Microsoft&#92;Wallpaper1.bmp&#34;
+   Wallpaper = same as OriginalWallpaper
+
+4) Set nView Desktop Manager to &#34;Allow different backgrounds per display&#34;; set second background to a different image, centered.
+
+5) Checked Display Properties.  Current desktop background now reads as &#34;PerMonitorWallpaper0&#34;.
+
+6) Checked Registry.  &#34;ConvertedWallpaper&#34; and &#34;OriginalWallpaper&#34; are the same, but &#34;Wallpaper&#34; is now &#34;C:&#92;Documents and Settings&#92;Jonathan&#92;Application Data&#92;nView_Wallpaper&#92;PerMonitorWallpaper0.bmp&#34;.  No other entries (such as WallpaperOrigin) changed.
+
+7) Looked at that BMP file.  It is a 2880x1200 image, with the 1600x1200 image for primary display at left, and the 1280x720 image for the secondary display at right (with a black box in the lower-right 1280x480 portion).  Interesting that the second image is on the right, even though the display is configured as being on the left.
+
+8) Zipped up PerMonitorWallpaper0.bmp (with directory info), and will e-mail it in just a minute (watch out, it&#39;s 3.3MB!)....
+
+I think that should be enough info to get it working!  Of course, it&#39;s possible ATI does things differently....
+";
+$rauthor="jrwatts";
+$rdate="1138335264";
+$rip="68.35.144.64";
+
+?>

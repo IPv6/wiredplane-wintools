@@ -1,0 +1,21 @@
+<?php
+
+$psubject="WireKeys -- качать можно?...";
+$pcontent="Товарищи, а при покупке софтинки -- имеет смысл качать тот дистрибутив, что на сайте выложен?... Или с СофтКея потом какая-нить хитрая ссылочка придет?... ;)
+
+ЗЫ: У меня глюк, или на форуме, в личных настройках -- кнопки [применить] нету? :?";
+$pauthor="Loong";
+$pdate="1159101993";
+$plastdate="1159163536";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="736";
+$pnotify="|Loong";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Loong|Anonimus|garry63|Anonymous";
+$psticky="";
+
+?>

@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Strange code in my keyboard capture";
+$pcontent="I am evaluating purchasing wirekeys, but I have a question regarding one of the problems I&#39;ve run into.  I am using it today and one of the key-combinations that I had set up, Caps-L, stopped working.  I tried resetting the key, and when I typed Caps-L, it came up as &#34;Caps Lock-L-@AN&#34; -- I&#39;m not sure what the @AN is, I haven&#39;t been able to find any documentation on it.  Any helP?
+
+thanks!
+Eric
+";
+$pauthor="umop";
+$pdate="1129755551";
+$plastdate="1130063442";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="735";
+$pnotify="|umop";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|umop|Anonimus|w11|AlDl";
+$psticky="";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Винамп опять стартует";
+$pcontent="Снова проявился баг, когда винамп автоматом стартует после закрытия скринсейвера, даже если до запуска его винамп был на паузе.";
+$pauthor="McStar";
+$pdate="1138713284";
+$plastdate="1139571112";
+$pimage="1.gif";
+$plastreply="9";
+$plastauthor="McStar";
+$preplies="9";
+$pviews="853";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|ValeraVi|Anonymous";
+$psticky="";
+
+?>

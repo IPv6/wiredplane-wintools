@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Cycle through stickies";
+$pcontent="Since I like WireKeys so much, thought I&#39;d try WireNote  :)
+
+For the moment, I&#39;m just using notes. I see hotkeys to create a new note and show/hide all notes. My question is, after moving focus from a note to a different application, how do you bring that note back into focus via the keyboard? Since the notes don&#39;t appear in Windows tasklist, Alt-Tab doesn&#39;t find it.
+
+If you press &#34;show all notes&#34;, that kind of works, but focus comes up on one (last one used?), and I can&#39;t find a way to keyboard cycle through the others to get to the one I want.
+
+TIA";
+$pauthor="jaco";
+$pdate="1115583985";
+$plastdate="1115603287";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="630";
+$pnotify="|jaco";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|jaco|McStar|AGu|fzirp";
+$psticky="";
+
+?>

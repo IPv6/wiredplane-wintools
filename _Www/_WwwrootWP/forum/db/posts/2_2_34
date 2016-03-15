@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Dual Monitor support for WireChanger";
+$pcontent="I was wondering if you had thought of providing the ability to change the wall papers on a dual monitor setup?  I am looking for a program that will let me randomly change the wall papers on each monitor.
+
+thank you in advance.
+";
+$pauthor="animeimp";
+$pdate="1107567918";
+$plastdate="1138349578";
+$pimage="1.gif";
+$plastreply="10";
+$plastauthor="WiredPlane";
+$preplies="10";
+$pviews="3257";
+$pnotify="|jrwatts";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|jrwatts|helmerichs|Digitall";
+$psticky="";
+
+?>

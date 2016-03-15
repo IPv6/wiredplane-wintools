@@ -1,0 +1,112 @@
+<!--#set var="TOPIC_RU" value="JavaScript - SendKeys" -->
+<!--#set var="TOPIC_EN" value="JavaScript - SendKeys" -->
+<!--#include virtual="/_before.shtml"-->
+
+Windows Script Host
+<div class="title">
+SendKeys Method
+</div>
+<pre class="code" id="ctl00_LibFrame_ctl07other" space="preserve">object.SendKeys(string)</pre>
+<span class="nonLinkTerms"><i>object</i></span><p><b>WshShell</b> object.</p><span class="nonLinkTerms"><span class="parameter">string</span> </span><p>String value indicating the keystroke(s) you want to send.</p>
+<p>Use the <b>SendKeys</b> method to send keystrokes to applications that have no automation interface. Most keyboard characters are represented by a single keystroke. Some keyboard characters are made up of combinations of keystrokes (CTRL+SHIFT+HOME, for example). To send a single keyboard character, send the character itself as the <span class="parameter">string</span> argument. For example, to send the letter x, send the <span class="parameter">string</span> argument "x".</p><div class="alert">
+<table width="100%"><tbody><tr><th align="left">Note </th></tr><tr><td> <p>To send a space, send the string " ".</p> </td></tr></tbody></table></div><p>You can use <b>SendKeys</b> to send more than one keystroke at a time. To do this, create a compound string argument that represents a sequence of keystrokes by appending each keystroke in the sequence to the one before it. For example, to send the keystrokes a, b, and c, you would send the string argument "abc". The <b>SendKeys</b> method uses some characters as modifiers of characters (instead of using their face-values). This set of special characters consists of parentheses, brackets, braces, and the:  </p><ul><li><p>plus sign&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+",</p></li><li><p>caret&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"^",</p></li><li>
+<p>percent sign "%",</p></li><li><p>and tilde&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"~" </p></li></ul><p>Send these characters by enclosing them within braces "{}". For example, to send the plus sign, send the string argument "{+}". Brackets "[ ]" have no special meaning when used with <b>SendKeys</b>, but you must enclose them within braces to accommodate applications that do give them a special meaning (for dynamic data exchange (DDE) for example).  </p><ul><li><p>To send bracket characters, send the string argument "{[}" for the left bracket and "{]}" for the right one.</p></li><li><p>To send brace characters, send the string argument "{{}" for the left brace and "{}}" for the right one.</p></li></ul><p>Some keystrokes do not generate characters (such as ENTER and TAB). Some keystrokes represent actions (such as BACKSPACE and BREAK). To send these kinds of keystrokes, send the arguments shown in the following table:
+<table width="100%" border=1 cellspacing=0 cellpadding=2><tbody><tr> <th>
+Key
+</th> <th>
+Argument
+</th> </tr><tr> <td> <p>BACKSPACE</p> </td> <td> <p>{BACKSPACE}, {BS}, or {BKSP}</p> </td> </tr><tr> <td> <p>BREAK</p> </td> <td> <p>{BREAK}</p> </td> </tr><tr> <td> <p>CAPS LOCK</p> </td> <td> <p>{CAPSLOCK}</p> </td> </tr><tr> <td> <p>DEL or DELETE</p> </td> <td> <p>{DELETE} or {DEL}</p> </td> </tr><tr> <td> <p>DOWN ARROW</p> </td> <td> <p>{DOWN}</p> </td> </tr><tr> <td> <p>END</p> </td> <td> <p>{END}</p> </td> </tr><tr> <td> <p>ENTER</p> </td> <td> <p>{ENTER} or ~</p> </td> </tr><tr> <td> <p>ESC</p> </td> <td> <p>{ESC}</p> </td> </tr><tr> <td> <p>HELP</p> </td> <td> <p>{HELP}</p> </td> </tr><tr> <td> <p>HOME</p> </td> <td> <p>{HOME}</p> </td> </tr><tr> <td> <p>INS or INSERT</p> </td> <td> <p>{INSERT} or {INS}</p> </td> </tr><tr> <td> <p>LEFT ARROW</p> </td> <td> <p>{LEFT}</p> </td> </tr><tr> <td> <p>NUM LOCK</p> </td> <td> <p>{NUMLOCK}</p> </td> </tr><tr> <td> <p>PAGE DOWN</p> </td> <td> <p>{PGDN}</p> </td> </tr><tr> <td> <p>PAGE UP</p> </td> <td> <p>{PGUP}</p> </td> </tr><tr> <td> <p>PRINT SCREEN</p> </td> <td> <p>{PRTSC}</p> </td> </tr><tr> <td> <p>RIGHT ARROW</p> </td> <td> <p>{RIGHT}</p> </td> </tr><tr> <td> <p>SCROLL LOCK</p> </td> <td> <p>{SCROLLLOCK}</p> </td> </tr><tr> <td> <p>TAB</p> </td> <td> <p>{TAB}</p> </td> </tr><tr> <td> <p>UP ARROW</p> </td> <td> <p>{UP}</p> </td> </tr><tr> <td> <p>F1</p> </td> <td> <p>{F1}</p> </td> </tr><tr> <td> <p>F2</p> </td> <td> <p>{F2}</p> </td> </tr><tr> <td> <p>F3</p> </td> <td> <p>{F3}</p> </td> </tr><tr> <td> <p>F4</p> </td> <td> <p>{F4}</p> </td> </tr><tr> <td> <p>F5</p> </td> <td> <p>{F5}</p> </td> </tr><tr> <td> <p>F6</p> </td> <td> <p>{F6}</p> </td> </tr><tr> <td> <p>F7</p> </td> <td> <p>{F7}</p> </td> </tr><tr> <td> <p>F8</p> </td> <td> <p>{F8}</p> </td> </tr><tr> <td> <p>F9</p> </td> <td> <p>{F9}</p> </td> </tr><tr> <td> <p>F10</p> </td> <td> <p>{F10}</p> </td> </tr><tr> <td> <p>F11</p> </td> <td> <p>{F11}</p> </td> </tr><tr> <td> <p>F12</p> </td> <td> <p>{F12}</p> </td> </tr><tr> <td> <p>F13</p> </td> <td> <p>{F13}</p> </td> </tr><tr> <td> <p>F14</p> </td> <td> <p>{F14}</p> </td> </tr><tr> <td> <p>F15</p> </td> <td> <p>{F15}</p> </td> </tr><tr> <td> <p>F16</p> </td> <td> <p>{F16}</p> </td> </tr></tbody></table></div><p>To send keyboard characters that are comprised of a regular keystroke in combination with a SHIFT, CTRL, or ALT, create a compound string argument that represents the keystroke combination. You do this by preceding the regular keystroke with one or more of the following special characters:</p><div class="labelheading"><b><!----></b></div><div class="tableSection">
+<table width="40%" border=1 cellspacing=0 cellpadding=2><tbody><tr> <th>
+Key
+</th> <th>
+Special Character
+</th> </tr><tr> <td> <p>SHIFT</p> </td> <td> <p>+</p> </td> </tr><tr> <td> <p>CTRL</p> </td> <td> <p>^</p> </td> </tr><tr> <td> <p>ALT</p> </td> <td> <p>%</p> </td> </tr></tbody></table></div> <div class="alert">
+<table width="100%"><tbody><tr><th align="left">Note </th></tr><tr><td> <p>When used this way, these special characters are not enclosed within a set of braces.</p> </td></tr></tbody></table></div><p>To specify that a combination of SHIFT, CTRL, and ALT should be held down while several other keys are pressed, create a compound string argument with the modified keystrokes enclosed in parentheses. For example, to send the keystroke combination that specifies that the SHIFT key is held down while:  </p><ul><li><p>e and c are pressed, send the string argument "+(ec)".</p></li><li> <p>e is pressed, followed by a lone c (with no SHIFT), send the string argument "+ec".</p> </li></ul> <p>You can use the <b>SendKeys</b> method to send a pattern of keystrokes that consists of a single keystroke pressed several times in a row. To do this, create a compound string argument that specifies the keystroke you want to repeat, followed by the number of times you want it repeated. You do this using a compound string argument of the form {<i>keystroke number</i>}. For example, to send the letter "x" ten times, you would send the string argument "{x 10}". Be sure to include a space between keystroke and number.</p> <div class="alert">
+<table width="100%"><tbody><tr><th align="left">Note </th></tr><tr><td> <p>The only keystroke pattern you can send is the kind that is comprised of a single keystroke pressed several times. For example, you can send "x" ten times, but you cannot do the same for "Ctrl+x".</p> </td></tr></tbody></table></div> <div class="alert">
+<table width="100%"><tbody><tr><th align="left">Note </th></tr><tr><td> <p>You cannot send the PRINT SCREEN key {PRTSC} to an application.</p> </td></tr></tbody></table></div> 
+</div></div></div>
+  <div class="subSection"> <p>The following example demonstrates the use of a single .wsf file for two jobs in different script languages (VBScript and JScript). Each job runs the Windows calculator and sends it keystrokes to execute a simple calculation.</p> <div class="code" id="ctl00_LibFrame_ctl11_other"><div class="CodeSnippetTitleBar"><div class="CodeDisplayLanguage"></div></div><pre class="code" id="ctl00_LibFrame_ctl11other" space="preserve">&lt;package&gt;
+
+   &lt;job id="vbs"&gt;
+
+      &lt;script language="VBScript"&gt;
+
+         set WshShell = WScript.CreateObject("WScript.Shell")
+
+         WshShell.Run "calc"
+
+         WScript.Sleep 100
+
+         WshShell.AppActivate "Calculator"
+
+         WScript.Sleep 100
+
+         WshShell.SendKeys "1{+}"
+
+         WScript.Sleep 500
+
+         WshShell.SendKeys "2"
+
+         WScript.Sleep 500
+
+         WshShell.SendKeys "~"
+
+         WScript.Sleep 500
+
+         WshShell.SendKeys "*3"
+
+         WScript.Sleep 500
+
+         WshShell.SendKeys "~"
+
+         WScript.Sleep 2500
+
+      &lt;/script&gt;
+
+   &lt;/job&gt;
+
+
+
+   &lt;job id="js"&gt;
+
+      &lt;script language="JScript"&gt;
+
+         var WshShell = WScript.CreateObject("WScript.Shell");
+
+         WshShell.Run("calc");
+
+         WScript.Sleep(100);
+
+         WshShell.AppActivate("Calculator");
+
+         WScript.Sleep(100);
+
+         WshShell.SendKeys ("1{+}");
+
+         WScript.Sleep(500);
+
+         WshShell.SendKeys("2");
+
+         WScript.Sleep(500);
+
+         WshShell.SendKeys("~");
+
+         WScript.Sleep(500);
+
+         WshShell.SendKeys("*3");
+
+         WScript.Sleep(500);
+
+         WshShell.SendKeys("~");
+
+         WScript.Sleep(2500);
+
+      &lt;/script&gt;
+
+   &lt;/job&gt;
+
+&lt;/package&gt;</pre></div>  <div class="subSection">  <h4 class="subHeading">Applies To:</h4><div class="subSection"> <p> <span class="linkTerms"></span>WshShell Object
+
+<!--#include virtual="/_after.html"-->
+
+

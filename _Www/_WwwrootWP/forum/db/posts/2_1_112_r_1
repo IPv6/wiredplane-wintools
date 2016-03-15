@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: False Positive Trojan?";
+$rcontent="This is false detection. We contacted McAfee about this problem already. I think next updates for McAfee will fix this problem. We are using special technique for protecting our software from pirates and it is possible that this part of software falsly detected as trojan.
+
+If you want to be sure, just install firewall. It is good idea anyway, in our malfare ages:) We recommend ZoneAlarm (Free edition). It will show you any suspicious internet activity from all programs installed on your PC.
+";
+$rauthor="WiredPlane";
+$rdate="1121844246";
+$rip="195.245.232.12";
+
+?>

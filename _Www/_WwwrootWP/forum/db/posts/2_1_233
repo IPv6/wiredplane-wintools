@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Версия в  Download старая!";
+$pcontent="Два раза скачал - все 3-6-0";
+$pauthor="agrl2";
+$pdate="1174140303";
+$plastdate="1174377222";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="agrl2";
+$preplies="5";
+$pviews="663";
+$pnotify="|agrl2";
+$plock="";
+$pip="";
+$pvisitors="|agrl2|garry63|WiredPlane|Anonimus|AlexZ|Alkash|triplex|DSR|Anonymous|ValeraVi";
+$psticky="";
+
+?>

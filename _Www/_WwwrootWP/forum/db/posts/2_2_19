@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Non BMP images";
+$pcontent="How does WireChanger manage non bmp images?
+Does it convert them automatically to bmp when loading them or requires active desktop activated?";
+$pauthor="eriw22";
+$pdate="1098197998";
+$plastdate="1099721452";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="1063";
+$pnotify="|eriw22|saintgrimm";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|jrwatts|Anonymous";
+$psticky="";
+
+?>

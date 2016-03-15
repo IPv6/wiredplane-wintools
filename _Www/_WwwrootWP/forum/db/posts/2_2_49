@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Падение программы";
+$pcontent="Непонятно почему, но периодически программа падает. И на работе и дома на разных операционках. Зависимости выяснить не удалось пока. Видимо в процессе генерации падает.";
+$pauthor="McStar";
+$pdate="1137786015";
+$plastdate="1138370661";
+$pimage="1.gif";
+$plastreply="19";
+$plastauthor="McStar";
+$preplies="19";
+$pviews="1874";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane";
+$psticky="";
+
+?>

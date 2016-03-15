@@ -1,0 +1,19 @@
+<?php
+
+$psubject="need help";
+$pcontent="Hello. i am new to the site and i am needing some help. I am looking to purchasing Wire Changer and i am really liking what i see from the trial version. I am looking to purchase a small business license but, I am not sure on how many computers that actually covers or if it is just one license i can use multiple times. I know that the single license covers 3 computers but i am not wanting to buy multiple licenses if the small business will accommodate what my needs are If i could get some help on this issue i would be greatly appreciative. thank you!";
+$pauthor="metriodhunter";
+$pdate="1212683828";
+$plastdate="1212715505";
+$pimage="4.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="60";
+$pnotify="|metriodhunter";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

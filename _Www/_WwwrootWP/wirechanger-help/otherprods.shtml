@@ -1,0 +1,30 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="Äðóãèå ïðèëîæåíèÿ" -->
+<!--#set var="PTITLE_EN" value="Other products" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Our Products</h2><hr>
+<table border=0>
+<tr>
+<td><a href="http://www.wiredplane.com/wirekeys/info.shtml?who=WireChanger"><img src="wk.gif" border=0><br></a>
+<td valign="top">WireKeys Full<hr> - System utility that helps you to work in Windows. Hot key oriented with extensive tray menu support. Features: Additional text clipboards, Screen shot making, Kill non-replying tasks, Minimize any application to tray and more. Every action can be connected to the hot key, full "Win" key/Multimedia keyboards support
+</tr>
+<tr>
+<td><a href="http://www.wiredplane.com/wirenote/info.shtml?who=WireChanger"><img src="wn.gif" border=0></a> 
+<td valign="top">WireNote<hr> - Smart and simple data manager (ToDo list, Reminders and sticky notes (note can be attached to any other application`s window for example)) with high-quality LAN messaging support (including send/receive files over the net, message filtering). This program was created to help in organization of daily work with such features as ToDo/Reminders and sticky notes service along with address book and LAN messenger. The kernel of the program is easy-to-use tree-structured data holder. This program can be used instead of standard Windows messaging service or WinPopup.
+</tr>
+</table>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

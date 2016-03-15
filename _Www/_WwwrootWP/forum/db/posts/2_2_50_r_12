@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="OK, this is very strange.  Now, it is creating a 2880x1200 image!  It seems to have switched when I ran the screensaver normally (as opposed to just using the &#34;preview&#34; in the control panel).
+
+However, the images still aren&#39;t correct.  The 1600x1200 image for the main display is still centered within the 2880x1200 image file, instead of being at the left edge.  However, the 1280x720 image for the second monitor is positioned correctly.  
+
+Oops, just figured out what actually changed...I was messing with my settings, and accidentally shifted the second monitor&#39;s logical position from left of the main display to right of the main display (so the top-left corner moved from -1280x0 to 1600x0).
+
+Just verified the behavior:  with the secondary display positioned to the left, WC is generating a 4160x1200 image; with the secondary display to the right, WC is generating a 2880x1200 image (but still with the main image positioned incorrectly).
+
+(Obviously, these numbers are with the displays set to 1600x1200 & 1280x720, respectively.)";
+$rauthor="jrwatts";
+$rdate="1139439411";
+$rip="68.35.144.64";
+
+?>

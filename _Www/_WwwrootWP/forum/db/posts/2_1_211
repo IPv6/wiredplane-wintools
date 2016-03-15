@@ -1,0 +1,19 @@
+<?php
+
+$psubject="&#36;null";
+$pcontent=" delete plz.";
+$pauthor="Anonymous";
+$pdate="1157275865";
+$plastdate="1157275865";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="Anonymous";
+$preplies="0";
+$pviews="409";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|McStar|WiredPlane|AlexZ|Anonimus";
+$psticky="";
+
+?>

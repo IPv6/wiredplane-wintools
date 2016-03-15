@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Migartion with settings of Wire Keys?";
+$rcontent="It depends on version of WK you use;
+Full version has backup all settings/restore settings feature. Lite version hasn`t such possibility, but you can find WK folder in the Document and Settings/username/Application data and copy it (though during coping this folder back after reinstall some data can be lost)";
+$rauthor="WiredPlane";
+$rdate="1098770524";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: WinRar and &#34;Startup directory&#34;";
+$rcontent="Works! Thank you!
+
+For anyone else who might want to hotkey &#34;Extract archive under cursor with WinRAR to it&#39;s own folder&#34; with a quick-run, the parameter is:
+
+e %SELECTED -ad %SELECTED_FOLDER ";
+$rauthor="jaco";
+$rdate="1168975996";
+$rip="68.116.182.122";
+
+?>

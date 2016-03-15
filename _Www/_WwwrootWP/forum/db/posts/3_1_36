@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN] Useless &#39;Start&#39; button";
+$pcontent="Please, leave your comments here (in English if this is possible).";
+$pauthor="WiredPlane";
+$pdate="1103819953";
+$plastdate="1108470726";
+$pimage="1.gif";
+$plastreply="10";
+$plastauthor="WiredPlane";
+$preplies="10";
+$pviews="1655";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|Leshiy|stepone|Shaker|triplex";
+$psticky="";
+
+?>

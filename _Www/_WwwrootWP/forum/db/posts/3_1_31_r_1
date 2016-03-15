@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [PLUGIN] Any-window resizer";
+$rcontent="Plugin updated with two new functions: now it can prorortionaly resize window by hotkeys (make it bigger/smaller in one click)";
+$rauthor="WiredPlane";
+$rdate="1139558324";
+$rip="195.245.232.22";
+
+?>

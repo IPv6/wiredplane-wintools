@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: small request";
+$rcontent="AVG&#39;s forum is quick!  :)
+
+if anyone uses and wants to hotkey AVG, the command line option is 
+
+avgw.exe /se %selected
+
+note that this doesn&#39;t work when multiple files are passed to it- it will only scan the first one.";
+$rauthor="jaco";
+$rdate="1111553355";
+$rip="66.114.67.40";
+
+?>

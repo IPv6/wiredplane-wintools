@@ -1,0 +1,20 @@
+<?php
+
+$psubject=" [ANN] WireNote updates";
+$pcontent="Here will be posted information about all updates to WireNote. All changes, even smallest one, will be posted here.
+";
+$pauthor="WiredPlane";
+$pdate="1108786064";
+$plastdate="1150350405";
+$pimage="4.gif";
+$plastreply="7";
+$plastauthor="WiredPlane";
+$preplies="7";
+$pviews="1910";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|comsec|HReaLWin|McStar|Milan";
+$psticky="";
+
+?>

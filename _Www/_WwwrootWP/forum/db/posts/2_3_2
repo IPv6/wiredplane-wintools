@@ -1,0 +1,52 @@
+<?php
+
+$psubject="Messages from old forum";
+$pcontent="woody  [05th March, 2004 09:55:39] 
+I use WireNote like a virtual Post-It on my desk. It is very convenient, very easy to use. I use Note with “transparency mode”, in “mini-mode”. I also use the “reminder” with Note, so I don’t forget anything anymore!
+
+Congratulation for this splendid Shareware. Much better than any other software.
+
+PS: I found a small “bug”. I told WirePlane about this issue. In less than 3 days, they &#34;fixit&#34;. Most of the company does not even answer when told them their software gets a “bug”. And you pay much more for something less efficient.
+
+
+WiredPlane Labs  [26th October, 2003 16:05:54] 
+WireNote is freeware now!  
+ 
+
+WiredPlane Labs  [07th September, 2003 14:40:18] 
+Hi, all!!
+Is anybody using anti-spam feature of WireNote? May be you have any ideas about new ways to block spam and so on?
+Good luck!  
+ 
+
+KOHb  [22nd May, 2003 08:06:34] 
+When I ticked the &#39;autohide&#39; box for messages It stays open but when you place the cursor on the top of message it disappear... (WinXP). I have to restart program to be able to close the window.
+The idea is brilliant, but the interface and setting is not user friendly - serious market limitation. I think this program is designed for a PC users, which does always means PC professionals - it should be simple and based on standard interface (especially I want to mention close button. I always trying to close window by pressing upper left corner :-)
+There are no indication that you are connected to the network. It will be nice to have the function to scan the LAN to try to find WireNote clients...
+Good luck and thank you.
+Sydney
+ 
+ 
+
+WiredPlane Labs  [21st May, 2003 19:55:07] 
+Little question to WireNote users: can you leave here suggestions about WireNote features for future releases? 
+Thanks in advance!  
+ 
+
+WiredPlane  [16th April, 2003 23:23:06] 
+Version 1.5 released!  ";
+$pauthor="WiredPlane";
+$pdate="1081770049";
+$plastdate="1081770049";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="536";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Smogg|GRRemlin|Anonimus|AGu|jaco|Anonymous";
+$psticky="";
+
+?>

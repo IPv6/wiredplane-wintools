@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Window transparency";
+$rcontent="Tray menu -&#62; Open WireKeys -&#62; WireKeys options: Popup hot menu
+Set hotkey here
+
+Then Close preferences, switch to window of interest and press defined hotkey to open hot menu, then navigate to system actions, etc";
+$rauthor="WiredPlane";
+$rdate="1194341059";
+$rip="195.210.162.152";
+
+?>

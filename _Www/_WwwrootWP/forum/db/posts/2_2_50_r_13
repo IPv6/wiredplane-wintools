@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="Just experimented with moving the second monitor above or below the primary monitor.  Results were consistent:
+
+With the secondary monitor positioned &#34;above&#34; the primary monitor (top-left corner at 0x-720), WC generates a 1600x2640 image, with a 1600x1200 image centered within, with blank 1600x720 borders above and below (and the widgets positioned correctly).
+
+With the secondary monitor positioned &#34;below&#34; the primary monitor (top-left corner at 0x1200), WC generates a 1600x1920 image, with a 1600x1200 image centered within, and a 1280x720 image at the bottom (widgets still positioned correctly).
+
+Note that I had to restart WC after each change of the monitor position before the behavior actually changed.
+
+Hope this helps!   ;)  Let me know if you want me to e-mail any of these images.";
+$rauthor="jrwatts";
+$rdate="1139440069";
+$rip="68.35.144.64";
+
+?>

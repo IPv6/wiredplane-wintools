@@ -1,0 +1,19 @@
+<?php
+
+$psubject="’отелось бы более подробно ознакомитьс€ с";
+$pcontent="’отелось бы более подробно ознакомитьс€ с данной програмкой, но к сожалени€ справка только на английском. ћожет быть подскажете есть ли инструкци€ на русском €зыке по работе WiredPlane";
+$pauthor="Anonimus";
+$pdate="1114337919";
+$plastdate="1114432997";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="Anonimus";
+$preplies="1";
+$pviews="716";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Iskak|McStar|stepone|Loong|Anonymous";
+$psticky="";
+
+?>

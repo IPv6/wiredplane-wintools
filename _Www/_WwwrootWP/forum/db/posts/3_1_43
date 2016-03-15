@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[req] need very simple script :)";
+$pcontent="Нужно чтобы по клику мыши в том же месте кликалось 2 раза, нажималась определённая комбинация клавиш и снова кликалось 2 раза. Я не силён в VBS... пишу на ПХП, кто напишет примерный скрипт? Мне бы просто пример, я его потом подгоню под себя :) Если можно - в асю 777050 :)";
+$pauthor="Anonimus";
+$pdate="1115584738";
+$plastdate="1129201680";
+$pimage="1.gif";
+$plastreply="33";
+$plastauthor="WiredPlane";
+$preplies="33";
+$pviews="3257";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AzazelSP|McStar|jaco|Gorbush|Ra1n0|ValeraVi|Anonimus|Zoldex";
+$psticky="";
+
+?>

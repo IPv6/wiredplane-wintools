@@ -1,0 +1,25 @@
+<?php
+
+$psubject="Hotkey to unhide specific app?";
+$pcontent="I would like to replace my existing hotkey application program with WireKeys, as it can do so much more. But I need to find a way to set a hotkey to control a specific desktop program.
+
+Ideally, I would like to set a hotkey that would minimize one specific program to the tasktray, and then pressing that same hotkey would then unhide just that same application.
+
+Failing that, I could use the global hide to tasktray for active window. But I would need to have a hotkey that would unhide a specific application, not all of them or one at a time.
+
+Thanks for any help you can provide.";
+$pauthor="rafiman";
+$pdate="1179600883";
+$plastdate="1179730963";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="184";
+$pnotify="|rafiman";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AlexZ|AzazelSP";
+$psticky="";
+
+?>

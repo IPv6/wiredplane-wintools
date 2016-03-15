@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: &#39;Network and Dialup Connections&#39; folder";
+$rcontent="That is even easier ^)
+Exe-path to network connections is
+ncpa.cpl
+
+Just create appmacro with exe-path &#34;ncpa.cpl&#34;";
+$rauthor="WiredPlane";
+$rdate="1111130481";
+$rip="195.209.143.44";
+
+?>

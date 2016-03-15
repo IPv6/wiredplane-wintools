@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE:  [ANN] WireNote updates";
+$rcontent="WireNote updated! Among bug fixes and small changes, Billboard sections added";
+$rauthor="WiredPlane";
+$rdate="1110191237";
+$rip="195.209.143.44";
+
+?>

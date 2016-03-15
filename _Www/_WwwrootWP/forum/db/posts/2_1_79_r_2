@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Конвертор раскладок не читает конфиги";
+$rcontent="насколько я понимаю, он ставит первую и вторую раскладки из списка найденных, а не те номера, которые записаны в конфиге (Application Data&#92;WireKeys&#92;WireKeys.conf переменные hkl-prefLayout1 и hkl-prefLayout2).
+Скриншот - в аттаче.
+
+[b] Приложение[/b]: [att]scrnshot.gif[/att]";
+$rauthor="Varrah";
+$rdate="1109057339";
+$rip="192.168.7.35";
+
+?>

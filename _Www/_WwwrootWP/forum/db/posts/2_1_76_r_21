@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="WK3.3.3 updated.
+- Quick way to add autotype to any hotkey action. Expand hotkey`s cell (in preferences) and click on &#34;Add/Modify typing alias&#34; to jump into &#34;new alias&#34; dialog with prefilled fileds
+- Several bugs fixed (including OSD artefacts on 16b video modes)";
+$rauthor="WiredPlane";
+$rdate="1135236480";
+$rip="195.245.232.22";
+
+?>

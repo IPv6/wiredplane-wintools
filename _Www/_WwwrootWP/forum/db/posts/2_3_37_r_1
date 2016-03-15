@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Send to...";
+$rcontent="нет, такое не предусмотрено к сожалению";
+$rauthor="WiredPlane";
+$rdate="1117003808";
+$rip="195.245.232.12";
+
+?>

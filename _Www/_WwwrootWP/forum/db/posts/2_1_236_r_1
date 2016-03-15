@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Hotkey to manage specified application";
+$rcontent="To minimize - yes it is possible.
+To restart - it is harder. This can be basically performed by sending close messages to outlook window and then starting it again from script";
+$rauthor="WiredPlane";
+$rdate="1179279765";
+$rip="91.76.109.46";
+
+?>

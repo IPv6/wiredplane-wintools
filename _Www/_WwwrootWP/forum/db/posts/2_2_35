@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[ANN] WireChanger updates";
+$pcontent="Here will be posted information about all updates to WireChanger and build-in templates (since they are distributed with WireChanger).";
+$pauthor="WiredPlane";
+$pdate="1108394423";
+$plastdate="1142234978";
+$pimage="4.gif";
+$plastreply="20";
+$plastauthor="WiredPlane";
+$preplies="20";
+$pviews="3036";
+$pnotify="|WiredPlane";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|jrwatts|hiclass|Anonymous|PegM4";
+$psticky="";
+
+?>

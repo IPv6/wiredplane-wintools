@@ -1,0 +1,7 @@
+<?php
+
+$cname="Common";
+$cdescription="Questions and announcements";
+$cforums="2";
+
+?>

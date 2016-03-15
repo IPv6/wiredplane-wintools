@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Per theme tuning PLUS per wallpaper tuning";
+$pcontent="Currently WC only allows tuning by theme, I am suggesting to add the ability to tune for individual wallpaper on top of that (i.e. both are allowed at the same time). Of course per wallpaper tuning (if exist) will overwrite per theme setting (depending on which theme the wallpaper is assigned)
+
+Becuase widget tuning can&#39;t be applied per wallpaper, this means for every widget enabled and for every set of its tuning, user will have to create a theme.
+
+That implies, user must use the theme system merely for widget settings/tuning, what if user intend to use the theme system in another favour like &#34;Animals&#34;, &#34;Family&#34;, &#34;Flowers&#34;, ... (i.e. grouping of wallpapers by its natures), isn&#39;t the whole theme creation become too messy and complicated?
+
+Imagine a theme of 500 wallpapers which has its own set of widgets tuning, among which say I have 10 of them needs a slight different tuning from the rest, my suggestion is to allow, picking each from the theme and assign different setting. (They still stay in the theme, but they own a diff setting) That means, if a wallpaper in a theme has NOT been assigned a &#34;per wallpaper tuning&#34; then it will use the default tuning (That is the tuning made for the theme)
+
+Sorry, this post should be a reply to the other thread of mine (I press the wrong button)...";
+$pauthor="hiclass";
+$pdate="1139466972";
+$plastdate="1139470921";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="748";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|jrwatts|hiclass|Anonymous";
+$psticky="";
+
+?>

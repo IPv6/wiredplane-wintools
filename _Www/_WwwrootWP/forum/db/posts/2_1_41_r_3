@@ -1,0 +1,18 @@
+<?php
+
+$rsubject="RE: Non-Explorer Hot keys";
+$rcontent="Yes you can record mouse clicks and call them later.
+to perform this:
+- call &#34;record macro&#34; from plugin submenu of tray menu
+- be sure to select record format - &#34;internal keys+mouse&#34; and &#34;add to wk&#34; checkbox
+- press ok
+- start clicking desired locations in windows you have opened ^)
+- click &#34;save and close&#34; after all
+- assign hotkey to the macro you just recorded 
+that is all. press hotkey to call macro :)
+";
+$rauthor="WiredPlane";
+$rdate="1098192224";
+$rip="195.245.232.12";
+
+?>

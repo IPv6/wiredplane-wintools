@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Обновления";
+$pcontent="Привет, WiredPlane. А чего давно не было обновлений, все в отпуске?";
+$pauthor="McStar";
+$pdate="1120467688";
+$plastdate="1121245248";
+$pimage="1.gif";
+$plastreply="11";
+$plastauthor="McStar";
+$preplies="11";
+$pviews="2064";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|ValeraVi|stepone|apanas|Loong|garry63";
+$psticky="";
+
+?>

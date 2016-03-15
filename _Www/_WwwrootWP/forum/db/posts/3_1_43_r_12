@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: [req] need very simple script :)";
+$rcontent="К сожалению ни Ваш вариант, ни даже
+Command(&#34;mou::msg=[513] h=[1] l=[1] rel=[CURSOR] x=[1] y=[1]&#34;);
+Command(&#34;mou::msg=[514] h=[1] l=[1] rel=[CURSOR] x=[1] y=[1]&#34;);
+ не сработали :(
+Горячая клавиша: LShift-@2xLMB
+клик выполняется в левый верхний угол экрана :(";
+$rauthor="Anonimus";
+$rdate="1116700458";
+$rip="209.124.82.227";
+
+?>

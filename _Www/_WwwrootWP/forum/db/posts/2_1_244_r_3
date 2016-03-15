@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Assign Hotkey to &#34;Folder Options&#34;?";
+$rcontent="Create new quick-run item and type
+::{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}
+instead of file path :)
+That is all!";
+$rauthor="WiredPlane";
+$rdate="1180595526";
+$rip="195.210.162.152";
+
+?>

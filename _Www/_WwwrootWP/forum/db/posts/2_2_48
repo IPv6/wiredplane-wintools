@@ -1,0 +1,22 @@
+<?php
+
+$psubject="Calendar Skin";
+$pcontent="Looks like Wirechanger comes with about four calendar skins...
+Classic, Basic Blue, Round and Wood. Are there any other available? I really don&#39;t like the look of any of those. Round is the best.. but I&#39;m having troubles customizing it.
+
+Thanks. ";
+$pauthor="CynthiaBlue";
+$pdate="1134079981";
+$plastdate="1134373682";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="1144";
+$pnotify="|CynthiaBlue";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|jrwatts";
+$psticky="";
+
+?>

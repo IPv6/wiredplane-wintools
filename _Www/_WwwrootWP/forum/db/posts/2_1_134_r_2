@@ -1,0 +1,22 @@
+<?php
+
+$rsubject="RE: Strange code in my keyboard capture";
+$rcontent="The problem is no longer persisting / replicatable.  I closed and restarted wirekeys and it fixed it.
+
+as for the information.
+
+1. The name of the action was: LOG
+2. Enable extended hotkey processing is on, yes
+3. I tried entering the same hotkey for another action in the same tree (called WORKDAY), it ended up the same way.
+
+For now, the problem is resolved.  Tell me what I should do, should it happen again and I&#39;ll try it next time.
+
+Also -- do you happen to know if there is a way to cause sendKeys, or something else playback-able to press the windows key or the menu (app popup) key?
+
+Thanks,
+Eric";
+$rauthor="umop";
+$rdate="1129821276";
+$rip="71.135.39.98";
+
+?>

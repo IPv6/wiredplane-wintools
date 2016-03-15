@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Forum crashed";
+$pcontent="Forum is temporaly down, sorry
+For technical reasons";
+$pauthor="WiredPlane";
+$pdate="1082708991";
+$plastdate="1082708991";
+$pimage="7.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="716";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Cermit|BillR|Leshiy|rockywolf|McStar|sam|Anonymous";
+$psticky="";
+
+?>

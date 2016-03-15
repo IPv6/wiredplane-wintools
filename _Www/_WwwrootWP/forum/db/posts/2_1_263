@@ -1,0 +1,26 @@
+<?php
+
+$psubject="Action when closing WirkeKeys";
+$pcontent="I would like to have a reminder to be displayed when WireKeys is about to be closed.
+
+Reason:
+When I close WireKeys I often forget to remove my USB stick.
+Therefore I want a standard WK-reminder to be displayed:
+&#34;Hey, please remove USB stick!&#34;
+
+Is this intention realizable?";
+$pauthor="Richy";
+$pdate="1203504584";
+$plastdate="1203586026";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="227";
+$pnotify="|Richy";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Richy|wtiger|garry63|Anonymous|dnknitro";
+$psticky="";
+
+?>

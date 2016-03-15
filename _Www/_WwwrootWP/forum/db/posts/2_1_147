@@ -1,0 +1,19 @@
+<?php
+
+$psubject="параметр CommandLine";
+$pcontent="Добавил в реестр соответсвующий параметр с путём для настроек. Не канает...";
+$pauthor="McStar";
+$pdate="1133957897";
+$plastdate="1134038801";
+$pimage="7.gif";
+$plastreply="14";
+$plastauthor="McStar";
+$preplies="14";
+$pviews="1199";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|ValeraVi|Anonimus";
+$psticky="";
+
+?>

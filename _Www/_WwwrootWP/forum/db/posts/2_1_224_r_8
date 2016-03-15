@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Feature request";
+$rcontent="I mean hotkey for killing active progress in the process viewer.I can see the option in the preferences now but it doesn&#39;t seem to work (is that hotkey only for applications that are on the list to kill simutaneously?)";
+$rauthor="Anonymous";
+$rdate="1179620052";
+$rip="195.14.155.177";
+
+?>

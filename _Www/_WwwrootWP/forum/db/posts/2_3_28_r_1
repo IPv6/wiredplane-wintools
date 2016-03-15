@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: CPU Load";
+$rcontent="Strange %(
+Please, check what protoclos are enabled and try to disable it one by one to check when CPU load will fall to normal level.
+please, write here about results.
+Looking forward for answer!";
+$rauthor="WiredPlane";
+$rdate="1110610737";
+$rip="195.245.232.12";
+
+?>

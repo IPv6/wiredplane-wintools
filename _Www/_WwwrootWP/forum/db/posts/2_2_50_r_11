@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="Just tried it out.
+
+1) Screensaver works great!  :thmbup
+
+2) Wallpaper is now thoroughly messed up.   :tear
+
+My main display is showing just the edge of an image, with the secondary display being blank.
+
+Looking at the IPv6WallPaper.bmp file, it&#39;s now a 4160(!) x 1200 image.  There&#39;s a 1600x1200 image in the center, with 1280x1200 blank borders on the left & right edges.  The widgets (calendar, citations, etc.) are in the correct locations.";
+$rauthor="jrwatts";
+$rdate="1139435592";
+$rip="68.35.144.64";
+
+?>

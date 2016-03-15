@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: MAPI2POP3: UTF-8 HTML";
+$rcontent="Yes that option is active, and I cannot disable it, otherwise I don&#39;t get the From/CC: etc. addresses in a form I can convert (I have customized the code) to something usable by my email client -- especially, addresses I can use to *reply* to messages.
+
+How is this related to the HTML encoding?
+
+";
+$rauthor="sba";
+$rdate="1171023184";
+$rip="194.3.183.35";
+
+?>

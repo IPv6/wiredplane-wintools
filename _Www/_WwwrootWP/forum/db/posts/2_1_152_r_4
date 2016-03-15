@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: New. Hotkeys without running WireKeys?";
+$rcontent="Most interesting... I&#39;m not yet familiar with the language, but I can see approximately what&#39;s going on. So %Selected works in command line? Odd, they told me in an IRC help chatroom that there was no such variable that would work like that.
+
+Sorry to spam you with questions, but, on the topic of variables, I was just wondering if there was a way to specify the %DATE format shown when doing ALT+D (default). It&#39;s currently in DD.MM.YYYY format, and I&#39;d like to do YYYYMMDD. I tried &#36;%Date:YYYYMMDD%&#36; which I saw on some other site, but that obviously didn&#39;t work.
+
+Also, I didn&#39;t see a spot to report a bug, so I guess I&#39;ll note it here: Under &#34;Desktop, Icons, and Windows&#62;Active Window and Processes&#62;Mouse Gestures,&#34; there are two items that don&#39;t appear to behave correctly for me. When I enable &#34;Dock to screen border on window&#39;s border right-click&#34; it does nothing on right click and only moves (docks?) when using left click (both on window-adjust hover, of course). Then, when enabling &#34;Expand to fit screen on window&#39;s border double right-click or single middle-click,&#34; it expands to fit (fullscreen) on single right-click (or middle, of course). I was curious this was just me or everyone; and, if everyone, if they will be updated sometime in the future, preferably to be customizeable so that I could set perhaps 2x@MMB to be &#34;fill&#34; and 2x@RMB to be &#34;dock.&#34; :)
+
+Thanks again for all your help,
+
+Jinx";
+$rauthor="Anonimus";
+$rdate="1135837010";
+$rip="67.162.203.45";
+
+?>

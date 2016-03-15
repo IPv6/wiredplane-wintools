@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: False Positive Trojan?";
+$rcontent="Please, re-download WireKeys installation package. Now it should not trigger McAfee";
+$rauthor="WiredPlane";
+$rdate="1122032506";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,28 @@
+<?php
+
+$psubject="WireNote 2.6.0 Command Line Switches";
+$pcontent="Is the command line switches of WireNote 2.6.0 such as the -io works? I&#39;m trying this software and I can&#39;t make it work by issuing the command line &#34;wirenote -io &#60;path&#62;&#92;wirenote.conf&#34;. That command was executed within the folder where Wirenote was installed and the wirenote.conf file was copied from a previously configured computer. No help file about this matter can be found in your site nor in the Web.
+
+Moreover, I can&#39;t make the Shared Reminders to work. I enabled shared reminder and specified a shared folder in the configuration. I enabled shared reminder option in the New Reminder window but the reminder won&#39;t pop up to other computers despite I configured those computers for shared reminders. Any help will be appreciated.
+
+Hopefully, the documentation for WireNote is more comprehensively written.
+
+Pls. point me to the proper site if this message is not appropriate for this forum. Thanks.
+
+Martin
+";
+$pauthor="mcc";
+$pdate="1103040395";
+$plastdate="1103102721";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="623";
+$pnotify="|mcc";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|mcc|Anonimus|AGu|sam";
+$psticky="";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Non BMP images";
+$rcontent="is there any way to use animated gifs? do you know of a program that does not convert my files to bmp before desktoping them?";
+$rauthor="saintgrimm";
+$rdate="1099693829";
+$rip="12.210.128.6";
+
+?>

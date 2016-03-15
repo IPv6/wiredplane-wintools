@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="very strange! :( can we ask you for help? we can prepare test version which will generate special log with detailed error description. We can not reproduce the bug on our computers :(";
+$rauthor="WiredPlane";
+$rdate="1141655773";
+$rip="195.245.232.22";
+
+?>

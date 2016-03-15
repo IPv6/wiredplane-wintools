@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Open Command Here plugin";
+$rcontent="Hello! JFYI: Plugin with requested functionality is now available :) See our plugins section
+Will work with WK 2.7 (and later) only - you can download it from our sute too";
+$rauthor="WiredPlane";
+$rdate="1096527693";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: New version questions";
+$rcontent="I also have found issue #4 :)... This issue is not happens with standart windows coblinations, that is handled by windows itself (Win+R, for ex). I found, that if you press Win, then C (for example), then release Win, then release C - this issue is appear (in WireKeys). I agree, that that style of pressing key combination is not wery rigth :). But in some cases its happens accidentally :) - you just pressed WIN, C , then trying to release its both, but in some cases you have situations, where you release WIN on some milliseconds early, than C - and got Start menu opened with your program :). By the way, windows handle this situation correctry - he not allow &#34;Win key up&#34; message :) to reach start menu until you release all keys, used in key combination.
+
+Also may i add my remark? :)
+5) How to assign some key combination to the showing system shutdown dialog? in &#34;sys. related&#34; -&#62; &#34;quick shutdown..&#34; i set quick shutdown = Win-U, type = Normal, invert shrtkey = true, show sys. shudtd dialog instead reset = true - and system shutdown dialog is not showing - just wirekeys dialog that reset in progress and PC is reset. :(. May be it is possible to add options for set key combination to showing system shutdown dialog separately? or may be you can tell me how to show this dialog form macro?";
+$rauthor="ValeraVi";
+$rdate="1134418277";
+$rip="195.160.220.149";
+
+?>

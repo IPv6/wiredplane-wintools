@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Plugins version";
+$pcontent="Нельзя ли на странице скачивания плагинов и макросов указывать версию плагина/макроса, хотя бы дату обновления.
+
+Думаю, многим была бы полезна эта информация! :bulb";
+$pauthor="Shaker";
+$pdate="1105039676";
+$plastdate="1105137148";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="Shaker";
+$preplies="2";
+$pviews="1228";
+$pnotify="|Shaker";
+$plock="";
+$pip="";
+$pvisitors="|Shaker|Anonimus|WiredPlane|McStar|stepone";
+$psticky="";
+
+?>

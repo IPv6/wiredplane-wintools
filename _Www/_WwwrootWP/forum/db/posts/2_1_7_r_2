@@ -1,0 +1,159 @@
+<?php
+
+$rsubject="RE: Глюк с раскладкой клавиатуры под Windows XP";
+$rcontent="[quote]Так, так... Сейчас все исправим :)
+ маленький вопрос- что показывает hotkey guide (выскакивает по Scroll lock)[/quote]
+Это что за функция (настройка) в проге ??? У меня по этой клавише ничего не происходит.
+Хм, уже разобрался что это такое :sungl:
+[quote]List of the active hotkeys and wired key combinations:
+1. Scroll Lock:
+ - Действие плагина
+2. Win-Num 3:
+ - Буфер обмена #3 - История
+3. Win-Num 2:
+ - Буфер обмена #2 - История
+4. Win-Num 1:
+ - Буфер обмена #1 - История
+5. Win-V:
+ - Стандартный буфер - история
+6. Alt-Num 3:
+ - Буфер обмена #3 - Вставка
+7. Alt-Num 2:
+ - Буфер обмена #2 - Вставка
+8. Alt-Num 1:
+ - Буфер обмена #1 - Вставка
+9. Ctrl-Num 3:
+ - Буфер обмена #3 - Копирование
+10. Ctrl-Num 2:
+ - Буфер обмена #2 - Копирование
+11. Ctrl-Num 1:
+ - Буфер обмена #1 - Копирование
+12. Alt-Win-M:
+ - Почта
+13. Win-I:
+ - Интернет-браузер
+14. Ctrl-Win-Z:
+ - WinZip
+15. Ctrl-Win-T:
+ - WinRAR
+16. Win-J:
+ - WinHex
+17. Win-W:
+ - Winamp Audio Player
+18. Win-3:
+ - Total Commander (The Best File Manager In The World)
+19. Ctrl-Win-P:
+ - The Bat!
+20. Ctrl-Win-T:
+ - TaskInfo
+21. Ctrl-Win-J:
+ - Tag&Rename
+22. Ctrl-Win-I:
+ - Symantec Norton Utilities
+23. Ctrl-Win-A:
+ - Symantec Norton Antivirus
+24. Ctrl-Win-S:
+ - Sound Forge 7.0 - Sony
+25. Win-V:
+ - SMReg
+26. Win-S:
+ - Services
+27. Ctrl-Win-F12:
+ - Resplendent Registrar - The Extended Registry Editor
+28. Win-F12:
+ - Registry Editor Standard
+29. Ctrl-Win-L:
+ - Promt XT
+30. Win-O:
+ - Opera Internet Browser
+31. Win-N:
+ - Novell NetWare Login
+32. Ctrl-Win-G:
+ - NetOp Remote Control Guest
+33. Win-Y:
+ - My Computer
+34. Ctrl-Win-N:
+ - mIRC - The IRC Network Client
+35. Win-K:
+ - LANguard Network Security Scanner
+36. Ctrl-Win-K:
+ - iOpus Password Recovery XP
+37. Win-I:
+ - Internet Explorer
+38. Win-Q:
+ - ICQ - Instant Messenger
+39. Ctrl-Win-H:
+ - HyperSnap-DX 5
+40. Win-G:
+ - FlashGet
+41. Win-H:
+ - FlashFXP
+42. Win-5:
+ - Disk G:&#92;
+43. Win-4:
+ - Disk F:&#92;
+44. Win-2:
+ - Disk E:&#92;
+45. Win-1:
+ - Disk C:&#92;
+46. Ctrl-Win-U:
+ - Dial-Up Networking
+47. Ctrl-Win-D:
+ - Device Manager
+48. Win-C:
+ - Control Panel
+49. Win-6:
+ - AutoPing_5.bat
+50. Win-7:
+ - AutoPing_4.bat
+51. Win-8:
+ - AutoPing_3.bat
+52. Win-0:
+ - AutoPing_2.bat
+53. Win-9:
+ - AutoPing_1.bat
+54. Win-A:
+ - Alcohol 120%
+55. Win-T:
+ - Aditor - The Text Editor
+56. Win-F9:
+ - Показать диалог настроек
+57. Win-Down:
+ - Свернуть активное окно до заголовка/Развернуть
+58. Ctrl-Win-&#92;:
+ - Выключить звук
+59. Win-Left:
+ - Минимизировать активное окно
+60. Win-Up:
+ - Восстановить позицию и размер активного окна / Максимизировать активное окно
+61. Win-Esc:
+ - Открыть/Закрыть лоток CD
+62. Ctrl-Win--:
+ - Уменьшить громкость
+63. Ctrl-Win-=:
+ - Увеличить громкость
+64. Alt-Win-S:
+ - Запустить хранитель экрана
+65. Alt-Win-H:
+ - Скрыть активное окно полностью (в трей-меню WireKeys)
+66. Ctrl-Alt-Win-R:
+ - Выполнить текст как из командной строки / вычислить его
+67. Alt-Win-F12:
+ - Сделать скриншот и сохранить его в файл
+68. Ctrl-Win-`:
+ - Поменять раскладку выделенного текста
+69. Win-Z:
+ - Поменять у активного окна статус &#34;Поверх всех&#34;
+70. Ctrl-Alt-Win-B:
+ - Переместить вышедшее за края окно внутрь экрана монитора
+71. Ctrl-Alt-Win-H:
+ - Спрятать активное окно в трей
+72. Ctrl-Alt-Win-Num -:
+ - Всплывающее меню (с пунктами, относящимися к активному окну)[/quote]
+Может помогло бы занесение комбинаций клавиш Alt+Shift и Ctrl+Shift в раздел [b]General Keyboard Shortcuts[/b] в настройках в [b]KeyBindings.txt[/b] ???
+Это так, моё мнение; хотя разработчик должен лучше знать как с этим бороться :).";
+$rauthor="Cermit";
+$rdate="1082579660";
+$rip="unknown";
+
+?>

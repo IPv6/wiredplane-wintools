@@ -1,0 +1,35 @@
+<?php
+
+$userid="58";
+$password="4b95251279531561a189aac54993b4eb";
+$username="Alex";
+$useralias="Alex";
+$userrealname="Alex McK. Stephen";
+$useremail="amckstephen@hotmail.com";
+$useremhide="";
+$userip="82.40.12.55";
+$usersig="Bye BYe the NOO";
+$userslogan="";
+$useravatar="";
+$usermsn="";
+$userposts="0";
+$usericq="";
+$userqq="";
+$userwebavatar="";
+$userrank="1";
+$useryahoo="";
+$useraim="";
+$userlocation="Uddingston Scotland";
+$userjoined="1102611208";
+$userhomepage="http://";
+$useradmin="0";
+$usermod="0";
+$userban="0";
+$userlastvisit="1102611208";
+$userlastpost="1102611208";
+$userprevvisit="1102611208";
+$useranimsmilies="";
+$lastaliaschange="1102611202";
+$userlang="en";
+
+?>

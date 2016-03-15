@@ -1,0 +1,44 @@
+<?php
+
+$rsubject="Old messages";
+$rcontent="WiredPlane Labs (http://www.wiredplane.com)  [22nd February, 2004 18:04:35] 
+2Zup:
+File path: in fact, if you press &#34;Additional clipboard - Copy&#34; hotkey upon any file in any browser, you will copy it`s path into corresponding additional clip
+Send key with hotkey: right now this can be done with special macro, it`s SendKeys command. You can assign MMKey to call the macro and macro will send &#34;Ctrl-Z&#34; with SendKeys command (see Help-Macro page). We are planning to write macro recorder in the near future to make such task easier to perform.  
+ 
+
+Zup  [21st February, 2004 20:35:42] 
+I&#39;d love if:
+* if I select a file or folder in Explorer and press a combination of keys I could copy path and/or file name to clipboard
+* I can make my MMkeys act like a combination. i.e. press &#34;volume up&#34; MMkey acts like press &#34;CTRL-Z&#34;
+ 
+ 
+
+Zup  [19th February, 2004 17:37:52] 
+Very good work! Version 2.1 solved every problem! Thanks a lot!  
+ 
+
+WiredPlane Labs (http://www.wiredplane.com)  [14th February, 2004 11:28:42] 
+2Zup: can you send us error text with disabled plugin? We checked this on WinME - everything ok (without plugin enabled). and about you MMKeyboard - whch text appears in the hotkeys when you trying to set additional keys? and try to disable keyboard`s software - this can intercept keyboard input for WireKeys
+
+2rij73: &#34;free memory&#34; trade RAM memory for virtual memory. So if the running application is not active it can be completely unloaded into swap file. but if all applications uses memory a lot this function is not able to free anything. We are planning to add registry optiomization and disk-cash flushing to this option in the future  
+ 
+
+rij73  [12th February, 2004 21:36:51] 
+Could you explain the Memory Optimize feature a little? I have noticed that sometimes when I select it, no memory gets free, and sometimes a lot of memory gets free. Is this supposed to be this way?  
+ 
+
+Zup  [09th February, 2004 18:36:42] 
+Downloaded 2.0.3... disabled &#34;Wired key combinations&#34; plugin... sigh... still crashes under Win98... :&#39;-(  
+ 
+
+WiredPlane Lab (http://www.wiredplane.com)  [06th February, 2004 01:45:03] 
+2Roger: we can add such feature but to add support for depress action we need your help (cos we don`t have mouse with such action, wheel click is equivalent to middle button click). Please, write an email to us 
+2Zup: we are working on it. as a workaround we can advice to disable &#34;Wired key combinations&#34; under Windows 98, until we found a problem on that problem  
+ 
+";
+$rauthor="WiredPlane";
+$rdate="1081769420";
+$rip="195.245.232.12";
+
+?>

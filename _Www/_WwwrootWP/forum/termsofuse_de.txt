@@ -1,0 +1,26 @@
+Die Administratoren und Moderatoren dieses Bulletin Board Systems (BBS) bemühen sich zwar, jede Nachricht, die nicht den Regeln entspricht,
+so schnell wie möglich zu entfernen,
+es ist aber unmöglich, jede Nachricht auf Regelwidrigkeit zu überprüfen. Daher ist es erforderlich, dass Sie anerkennen, dass weder Administrator
+noch Moderatoren noch der Webmaster für die Inhalte der Nachrichten verantwortlich gemacht werden können. Verantwortlich sind einzig und allein die
+Autoren der jeweiligen Texte.<br><br>
+Regelwidrig sind Nachrichten, in denen andere beschimpft, beschuldigt oder bedroht werden, in denen obszöne oder vulgäre Sprache verwendet wird,
+in denen sexuelle Andeutungen gemacht werden oder in denen geltendes Recht verletzt wird. Sollten Sie solche Nachrichten verschicken, kann dies
+den sofortigen Ausschluss zur Folge haben. Die IP-Adresse wird bei jeder Nachricht gespeichert, um die Durchsetzung dieser Regeln zu erleichtern.
+Sie stimmen zu, dass der Webmaster, Administrator und die Moderatoren das Recht haben, jede Nachricht zu entfernen, zu bearbeiten oder zu sperren,
+wenn sie es für nötig halten.<BR />
+Als Mitglied stimmen Sie zu, dass die oben gemachten Angaben gespeichert werden und innerhalb des Forums anderen
+Mitgliedern zugänglich gemacht werden, soweit nicht die Möglichkeit besteht und von Ihnen gewählt wurde, einzelne Informationen zu verstecken, die
+dann aber dem Administrator und Webmaster zugänglich sind. Sie akzeptieren die Tatsache, dass Webmaster, Administrator oder Moderator nicht dafür
+verantwortlich gemacht werden können, wenn Daten durch einen illegalen Einbruch auf das Serversystem (Hacking) an Dritte gelangen.
+Es wird natürlich dafür Sorge getragen, soweit dies möglich ist, einen solchen Einbruch zu verhindern.<br><br>
+
+Dieses Bulletin Board System (BBS) benutzt Cookies, um Informationen auf Ihrem Computer zu speichern. Diese Cookies enthalten keine von den Informationen, die
+Sie oben angegeben haben, außer ihrem Benutzernamen, um Ihre Indentität zu überprüfen. Es wird ausschließlich an den Browser zurückgeschickt und
+bleibt nur solange erhalten, wie Sie im BBS eingeloggt sind. Sollten Sie den Computer ausschalten, ohne sich aus dem BBS auszuloggen, bleibt das
+Cookie erhalten. Auf diese Weise haben Sie dann, wenn sich Ihre IP-Adresse nicht ändert, beim nächsten Einschalten wieder Zugriff auf das Forum,
+ohne einloggen zu müssen. <BR />
+Die Email-Adresse wird nur benutzt, um Ihre Identität zu
+überprüfen, und wird ansonsten nur Mitgliedern dieses Forums zugänglich gemacht, sofern Sie dies wünschen. Nichtmitglieder können die E-Mail-Adressen
+nicht einsehen, und sogenannte robots, die das Web nach verwertbaren email-Adressen durchforsten, um sie dann sogenannten Spammern (verbotenen
+Werbemailern) zugänglich zu machen, haben keine Chance, an Ihre E-Mail-Adresse zu kommen.<br><br>
+Durch Anklicken der Box unten und durch das Betätigen des "Übermitteln"-Knopfes akzeptieren Sie diese Bedingungen für die Benutzung des Forums.

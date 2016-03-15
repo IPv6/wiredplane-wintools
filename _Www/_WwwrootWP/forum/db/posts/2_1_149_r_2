@@ -1,0 +1,15 @@
+<?php
+
+$rsubject="RE: One more bug";
+$rcontent="Tested 3.3.3
+All windows are still opened in background! (Even &#34;About&#34; window in &#34;Properties&#34;)
+It&#39;s very inconvenient. Could You please fix it?
+
+Just to be sure, I&#39;ve tested the Lite version of WireKeys. It works normally.
+
+";
+$rauthor="stepone";
+$rdate="1135266902";
+$rip="62.225.37.69";
+
+?>

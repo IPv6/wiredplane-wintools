@@ -1,0 +1,19 @@
+<?php
+
+$psubject="New: Need link back to main site";
+$pcontent="Forum pages need a link back to the main site.";
+$pauthor="BillR";
+$pdate="1082633972";
+$plastdate="1082637728";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="1201";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|Leshiy";
+$psticky="";
+
+?>

@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent="Hello!
+Sorry :( It was the first try.. We are preparing &#34;second version&#34; of WC with both screensaver and desktop wallpaer fixes (i hope so), it will be ready today. can you test it again when it will be ready?
+
+About minilendar ptions - now screensaver can be powered with &#34;Perset&#34; - just create new preset, place anything you want where you whant it to be (except active desktop widgets of course) and assign preset to screensaver - it will be used for screensaver image generation.";
+$rauthor="WiredPlane";
+$rdate="1138607067";
+$rip="195.245.232.12";
+
+?>

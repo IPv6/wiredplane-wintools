@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: Feature requests for WireChanger";
+$rcontent="We are started to add 1) and 2)
+3) is added to ToDo list for future releases, because it is rather complex thing :)
+
+Feel free to write here any new suggestions and/or ideas. And, if you find something that looks like a bug, feel free to contact us again to.
+
+Good luck! :)";
+$rauthor="WiredPlane";
+$rdate="1139562843";
+$rip="195.245.232.22";
+
+?>

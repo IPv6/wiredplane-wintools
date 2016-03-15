@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Reminders for every xx day day of the month";
+$rcontent="ok, we wiil extend reccurence functionality in future versions!";
+$rauthor="WiredPlane";
+$rdate="1174033103";
+$rip="195.210.162.152";
+
+?>

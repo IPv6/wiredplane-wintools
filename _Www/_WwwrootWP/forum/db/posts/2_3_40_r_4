@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: Idea on some customization";
+$rcontent="Thanks; will wait for the Actualization date sorting: that would be really useful.
+
+I found the problem with &#34;New reminder&#34; issue: it was my fault. I had the default tray action set to &#34;New reminder&#34;, and by default Trayicon is set to single-click. I guess I am too used to double-click trayicons; I have sorted it out by changing the option. False alarm :)
+
+Another idea; I think you may already have all the components in place.
+
+An yearly reminder would be rather useful; like storing birthdays, anniversaries and sort... perhaps when saving, the user can choose a reminder frequency (remind 15 days; then 7 days.. and so on). I am now using the reminder by creating a new folder &#34;Important dates&#34; and storing the dates in there. One problem is, I have to make sure the date is in the future (in this case, year is not relevant); also I would have to rig the date (put it ahead by couple of days to remind me). Any ideas?
+";
+$rauthor="Rana";
+$rdate="1121989702";
+$rip="86.1.97.19";
+
+?>

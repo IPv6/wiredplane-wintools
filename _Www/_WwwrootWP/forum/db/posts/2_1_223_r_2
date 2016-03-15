@@ -1,0 +1,20 @@
+<?php
+
+$rsubject="RE: Apple Mighty Mouse support";
+$rcontent="here it is:
+[i]left click[/i]-[b]00000001[/b]
+[i]right click[/i]-[b]00000002[/b]
+[i]middle click[/i]-[b]00000004[/b]
+[i]bottom click[/i]-0[b]00001FC[/b]
+
+[i]scroll down[/i]-[b]000001FE[/b]
+[i]scroll up[/i]-[b]000001FF[/b]
+[i]scroll left[/i]-[b]doesn&#39;t detected[/b]
+[i]scroll right[/i]-[b]doesn&#39;t detected[/b]
+
+connected via usb";
+$rauthor="triplex";
+$rdate="1172247973";
+$rip="83.237.11.154";
+
+?>

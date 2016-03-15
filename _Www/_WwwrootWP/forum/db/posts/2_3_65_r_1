@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE:  I mean I can not add more than one receiver";
+$rcontent="Oh, i see. You can add multiple recipient manually, by typing their names, delimit names with &#34;;&#34;
+Example: COMP1; 127.0.0.1/xpc; 234.22.33.54/nb";
+$rauthor="WiredPlane";
+$rdate="1150350204";
+$rip="195.245.232.22";
+
+?>

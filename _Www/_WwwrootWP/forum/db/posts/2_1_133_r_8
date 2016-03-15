@@ -1,0 +1,33 @@
+<?php
+
+$rsubject="RE: hotkey for folder context menu item (&#34;Play In Winamp&#34;)";
+$rcontent="I think I got it after a bit of tinkering. Wasn&#39;t quite sure of the parts I needed, but I figured it out. Just for anyone looking up this code, though, I&#39;ll post exactly what I got to work:
+
+[Code]
+// Title: Add2WinAmp
+// Description: Adds selected file int WinAmp play list
+// By: WiredPlane (www.WiredPlane.com/Forums)
+
+var WshShell = new ActiveXObject(&#39;WScript.Shell&#39;);
+
+function wkMain(selectedText,macroParameter)
+{
+var sFilesFolders=selectedText.split(&#39;&#92;n&#39;);
+if(sFilesFolders.length&#62;0){
+// For each folder in source...
+for(i=0;i&#60;sFilesFolders.length;i++){
+startLine=&#39;&#34;C:&#92;&#92;Program Files&#92;&#92;Winamp&#92;&#92;winamp.exe&#34; /ADD &#34;&#39;+sFilesFolders[i]+&#39;&#34;&#39;;
+WshShell.Run(startLine, 1, false);
+}
+}
+}
+[/Code]
+
+Now to spend sometime trying to decipher this to see if I can figure out on my own how to &#34;play&#34; one file while enqueuing the rest of the selected. You&#39;re of course welcome to help me, but I&#39;m going to at least try to figure it out on my own before I come back to check here / pester you again. :) Thank you again for the help.
+
+Jinx";
+$rauthor="Anonimus";
+$rdate="1135834704";
+$rip="67.162.203.45";
+
+?>

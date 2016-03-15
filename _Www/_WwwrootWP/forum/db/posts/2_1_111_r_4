@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Is there any language support for the clipboard? I cant copy greek characters...";
+$rcontent="It seems that this is a problem of host application. it is not using Unicode when placing characters into clipboard. the workaround is to set right keyboard layout before copying characters %(";
+$rauthor="WiredPlane";
+$rdate="1123148020";
+$rip="195.245.232.12";
+
+?>

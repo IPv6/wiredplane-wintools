@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: [PLUGIN] Spell checker by Karcade";
+$rcontent="To use it on Russian language, you should install russian dictionary first. By default it is English.
+See dictionaries download link inside plugin properties";
+$rauthor="WiredPlane";
+$rdate="1118159297";
+$rip="213.87.11.60";
+
+?>

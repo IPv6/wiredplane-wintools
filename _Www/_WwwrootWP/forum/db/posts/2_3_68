@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Say thanks";
+$pcontent="Thanks for adding the multi-receiver function for reminders in the new version. ";
+$pauthor="Anonymous";
+$pdate="1151916645";
+$plastdate="1151997100";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="730";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous|Milan";
+$psticky="";
+
+?>

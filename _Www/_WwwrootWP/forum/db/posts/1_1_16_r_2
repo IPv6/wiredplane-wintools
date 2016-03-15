@@ -1,0 +1,27 @@
+<?php
+
+$rsubject="RE: Help for MAPI2POP3";
+$rcontent="Indeed, the new version with source doesn&#39;t have this problem.
+
+I&#39;m progressing in my &#34;eval&#34; where I actually have made a # of changes to the code to be compatible with 1) our infrastructure 2) my email client (Pegasus Mail)
+
+Seems I *have* to keep the &#34;OL2002 backwards compatibility&#34; ON otherwise the From: contains only &#34;Lastname, Firstname&#34; to which no standard POP3 client will ever be able to respond (does *this* work anywhere? how?)
+
+In CMapiStuffClient::mapi_retrMessage() I get email addresses (in the PR_SENDER_EMAIL_ADDRESS property) for people internal to the company that look like
+
+/O=OCEMAIL/OU=AG-OCT/CN=RECIPIENTS/CN=acronym
+
+(with acronym=&#39;sba&#39; in my case)
+
+Instead of the &#34;official, external&#34; address which is something like:
+
+first.last@oce.com
+
+(stephane.barizien@oce.com in my case)
+
+How do I get the *real* address in CMapiStuffClient::mapi_retrMessage?";
+$rauthor="sba";
+$rdate="1160137090";
+$rip="194.3.183.35";
+
+?>

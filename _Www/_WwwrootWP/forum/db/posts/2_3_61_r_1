@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: problem with reminders";
+$rcontent="Strange :( 
+First of all you should notice new icon in the tray (either white note or two yellow airplanes). rickt-click on it and choose Organizer to open main window. Check other items (new reminder is one of them). Notice hotkeys that can be used for this functions (they are typed at the right part of the menu item).
+About anonimous: thanks, will be fixed ^)";
+$rauthor="WiredPlane";
+$rdate="1145362682";
+$rip="195.245.232.22";
+
+?>

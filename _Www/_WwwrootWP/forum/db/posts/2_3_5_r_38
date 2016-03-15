@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: offline";
+$rcontent="Да, конечно
+
+[b] Приложение[/b]: [att]12.rar[/att]";
+$rauthor="GRISHIN";
+$rdate="1091439842";
+$rip="195.222.66.24";
+
+?>

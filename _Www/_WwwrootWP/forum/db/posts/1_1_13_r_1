@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: How do I disable message center temporarily?";
+$rcontent="Yes, you can disable message center in 3 ways:
+- remove MC icon from tray (preferences-common-icons in tray)
+- remove MC settings from preferences (preferences-common-preferences level)
+- disable all network protocols (clear checkbox in the protocols section of preferences and restart WN)";
+$rauthor="WiredPlane";
+$rdate="1123147955";
+$rip="195.245.232.12";
+
+?>

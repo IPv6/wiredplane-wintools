@@ -1,0 +1,26 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="PTITLE_RU" value="×àñû íà îáîÿõ - Flash-÷àñû ñ èçìåíÿåìûì ôîíîì" -->
+<!--#set var="PTITLE_EN" value="Desktop clock - Flash clocks with changeable backgrounds" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Active Clocks</h2><hr>
+You can decorate your desktop with beautiful live clocks - most of them are prototypes of real,
+world-famous clocks. In order to use clocks, Active Desktop must be activated and the Macromedia
+Flash plug-in must be available. In addition to the clocks included in WireChanger, clocks can be
+taken from <a href="http://www.colclocks.com">http://www.colclocks.com</a> or from <a href="http://www.adamdorman.com/flash_clocks1.php">http://www.adamdorman.com</a>. 
+To install them, download the clock`s zip file, install them and then use WireChanger`s "Import flash clock"
+feature, pointing it into clock`s installation directory. Even more clocks can be found on <a href="http://www.wiredplane.com/wirechanger/clocks_main.shtml">our clocks collections page</a>.
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="FlashPlayer";
+$pcontent="После сноса системы WireChanger при каждой смены обоев пишет, что необъодим скачать FlashPlayer с сайта Macromedia.  При этом в системе плеер стоит и часы отображаются.";
+$pauthor="McStar";
+$pdate="1142969597";
+$plastdate="1143439233";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="1297";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar|jrwatts|helmerichs";
+$psticky="";
+
+?>

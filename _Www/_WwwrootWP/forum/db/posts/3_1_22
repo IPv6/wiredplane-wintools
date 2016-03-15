@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Windows and menus enabler - problem with some progs";
+$pcontent="I&#39;ve got a problem with WinDVD - impossible to control DVD menu buttons in view window.
+Is it possible to add an option to exclude particular windows?";
+$pauthor="Shaker";
+$pdate="1100935832";
+$plastdate="1100940611";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="Shaker";
+$preplies="2";
+$pviews="1143";
+$pnotify="|Shaker";
+$plock="";
+$pip="";
+$pvisitors="|Shaker|WiredPlane|BillR|Anonimus|AzazelSP|Anonymous";
+$psticky="";
+
+?>

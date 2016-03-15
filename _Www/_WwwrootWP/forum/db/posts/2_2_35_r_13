@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WC3.1 released. Added customizable reminders for notes and calendar cells.";
+$rauthor="WiredPlane";
+$rdate="1123570505";
+$rip="195.245.232.12";
+
+?>

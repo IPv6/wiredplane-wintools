@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: bug wit Wirekeys 2.9.9 last build....";
+$rcontent="One quetsion: did you lock your compuetr using Win-L combination before this bug arrive? Or something similar - for example switching desktop using other programs.
+";
+$rauthor="WiredPlane";
+$rdate="1125840271";
+$rip="195.209.143.44";
+
+?>

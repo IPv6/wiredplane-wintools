@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Эта штука виснет";
+$pcontent="Попробовал mapi2pop3. Решил с помощью The Bat скачать по pop3 свою почту с exchange сервера через mapi2pop3. Писем у меня на сервере что-то около 7 тысяч штук. Так вот после нажатия &#34;доставить почту&#34; в The Bat через секунд 5 mapi2pop3 виснет и выскакивает сообщение об ошибке &#34;MApi2Pop3_Proxy Module has encountered a problem and needs to close.  We are sorry for the inconvenience&#34;. При этом в Task Manager -&#62; Processes видно, что процесс mapi2pop3 быстро начинает увеличивать значение в поле mem usage и где-то на 20,000 К вешается.
+   ";
+$pauthor="Anonimus";
+$pdate="1146677002";
+$plastdate="1146727908";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="689";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous|Loong";
+$psticky="";
+
+?>

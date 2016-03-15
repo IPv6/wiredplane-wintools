@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Антивирус ругается на релиз от 25.07.07";
+$pcontent="В послоднее время NOD стал ругаться на WK, считая его троянцем. В последний раз ругнулся при установке релиза от 25 июля.";
+$pauthor="McStar";
+$pdate="1185384470";
+$plastdate="1186123784";
+$pimage="1.gif";
+$plastreply="12";
+$plastauthor="WiredPlane";
+$preplies="12";
+$pviews="1168";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|garry63|McStar|Anonimus|Anonymous";
+$psticky="";
+
+?>

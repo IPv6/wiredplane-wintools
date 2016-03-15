@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: a suggestion";
+$rcontent="Program is great... but i think the same...
+
+It has integratet options if you want to hide those extra funtions that you don&#39;t need, this is like i did
+
+Like I would like mostly to use only notes.
+Only thing in notes is that i can&#39;t mark them as done like with to do-s ...and then again ... i can&#39;t add attachment inside &#34;to do&#34; and send it over lan easy like i can with notes
+
+";
+$rauthor="Anonymous";
+$rdate="1200877594";
+$rip="78.3.76.57";
+
+?>

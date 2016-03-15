@@ -1,0 +1,22 @@
+<?php
+
+$rsubject="RE: Force to use only for some applications?";
+$rcontent="Yes, it is possible, but in strange way (not really strange, but...).
+
+You can create macro that will analize active application and do one of the following things
+if(&#34;%E_ACTIVEAPP&#34;==&#34;notepad.exe&#34;){
+SendKeys(...);
+}else{
+WireKeys.Paste(selectedText);
+}
+and assign Ctrl-C on it. it will work as you want but with some exceptions - paste can paste text only currently :( we can add another command for pasting true clipboard content to the next version, if you what this.
+Look at the example of E_ACTIVEAPP in help (macro section)
+or i can create such macro for you :)
+
+but may be there can be easier solution, we will search for it.
+";
+$rauthor="WiredPlane";
+$rdate="1143558427";
+$rip="195.245.232.22";
+
+?>

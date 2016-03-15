@@ -1,0 +1,18 @@
+body			{font-family: Arial; font-size: 12px}
+td				{font-size: 12px}
+.cellbackgreen	{background-color: #adff2f}
+.topicback		{background-color: #ddddff}
+.Psmalla		{font-size: 10px;color: black;font-family: Arial;text-decoration: none}
+.Pxlarge		{font-size: 20px;color: black;font-family: Times}
+.mtit			{background-image: url(/images/menu_bg.gif); font-family: Verdana,Arial; font-size: 12px; text-decoration: none;}
+.mtit:hover		{color:#111111;}
+.mtit2			{font-family: Verdana,Arial; font-size: 12px; text-decoration: none;}
+.mtit2:hover	{color:#444444;}
+.mtit3			{font-family: Verdana,Arial; font-size: 12px; text-decoration: none;}
+.mtit3:hover	{color:#444444;}
+.tabtit			{border-width: 2 2 2 2; border-color: #CCCCCC; border-style: outset; color: #0011AE; background-color: #dddddd}
+.grtb			{border-style: solid; border-width: 1; border-color: #DDDDDD;}
+.grtb td 		{border-style: solid; border-width: 1; border-color: #DDDDDD;}
+h1				{font-size: 36px;color: black;font-family: Tahoma,Times}
+h2				{font-size: 20px;color: black;font-family: Times}
+#ad_code { background:#FFFFFF url(/images/336blue20.png) center center no-repeat; text-align:center; padding:9px 15px 18px 7px; width:363px; }

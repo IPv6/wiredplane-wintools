@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: WireNotes, Printing reminder and to do lists";
+$rcontent="maybe a csv format or txt format (export and import)
+
+i this way I can export a list from a computer, and import the same on a different computer, or maybe use a different interface (I.E.: a web one) to create the list and import it into wirenote!!";
+$rauthor="Anonimus";
+$rdate="1112288788";
+$rip="65.184.168.246";
+
+?>

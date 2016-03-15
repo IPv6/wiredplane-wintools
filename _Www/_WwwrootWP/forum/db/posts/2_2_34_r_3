@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Dual Monitor support for WireChanger";
+$rcontent="Thanks for your message!
+For this particualr situation it seems everything can be fixed by the following steps: open WC preferences-&#62;System options-&#62;save wallpaper image into this file (set the path+file of your choice), than set the same path+image in the nVidia settings too. WC will not suggest to add this picture again, nVidia will resize it as needed for the second monitor.
+
+Read the topic about screensaver for futher details.";
+$rauthor="WiredPlane";
+$rdate="1138012803";
+$rip="195.245.232.12";
+
+?>

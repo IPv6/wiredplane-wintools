@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: maximizing IE windows";
+$rcontent="[quote]Just noticed it also happens with windows explorer. Can&#39;t believe I didn&#39;t notice before...[/quote]
+ I just find why it`s happen :) As always, this is undocumented behaviour of windows: the problem is in explorer. You have to remove Ctrl key from hotkey combination (you can assign Win-Up, for example, just like in WinKey), because holding this key during maximize sends explorer to fullscreen! and this effect can be reproduced without WireKeys or hotkeys at all:
+- Open explorer
+- Press alt-space to open Explorer`s system menu
+- Press and hold &#34;CTRL&#34; key
+- Choose &#34;Maximize&#34; from this system menu
+- Oops! Explorer maximizes itself into full screen!
+
+When using hotkey with CTRL, explorer handle this key regardless of other programs and there is no way to tell him not to &#34;listen&#34; for CTRL :( :bulb :bulb";
+$rauthor="WiredPlane";
+$rdate="1082090404";
+$rip="195.209.143.44";
+
+?>

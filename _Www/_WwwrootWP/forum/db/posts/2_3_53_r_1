@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Глупый вопрос...";
+$rcontent="такое ощущение что у вас нет прав записи на диск :(
+можете посмотреть каталог
+&#34;C:&#92;Documents and Settings&#92;&#60;login&#62;&#92;Application Data&#92;WireNote&#92;..&#34; 
+
+что там лежит?";
+$rauthor="WiredPlane";
+$rdate="1142338850";
+$rip="195.245.232.22";
+
+?>

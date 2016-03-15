@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Widescreen support for Wirechanger&#39;s screensaver";
+$rcontent=" :dance Yay!  It works!  :bounce
+
+I even tried some bizarre configurations, such as with the second monitor with one corner touching the primary, and above and offset somewhat to the side.  Every configuration appears to work correctly now.  (Of course, I have no idea what would happen with more than 2 monitors, but I have no way of testing that myself, in any case.)
+
+Great!";
+$rauthor="jrwatts";
+$rdate="1139559086";
+$rip="68.35.144.64";
+
+?>

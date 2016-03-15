@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: А как игра?";
+$rcontent="В общем конечно да :) Примерно так будет в нашей второй и третьей игре :)
+
+Кстати, решили тут поучавствовать в конкурсе игр на Gamedev.ru :)
+http://www.gamedev.ru/community/experimentalgameplay/
+
+Надеемся на победу! :)";
+$rauthor="WiredPlane";
+$rdate="1198891871";
+$rip="91.149.82.240";
+
+?>

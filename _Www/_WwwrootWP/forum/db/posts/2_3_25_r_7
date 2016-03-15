@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE:  [ANN] WireNote updates";
+$rcontent="WM3.5 Released!
+New features are:
+- Rss support. Now you can add rss/atom feed as &#34;Person&#34; in address book. This person will send you news as messages. 
+- Sms messaging. Now you can send messages to mobile phones. Only Russian providers are supported for now, you can add your provider manually
+- Bug fixes";
+$rauthor="WiredPlane";
+$rdate="1150350405";
+$rip="195.245.232.22";
+
+?>

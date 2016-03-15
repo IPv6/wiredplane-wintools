@@ -1,0 +1,19 @@
+<?php
+
+$psubject="ѕо поводу индикации ресурсов на кнопке start";
+$pcontent="“еперь, чтобы это произвести надо плагин дополнительно качать что ли?";
+$pauthor="McStar";
+$pdate="1099996561";
+$plastdate="1099997150";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="259";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar";
+$psticky="";
+
+?>

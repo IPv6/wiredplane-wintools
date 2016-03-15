@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Кнопки OK и Применить не равнозначны";
+$pcontent="Создал новую категорию для макросов. Нажал &#34;Применить&#34;.
+Создал новый макрос, а в списке доступных категорий моя только что созданная отсутствует.
+Нажал Ok. Открываю заново настройки, категория есть.";
+$pauthor="McStar";
+$pdate="1126865451";
+$plastdate="1129877863";
+$pimage="1.gif";
+$plastreply="12";
+$plastauthor="McStar";
+$preplies="12";
+$pviews="1154";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|Anonimus";
+$psticky="";
+
+?>

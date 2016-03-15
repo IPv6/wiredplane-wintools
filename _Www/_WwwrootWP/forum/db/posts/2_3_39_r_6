@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: I can not use some national characters in wireNote.";
+$rcontent="Hi
+
+For me there is no problem to add option to disable all keyboard shortcuts in WN 
+
+br
+Darek";
+$rauthor="orion";
+$rdate="1127929289";
+$rip="195.85.249.110";
+
+?>

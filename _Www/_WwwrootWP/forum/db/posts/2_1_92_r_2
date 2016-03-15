@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: small request";
+$rcontent="I&#39;m having a small problem with this, maybe you can help..
+
+I can hotkey the DOS version of the virusscanner, but not the graphical interface that comes up when right-clicking a file and selecting the shell extension &#39;Scan with AVG Free&#39;. Is it possible to call the shellext via the application path in the macro?
+
+The shellext is:
+Filename          : C:&#92;Program Files&#92;Grisoft&#92;AVG Free&#92;avgse.dll
+CLSID             : {9F97547E-4609-42C5-AE0C-81C61FFAEBC3}
+
+TIA";
+$rauthor="jaco";
+$rdate="1111356840";
+$rip="66.114.67.40";
+
+?>

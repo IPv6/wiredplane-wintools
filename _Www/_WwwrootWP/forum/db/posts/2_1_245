@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Disable Pause Key&#39;s Default Function";
+$pcontent="I am trying to disable not just the sound, but also the default function of the &#39;pause&#39; key. It is currently listed as &#34;30. Pause: Convert last word to another layout&#34;. I do not know what this is and have no use for it, and the sound it makes each time it errors is annoying. I have turned error sounds off for now but would like to be able to hear other error sounds. I have searched all over the options, but cannot find where to disable the &#39;pause&#39; key&#39;s default function. Any help is appreciated. Thank you.";
+$pauthor="Anonymous";
+$pdate="1181618435";
+$plastdate="1181809803";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="289";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous";
+$psticky="";
+
+?>

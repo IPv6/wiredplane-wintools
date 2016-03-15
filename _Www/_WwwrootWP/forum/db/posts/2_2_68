@@ -1,0 +1,24 @@
+<?php
+
+$psubject="Calendar disappears";
+$pcontent="My calendar keeps disappearing.  I have to go back into my settings and redo them to get it back.  Since the calendar is the only reason I wanted this program in the first place, I really want it to come up every time I start my computer.  Is there any way to fix this?
+
+Thanks
+Peg
+
+PS  Today after I went through the settings again, all I got was the note I asked how to delete in my last question.  I can&#39;t seem to get my calendar back.  :sad1 ";
+$pauthor="PegM4";
+$pdate="1180441476";
+$plastdate="1180595436";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="322";
+$pnotify="|PegM4";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|pharaon";
+$psticky="";
+
+?>

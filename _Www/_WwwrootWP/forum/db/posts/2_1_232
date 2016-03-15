@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Удобное включение/выключение гор.клавиш";
+$pcontent="Хочу на Scroll Lock(т.к им никто никогда не пользуется) забить Включить-Выключить горячие клавиши. Чтоб еще лампочка загоралась когда они включены.
+Можно какнить сделать?";
+$pauthor="agrl2";
+$pdate="1174025711";
+$plastdate="1174131578";
+$pimage="1.gif";
+$plastreply="7";
+$plastauthor="WiredPlane";
+$preplies="7";
+$pviews="613";
+$pnotify="|agrl2";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|agrl2|garry63|Anonymous|McStar|AlexZ|DSR|zero22";
+$psticky="";
+
+?>

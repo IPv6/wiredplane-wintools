@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Clocks";
+$pcontent="i cant change the time on my clocks from military to 12 hr does anyone know how i go about doin this!";
+$pauthor="Anonymous";
+$pdate="1180299460";
+$plastdate="1180350425";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="453";
+$pnotify="|Anonymous";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|McStar";
+$psticky="";
+
+?>

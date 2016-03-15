@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN] GPIO remote control";
+$pcontent="Please, leave your comments here (in English if this is possible).";
+$pauthor="WiredPlane";
+$pdate="1103819898";
+$plastdate="1132281152";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="2150";
+$pnotify="|Anonimus";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Gorbush|garry63";
+$psticky="";
+
+?>

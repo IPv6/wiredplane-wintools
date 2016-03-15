@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: WinRar and &#34;Startup directory&#34;";
+$rcontent="You mean &#34;Directory part of the current path&#34;?
+There is no such thing as for now. But we will add it! Soon! :)";
+$rauthor="WiredPlane";
+$rdate="1165226117";
+$rip="195.210.162.152";
+
+?>

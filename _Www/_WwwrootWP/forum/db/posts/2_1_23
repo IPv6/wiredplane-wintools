@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Girder";
+$pcontent="Может имеет смысл глянуть на Girder и сделать поддержку его датчика? :) www.girder.nl";
+$pauthor="cleg";
+$pdate="1088776128";
+$plastdate="1090320605";
+$pimage="1.gif";
+$plastreply="9";
+$plastauthor="cleg";
+$preplies="9";
+$pviews="827";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|cleg|WiredPlane|Leshiy|BillR|TDz|hulland";
+$psticky="";
+
+?>

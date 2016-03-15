@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Feature request";
+$rcontent="Thanks! Nice additions!!!
+We will implement them in future versions!";
+$rauthor="WiredPlane";
+$rdate="1170140621";
+$rip="195.210.162.152";
+
+?>

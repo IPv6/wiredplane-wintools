@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Calendar";
+$rcontent="Currently no. We are planning to add google calendar synchrinization though";
+$rauthor="WiredPlane";
+$rdate="1188895361";
+$rip="195.210.162.152";
+
+?>

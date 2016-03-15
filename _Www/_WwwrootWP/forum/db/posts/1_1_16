@@ -1,0 +1,50 @@
+<?php
+
+$psubject="Help for MAPI2POP3";
+$pcontent="Hi folks,
+
+I&#39;m currently evaluating MAPI2POP3 (will soon face the &#34;POP3 will be turned off at Exchange server&#34; situation), and face the following issues:
+
+- I had to enable the &#34;backwards compatibility for OL2002&#34; option because without it I was not able to reply to messages sent from OL2003. Since then, MAPI2POP3 dies everytime I reply to such a message, with
+
+---------------------------
+Alert
+---------------------------
+MIME++: Evaluation license key not valid at this time.
+For licensing questions, please email to sales@hunnysoft.com.
+
+---------------------------
+OK   
+---------------------------
+
+- without the backwards compatibility setting I had unreliable sending, with failures such as:
+[*] Connection established to 127.0.0.1
+&#62;&#62; 0059 220 SMTP2MAPI ESMTP proxy server by WiredPlane Labs ready
+&#60;&#60; 0024 EHLO [134.188.137.208]
+&#62;&#62; 0008 250 OK
+&#60;&#60; 0039 MAIL FROM:&#60;stephane.barizien@oce.com&#62;
+&#62;&#62; 0008 250 OK
+&#60;&#60; 0012 RCPT TO:&#60;&#62;
+&#62;&#62; 0008 250 OK
+&#60;&#60; 0006 DATA
+&#62;&#62; 0023 354 Receiving message
+&#62;&#62; 0073 554 Failed to send message using MAPI (0x80040607). Check MAPI settings
+
+- the website mentions &#34;Open Source,&#34; where can I get the source (so I can investigate problems / fix them / contribute to the community)
+
+Please HELP!!!";
+$pauthor="sba";
+$pdate="1158675503";
+$plastdate="1160463866";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="1811";
+$pnotify="|sba";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|sba|andriy|Anonymous|burkhardus";
+$psticky="";
+
+?>

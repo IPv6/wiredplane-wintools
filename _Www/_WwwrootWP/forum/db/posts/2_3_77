@@ -1,0 +1,23 @@
+<?php
+
+$psubject="DATA FILES location ";
+$pcontent="It is possible to change data and config files location?  
+If yes , How to. 
+thank you 
+
+ ";
+$pauthor="Anonymous";
+$pdate="1175921179";
+$plastdate="1176596050";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="Anonymous";
+$preplies="2";
+$pviews="715";
+$pnotify="|Anonymous";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane";
+$psticky="";
+
+?>

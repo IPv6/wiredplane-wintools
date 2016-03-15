@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Avertv studio 303";
+$pcontent="Is this card supported?
+&#39;Cos I can&#39;t get it working with wirekeys, if it&#39;s my bad
+could you tell me how to make it work?";
+$pauthor="Anonymous";
+$pdate="1147951190";
+$plastdate="1147951190";
+$pimage="5.gif";
+$plastreply="0";
+$plastauthor="Anonymous";
+$preplies="0";
+$pviews="439";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane|garry63";
+$psticky="";
+
+?>

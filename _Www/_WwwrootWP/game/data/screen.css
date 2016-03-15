@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  margin: 0;
+  background: #fff;
+  color: #333;
+  font: 11px verdana;
+  line-height: 140%;
+}
+
+form { margin: 0; padding: 0; }
+
+a:link, a:visited { color: #5B8C30; }
+
+a.image img { border: none; }
+
+div#container {
+  margin: 0 auto 20px auto;
+  width: 560px;
+  text-align: left;
+  border-bottom: 1px solid #CDDBBF;
+}
+
+div#footer {
+  margin: 0 auto 20px auto;
+}
+
+div.gamedesc {
+	margin: 2;
+	border: 1 solid black;
+}
+
+p {
+  margin: 0 0 1em 0;
+  font: 11px georgia, times new roman, serif;
+}
+
+p.first {
+  font: 18px georgia, times new roman, serif;
+  line-height: 140%;
+  text-align: center;
+}
+
+ul {
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 .75em 0;
+}
+
+div#header {
+  width: 596px;
+  padding: 27px 0 21px 0;
+  border-bottom: 0px solid #CDDBBF;
+  margin: 0 auto 4px auto;
+}
+
+div#main {
+  width: 330px;
+  float: left;
+}
+
+div#sidebar {
+  float: right;
+  width: 180px;
+  font: 11px verdana, arial, sans-serif;
+}
+
+div#sidebar ul {
+  list-style: square;
+  padding-left: 1.4em;
+  color: #315908;
+}
+
+div#sidebar div.box {
+  text-align: center;
+  padding: 5px;
+  background: #E1E99A;
+  border: 1px solid #C7C887;
+  margin-bottom: 1em;
+}
+
+div#sidebar div.box p.buy_now {
+  margin: 0;
+  color: #000;
+  font: 32px georgia, times new roman, serif;
+}
+
+p.ordernote {
+  margin: 5px 0 0 0;
+  font: 11px georgia, times new roman, serif;
+  line-height: 140%;
+  color: #666;
+  font-style: italic;
+}
+
+.bind2left
+{
+	float: left;
+	border: 0 solid black;
+	margin: 5px;
+}

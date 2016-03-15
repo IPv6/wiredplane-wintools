@@ -1,0 +1,37 @@
+<?php
+
+$psubject="Использование табуляции в скрипте";
+$pcontent="Хотел сделать скрипт для автоматизации работы с окнами
+
+Переключение между активными элементами управления
+окна осуществляется нажатием клавиши tab.
+Фактически для многих приложений это не работает:
+
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x04F09] keydown=[1] ext=[0])&#39;);// Key down: {TAB}
+WireKeys.PlayRecord(&#39;Command(key::msg=[257] l=[0x04F09] keydown=[0] ext=[0])&#39;);// Key up: {TAB}
+
+или
+
+var OUTPUT=&#39;&#39;;
+OUTPUT+=&#39;&#92;t&#39;;
+OUTPUT;
+
+Хотя непосредственнное нажатие клавиши tab выполняется
+правильно.
+
+Как описать это в скрипте ?";
+$pauthor="Kostafey";
+$pdate="1185131396";
+$plastdate="1185201708";
+$pimage="5.gif";
+$plastreply="2";
+$plastauthor="Kostafey";
+$preplies="2";
+$pviews="370";
+$pnotify="|Kostafey";
+$plock="";
+$pip="";
+$pvisitors="|Kostafey|garry63|McStar|WiredPlane|zero22|Anonimus";
+$psticky="";
+
+?>

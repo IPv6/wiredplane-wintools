@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Пауза на клавиатуру";
+$pcontent="Была одна клавиша на &#34;Поставить клавиатуру на паузу&#34;. Изменил на другую. Но все сочетания остались с правой. Может  в дополнительном меню добавить пункт в плане изменить во всех сочетаниях кнопку паузы? А то ручками всё править не охота.";
+$pauthor="McStar";
+$pdate="1139835517";
+$plastdate="1140957322";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="752";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SkyRE|McStar";
+$psticky="";
+
+?>

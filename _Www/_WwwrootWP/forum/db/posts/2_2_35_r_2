@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WireChanger 2.9.5 updated:
+- bugfixes
+- new option for screensaver (which templates to apply)";
+$rauthor="WiredPlane";
+$rdate="1108812327";
+$rip="195.209.143.44";
+
+?>

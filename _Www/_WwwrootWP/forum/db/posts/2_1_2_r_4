@@ -1,0 +1,47 @@
+<?php
+
+$rsubject="Old messages";
+$rcontent="rij73  [29th January, 2004 12:29:53] 
+How do I map a shortcut key to close the active window? I&#39;ve looked everywhere for that function...  
+ 
+
+WiredPlane Labs (http://www.wiredplane.com)  [22nd December, 2003 07:57:17] 
+2Moon, About PowerPro:
+&#34;No user menus or toolbars&#34; - we make accent on hotkeys so this is leaved for other tools :) May be someone will wrote plugin for this stuff?
+&#34;No mouse actions&#34; - Common mouse action will be added with new &#34;Mouse gestures&#34; plugin soon
+&#34;No desktop control&#34; - this is already added to WK2 (will be released soon)
+&#34;No timers, no sceduler, no notes...&#34; - we have our WireNote PIM+Lan messenger for this stuff
+ 
+ 
+
+Moon  [02nd December, 2003 06:38:50] 
+Hm... Just 2 to 5% of WinPowerPro&#39;s features. No mouse actions, no user menus or toolbars, no timers, no sceduler, no desktop control, no notes...  
+ 
+
+Moon  [02nd December, 2003 05:12:05] 
+So, how does it compare to Windows Power Pro http://www.windowspowerpro.com/ ? Is it worth switching?
+M.  
+ 
+
+WiredPlane Labs (http://www.wiredplane.com)  [01st December, 2003 14:07:09] 
+Thanks for feedback and suggestions :) We will implement them in the next releases (starting from additional desktops)  
+ 
+
+Mike  [01st December, 2003 08:33:33] 
+Thanks for the program. Do you plan to have &#34;Show window on all desctops feature&#34; for multiple desktops?
+
+--
+Mike  
+ 
+
+miro  [01st December, 2003 03:21:00] 
+Thumbs up, high! Great utility!
+
+I have one suggestion, add the ability to create your own sub categories (similar to the quickrun, misc etc.) so I can sort my apps.  
+ 
+";
+$rauthor="WiredPlane";
+$rdate="1081769491";
+$rip="195.245.232.12";
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: DATA FILES location ";
+$rcontent="Yes, read faq
+* Q: I want WireNote to save its data in the program`s installation directory. What should i do?
+A: (1) Create folder named &#39;Profile&#39; in the installation directory. It will be automatically used to save all persistent data. (2) You can add &#39;-ul&#39; command line switch to application shortcut to define directory for saving application`s data (Example: &#39;WireNote.exe -ul=c:/data&#39;).";
+$rauthor="WiredPlane";
+$rdate="1176100704";
+$rip="195.210.162.152";
+
+?>

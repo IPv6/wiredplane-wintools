@@ -1,0 +1,30 @@
+<?php
+
+$psubject="Empty Bin / Windows key";
+$pcontent="Sorry to ask so many questions, 
+
+1) Was using Wonderful Icon before WK, and it has a &#34;Empty Recycle Bin&#34; hot key, is it possible to set this up with WK? 
+
+2)Also, when I use the Windows Keys( L or R) as shortcuts to launch progs, I always get the Start menu popping up too- how do I imobilise that action please? 
+3) Have set up Caps Lock to not work except with Shift, I now want to use it as a hot key as well, for launching Apps., is this possible?
+
+May be me being a stupid Englishman, but I find some of the guidance in the help file to be a bit difficult to find, for some topics-however wonderful forum here !
+
+Thanks for help. 
+
+Ian.";
+$pauthor="hulland";
+$pdate="1098970572";
+$plastdate="1100366703";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="stepone";
+$preplies="5";
+$pviews="738";
+$pnotify="|hulland|stepone";
+$plock="";
+$pip="";
+$pvisitors="|stepone|BillR|WiredPlane|McStar";
+$psticky="";
+
+?>

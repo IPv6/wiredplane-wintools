@@ -1,0 +1,51 @@
+<html lang="en">
+<title>Просмотр страницы</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<link href="http://img2.imgsmail.ru/mail/ru/css/my_xhtml.css?35" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://plugins.jquery.com/files/jquery.parsequery.js.txt"></script>
+<body>
+<table border="0" width="100%" height="100%" style="overflow:hidden;">
+
+<tr height="10px" style="background: #999999;">
+
+	<td width="99%" style="padding: 5px;vertical-align:middle;">
+	&nbsp;&nbsp;<div id="urlinfo">Loading, please wait...</div>
+
+	<td style="padding: 5px;vertical-align:bottom; white-space: nowrap;" align="right">&nbsp;&nbsp;
+	Поделись ссылкой с друзьями:
+
+	<td width="1%" style="padding: 5px;vertical-align:middle;">&nbsp;&nbsp;
+	<a class="mrc__share" href="http://connect.mail.ru/share">В Мой Мир</a>
+	<script src="http://cdn.connect.mail.ru/js/share/2/share.js" type="text/javascript" charset="UTF-8"></script>
+
+	<td width="1%" style="padding: 5px;vertical-align:middle;">&nbsp;&nbsp;
+	<script type="text/javascript" src="http://vkontakte.ru/js/api/share.js?9" charset="windows-1251"></script>
+	<script type="text/javascript"><!--
+	document.write(VK.Share.button(false,{type: "round", text: "Сохранить"}));
+	--></script>
+
+<tr>
+
+	<td colspan="10">&nbsp;
+	<div style="width:100%;height:100%;overflow:hidden;" id="urllink">
+	</div>
+	<div style="width:100%;height:0px;overflow:hidden;" id="urllink2">
+	</div>
+
+</table>
+<script type="text/javascript">
+$(document).ready(function() {
+	var q = $.parseQuery();
+	var urlinfo=(q.info)?q.info:"";
+	var urllink=(q.link)?q.link:"";
+	var urllink2=(q.link2)?q.link2:"";
+	$("#urlinfo").html(urlinfo);
+	$("#urllink").html('<iframe src="'+urllink+'" width="100%" height="100%" frameborder="0"></iframe>');
+	if(urllink2 != ""){
+		$("#urllink2").html('<iframe src="'+urllink2+'" width="100%" height="100%" frameborder="0"></iframe>');
+	}
+ });
+
+</script>
+</body>

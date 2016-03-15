@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: MAPI2POP3: UTF-8 HTML";
+$rcontent="there is two ways of converting email body. wothout this option conversion is done by exchange himself, so it should be most accurate way.
+About From/CC - you mean Exchange addresses like [/O=.../P=...] etc?";
+$rauthor="WiredPlane";
+$rdate="1171378556";
+$rip="195.210.162.152";
+
+?>

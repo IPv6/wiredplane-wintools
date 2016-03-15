@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: [ANN] WireKeys updates";
+$rcontent="Hello?
+Somebody at home?  *)
+
+Nobody answering.  :?";
+$rauthor="Richy";
+$rdate="1213345251";
+$rip="212.185.98.165";
+
+?>

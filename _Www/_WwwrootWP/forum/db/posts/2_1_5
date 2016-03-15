@@ -1,0 +1,19 @@
+<?php
+
+$psubject="New plugins: Window`s resizer and &#34;text screenshot&#34;";
+$pcontent="Subj. If anyone have suggestions about improving that plugins - feel free to leave them here :)";
+$pauthor="WiredPlane";
+$pdate="1081955089";
+$plastdate="1082975457";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="BillR";
+$preplies="3";
+$pviews="598";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane";
+$psticky="";
+
+?>

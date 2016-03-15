@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Help for MAPI2POP3";
+$rcontent="This makes me wonder how MAPI2POP3 can be used &#34;as is&#34; with any standard POP3/SMTP client... Especially w/o the compatibility mode... Can you please shed some light on this?
+";
+$rauthor="sba";
+$rdate="1160394852";
+$rip="194.3.183.35";
+
+?>

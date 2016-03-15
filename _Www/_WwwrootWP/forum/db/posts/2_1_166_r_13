@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Could not start lnk file";
+$rcontent="yes, you are right about disk c:
+it was quick feature (debug logging), among other things it can be used from system-wide hooks and it is tricky to let hoos know about user-defined file names because of Windows secure architecture (it is possible but required some additional coding). that is why it is hardcoded for now.
+
+And Win-Y key: did you have assign some action on this key?";
+$rauthor="WiredPlane";
+$rdate="1143557988";
+$rip="195.245.232.22";
+
+?>

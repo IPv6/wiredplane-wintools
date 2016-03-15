@@ -1,0 +1,53 @@
+<?php
+
+$psubject="Just regged and already some suggestions ;-)";
+$pcontent="Hello,
+
+I just registered WireChanger a few minutes ago because I don&#39;t see any alternive tool on the market which a similar flexibility.  ;)
+
+At first there are some issues because of the order process:
+
+:arrr For European users there is the SWREG ordering method but this is not a good idea at all because it displays a price of about 280 Dollar... a little bit much for a 20 Dollar utility, isn&#39;t it?
+
+:arrr So I tried RegNow (which is supposed to US users only, but I don&#39;t see any reason for that limitation) and it was working. But after ordering funny things happening... I got two emails with different registration information where only one of them actually works. This confusion should not happen, too.
+
+My second concerns are about the software itself which I tried a lot in the test period.
+
+:arrr It&#39;s nice to have widgets for a word of the day to train your English but I&#39;m not Russian (though I&#39;ve had to learn it for 6 years in school) ... so this is one of those widgets which doesn&#39;t make sense for me.
+
+:arrr If I click on a note or the calender to edit an entry so an edit box is opening, the keyboard input isn&#39;t assigned to it. You always have to click on it a second time before you can enter something... this is a little bit fussily.  
+
+:arrr The widget positioning system could be done much better especially because the resulting position relates to the client area of the &#34;positioning window&#34; and not the whole window including its borders. This makes pixel correct positioning very difficult... Why you don&#39;t remove the window borders for the positioning window?
+
+:arrr Another improvement for the positioning is a snap function, e.g. snap to a adjustable grid or even better: Snap to the grid of the surrounding desktop links and icons. 
+
+:arrr I really appreciate the calender function but configuring its layout without writing your own skin definition can be a real pain. There are not much default skins and most of them look simply too special compared to the desktop notes where you can find some good skins for regged users.
+
+:arrr Related t othe desktop notes: How can I remove the shadowing from the text font used in the notes? I don&#39;t see an option for it at all (even not in the skin definitions).
+
+:arrr In the desktop note&#39;s config you can change the font colour of the title independet of the text... but it doesn&#39;t work. :surpr
+
+:arrr Editing the calender feels also strange because the program doesn&#39;t remember the window size for editing neither it&#39;s layout. And funny things happen if you scroll with your mouse wheel through the entries... if you scroll down all seems fine... but if you scroll up you can&#39;t see your modifications at all, it&#39;s like empty. :?
+
+:arrr It would be great to have some graphical primitives as widgets too... like boxes... so I would surround my widgets (which are centered to the screen) with such a box. But it would even better to set my widgets (or some of it) in this box hierachical so I only need to move the box for repositioning all of them. 
+
+Ok, that&#39;s it... for the first time of course :&#62;
+
+Cu,
+Robbson.
+";
+$pauthor="Robbson";
+$pdate="1196134580";
+$plastdate="1196150385";
+$pimage="6.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="123";
+$pnotify="|Robbson";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

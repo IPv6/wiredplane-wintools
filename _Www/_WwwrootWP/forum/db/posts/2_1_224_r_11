@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Feature request";
+$rcontent="Sorry, it seems we are talking about something different. There is already hotkey to delete specific processes (just type their names in the field below this hotkey), in the end of process list options...
+
+May be you can make screenshot with comments for me to get the idea?";
+$rauthor="WiredPlane";
+$rdate="1181049316";
+$rip="195.210.162.152";
+
+?>

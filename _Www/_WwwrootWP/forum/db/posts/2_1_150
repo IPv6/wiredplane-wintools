@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Последовательные нажатия";
+$pcontent="При использывании последовательных комбинаций такое ощущение, что опять залипает клавиша Win!!!!";
+$pauthor="McStar";
+$pdate="1134631604";
+$plastdate="1134650164";
+$pimage="4.gif";
+$plastreply="6";
+$plastauthor="McStar";
+$preplies="6";
+$pviews="744";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|ValeraVi|stepone|cleg|SkyRE|AlDl";
+$psticky="";
+
+?>

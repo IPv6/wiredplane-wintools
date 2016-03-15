@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Ukranian translation";
+$pcontent="Do you need ukranian version of WireChanger?";
+$pauthor="cleg";
+$pdate="1126016782";
+$plastdate="1126551587";
+$pimage="1.gif";
+$plastreply="2";
+$plastauthor="cleg";
+$preplies="2";
+$pviews="1067";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|cleg|WiredPlane";
+$psticky="";
+
+?>

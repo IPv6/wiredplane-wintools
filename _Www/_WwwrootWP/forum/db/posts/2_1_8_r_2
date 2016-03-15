@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Forum Organization";
+$rcontent="Today is my first visit to the forums this month.  Don&#39;t know how long the new implementation has been here, but so far so good for a new install still being shaken down.  I certainly appreciate the threading feature.
+
+Please remember that suggestions were [quote](off the top of my head)[/quote] and that the aforementioned head is not always firmly affixed. 
+
+One other important category: localization.";
+$rauthor="BillR";
+$rdate="1082661777";
+$rip="141.156.212.231";
+
+?>

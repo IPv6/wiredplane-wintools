@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Wirekeys Freeze";
+$rcontent="Ooops %( this happens with ANY hotkey?
+BTW, is Lctrl-LAlt-Right hotkey working properly (this is possible, in fact).
+and if you press ScrollLock to popup hotkey guide, what is typed in guide`s window title when you press hotkeys/single keys?";
+$rauthor="WiredPlane";
+$rdate="1143095418";
+$rip="195.245.232.22";
+
+?>

@@ -1,0 +1,168 @@
+<!--#if expr="0=1" -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" TYPE="text/css">
+</head>
+<body bgcolor="#EEEEEE" text="#000000">
+<!--#else -->
+<!--#set var="TOPIC_RU" value="×àñòî çàäàâàåìûå âîïðîñû" -->
+<!--#set var="TOPIC_EN" value="Frequently Asked Questions" -->
+<!--#include virtual="/_before.shtml"-->
+<!--#endif -->
+
+<h2>Ask a question</h2>
+If you have any questions not covered by this help file, you can ask them in our <a href="http://www.wiredplane.com/forum/board.php?cat=2&fid=1&s=s" target="_blank">support forum</a>
+<h2>WireKeys FAQ</h2>
+<hr width="100%">
+<lu>
+<LI><b>Q:</b> I want WireKeys to save its data in the program`s installation directory. What should i do?<br>
+<b>A:</b> (1) Create folder named 'Profile' in the installation directory. It will be automatically used to save all persistent data. (2) You can add '-ul' command line switch to application shortcut to define directory for saving application`s data (Example: 'WireKeys.exe -ul=c:/data').<br><br></li>
+<li><b>Q:</b> I want to copy the path to the selected file (in Explorer or another file browser) into
+clipboard. Is this possible?<br>
+A: Yes! To copy path to the highlighted file (in Explorer), just copy it into any additional
+clipboard. Or copy it into the standard clipboard and open clipboard history - the file path will
+be there as well.
+<br><br></li>
+<LI><b>Q:</b> I want to assign shortcuts to WK actions. What should i do?<br>
+<b>A:</b> Use Command line switch "-execute" to start WK macros and actions from shortcuts. Just execute command like "WireKeys.exe -execute=XXX" where XXX is the name of the macro or quick-run item and it will be executed. To execute action, set its
+number instead of macro name prepended with '!', for example "WireKeys.exe -execute=!15" will eject CD-Rom. To see action numbers look into help file. Warning: WireKeys must be already started to perform such execution.<br><br></li>
+<li><b>Q:</b> I hide an application to tray, but no main application menu was created. The corresponding
+option is 'On'. What is wrong?<br>
+A: Some applications do not have a main menu. Though the toolbar looks like a main menu, it's not
+the same, so such menus can't be accessed from a tray menu.
+<br><br></li>
+<li><b>Q:</b> I hide an application to tray, but main the application menu is not entirely shown. What is
+wrong?<br>
+A: Check the 'Show owner draw menus too' option in the preferences window. Many applications use
+such menus which can contain graphic or special items. Some of these features are not supported
+by WireKeys, but most of them work fine. .
+<br><br></li>
+<li><b>Q:</b> I can't kill application '...' from the hot menu - the application title is disabled. What
+does this mean?<br>
+A: This means that you don't have sufficient rights to kill this application or service. 
+<br><br></li>
+<li><b>Q:</b> When I try to convert selected text layout, characters are messed up.<br>
+A: Some programs were not created with Unicode support in mind. In this case you can't convert
+text to another character layout, or can do this only in part.
+<br><br></li>
+<li><b>Q:</b> I copy some text to an additional clipboard, but when I paste it, text is messed up with
+unrecognizable characters.<br>
+A: Some programs were not created with Unicode support in mind. In this case you must 'Copy' text
+in the same character layout as the target application.
+<br><br></li>
+
+<li><b>Q:</b> I can't make a screenshot from my Media Player with a video playing. On the screenshot I can
+see only a black screen.<br>
+A: Some programs (like Media Player) use special hardware features to display video with maximum
+performance, so they can't be screenshot without special actions. You have to enable special
+support for such windows in the screenshot's preferences before you start the video file you want
+to capture. 
+<br><br></li>
+
+<li><b>Q:</b> I want to use WireKeys for opening many different folders that I frequently access. How can I
+do this?<br>
+A: Here is the fastest method: Open Explorer, navigate to the directory your want to add to the
+quick-runs (for frequent access). Select the desired folder/file and press "Ctrl-C" ("Copy to
+clipboard"). Then open WireKeys preferences, add a new quick-run item and double click in the
+application path field at the right side of the option (just like typing the application path
+manually). Then press "Ctrl-V" ("Paste from clipboard"). WireKeys will automatically convert the
+link to the folder into the folder path. Of course, you can manually choose the folder from the
+file tree, but copy/paste is faster. Now you can assign a hotkey to this quick-run item and try
+it out.
+<br><br></li>
+
+<li><b>Q:</b> I want to run selected text as from command string but don't know how to do that.<br>
+A: Go to the preferences window and set a hotkey for that action. Then select any text and press
+the hotkey.
+<br><br></li>
+
+<li><b>Q:</b> How does one associate an editor with a screenshot? Double-clicking on either a jpg or a bmp
+will launch my chosen app (e.g. IrfanView). What do I need to do?<br>
+A: WireKeys simply executes the "edit" command on a screenshot file - if not defined explicitly.
+So if you want to set a specific application to edit your screenshots, you can do this by opening
+the Explorer window, choosing "Tools"->"Folder options"->"File types"->"BMP" or "JPG" and editing
+application associated with "Edit" item. Or you can set an editor explicitly in the special field
+in the preferences dialog.
+<br><br></li>
+
+<li><b>Q:</b> Looks like your plugins simply don't work. What's the matter?<br>
+A: Default plugins use system hooks to implement their special abilities. Sometimes they do not
+work without a Windows restart or logon/logoff sequence. If you are working under Windows
+NT/2000/XP, you may suffer from a lack of system rights (insufficient privileges). If so, they
+are useless for you.
+<br><br></li>
+
+<li><b>Q:</b> How do I set my application XXX to be located in the tray instead of on the taskbar?<br>
+A: The Windows traits plugin can help you. Open the plugin preferences and enter part of the
+title of your application in the edit field. After that your application will be automatically
+moved to tray every time you leave it. For moving Internet Explorer windows to the tray, you can
+type something like '*Explorer*'.
+<br><br></li>
+
+<li><b>Q:</b> I have two questions about the text (keyboard) macro. First: How can I put a return line in
+the output for a Keyboard Macro? I would like to push multiple lines of text. Second: How can I
+direct the output of a Keyboard Macro to a specific window. I may have 4 windows up, but want my
+macro to know which window to push the text to.<br>
+A: This is an example of how to create multi-line response from a macro and direct it to a
+specified window which must already be open):
+<pre>
+// Step 1 of 3
+var OUTPUT='';
+// Step 2 of 3
+OUTPUT+='Line one of the multiline text!';
+OUTPUT+='\r\n';//Adding new line simbol
+OUTPUT+='Line two of the multiline text!';
+OUTPUT+='\r\n';//Adding new line simbol again
+OUTPUT+='Last line of the multiline text!';
+// Activating target window
+// In this example notepad window
+// with untitled document will be activated
+var WshShell = new ActiveXObject('WScript.Shell');
+WshShell.AppActivate("Untitled - Notepad");
+// Step 3 of 3
+OUTPUT;
+</pre>
+And remember that a macro can perform different actions depending of its parameters. You can use
+one macro file in 4 different macros and set their parameters and hotkeys independently. I
+suggest setting a target window title as a parameter for each macro. In this case the line
+'WshShell.AppActivate("Untitled - Notepad");' can be changed to
+'WshShell.AppActivate(unescape("%PARAMETER"));'.
+<br><br></li>
+<li><b>Q:</b>I check the 'Integrate with WireNote' option and the tray icon suddenly disappears. Can I
+bring it back?<br>
+A: You can access WireKeys preferences again from the 'Utilities' submenu of the WireNote tray
+menu.
+<br><br></li>
+<li><b>Q:</b> Can I install WireKeys on several computers?<br>
+A: According to the license agreement, you can install the registered version of the software on
+up to 3 computers providing you guarantee the program is not used by more than 3 persons at a
+time. That is, the same licensed version of WireKeys may not be available for use by more than 3
+different people at different locations at the same time.
+<br><br></li>I want to keep WireKeys preferences, macros, etc. inside the WireKeys folder, not in the
+"Documents and Settings/.../Application Data/WireKeys". Is this possible?<br>
+A: Yes. Use command line switch "-ul" to force WireKeys use a non-standard location for saving
+persistent data (configuration files, etc).<br>
+<br>
+Examples:<br>
+1) WireKeys.exe -ul<br>
+WireKeys will save its preferences in the folder "UserData" inside the folder with the
+WireKeys.exe file.<br>
+2) WireKeys.exe -ul=XXX<br>
+WireKeys will save its preferences in the folder "XXX" inside the folder with the WireKeys.exe
+file.<br>
+3) WireKeys.exe -ul="C:\XXX"<br>
+WireKeys will save its preferences in the folder "C:\XXX".<br>
+<br><br></li>
+<li><b>Q:</b> I want to see your program in my language. Is this possible?<br>
+A: Yes. New translations will be added as they become available. In order to speed up this
+process, you can translate the WireKeys_l0.lng file and send it to us. And we will send you a
+free registration key!
+<br><br></li>
+</lu>
+<!--#if expr="0=1" -->
+</body>
+</html>
+<!--#else -->
+<!--#include virtual="/_after.html"-->
+<!--#endif -->

@@ -1,0 +1,36 @@
+<?php
+
+$psubject="bugs & suggestions";
+$pcontent="i find several bugs in wirekeys 2.6.3.1, described below.
+
+
+bug no.1
+
+1st time: quick-run popup items (right-click) -&#62; detach item into icon (item becomes a tray icon) -&#62; detach from tray (item becomes a floater) -&#62; close floater
+
+2nd time: quick-run popup items (right-click on the same item) -&#62; detach item into icon (bug: item becomes a floater!)
+
+
+bug no.2
+
+any asian character filled in the [b]parameter[/b] field becomes an empty string when referenced in macro files. as a result, asian language file names are not supported in [b]append to diary[/b] macro (also [b]keylogger[/b] plugin), unless they&#39;re directly inserted into the macro file instead of filled in the parameter field.
+
+
+here is a little suggestion...
+
+i think it&#39;s a good idea to add a new pattern which provides a utf-8 output of the selected text. many asian search engines, including google china & google japan, are using utf-8 format for asian chars in urls. the %ESCAPED pattern in wirekeys only provides utf-16 output. as far as i know, the utf-8 output can only be made using encodeURIComponent( ) function in macros. so i have to write a new [b]search google[/b] macro in order to make it working in chinese environment. if there&#39;s a pattern somewhat like %UTF8, everything will be much simpler. :)";
+$pauthor="rockywolf";
+$pdate="1091209090";
+$plastdate="1092905344";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="592";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|cleg|BillR|hulland|jaco|AGu";
+$psticky="";
+
+?>

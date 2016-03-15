@@ -1,0 +1,23 @@
+<?php
+
+$psubject="Can WireKeys hotlaunch programs?";
+$pcontent="Hey all - haven&#39;t downloaded WireKeys yet - but here&#39;s my question.  I was looking for a simple program that could launch programs/folders with hotkeys.  It&#39;s a little unclear if WireKeys does this - is it possible?
+
+It looks like Wirekeys does MUCH more - I&#39;m interested in playing with it&#39;s extended functionality, but that basic feature is what I need.
+
+Thanks!";
+$pauthor="Anonimus";
+$pdate="1137174411";
+$plastdate="1137228675";
+$pimage="5.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="426";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|ValeraVi|SkyRE|jrwatts|Anonimus|stepone";
+$psticky="";
+
+?>

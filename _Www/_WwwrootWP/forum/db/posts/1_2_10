@@ -1,0 +1,21 @@
+<?php
+
+$psubject="Vacations";
+$pcontent="Hello!
+We are taking short vacations for e week or so and we`ll be back in the start of September :)
+Good luck!";
+$pauthor="WiredPlane";
+$pdate="1093067095";
+$plastdate="1093067095";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="805";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|BillR|sonya|stepone";
+$psticky="";
+
+?>

@@ -1,0 +1,138 @@
+BODY {
+	BACKGROUND-COLOR: #e8e8e8;
+	font-size: 70%;
+	margin-top: 0;
+}
+
+BODY, TD {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+TABLE {
+	BACKGROUND-COLOR: #ffffff;
+}
+
+TH.inpage {
+	BACKGROUND-COLOR: #3399ff;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 5px;
+	PADDING-TOP: 5px;
+	TEXT-ALIGN: center;
+	COLOR: white;
+}
+
+TD.inpage {
+	BACKGROUND-COLOR: #F5F5F5;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 5px;
+	PADDING-TOP: 5px;
+	TEXT-ALIGN: left;
+}
+
+TD.inpage_center {
+	BACKGROUND-COLOR: #F5F5F5;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 5px;
+	PADDING-TOP: 5px;
+	TEXT-ALIGN: center;
+}
+
+A {
+	font-size: 100%;
+	color:#3399ff;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+A.menu {
+	font-size: 100%;
+	color:#3399ff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+img {
+	vertical-align: bottom;
+	border: 0;
+}
+
+img.right {
+	float: right;
+	border: 0;
+}
+
+#h1 {
+	font-size: 150%;
+	color: #3399ff;
+	font-weight: bold;
+}
+
+#ptext {
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 5px;
+	TEXT-ALIGN: justify;
+	TEXT-INDENT: 10px;
+}
+
+#quote_author {
+	font-style: italic;
+	TEXT-ALIGN: right;
+}
+
+
+#vertical_menu {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 15px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	MARGIN: 0px;
+	TEXT-ALIGN: left;
+	TEXT-INDENT: 0px;
+	BACKGROUND-COLOR: #ffffff;
+}
+
+#vertical_menu_section {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 2px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 5px;
+	MARGIN: 0px;
+	TEXT-ALIGN: left;
+	TEXT-INDENT: 0px;
+	BACKGROUND-COLOR: #ffffff;
+}
+
+#vertical_menu_item {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 15px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	MARGIN: 0px;
+	TEXT-ALIGN: left;
+	TEXT-INDENT: 0px;
+	BACKGROUND-COLOR: #ffffff;
+}
+
+#the_page {
+	text-align: justify;
+	border-left-width: thin;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#copyright {
+	color: #666666;
+	font-size: 9px;
+	fontsize: 10px;
+	padding-left: 10px;
+	padding-top: 3px;
+}

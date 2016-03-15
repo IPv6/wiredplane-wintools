@@ -1,0 +1,24 @@
+<?php
+
+$psubject="WC 2.7 beta";
+$pcontent="Hello! :)
+We decided to publish beta version of WC 2.7
+We will be very appreciated for any suggestions and/or bugs that you may found/discover in this beta :)
+
+Link:
+[url]http://www.wiredplane.com/download/wirechanger_bt.zip[/url]";
+$pauthor="WiredPlane";
+$pdate="1090997474";
+$plastdate="1090997474";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="477";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Leshiy";
+$psticky="";
+
+?>

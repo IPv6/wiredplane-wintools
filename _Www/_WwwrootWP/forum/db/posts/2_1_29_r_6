@@ -1,0 +1,18 @@
+<?php
+
+$rsubject="RE: Feature requests";
+$rcontent="[quote]
+Along the same lines, I would like to see the additional window menu (alt,space or alt+space) recognize letter keys such as R for Rollup (or perhaps T for Rollup to Title) just as Alt+Space,X means Maximize.  
+[/quote]
+In fact this functionality is already implemented in the system menu, you can press first letter of the item to move selection to it or activate it if it is the only one with this character in first place.
+We`ll try to improve this menu in the next update, though this is a system menu and this is slightly tricky :)
+
+[quote]
+Finally, I would like to be able to define a macro simply as a series of keystrokes.  This would allow me to define a rollup window macro as Alt+Space,Dwn,Dwn,Dwn (or even better, as Alt+Space,R)
+[/quote]
+All additional items from system menu have separate hotkeys that can be defined through preferences, so there is no need to create macro for calling this actions :) May be you mean something else?";
+$rauthor="WiredPlane";
+$rdate="1092905116";
+$rip="195.245.232.12";
+
+?>

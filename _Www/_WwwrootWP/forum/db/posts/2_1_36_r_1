@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: Is it possible to use &#39;App&#39; key?";
+$rcontent="Yes, of course! You can use App key just as others. And you can block it if it`s default action is annoing (as it seems to be for us :) )
+Just press this key while entering new hotkey combination or choose it from context menu";
+$rauthor="WiredPlane";
+$rdate="1096014767";
+$rip="195.245.232.12";
+
+?>

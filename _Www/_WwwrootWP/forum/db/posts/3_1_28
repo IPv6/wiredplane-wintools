@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[PLUGIN] &#34;As LINUX Move&#34; by Vint";
+$pcontent="Please, leave your comments here (in English if this is possible).";
+$pauthor="WiredPlane";
+$pdate="1103819659";
+$plastdate="1142507519";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="1725";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

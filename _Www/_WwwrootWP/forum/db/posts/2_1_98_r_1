@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Does WireKeys support x64 versions of Windows? (nm)";
+$rcontent="Currently no %( We don`t have x64 hardware to develop applications on it. May be in future, when such platforms will be more popular or we get one %)";
+$rauthor="WiredPlane";
+$rdate="1115793346";
+$rip="195.245.232.12";
+
+?>

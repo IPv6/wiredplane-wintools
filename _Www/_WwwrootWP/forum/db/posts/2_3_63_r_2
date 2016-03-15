@@ -1,0 +1,24 @@
+<?php
+
+$rsubject="RE: problem with Virtual Dimension";
+$rcontent="Error message is normally &#39;Session closed (NB)&#39;, only in one case it was &#39;Utente non raggiungibile (NB)&#39;
+
+Here what appears in messages log
+
+In most of the cases this is error log:
+08.06.2006 13:03.31	Messaggio in uscita. Destinatario: XXX (XXX/nb)
+Stato: Non inviato, errore &#39;Session closed (NB)&#39;
+rrr
+
+In one case this has been error log:
+08.06.2006 11:19.24	Messaggio in uscita. Destinatario: XXX (XXX/nb)
+Stato: Non inviato, errore &#39;Utente non raggiungibile (NB)&#39;
+3*4
+** Script output **
+12
+** End of script output **";
+$rauthor="Anonymous";
+$rdate="1149835262";
+$rip="213.82.98.5";
+
+?>

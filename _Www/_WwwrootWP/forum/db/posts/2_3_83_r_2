@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: When I sent a message to a group, some get";
+$rcontent="I set protocol as wirenote. Is there any difference between the settings?
+
+thanks.";
+$rauthor="Anonymous";
+$rdate="1196037056";
+$rip="203.169.251.34";
+
+?>

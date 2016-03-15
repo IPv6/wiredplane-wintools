@@ -1,0 +1,17 @@
+<?php
+
+$rsubject="RE: Wirekeys Freeze";
+$rcontent="Yes, before new driver everything was ok.
+
+I have reset setting to factory default and is working properly now.
+
+but when i custom a hotkey for exemple &#34;Winamp Next Song&#34; i press left ctrl+alt+right and in the hotkey setting it appear as &#34;LCTRL-LALT-Right-@FJ&#34;
+
+Wath is this @FJ i dont know!!! it seem to be the same for all hotkey that i custom....
+
+Thank&#39;s for you support.";
+$rauthor="AzazelSP";
+$rdate="1143063937";
+$rip="24.203.178.252";
+
+?>

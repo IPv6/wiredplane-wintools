@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Отключить в определенных окнах";
+$pcontent="Или я путаю или в настройках был пункт, позволяющий отключить Wirekeys в определенных приложениях? Помогите найти этот пункт. В играх мешает сочетание Ctrl+RMB";
+$pauthor="Anonimus";
+$pdate="1144439936";
+$plastdate="1198719473";
+$pimage="1.gif";
+$plastreply="15";
+$plastauthor="WiredPlane";
+$preplies="15";
+$pviews="1819";
+$pnotify="|McStar|LAVir";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|wtiger|garry63|Anonymous";
+$psticky="";
+
+?>

@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Non BMP images";
+$rcontent="the only way to show animated gifs is to show them in active desktop. i dont know such programs, but i think we will add animated gifs suport via active desktop in the next release";
+$rauthor="WiredPlane";
+$rdate="1099721452";
+$rip="195.209.143.44";
+
+?>

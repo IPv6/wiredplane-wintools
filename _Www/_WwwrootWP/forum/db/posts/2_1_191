@@ -1,0 +1,24 @@
+<?php
+
+$psubject="WireKeys v.3.4.2";
+$pcontent="А где она? На странице http://www.wiredplane.com/ru/wirekeys/about.php?language=ru
+ написано, что последняя версия WireKeys 3.4.2. Скачал с http://www.wiredplane.com/download/wirekeys.zip , установилась прежняя 3.4.1  
+
+:bad
+
+Уберите кнопку Reset с форума! случайно нажал и пришлось все сообщение заново перенабирать! Она вообще на форумах не нужна, только мешает ";
+$pauthor="Anonimus";
+$pdate="1145109267";
+$plastdate="1145264096";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="464";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|SkyRE|Anonimus|stepone|garry63|AzazelSP|triplex";
+$psticky="";
+
+?>

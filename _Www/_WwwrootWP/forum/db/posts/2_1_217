@@ -1,0 +1,19 @@
+<?php
+
+$psubject="[Please delete]";
+$pcontent="This post was a mistake. Please delete it.";
+$pauthor="Anonymous";
+$pdate="1164444978";
+$plastdate="1164444978";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="Anonymous";
+$preplies="0";
+$pviews="319";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|Anonymous|WiredPlane|smax|DSR";
+$psticky="";
+
+?>

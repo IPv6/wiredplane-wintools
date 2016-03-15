@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: 100% CPU now used by Wirekeys after update";
+$rcontent="Some questions to find out the reason:
+1) Can you send us backup of your settings?
+2) Which plugins are active? Is advanced hotkey processing is active too? Can you disable all [plugins and try to install new version again?
+3) Did you use trial version of WK? How long you are using it?
+
+Sorry for inconvinience :( We will update WK immediately after we find what is going on in your case :(";
+$rauthor="WiredPlane";
+$rdate="1142100868";
+$rip="195.209.143.44";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Критическая ошибка!!!";
+$pcontent="В новой версии 2.7.5 после попытки оптимизировать память WK вылетает!!!!";
+$pauthor="McStar";
+$pdate="1099999001";
+$plastdate="1100069528";
+$pimage="4.gif";
+$plastreply="2";
+$plastauthor="McStar";
+$preplies="2";
+$pviews="689";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|AGu";
+$psticky="";
+
+?>

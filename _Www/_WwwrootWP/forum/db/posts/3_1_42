@@ -1,0 +1,32 @@
+<?php
+
+$psubject="[PLUGIN IDEA] Baby-protect (block kb/mouse)";
+$pcontent="Hi,
+I have the following suggestion for plugin.
+
+Is it possible to lock WHOLE keyboard (with exception of unlocking combination - something like Ctrl+Win+App+U )?
+This will give me (as a parent) the possibility to read something from the screen, while my child is playing with the keyboard. 
+
+And, vice versa, is it possible to completely block the mouse? (small children always play with the same things as parents)
+
+So, it should be the plugin with the following functionality:
+ - lock/unlock keyboard
+ - lock/unlock mouse
+ - (last, but not least) block &#34;Standby&#34;(or similar) button 
+
+";
+$pauthor="stepone";
+$pdate="1112874524";
+$plastdate="1112883381";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="725";
+$pnotify="|stepone";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|hulland|Anonimus|jaco|McStar";
+$psticky="";
+
+?>

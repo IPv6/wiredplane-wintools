@@ -1,0 +1,13 @@
+<?php
+
+$rsubject="RE: Couple of new user questions";
+$rcontent="Not sure what your tool tip request is, but in the messaging help it says:
+
+Xpc. This is a fast and reliable protocol which is rely on TCP/IP as a transport protocol. You will be able to attach files to your messages and send them to anyone who have WireNote installed. You can specify TCP/IP port for sending and receiving messages. To force use of this protocol you can add &#34;/xpc&#34; to person`s computer name 
+
+When I attempt to attach a file it says file transfers are not supported by this protocol.";
+$rauthor="cellphone";
+$rdate="1144244443";
+$rip="68.101.40.139";
+
+?>

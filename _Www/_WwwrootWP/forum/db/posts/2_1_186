@@ -1,0 +1,44 @@
+<?php
+
+$psubject="не получается правильно записать макрос ";
+$pcontent="хочу записать в макрос клавишную комбинацию:
+&#60;удерживая &#34;ctrl shift&#34; два раза нажать &#34;&#92;&#34;&#62;
+с тем,чтобы назначить его на 1 кнопку и открывать второй CD (кот. по &#34;двойному нажатию&#34;)
+Так не работает  :sad1
+
+содержимое следующее:
+
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x041D11] keydown=[1] ext=[0])&#39;);// Key down: 0x11
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x041D11] keydown=[1] ext=[0])&#39;);// Key down: 0x11
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x041D11] keydown=[1] ext=[0])&#39;);// Key down: 0x11
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x043812] keydown=[1] ext=[0])&#39;);// Key down: 0x12
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x043812] keydown=[1] ext=[0])&#39;);// Key down: 0x12
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x043812] keydown=[1] ext=[0])&#39;);// Key down: 0x12
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x042BDC] keydown=[1] ext=[0])&#39;);// Key down: &#92;
+WireKeys.PlayRecord(&#39;Command(key::msg=[257] l=[0x042BDC] keydown=[0] ext=[0])&#39;);// Key up: &#92;
+WireKeys.PlayRecord(&#39;Command(key::msg=[256] l=[0x042BDC] keydown=[1] ext=[0])&#39;);// Key down: &#92;
+WireKeys.PlayRecord(&#39;Command(key::msg=[257] l=[0x042BDC] keydown=[0] ext=[0])&#39;);// Key up: &#92;
+WireKeys.PlayRecord(&#39;Command(key::msg=[257] l=[0x043812] keydown=[0] ext=[0])&#39;);// Key up: 0x12
+WireKeys.PlayRecord(&#39;Command(key::msg=[257] l=[0x041D11] keydown=[0] ext=[0])&#39;);// Key up: 0x11
+};
+// &#60;/wkMain&#62;: End of Action
+
+
+и кстати если запускать старт записи макроса нажатием ENTER на клавиатуре ,то ее отжатие пишется в макрос тоже
+
+З.Ы.Да,и еще одно наблюдение-&#34;быстрый запуск-&#62;добавить новое приложение(из запущенных)&#34;, и в окошке выбора приложения нет кнопки &#34;отменить&#34;.А при нажатии ESC добавляется макрос с названием explorer или еще какого приложения (последнего активного?)";
+$pauthor="triplex";
+$pdate="1143671786";
+$plastdate="1143671786";
+$pimage="5.gif";
+$plastreply="0";
+$plastauthor="triplex";
+$preplies="0";
+$pviews="411";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|triplex|WiredPlane|pharaon|stepone|Loong";
+$psticky="";
+
+?>

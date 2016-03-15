@@ -1,0 +1,16 @@
+<?php
+
+$rsubject="RE: Non-Explorer Hot keys";
+$rcontent="1) Open preferences
+2) Go to the Quick-runs folder
+3) Locate &#34;Calculator&#34; item and click on it
+4) Choose &#34;delete item&#34; from the list at the right
+5) Do the same with &#34;My documents&#34; items
+6) Add new quick-run (choose item from menu) and choose yahoo - either from disk or from started apps
+7) assign hotkey
+that is all :)";
+$rauthor="WiredPlane";
+$rdate="1098174859";
+$rip="195.245.232.12";
+
+?>

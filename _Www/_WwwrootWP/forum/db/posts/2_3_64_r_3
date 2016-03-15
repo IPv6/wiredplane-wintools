@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: reminder problems";
+$rcontent="again, did you mean you can not add more than one receiver into &#34;To&#34; box inside reminder dialog?
+or you can not send message to multiple receivers with reminder attached (through &#34;attachments&#34; submenu of note menu)";
+$rauthor="WiredPlane";
+$rdate="1150280035";
+$rip="195.245.232.22";
+
+?>

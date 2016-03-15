@@ -1,0 +1,41 @@
+<?php
+
+$userid="126";
+$password="28e2b6e4a4a2b036339bc433d15aff22";
+$username="Rana";
+$useralias="Rana";
+$userrealname="Rana Hossain";
+$useremail="rana.hossain@ranainside.com";
+$useremhide="";
+$userip="86.1.97.19";
+$usersig="Regards
+Rana Hossain
+http://www.ranainside.com/";
+$userslogan="";
+$useravatar="";
+$usermsn="";
+$userposts="1";
+$usericq="";
+$userqq="";
+$userwebavatar="";
+$userrank="1";
+$useryahoo="";
+$useraim="";
+$userlocation="Leeds, UK";
+$userjoined="1121891348";
+$userhomepage="http://www.ranainside.com/";
+$useradmin="0";
+$usermod="0";
+$userban="0";
+$userfriend="";
+$userlastvisit="1121989326";
+$userlastpost="1121989702";
+$userprevvisit="1121989309";
+$useranimsmilies="";
+$lastaliaschange="1121891348";
+$userlang="en";
+$uservisits="2";
+$aliaslist="";
+$noavatars="";
+
+?>

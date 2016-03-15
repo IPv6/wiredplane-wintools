@@ -1,0 +1,12 @@
+<?php
+
+$rsubject="RE: Force to use only for some applications?";
+$rcontent="Well, Ctrl+C was only example. 
+
+In most cases, I just need to use some hotkey in one (two, three...) applications, and don&#39;t need this hotkey anywhere else. It could be usefull, if the application itself doesn&#39;t allow to create hotkeys or change them (some terminal programs, for example)
+";
+$rauthor="stepone";
+$rdate="1143559667";
+$rip="62.225.37.69";
+
+?>

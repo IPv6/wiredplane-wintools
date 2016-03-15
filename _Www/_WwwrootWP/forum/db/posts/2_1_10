@@ -1,0 +1,21 @@
+<?php
+
+$psubject="New: Language specific view option";
+$pcontent="I am mono-language enabled bioware :sad so only the discussions in English are of use.  Does the forum support a feature to hide questions that I can&#39;t understand?
+
+PS: Perhaps this belongs in &#34;common&#34; forum.";
+$pauthor="BillR";
+$pdate="1082633837";
+$plastdate="1082633837";
+$pimage="5.gif";
+$plastreply="0";
+$plastauthor="BillR";
+$preplies="0";
+$pviews="237";
+$pnotify="|BillR";
+$plock="";
+$pip="";
+$pvisitors="|BillR|WiredPlane|rij73";
+$psticky="";
+
+?>

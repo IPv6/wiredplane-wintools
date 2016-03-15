@@ -1,0 +1,4 @@
+Yes, thanks, the problem was fixed some days ago.
+My ISP started to move hosting to another machine without noticing me first :( When i started to upload new file, ftp server (due its semi-transfer state) delete old file and receive only small part of a new one and disconnect me for some days :( 
+
+Very frustrating situation :(

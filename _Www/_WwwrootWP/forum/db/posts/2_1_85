@@ -1,0 +1,20 @@
+<?php
+
+$psubject="Переключиться на следующую раскладку по одной кнопке Ctrl или Alt";
+$pcontent="Можно ли сделать так, чтобы на следующую раскладку можно было переключаться по одной кнопке Ctrl или Alt? 
+Пробую добавить только модификатор - но программа не желает запоминать без основной клавиши.";
+$pauthor="Anonimus";
+$pdate="1110529327";
+$plastdate="1110772808";
+$pimage="1.gif";
+$plastreply="4";
+$plastauthor="WiredPlane";
+$preplies="4";
+$pviews="667";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|stepone|AGu|Anonimus";
+$psticky="";
+
+?>

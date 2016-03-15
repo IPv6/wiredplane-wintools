@@ -1,0 +1,19 @@
+<?php
+
+$psubject="reminder problems";
+$pcontent="repeat the above problem, I cannot send reminder to multi-receivers. How can I do it ? ";
+$pauthor="Anonymous";
+$pdate="1150177461";
+$plastdate="1150279949";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="WiredPlane";
+$preplies="3";
+$pviews="1042";
+$pnotify="|Anonymous";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous|HReaLWin";
+$psticky="";
+
+?>

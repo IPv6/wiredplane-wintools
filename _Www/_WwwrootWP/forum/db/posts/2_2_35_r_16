@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: [ANN] WireChanger updates";
+$rcontent="WC 3.2.1 released. Some convinient features were added, for example to move widget you don`t have to open main window now - just shift-click it!";
+$rauthor="WiredPlane";
+$rdate="1127726358";
+$rip="195.245.232.12";
+
+?>

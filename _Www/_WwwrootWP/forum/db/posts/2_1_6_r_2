@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: suggestion for time and date in OSD";
+$rcontent="That was from Y&#39;z Dock. It emulates an apple OSX dock, but the project is no longer being developed. There are clock programs that have the same type of formatting options too. You could look at TclockEX:  http://www.rcis.co.za/dale/tclockex/index.htm
+";
+$rauthor="rij73";
+$rdate="1082230613";
+$rip="24.195.0.182";
+
+?>

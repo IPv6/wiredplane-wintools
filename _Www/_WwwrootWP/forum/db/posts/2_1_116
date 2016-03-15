@@ -1,0 +1,54 @@
+<?php
+
+$psubject="Hi,
+
+I try to explain my problem.
+
+I have";
+$pcontent="Hi,
+
+I try to explain my problem.
+
+I have an hotkey to play next song with winamp.
+
+the key is CTRL+ALT+Rightkey
+
+i push the tree key simultanous and release the last key (rightkey) then winamp play next song.
+
+i key pushed the ctrl and alt key.  when i push the rightkey again, the hotkey dosen&#39;t work.  
+
+There is a timeout setting that i can change.... to make this...
+
+exemple:
+
+ctrl alt supp.......  winamp play next song
+keep ctrl atl supp pressed..
+
+5 seconde later
+
+i press rightkey  to winamp change song...
+
+
+
+It&#39;s hard to explain ....
+
+if anyone understand my probl&#232;me and have any solution for me, please tell me.
+
+sorry for my english...  i speak french.
+
+thanks..";
+$pauthor="Anonimus";
+$pdate="1123873803";
+$plastdate="1124038689";
+$pimage="1.gif";
+$plastreply="3";
+$plastauthor="Anonimus";
+$preplies="3";
+$pviews="704";
+$pnotify="|WiredPlane";
+$plock="";
+$pip="";
+$pvisitors="|Anonimus|WiredPlane|stepone";
+$psticky="";
+
+?>

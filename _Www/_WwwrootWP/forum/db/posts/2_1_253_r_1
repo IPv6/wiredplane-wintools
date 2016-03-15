@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: Window transparency";
+$rcontent="You can set transparency by opening Hot menu (Ctrl-Alt-Gray minus by default) and Choosing system actions - transparency";
+$rauthor="WiredPlane";
+$rdate="1193812758";
+$rip="195.210.162.152";
+
+?>

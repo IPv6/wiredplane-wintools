@@ -1,0 +1,29 @@
+<?php
+
+$psubject="How to show a hidden app via hotkey?";
+$pcontent="I want to show an app window (that&#39;s hidden) by using a hotkey.
+
+Reason:
+I autohide some unwished app windows by means of WireKeys.
+When I want to use this app, I have to do some mouseclicks laboriously.
+
+Looking for a way to associate the show of this ONE app via hotkey.
+
+Is this possible?
+
+Richy.";
+$pauthor="Richy";
+$pdate="1204215912";
+$plastdate="1204763528";
+$pimage="5.gif";
+$plastreply="7";
+$plastauthor="WiredPlane";
+$preplies="7";
+$pviews="226";
+$pnotify="|Richy";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|garry63|Richy";
+$psticky="";
+
+?>

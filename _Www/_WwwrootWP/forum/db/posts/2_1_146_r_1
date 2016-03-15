@@ -1,0 +1,9 @@
+<?php
+
+$rsubject="RE: New version questions";
+$rcontent="By the way, if the application XYZ is running (its window is active), and I open new instance of XYZ, WireKeys doesn&#39;t switch to the new instance of XYZ...";
+$rauthor="stepone";
+$rdate="1133949828";
+$rip="62.225.37.69";
+
+?>

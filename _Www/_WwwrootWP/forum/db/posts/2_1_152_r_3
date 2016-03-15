@@ -1,0 +1,20 @@
+<?php
+
+$rsubject="RE: New. Hotkeys without running WireKeys?";
+$rcontent="Yes, if fact %SELECTED pattern and selectedText in macro will receive full path to the selecetd file if you call them over file browser. in case when several files are selected, selectedText will contain all paths divided with &#34;new line&#34; character. you can easiliy perform actions over selected files. Look at the example in the source of RecursiveCopy macro (RecursiveCopy.wkm). in short:
+function wkMain(selectedText,macroParamenter)
+{
+	var sFilesFolders=selectedText.split(&#39;&#92;n&#39;);
+	if(sFilesFolders.length&#62;0){
+		// For each folder in source...
+		for(i=0;i&#60;sFilesFolders.length;i++){
+			processFolder(sFilesFolders[i]);
+		}
+	}
+}
+";
+$rauthor="WiredPlane";
+$rdate="1135756394";
+$rip="195.245.232.12";
+
+?>

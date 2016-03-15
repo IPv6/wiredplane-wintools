@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Help.";
+$pcontent=" Ќе плохо бы дл€ пользователей иметь русский Help.*)";
+$pauthor="Vlad";
+$pdate="1112967879";
+$plastdate="1112970735";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="577";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|AGu|apanas";
+$psticky="";
+
+?>

@@ -1,0 +1,21 @@
+<?php
+
+$psubject="hotkey single press and double press";
+$pcontent="is it possible to have a hotkey act only if pressed once and ignored if the same hotkey is used with a double press? here&#39;s what i&#39;m trying to do-
+ 
+i have Unpress-Ctrl-Alt-h open the &#39;Map Network Drive&#39; dialogue, and Ctrl-Alt-h-2x open the &#39;Disconnect Network Drive&#39; dialogue. works fine, but unfortunately Ctrl-Alt-h-2x opens both dialogues instead of just the one. possible to ignore the first on 2x press? TIA. ";
+$pauthor="jaco";
+$pdate="1121876241";
+$plastdate="1121941515";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="528";
+$pnotify="|jaco";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|jaco|Anonimus|AGu";
+$psticky="";
+
+?>

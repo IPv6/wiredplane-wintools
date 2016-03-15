@@ -1,0 +1,34 @@
+<?php
+
+$psubject="ANN: WireChanger 2.4";
+$pcontent="Hello! We just released WireChanger 2.4 with a lot of new features (more to come :) ):
+
+Added:
+- New ways to fill gaps between wallpaper and desktop edges (mirrored fill). Thanks to Julia FAST for suggestions :)
+- Desktop note localization-depended strings are now saved in the skin directory with icons, not in the main lang file
+- Multiple image selection. Shift and Control keys work just like in all MS Windows applications (hold shift to prolong selection, control to add single image to selection)
+- Ability to enable/disable individual images within theme. Such images willn`t be used as wallpaper, but they will be leaved in theme
+- Citation template improvements: faster and efficient way to generate citations, option to choose citation font and user-friendly way to set citation size and position
+- New template - &#34;Mosaic&#34;. This plugin can modify your wallpaper by reversing and/or repeating it to fill the cells of the table with definable rows and columns
+- New template - &#34;Online quotation&#34;. If you are connected to the internet, you will be granted to place random quation from http://urbanlegend.f2o.org/
+- New template - &#34;Weather forecast icon&#34;. With this template you can olace icon with current temperature in your town right over your desktop. Double click this icon to open full forecast for your town. If you know good weather forecast sites with image informers, you can send us a link - we will add them in this template in future releases
+- Improvements in &#39;Second image&#39;, &#39;Web camera&#39; templates
+Fixed:
+- Misc bugs
+
+All new features based on suggestions from our users. Thanks to all who find a time to write us, especially to Julia FAST and D. Tkachenko :)";
+$pauthor="WiredPlane";
+$pdate="1082186471";
+$plastdate="1082186471";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="451";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane";
+$psticky="";
+
+?>

@@ -1,0 +1,31 @@
+<?php
+
+$psubject="Help to control MSN Messenger";
+$pcontent="HI,
+
+I would like ton control (Maximize or minimize) msn messener main window by an hotkey.
+
+It must be done when the focus is not on msn window.
+
+can i tell Wirekeys that specified hotkey show or hide spedicified application. In this case:  msn.
+
+thanks for respond.
+
+bye
+
+";
+$pauthor="Anonimus";
+$pdate="1123872500";
+$plastdate="1128211204";
+$pimage="1.gif";
+$plastreply="5";
+$plastauthor="WiredPlane";
+$preplies="5";
+$pviews="851";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus|AzazelSP";
+$psticky="";
+
+?>

@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: New version questions";
+$rcontent="I tried to use &#39;About&#39; menu item in &#34;Preferences&#34; window.
+The &#34;About&#34; window is opened in the background.";
+$rauthor="stepone";
+$rdate="1134556006";
+$rip="62.225.37.69";
+
+?>

@@ -1,0 +1,19 @@
+<?php
+
+$psubject="не куплю прогу";
+$pcontent="ибо грохнули мой реквест";
+$pauthor="Anonimus";
+$pdate="1115674876";
+$plastdate="1115793372";
+$pimage="7.gif";
+$plastreply="2";
+$plastauthor="WiredPlane";
+$preplies="2";
+$pviews="642";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonimus|AGu|McStar|stepone";
+$psticky="";
+
+?>

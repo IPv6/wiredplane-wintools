@@ -1,0 +1,10 @@
+<?php
+
+$rsubject="RE: bug wit Wirekeys 2.9.9 last build....";
+$rcontent="We are working on a fix. It will be fixed during this week...
+Workaround: assign Win-L to WierKeys`s action &#34;Lock workstation&#34;. It will have the same effect but without this bug";
+$rauthor="WiredPlane";
+$rdate="1125934252";
+$rip="195.245.232.12";
+
+?>

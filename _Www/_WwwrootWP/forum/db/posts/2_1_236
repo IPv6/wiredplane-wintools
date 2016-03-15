@@ -1,0 +1,27 @@
+<?php
+
+$psubject="Hotkey to manage specified application";
+$pcontent="Hi!!!
+
+I want to setup my Wirekeys to manage my Outlook Windows.  I want to be able to minimize to tray and restaure from a specified hotkey.
+
+is it possible?
+
+if yes, how to do that?...
+
+thanks";
+$pauthor="AzazelSP";
+$pdate="1177340773";
+$plastdate="1179279765";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="442";
+$pnotify="|AzazelSP";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|rafiman|AzazelSP|pike942";
+$psticky="";
+
+?>

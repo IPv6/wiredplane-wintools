@@ -1,0 +1,39 @@
+<?php
+
+$rsubject="RE: [req] small text substitution";
+$rcontent="[glowred]That&#39;s cool![/glowred]
+I ran into some syntax errors but finally i figured it out:
+:grins :grins :grins
+
+[quote]
+&#39; Language: VBScript
+&#39; Title: Insert Asterisk
+&#39; Description: It will insert an asterisk between each alphanumerical character
+&#39; ParamType: String
+
+Function wkMain(selectedText)
+dim FinalText, lungh, cur_character
+
+FinalText = &#34;*&#34;
+lungh = Len(selectedText)
+
+For i = 1 To lungh
+	cur_character=Mid(Trim(selectedText),i,1)
+	If (cur_character &#62;= &#34;a&#34; AND cur_character &#60;= &#34;z&#34;)_
+	Or (cur_character &#62;= &#34;A&#34; AND cur_character &#60;= &#34;Z&#34;)_
+	Or (cur_character &#62;= &#34;0&#34; AND cur_character &#60;= &#34;9&#34;) Then 
+		FinalText = FinalText + cur_character + &#34;*&#34;
+	End If
+Next
+	
+wkMain = FinalText
+end function
+[/quote]
+
+Many thanks for the help and yes, feel free to put this script wherever you want  :thmbup 
+";
+$rauthor="Zoldex";
+$rdate="1128289894";
+$rip="81.174.3.114";
+
+?>

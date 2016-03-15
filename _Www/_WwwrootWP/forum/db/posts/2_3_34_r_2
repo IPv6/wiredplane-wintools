@@ -1,0 +1,18 @@
+<?php
+
+$rsubject="RE: WireNote is good, but can the look and feel be changed";
+$rcontent="Thanks for the response.
+
+I guess, I might have seen Tenebril&#39;s Sticky note, that looks great. We can try to get the look and feel of the same.
+
+One more suggestion, I think we need make some of the features of Wirenote as plugable, like mail, spam gaurd, etc. Rest of the feature can be embeded in to the core of Wirenote, rest can be plugable (meaning like they can be disabled/enabled as needed).
+
+Hope I made it clear. Please feel to let me know your concerns.
+
+Thanks
+Ram";
+$rauthor="Anonimus";
+$rdate="1114689345";
+$rip="12.38.196.83";
+
+?>

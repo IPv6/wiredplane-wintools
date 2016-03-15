@@ -1,0 +1,22 @@
+<?php
+
+$psubject="WireChanger 2.4.5 - Interactive calendar";
+$pcontent=" Next minor update to WireChanger Released. The major change - calendar template is now skinnable and interactive. You can add notes to the days of this calendar simply double-clicking corresponding cell on your desktop!
+if you want to add note for the day that is not on calendar now (4 months later, for example), double-click calendar`s title and choose date of interest from additional popup calendar.
+To those who wants to register WireChanger for free - now you can simply create new calendar`s skin and send it to us - and we will send yu your key! If you have any questions about skin-file format (though it is a simple text directions about look-and-feel of calendar`s cells) - feel free to send us an email with your questions
+";
+$pauthor="WiredPlane";
+$pdate="1082991953";
+$plastdate="1082991953";
+$pimage="1.gif";
+$plastreply="0";
+$plastauthor="WiredPlane";
+$preplies="0";
+$pviews="520";
+$pnotify="";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Anonymous";
+$psticky="";
+
+?>

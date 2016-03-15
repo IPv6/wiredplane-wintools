@@ -1,0 +1,19 @@
+<?php
+
+$psubject="Обновление от 18 числа";
+$pcontent="Скачал сегодня послежнюю версию, датированную 18 числом. После инсталяции запускаю проверку на наличие новой версии. Пишет, что есть. И что я использую версию от 17.";
+$pauthor="McStar";
+$pdate="1116492923";
+$plastdate="1116506938";
+$pimage="1.gif";
+$plastreply="6";
+$plastauthor="McStar";
+$preplies="6";
+$pviews="1042";
+$pnotify="|McStar";
+$plock="";
+$pip="";
+$pvisitors="|McStar|WiredPlane|AGu|Smogg|Anonimus";
+$psticky="";
+
+?>

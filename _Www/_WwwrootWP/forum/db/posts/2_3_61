@@ -1,0 +1,19 @@
+<?php
+
+$psubject="problem with reminders";
+$pcontent="I just downloaded V.3.0.3, and can&#39;t get it to run properly.  To begin with I can&#39;t find the main screen.  My main use is for reminders which can be repeated automatically at preselected times or intervals, and aslo to perform a task such as run a program, or open a file.  How do I accomplish this end?  Incidentally, the correct spelling of the word is anonymous.  Thanks for any help  ";
+$pauthor="esmo";
+$pdate="1145286019";
+$plastdate="1145362682";
+$pimage="1.gif";
+$plastreply="1";
+$plastauthor="WiredPlane";
+$preplies="1";
+$pviews="666";
+$pnotify="|esmo";
+$plock="";
+$pip="";
+$pvisitors="|WiredPlane|Bedolaga|Anonimus";
+$psticky="";
+
+?>

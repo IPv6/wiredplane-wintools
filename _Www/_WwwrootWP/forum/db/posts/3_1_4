@@ -1,0 +1,20 @@
+<?php
+
+$psubject="AverTV Studio";
+$pcontent="Released new plugin that add support of AverTV Studio remotes into WireKeys. In fact this plugin can be used for all GPIO-compatible TV-tuner remotes, but plugin needs an config file. We just can`t find other TV-tuners exept AverMedia Studio for this time :( 
+So, authors of all other GPIO configurations will be granted with free registration key %^)";
+$pauthor="WiredPlane";
+$pdate="1088635311";
+$plastdate="1098200770";
+$pimage="1.gif";
+$plastreply="10";
+$plastauthor="ZaZZool";
+$preplies="10";
+$pviews="1430";
+$pnotify="|ZaZZool";
+$plock="";
+$pip="";
+$pvisitors="|ZaZZool|WiredPlane|BillR|janp11|Anonimus";
+$psticky="";
+
+?>

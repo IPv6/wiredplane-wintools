@@ -1,0 +1,14 @@
+<?php
+
+$rsubject="RE: want to get a free licence by translating";
+$rcontent="2rockywolf: This would be simply great!!! :)
+The only question - are you sure that simplified chinese is not demand full UniCode support? maybe we have to add Unicode compatibility somewhere? anyway, if you will encounter such incompatibilities - let us know, we will improve everything is needed :)
+
+P.S. latest version is 2.3.6.1, so can you start with it, not with 2.3.6?
+
+Anyway, thank you again :)";
+$rauthor="WiredPlane";
+$rdate="1090838478";
+$rip="195.245.232.12";
+
+?>

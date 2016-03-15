@@ -1,0 +1,18 @@
+<?php
+
+$rsubject="RE: Hotkey to unhide specific app?";
+$rcontent="Write simple macros! But there is no way to send it to tray at this time, only hide/show...
+
+var hwind=WireKeys.FindWindow(&#34;...&#34;);
+if(WireKeys.IsVisible(hwind)){
+WireKeys.setvisible(hwind,0);
+}else{
+WireKeys.setvisible(hwind,1);
+}
+
+we will provide method for sending window to tray in the next update";
+$rauthor="WiredPlane";
+$rdate="1179730963";
+$rip="195.210.162.152";
+
+?>

@@ -1,0 +1,11 @@
+<?php
+
+$rsubject="RE: Recycle Bin";
+$rcontent="You mean the thing about clearing recicle of the system logical disk only? Or somethnig else?
+
+To be sure - corresponding quick run is installed by default (if you accidentaly deleted it, use &#34;restore default macros&#34; link in preferences)";
+$rauthor="WiredPlane";
+$rdate="1119951419";
+$rip="195.245.232.12";
+
+?>
